@@ -159,6 +159,18 @@ describe('publicar resultados', () => {
 });
 
 describe('estado de los envíos', () => {
+  it('con dos issues del mismo envío, manda el que entró', async () => {
+    await db.cSubjects.put(makeSubject());
+    const question = makeMcq({ author: null });
+    await saveLocalQuestion(question, null);
+    const [row] = await publishViaIssue([question.id], 'own');
+    await markAwaitingUser(row?.id as string);
+    const issue = (number: number, label: string) => ({ number, title: `x · ${row?.nonce}`, state: 'closed', html_url: `u${number}`, created_at: '', labels: [{ name: label }], user: { login: 'a', id: 1, avatar_url: '', type: 'User' } });
+    vi.stubGlobal('fetch', async () => new Response(JSON.stringify([issue(2, 'qb:rejected'), issue(1, 'qb:accepted')]), { headers: { 'x-ratelimit-limit': '60', 'x-ratelimit-remaining': '50', 'x-ratelimit-reset': '9999999999' } }));
+    await refreshStatuses();
+    expect(await db.outbox.get(row?.id as string)).toMatchObject({ status: 'accepted', issueNumber: 1 });
+  });
+
   async function pendingQuestion() {
     await db.cSubjects.put(makeSubject());
     const question = makeMcq({ author: null });
@@ -419,6 +431,33 @@ describe('publicar con token: fork, commit y PR', () => {
     expect(routes.some((r) => r.includes('/merge-upstream'))).toBe(false);
     expect(routes[0]).toBe('GET /repos/owner/questionbank/git/ref/heads/data');
     expect((calls.at(-1)?.body as { head: string }).head).toMatch(/^qb\//);
+  });
+
+  it('aguanta un 5xx de GitHub a mitad del flujo', async () => {
+    const question = await setUp();
+    let failed = false;
+    const calls = stubGitHub({
+      '/git/trees': () => {
+        if (!failed) {
+          failed = true;
+          return new Response('', { status: 502 });
+        }
+        return new Response(JSON.stringify({ sha: 'newtree' }), { status: 201 });
+      },
+    });
+    await publishViaPull([question.id], 'own');
+    expect(calls.filter((c) => c.route.includes('/git/trees'))).toHaveLength(2);
+    expect(calls.at(-1)?.route).toContain('/pulls');
+  }, 20000);
+
+  it('si el PR ya existe tras un 5xx, lo reutiliza', async () => {
+    const question = await setUp();
+    stubGitHub({
+      'POST /repos/owner/questionbank/pulls': () => new Response(JSON.stringify({ message: 'A pull request already exists' }), { status: 422 }),
+      'GET /repos/owner/questionbank/pulls': () => new Response(JSON.stringify([{ number: 88, html_url: 'existente' }]), { status: 200 }),
+    });
+    const row = await publishViaPull([question.id], 'own');
+    expect(await db.outbox.get(row.id)).toMatchObject({ status: 'sent', issueNumber: 88 });
   });
 
   it('sin token no se puede publicar por esta vía', async () => {

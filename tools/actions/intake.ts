@@ -1,5 +1,8 @@
 import { buildCompetition, buildBracket, activeInRound, CompetitionError, entryProblem } from '../../core/competitions/competitions.ts';
+import { questionFingerprint } from '../../core/questions/normalize.ts';
 import { normalizeLogin, type UserRef } from '../../core/schema/common.ts';
+import { migrateDocument } from '../../core/schema/migrations.ts';
+import { Question } from '../../core/schema/question.ts';
 import type { Competition } from '../../core/schema/competition.ts';
 import type { StoredAnswerEvent } from '../../core/schema/events.ts';
 import { Submission, type InlineImage } from '../../core/schema/submission.ts';
@@ -11,7 +14,7 @@ import { isAccepted, needsReview, validateContribution, type Finding, type Propo
 import { POLICY } from '../../core/validation/policy.ts';
 import type { DataStore } from '../lib/data-store.ts';
 import { type GitPort } from '../lib/git.ts';
-import { isMaintainerPermission, type GitHubApi, type IssueData } from '../lib/github.ts';
+import { isMaintainerPermission, isTransientError, type GitHubApi, type IssueData } from '../lib/github.ts';
 
 /**
  * Procesa los envíos: el «servidor» de la aplicación.
@@ -23,7 +26,8 @@ import { isMaintainerPermission, type GitHubApi, type IssueData } from '../lib/g
  *   - El autor y la hora salen del issue, nunca de su contenido.
  *   - Lo recibido sólo se valida y se escribe como datos. Nunca se ejecuta ni se interpola.
  *   - Primero se guarda (push) y después se avisa: si algo falla a medias, el issue sigue
- *     abierto y el reproceso es idempotente.
+ *     abierto y el reproceso es idempotente. Reprocesar algo ya aplicado da «aceptado», nunca
+ *     un falso rechazo: un 5xx de GitHub no garantiza que la operación no se aplicara.
  */
 
 export const LABELS = {
@@ -122,10 +126,26 @@ class Intake {
     return existing !== undefined && existing.githubId !== actor.id;
   }
 
+  /** El envío ya está dentro: lo aplicó una ejecución anterior que no llegó a avisar. */
+  private async alreadyPublished(submission: Extract<Submission, { kind: 'questions' }>): Promise<boolean> {
+    for (const raw of submission.questions) {
+      const parsed = Question.safeParse(migrateDocument(raw));
+      if (!parsed.success) return false;
+      const existing = this.deps.store.question(parsed.data.id);
+      if (!existing || (await questionFingerprint(existing)) !== (await questionFingerprint(parsed.data))) return false;
+    }
+    return true;
+  }
+
   private async questions(issue: IssueData, submission: Extract<Submission, { kind: 'questions' }>): Promise<void> {
     const { api, store, git, now, autoMerge } = this.deps;
     const actor = actorOf(issue);
     const rcv = Date.parse(issue.created_at);
+
+    if (await this.alreadyPublished(submission)) {
+      this.done(issue, 'accepted', 'Estas preguntas ya están publicadas.', false);
+      return;
+    }
 
     const approvedToday = (await store.allSystemEvents()).filter((e) => e.t === 'question-approved' && e.by === actor.login && dayKey(e.at * 1000) === dayKey(now())).length;
     if (approvedToday + submission.questions.length > POLICY.maxQuestionsPerDay) {
@@ -266,6 +286,11 @@ class Intake {
     const actor = actorOf(issue);
     const rcv = Date.parse(issue.created_at);
     const all = await store.allCompetitions();
+    const previous = all.find((c) => c.issue === issue.number);
+    if (previous) {
+      this.done(issue, 'accepted', `Competición creada. Código para unirse: **\`${previous.code}\`**.`);
+      return;
+    }
     const createdToday = all.filter((c) => c.createdBy?.login === actor.login && dayKey(Date.parse(c.createdAt)) === dayKey(now())).length;
     if (createdToday >= POLICY.maxCompetitionsPerDay) {
       this.done(issue, 'rejected', `Has alcanzado el límite de ${POLICY.maxCompetitionsPerDay} competiciones al día.`);
@@ -331,6 +356,10 @@ class Intake {
       return;
     }
     const entries = await store.readEntries(competition.id);
+    if (entries.some((e) => e.issue === issue.number)) {
+      this.done(issue, 'accepted', 'Entrega recibida. La corrección y la clasificación se calculan en el próximo despliegue.');
+      return;
+    }
     const registered = competition.type === 'tournament' ? (await store.readRegistrations(competition.id)).map((r) => r.user.login) : [];
     let active: string[] | undefined;
     if (competition.type === 'tournament') {
@@ -439,6 +468,7 @@ class Intake {
     decoded.sort((a, b) => Number(b.submission.kind === 'questions') - Number(a.submission.kind === 'questions'));
 
     const crashed: IssueData[] = [];
+    let deferred = 0;
     for (const { issue, submission } of decoded) {
       try {
         await this.dispatch(issue, submission);
@@ -448,9 +478,11 @@ class Intake {
         // subido o se perdería al volver.
         if (submission.kind === 'questions') await this.pushPending();
       } catch (error) {
-        // Un fallo inesperado no debe bloquear al resto ni repetirse en cada barrido.
         log(`Error procesando #${issue.number}: ${(error as Error).stack ?? String(error)}`);
-        crashed.push(issue);
+        // Un fallo pasajero de GitHub no dice nada del envío: queda abierto y sin marcar, y lo
+        // retoma el siguiente barrido. Uno inesperado se marca, para no repetirlo eternamente.
+        if (isTransientError(error)) deferred += 1;
+        else crashed.push(issue);
         if (submission.kind === 'questions') await git.syncData();
         else await git.discardChanges();
         await store.load();
@@ -458,20 +490,31 @@ class Intake {
     }
 
     await this.pushPending();
-    // Sólo ahora, con los datos a salvo, se avisa a cada usuario.
+    // Sólo ahora, con los datos a salvo, se avisa a cada usuario. Un aviso que falla no impide
+    // los demás: el envío sigue abierto y el reproceso dirá lo mismo.
     for (const outcome of this.outcomes) {
-      await api.comment(outcome.issue.number, outcome.message);
-      const label = { accepted: LABELS.accepted, rejected: LABELS.rejected, review: LABELS.review, report: LABELS.report }[outcome.status];
-      await api.addLabels(outcome.issue.number, [label]);
-      if (outcome.status !== 'report') await api.closeIssue(outcome.issue.number, outcome.status === 'rejected' ? 'not_planned' : 'completed');
+      try {
+        const label = { accepted: LABELS.accepted, rejected: LABELS.rejected, review: LABELS.review, report: LABELS.report }[outcome.status];
+        await api.comment(outcome.issue.number, outcome.message);
+        await api.addLabels(outcome.issue.number, [label]);
+        if (outcome.status !== 'report') await api.closeIssue(outcome.issue.number, outcome.status === 'rejected' ? 'not_planned' : 'completed');
+      } catch (error) {
+        log(`No se ha podido avisar en #${outcome.issue.number}: ${(error as Error).message}`);
+      }
     }
     for (const issue of crashed) {
-      await api.comment(issue.number, 'Ha habido un error interno al procesar este envío. Un mantenedor lo revisará.');
-      await api.addLabels(issue.number, [LABELS.error]);
+      try {
+        await api.comment(issue.number, 'Ha habido un error interno al procesar este envío. Un mantenedor lo revisará.');
+        await api.addLabels(issue.number, [LABELS.error]);
+      } catch (error) {
+        log(`No se ha podido avisar en #${issue.number}: ${(error as Error).message}`);
+      }
     }
+    if (deferred > 0) log(`${deferred} envíos aplazados por un fallo pasajero: se reintentan en el siguiente barrido.`);
     if (this.dataChanged) {
-      // Lo hecho con GITHUB_TOKEN no dispara workflows: el despliegue hay que pedirlo.
-      await api.dispatchWorkflow('deploy.yml', this.deps.defaultBranch);
+      // Lo hecho con GITHUB_TOKEN no dispara workflows: el despliegue hay que pedirlo. Si falla,
+      // los datos ya están a salvo y los publicará el siguiente despliegue.
+      await api.dispatchWorkflow('deploy.yml', this.deps.defaultBranch).catch((error: unknown) => log(`No se ha podido lanzar el despliegue: ${(error as Error).message}`));
     }
     return { processed: this.outcomes.length + crashed.length, published: this.dataChanged };
   }

@@ -100,25 +100,55 @@ export class GitHubHttpError extends Error {
   }
 }
 
+/**
+ * ¿Merece la pena volver a intentarlo más tarde? La API de GitHub devuelve 5xx de vez en cuando,
+ * y un envío no debe darse por fallido por eso.
+ */
+export function isTransientError(error: unknown): boolean {
+  if (error instanceof GitHubHttpError) return error.status >= 500 || error.status === 429;
+  // `fetch` lanza TypeError ante un fallo de red.
+  return error instanceof TypeError;
+}
+
+const MAX_ATTEMPTS = 4;
+
 export class RestGitHub implements GitHubApi {
   private readonly repo: string;
   private readonly token: string;
+  private readonly retryDelayMs: number;
 
-  constructor(repo: string, token: string) {
+  constructor(repo: string, token: string, options: { retryDelayMs?: number } = {}) {
     this.repo = repo;
     this.token = token;
+    this.retryDelayMs = options.retryDelayMs ?? 2000;
+  }
+
+  private wait(attempt: number): Promise<void> {
+    return new Promise((resolve) => setTimeout(resolve, this.retryDelayMs * 2 ** attempt));
   }
 
   private async request(path: string, init: RequestInit = {}, attempt = 0): Promise<Response> {
-    const response = await fetch(`https://api.github.com${path}`, {
-      ...init,
-      headers: {
-        Accept: 'application/vnd.github+json',
-        Authorization: `Bearer ${this.token}`,
-        'X-GitHub-Api-Version': '2022-11-28',
-        ...(init.body ? { 'Content-Type': 'application/json' } : {}),
-      },
-    });
+    let response: Response;
+    try {
+      response = await fetch(`https://api.github.com${path}`, {
+        ...init,
+        headers: {
+          Accept: 'application/vnd.github+json',
+          Authorization: `Bearer ${this.token}`,
+          'X-GitHub-Api-Version': '2022-11-28',
+          ...(init.body ? { 'Content-Type': 'application/json' } : {}),
+        },
+      });
+    } catch (error) {
+      if (attempt + 1 >= MAX_ATTEMPTS) throw error;
+      await this.wait(attempt);
+      return this.request(path, init, attempt + 1);
+    }
+    // Un 5xx no siempre significa que no se aplicó: por eso las operaciones son idempotentes.
+    if (response.status >= 500 && attempt + 1 < MAX_ATTEMPTS) {
+      await this.wait(attempt);
+      return this.request(path, init, attempt + 1);
+    }
     // Límite secundario: GitHub dice cuánto esperar. Se respeta y se reintenta.
     if ((response.status === 403 || response.status === 429) && attempt < 3) {
       const retryAfter = Number(response.headers.get('retry-after') ?? 0);
@@ -159,15 +189,25 @@ export class RestGitHub implements GitHubApi {
     return this.send(`/repos/${this.repo}/issues/${issue}`, 'PATCH', { state: 'closed', state_reason: reason });
   }
 
-  createPull(input: { title: string; body: string; head: string; base: string }): Promise<{ number: number; html_url: string }> {
-    return this.json(`/repos/${this.repo}/pulls`, { method: 'POST', body: JSON.stringify({ ...input, maintainer_can_modify: false }) });
+  async createPull(input: { title: string; body: string; head: string; base: string }): Promise<{ number: number; html_url: string }> {
+    const response = await this.request(`/repos/${this.repo}/pulls`, { method: 'POST', body: JSON.stringify({ ...input, maintainer_can_modify: false }) });
+    if (response.ok) return (await response.json()) as { number: number; html_url: string };
+    const text = await response.text();
+    // Puede existir de un intento anterior: un reintento tras un 5xx, o un envío reprocesado.
+    if (response.status === 422 && text.includes('already exists')) {
+      const owner = this.repo.split('/')[0] as string;
+      const [existing] = await this.json<{ number: number; html_url: string }[]>(`/repos/${this.repo}/pulls?state=open&head=${owner}:${input.head}`);
+      if (existing) return existing;
+    }
+    throw new GitHubHttpError(response.status, text.slice(0, 300));
   }
 
   async mergePull(number: number, sha: string, title: string): Promise<boolean> {
     // `sha` evita mezclar algo distinto de lo validado si el PR cambió entre medias.
     const response = await this.request(`/repos/${this.repo}/pulls/${number}/merge`, { method: 'PUT', body: JSON.stringify({ sha, merge_method: 'squash', commit_title: title }) });
     if (response.ok) return true;
-    if (response.status === 405 || response.status === 409) return false;
+    // Un reintento tras un 5xx puede encontrarlo ya fusionado: no es un fallo.
+    if (response.status === 405 || response.status === 409) return (await this.getPull(number)).merged;
     throw new GitHubHttpError(response.status, (await response.text()).slice(0, 300));
   }
 

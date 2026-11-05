@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { GitWorkspace } from '../../tools/lib/git';
-import { GitHubHttpError, isMaintainerPermission, RestGitHub } from '../../tools/lib/github';
+import { GitHubHttpError, isMaintainerPermission, isTransientError, RestGitHub } from '../../tools/lib/github';
 
 /** Registra cada petición y responde con lo que se le indique. */
 function stubFetch(responder: (url: string, init: RequestInit) => Response) {
@@ -20,7 +20,7 @@ function stubFetch(responder: (url: string, init: RequestInit) => Response) {
 const json = (value: unknown, status = 200, headers: Record<string, string> = {}) => new Response(JSON.stringify(value), { status, headers });
 
 describe('cliente REST de las Actions', () => {
-  const api = new RestGitHub('dueno/repo', 'token-de-prueba');
+  const api = new RestGitHub('dueno/repo', 'token-de-prueba', { retryDelayMs: 0 });
 
   afterEach(() => vi.unstubAllGlobals());
 
@@ -66,13 +66,6 @@ describe('cliente REST de las Actions', () => {
     expect(calls[0]?.method).toBe('PUT');
     expect(calls[0]?.url).toContain('/pulls/5/merge');
     expect(calls[0]?.body).toEqual({ sha: 'abc123', merge_method: 'squash', commit_title: 'Título' });
-  });
-
-  it('si el PR cambió o no se puede fusionar, lo dice sin lanzar', async () => {
-    stubFetch(() => json({ message: 'Head branch was modified' }, 409));
-    expect(await api.mergePull(5, 'abc', 't')).toBe(false);
-    stubFetch(() => json({ message: 'Not mergeable' }, 405));
-    expect(await api.mergePull(5, 'abc', 't')).toBe(false);
   });
 
   it('un error de verdad al fusionar sí se propaga', async () => {
@@ -144,6 +137,70 @@ describe('cliente REST de las Actions', () => {
     vi.useRealTimers();
   });
 
+  it('un 5xx pasajero se reintenta, como los que da GitHub de verdad', async () => {
+    let attempts = 0;
+    stubFetch(() => {
+      attempts += 1;
+      return attempts < 3 ? new Response('', { status: attempts === 1 ? 500 : 502 }) : json({ number: 8, html_url: 'h' }, 201);
+    });
+    expect(await api.createPull({ title: 't', body: 'b', head: 'contrib/issue-1', base: 'data' })).toEqual({ number: 8, html_url: 'h' });
+    expect(attempts).toBe(3);
+  });
+
+  it('un fallo de red también se reintenta', async () => {
+    let attempts = 0;
+    vi.stubGlobal('fetch', async () => {
+      attempts += 1;
+      if (attempts === 1) throw new TypeError('fetch failed');
+      return json([]);
+    });
+    await expect(api.listOpenIssues()).resolves.toEqual([]);
+    expect(attempts).toBe(2);
+  });
+
+  it('si el 5xx persiste, se rinde y se clasifica como pasajero', async () => {
+    let attempts = 0;
+    stubFetch(() => {
+      attempts += 1;
+      return new Response('', { status: 503 });
+    });
+    const error = await api.comment(1, 'x').catch((e: unknown) => e);
+    expect(attempts).toBe(4);
+    expect(isTransientError(error)).toBe(true);
+  });
+
+  it('distingue lo pasajero de lo definitivo', () => {
+    expect(isTransientError(new GitHubHttpError(500, 'x'))).toBe(true);
+    expect(isTransientError(new GitHubHttpError(502, 'x'))).toBe(true);
+    expect(isTransientError(new GitHubHttpError(429, 'x'))).toBe(true);
+    expect(isTransientError(new TypeError('fetch failed'))).toBe(true);
+    expect(isTransientError(new GitHubHttpError(404, 'x'))).toBe(false);
+    expect(isTransientError(new GitHubHttpError(422, 'x'))).toBe(false);
+    expect(isTransientError(new Error('un fallo de programación'))).toBe(false);
+  });
+
+  it('si el PR ya existe (un 502 que sí se aplicó), lo reutiliza', async () => {
+    const calls = stubFetch((_url, init) => {
+      if (init.method === 'POST') return json({ message: 'A pull request already exists for dueno:contrib/issue-1.' }, 422);
+      return json([{ number: 12, html_url: 'existente' }]);
+    });
+    expect(await api.createPull({ title: 't', body: 'b', head: 'contrib/issue-1', base: 'data' })).toEqual({ number: 12, html_url: 'existente' });
+    expect(calls[1]?.url).toContain('head=dueno:contrib/issue-1');
+  });
+
+  it('otro 422 al crear un PR sí es un error', async () => {
+    stubFetch(() => json({ message: 'Validation Failed' }, 422));
+    await expect(api.createPull({ title: 't', body: 'b', head: 'x', base: 'data' })).rejects.toBeInstanceOf(GitHubHttpError);
+  });
+
+  it('un PR que ya estaba fusionado cuenta como fusionado', async () => {
+    const pull = (merged: boolean) => ({ number: 5, title: 't', body: null, state: 'closed', merged, user: { login: 'a', id: 1, type: 'User', avatar_url: 'u' }, html_url: 'h', head: { sha: 's', ref: 'r', repo: null }, base: { ref: 'data' } });
+    stubFetch((_url, init) => (init.method === 'PUT' ? json({ message: 'Pull Request is not mergeable' }, 405) : json(pull(true))));
+    expect(await api.mergePull(5, 'abc', 't')).toBe(true);
+    stubFetch((_url, init) => (init.method === 'PUT' ? json({ message: 'Head branch was modified' }, 409) : json(pull(false))));
+    expect(await api.mergePull(5, 'abc', 't')).toBe(false);
+  });
+
   it('un 403 de permisos no se reintenta', async () => {
     let attempts = 0;
     stubFetch(() => {
@@ -181,7 +238,7 @@ describe('git con un clon superficial, como en Actions', () => {
     git(other, 'push', 'origin', 'data');
     shallowDir = join(root, 'shallow');
     execFileSync('git', ['clone', '--depth', '1', '--branch', 'data', `file://${remote}`, shallowDir], { stdio: 'ignore' });
-    shallow = new GitWorkspace(shallowDir);
+    shallow = new GitWorkspace(shallowDir, 'data', { retryDelayMs: 0 });
     await shallow.configureBot();
   });
 
@@ -207,6 +264,28 @@ describe('git con un clon superficial, como en Actions', () => {
 
     git(other, 'pull', 'origin', 'data');
     expect(git(other, 'log', '-2', '--format=%s')).toBe('Mío\nAjeno');
+  });
+
+  it('si GitHub rechaza un push de forma pasajera, se reintenta', async () => {
+    writeFileSync(join(shallowDir, 'mio.txt'), 'x');
+    await shallow.commitAll('Mío');
+    // Un gancho del remoto rechaza el primer push, como el «fatal error in commit_refs_rules» real.
+    const hook = join(remote, 'hooks/pre-receive');
+    const flag = join(root, 'ya-rechazado');
+    writeFileSync(hook, `#!/bin/sh\nif [ ! -f "${flag}" ]; then touch "${flag}"; echo "fatal error in commit_refs_rules" >&2; exit 1; fi\n`, { mode: 0o755 });
+    await shallow.pushData();
+    expect(git(remote, 'log', '-1', '--format=%s', 'data')).toBe('Mío');
+  });
+
+  it('un conflicto al integrar no deja el rebase a medias', async () => {
+    writeFileSync(join(other, 'comun.txt'), 'ajeno');
+    git(other, 'add', '-A');
+    git(other, 'commit', '-m', 'Ajeno');
+    git(other, 'push', 'origin', 'data');
+    writeFileSync(join(shallowDir, 'comun.txt'), 'mio');
+    await shallow.commitAll('Mío');
+    await expect(shallow.pushData()).rejects.toThrow();
+    expect(git(shallowDir, 'status')).not.toContain('rebase in progress');
   });
 
   it('sin cambios no hace commit', async () => {

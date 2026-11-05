@@ -38,7 +38,27 @@ export const rateLimit = createStore<RateLimitInfo | null>(null);
 /** Se deja un margen para no gastar hasta la última petición y dejar sin nada al resto de la IP. */
 const ANONYMOUS_FLOOR = 5;
 
-export async function github(path: string, options: { token?: string | null; method?: string; body?: unknown; raw?: boolean } = {}): Promise<Response> {
+/** Se comprobó en real: la API devuelve 5xx de vez en cuando, y repetir la petición funciona. */
+const TRANSIENT_ATTEMPTS = 3;
+
+export async function github(path: string, options: { token?: string | null; method?: string; body?: unknown; retry?: boolean } = {}): Promise<Response> {
+  const { method = 'GET', retry = method === 'GET' } = options;
+  for (let attempt = 1; ; attempt++) {
+    let response: Response;
+    try {
+      response = await request(path, options);
+    } catch (error) {
+      // TypeError: fallo de red. Lo demás (el límite de consultas) no mejora reintentando ya.
+      if (!(error instanceof TypeError) || !retry || attempt >= TRANSIENT_ATTEMPTS) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 1500 * attempt));
+      continue;
+    }
+    if (response.status < 500 || !retry || attempt >= TRANSIENT_ATTEMPTS) return response;
+    await new Promise((resolve) => setTimeout(resolve, 1500 * attempt));
+  }
+}
+
+async function request(path: string, options: { token?: string | null; method?: string; body?: unknown }): Promise<Response> {
   const { token, method = 'GET', body } = options;
   const known = rateLimit.get();
   if (!token && known && known.remaining <= ANONYMOUS_FLOOR && Date.now() < known.resetAt) {
@@ -64,7 +84,7 @@ export async function github(path: string, options: { token?: string | null; met
   return response;
 }
 
-export async function githubJson<T>(path: string, options: { token?: string | null; method?: string; body?: unknown } = {}): Promise<T> {
+export async function githubJson<T>(path: string, options: { token?: string | null; method?: string; body?: unknown; retry?: boolean } = {}): Promise<T> {
   const response = await github(path, options);
   if (!response.ok) {
     const detail = (await response.json().catch(() => null)) as { message?: string } | null;
@@ -143,14 +163,17 @@ export async function openContributionPull(token: string, login: string, branch:
   // El dueño no puede hacer fork de su propio repositorio: su rama va en el mismo repo.
   const isOwner = owner.toLowerCase() === login.toLowerCase();
   const target = isOwner ? config.repo : `${login}/${name}`;
-  if (!isOwner) await githubJson(`/repos/${config.repo}/forks`, { token, method: 'POST', body: { default_branch_only: false } });
+  // Todo este flujo se puede repetir sin daño: los blobs, árboles y commits sólo crean objetos, y
+  // la rama lleva un nombre único. Por eso sus POST sí se reintentan ante un 5xx.
+  const send = <T,>(path: string, body: unknown) => githubJson<T>(path, { token, method: 'POST', body, retry: true });
+  if (!isOwner) await send(`/repos/${config.repo}/forks`, { default_branch_only: false });
 
   // Un fork recién creado tarda en estar disponible, y sólo se puede sincronizar cuando lo está.
   let head: string | null = null;
   for (let attempt = 0; attempt < 10 && head === null; attempt++) {
     if (attempt > 0) await new Promise((resolve) => setTimeout(resolve, 2000));
     if (!isOwner) {
-      const sync = await github(`/repos/${target}/merge-upstream`, { token, method: 'POST', body: { branch: DATA_BRANCH } });
+      const sync = await github(`/repos/${target}/merge-upstream`, { token, method: 'POST', body: { branch: DATA_BRANCH }, retry: true });
       if (!sync.ok && sync.status !== 409) continue;
     }
     const ref = await github(`/repos/${target}/git/ref/heads/${DATA_BRANCH}`, { token });
@@ -161,11 +184,22 @@ export async function openContributionPull(token: string, login: string, branch:
   const baseCommit = await githubJson<{ tree: { sha: string } }>(`/repos/${target}/git/commits/${head}`, { token });
   const tree = [];
   for (const file of files) {
-    const blob = await githubJson<{ sha: string }>(`/repos/${target}/git/blobs`, { token, method: 'POST', body: { content: file.content, encoding: file.encoding } });
+    const blob = await send<{ sha: string }>(`/repos/${target}/git/blobs`, { content: file.content, encoding: file.encoding });
     tree.push({ path: file.path, mode: '100644', type: 'blob', sha: blob.sha });
   }
-  const newTree = await githubJson<{ sha: string }>(`/repos/${target}/git/trees`, { token, method: 'POST', body: { base_tree: baseCommit.tree.sha, tree } });
-  const commit = await githubJson<{ sha: string }>(`/repos/${target}/git/commits`, { token, method: 'POST', body: { message: title, tree: newTree.sha, parents: [head] } });
-  await githubJson(`/repos/${target}/git/refs`, { token, method: 'POST', body: { ref: `refs/heads/${branch}`, sha: commit.sha } });
-  return githubJson<{ number: number; html_url: string }>(`/repos/${owner}/${name}/pulls`, { token, method: 'POST', body: { title, body, head: isOwner ? branch : `${login}:${branch}`, base: DATA_BRANCH, maintainer_can_modify: false } });
+  const newTree = await send<{ sha: string }>(`/repos/${target}/git/trees`, { base_tree: baseCommit.tree.sha, tree });
+  const commit = await send<{ sha: string }>(`/repos/${target}/git/commits`, { message: title, tree: newTree.sha, parents: [head] });
+
+  // Un 5xx puede haber creado la rama o el PR igualmente: que ya existan no es un error.
+  const ref = await github(`/repos/${target}/git/refs`, { token, method: 'POST', body: { ref: `refs/heads/${branch}`, sha: commit.sha }, retry: true });
+  if (!ref.ok && ref.status !== 422) throw new GitHubError(ref.status, `GitHub respondió ${ref.status} al crear la rama`);
+  const headLabel = isOwner ? branch : `${login}:${branch}`;
+  const pull = await github(`/repos/${owner}/${name}/pulls`, { token, method: 'POST', body: { title, body, head: headLabel, base: DATA_BRANCH, maintainer_can_modify: false }, retry: true });
+  if (pull.ok) return (await pull.json()) as { number: number; html_url: string };
+  if (pull.status === 422) {
+    const [existing] = await githubJson<{ number: number; html_url: string }[]>(`/repos/${owner}/${name}/pulls?state=open&head=${isOwner ? owner : login}:${branch}`, { token });
+    if (existing) return existing;
+  }
+  const detail = (await pull.json().catch(() => null)) as { message?: string } | null;
+  throw new GitHubError(pull.status, detail?.message ?? `GitHub respondió ${pull.status} al abrir el pull request`);
 }

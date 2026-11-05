@@ -139,8 +139,10 @@ export async function refreshStatuses(): Promise<number> {
   const token = await getToken();
   const issues = await listRecentIssues({ token, creator: identity.get()?.login });
   let updated = 0;
+  /** Un envío repetido tras un 5xx deja dos issues con el mismo nonce: manda el que entró. */
+  const rank = (labels: readonly { name: string }[]) => (labels.some((l) => l.name === 'qb:accepted') ? 2 : labels.some((l) => l.name === 'qb:review') ? 1 : 0);
   for (const row of pending) {
-    const issue = issues.find((candidate) => candidate.title.endsWith(row.nonce));
+    const issue = issues.filter((candidate) => candidate.title.endsWith(row.nonce)).sort((a, b) => rank(b.labels) - rank(a.labels))[0];
     if (!issue) continue;
     const label = issue.labels.map((l) => l.name).find((name) => name in LABEL_TO_STATUS);
     const status: OutboxStatus = label ? (LABEL_TO_STATUS[label] as OutboxStatus) : 'sent';

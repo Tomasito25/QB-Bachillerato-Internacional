@@ -43,14 +43,20 @@ function ConnectFlow() {
   useEffect(() => {
     if (!pending) return;
     polls.current = 0;
-    const timer = window.setInterval(() => {
+    const poll = () => {
       // Sin token sólo hay 60 consultas por hora: se comprueba poco, y sólo con la app a la vista.
       if (document.visibilityState === 'visible' && polls.current < MAX_POLLS) {
         polls.current += 1;
         void check(false);
       }
-    }, POLL_MS);
-    return () => window.clearInterval(timer);
+    };
+    const timer = window.setInterval(poll, POLL_MS);
+    // Lo normal es volver de la pestaña de GitHub justo después de pulsar «Create».
+    document.addEventListener('visibilitychange', poll);
+    return () => {
+      window.clearInterval(timer);
+      document.removeEventListener('visibilitychange', poll);
+    };
   }, [pending, check]);
 
   if (!hasCommunity()) {

@@ -26,7 +26,7 @@ export function createRepo() {
   git(work, 'add', '-A');
   git(work, 'commit', '-m', 'Inicio');
   git(work, 'push', 'origin', 'data');
-  return { root, remote, work, git: new GitWorkspace(work), store: new DataStore(work), cleanup: () => rmSync(root, { recursive: true, force: true }), log: (...args: string[]) => git(work, ...args), remoteLog: (...args: string[]) => git(remote, ...args) };
+  return { root, remote, work, git: new GitWorkspace(work, 'data', { retryDelayMs: 0 }), store: new DataStore(work), cleanup: () => rmSync(root, { recursive: true, force: true }), log: (...args: string[]) => git(work, ...args), remoteLog: (...args: string[]) => git(remote, ...args) };
 }
 
 let nextNumber = 1;

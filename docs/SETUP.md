@@ -106,7 +106,8 @@ gh workflow run deploy.yml
 |---|---|
 | El sitio publicado se acerca a 1 GB, el límite de Pages | Ver el plan de escala en [LIMITATIONS.md](LIMITATIONS.md) |
 | `manifest.quarantined` mayor que 0 | Mira `community/integrity.json`: hay documentos inválidos en `data` |
-| Issues abiertos que no se procesan | Mira si la etiqueta `qb:error` aparece y revisa el registro de **Procesar envíos** |
+| Un envío con la etiqueta `qb:error` | Falló de forma inesperada: revisa el registro de **Procesar envíos**. Para reintentarlo, quita la etiqueta; entra en el siguiente barrido, o lánzalo con `gh workflow run intake.yml` |
+| Un envío abierto, sin etiquetas, durante más de 30 minutos | Los fallos pasajeros de GitHub se reintentan solos cada 15 minutos. Si sigue ahí, revisa el registro |
 
 ## Comprobar los rankings por tu cuenta
 

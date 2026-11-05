@@ -8,6 +8,7 @@ import type { Submission } from '@core/schema/submission';
 import { sha256Hex, bytesToBase64, bytesToBase64Url, gzip } from '@core/util/encoding';
 import { LABELS, runIntake } from '../../tools/actions/intake';
 import { DataStore } from '../../tools/lib/data-store';
+import { GitHubHttpError } from '../../tools/lib/github';
 import { makeMcq, makeSubject, SUBJECT_ID, uuid } from '../fixtures';
 import { createRepo, FakeGitHub, issueFor, user } from './harness';
 
@@ -237,6 +238,84 @@ describe('intake: lotes con varios envíos', () => {
     const store = await loadRemote();
     expect(store.users.has('ana')).toBe(false);
     expect(store.users.has('luis')).toBe(true);
+  });
+
+  it('un fallo pasajero de GitHub no marca el envío: queda abierto y entra en el siguiente barrido', async () => {
+    const issue = await send(questionsSubmission());
+    const createPull = api.createPull.bind(api);
+    api.createPull = async () => {
+      throw new GitHubHttpError(502, 'Server Error');
+    };
+    expect((await run()).processed).toBe(0);
+    expect(api.labels.get(issue.number)).toBeUndefined();
+    expect(api.comments.has(issue.number)).toBe(false);
+    expect(api.closed.has(issue.number)).toBe(false);
+    expect((await loadRemote()).questions.size).toBe(0);
+
+    api.createPull = createPull;
+    await run();
+    expect(api.labels.get(issue.number)).toContain(LABELS.accepted);
+    expect((await loadRemote()).questions.size).toBe(1);
+  });
+
+  it('si se aplicó pero no se pudo avisar, el siguiente barrido no da un falso rechazo', async () => {
+    const question = makeMcq({ author: null });
+    const issue = await send(questionsSubmission({ questions: [question] }));
+    const comment = api.comment.bind(api);
+    api.comment = async () => {
+      throw new GitHubHttpError(500, '');
+    };
+    await run();
+    expect(api.closed.has(issue.number)).toBe(false);
+    expect((await loadRemote()).questions.size).toBe(1);
+
+    api.comment = comment;
+    await run();
+    expect(api.labels.get(issue.number)).toEqual([LABELS.accepted]);
+    expect(api.lastComment(issue)).toContain('ya están publicadas');
+    expect(api.pulls).toHaveLength(1);
+  });
+
+  it('una entrega ya guardada no se rechaza al reprocesarla', async () => {
+    const questions = Array.from({ length: 4 }, (_, i) => makeMcq({ id: uuid(), author: null, statement: `Pregunta ${i} para reprocesar una entrega` }));
+    await send(questionsSubmission({ questions }));
+    await send({ v: 1, kind: 'competition-create', nonce: nonce(), type: 'group', title: 'Reproceso', filters: {}, questionCount: 3, durationSec: 300, windowHours: 24, invited: [], maxParticipants: null });
+    await run();
+    const [competition] = await (await loadRemote()).allCompetitions();
+    const entry = await send({ v: 1, kind: 'competition-entry', nonce: nonce(), competitionId: competition?.id as string, durationMs: 1000, answers: (competition?.questionIds ?? []).map((q) => ({ q, sel: ['a'], ms: 1000 })) }, ANA, NOW);
+    const comment = api.comment.bind(api);
+    api.comment = async () => {
+      throw new GitHubHttpError(500, '');
+    };
+    await run();
+    api.comment = comment;
+    await run();
+    expect(api.labels.get(entry.number)).toEqual([LABELS.accepted]);
+  });
+
+  it('crear una competición dos veces por un reproceso no la duplica', async () => {
+    const questions = Array.from({ length: 4 }, (_, i) => makeMcq({ id: uuid(), author: null, statement: `Pregunta ${i} para reprocesar una creación` }));
+    await send(questionsSubmission({ questions }));
+    await run();
+    const create = await send({ v: 1, kind: 'competition-create', nonce: nonce(), type: 'group', title: 'Una sola', filters: {}, questionCount: 3, durationSec: 300, windowHours: 24, invited: [], maxParticipants: null });
+    const comment = api.comment.bind(api);
+    api.comment = async () => {
+      throw new GitHubHttpError(500, '');
+    };
+    await run();
+    api.comment = comment;
+    await run();
+    expect(await (await loadRemote()).allCompetitions()).toHaveLength(1);
+    expect(api.lastComment(create)).toMatch(/QB-[A-Z0-9]{6}/);
+  });
+
+  it('si no se puede lanzar el despliegue, los datos ya están a salvo', async () => {
+    const issue = await send({ v: 1, kind: 'connect', nonce: nonce() });
+    api.dispatchWorkflow = async () => {
+      throw new GitHubHttpError(500, '');
+    };
+    await expect(run()).resolves.toMatchObject({ published: true });
+    expect(api.closed.get(issue.number)).toBe('completed');
   });
 
   it('reabrir un envío ya resuelto no lo vuelve a procesar', async () => {

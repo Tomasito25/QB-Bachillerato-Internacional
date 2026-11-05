@@ -174,13 +174,19 @@ function useStatusPolling(rows: readonly OutboxRow[] | undefined) {
 
   useEffect(() => {
     if (!active) return;
-    const timer = window.setInterval(() => {
+    const poll = () => {
       if (document.visibilityState === 'visible' && navigator.onLine && polls.current < MAX_POLLS) {
         polls.current += 1;
         void check(false);
       }
-    }, POLL_MS);
-    return () => window.clearInterval(timer);
+    };
+    const timer = window.setInterval(poll, POLL_MS);
+    // Al volver de la pestaña de GitHub es cuando más probable es que haya novedades.
+    document.addEventListener('visibilitychange', poll);
+    return () => {
+      window.clearInterval(timer);
+      document.removeEventListener('visibilitychange', poll);
+    };
   }, [active, check]);
 
   return { checking, check };

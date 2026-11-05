@@ -43,6 +43,7 @@ de autor: por eso se pide declarar el origen y aceptar la licencia.
 | **Sin tiempo real** | Sin servidor no hay WebSocket; señalizar por issues tarda de 30 a 120 s; WebRTC necesita un STUN externo o intercambiar datos a mano | Competiciones asíncronas |
 | **Sin notificaciones push** | Web Push necesita un servidor | Sólo las de GitHub: las invitaciones son menciones reales |
 | **Los crons no son puntuales** | GitHub los retrasa y puede perderlos con carga; los desactiva tras 60 días sin actividad en repos públicos | Se ejecutan de más y son idempotentes. Los plazos oficiales usan la hora de GitHub, no la del cron |
+| **GitHub falla de vez en cuando** | Comprobado al desplegar: 500 y 502 en la API, y hasta un `git push` rechazado, que funcionan al repetirlos. Un 502 puede incluso haber aplicado la operación | Todo se reintenta con esperas, las operaciones son idempotentes, y un envío afectado queda abierto para el siguiente barrido |
 | **60 consultas por hora sin token**, por IP | Límite de GitHub. Un `304` también gasta cuota (comprobado) | Lo legible va por Pages. Sólo se consulta la API para el estado de los envíos, con tope. Varias personas en la misma red comparten cuota |
 
 ## Competiciones
