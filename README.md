@@ -56,7 +56,7 @@ Navegador ──lee sin cuota──▶ GitHub Pages ◀──despliega── Git
 
 - [Arquitectura](docs/ARCHITECTURE.md): decisiones, diagramas y restricciones comprobadas.
 - [Modelo de datos](docs/DATA-MODEL.md): entidades, formatos y versionado.
-- [Limitaciones](docs/LIMITATIONS.md): lo que esta arquitectura no puede garantizar, sin rodeos.
+- [Limitaciones](docs/LIMITATIONS.md): lo que esta arquitectura no puede garantizar, sin rodeos, y lo que se ha probado contra GitHub de verdad.
 - [Seguridad](docs/SECURITY.md): modelo de amenazas.
 - [Puesta en marcha](docs/SETUP.md): configurar el repositorio y moderar.
 

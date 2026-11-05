@@ -174,6 +174,9 @@ sequenceDiagram
 - **Atómica:** el fragmento se aplica en una transacción y su hash se guarda en la misma;
   un corte de red nunca deja un estado a medias.
 - **Tolerante:** un documento inválido se descarta y se registra; no rompe el resto.
+- **Frecuencia:** al arrancar, al recuperar la conexión, al volver a la app y cada 10 minutos
+  con ella a la vista. Durante 15 minutos tras un envío, cada minuto: leer de Pages no gasta
+  cuota de la API, y así lo aceptado aparece en cuanto se publica.
 
 ### Subida (vía A, sin token)
 

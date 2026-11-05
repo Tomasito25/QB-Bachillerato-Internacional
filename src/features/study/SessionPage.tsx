@@ -312,7 +312,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
           </>
         }
       >
-        {unanswered > 0 ? `Quedan ${unanswered} ${unanswered === 1 ? 'pregunta' : 'preguntas'} sin responder. Las de test contarán como falladas.` : 'Has respondido todas las preguntas.'}
+        {unanswered > 0 ? `${unanswered === 1 ? 'Queda 1 pregunta' : `Quedan ${unanswered} preguntas`} sin responder. Las de test contarán como falladas.` : 'Has respondido todas las preguntas.'}
       </Dialog>
 
       <Dialog

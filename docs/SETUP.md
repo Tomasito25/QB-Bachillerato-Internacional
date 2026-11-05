@@ -24,6 +24,10 @@ gh repo create questionbank --public --source . --push
 El primer despliegue fallará al configurar Pages, porque aún no está activado. Es normal: el
 paso siguiente lo arregla y lo repite.
 
+GitHub falla de vez en cuando: en el despliegue real, `gh repo create` respondió «Something went
+wrong» aunque el repositorio acabó creándose, y un `git push` se rechazó con «fatal error in
+commit_refs_rules». Espera un minuto, mira si ya existe con `gh repo view` y repite lo que falte.
+
 ## 2. Configurarlo
 
 ```bash
@@ -59,7 +63,8 @@ Desde entonces, cada push a `main` despliega solo.
 3. Crea una pregunta y publícala desde **Sincronización**.
 4. Mira la pestaña **Actions** del repositorio: **Procesar envíos** debe abrir y fusionar un PR
    contra `data`, y lanzar **Desplegar**.
-5. En 2 o 3 minutos, **Sincronizar** debe traer la pregunta como comunitaria.
+5. En 2 o 3 minutos, la app debe traer la pregunta como comunitaria sin que hagas nada, si sigue
+   abierta. Si no, ocurrirá al volver a abrirla o al pulsar **Sincronizar**.
 
 ## Variables opcionales
 
@@ -106,7 +111,7 @@ gh workflow run deploy.yml
 |---|---|
 | El sitio publicado se acerca a 1 GB, el límite de Pages | Ver el plan de escala en [LIMITATIONS.md](LIMITATIONS.md) |
 | `manifest.quarantined` mayor que 0 | Mira `community/integrity.json`: hay documentos inválidos en `data` |
-| Un envío con la etiqueta `qb:error` | Falló de forma inesperada: revisa el registro de **Procesar envíos**. Para reintentarlo, quita la etiqueta; entra en el siguiente barrido, o lánzalo con `gh workflow run intake.yml` |
+| Un envío con la etiqueta `qb:error` | Falló de forma inesperada: revisa el registro de **Procesar envíos**. Para reintentarlo, quita la etiqueta; entra en el siguiente barrido, o lánzalo con `gh workflow run intake.yml`. La app de quien lo envió sigue consultándolo y se actualiza sola |
 | Un envío abierto, sin etiquetas, durante más de 30 minutos | Los fallos pasajeros de GitHub se reintentan solos cada 15 minutos. Si sigue ahí, revisa el registro |
 
 ## Comprobar los rankings por tu cuenta

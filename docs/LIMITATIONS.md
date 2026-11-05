@@ -96,6 +96,33 @@ primera sincronización de 2,6 s, y 23 ms si nada cambió.
 GitHub Pages prohíbe los servicios comerciales: esto vale para una comunidad educativa, no para
 un negocio.
 
+## Qué se ha probado contra GitHub y qué no
+
+Probado el 2026-11-05 en el despliegue real de `Tomasito25/questionbank`, con **una sola cuenta**
+de GitHub y un navegador de escritorio.
+
+| Comprobado de principio a fin | Resultado |
+|---|---|
+| Despliegue y PWA | Publica en subcarpeta, sin violaciones de la CSP. El Service Worker se activa, avisa de la versión nueva y actualiza al pulsar. Los enlaces profundos abren la app |
+| Conexión por issue | GitHub certifica la cuenta y la app la reconoce en unos 30 s |
+| Publicar preguntas | Issue → PR del bot → fusión → despliegue → la app las trae como comunitarias, sin conflictos |
+| Publicar resultados | Los corrige Actions. Sin tocar nada, 110 s entre crear el issue y verlos reflejados en la app |
+| Envíos hostiles | Sin datos, con puntos falsificados o con una inyección en el título: rechazados sin ejecutar nada. Un issue normal se ignora |
+| PR hostil | El que toca `.github/`, `events/` o `moderation/` se rechaza ruta por ruta, y la revisión no ejecuta código del PR. Uno legítimo se fusiona |
+| Competición grupal | Crearla, unirse por código, jugar y entregar. La clasificación del servidor coincide con la corrección local, y una segunda entrega se rechaza |
+| Retos diario y semanal | Se crean al lanzar el workflow a mano |
+| Reporte y retirada | El reporte queda abierto para moderar; lo retirado deja de servirse |
+| Fallos de GitHub | Hubo 500 y 502 reales en plena prueba. Un envío afectado se recuperó al reintentarlo, sin perder datos |
+
+| Sin comprobar en real | Por qué | Qué lo cubre |
+|---|---|---|
+| PR desde el fork de otra persona, y cómo trata GitHub a quien contribuye por primera vez | Hace falta una segunda cuenta | Pruebas con la API simulada |
+| Duelos, torneos y rankings con varias personas | Ídem | Pruebas automáticas del cálculo y del cuadro |
+| Modo con token en el sitio publicado | No se escribe un token real durante una prueba | Pruebas con la API simulada, incluida la secuencia de Git Data |
+| Instalar en Android e iOS | No había dispositivos | Manifiesto e iconos revisados; nada más |
+| Sin conexión en el sitio publicado | Se probó en local, con el servidor parado | En el sitio, el Service Worker está activo y con todo precacheado |
+| Los crons a su hora | Los workflows se lanzaron a mano, y en la primera hora GitHub aún no había disparado ninguno | Basta con mirar `gh run list --event schedule` pasado un tiempo |
+
 ## Si un día se puede relajar la restricción
 
 Ordenado por lo que aporta frente a lo que cuesta:
