@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "d73a6d8d-19b1-4dc1-a519-3077f3a3cfd5",
+  "rev": 1,
+  "statement": "[Prueba E2E] ¿Cuánto vale $\\sqrt{144}$?",
+  "explanation": "Pregunta de la prueba de despliegue.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "fc0ee012-2af8-4a2a-b435-622a9cc107d8",
+  "topicIds": [
+    "127be20f-de85-49e9-91a0-4f33504e9f17"
+  ],
+  "tags": [
+    "prueba-e2e"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-05T16:13:36.000Z",
+  "updatedAt": "2026-11-05T16:13:36.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "12",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "14",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "10",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "16",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

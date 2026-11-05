@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "8cb021e9-00bf-43dd-a58b-e484d8f1a248",
+  "rev": 1,
+  "statement": "[Prueba E2E] ¿Cuál es el planeta más cercano al Sol?",
+  "explanation": "Pregunta de la prueba de despliegue.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "fc0ee012-2af8-4a2a-b435-622a9cc107d8",
+  "topicIds": [
+    "e8659dc0-2835-4905-9d88-e262abbfe7e3"
+  ],
+  "tags": [
+    "prueba-e2e"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-05T16:13:36.000Z",
+  "updatedAt": "2026-11-05T16:13:36.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mercurio",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Venus",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Marte",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Tierra",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
