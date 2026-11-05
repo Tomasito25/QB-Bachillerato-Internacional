@@ -29,7 +29,7 @@ export const OUTBOX_STATUS_LABELS: Record<OutboxStatus, string> = {
   accepted: 'Aceptado',
   review: 'En revisión',
   rejected: 'Rechazado',
-  failed: 'Error',
+  failed: 'Error al procesarlo',
 };
 
 export function useOutbox(): OutboxRow[] | undefined {
@@ -39,6 +39,14 @@ export function useOutbox(): OutboxRow[] | undefined {
 /** Los que todavía no están resueltos. */
 export function isOpen(row: OutboxRow): boolean {
   return row.status === 'queued' || row.status === 'awaiting-user' || row.status === 'sent';
+}
+
+/**
+ * Los que aún pueden cambiar en GitHub. Un error interno también: un mantenedor puede reintentarlo,
+ * y sin mirarlo se quedaría así para siempre aunque el envío acabe aceptado.
+ */
+export function awaitsGitHub(row: OutboxRow): boolean {
+  return row.status === 'awaiting-user' || row.status === 'sent' || row.status === 'review' || row.status === 'failed';
 }
 
 export async function enqueue(submission: Submission, summary: string, related: OutboxRow['related'], channel: OutboxRow['channel'] = 'issue'): Promise<OutboxRow> {
@@ -84,7 +92,8 @@ async function applyStatus(row: OutboxRow, status: OutboxStatus, patch: Partial<
     }
     if (row.related.questions?.length) {
       const note = patch.error ?? null;
-      const syncState = status === 'rejected' || status === 'failed' ? 'rejected' : status === 'queued' ? 'queued' : 'submitted';
+      // Un error interno no es un rechazo: nadie ha dicho nada malo de la pregunta.
+      const syncState = status === 'rejected' ? 'rejected' : status === 'queued' ? 'queued' : 'submitted';
       await db.lQuestions.where('id').anyOf(row.related.questions).modify((q) => {
         q.local = { ...q.local, syncState, note, outboxId: row.id };
       });
@@ -134,7 +143,7 @@ export async function discardItem(row: OutboxRow): Promise<void> {
  */
 export async function refreshStatuses(): Promise<number> {
   if (!config.repo) return 0;
-  const pending = (await db.outbox.toArray()).filter((row) => row.status === 'awaiting-user' || row.status === 'sent' || row.status === 'review');
+  const pending = (await db.outbox.toArray()).filter(awaitsGitHub);
   if (pending.length === 0) return 0;
   const token = await getToken();
   const issues = await listRecentIssues({ token, creator: identity.get()?.login });

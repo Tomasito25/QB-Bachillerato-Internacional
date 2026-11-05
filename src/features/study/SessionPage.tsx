@@ -151,12 +151,16 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
 
   const changeSelection = (next: string[]) => {
     setSelected(next);
-    if (deferred) void saveDeferredAnswer(session.id, questionId, { selected: next, durationMs: (saved?.durationMs ?? 0) + (Date.now() - shownAt.current), answeredAt: Date.now() });
+    if (!deferred) return;
+    // Se acumula lo transcurrido desde la última vez: este tiempo desempata las competiciones.
+    const now = Date.now();
+    void saveDeferredAnswer(session.id, questionId, { selected: next, durationMs: (saved?.durationMs ?? 0) + (now - shownAt.current), answeredAt: now });
+    shownAt.current = now;
   };
 
   const onSelfGrade = async (grade: SelfGrade, met: string[]) => {
     if (!question) return;
-    await commitSelfGrade(session.id, question, grade, met);
+    await commitSelfGrade(session.id, question, grade, met, Date.now() - shownAt.current);
   };
 
   // Avance automático tras acertar, si está activado.

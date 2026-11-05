@@ -194,6 +194,29 @@ describe('estado de los envíos', () => {
     expect((await db.lQuestions.get(question.id))?.local).toMatchObject({ syncState: 'rejected', note: 'Ya existe en el banco.' });
   });
 
+  it('un error interno no rechaza la pregunta, y se recupera si luego se acepta', async () => {
+    const { row, question } = await pendingQuestion();
+    const issue = (label: string) => [{ number: 9, title: `x · ${row.nonce}`, state: 'open', html_url: 'u', created_at: '', labels: [{ name: label }], user: { login: 'a', id: 1, avatar_url: '', type: 'User' } }];
+    serve(issue('qb:error'), [{ body: 'Ha habido un error interno.', user: { login: 'github-actions[bot]', type: 'Bot' } }]);
+    await refreshStatuses();
+    expect(await db.outbox.get(row.id)).toMatchObject({ status: 'failed', error: 'Ha habido un error interno.' });
+    expect((await db.lQuestions.get(question.id))?.local.syncState).toBe('submitted');
+
+    // Un mantenedor lo reintenta: el estado guardado no puede quedarse en el error.
+    serve(issue('qb:accepted'));
+    await refreshStatuses();
+    expect(await db.outbox.get(row.id)).toMatchObject({ status: 'accepted', error: null, issueNumber: 9 });
+    expect((await db.lQuestions.get(question.id))?.local).toMatchObject({ syncState: 'submitted', note: null });
+  });
+
+  it('quitar de la lista un error interno deja la pregunta lista para publicarla otra vez', async () => {
+    const { row, question } = await pendingQuestion();
+    serve([{ number: 9, title: `x · ${row.nonce}`, state: 'open', html_url: 'u', created_at: '', labels: [{ name: 'qb:error' }], user: { login: 'a', id: 1, avatar_url: '', type: 'User' } }]);
+    await refreshStatuses();
+    await discardItem((await db.outbox.get(row.id)) as OutboxRow);
+    expect((await db.lQuestions.get(question.id))?.local).toMatchObject({ syncState: 'local', outboxId: null });
+  });
+
   it('no gasta cuota si no hay nada pendiente', async () => {
     const spy = vi.fn(async () => new Response('[]'));
     vi.stubGlobal('fetch', spy);

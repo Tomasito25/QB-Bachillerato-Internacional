@@ -60,7 +60,8 @@ export default function LeaderboardsPage() {
     <>
       <PageHeader title="Rankings" description="Se recalculan desde el registro público en cada despliegue. Cualquiera puede comprobarlos." />
 
-      <div role="tablist" aria-label="Clasificación" className="mb-3 flex gap-1 overflow-x-auto border-b border-border">
+      {/* La línea va en una sombra interior, no en un borde: un margen negativo en las pestañas desbordaría en vertical y sacaría barras de desplazamiento. */}
+      <div role="tablist" aria-label="Clasificación" className="mb-3 flex gap-1 overflow-x-auto shadow-[inset_0_-1px_0_var(--color-border)] [scrollbar-width:none]">
         {BOARDS.map((item) => (
           <button
             key={item.id}
@@ -68,7 +69,7 @@ export default function LeaderboardsPage() {
             role="tab"
             aria-selected={tab === item.id}
             onClick={() => setParams({ tab: item.id }, { replace: true })}
-            className={cn('-mb-px border-b-2 px-2.5 py-2 text-[13px] font-medium whitespace-nowrap', tab === item.id ? 'border-accent text-ink' : 'border-transparent text-muted hover:text-ink')}
+            className={cn('border-b-2 px-2.5 py-2 text-[13px] font-medium whitespace-nowrap', tab === item.id ? 'border-accent text-ink' : 'border-transparent text-muted hover:text-ink')}
           >
             {item.label}
           </button>

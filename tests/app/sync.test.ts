@@ -2,6 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { Manifest, ManifestShard } from '@core/schema/derived';
 import { sha256Hex } from '@core/util/encoding';
 import { loadQuestions, saveLocalQuestion } from '@/features/bank/questionsRepo';
+import { syncInterval } from '@/features/sync/background';
 import { syncCommunity, syncState } from '@/features/sync/communitySync';
 import { classifyLocal, reconcileLocal, resolveConflict } from '@/features/sync/reconcile';
 import { loadSubjects, addTopic } from '@/features/taxonomy/taxonomyRepo';
@@ -149,6 +150,23 @@ describe('descarga incremental', () => {
     await pages.put(`q/${SUBJECT_ID}/0`, 'questions', [], SUBJECT_ID);
     await syncCommunity();
     expect(await db.lQuestions.get(mine.id)).toBeDefined();
+  });
+});
+
+describe('frecuencia de la sincronización automática', () => {
+  const now = 1_000_000_000_000;
+  const MINUTE = 60_000;
+
+  it('sin nada a la espera, cada 10 minutos', () => {
+    expect(syncInterval([], now)).toBe(10 * MINUTE);
+    expect(syncInterval([{ status: 'queued', updatedAt: now }, { status: 'rejected', updatedAt: now }, { status: 'review', updatedAt: now }], now)).toBe(10 * MINUTE);
+  });
+
+  it('tras un envío, cada minuto durante un rato: lo aceptado tarda poco en publicarse', () => {
+    for (const status of ['awaiting-user', 'sent', 'accepted'] as const) {
+      expect(syncInterval([{ status, updatedAt: now - MINUTE }], now)).toBe(MINUTE);
+      expect(syncInterval([{ status, updatedAt: now - 16 * MINUTE }], now)).toBe(10 * MINUTE);
+    }
   });
 });
 

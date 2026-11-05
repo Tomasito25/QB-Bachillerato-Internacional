@@ -218,10 +218,18 @@ export async function finishSession(sessionId: string): Promise<void> {
   await db.sessions.update(sessionId, { state: 'finished', finishedAt: Date.now() });
 }
 
-export async function commitSelfGrade(sessionId: string, question: Question, selfGrade: SelfGrade, metCriteria: string[]): Promise<void> {
+/**
+ * Registra una autoevaluación. `elapsedMs` es lo que la pregunta ha estado a la vista. En un examen
+ * no se conoce, porque se autoevalúa en los resultados: se usa la media de la sesión. Sin duración,
+ * el servidor descartaría la respuesta por inverosímil.
+ */
+export async function commitSelfGrade(sessionId: string, question: Question, selfGrade: SelfGrade, metCriteria: string[], elapsedMs?: number): Promise<void> {
   const session = await db.sessions.get(sessionId);
-  const previous = session?.answers[question.id];
-  await commitAnswer(sessionId, question, { durationMs: previous?.durationMs ?? 0, answeredAt: previous?.answeredAt ?? Date.now(), selfGrade, metCriteria });
+  if (!session) return;
+  const previous = session.answers[question.id];
+  const now = Date.now();
+  const average = ((session.finishedAt ?? now) - session.startedAt) / session.questionIds.length;
+  await commitAnswer(sessionId, question, { durationMs: elapsedMs ?? previous?.durationMs ?? average, answeredAt: previous?.answeredAt ?? now, selfGrade, metCriteria });
 }
 
 export async function abandonSession(sessionId: string): Promise<void> {

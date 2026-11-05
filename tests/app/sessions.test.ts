@@ -1,4 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest';
+import { RULES } from '@core/scoring/rules';
 import { discardLocalQuestion, loadQuestions, saveLocalQuestion } from '@/features/bank/questionsRepo';
 import { db } from '@/infra/db/db';
 import { commitAnswer, commitSelfGrade, finishSession, saveDeferredAnswer, startSession, summarizeSession } from '@/features/study/sessions';
@@ -96,6 +97,29 @@ describe('sesiones de estudio', () => {
     const [attempt] = await db.attempts.toArray();
     expect(attempt).toMatchObject({ selfGrade: 2, correct: null, score: 1 });
     expect((await db.progress.get(open.id))?.lastCorrect).toBe(true);
+  });
+
+  it('el desarrollo guarda lo que ha estado a la vista: sin duración, el servidor lo descarta', async () => {
+    const open = makeOpen();
+    await saveLocalQuestion(open, null);
+    const id = await startSession({ mode: 'practice', title: '', config: { count: 1 } });
+    await commitSelfGrade(id, open, 2, ['c1'], 12_345);
+    expect((await db.attempts.toArray())[0]?.durationMs).toBe(12_345);
+  });
+
+  it('autoevaluado tras un examen, usa la media de la sesión y es una respuesta válida', async () => {
+    const open = makeOpen();
+    await saveLocalQuestion(open, null);
+    await saveLocalQuestion(makeMcq(), null);
+    const id = await startSession({ mode: 'exam', title: '', config: { count: 2 } });
+    await finishSession(id);
+    const session = await db.sessions.get(id);
+    await db.sessions.update(id, { finishedAt: (session?.startedAt ?? 0) + 120_000 });
+
+    await commitSelfGrade(id, open, 1, []);
+    const attempt = await db.attempts.where('questionId').equals(open.id).first();
+    expect(attempt?.durationMs).toBe(60_000);
+    expect(attempt?.durationMs).toBeGreaterThanOrEqual(RULES.minAnswerMs);
   });
 
   it('el progreso sobrevive porque todo está en IndexedDB', async () => {

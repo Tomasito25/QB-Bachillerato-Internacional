@@ -16,7 +16,7 @@ import { Badge, Card, CardHeader, EmptyState, Notice, PageHeader, Spinner, type 
 import { timeAgo } from '@/ui/time';
 import { toast } from '@/ui/toast';
 import { syncCommunity, syncState, useManifestSummary } from './communitySync';
-import { discardItem, flushWithToken, isOpen, manualTransport, markAwaitingUser, OUTBOX_STATUS_LABELS, refreshStatuses, useOutbox } from './outbox';
+import { awaitsGitHub, discardItem, flushWithToken, isOpen, manualTransport, markAwaitingUser, OUTBOX_STATUS_LABELS, refreshStatuses, useOutbox } from './outbox';
 import { PublishDialog } from './PublishDialog';
 import { publishResults, PublishError, unpublishedAnswerCount } from './publish';
 import { resolveConflict, type ConflictChoice } from './reconcile';
@@ -155,6 +155,7 @@ const MAX_POLLS = 12;
 function useStatusPolling(rows: readonly OutboxRow[] | undefined) {
   const [checking, setChecking] = useState(false);
   const polls = useRef(0);
+  const checkedOnOpen = useRef(false);
   const active = rows?.some((r) => r.status === 'awaiting-user' || r.status === 'sent') ?? false;
 
   const check = useCallback(async (manual: boolean) => {
@@ -171,6 +172,13 @@ function useStatusPolling(rows: readonly OutboxRow[] | undefined) {
   useEffect(() => {
     polls.current = 0;
   }, [rows?.length]);
+
+  // Una vez al entrar: lo guardado puede ser de hace días, y sin esto sólo se vería al pulsar «Comprobar».
+  useEffect(() => {
+    if (!rows || checkedOnOpen.current) return;
+    checkedOnOpen.current = true;
+    if (navigator.onLine && rows.some(awaitsGitHub)) void check(false);
+  }, [rows, check]);
 
   useEffect(() => {
     if (!active) return;
@@ -198,7 +206,7 @@ function OutboxCard() {
   const limit = rateLimit.use();
   const { checking, check } = useStatusPolling(rows);
   if (!rows || rows.length === 0) return null;
-  const pending = rows.some((r) => r.status === 'awaiting-user' || r.status === 'sent' || r.status === 'review');
+  const pending = rows.some(awaitsGitHub);
   const queued = rows.filter((r) => r.status === 'queued' && r.channel === 'issue').length;
   return (
     <Card>
