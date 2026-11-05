@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2005017a-82a9-49f1-a379-e2d291a8b672",
+  "rev": 1,
+  "type": "mcq",
+  "statement": "[Prueba E2E] Enviada por pull request directo: ¿cuántos días tiene una semana?",
+  "explanation": "Comprueba la revisión de pull requests.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "fc0ee012-2af8-4a2a-b435-622a9cc107d8",
+  "topicIds": [
+    "127be20f-de85-49e9-91a0-4f33504e9f17"
+  ],
+  "tags": [
+    "prueba-e2e"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-05T16:28:32.329Z",
+  "updatedAt": "2026-11-05T16:28:32.329Z",
+  "license": "CC-BY-SA-4.0",
+  "answers": [
+    {
+      "id": "a",
+      "text": "7",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "5",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "6",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "8",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
