@@ -116,10 +116,11 @@ de GitHub y un navegador de escritorio.
 
 | Sin comprobar en real | Por qué | Qué lo cubre |
 |---|---|---|
+| Pulsar «Create» en el formulario prellenado de GitHub | Los issues se crearon con `gh`, con el título y el cuerpo exactos que genera la app | La longitud de la URL se midió con `curl`. Lo cierra publicar una vez desde un navegador con sesión iniciada |
 | PR desde el fork de otra persona, y cómo trata GitHub a quien contribuye por primera vez | Hace falta una segunda cuenta | Pruebas con la API simulada |
 | Duelos, torneos y rankings con varias personas | Ídem | Pruebas automáticas del cálculo y del cuadro |
 | Modo con token en el sitio publicado | No se escribe un token real durante una prueba | Pruebas con la API simulada, incluida la secuencia de Git Data |
-| Instalar en Android e iOS | No había dispositivos | Manifiesto e iconos revisados; nada más |
+| Instalarla, en móvil o en escritorio | No había dispositivos, y el navegador de la prueba no lo permite | Manifiesto, iconos y Service Worker revisados; nada más |
 | Sin conexión en el sitio publicado | Se probó en local, con el servidor parado | En el sitio, el Service Worker está activo y con todo precacheado |
 | Los crons a su hora | Los workflows se lanzaron a mano, y en la primera hora GitHub aún no había disparado ninguno | Basta con mirar `gh run list --event schedule` pasado un tiempo |
 
