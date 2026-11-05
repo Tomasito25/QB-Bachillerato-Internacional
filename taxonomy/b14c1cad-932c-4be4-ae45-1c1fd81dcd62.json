@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "name": "Fisica SL IB",
+  "rev": 1,
+  "createdBy": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-05T18:28:35.000Z",
+  "updatedAt": "2026-11-05T18:28:35.000Z",
+  "units": [
+    {
+      "id": "a13b7f8a-7bbc-40cb-8fa7-0f45716a37d6",
+      "name": "C. Ondas",
+      "order": 0,
+      "topics": [
+        {
+          "id": "7d8e6e1c-3d53-4f49-9e10-aad9c782b501",
+          "name": "Movimiento Armonico Simple (MAS)",
+          "order": 0
+        }
+      ]
+    }
+  ]
+}

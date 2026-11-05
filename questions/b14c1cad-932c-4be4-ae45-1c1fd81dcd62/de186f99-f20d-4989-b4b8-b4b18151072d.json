@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "de186f99-f20d-4989-b4b8-b4b18151072d",
+  "rev": 1,
+  "statement": "Una partícula sufre un simple movimiento armónico. ¿Cuál de los siguientes puede ser una expresión de aceleración $a$ En cuanto al desplazamiento $x$ y un valor constante $k$?",
+  "explanation": "Se deben cumplir dos condiciones para definir el movimiento como simple movimiento armónico;\n\n    La aceleración es proporcional al desplazamiento.\n    La aceleración y el desplazamiento están en direcciones opuestas.\n\nLa segunda condición indica la existencia de un signo negativo delante del desplazamiento y la primera condición exige tener x En lugar de x² En la expresión. Estas dos condiciones se cumplen en B.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-05T18:28:35.000Z",
+  "updatedAt": "2026-11-05T18:28:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "a=k²x",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "a=-k²x",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "a=-kx²",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "a=kx²",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
