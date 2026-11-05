@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2553da6c-61a6-44c4-8689-3e5e1ce15eb6",
+  "rev": 1,
+  "statement": "[Prueba E2E] ¿Qué gas es el más abundante en la atmósfera terrestre?",
+  "explanation": "Pregunta de la prueba de despliegue.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "fc0ee012-2af8-4a2a-b435-622a9cc107d8",
+  "topicIds": [
+    "e8659dc0-2835-4905-9d88-e262abbfe7e3"
+  ],
+  "tags": [
+    "prueba-e2e"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-05T16:13:36.000Z",
+  "updatedAt": "2026-11-05T16:13:36.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Nitrógeno",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Oxígeno",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Argón",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Dióxido de carbono",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
