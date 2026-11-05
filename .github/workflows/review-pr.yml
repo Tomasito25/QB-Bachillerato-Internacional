@@ -1,0 +1,48 @@
+# Valida y fusiona los PR contra la rama data.
+#
+# PELIGRO, léase antes de tocar este fichero. pull_request_target corre con permisos de escritura
+# aunque el PR venga de un fork desconocido. Es seguro sólo porque aquí NUNCA se hace checkout
+# del código del PR ni se ejecuta nada suyo: sus ficheros se leen por la API, como bytes, y pasan
+# por el validador. Añadir un checkout de la rama del PR daría a cualquiera acceso de escritura.
+#
+# No se usa pull_request porque, desde un fork, tiene el token en sólo lectura y puede requerir
+# aprobación manual: la aportación de alguien nuevo se quedaría parada.
+name: Revisar aportaciones
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, closed]
+    branches: [data]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: data-writer
+  queue: max
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      # Sin `ref` del PR: es el código de la rama por defecto.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - uses: ./.github/actions/data-checkout
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - run: npx tsx tools/actions/main.ts review-pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          QB_AUTO_MERGE: ${{ vars.QB_AUTO_MERGE }}
+          QB_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}

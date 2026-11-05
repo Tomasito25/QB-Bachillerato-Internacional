@@ -1,0 +1,14 @@
+node_modules
+dist
+dev-dist
+coverage
+*.local
+.env
+.env.*
+!.env.example
+# Copia de trabajo de la rama `data` en Actions y en pruebas locales.
+.data
+# Datos comunitarios generados para desarrollo local.
+public/community
+*.tsbuildinfo
+.DS_Store

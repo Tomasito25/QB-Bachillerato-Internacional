@@ -1,0 +1,607 @@
+import { ArrowDown, ArrowUp, Eye, ImagePlus, Plus, Save, Trash2, X } from 'lucide-react';
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
+import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
+import { DIFFICULTY_LABELS } from '@core/schema/common';
+import { LIMITS, type QuestionImage, type Reference } from '@core/schema/question';
+import { duplicateIndexEntry, findDuplicates } from '@core/questions/normalize';
+import type { Question } from '@core/schema/question';
+import { QuestionView } from '@/features/bank/QuestionView';
+import { getQuestion, saveLocalQuestion, toQuestion, useQuestions } from '@/features/bank/questionsRepo';
+import { TopicPicker } from '@/features/taxonomy/TopicPicker';
+import { DEFAULT_IMAGE_OPTIONS, ImageError, processImage, saveLocalImage } from '@/infra/images/process';
+import { AttachedImage } from '@/infra/markdown/Markdown';
+import { requestPersistence } from '@/infra/pwa/pwa';
+import { Button } from '@/ui/Button';
+import { Dialog } from '@/ui/Dialog';
+import { Checkbox, Field, Input, Toggle } from '@/ui/Field';
+import { Card, CardHeader, EmptyState, Notice, PageHeader, Spinner } from '@/ui/Surface';
+import { cn } from '@/ui/cn';
+import { toast } from '@/ui/toast';
+import { deleteDraft, loadDraft, saveDraft } from './drafts';
+import { DIFFICULTIES, formToQuestion, hasErrors, newForm, nextId, questionToForm, removeImageReferences, type FormErrors, type QuestionForm } from './form';
+import { MarkdownEditor } from './MarkdownEditor';
+
+type SaveStatus = 'idle' | 'pending' | 'saved';
+
+interface Loaded {
+  form: QuestionForm;
+  mode: 'new' | 'edit';
+  fromDraft: boolean;
+}
+
+function useInitialForm(): Loaded | null | 'missing' {
+  const { id } = useParams();
+  const [search] = useSearchParams();
+  const draftId = search.get('draft');
+  const fromId = search.get('from');
+  const subject = search.get('subject') ?? '';
+  const topic = search.get('topic');
+  const [state, setState] = useState<Loaded | null | 'missing'>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    const load = async (): Promise<Loaded | 'missing'> => {
+      if (id) {
+        const draft = await loadDraft(id);
+        if (draft) return { form: draft, mode: 'edit', fromDraft: true };
+        const question = await getQuestion(id);
+        if (!question) return 'missing';
+        const form = questionToForm(toQuestion(question));
+        // Editar algo publicado crea la siguiente revisión, encima de la que se está viendo.
+        if (question.origin === 'community') return { form: { ...form, baseRev: question.rev, rev: question.rev + 1 }, mode: 'edit', fromDraft: false };
+        return { form: { ...form, baseRev: question.local?.baseRev ?? null }, mode: 'edit', fromDraft: false };
+      }
+      if (draftId) {
+        const draft = await loadDraft(draftId);
+        return draft ? { form: draft, mode: draft.baseRev !== null ? 'edit' : 'new', fromDraft: true } : 'missing';
+      }
+      if (fromId) {
+        const question = await getQuestion(fromId);
+        if (!question) return 'missing';
+        const form = questionToForm(toQuestion(question));
+        return { form: { ...form, id: crypto.randomUUID(), rev: 1, baseRev: null, createdAt: null, author: null, derivedFrom: question.id }, mode: 'new', fromDraft: false };
+      }
+      return { form: newForm(subject, topic ? [topic] : []), mode: 'new', fromDraft: false };
+    };
+    void load().then((result) => {
+      if (!cancelled) setState(result);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [id, draftId, fromId, subject, topic]);
+
+  return state;
+}
+
+export default function EditorPage() {
+  const loaded = useInitialForm();
+  if (loaded === null) return <Spinner />;
+  if (loaded === 'missing') {
+    return (
+      <EmptyState title="No se encuentra esa pregunta" action={<Link to="/bank" className="underline underline-offset-2">Volver al banco</Link>}>
+        Puede que ya se haya guardado o que el borrador se descartara.
+      </EmptyState>
+    );
+  }
+  return <EditorForm key={loaded.form.id} loaded={loaded} />;
+}
+
+function EditorForm({ loaded }: { loaded: Loaded }) {
+  const navigate = useNavigate();
+  const [form, setForm] = useState(loaded.form);
+  const [errors, setErrors] = useState<FormErrors>({});
+  const [status, setStatus] = useState<SaveStatus>(loaded.fromDraft ? 'saved' : 'idle');
+  const [preview, setPreview] = useState<Question | null>(null);
+  const [showSolution, setShowSolution] = useState(true);
+
+  // Borrador automático: nada de lo escrito se pierde al cerrar o al recargar.
+  const latest = useRef(form);
+  const dirty = useRef(false);
+  const saved = useRef(false);
+  useEffect(() => {
+    latest.current = form;
+    // Sin tocar nada no hay borrador. Se compara el objeto, no se cuentan los renders:
+    // React puede ejecutar este efecto dos veces al montar.
+    if (form === loaded.form) return;
+    dirty.current = true;
+    setStatus('pending');
+    const timer = window.setTimeout(() => {
+      dirty.current = false;
+      void saveDraft(form).then(() => {
+        setStatus('saved');
+        void requestPersistence();
+      });
+    }, 500);
+    return () => window.clearTimeout(timer);
+  }, [form, loaded.form]);
+  useEffect(
+    () => () => {
+      if (dirty.current && !saved.current) void saveDraft(latest.current);
+    },
+    [],
+  );
+
+  const update = (patch: Partial<QuestionForm>) => setForm((current) => ({ ...current, ...patch }));
+
+  const uploadImage = async (file: File): Promise<QuestionImage | null> => {
+    if (form.images.length >= LIMITS.images) {
+      toast.error(`Una pregunta admite un máximo de ${LIMITS.images} imágenes.`);
+      return null;
+    }
+    try {
+      const row = await saveLocalImage(await processImage(file, DEFAULT_IMAGE_OPTIONS));
+      const image: QuestionImage = { hash: row.hash, ext: row.ext, width: row.width, height: row.height, bytes: row.bytes, alt: row.alt };
+      setForm((current) => (current.images.some((i) => i.hash === image.hash) ? current : { ...current, images: [...current.images, image] }));
+      return image;
+    } catch (error) {
+      toast.error(error instanceof ImageError ? error.message : 'No se ha podido guardar la imagen.');
+      return null;
+    }
+  };
+
+  const validate = (): Question | null => {
+    const result = formToQuestion(form);
+    setErrors(result.errors);
+    if (hasErrors(result.errors)) {
+      toast.error('Revisa los campos marcados.');
+      return null;
+    }
+    return result.question;
+  };
+
+  const save = async () => {
+    const question = validate();
+    if (!question) return;
+    saved.current = true;
+    await saveLocalQuestion(question, form.baseRev);
+    await deleteDraft(form.id);
+    toast.success('Pregunta guardada en este dispositivo.');
+    navigate(`/q/${form.id}`);
+  };
+
+  const discard = async () => {
+    saved.current = true;
+    await deleteDraft(form.id);
+    toast.info('Borrador descartado.');
+    navigate(-1);
+  };
+
+  return (
+    <>
+      <PageHeader
+        title={loaded.mode === 'edit' ? 'Editar pregunta' : 'Nueva pregunta'}
+        description={loaded.fromDraft ? 'Has vuelto a un borrador guardado.' : undefined}
+        documentTitle={loaded.mode === 'edit' ? 'Editar pregunta' : 'Crear pregunta'}
+      />
+
+      <div className="flex flex-col gap-4 pb-16">
+        <div role="radiogroup" aria-label="Tipo de pregunta" className="inline-flex w-fit rounded-md border border-border bg-subtle p-0.5">
+          {(
+            [
+              ['mcq', 'Tipo test'],
+              ['open', 'Desarrollo'],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              role="radio"
+              aria-checked={form.type === value}
+              onClick={() => update({ type: value })}
+              className={cn('h-7 rounded px-3 text-[13px] font-medium', form.type === value ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink')}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        <Card className="p-4">
+          <MarkdownEditor
+            label="Enunciado"
+            value={form.statement}
+            onChange={(statement) => update({ statement })}
+            error={errors.statement}
+            images={form.images}
+            onUploadImage={uploadImage}
+            rows={5}
+            placeholder="Escribe la pregunta. Fórmulas entre dólares: $E = mc^2$"
+            hint="Puedes pegar o arrastrar imágenes directamente."
+          />
+          <LiveDuplicates form={form} />
+        </Card>
+
+        {form.type === 'mcq' ? <AnswersCard form={form} update={update} error={errors.answers} /> : <OpenAnswerCard form={form} update={update} errors={errors} uploadImage={uploadImage} />}
+
+        <Card className="p-4">
+          <MarkdownEditor
+            label="Explicación (opcional)"
+            value={form.explanation}
+            onChange={(explanation) => update({ explanation })}
+            error={errors.explanation}
+            images={form.images}
+            onUploadImage={uploadImage}
+            rows={3}
+            hint="Por qué es correcta. Es lo que más ayuda a quien se equivoca."
+          />
+        </Card>
+
+        <Card>
+          <CardHeader title="Clasificación" />
+          <div className="flex flex-col gap-4 p-4">
+            <TopicPicker subjectId={form.subjectId} topicIds={form.topicIds} onChange={update} error={errors.topics} />
+            <div>
+              <p className="mb-1.5 text-[13px] font-medium" id="difficulty-label">
+                Dificultad
+              </p>
+              <div role="radiogroup" aria-labelledby="difficulty-label" className="flex flex-wrap gap-1.5">
+                {DIFFICULTIES.map((level) => (
+                  <button
+                    key={level}
+                    type="button"
+                    role="radio"
+                    aria-checked={form.difficulty === level}
+                    onClick={() => update({ difficulty: level })}
+                    className={cn(
+                      'h-8 rounded-md border px-2.5 text-[13px] font-medium transition-colors',
+                      form.difficulty === level ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:border-border-strong hover:text-ink',
+                    )}
+                  >
+                    {DIFFICULTY_LABELS[level]}
+                  </button>
+                ))}
+              </div>
+            </div>
+            <ChipsInput label="Etiquetas (opcional)" values={form.tags} max={LIMITS.maxTags} maxLength={LIMITS.tag} onChange={(tags) => update({ tags })} />
+          </div>
+        </Card>
+
+        <ImagesCard form={form} setForm={setForm} uploadImage={uploadImage} error={errors.images} />
+        <ReferencesCard references={form.references} onChange={(references) => update({ references })} error={errors.references} />
+
+        {form.type === 'mcq' ? (
+          <Card>
+            <CardHeader title="Cómo se muestra la solución" />
+            <div className="flex flex-col gap-4 p-4">
+              <Toggle label="Mostrar la explicación después de responder" checked={form.explanationAfterAnswer} onChange={(explanationAfterAnswer) => update({ explanationAfterAnswer })} />
+              <Toggle label="Mostrar las soluciones al finalizar un examen" checked={form.solutionsAtExamEnd} onChange={(solutionsAtExamEnd) => update({ solutionsAtExamEnd })} />
+            </div>
+          </Card>
+        ) : null}
+
+        {errors.general ? <Notice tone="danger" title="No se puede guardar">{errors.general}</Notice> : null}
+      </div>
+
+      <div className="safe-bottom sticky bottom-16 z-10 -mx-4 flex flex-wrap items-center justify-between gap-2 border-t border-border bg-canvas/95 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6 lg:bottom-0 lg:-mx-10 lg:px-10">
+        <p className="text-xs text-muted" role="status">
+          {status === 'pending' ? 'Guardando borrador…' : status === 'saved' ? 'Borrador guardado en este dispositivo' : 'Se guardará un borrador mientras escribes'}
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {loaded.fromDraft || status !== 'idle' ? (
+            <Button variant="ghost" onClick={() => void discard()}>
+              Descartar
+            </Button>
+          ) : null}
+          <Button
+            icon={<Eye size={16} aria-hidden />}
+            onClick={() => {
+              const question = validate();
+              if (question) setPreview(question);
+            }}
+          >
+            Previsualizar
+          </Button>
+          <Button variant="primary" icon={<Save size={16} aria-hidden />} onClick={() => void save()}>
+            Guardar
+          </Button>
+        </div>
+      </div>
+
+      <Dialog open={preview !== null} onClose={() => setPreview(null)} title="Así se verá" size="lg" footer={<Button onClick={() => setShowSolution((v) => !v)}>{showSolution ? 'Ocultar solución' : 'Mostrar solución'}</Button>}>
+        {preview ? <QuestionView question={preview} showSolution={showSolution} /> : null}
+      </Dialog>
+    </>
+  );
+}
+
+/** Avisa mientras se escribe, antes de invertir tiempo en una pregunta que ya existe. */
+function LiveDuplicates({ form }: { form: QuestionForm }) {
+  const questions = useQuestions();
+  const statement = useDeferredValue(form.statement);
+  const answers = useDeferredValue(form.answers);
+  const entries = useMemo(() => questions?.map(duplicateIndexEntry) ?? [], [questions]);
+  const matches = useMemo(() => {
+    if (statement.trim().length < 15) return [];
+    const candidate = { id: form.id, type: form.type, statement, answers } as unknown as Question;
+    return findDuplicates(candidate, entries).slice(0, 3);
+  }, [statement, answers, entries, form.id, form.type]);
+  if (matches.length === 0) return null;
+  const top = matches[0];
+  return (
+    <Notice tone="warning" className="mt-3" title={top?.exact ? 'Ya existe una pregunta igual' : 'Hay una pregunta muy parecida'}>
+      {matches.map((match, i) => (
+        <span key={match.id}>
+          {i > 0 ? ' · ' : ''}
+          <Link to={`/q/${match.id}`} target="_blank" className="underline underline-offset-2">
+            Ver {matches.length > 1 ? `la ${i + 1}.ª` : 'pregunta'}
+          </Link>
+          {match.exact ? '' : ` (${Math.round(match.similarity * 100)} %)`}
+        </span>
+      ))}
+      {top?.exact ? '. Al publicar, una copia exacta se rechaza.' : '. Al publicar pasará a revisión manual.'}
+    </Notice>
+  );
+}
+
+function AnswersCard({ form, update, error }: { form: QuestionForm; update: (patch: Partial<QuestionForm>) => void; error?: string }) {
+  const setAnswer = (id: string, patch: Partial<QuestionForm['answers'][number]>) => update({ answers: form.answers.map((a) => (a.id === id ? { ...a, ...patch } : a)) });
+  const markCorrect = (id: string, checked: boolean) => {
+    if (form.multiple) setAnswer(id, { correct: checked });
+    else update({ answers: form.answers.map((a) => ({ ...a, correct: a.id === id })) });
+  };
+  const move = (index: number, delta: -1 | 1) => {
+    const answers = [...form.answers];
+    const [item] = answers.splice(index, 1);
+    if (item) answers.splice(index + delta, 0, item);
+    update({ answers });
+  };
+  return (
+    <Card>
+      <CardHeader
+        title="Respuestas"
+        description="Marca la correcta. El orden se puede barajar al estudiar."
+        action={
+          <Checkbox
+            checked={form.multiple}
+            label="Varias correctas"
+            onChange={(multiple) => {
+              // Al volver a respuesta única, sólo puede quedar marcada una.
+              const firstCorrect = form.answers.find((a) => a.correct)?.id;
+              update({ multiple, answers: multiple ? form.answers : form.answers.map((a) => ({ ...a, correct: a.id === firstCorrect })) });
+            }}
+          />
+        }
+      />
+      <div className="flex flex-col gap-2 p-4">
+        <ul className="flex flex-col gap-2" aria-label="Opciones de respuesta">
+          {form.answers.map((answer, index) => (
+            <li key={answer.id} className={cn('rounded-md border p-2', answer.correct ? 'border-success bg-success-soft/40' : 'border-border')}>
+              <div className="flex items-start gap-2">
+                <label className="mt-2 flex shrink-0 cursor-pointer items-center" title="Marcar como correcta">
+                  <input
+                    type={form.multiple ? 'checkbox' : 'radio'}
+                    name={`correct-${form.id}`}
+                    checked={answer.correct}
+                    onChange={(e) => markCorrect(answer.id, e.target.checked)}
+                    className="size-4 accent-[var(--success)]"
+                    aria-label={`Opción ${index + 1} correcta`}
+                  />
+                </label>
+                <textarea
+                  rows={1}
+                  value={answer.text}
+                  onChange={(e) => setAnswer(answer.id, { text: e.target.value })}
+                  aria-label={`Texto de la opción ${index + 1}`}
+                  placeholder={`Opción ${index + 1}`}
+                  className="field-sizing-content min-h-9 w-full min-w-0 resize-none rounded-md border border-border bg-surface px-2.5 py-1.5 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent/25"
+                />
+                <div className="flex shrink-0 items-center">
+                  <button type="button" title="Subir" aria-label={`Subir opción ${index + 1}`} disabled={index === 0} onClick={() => move(index, -1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+                    <ArrowUp size={14} aria-hidden />
+                  </button>
+                  <button type="button" title="Bajar" aria-label={`Bajar opción ${index + 1}`} disabled={index === form.answers.length - 1} onClick={() => move(index, 1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+                    <ArrowDown size={14} aria-hidden />
+                  </button>
+                  <button
+                    type="button"
+                    title="Eliminar"
+                    aria-label={`Eliminar opción ${index + 1}`}
+                    disabled={form.answers.length <= LIMITS.minAnswers}
+                    onClick={() => update({ answers: form.answers.filter((a) => a.id !== answer.id) })}
+                    className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger disabled:opacity-30"
+                  >
+                    <Trash2 size={14} aria-hidden />
+                  </button>
+                </div>
+              </div>
+              <input
+                value={answer.feedback}
+                onChange={(e) => setAnswer(answer.id, { feedback: e.target.value })}
+                placeholder="Comentario al elegir esta opción (opcional)"
+                aria-label={`Comentario de la opción ${index + 1}`}
+                maxLength={LIMITS.answerFeedback}
+                className="mt-1.5 ml-6 w-[calc(100%-1.5rem)] bg-transparent px-1 text-xs text-muted outline-none placeholder:text-faint focus:text-ink"
+              />
+            </li>
+          ))}
+        </ul>
+        {error ? (
+          <p className="text-xs text-danger" role="alert">
+            {error}
+          </p>
+        ) : null}
+        <Button
+          size="sm"
+          className="w-fit"
+          disabled={form.answers.length >= LIMITS.maxAnswers}
+          icon={<Plus size={14} aria-hidden />}
+          onClick={() => update({ answers: [...form.answers, { id: nextId(form.answers), text: '', correct: false, feedback: '' }] })}
+        >
+          Añadir opción
+        </Button>
+      </div>
+    </Card>
+  );
+}
+
+function OpenAnswerCard({ form, update, errors, uploadImage }: { form: QuestionForm; update: (patch: Partial<QuestionForm>) => void; errors: FormErrors; uploadImage: (file: File) => Promise<QuestionImage | null> }) {
+  const setCriterion = (id: string, patch: Partial<QuestionForm['criteria'][number]>) => update({ criteria: form.criteria.map((c) => (c.id === id ? { ...c, ...patch } : c)) });
+  return (
+    <Card>
+      <CardHeader title="Respuesta" description="Se compara después con lo que haya escrito o pensado el estudiante." />
+      <div className="flex flex-col gap-4 p-4">
+        <MarkdownEditor label="Solución o respuesta modelo" value={form.modelAnswer} onChange={(modelAnswer) => update({ modelAnswer })} error={errors.modelAnswer} images={form.images} onUploadImage={uploadImage} rows={6} />
+        <div>
+          <p className="text-[13px] font-medium">Criterios de corrección (opcional)</p>
+          <p className="mb-2 text-xs text-muted">Sirven para autoevaluarse: el estudiante marca los que cumple y se le sugiere una nota.</p>
+          <ul className="flex flex-col gap-1.5">
+            {form.criteria.map((criterion, index) => (
+              <li key={criterion.id} className="flex items-center gap-1.5">
+                <Input value={criterion.text} maxLength={LIMITS.criterion} placeholder={`Criterio ${index + 1}`} aria-label={`Criterio ${index + 1}`} onChange={(e) => setCriterion(criterion.id, { text: e.target.value })} />
+                <Input
+                  type="number"
+                  min={1}
+                  max={10}
+                  value={criterion.weight}
+                  title="Peso"
+                  aria-label={`Peso del criterio ${index + 1}`}
+                  onChange={(e) => setCriterion(criterion.id, { weight: Math.min(10, Math.max(1, Number(e.target.value) || 1)) })}
+                  className="w-16 shrink-0 text-center"
+                />
+                <button type="button" aria-label={`Eliminar criterio ${index + 1}`} onClick={() => update({ criteria: form.criteria.filter((c) => c.id !== criterion.id) })} className="inline-flex size-8 shrink-0 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
+                  <Trash2 size={14} aria-hidden />
+                </button>
+              </li>
+            ))}
+          </ul>
+          <Button
+            size="sm"
+            className="mt-2"
+            disabled={form.criteria.length >= LIMITS.maxCriteria}
+            icon={<Plus size={14} aria-hidden />}
+            onClick={() => update({ criteria: [...form.criteria, { id: nextId(form.criteria), text: '', weight: 1 }] })}
+          >
+            Añadir criterio
+          </Button>
+        </div>
+        <ChipsInput label="Palabras clave (opcional)" values={form.keywords} max={LIMITS.maxKeywords} maxLength={LIMITS.keyword} onChange={(keywords) => update({ keywords })} />
+      </div>
+    </Card>
+  );
+}
+
+function ChipsInput({ label, values, max, maxLength, onChange }: { label: string; values: string[]; max: number; maxLength: number; onChange: (values: string[]) => void }) {
+  const [text, setText] = useState('');
+  const add = () => {
+    const value = text.trim().replace(/,$/, '').trim();
+    if (value && !values.includes(value) && values.length < max) onChange([...values, value]);
+    setText('');
+  };
+  return (
+    <Field label={label} hint="Pulsa Intro o coma para añadir.">
+      {(id, describedBy) => (
+        <div className="flex flex-wrap items-center gap-1.5 rounded-md border border-border bg-surface p-1.5 focus-within:border-accent focus-within:ring-2 focus-within:ring-accent/25">
+          {values.map((value) => (
+            <span key={value} className="inline-flex items-center gap-1 rounded bg-subtle px-1.5 py-0.5 text-xs">
+              {value}
+              <button type="button" aria-label={`Quitar ${value}`} onClick={() => onChange(values.filter((v) => v !== value))} className="text-muted hover:text-ink">
+                <X size={12} aria-hidden />
+              </button>
+            </span>
+          ))}
+          <input
+            id={id}
+            aria-describedby={describedBy}
+            value={text}
+            maxLength={maxLength}
+            onChange={(e) => setText(e.target.value)}
+            onBlur={add}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ',') {
+                e.preventDefault();
+                add();
+              } else if (e.key === 'Backspace' && !text && values.length > 0) {
+                onChange(values.slice(0, -1));
+              }
+            }}
+            className="h-6 min-w-24 flex-1 bg-transparent px-1 text-sm outline-none"
+          />
+        </div>
+      )}
+    </Field>
+  );
+}
+
+function ImagesCard({ form, setForm, uploadImage, error }: { form: QuestionForm; setForm: React.Dispatch<React.SetStateAction<QuestionForm>>; uploadImage: (file: File) => Promise<QuestionImage | null>; error?: string }) {
+  const input = useRef<HTMLInputElement>(null);
+  const setAlt = (hash: string, alt: string) => setForm((current) => ({ ...current, images: current.images.map((i) => (i.hash === hash ? { ...i, alt } : i)) }));
+  return (
+    <Card>
+      <CardHeader
+        title="Imágenes"
+        description={`Se reducen y se limpian de metadatos al subirlas. Máximo ${LIMITS.images}.`}
+        action={
+          <Button size="sm" icon={<ImagePlus size={14} aria-hidden />} disabled={form.images.length >= LIMITS.images} onClick={() => input.current?.click()}>
+            Adjuntar
+          </Button>
+        }
+      />
+      <div className="p-4">
+        {form.images.length === 0 ? <p className="text-[13px] text-muted">Sin imágenes. También puedes pegarlas en el texto.</p> : null}
+        <ul className="grid gap-3 sm:grid-cols-2">
+          {form.images.map((image) => (
+            <li key={image.hash} className="flex gap-2.5 rounded-md border border-border p-2">
+              <AttachedImage image={image} className="h-16 w-20 shrink-0 object-contain" />
+              <div className="flex min-w-0 flex-1 flex-col gap-1.5">
+                <Input value={image.alt} maxLength={300} placeholder="Descripción para quien no la vea" aria-label="Descripción de la imagen" onChange={(e) => setAlt(image.hash, e.target.value)} className="h-8 text-[13px]" />
+                <div className="flex items-center justify-between text-xs text-muted">
+                  <span className="tabular-nums">{Math.round(image.bytes / 1024)} KB</span>
+                  <button type="button" onClick={() => setForm((current) => removeImageReferences(current, image.hash))} className="hover:text-danger">
+                    Quitar
+                  </button>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
+        {error ? (
+          <p className="mt-2 text-xs text-danger" role="alert">
+            {error}
+          </p>
+        ) : null}
+        <input
+          ref={input}
+          type="file"
+          accept="image/jpeg,image/png,image/webp"
+          multiple
+          className="hidden"
+          onChange={(e) => {
+            const files = Array.from(e.target.files ?? []);
+            e.target.value = '';
+            void (async () => {
+              for (const file of files) await uploadImage(file);
+            })();
+          }}
+        />
+      </div>
+    </Card>
+  );
+}
+
+function ReferencesCard({ references, onChange, error }: { references: Reference[]; onChange: (references: Reference[]) => void; error?: string }) {
+  const set = (index: number, patch: Partial<Reference>) => onChange(references.map((r, i) => (i === index ? { ...r, ...patch } : r)));
+  return (
+    <Card>
+      <CardHeader title="Referencias (opcional)" description="Libro, artículo o web de donde sale el contenido." />
+      <div className="flex flex-col gap-2 p-4">
+        {references.map((reference, index) => (
+          <div key={index} className="flex flex-wrap items-center gap-1.5 sm:flex-nowrap">
+            <Input value={reference.title} maxLength={300} placeholder="Título" aria-label={`Título de la referencia ${index + 1}`} onChange={(e) => set(index, { title: e.target.value })} />
+            <Input type="url" value={reference.url ?? ''} placeholder="https:// (opcional)" aria-label={`Enlace de la referencia ${index + 1}`} onChange={(e) => set(index, { url: e.target.value })} />
+            <button type="button" aria-label={`Eliminar referencia ${index + 1}`} onClick={() => onChange(references.filter((_, i) => i !== index))} className="inline-flex size-8 shrink-0 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
+              <Trash2 size={14} aria-hidden />
+            </button>
+          </div>
+        ))}
+        {error ? (
+          <p className="text-xs text-danger" role="alert">
+            {error}
+          </p>
+        ) : null}
+        <Button size="sm" className="w-fit" disabled={references.length >= LIMITS.maxReferences} icon={<Plus size={14} aria-hidden />} onClick={() => onChange([...references, { title: '' }])}>
+          Añadir referencia
+        </Button>
+      </div>
+    </Card>
+  );
+}

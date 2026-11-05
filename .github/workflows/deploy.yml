@@ -1,0 +1,92 @@
+# Publica la app y los datos comunitarios en GitHub Pages.
+#
+# Se lanza con un push a main (código nuevo), cuando el pipeline consolida datos
+# (workflow_dispatch: lo hecho con GITHUB_TOKEN no dispara workflows, hay que pedirlo)
+# y cada 6 horas, porque los rankings semanales cambian con el tiempo aunque no haya datos.
+name: Desplegar
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --ignore-scripts
+
+      # Un despliegue sólo de datos no necesita volver a probar el código.
+      - name: Comprobar el código
+        if: github.event_name == 'push'
+        run: |
+          npm run lint
+          npm run typecheck
+          npm test
+
+      # GitHub dice aquí de qué ruta cuelga el sitio. Así un cambio de nombre o de dominio
+      # no deja la app apuntando a la ruta vieja.
+      - id: pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - name: Compilar la app
+        run: npx vite build
+        env:
+          QB_BASE: ${{ steps.pages.outputs.base_path }}/
+          VITE_COMMUNITY_REPO: ${{ github.repository }}
+
+      - name: ¿Existe la rama data?
+        id: data
+        run: |
+          if git ls-remote --exit-code --heads "https://github.com/${GITHUB_REPOSITORY}.git" data > /dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.data.outputs.exists == 'true'
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: data
+          path: .data
+          persist-credentials: false
+
+      # Rankings, perfiles y clasificaciones se recalculan aquí. No se guardan en ningún sitio:
+      # cualquiera puede clonar la rama data, ejecutar esto y comprobar el resultado.
+      - name: Compilar los datos comunitarios
+        run: |
+          mkdir -p .data
+          npm run community:build -- --data .data --out dist/community
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

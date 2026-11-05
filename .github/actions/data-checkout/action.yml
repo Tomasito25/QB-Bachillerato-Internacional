@@ -1,0 +1,20 @@
+# Pone la rama `data` en .data, creándola la primera vez.
+name: Preparar la rama de datos
+description: Crea la rama data si no existe y la deja en .data, lista para hacer push.
+inputs:
+  token:
+    description: Token con permiso de escritura
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Crear la rama si no existe
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+      run: bash tools/actions/ensure-data-branch.sh "$GITHUB_REPOSITORY"
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        ref: data
+        path: .data
+        token: ${{ inputs.token }}

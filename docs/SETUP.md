@@ -1,0 +1,122 @@
+# Puesta en marcha
+
+## 1. Crear el repositorio
+
+Tiene que ser **público**: la rama `data` y los datos publicados son abiertos, y los minutos de
+Actions sólo son gratuitos e ilimitados en repositorios públicos.
+
+```bash
+git init -b main
+```
+
+```bash
+git add -A
+```
+
+```bash
+git commit -m "QuestionBank"
+```
+
+```bash
+gh repo create questionbank --public --source . --push
+```
+
+El primer despliegue fallará al configurar Pages, porque aún no está activado. Es normal: el
+paso siguiente lo arregla y lo repite.
+
+## 2. Configurarlo
+
+```bash
+bash tools/setup-repo.sh
+```
+
+Hace esto, y se puede repetir sin riesgo:
+
+| Ajuste | Por qué | A mano, en GitHub |
+|---|---|---|
+| Pages mediante Actions | Es lo que despliega `deploy.yml` | Settings → Pages → Source: GitHub Actions |
+| Actions puede abrir PR | Sin esto, las aportaciones por issue fallan | Settings → Actions → General → Allow GitHub Actions to create and approve pull requests |
+| Issues activados | Son la cola de entrada | Settings → General → Features |
+| Etiquetas `qb:*` | Comunican el estado de cada envío a la app | Las crea el script |
+| Rama `data` | Guarda el contenido comunitario | Se crea sola al primer envío |
+| Despliegue | Publica el sitio ya con Pages activado | `gh workflow run deploy.yml` |
+
+## 3. Abrir la app
+
+En un par de minutos estará en:
+
+```
+https://<propietario>.github.io/<repositorio>/
+```
+
+Desde entonces, cada push a `main` despliega solo.
+
+## 4. Comprobarlo
+
+1. Abre la app. Debe funcionar sin errores, aunque el banco esté vacío.
+2. En **Configuración → Cuenta**, pulsa **Conectar con GitHub** y sigue los pasos. En unos segundos
+   debe reconocer tu cuenta.
+3. Crea una pregunta y publícala desde **Sincronización**.
+4. Mira la pestaña **Actions** del repositorio: **Procesar envíos** debe abrir y fusionar un PR
+   contra `data`, y lanzar **Desplegar**.
+5. En 2 o 3 minutos, **Sincronizar** debe traer la pregunta como comunitaria.
+
+## Variables opcionales
+
+Se definen en Settings → Secrets and variables → Actions → **Variables**. No hay secretos que
+configurar: basta el `GITHUB_TOKEN` que da Actions.
+
+| Variable | Por defecto | Efecto |
+|---|---|---|
+| `QB_AUTO_MERGE` | activado | Con `false`, toda aportación espera a una revisión humana |
+
+## Moderar
+
+Todo se hace con Git y GitHub. Mantenedor es quien tiene permiso de escritura en el repositorio.
+
+| Quiero… | Cómo |
+|---|---|
+| Revisar lo dudoso | PR con etiqueta `qb:review`: fusiónalo o ciérralo. La app del autor se entera sola |
+| Atender reportes | Issues con etiqueta `qb:report` |
+| Ocultar una pregunta | Añade su id a `moderation/hidden.json` en la rama `data`. Deja de servirse y de dar puntos |
+| Vetar una cuenta | Añade su login a `moderation/banned.json`. Sus envíos se rechazan y sale de los rankings |
+| Rehabilitar una cuenta marcada como sospechosa | Añade su login a `moderation/trusted.json`. Las cuentas marcadas se publican en `community/integrity.json` |
+| Corregir una pregunta | Edítala en la rama `data`: el commit directo también es válido, y lo inválido se aparta al compilar |
+| Retirar contenido con derechos de autor | Ocúltala como arriba. **Para borrarla del historial hay que reescribir la rama**: `git filter-repo` y push forzado |
+
+Formato de los ficheros de moderación:
+
+```json
+{ "questions": ["uuid-de-la-pregunta"] }
+```
+
+```json
+{ "logins": ["usuario-en-minusculas"] }
+```
+
+Tras un cambio manual en `data`, publícalo:
+
+```bash
+gh workflow run deploy.yml
+```
+
+## Vigilar el crecimiento
+
+| Señal | Qué hacer |
+|---|---|
+| El sitio publicado se acerca a 1 GB, el límite de Pages | Ver el plan de escala en [LIMITATIONS.md](LIMITATIONS.md) |
+| `manifest.quarantined` mayor que 0 | Mira `community/integrity.json`: hay documentos inválidos en `data` |
+| Issues abiertos que no se procesan | Mira si la etiqueta `qb:error` aparece y revisa el registro de **Procesar envíos** |
+
+## Comprobar los rankings por tu cuenta
+
+Son una función pura de la rama `data`. Cualquiera puede recalcularlos y compararlos con lo
+publicado:
+
+```bash
+git clone --branch data --depth 1 https://github.com/<propietario>/<repositorio>.git datos
+```
+
+```bash
+npm run community:build -- --data datos --out salida
+```

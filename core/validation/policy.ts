@@ -1,0 +1,22 @@
+/**
+ * Límites anti-abuso. Están en un solo sitio porque los aplica Actions y los anticipa el
+ * cliente para avisar antes de enviar.
+ */
+export const POLICY = {
+  /** Tiempo máximo de atraso de una respuesta: permite estudiar sin conexión varios días. */
+  maxAnswerAgeDays: 14,
+  /** Respuestas aceptadas por usuario y día de recepción. */
+  maxAnswersPerDay: 3000,
+  /** Preguntas nuevas aceptadas por usuario y día. */
+  maxQuestionsPerDay: 30,
+  /** Nodos de temario nuevos por envío. */
+  maxNewTaxonomyNodes: 60,
+  /** Competiciones creadas por usuario y día. */
+  maxCompetitionsPerDay: 10,
+  /** Envíos que procesa cada ejecución de Actions. Respeta el límite de 80 creaciones/minuto. */
+  maxSubmissionsPerRun: 25,
+  /** Margen de reloj para fechas declaradas. */
+  clockSkewMs: 24 * 60 * 60 * 1000,
+  /** Margen tras el cierre de una competición. */
+  competitionGraceMs: 5 * 60 * 1000,
+} as const;

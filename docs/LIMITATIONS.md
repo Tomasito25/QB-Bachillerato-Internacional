@@ -1,0 +1,107 @@
+# Limitaciones
+
+Lo que esta arquitectura no puede hacer o garantizar, y qué se ha hecho al respecto. Si alguna
+de estas limitaciones llega a molestar de verdad, la sección final dice qué habría que cambiar.
+
+## Lo más importante
+
+### Los rankings no son una credencial
+
+**Qué se impide:** escribir puntos a mano, atribuirse aportaciones de otros, declarar aciertos,
+puntuar repitiendo, entregar fuera de plazo, entregar dos veces, usar otra cuenta sin sus claves.
+
+**Qué NO se puede impedir:** contestar con la solución delante. El banco es público, respuestas
+incluidas, y el navegador necesita tenerlas para funcionar sin conexión. Tampoco se puede impedir
+que un programa envíe respuestas correctas a un ritmo creíble, que alguien busque las respuestas
+de una competición mientras juega o que una persona use varias cuentas.
+
+**Por qué:** corregir sin revelar la solución exige un servidor que guarde las respuestas en
+secreto, y esta arquitectura lo descarta. **Mitigación:** topes que acotan el daño; un registro
+público y reproducible que hace toda trampa auditable; la marca automática de lo inverosímil, y
+moderación. **La app lo dice en la pantalla de rankings**: es un juego de estudio entre personas.
+
+### Las respuestas publicadas son públicas
+
+El registro de eventos está en un repositorio público, asociado a tu cuenta de GitHub. Cualquiera
+puede ver qué preguntas respondiste y cuándo. **Por eso publicar es opcional y explícito:** estudiar
+sin publicar no envía absolutamente nada.
+
+### Git no olvida
+
+Ocultar una pregunta la saca de la app, pero sigue en el historial de la rama. Borrarla de verdad
+exige reescribirlo. La app lo avisa antes de publicar. Esto importa para contenido con derechos
+de autor: por eso se pide declarar el origen y aceptar la licencia.
+
+## Comunicación y tiempos
+
+| Limitación | Causa | Consecuencia |
+|---|---|---|
+| **Sin «Iniciar sesión con GitHub»** | Los endpoints de OAuth no permiten CORS (comprobado), y tanto el Device Flow como el flujo web necesitan pasar por un servidor | Conexión por issue. Más rara que un botón, pero sin secretos |
+| **Un clic en GitHub por envío** sin token | Sin token, sólo GitHub puede crear el issue | Se puede evitar con un token, con el riesgo que implica |
+| **El token da demasiado permiso** | Los tokens de grano fino no pueden contribuir a repos públicos ajenos (documentado por GitHub) | `public_repo` da escritura en todos tus repos públicos. Es opcional y se avisa |
+| **Publicar tarda de 1 a 3 minutos** | Action + despliegue. La caché de Pages añade hasta 10 minutos si no se evita | La app muestra el estado intermedio y salta la caché en el manifiesto |
+| **Sin tiempo real** | Sin servidor no hay WebSocket; señalizar por issues tarda de 30 a 120 s; WebRTC necesita un STUN externo o intercambiar datos a mano | Competiciones asíncronas |
+| **Sin notificaciones push** | Web Push necesita un servidor | Sólo las de GitHub: las invitaciones son menciones reales |
+| **Los crons no son puntuales** | GitHub los retrasa y puede perderlos con carga; los desactiva tras 60 días sin actividad en repos públicos | Se ejecutan de más y son idempotentes. Los plazos oficiales usan la hora de GitHub, no la del cron |
+| **60 consultas por hora sin token**, por IP | Límite de GitHub. Un `304` también gasta cuota (comprobado) | Lo legible va por Pages. Sólo se consulta la API para el estado de los envíos, con tope. Varias personas en la misma red comparten cuota |
+
+## Competiciones
+
+| Garantizado por GitHub o Actions | Declarado por el cliente: no verificable |
+|---|---|
+| Quién entrega | **Cuánto tardó en cada intento**: sólo desempata y la app lo muestra como «declarado» |
+| Cuándo llega la entrega | Si miró las respuestas de quien entregó antes |
+| Una sola entrega por persona | Si jugó sin conexión o consultó algo |
+| La corrección y la clasificación | |
+| Qué preguntas tocaron | |
+
+Las entregas son públicas, y las preguntas también en cuanto alguien las recibe. Quien juega el
+último tiene ventaja si quiere aprovecharla. Se asume: es un juego entre personas que quieren
+aprender. Los torneos pueden fijar rondas cortas para reducirlo.
+
+## Datos en el dispositivo
+
+- **El progreso no viaja solo entre dispositivos.** Hay exportación e importación; se combina sin
+  duplicar. Sincronizarlo solo requeriría una nube privada.
+- **El navegador puede borrar los datos** si se queda sin espacio. La app pide almacenamiento
+  persistente y avisa si no lo consigue. En Safari, sin instalar, se pueden borrar tras 7 días sin
+  uso: por eso conviene instalarla y descargar copias.
+- **No todos los navegadores de escritorio permiten instalar** aplicaciones web. Sigue funcionando en una pestaña.
+- **Sin Background Sync:** Safari y Firefox no lo tienen. Lo pendiente se envía al abrir la app.
+
+## Seguridad en Pages
+
+- **Sin cabeceras propias:** la CSP va en una etiqueta `<meta>`, que no admite `frame-ancestors`.
+  No se puede impedir que otra web incruste la app en un iframe. El riesgo es bajo: publicar exige
+  siempre un paso en github.com o un token que un iframe no puede usar sin más.
+- **El mismo origen en `*.github.io`:** cada repositorio de una cuenta comparte origen con los demás
+  de esa cuenta en `usuario.github.io`, incluido IndexedDB. Si tienes otras apps en la misma cuenta,
+  pueden leer estos datos. Con un dominio propio, o en un usuario u organización dedicados, se evita.
+
+## Escala
+
+Límites de GitHub: 1 GB publicado, 100 GB al mes de tráfico (blando), 1 GB recomendado de
+repositorio, y 80 creaciones por minuto y 500 por hora en la API. Medido con 5 000 preguntas:
+primera sincronización de 2,6 s, y 23 ms si nada cambió.
+
+| Orden de magnitud | Qué pasa | Plan |
+|---|---|---|
+| Hasta 10 000 preguntas y 1 000 personas activas | Va bien | Nada |
+| **Imágenes** cerca de 1 GB | Pages deja de aceptar el sitio | Moverlas a un repo aparte o a Releases, cambiando `communityUrl` |
+| **Eventos** grandes (varios GB) | Clonar y compilar se vuelve lento | Consolidar los meses cerrados en un resumen y archivar los originales en Releases: el cálculo sigue siendo auditable |
+| Más de 500 envíos por hora | Se alcanza el límite de la API | El intake ya procesa por lotes y se pondría al día, con más retraso |
+| Decenas de miles de preguntas | La memoria del móvil y la primera descarga empiezan a pesar | Descarga selectiva por asignatura: los fragmentos ya están separados por asignatura |
+
+GitHub Pages prohíbe los servicios comerciales: esto vale para una comunidad educativa, no para
+un negocio.
+
+## Si un día se puede relajar la restricción
+
+Ordenado por lo que aporta frente a lo que cuesta:
+
+1. **Un Cloudflare Worker sin estado, de unas 30 líneas**, para el Device Flow. Da un botón de
+   «Iniciar sesión» de verdad y un token con el alcance mínimo de una GitHub App, sin clics. No
+   guarda nada ni necesita secretos.
+2. **Un backend con base de datos.** Permitiría ocultar respuestas en competiciones, resultados
+   privados, tiempo real y sincronización entre dispositivos. Es otra arquitectura: `core/` serviría
+   tal cual.
