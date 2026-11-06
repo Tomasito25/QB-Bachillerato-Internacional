@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "25a1f36c-0c8c-4dd7-9d9a-22e934818a53",
+  "rev": 1,
+  "statement": "Un automóvil decelera uniformemente hasta detenerse. Desde una velocidad inicial v hasta una\nvelocidad $v/2$ , recorre una distancia d. ¿Cuánto más avanzará hasta alcanzar el reposo?",
+  "explanation": "La distancia de frenado es proporcional al cuadrado de la velocidad $v^2=u^2+2as$",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [],
+  "references": [
+    {
+      "title": "Physics SL. Paper 1A. M25 TZ3 Spanish"
+    }
+  ],
+  "author": {
+    "login": "nikovr0",
+    "id": 198808941
+  },
+  "createdAt": "2026-11-06T18:37:35.000Z",
+  "updatedAt": "2026-11-06T18:37:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$d/4$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$d/3$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$d/2$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "d",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
