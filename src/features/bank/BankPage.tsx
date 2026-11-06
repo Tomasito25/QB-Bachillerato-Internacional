@@ -1,4 +1,4 @@
-import { Download, FileEdit, Library, Play, Plus, Search, Upload } from 'lucide-react';
+import { Download, FileEdit, Library, Play, Plus, Search, SlidersHorizontal, Upload } from 'lucide-react';
 import { useDeferredValue, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
@@ -55,6 +55,8 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
   const unit = subject?.units.find((u) => u.id === filter.unitIds?.[0]);
   const chosen = new Set(filter.difficulties);
   const [text, setText] = useState(params.get('q') ?? '');
+  // En el móvil los filtros se pliegan: así la lista se ve sin desplazarse.
+  const [showFilters, setShowFilters] = useState(false);
 
   const toggleDifficulty = (level: number) => {
     const next = new Set<number>(chosen);
@@ -73,7 +75,7 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
           set({ q: text.trim() || null });
         }}
       >
-        <Search size={15} className="pointer-events-none absolute top-2.5 left-2.5 text-faint" aria-hidden />
+        <Search size={15} className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-faint" aria-hidden />
         <Input
           type="search"
           value={text}
@@ -83,79 +85,84 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
           }}
           placeholder="Buscar en enunciados, opciones y etiquetas…"
           aria-label="Buscar preguntas"
-          className="pl-8"
+          className="pl-9"
         />
       </form>
-      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-        <Select aria-label="Asignatura" value={filter.subjectId ?? ''} onChange={(e) => set({ subject: e.target.value, unit: null, topic: null })}>
-          <option value="">Asignatura</option>
-          {taxonomy.subjects.map((s) => (
-            <option key={s.id} value={s.id}>
-              {s.name}
-            </option>
+      <Button size="sm" className="w-fit sm:hidden" aria-expanded={showFilters} onClick={() => setShowFilters((v) => !v)} icon={<SlidersHorizontal size={14} aria-hidden />}>
+        {active ? 'Filtros activos' : 'Filtros'}
+      </Button>
+      <div className={cn('flex-col gap-2.5', showFilters ? 'flex' : 'hidden sm:flex')}>
+        <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+          <Select aria-label="Asignatura" value={filter.subjectId ?? ''} onChange={(e) => set({ subject: e.target.value, unit: null, topic: null })}>
+            <option value="">Asignatura</option>
+            {taxonomy.subjects.map((s) => (
+              <option key={s.id} value={s.id}>
+                {s.name}
+              </option>
+            ))}
+          </Select>
+          <Select aria-label="Unidad" disabled={!subject} value={filter.unitIds?.[0] ?? ''} onChange={(e) => set({ unit: e.target.value, topic: null })}>
+            <option value="">Unidad</option>
+            {subject?.units.map((u) => (
+              <option key={u.id} value={u.id}>
+                {u.name}
+              </option>
+            ))}
+          </Select>
+          <Select aria-label="Tema" disabled={!unit} value={filter.topicIds?.[0] ?? ''} onChange={(e) => set({ topic: e.target.value })}>
+            <option value="">Tema</option>
+            {unit?.topics.map((t) => (
+              <option key={t.id} value={t.id}>
+                {t.name}
+              </option>
+            ))}
+          </Select>
+          <Select aria-label="Tipo" value={filter.types?.[0] ?? ''} onChange={(e) => set({ type: e.target.value })}>
+            <option value="">Tipo</option>
+            <option value="mcq">{QUESTION_TYPE_LABELS.mcq}</option>
+            <option value="open">{QUESTION_TYPE_LABELS.open}</option>
+          </Select>
+          <Select aria-label="Procedencia" value={origin} onChange={(e) => set({ origin: e.target.value === 'all' ? null : (e.target.value as OriginFilter) })}>
+            <option value="all">Procedencia</option>
+            <option value="community">De la comunidad</option>
+            <option value="mine">Sin publicar</option>
+          </Select>
+          <Select aria-label="Ordenar" value={sort} onChange={(e) => set({ sort: e.target.value === 'recent' ? null : (e.target.value as SortKey) })}>
+            {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
+              <option key={key} value={key}>
+                {SORT_LABELS[key]}
+              </option>
+            ))}
+          </Select>
+        </div>
+        <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label="Dificultad">
+          {DIFFICULTY_VALUES.map((level) => (
+            <button
+              key={level}
+              type="button"
+              aria-pressed={chosen.has(level)}
+              onClick={() => toggleDifficulty(level)}
+              className={cn(
+                'h-7 rounded-full border px-2.5 text-xs font-medium transition-colors',
+                chosen.has(level) ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:border-border-strong hover:text-ink',
+              )}
+            >
+              {DIFFICULTY_LABELS[level]}
+            </button>
           ))}
-        </Select>
-        <Select aria-label="Unidad" disabled={!subject} value={filter.unitIds?.[0] ?? ''} onChange={(e) => set({ unit: e.target.value, topic: null })}>
-          <option value="">Unidad</option>
-          {subject?.units.map((u) => (
-            <option key={u.id} value={u.id}>
-              {u.name}
-            </option>
-          ))}
-        </Select>
-        <Select aria-label="Tema" disabled={!unit} value={filter.topicIds?.[0] ?? ''} onChange={(e) => set({ topic: e.target.value })}>
-          <option value="">Tema</option>
-          {unit?.topics.map((t) => (
-            <option key={t.id} value={t.id}>
-              {t.name}
-            </option>
-          ))}
-        </Select>
-        <Select aria-label="Tipo" value={filter.types?.[0] ?? ''} onChange={(e) => set({ type: e.target.value })}>
-          <option value="">Tipo</option>
-          <option value="mcq">{QUESTION_TYPE_LABELS.mcq}</option>
-          <option value="open">{QUESTION_TYPE_LABELS.open}</option>
-        </Select>
-        <Select aria-label="Procedencia" value={origin} onChange={(e) => set({ origin: e.target.value === 'all' ? null : (e.target.value as OriginFilter) })}>
-          <option value="all">Procedencia</option>
-          <option value="community">De la comunidad</option>
-          <option value="mine">Sin publicar</option>
-        </Select>
-        <Select aria-label="Ordenar" value={sort} onChange={(e) => set({ sort: e.target.value === 'recent' ? null : (e.target.value as SortKey) })}>
-          {(Object.keys(SORT_LABELS) as SortKey[]).map((key) => (
-            <option key={key} value={key}>
-              {SORT_LABELS[key]}
-            </option>
-          ))}
-        </Select>
-      </div>
-      <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label="Dificultad">
-        {DIFFICULTY_VALUES.map((level) => (
-          <button
-            key={level}
-            type="button"
-            aria-pressed={chosen.has(level)}
-            onClick={() => toggleDifficulty(level)}
-            className={cn(
-              'h-7 rounded-full border px-2.5 text-xs font-medium transition-colors',
-              chosen.has(level) ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:border-border-strong hover:text-ink',
-            )}
-          >
-            {DIFFICULTY_LABELS[level]}
-          </button>
-        ))}
-        {active ? (
-          <button
-            type="button"
-            onClick={() => {
-              setText('');
-              clear();
-            }}
-            className="ml-1 text-xs text-muted underline underline-offset-2 hover:text-ink"
-          >
-            Quitar filtros
-          </button>
-        ) : null}
+          {active ? (
+            <button
+              type="button"
+              onClick={() => {
+                setText('');
+                clear();
+              }}
+              className="ml-1 text-xs text-muted underline underline-offset-2 hover:text-ink"
+            >
+              Quitar filtros
+            </button>
+          ) : null}
+        </div>
       </div>
     </div>
   );

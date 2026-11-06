@@ -1,7 +1,7 @@
 import { ClipboardCheck, Flag, History, Play, Repeat, SlidersHorizontal, Star, Target, Timer, XCircle } from 'lucide-react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
-import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { DIFFICULTY_LABELS, DIFFICULTY_VALUES, type Difficulty } from '@core/schema/common';
 import { filterQuestions } from '@core/questions/filter';
 import { QUESTION_TYPE_LABELS, type QuestionType } from '@core/schema/question';
@@ -13,8 +13,8 @@ import { Button, ButtonLink } from '@/ui/Button';
 import { Field, Input, Select } from '@/ui/Field';
 import { Card, CardHeader, EmptyState, Notice, PageHeader, Spinner } from '@/ui/Surface';
 import { cn } from '@/ui/cn';
-import { toast } from '@/ui/toast';
-import { MODE_LABELS, SessionError, startSession, useActiveSessions } from './sessions';
+import { useLaunchSession } from './launch';
+import { MODE_LABELS, useActiveSessions } from './sessions';
 
 function ModeCard({ icon, title, description, children }: { icon: ReactNode; title: string; description: string; children: ReactNode }) {
   return (
@@ -45,7 +45,7 @@ export default function StudyPage() {
   const questions = useQuestions();
   const taxonomy = useTaxonomy();
   const active = useActiveSessions();
-  const navigate = useNavigate();
+  const launchSession = useLaunchSession();
   const [params] = useSearchParams();
 
   const [subjectId, setSubjectId] = useState(params.get('subject') ?? '');
@@ -92,14 +92,8 @@ export default function StudyPage() {
   const unit = subject?.units.find((u) => u.id === unitId);
   const scopeTitle = taxonomy.index.topics.get(topicId)?.topic.name ?? unit?.name ?? subject?.name ?? 'Todo el banco';
 
-  const launch = async (mode: 'practice' | 'exam' | 'review' | 'custom', sessionConfig: SessionConfig, title: string, timeLimitSec?: number) => {
-    try {
-      const id = await startSession({ mode, title, config: sessionConfig, timeLimitSec });
-      navigate(`/study/session/${id}`);
-    } catch (error) {
-      toast.error(error instanceof SessionError ? error.message : 'No se ha podido crear la sesión.');
-    }
-  };
+  const launch = (mode: 'practice' | 'exam' | 'review' | 'custom', sessionConfig: SessionConfig, title: string, timeLimitSec?: number) =>
+    launchSession({ mode, title, config: sessionConfig, timeLimitSec });
 
   const quick = (mode: 'practice' | 'exam') => {
     const scope = { count: mode === 'exam' ? count : 10, subjectId: subjectId || undefined };

@@ -77,8 +77,8 @@ export default function ExplorePage() {
           navigate(`/bank?q=${encodeURIComponent(query.trim())}`);
         }}
       >
-        <Search size={15} className="pointer-events-none absolute top-2.5 left-2.5 text-faint" aria-hidden />
-        <Input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Buscar preguntas…" aria-label="Buscar preguntas" className="pl-8" />
+        <Search size={15} className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-faint" aria-hidden />
+        <Input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Buscar preguntas…" aria-label="Buscar preguntas" className="pl-9" />
       </form>
 
       {taxonomy.subjects.length === 0 ? (

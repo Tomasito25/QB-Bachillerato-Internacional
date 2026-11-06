@@ -7,15 +7,15 @@ export type ButtonSize = 'sm' | 'md' | 'icon' | 'icon-sm';
 
 const VARIANTS: Record<ButtonVariant, string> = {
   primary: 'bg-accent text-accent-ink hover:bg-accent-hover border border-transparent',
-  secondary: 'bg-surface text-ink border border-border hover:bg-subtle hover:border-border-strong',
+  secondary: 'bg-surface text-ink border border-border hover:bg-subtle',
   ghost: 'text-muted hover:text-ink hover:bg-hover border border-transparent',
   danger: 'bg-surface text-danger border border-border hover:bg-danger-soft hover:border-danger',
 };
 
 const SIZES: Record<ButtonSize, string> = {
-  sm: 'h-8 px-2.5 text-[13px] gap-1.5',
-  md: 'h-9 px-3.5 text-sm gap-2',
-  icon: 'size-9 justify-center',
+  sm: 'h-8 px-3 text-[13px] gap-1.5',
+  md: 'h-10 px-4 text-sm gap-2',
+  icon: 'size-10 justify-center',
   'icon-sm': 'size-8 justify-center',
 };
 

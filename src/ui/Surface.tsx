@@ -7,10 +7,10 @@ export function Card({ className, children }: { className?: string; children: Re
 
 export function CardHeader({ title, description, action }: { title: ReactNode; description?: ReactNode; action?: ReactNode }) {
   return (
-    <div className="flex items-start justify-between gap-3 border-b border-border px-4 py-3">
+    <div className="flex items-start justify-between gap-3 border-b border-border px-4 py-3.5">
       <div className="min-w-0">
-        <h2 className="text-sm font-semibold">{title}</h2>
-        {description ? <p className="mt-0.5 text-xs text-muted">{description}</p> : null}
+        <h2 className="text-[15px] font-semibold tracking-tight">{title}</h2>
+        {description ? <p className="mt-0.5 text-[13px] text-muted">{description}</p> : null}
       </div>
       {action ? <div className="shrink-0">{action}</div> : null}
     </div>
@@ -20,16 +20,16 @@ export function CardHeader({ title, description, action }: { title: ReactNode; d
 export type BadgeTone = 'neutral' | 'accent' | 'success' | 'warning' | 'danger';
 
 const TONES: Record<BadgeTone, string> = {
-  neutral: 'bg-subtle text-muted border-border',
-  accent: 'bg-accent-soft text-accent-text border-transparent',
-  success: 'bg-success-soft text-success border-transparent',
-  warning: 'bg-warning-soft text-warning border-transparent',
-  danger: 'bg-danger-soft text-danger border-transparent',
+  neutral: 'bg-subtle text-muted',
+  accent: 'bg-accent-soft text-accent-text',
+  success: 'bg-success-soft text-success',
+  warning: 'bg-warning-soft text-warning',
+  danger: 'bg-danger-soft text-danger',
 };
 
 export function Badge({ tone = 'neutral', className, children, title }: { tone?: BadgeTone; className?: string; children: ReactNode; title?: string }) {
   return (
-    <span title={title} className={cn('inline-flex items-center gap-1 rounded border px-1.5 py-0.5 text-xs font-medium whitespace-nowrap', TONES[tone], className)}>
+    <span title={title} className={cn('inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium whitespace-nowrap', TONES[tone], className)}>
       {children}
     </span>
   );
@@ -41,10 +41,10 @@ export function PageHeader({ title, description, actions, documentTitle }: { tit
     if (text) document.title = `${text} · QuestionBank`;
   }, [text]);
   return (
-    <header className="mb-6 flex flex-wrap items-start justify-between gap-3">
+    <header className="mb-7 flex flex-wrap items-end justify-between gap-3">
       <div className="min-w-0">
-        <h1 className="text-xl font-semibold tracking-tight">{title}</h1>
-        {description ? <p className="mt-1 max-w-2xl text-sm text-muted">{description}</p> : null}
+        <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
+        {description ? <p className="mt-1.5 max-w-2xl text-[15px] text-muted">{description}</p> : null}
       </div>
       {actions ? <div className="flex flex-wrap items-center gap-2">{actions}</div> : null}
     </header>
@@ -53,9 +53,9 @@ export function PageHeader({ title, description, actions, documentTitle }: { tit
 
 export function EmptyState({ icon, title, children, action }: { icon?: ReactNode; title: string; children?: ReactNode; action?: ReactNode }) {
   return (
-    <div className="flex flex-col items-center rounded-lg border border-dashed border-border-strong px-6 py-10 text-center">
-      {icon ? <div className="mb-3 text-faint">{icon}</div> : null}
-      <p className="text-sm font-medium">{title}</p>
+    <div className="flex flex-col items-center rounded-lg bg-subtle/70 px-6 py-12 text-center">
+      {icon ? <div className="mb-4 flex size-14 items-center justify-center rounded-full bg-surface text-accent-text">{icon}</div> : null}
+      <p className="text-[15px] font-semibold tracking-tight">{title}</p>
       {children ? <div className="mt-1 max-w-md text-sm text-muted">{children}</div> : null}
       {action ? <div className="mt-4 flex flex-wrap justify-center gap-2">{action}</div> : null}
     </div>
@@ -66,7 +66,7 @@ export function Stat({ label, value, hint }: { label: ReactNode; value: ReactNod
   return (
     <div className="min-w-0">
       <p className="truncate text-xs text-muted">{label}</p>
-      <p className="mt-0.5 text-xl font-semibold tracking-tight tabular-nums">{value}</p>
+      <p className="mt-1 text-2xl font-semibold tracking-tight tabular-nums">{value}</p>
       {hint ? <p className="mt-0.5 truncate text-xs text-muted">{hint}</p> : null}
     </div>
   );
@@ -93,14 +93,14 @@ export function Spinner({ label = 'Cargando…' }: { label?: string }) {
 
 export function Notice({ tone = 'neutral', title, children, className, action }: { tone?: BadgeTone; title?: ReactNode; children?: ReactNode; className?: string; action?: ReactNode }) {
   const styles: Record<BadgeTone, string> = {
-    neutral: 'bg-subtle border-border',
-    accent: 'bg-accent-soft border-transparent',
-    success: 'bg-success-soft border-transparent',
-    warning: 'bg-warning-soft border-transparent',
-    danger: 'bg-danger-soft border-transparent',
+    neutral: 'bg-subtle',
+    accent: 'bg-accent-soft',
+    success: 'bg-success-soft',
+    warning: 'bg-warning-soft',
+    danger: 'bg-danger-soft',
   };
   return (
-    <div className={cn('flex flex-wrap items-start justify-between gap-x-4 gap-y-2 rounded-lg border px-3.5 py-2.5 text-sm', styles[tone], className)}>
+    <div className={cn('flex flex-wrap items-center justify-between gap-x-4 gap-y-2 rounded-lg px-4 py-3 text-sm', styles[tone], className)}>
       <div className="min-w-0 flex-1 basis-60">
         {title ? <p className="font-medium">{title}</p> : null}
         {children ? <div className={cn(title ? 'mt-0.5' : '', 'text-[13px] text-muted')}>{children}</div> : null}

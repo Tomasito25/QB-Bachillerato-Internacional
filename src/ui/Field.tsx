@@ -2,8 +2,8 @@ import { useId, type InputHTMLAttributes, type ReactNode, type SelectHTMLAttribu
 import { cn } from './cn';
 
 const CONTROL =
-  'rounded-md border border-border bg-surface px-2.5 text-sm text-ink placeholder:text-faint transition-colors ' +
-  'hover:border-border-strong focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/25 disabled:opacity-60 ' +
+  'rounded-md border border-border bg-surface px-3 text-sm text-ink placeholder:text-faint transition-colors ' +
+  'hover:border-border-strong focus:border-accent focus:outline-none focus:ring-3 focus:ring-accent/15 disabled:opacity-60 ' +
   'aria-invalid:border-danger';
 
 /**
@@ -16,7 +16,7 @@ function sized(className: string | undefined, height: string | false): string {
 }
 
 export function Input({ className, ...rest }: InputHTMLAttributes<HTMLInputElement>) {
-  return <input className={sized(className, 'h-9')} {...rest} />;
+  return <input className={sized(className, 'h-10')} {...rest} />;
 }
 
 export function Textarea({ className, ...rest }: TextareaHTMLAttributes<HTMLTextAreaElement>) {
@@ -25,7 +25,7 @@ export function Textarea({ className, ...rest }: TextareaHTMLAttributes<HTMLText
 
 export function Select({ className, children, ...rest }: SelectHTMLAttributes<HTMLSelectElement>) {
   return (
-    <select className={cn(sized(className, 'h-9'), 'pr-7')} {...rest}>
+    <select className={cn(sized(className, 'h-10'), 'pr-8')} {...rest}>
       {children}
     </select>
   );

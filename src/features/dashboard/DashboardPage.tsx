@@ -11,12 +11,14 @@ import { db } from '@/infra/db/db';
 import { useQuestions } from '@/features/bank/questionsRepo';
 import { preferences } from '@/features/settings/preferences';
 import { useLocalStats } from '@/features/study/localStats';
+import { useLaunchSession } from '@/features/study/launch';
 import { MODE_LABELS, useActiveSessions } from '@/features/study/sessions';
 import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
-import { ButtonLink } from '@/ui/Button';
-import { Card, CardHeader, EmptyState, Notice, PageHeader, ProgressBar, Spinner, Stat } from '@/ui/Surface';
+import { Button, ButtonLink } from '@/ui/Button';
+import { Card, CardHeader, EmptyState, PageHeader, ProgressBar, Spinner, Stat } from '@/ui/Surface';
 
 const relative = new Intl.RelativeTimeFormat('es', { numeric: 'auto' });
+const dateLabel = new Intl.DateTimeFormat('es', { weekday: 'long', day: 'numeric', month: 'long' });
 
 function timeAgo(ms: number): string {
   const days = Math.round((ms - Date.now()) / 86_400_000);
@@ -96,6 +98,7 @@ export default function DashboardPage() {
   const taxonomy = useTaxonomy();
   const active = useActiveSessions();
   const { dailyGoal } = preferences.use();
+  const launch = useLaunchSession();
 
   const recentSubjects = useMemo(() => {
     if (!stats || !taxonomy) return [];
@@ -135,68 +138,63 @@ export default function DashboardPage() {
   }
 
   const goalProgress = stats.today / dailyGoal;
-
+  const session = active?.[0];
+  const today = dateLabel.format(new Date());
   return (
     <>
-      <PageHeader
-        title="Inicio"
-        actions={
-          <ButtonLink to="/study" variant="primary" icon={<Play size={16} aria-hidden />}>
-            Estudiar
-          </ButtonLink>
-        }
-      />
-      <div className="flex flex-col gap-4">
-        {active?.[0] ? (
-          <Notice
-            tone="accent"
-            title={`${MODE_LABELS[active[0].mode]} a medias${active[0].title ? `: ${active[0].title}` : ''}`}
-            action={
-              <ButtonLink to={`/study/session/${active[0].id}`} variant="primary" size="sm">
-                Continuar
-              </ButtonLink>
-            }
-          >
-            Pregunta {active[0].cursor + 1} de {active[0].questionIds.length}.
-          </Notice>
-        ) : null}
-
-        <Card className="grid grid-cols-2 gap-4 p-4 sm:grid-cols-4">
-          <div className="min-w-0">
-            <Stat label="Hoy" value={`${stats.today} / ${dailyGoal}`} />
-            <ProgressBar value={goalProgress} label="Objetivo diario" tone={goalProgress >= 1 ? 'success' : 'accent'} className="mt-2" />
+      <PageHeader title="Hoy" documentTitle="Inicio" description={today.charAt(0).toUpperCase() + today.slice(1)} />
+      <div className="flex flex-col gap-5">
+        <Card className="p-5 sm:p-6">
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p className="text-sm text-muted">{goalProgress >= 1 ? 'Objetivo cumplido' : 'Objetivo diario'}</p>
+              <p className="mt-1 text-4xl font-semibold tracking-tight tabular-nums">
+                {stats.today}
+                <span className="text-xl font-medium text-faint"> / {dailyGoal}</span>
+              </p>
+            </div>
+            {/* Una sola acción principal: lo que más sentido tiene ahora mismo. */}
+            <div className="flex flex-wrap gap-2">
+              {session ? (
+                <ButtonLink to={`/study/session/${session.id}`} variant="primary" icon={<Play size={16} aria-hidden />}>
+                  Continuar {MODE_LABELS[session.mode].toLowerCase()}
+                </ButtonLink>
+              ) : stats.due > 0 ? (
+                <Button variant="primary" icon={<History size={16} aria-hidden />} onClick={() => void launch({ mode: 'review', title: 'Toca repasar', config: { count: 50, source: 'due' } })}>
+                  Repasar {stats.due}
+                </Button>
+              ) : (
+                <Button variant="primary" icon={<Play size={16} aria-hidden />} onClick={() => void launch({ mode: 'practice', title: 'Todo el banco', config: { count: 10 } })}>
+                  Practicar
+                </Button>
+              )}
+              <ButtonLink to="/study">Más modos</ButtonLink>
+            </div>
           </div>
-          <Stat
-            label="Racha"
-            value={
-              <span className="inline-flex items-center gap-1">
-                <Flame size={18} className={stats.streak > 0 ? 'text-warning' : 'text-faint'} aria-hidden />
-                {stats.streak} {stats.streak === 1 ? 'día' : 'días'}
-              </span>
-            }
-            hint={stats.longestStreak > stats.streak ? `Mejor: ${stats.longestStreak}` : undefined}
-          />
-          <Stat label="Precisión en test" value={stats.accuracy === null ? '—' : `${Math.round(stats.accuracy * 100)} %`} hint={stats.mcqTotal > 0 ? `${stats.mcqTotal} ${stats.mcqTotal === 1 ? "respuesta" : "respuestas"}` : undefined} />
-          <Stat label="Preguntas disponibles" value={questions.length.toLocaleString('es')} />
+          <ProgressBar value={goalProgress} label="Objetivo diario" tone={goalProgress >= 1 ? 'success' : 'accent'} className="mt-5 h-2" />
+          {session ? (
+            <p className="mt-3 text-[13px] text-muted">
+              {MODE_LABELS[session.mode]} a medias{session.title ? `: ${session.title}` : ''} · pregunta {session.cursor + 1} de {session.questionIds.length}
+            </p>
+          ) : stats.due > 0 ? (
+            <p className="mt-3 text-[13px] text-muted">Es el momento en que repasar cunde más.</p>
+          ) : null}
+          <div className="mt-6 grid grid-cols-3 gap-4 border-t border-border pt-5">
+            <Stat
+              label="Racha"
+              value={
+                <span className="inline-flex items-center gap-1">
+                  <Flame size={20} className={stats.streak > 0 ? 'text-warning' : 'text-faint'} aria-hidden />
+                  {stats.streak}
+                </span>
+              }
+              hint={stats.streak === 1 ? 'día' : 'días'}
+            />
+            <Stat label="Precisión" value={stats.accuracy === null ? '—' : `${Math.round(stats.accuracy * 100)} %`} hint={stats.mcqTotal > 0 ? `en ${stats.mcqTotal} de test` : 'en test'} />
+            <Stat label="Dominadas" value={stats.mastered.toLocaleString('es')} hint={`de ${questions.length.toLocaleString('es')}`} />
+          </div>
         </Card>
-
-        {stats.due > 0 ? (
-          <Notice
-            tone="neutral"
-            title={`Tienes ${stats.due} ${stats.due === 1 ? 'pregunta' : 'preguntas'} para repasar hoy`}
-            action={
-              <ButtonLink to="/study" size="sm" icon={<History size={14} aria-hidden />}>
-                Repasar
-              </ButtonLink>
-            }
-          >
-            Es el momento en que repasar cunde más.
-          </Notice>
-        ) : null}
-
-        <div className="grid gap-4 lg:grid-cols-2">
-          <OfficialCard />
-          <ActiveCompetitions />
+        <div className="grid gap-5 lg:grid-cols-2">
           <Card>
             <CardHeader title="Asignaturas recientes" action={<Link to="/explore" className="inline-flex items-center gap-1 text-xs text-muted hover:text-ink">Explorar <ArrowRight size={12} aria-hidden /></Link>} />
             {recentSubjects.length === 0 ? (
@@ -205,7 +203,7 @@ export default function DashboardPage() {
               <ul className="divide-y divide-border">
                 {recentSubjects.map((subject) => (
                   <li key={subject.id}>
-                    <Link to={`/explore/${subject.id}`} className="flex items-center justify-between gap-3 px-4 py-2.5 text-[13.5px] hover:bg-subtle/60">
+                    <Link to={`/explore/${subject.id}`} className="flex items-center justify-between gap-3 px-4 py-3 text-sm hover:bg-subtle/60">
                       <span className="min-w-0 truncate font-medium">{subject.name}</span>
                       <span className="shrink-0 text-xs text-muted tabular-nums">
                         {subject.mcq > 0 ? `${Math.round((subject.correct / subject.mcq) * 100)} % · ` : ''}
@@ -217,23 +215,8 @@ export default function DashboardPage() {
               </ul>
             )}
           </Card>
-          <Card>
-            <CardHeader title="Última actividad" action={<Link to="/stats" className="inline-flex items-center gap-1 text-xs text-muted hover:text-ink">Estadísticas <ArrowRight size={12} aria-hidden /></Link>} />
-            <div className="flex flex-col gap-1 p-4 text-[13.5px]">
-              {stats.lastAttemptAt ? (
-                <>
-                  <p>
-                    Estudiaste por última vez <span className="font-medium">{timeAgo(stats.lastAttemptAt)}</span>.
-                  </p>
-                  <p className="text-[13px] text-muted">
-                    {stats.total.toLocaleString('es')} respuestas en total · {stats.mastered} {stats.mastered === 1 ? 'pregunta dominada' : 'preguntas dominadas'}.
-                  </p>
-                </>
-              ) : (
-                <p className="text-muted">Todavía no has respondido nada.</p>
-              )}
-            </div>
-          </Card>
+          <ActiveCompetitions />
+          <OfficialCard />
         </div>
       </div>
     </>

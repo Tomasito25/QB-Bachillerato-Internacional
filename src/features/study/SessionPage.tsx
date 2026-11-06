@@ -238,7 +238,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
         </div>
       ) : null}
 
-      <Card className="p-4 sm:p-5">
+      <Card className="mb-5 p-4 sm:p-5">
         <div className="mb-3 flex items-center justify-between gap-2">
           {prefs.showDifficulty ? <DifficultyBadge value={question.difficulty} /> : <span />}
           <QuestionFlags questionId={question.id} />
@@ -266,7 +266,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
         </div>
       </Card>
 
-      <div className="safe-bottom sticky bottom-16 z-10 -mx-4 mt-4 flex items-center justify-between gap-2 border-t border-border bg-canvas/95 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6 lg:bottom-0 lg:-mx-10 lg:px-10">
+      <div className="safe-bottom sticky bottom-0 z-10 -mx-4 mt-auto flex lg:mt-0 items-center justify-between gap-2 border-t border-border bg-canvas/90 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6">
         <Button icon={<ArrowLeft size={16} aria-hidden />} disabled={session.cursor === 0} onClick={() => go(session.cursor - 1)}>
           Anterior
         </Button>
