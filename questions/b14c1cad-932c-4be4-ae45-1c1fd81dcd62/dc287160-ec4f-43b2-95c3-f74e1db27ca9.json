@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "dc287160-ec4f-43b2-95c3-f74e1db27ca9",
+  "rev": 1,
+  "statement": "El siguiente gráfico muestra la variación con el desplazamiento $x$ De la aceleración $a$ Desde la posición de equilibrio de una partícula que sufre un simple movimiento armónico.\n\nLa magnitud de la pendiente del gráfico es directamente proporcional a",
+  "explanation": "$$\n\\text{Pendiente del gráfico} = \\frac{a}{x}\n$$\n\n$$\na = \\omega^2 x\n$$\n\n$$\n\\omega = 2\\pi f\n$$\n\n$$\na = 4\\pi^2 f^2 x\n$$\n\n$$\n\\frac{a}{x} = 4\\pi^2 f^2\n$$\n\n$$\n\\frac{a}{x} \\propto f^2\n$$",
+  "images": [
+    {
+      "hash": "c1cc5e96a13f48c900ad179b7aa451b91e0d1b5c89b785ac215fb292e8f57bf4",
+      "ext": "webp",
+      "width": 182,
+      "height": 154,
+      "bytes": 1046,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-06T17:50:53.000Z",
+  "updatedAt": "2026-11-06T17:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El cuadrado de la frecuencia de oscilación",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La frecuencia de oscilación",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El cuadrado del período de oscilación",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El periodo de oscilación",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
