@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
   "name": "Fisica SL IB",
-  "rev": 2,
+  "rev": 3,
   "createdBy": {
     "login": "tomasito25",
     "id": 179742599
   },
   "createdAt": "2026-11-05T18:28:35.000Z",
-  "updatedAt": "2026-11-06T18:37:35.000Z",
+  "updatedAt": "2026-11-06T19:43:11.000Z",
   "units": [
     {
       "id": "a13b7f8a-7bbc-40cb-8fa7-0f45716a37d6",
@@ -31,6 +31,16 @@
           "id": "c8c6262a-1994-4b13-8c99-1f90447cce50",
           "name": "Cinemática",
           "order": 0
+        },
+        {
+          "id": "b8e449b1-dfe4-45be-b3af-be4d258be407",
+          "name": "Fuerzas y cantidad de movimiento",
+          "order": 1
+        },
+        {
+          "id": "a87c9cf6-152d-4064-9a64-ddc322160ccd",
+          "name": "Trabajo, energía y potencia",
+          "order": 2
         }
       ]
     }

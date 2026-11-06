@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "eee2381d-8238-485d-887a-52be564b5eaa",
+  "rev": 1,
+  "statement": "Una pelota de masa m colisiona con otra pelota, en reposo, de masa 3m. Tras la colisión, las dos\npelotas se mueven juntas.\n¿Cuál será la pérdida, en porcentaje, de energía cinética del sistema?",
+  "explanation": "Al quedarse las dos pelotas juntas, se conserva el momento lineal, pero no la energía cinética. Por conservación del momento, la velocidad final es $v/4$ y 100 - 25 = 75%",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "nikovr0",
+    "id": 198808941
+  },
+  "createdAt": "2026-11-06T19:43:11.000Z",
+  "updatedAt": "2026-11-06T19:43:11.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "0%",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "25%",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "50%",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "75%",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

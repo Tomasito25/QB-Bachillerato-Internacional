@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "9bc82a91-55e4-4a73-9791-8162d36ed480",
+  "rev": 1,
+  "statement": "Una gota de lluvia cae desde el reposo por el aire con velocidad v y aceleración a.\n\n¿Cuál de los gráficos representa mejor la variación de a frente a v?",
+  "images": [
+    {
+      "hash": "ea77c082bb7c0884558df7bf07d176404ae30cb260714ece8d92b448d016667b",
+      "ext": "webp",
+      "width": 232,
+      "height": 183,
+      "bytes": 1426,
+      "alt": ""
+    },
+    {
+      "hash": "6192dfa45fe35b32373984c5aa03a3f831df4a67bdf7b7641c7aa5397ceb0f17",
+      "ext": "webp",
+      "width": 259,
+      "height": 201,
+      "bytes": 1744,
+      "alt": ""
+    },
+    {
+      "hash": "549640956a8d97fbb4d047ea11f4153b9e0241de2d5d481d4b0f4cdd4dd66561",
+      "ext": "webp",
+      "width": 248,
+      "height": 196,
+      "bytes": 1658,
+      "alt": ""
+    },
+    {
+      "hash": "efb4a58b842c32f00f79666b1e6a57e492daf8d4048e0b26c5a04ce422f1b346",
+      "ext": "webp",
+      "width": 246,
+      "height": 185,
+      "bytes": 1720,
+      "alt": ""
+    }
+  ],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50",
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "nikovr0",
+    "id": 198808941
+  },
+  "createdAt": "2026-11-06T19:43:11.000Z",
+  "updatedAt": "2026-11-06T19:43:11.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "![figura](qbimg:ea77c082bb7c0884558df7bf07d176404ae30cb260714ece8d92b448d016667b)",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "![figura](qbimg:6192dfa45fe35b32373984c5aa03a3f831df4a67bdf7b7641c7aa5397ceb0f17)",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "![figura](qbimg:549640956a8d97fbb4d047ea11f4153b9e0241de2d5d481d4b0f4cdd4dd66561)",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "![figura](qbimg:efb4a58b842c32f00f79666b1e6a57e492daf8d4048e0b26c5a04ce422f1b346)",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

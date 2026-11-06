@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "944bef39-12eb-476e-a987-9b2105fd756f",
+  "rev": 1,
+  "statement": "Dos bloques idénticos, X e Y, cada uno de masa 2,0 kg, se conectan con una cuerda. Se desplazan sobre una misma superficie.\n\nUna fuerza F acelera a los bloques a 0,5 $\\text{ m s}^{-2}$. La fuerza de fricción sobre el bloque X es de 4,0 N.\n\n\n![figura](qbimg:40529839090846bd03ca9ca4a91b272979b81885514b511fc1382caa736eb75d)\n\n¿Cuánto valdrá la tensión en la cuerda?\nA. 1N\nB. 2N\nC. 5N\nD. 10N",
+  "images": [
+    {
+      "hash": "40529839090846bd03ca9ca4a91b272979b81885514b511fc1382caa736eb75d",
+      "ext": "webp",
+      "width": 266,
+      "height": 55,
+      "bytes": 1244,
+      "alt": "Fuerza F tirando de cubo X conectado a Y por una cuerda"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [],
+  "references": [
+    {
+      "title": "Physics SL 1A. M25 TZ3 Spanish"
+    }
+  ],
+  "author": {
+    "login": "nikovr0",
+    "id": 198808941
+  },
+  "createdAt": "2026-11-06T19:43:11.000Z",
+  "updatedAt": "2026-11-06T19:43:11.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1 N",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "2 N",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "5 N",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "10 N",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
