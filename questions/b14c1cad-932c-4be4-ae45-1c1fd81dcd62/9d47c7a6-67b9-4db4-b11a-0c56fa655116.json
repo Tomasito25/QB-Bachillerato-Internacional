@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "9d47c7a6-67b9-4db4-b11a-0c56fa655116",
+  "rev": 1,
+  "statement": "Se lanzan dos pelotas, P y Q, desde el borde de un acantilado. P se lanza en horizontal con una rapidez v y Q se lanza en vertical hacia arriba con la misma rapidez. El tiempo que tarda P en alcanzar el suelo es $t_p$ y la rapidez en el impacto con el suelo es $v_p$. La resistencia del aire es despreciable.\n¿Cuál será el tiempo transcurrido hasta alcanzar el suelo y la rapidez en el impacto con el suelo para Q?",
+  "explanation": "Q tarda más porque primero sube y después cae. Sin embargo, ambas pelotas llegan al suelo con la misma rapidez, ya que parten de la misma altura y tienen la misma velocidad inicial, y no hay resistencia del aire.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [],
+  "references": [
+    {
+      "title": "Physics SL 1A. M25 TZ3 Spanish"
+    }
+  ],
+  "author": {
+    "login": "nikovr0",
+    "id": 198808941
+  },
+  "createdAt": "2026-11-06T19:43:11.000Z",
+  "updatedAt": "2026-11-06T19:43:11.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Tiempo transcurrido: $t_p$ | Rapidez en el impacto: $v_P$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Tiempo transcurrido: $t_p$ | Rapidez en el impacto: Mayor que $v_P$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Tiempo transcurrido: Mayor que $t_p$ | Rapidez en el impacto: $v_P$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Tiempo transcurrido: Mayor que $t_p$ | Rapidez en el impacto: Mayor que $v_P$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
