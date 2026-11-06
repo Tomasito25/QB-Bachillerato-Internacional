@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ad79eb96-b06c-4db5-b778-cc39ce672458",
+  "rev": 1,
+  "statement": "Dos péndulos simples con longitudes $16L$ y $9L$ Tener masas $4M$ y $3M$ respectivamente. El período de la masa de $4M$ Es $T$. ¿Cuál es el período de masa de $3M$?",
+  "explanation": "Los períodos de la péndula son dados por:\n\n$$T = 2\\pi\\sqrt{\\frac{16L}{G}}, \\qquad T' = 2\\pi\\sqrt{\\frac{9L}{G}}$$\n\n$$\\frac{T'}{T} = \\frac{2\\pi\\sqrt{\\frac{9L}{G}}}{2\\pi\\sqrt{\\frac{16L}{G}}}$$\n\n$$T' = \\sqrt{\\frac{9}{16}}\\,T = \\frac{3}{4}T$$",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-06T18:34:33.000Z",
+  "updatedAt": "2026-11-06T18:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$$\\sqrt{\\frac{3}{4}}\\,T$$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "3/4 · T",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "T",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "9 / 16 · T",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
