@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "da3c529d-07f6-4995-b6f3-2746e1861915",
+  "rev": 1,
+  "statement": "Un sistema masa-muelle ejecuta un movimiento armónico simple con un período $T$ En un plano vertical. ¿Cuál es el período en que la masa oscilante se duplica y el sistema se lleva a un planeta donde la fuerza del campo gravitacional en la superficie se reduce a la mitad?",
+  "explanation": "La misa es $2M$ Y la constante del muelle no cambia. Además, la intensidad del campo gravitacional no afecta al período.\n\n$$T_new = 2π√(k²/m)\n\n= √2 · (π√(k/M))\n\n= √2 · T$$",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-06T17:28:41.000Z",
+  "updatedAt": "2026-11-06T17:28:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "2 · T",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "√2 · T",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "T",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "T / 2",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

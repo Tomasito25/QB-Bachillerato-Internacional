@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "fe32263b-9be5-427c-98af-e9db985eb897",
+  "rev": 1,
+  "statement": "Un péndulo simple sufre un simple movimiento armónico. El gráfico muestra la variación de una cantidad $Y$ Con desplazamiento horizontal $x$ Desde la posición de equilibrio\n\n¿Cuál de las cantidades siguientes podría estar representado por la cantidad $Y$?\n\n    \t\n    I. \tLa velocidad del péndulo\n    II. \tLa energía cinética del péndulo\n    III. \tLa energía potencial del péndulo",
+  "explanation": "El eje y no puede representar la velocidad del péndulo, ya que un gráfico de posición de velocidad también mostraría velocidades negativas para representar el movimiento en ambas direcciones.\n\nLa fórmula de la energía cinética es de forma parabólica, abriéndose hacia abajo como se muestra en el gráfico.\n\nLa energía potencial del pendulo debe estar menos en la posición de equilibrio que en las posiciones donde el desplazamiento es máximo.",
+  "images": [
+    {
+      "hash": "69961243600ab2ef962a842ab8e9bad9ade8ede7ae9cb31cb46a6aee47bcaaee",
+      "ext": "webp",
+      "width": 201,
+      "height": 137,
+      "bytes": 964,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-06T17:28:41.000Z",
+  "updatedAt": "2026-11-06T17:28:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "I solamente",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "II solamente",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "I y II solamente",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "II y III solamente",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
