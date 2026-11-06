@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "abac8c53-2dd8-4f3a-9724-153b605335ec",
+  "rev": 1,
+  "statement": "Un objeto realiza un movimiento armónico simple (MAS) con amplitud $A$ y frecuencia angular $omega$\n\nCuando el objeto pasa por la posición de equilibrio, ¿cuál de las siguientes afirmaciones es correcta?",
+  "explanation": "En el MAS:\n- La velocidad es máxima en la posición de equilibrio, porque toda la energía es cinética.\n- La aceleración es cero en el equilibrio, ya que:\n$$\na=-\\omega^2x\n$$",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-06T22:02:40.000Z",
+  "updatedAt": "2026-11-06T22:02:40.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Su velocidad y aceleración son máximas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Su velocidad es máxima y su aceleración es cero",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Su velocidad es cero y su aceleración es máxima.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Su energía cinética y su energía potencial son máximas simultáneamente.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
