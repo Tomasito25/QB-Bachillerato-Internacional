@@ -6,7 +6,7 @@ import { SubjectDoc } from '@core/schema/taxonomy';
 import { decodeIssueBody } from '@core/submissions/envelope';
 import { connectWithToken, disconnect, identity, TokenScopeError } from '@/features/account/identity';
 import { saveLocalQuestion } from '@/features/bank/questionsRepo';
-import { discardItem, flushWithToken, isOpen, LABEL_TO_STATUS, manualTransport, markAwaitingUser, refreshStatuses } from '@/features/sync/outbox';
+import { discardItem, enqueue, flushWithToken, isOpen, LABEL_TO_STATUS, manualTransport, markAwaitingUser, markSent, refreshStatuses } from '@/features/sync/outbox';
 import { publishResults, publishViaIssue, publishViaPull, unpublishedAnswerCount } from '@/features/sync/publish';
 import { clearToken, decryptToken, encryptToken, generateVaultKey, getToken, setToken } from '@/infra/crypto/tokenVault';
 import { db } from '@/infra/db/db';
@@ -158,6 +158,20 @@ describe('publicar resultados', () => {
   });
 });
 
+describe('resultados en cola', () => {
+  it('no vuelve a enviar respuestas que ya van en un envío pendiente', async () => {
+    const question = makeMcq();
+    await db.cQuestions.put({ ...question, shardId: 's' });
+    await db.attempts.put(attempt(question.id));
+    await publishResults();
+    const later = attempt(question.id);
+    await db.attempts.put(later);
+    const [row] = await publishResults();
+    expect(row?.related.attempts).toEqual([later.id]);
+    expect(await unpublishedAnswerCount()).toBe(0);
+  });
+});
+
 describe('estado de los envíos', () => {
   it('con dos issues del mismo envío, manda el que entró', async () => {
     await db.cSubjects.put(makeSubject());
@@ -215,6 +229,17 @@ describe('estado de los envíos', () => {
     await refreshStatuses();
     await discardItem((await db.outbox.get(row.id)) as OutboxRow);
     expect((await db.lQuestions.get(question.id))?.local).toMatchObject({ syncState: 'local', outboxId: null });
+  });
+
+  it('un PR de la vía con token se reconoce por su número: su título no lleva el nonce', async () => {
+    await db.cSubjects.put(makeSubject());
+    const question = makeMcq({ author: null });
+    await saveLocalQuestion(question, null);
+    const row = await enqueue({ v: 1, kind: 'questions', nonce: 'pullnonce001', questions: [], subjects: [], images: [], licenseAccepted: true, origin: 'own' } as unknown as Submission, 'resumen', { questions: [question.id] }, 'pull');
+    await markSent(row, { issueNumber: 11, url: 'u11', attempts: 1 });
+    serve([{ number: 11, title: '1 pregunta de @ana', state: 'closed', html_url: 'u11', created_at: '', labels: [{ name: 'qb:accepted' }], user: { login: 'ana', id: 1, avatar_url: '', type: 'User' }, pull_request: {} }]);
+    await refreshStatuses();
+    expect((await db.outbox.get(row.id))?.status).toBe('accepted');
   });
 
   it('no gasta cuota si no hay nada pendiente', async () => {

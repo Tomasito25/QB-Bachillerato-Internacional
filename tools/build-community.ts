@@ -76,10 +76,18 @@ export async function buildCommunity(options: BuildOptions): Promise<Manifest> {
 
   // Preguntas, por asignatura y cubo. Una pregunta nueva sólo invalida uno de los 16 cubos.
   const bySubject = new Map<string, Question[]>();
-  for (const question of visible) bySubject.set(question.subjectId, [...(bySubject.get(question.subjectId) ?? []), question]);
+  for (const question of visible) {
+    const list = bySubject.get(question.subjectId);
+    if (list) list.push(question);
+    else bySubject.set(question.subjectId, [question]);
+  }
   for (const [subjectId, questions] of [...bySubject.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
     const buckets = new Map<string, Question[]>();
-    for (const question of questions) buckets.set(bucketOf(question.id), [...(buckets.get(bucketOf(question.id)) ?? []), question]);
+    for (const question of questions) {
+      const bucket = buckets.get(bucketOf(question.id));
+      if (bucket) bucket.push(question);
+      else buckets.set(bucketOf(question.id), [question]);
+    }
     for (const [bucket, docs] of [...buckets.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
       docs.sort((a, b) => a.id.localeCompare(b.id));
       await writer.shard(`q/${subjectId}/${bucket}`, 'questions', `q/${subjectId}/${bucket}`, docs, docs.length, subjectId);

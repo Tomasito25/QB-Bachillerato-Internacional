@@ -147,6 +147,29 @@
   button:disabled {
     cursor: not-allowed;
   }
+  /* Respuesta inmediata al pulsar: en pantallas táctiles no hay `hover` que la dé. */
+  :where(button, [role='button'], [role='tab'], a.inline-flex):not(:disabled):active {
+    opacity: 0.8;
+  }
+  /* En pantallas táctiles, lo pulsable ocupa al menos 44 × 44 px aunque se vea más pequeño. */
+  @media (pointer: coarse) {
+    :where(button, [role='button'], [role='tab'], a.inline-flex, label:has(> input)) {
+      position: relative;
+    }
+    :where(button, [role='button'], [role='tab'], a.inline-flex, label:has(> input))::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: max(100%, 44px);
+      height: max(100%, 44px);
+      transform: translate(-50%, -50%);
+    }
+    input:not([type='checkbox'], [type='radio'], [type='range']),
+    select {
+      min-height: 44px;
+    }
+  }
 
   dialog {
     margin: auto;

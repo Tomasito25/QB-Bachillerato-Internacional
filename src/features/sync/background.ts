@@ -11,14 +11,28 @@ const AUTO_SYNC_MS = 10 * 60 * 1000;
 const EAGER_SYNC_MS = 60 * 1000;
 const EAGER_WINDOW_MS = 15 * 60 * 1000;
 const STATUS_CHECK_MS = 5 * 60 * 1000;
+const EAGER_STATUS_MS = 2 * 60 * 1000;
+
+type OutboxTiming = Pick<OutboxRow, 'status' | 'updatedAt'>;
+
+const recent = (outbox: readonly OutboxTiming[], now: number, statuses: readonly OutboxRow['status'][]) =>
+  outbox.some((row) => statuses.includes(row.status) && now - row.updatedAt < EAGER_WINDOW_MS);
 
 /**
  * Cada cuánto mirar si hay datos nuevos. Leer de Pages no gasta cuota de la API, así que tras un
  * envío se mira cada minuto: lo aceptado tarda un par de minutos en publicarse.
  */
-export function syncInterval(outbox: readonly Pick<OutboxRow, 'status' | 'updatedAt'>[], now: number): number {
-  const expecting = outbox.some((row) => (row.status === 'awaiting-user' || row.status === 'sent' || row.status === 'accepted') && now - row.updatedAt < EAGER_WINDOW_MS);
-  return expecting ? EAGER_SYNC_MS : AUTO_SYNC_MS;
+export function syncInterval(outbox: readonly OutboxTiming[], now: number): number {
+  return recent(outbox, now, ['awaiting-user', 'sent', 'accepted']) ? EAGER_SYNC_MS : AUTO_SYNC_MS;
+}
+
+/**
+ * Cada cuánto preguntar a GitHub por los envíos, o `null` para no hacerlo. Sin token hay 60
+ * consultas por hora y por IP: se pregunta justo después de enviar, que es cuando hay novedades.
+ */
+export function statusInterval(outbox: readonly OutboxTiming[], now: number, hasToken: boolean): number | null {
+  if (recent(outbox, now, ['awaiting-user', 'sent'])) return EAGER_STATUS_MS;
+  return hasToken ? STATUS_CHECK_MS : null;
 }
 
 /**
@@ -31,21 +45,20 @@ export function startBackgroundSync(): void {
   let lastAttemptAt = 0;
   let lastStatusCheckAt = 0;
 
-  const syncIsDue = async (now: number) => {
-    const last = Math.max(syncState.get().lastSyncAt ?? 0, lastAttemptAt);
-    return now - last >= syncInterval(await db.outbox.toArray(), now);
-  };
-
   const tick = async (force = false) => {
     if (!navigator.onLine || !hasCommunity()) return;
     const now = Date.now();
-    if (force || (await syncIsDue(now))) {
+    const outbox = await db.outbox.toArray();
+    if (force || now - Math.max(syncState.get().lastSyncAt ?? 0, lastAttemptAt) >= syncInterval(outbox, now)) {
       lastAttemptAt = now;
       await syncCommunity();
     }
-    if (tokenReady.get() && (force || now - lastStatusCheckAt >= STATUS_CHECK_MS)) {
+    // Así el estado de un envío se ve en cualquier pantalla, no sólo en la de sincronización.
+    const hasToken = tokenReady.get();
+    const every = statusInterval(outbox, now, hasToken);
+    if (every !== null && (force || now - lastStatusCheckAt >= every)) {
       lastStatusCheckAt = now;
-      await flushWithToken();
+      if (hasToken) await flushWithToken();
       await refreshStatuses().catch(() => undefined);
     }
   };

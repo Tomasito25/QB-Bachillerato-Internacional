@@ -96,6 +96,9 @@ export async function decodeIssueBody(body: string | null | undefined): Promise<
   }
 }
 
+/** Lo que ve en GitHub quien tiene que pegar. Sin un aviso allí mismo, el issue llega vacío y se rechaza. */
+export const PASTE_HINT = 'Pega aquí debajo lo que ha copiado QuestionBank (Ctrl+V, o mantén pulsado y elige «Pegar») y después pulsa «Create».\n\n';
+
 export function buildIssueUrl(repo: string, encoded: EncodedSubmission): string {
   const params = new URLSearchParams({ title: encoded.title, body: encoded.body });
   return `https://github.com/${repo}/issues/new?${params.toString()}`;
@@ -115,7 +118,7 @@ export function chooseIssueTransport(repo: string, encoded: EncodedSubmission): 
   if (encoded.body.length > MAX_ISSUE_BODY_LENGTH) return { mode: 'too-large', bodyLength: encoded.body.length };
   return {
     mode: 'clipboard',
-    url: buildIssueUrl(repo, { title: encoded.title, body: '' }),
+    url: buildIssueUrl(repo, { title: encoded.title, body: PASTE_HINT }),
     body: encoded.body,
   };
 }

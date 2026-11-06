@@ -10,7 +10,7 @@ import { online } from '@/infra/connectivity';
 import type { LocalQuestionRow, OutboxRow } from '@/infra/db/types';
 import { RateLimitError, rateLimit } from '@/infra/github/client';
 import { Markdown } from '@/infra/markdown/Markdown';
-import { Button, ButtonLink } from '@/ui/Button';
+import { Button, ButtonLink, buttonClass } from '@/ui/Button';
 import { Checkbox } from '@/ui/Field';
 import { Badge, Card, CardHeader, EmptyState, Notice, PageHeader, Spinner, type BadgeTone } from '@/ui/Surface';
 import { timeAgo } from '@/ui/time';
@@ -80,6 +80,7 @@ function StatusIcon({ status }: { status: OutboxRow['status'] }) {
  */
 function SendAction({ row }: { row: OutboxRow }) {
   const transport = manualTransport(row);
+  const [copied, setCopied] = useState(false);
   if (transport.mode === 'too-large') {
     return <p className="text-xs text-danger">Este envío es demasiado grande para un issue. Descártalo y publica menos de golpe, o conecta un token.</p>;
   }
@@ -91,24 +92,21 @@ function SendAction({ row }: { row: OutboxRow }) {
       </a>
     );
   }
+  // En dos pasos: abrir la pestaña mientras se copia hace fallar la copia en algunos navegadores,
+  // y si no se pega nada el issue llega vacío.
+  if (!copied) {
+    return (
+      <button type="button" onClick={() => void navigator.clipboard.writeText(transport.body).then(() => setCopied(true), () => toast.error('El navegador no ha permitido copiar al portapapeles.'))} className={buttonClass('primary', 'sm')}>
+        <Clipboard size={14} aria-hidden />
+        1. Copiar el envío
+      </button>
+    );
+  }
   return (
-    <button
-      type="button"
-      onClick={() => {
-        void navigator.clipboard.writeText(transport.body).then(
-          () => {
-            toast.success('Copiado. Pégalo en la descripción del issue y pulsa «Create».');
-            void markAwaitingUser(row.id);
-          },
-          () => toast.error('El navegador no ha permitido copiar al portapapeles.'),
-        );
-        window.open(transport.url, '_blank', 'noopener');
-      }}
-      className="inline-flex h-8 items-center gap-1.5 rounded-md bg-accent px-2.5 text-[13px] font-medium text-accent-ink hover:bg-accent-hover"
-    >
-      <Clipboard size={14} aria-hidden />
-      Copiar y abrir GitHub
-    </button>
+    <a href={transport.url} target="_blank" rel="noopener noreferrer" onClick={() => void markAwaitingUser(row.id)} className={buttonClass('primary', 'sm')}>
+      <Send size={14} aria-hidden />
+      2. Abrir GitHub y pegarlo
+    </a>
   );
 }
 
@@ -123,7 +121,11 @@ function OutboxItem({ row }: { row: OutboxRow }) {
           {OUTBOX_STATUS_LABELS[row.status]}
         </Badge>
       </div>
-      {row.status === 'awaiting-user' ? <p className="text-xs text-muted">Pulsa «Create» en GitHub para enviarlo. Esta página lo detectará sola.</p> : null}
+      {manual && manualTransport(row).mode === 'clipboard' ? (
+        <p className="text-xs text-muted">No cabe en la dirección de GitHub: cópialo, abre GitHub y pégalo en la descripción antes de pulsar «Create». Esta página lo detectará sola.</p>
+      ) : row.status === 'awaiting-user' ? (
+        <p className="text-xs text-muted">Pulsa «Create» en GitHub para enviarlo. Esta página lo detectará sola.</p>
+      ) : null}
       {row.error ? (
         <div className="rounded-md bg-danger-soft p-2.5 text-[13px]">
           <Markdown source={row.error} />

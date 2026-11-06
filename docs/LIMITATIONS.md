@@ -38,6 +38,7 @@ de autor: por eso se pide declarar el origen y aceptar la licencia.
 |---|---|---|
 | **Sin «Iniciar sesión con GitHub»** | Los endpoints de OAuth no permiten CORS (comprobado), y tanto el Device Flow como el flujo web necesitan pasar por un servidor | Conexión por issue. Más rara que un botón, pero sin secretos |
 | **Un clic en GitHub por envío** sin token | Sin token, sólo GitHub puede crear el issue | Se puede evitar con un token, con el riesgo que implica |
+| **Los envíos grandes hay que pegarlos** sin token | No caben en la dirección prellenada de 6 000 caracteres, sobre todo con imágenes | La app los copia en un paso aparte y el formulario de GitHub dice dónde pegarlos. En el uso real, tres envíos llegaron vacíos antes de este cambio |
 | **El token da demasiado permiso** | Los tokens de grano fino no pueden contribuir a repos públicos ajenos (documentado por GitHub) | `public_repo` da escritura en todos tus repos públicos. Es opcional y se avisa |
 | **Publicar tarda de 1 a 3 minutos** | Action + despliegue. La caché de Pages añade hasta 10 minutos si no se evita | La app muestra el estado intermedio y salta la caché en el manifiesto |
 | **Sin tiempo real** | Sin servidor no hay WebSocket; señalizar por issues tarda de 30 a 120 s; WebRTC necesita un STUN externo o intercambiar datos a mano | Competiciones asíncronas |
@@ -113,6 +114,7 @@ de GitHub y un navegador de escritorio.
 | Retos diario y semanal | Se crean al lanzar el workflow a mano |
 | Reporte y retirada | El reporte queda abierto para moderar; lo retirado deja de servirse |
 | Fallos de GitHub | Hubo 500 y 502 reales en plena prueba. Un envío afectado se recuperó al reintentarlo, sin perder datos |
+| Crons | Se disparan solos, pero con mucho retraso: el reto diario del 6 de noviembre se creó a las 05:59 UTC en vez de a las 00:07, y el barrido de cada 15 minutos corrió dos veces en 12 horas. Nada inmediato depende de ellos: cada envío se procesa al crear su issue |
 
 | Sin comprobar en real | Por qué | Qué lo cubre |
 |---|---|---|
@@ -122,7 +124,6 @@ de GitHub y un navegador de escritorio.
 | Modo con token en el sitio publicado | No se escribe un token real durante una prueba | Pruebas con la API simulada, incluida la secuencia de Git Data |
 | Instalarla, en móvil o en escritorio | No había dispositivos, y el navegador de la prueba no lo permite | Manifiesto, iconos y Service Worker revisados; nada más |
 | Sin conexión en el sitio publicado | Se probó en local, con el servidor parado | En el sitio, el Service Worker está activo y con todo precacheado |
-| Los crons a su hora | Los workflows se lanzaron a mano, y en la primera hora GitHub aún no había disparado ninguno | Basta con mirar `gh run list --event schedule` pasado un tiempo |
 
 ## Si un día se puede relajar la restricción
 

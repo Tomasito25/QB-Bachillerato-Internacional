@@ -75,7 +75,7 @@ function BottomNav({ onMore, moreOpen }: { onMore: () => void; moreOpen: boolean
               to={item.to}
               end={item.end}
               className={({ isActive }) =>
-                cn('flex h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-medium', isActive && !moreOpen ? 'text-accent-text' : 'text-muted')
+                cn('flex h-14 flex-col items-center justify-center gap-0.5 text-xs font-medium', isActive && !moreOpen ? 'text-accent-text' : 'text-muted')
               }
             >
               <Icon size={20} strokeWidth={1.75} aria-hidden />
@@ -87,7 +87,7 @@ function BottomNav({ onMore, moreOpen }: { onMore: () => void; moreOpen: boolean
           type="button"
           onClick={onMore}
           aria-expanded={moreOpen}
-          className={cn('flex h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-medium', moreOpen ? 'text-accent-text' : 'text-muted')}
+          className={cn('flex h-14 flex-col items-center justify-center gap-0.5 text-xs font-medium', moreOpen ? 'text-accent-text' : 'text-muted')}
         >
           <Menu size={20} strokeWidth={1.75} aria-hidden />
           Más

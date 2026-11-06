@@ -151,7 +151,8 @@ export async function refreshStatuses(): Promise<number> {
   /** Un envío repetido tras un 5xx deja dos issues con el mismo nonce: manda el que entró. */
   const rank = (labels: readonly { name: string }[]) => (labels.some((l) => l.name === 'qb:accepted') ? 2 : labels.some((l) => l.name === 'qb:review') ? 1 : 0);
   for (const row of pending) {
-    const issue = issues.filter((candidate) => candidate.title.endsWith(row.nonce)).sort((a, b) => rank(b.labels) - rank(a.labels))[0];
+    // Los PR de la vía con token no llevan el nonce en el título: se reconocen por su número.
+    const issue = issues.filter((candidate) => candidate.title.endsWith(row.nonce) || candidate.number === row.issueNumber).sort((a, b) => rank(b.labels) - rank(a.labels))[0];
     if (!issue) continue;
     const label = issue.labels.map((l) => l.name).find((name) => name in LABEL_TO_STATUS);
     const status: OutboxStatus = label ? (LABEL_TO_STATUS[label] as OutboxStatus) : 'sent';

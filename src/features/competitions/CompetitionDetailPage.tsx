@@ -77,7 +77,7 @@ function MatchCard({ match, me }: { match: BracketMatch; me?: string }) {
       {side(match.a, match.correctA)}
       <div className="border-t border-border" />
       {side(match.b, match.correctB)}
-      <p className="border-t border-border bg-subtle/60 px-2.5 py-1 text-[11px] text-muted">{DECIDED_BY[match.decidedBy]}</p>
+      <p className="border-t border-border bg-subtle/60 px-2.5 py-1 text-xs text-muted">{DECIDED_BY[match.decidedBy]}</p>
     </div>
   );
 }
@@ -91,7 +91,7 @@ function Bracket({ competition, me }: { competition: DerivedCompetition; me?: st
       {competition.bracket.map((round, i) => (
         <section key={round.index} className="flex min-w-44 flex-col gap-2" aria-label={`Ronda ${i + 1}`}>
           <h3 className="text-xs font-semibold text-muted">{i === (competition.bracket?.length ?? 0) - 1 ? 'Final' : `Ronda ${i + 1}`}</h3>
-          <p className="text-[11px] text-muted">Hasta {dateFormat.format(new Date(round.closesAt))}</p>
+          <p className="text-xs text-muted">Hasta {dateFormat.format(new Date(round.closesAt))}</p>
           <div className="flex flex-1 flex-col justify-around gap-2">
             {round.matches.map((match, m) => (
               <MatchCard key={m} match={match} me={me} />

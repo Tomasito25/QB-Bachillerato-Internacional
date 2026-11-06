@@ -176,7 +176,9 @@ sequenceDiagram
 - **Tolerante:** un documento inválido se descarta y se registra; no rompe el resto.
 - **Frecuencia:** al arrancar, al recuperar la conexión, al volver a la app y cada 10 minutos
   con ella a la vista. Durante 15 minutos tras un envío, cada minuto: leer de Pages no gasta
-  cuota de la API, y así lo aceptado aparece en cuanto se publica.
+  cuota de la API, y así lo aceptado aparece en cuanto se publica. En ese rato también se pregunta
+  a GitHub por el estado del envío cada 2 minutos, aunque no haya token: unas 8 consultas de las
+  60 por hora, y así el resultado se ve en cualquier pantalla.
 
 ### Subida (vía A, sin token)
 

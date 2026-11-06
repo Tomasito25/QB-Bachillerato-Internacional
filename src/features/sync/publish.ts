@@ -230,9 +230,15 @@ export async function publishViaPull(questionIds: readonly string[], origin: Con
   return row;
 }
 
+/** Respuestas que ya viajan en un envío vivo: volver a mandarlas sólo engordaría el issue. */
+async function queuedAttempts(): Promise<Set<string>> {
+  return new Set((await db.outbox.toArray()).filter((r) => r.status !== 'rejected' && r.status !== 'failed').flatMap((r) => r.related.attempts ?? []));
+}
+
 /** Respuestas sin publicar, listas para enviar. El cliente nunca declara si acertó. */
 export async function publishResults(): Promise<OutboxRow[]> {
-  const attempts = await db.attempts.where('published').equals(0).sortBy('at');
+  const inQueue = await queuedAttempts();
+  const attempts = (await db.attempts.where('published').equals(0).sortBy('at')).filter((a) => !inQueue.has(a.id));
   const publishedQuestions = new Set(await db.cQuestions.toCollection().primaryKeys());
   // Lo respondido en preguntas sin publicar no tiene sentido fuera de este dispositivo.
   const eligible = attempts.filter((a) => publishedQuestions.has(a.questionId));
@@ -263,7 +269,7 @@ export async function publishResults(): Promise<OutboxRow[]> {
 }
 
 export async function unpublishedAnswerCount(): Promise<number> {
-  const inQueue = new Set((await db.outbox.toArray()).filter((r) => r.status !== 'rejected' && r.status !== 'failed').flatMap((r) => r.related.attempts ?? []));
+  const inQueue = await queuedAttempts();
   const publishedQuestions = new Set(await db.cQuestions.toCollection().primaryKeys());
   return (await db.attempts.where('published').equals(0).toArray()).filter((a) => publishedQuestions.has(a.questionId) && a.mode !== 'competition' && !inQueue.has(a.id)).length;
 }

@@ -31,7 +31,7 @@ export function SyncStatus({ compact }: { compact?: boolean }) {
       )}
       <span className={cn('truncate', compact && 'sr-only')}>{label}</span>
       {pending ? (
-        <span className="ml-auto shrink-0 rounded-full bg-accent px-1.5 text-[11px] font-medium text-accent-ink tabular-nums" title={`${pending} envíos pendientes`}>
+        <span className="ml-auto shrink-0 rounded-full bg-accent px-1.5 text-xs font-medium text-accent-ink tabular-nums" title={`${pending} envíos pendientes`}>
           {pending}
         </span>
       ) : null}

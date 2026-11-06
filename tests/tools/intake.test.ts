@@ -276,6 +276,35 @@ describe('intake: lotes con varios envíos', () => {
     expect(api.pulls).toHaveLength(1);
   });
 
+  it('un issue creado sin pegar los datos se rechaza explicando qué pasó', async () => {
+    const issue = await send(questionsSubmission());
+    issue.body = '';
+    await run();
+    expect(api.labels.get(issue.number)).toEqual([LABELS.rejected]);
+    expect(api.lastComment(issue)).toContain('sin los datos del envío');
+  });
+
+  it('si GitHub falla justo después de fusionar, el reproceso anota la aprobación', async () => {
+    const issue = await send(questionsSubmission());
+    const merge = api.onMerge;
+    const syncData = repo.git.syncData.bind(repo.git);
+    api.onMerge = (number, head) => {
+      merge(number, head);
+      // La fusión ya está hecha; el `git fetch` que viene detrás falla como un 5xx.
+      repo.git.syncData = async () => {
+        repo.git.syncData = syncData;
+        throw new TypeError('fetch failed');
+      };
+    };
+    await run();
+    expect(api.labels.get(issue.number) ?? []).toEqual([]);
+
+    api.onMerge = merge;
+    await run();
+    expect(api.lastComment(issue)).toContain('ya están publicadas');
+    expect(await (await loadRemote()).allSystemEvents()).toEqual([expect.objectContaining({ t: 'question-approved', by: 'ana' })]);
+  });
+
   it('una entrega ya guardada no se rechaza al reprocesarla', async () => {
     const questions = Array.from({ length: 4 }, (_, i) => makeMcq({ id: uuid(), author: null, statement: `Pregunta ${i} para reprocesar una entrega` }));
     await send(questionsSubmission({ questions }));

@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import type { Manifest, ManifestShard } from '@core/schema/derived';
 import { sha256Hex } from '@core/util/encoding';
 import { loadQuestions, saveLocalQuestion } from '@/features/bank/questionsRepo';
-import { syncInterval } from '@/features/sync/background';
+import { statusInterval, syncInterval } from '@/features/sync/background';
 import { syncCommunity, syncState } from '@/features/sync/communitySync';
 import { classifyLocal, reconcileLocal, resolveConflict } from '@/features/sync/reconcile';
 import { loadSubjects, addTopic } from '@/features/taxonomy/taxonomyRepo';
@@ -167,6 +167,14 @@ describe('frecuencia de la sincronización automática', () => {
       expect(syncInterval([{ status, updatedAt: now - MINUTE }], now)).toBe(MINUTE);
       expect(syncInterval([{ status, updatedAt: now - 16 * MINUTE }], now)).toBe(10 * MINUTE);
     }
+  });
+
+  it('sin token, sólo pregunta a GitHub justo después de enviar: hay 60 consultas por hora', () => {
+    expect(statusInterval([], now, false)).toBeNull();
+    expect(statusInterval([{ status: 'review', updatedAt: now }], now, false)).toBeNull();
+    expect(statusInterval([{ status: 'sent', updatedAt: now - MINUTE }], now, false)).toBe(2 * MINUTE);
+    expect(statusInterval([{ status: 'awaiting-user', updatedAt: now - 16 * MINUTE }], now, false)).toBeNull();
+    expect(statusInterval([], now, true)).toBe(5 * MINUTE);
   });
 });
 

@@ -1,16 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import type { AnswerEvent } from '@core/schema/events';
 import { Submission } from '@core/schema/submission';
-import {
-  buildIssueUrl,
-  chooseIssueTransport,
-  decodeIssueBody,
-  encodeSubmission,
-  EnvelopeError,
-  isSubmissionTitle,
-  kindFromTitle,
-  MAX_ISSUE_URL_LENGTH,
-} from '@core/submissions/envelope';
+import { buildIssueUrl, chooseIssueTransport, decodeIssueBody, encodeSubmission, EnvelopeError, isSubmissionTitle, kindFromTitle, MAX_ISSUE_URL_LENGTH, PASTE_HINT } from '@core/submissions/envelope';
 import { uuid } from '../fixtures';
 
 const REPO = 'owner/questionbank';
@@ -89,12 +80,15 @@ describe('elección de transporte', () => {
     expect(chooseIssueTransport(REPO, encoded).mode).toBe('url');
   });
 
-  it('lo mediano pasa al portapapeles, con la URL sin cuerpo', async () => {
+  it('lo mediano pasa al portapapeles, y GitHub se abre diciendo dónde pegarlo', async () => {
     const encoded = await encodeSubmission({ v: 1, kind: 'results', nonce: NONCE, answers: answers(500) }, 'Mucho');
     const transport = chooseIssueTransport(REPO, encoded);
     expect(transport.mode).toBe('clipboard');
     if (transport.mode === 'clipboard') {
       expect(transport.url.length).toBeLessThanOrEqual(MAX_ISSUE_URL_LENGTH);
+      expect(new URL(transport.url).searchParams.get('body')).toBe(PASTE_HINT);
+      // Si se pega debajo del aviso, el envío se sigue leyendo.
+      expect(await decodeIssueBody(`${PASTE_HINT}${transport.body}`)).toBeTruthy();
       expect(await decodeIssueBody(transport.body)).toBeTruthy();
     }
   });

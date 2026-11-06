@@ -222,7 +222,7 @@ function OfficialProfile({ profile, isMe, onEdit }: { profile: DerivedProfile; i
       </Card>
 
       <section aria-labelledby="official-heading">
-        <h2 id="official-heading" className="mb-2 flex items-center gap-1.5 text-xs font-semibold tracking-wide text-muted uppercase">
+        <h2 id="official-heading" className="mb-2 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-xs font-semibold tracking-wide text-muted uppercase">
           <ShieldCheck size={13} className="text-success" aria-hidden />
           Calculado por GitHub Actions
           <span className="font-normal normal-case">a partir de lo publicado, sin que el cliente pueda fijarlo</span>

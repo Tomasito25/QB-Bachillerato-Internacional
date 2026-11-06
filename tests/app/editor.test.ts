@@ -142,6 +142,10 @@ describe('extracto para listados', () => {
     expect(excerpt('[enlace](https://x.org) y ![foto](qbimg:abc)')).toBe('enlace y [imagen]');
   });
 
+  it('recorta por una palabra entera', () => {
+    expect(excerpt('Uno dos tres cuatro cinco seis', 16)).toBe('Uno dos tres…');
+  });
+
   it('recorta lo largo', () => {
     expect(excerpt('a'.repeat(300), 10)).toBe(`${'a'.repeat(10)}…`);
   });

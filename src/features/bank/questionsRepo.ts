@@ -99,5 +99,8 @@ export function excerpt(markdown: string, max = 180): string {
     .replace(/\u2060/g, '')
     .replace(/\s+/g, ' ')
     .trim();
-  return text.length > max ? `${text.slice(0, max).trimEnd()}…` : text;
+  if (text.length <= max) return text;
+  // Se corta en un espacio para no dejar palabras a medias, salvo que quede demasiado corto.
+  const space = text.lastIndexOf(' ', max);
+  return `${text.slice(0, space > max * 0.6 ? space : max).trimEnd()}…`;
 }

@@ -133,7 +133,7 @@ export function MarkdownEditor({ label, hint, value, onChange, error, rows = 5, 
         {label}
       </label>
       <div className={cn('overflow-hidden rounded-md border bg-surface focus-within:ring-2 focus-within:ring-accent/25', error ? 'border-danger' : 'border-border focus-within:border-accent')}>
-        <div className="flex items-center gap-0.5 overflow-x-auto border-b border-border bg-subtle/60 px-1 py-1" role="toolbar" aria-label={`Formato de ${label.toLowerCase()}`}>
+        <div className="flex flex-wrap items-center gap-0.5 border-b border-border bg-subtle/60 px-1 py-1" role="toolbar" aria-label={`Formato de ${label.toLowerCase()}`}>
           {(compact ? ACTIONS.filter((a) => ['bold', 'italic', 'code', 'math'].includes(a.action)) : ACTIONS).map(({ action, label: actionLabel, icon: Icon }) => (
             <ToolButton key={action} label={actionLabel} onClick={() => format(action)}>
               <Icon size={15} aria-hidden />

@@ -126,15 +126,17 @@ class Intake {
     return existing !== undefined && existing.githubId !== actor.id;
   }
 
-  /** El envío ya está dentro: lo aplicó una ejecución anterior que no llegó a avisar. */
-  private async alreadyPublished(submission: Extract<Submission, { kind: 'questions' }>): Promise<boolean> {
+  /** El envío ya está dentro: lo aplicó una ejecución anterior que no llegó a avisar. Devuelve lo publicado. */
+  private async alreadyPublished(submission: Extract<Submission, { kind: 'questions' }>): Promise<Question[] | null> {
+    const published: Question[] = [];
     for (const raw of submission.questions) {
       const parsed = Question.safeParse(migrateDocument(raw));
-      if (!parsed.success) return false;
+      if (!parsed.success) return null;
       const existing = this.deps.store.question(parsed.data.id);
-      if (!existing || (await questionFingerprint(existing)) !== (await questionFingerprint(parsed.data))) return false;
+      if (!existing || (await questionFingerprint(existing)) !== (await questionFingerprint(parsed.data))) return null;
+      published.push(existing);
     }
-    return true;
+    return published;
   }
 
   private async questions(issue: IssueData, submission: Extract<Submission, { kind: 'questions' }>): Promise<void> {
@@ -142,8 +144,14 @@ class Intake {
     const actor = actorOf(issue);
     const rcv = Date.parse(issue.created_at);
 
-    if (await this.alreadyPublished(submission)) {
-      this.done(issue, 'accepted', 'Estas preguntas ya están publicadas.', false);
+    const published = await this.alreadyPublished(submission);
+    if (published) {
+      // Si la ejecución anterior se cortó entre la fusión y el registro, la aprobación se anota ahora.
+      const approved = new Set((await store.allSystemEvents()).filter((e) => e.t === 'question-approved').map((e) => e.q));
+      const missing = published.filter((q) => q.author?.login === actor.login && !approved.has(q.id));
+      await this.ensureUser(issue);
+      for (const question of missing) await store.appendSystemEvent({ t: 'question-approved', q: question.id, by: actor.login, at: epoch(now()) });
+      this.done(issue, 'accepted', 'Estas preguntas ya están publicadas.', missing.length > 0);
       return;
     }
 
@@ -462,7 +470,11 @@ class Intake {
         decoded.push({ issue, submission: parsed.data });
       } catch (error) {
         if (!(error instanceof EnvelopeError)) throw error;
-        this.done(issue, 'rejected', `${error.message}. ¿Se editó el texto del issue?`);
+        // Sin bloque casi siempre es un issue creado sin pegar lo que había copiado la app.
+        const reason = issue.body?.includes('```qb1')
+          ? `${error.message}. ¿Se editó el texto del issue?`
+          : 'El issue llegó sin los datos del envío. Si la app te pidió copiarlo, hay que pegarlo en la descripción antes de pulsar «Create». Lo que enviabas sigue en la app: vuelve a enviarlo desde allí.';
+        this.done(issue, 'rejected', reason);
       }
     }
     decoded.sort((a, b) => Number(b.submission.kind === 'questions') - Number(a.submission.kind === 'questions'));

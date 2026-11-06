@@ -88,7 +88,7 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
       </form>
       <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
         <Select aria-label="Asignatura" value={filter.subjectId ?? ''} onChange={(e) => set({ subject: e.target.value, unit: null, topic: null })}>
-          <option value="">Todas las asignaturas</option>
+          <option value="">Asignatura</option>
           {taxonomy.subjects.map((s) => (
             <option key={s.id} value={s.id}>
               {s.name}
@@ -96,7 +96,7 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
           ))}
         </Select>
         <Select aria-label="Unidad" disabled={!subject} value={filter.unitIds?.[0] ?? ''} onChange={(e) => set({ unit: e.target.value, topic: null })}>
-          <option value="">Todas las unidades</option>
+          <option value="">Unidad</option>
           {subject?.units.map((u) => (
             <option key={u.id} value={u.id}>
               {u.name}
@@ -104,7 +104,7 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
           ))}
         </Select>
         <Select aria-label="Tema" disabled={!unit} value={filter.topicIds?.[0] ?? ''} onChange={(e) => set({ topic: e.target.value })}>
-          <option value="">Todos los temas</option>
+          <option value="">Tema</option>
           {unit?.topics.map((t) => (
             <option key={t.id} value={t.id}>
               {t.name}
@@ -112,12 +112,12 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
           ))}
         </Select>
         <Select aria-label="Tipo" value={filter.types?.[0] ?? ''} onChange={(e) => set({ type: e.target.value })}>
-          <option value="">Todos los tipos</option>
+          <option value="">Tipo</option>
           <option value="mcq">{QUESTION_TYPE_LABELS.mcq}</option>
           <option value="open">{QUESTION_TYPE_LABELS.open}</option>
         </Select>
         <Select aria-label="Procedencia" value={origin} onChange={(e) => set({ origin: e.target.value === 'all' ? null : (e.target.value as OriginFilter) })}>
-          <option value="all">Todas</option>
+          <option value="all">Procedencia</option>
           <option value="community">De la comunidad</option>
           <option value="mine">Sin publicar</option>
         </Select>
