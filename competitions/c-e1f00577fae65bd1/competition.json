@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "c-e1f00577fae65bd1",
+  "code": "QB-X56YVM",
+  "type": "duel",
+  "title": "Duelo a muerte",
+  "createdBy": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-07T14:58:32.000Z",
+  "filters": {
+    "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62"
+  },
+  "durationSec": 600,
+  "seed": "e1f00577fae65bd1e25af6e27324821795962551f1ad18912d49dc6b846074a9",
+  "invited": [
+    "nikovr0"
+  ],
+  "issue": 48,
+  "questionCount": 10,
+  "questionIds": [
+    "abac8c53-2dd8-4f3a-9724-153b605335ec",
+    "25a1f36c-0c8c-4dd7-9d9a-22e934818a53",
+    "92e552fe-ea65-43b6-8066-990fec4f8a34",
+    "9bc82a91-55e4-4a73-9791-8162d36ed480",
+    "8352f69b-2614-42df-9f6f-d2517250856e",
+    "eea6b553-878f-461b-85c5-9a13f73361ce",
+    "944bef39-12eb-476e-a987-9b2105fd756f",
+    "9d47c7a6-67b9-4db4-b11a-0c56fa655116",
+    "ad79eb96-b06c-4db5-b778-cc39ce672458",
+    "eee2381d-8238-485d-887a-52be564b5eaa"
+  ],
+  "opensAt": "2026-11-07T14:58:32.000Z",
+  "closesAt": "2026-11-09T14:58:32.000Z",
+  "maxParticipants": 2
+}
