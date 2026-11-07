@@ -20,7 +20,7 @@ function SubjectCard({ subject, stats }: { subject: TaxonomyView['subjects'][num
         <span className="truncate">{subject.name}</span>
         <ChevronRight size={16} className="shrink-0 text-faint transition-transform group-hover:translate-x-0.5" aria-hidden />
       </span>
-      {subject.description ? <span className="line-clamp-2 text-[13px] text-muted">{subject.description}</span> : null}
+      {subject.description ? <span className="line-clamp-2 text-[0.8125rem] text-muted">{subject.description}</span> : null}
       <span className="mt-1 text-xs text-muted tabular-nums">
         {count} {count === 1 ? 'pregunta' : 'preguntas'} · {subject.units.length} {subject.units.length === 1 ? 'unidad' : 'unidades'} · {topics} {topics === 1 ? 'tema' : 'temas'}
       </span>
@@ -36,7 +36,7 @@ function QuestionList({ title, description, questions }: { title: string; descri
       <ul className="divide-y divide-border">
         {questions.map((question) => (
           <li key={question.id} className="px-4 py-2.5">
-            <Link to={`/q/${question.id}`} className="text-[13.5px] leading-snug hover:text-accent-text">
+            <Link to={`/q/${question.id}`} className="text-[0.84375rem] leading-snug hover:text-accent-text">
               {excerpt(question.statement, 110)}
             </Link>
             <div className="mt-1 flex flex-wrap items-center gap-3">

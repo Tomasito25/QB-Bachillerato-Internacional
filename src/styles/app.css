@@ -78,6 +78,18 @@
   --shadow-overlay: 0 12px 32px -8px rgb(0 0 0 / 0.6), 0 2px 6px -2px rgb(0 0 0 / 0.4);
 }
 
+/* Acentos de Configuración. Cada par está comprobado a 4,5:1 o más en los dos temas. */
+[data-accent='blue'] { --accent: #2563eb; --accent-hover: #1d4ed8; --accent-soft: #eaf1fe; --accent-text: #1d4ed8; }
+[data-accent='teal'] { --accent: #0f766e; --accent-hover: #115e59; --accent-soft: #e6f6f4; --accent-text: #0f766e; }
+[data-accent='violet'] { --accent: #7c3aed; --accent-hover: #6d28d9; --accent-soft: #f3edff; --accent-text: #6d28d9; }
+[data-accent='pink'] { --accent: #db2777; --accent-hover: #be185d; --accent-soft: #fdecf4; --accent-text: #be185d; }
+[data-accent='orange'] { --accent: #c2410c; --accent-hover: #9a3412; --accent-soft: #fdf0e7; --accent-text: #c2410c; }
+[data-theme='dark'][data-accent='blue'] { --accent: #60a5fa; --accent-hover: #93c5fd; --accent-soft: #11203a; --accent-text: #93c5fd; }
+[data-theme='dark'][data-accent='teal'] { --accent: #2dd4bf; --accent-hover: #5eead4; --accent-soft: #0d2a27; --accent-text: #5eead4; }
+[data-theme='dark'][data-accent='violet'] { --accent: #a78bfa; --accent-hover: #c4b5fd; --accent-soft: #241a3d; --accent-text: #c4b5fd; }
+[data-theme='dark'][data-accent='pink'] { --accent: #f472b6; --accent-hover: #f9a8d4; --accent-soft: #3a1426; --accent-text: #f9a8d4; }
+[data-theme='dark'][data-accent='orange'] { --accent: #fb923c; --accent-hover: #fdba74; --accent-soft: #3a1d0c; --accent-text: #fdba74; }
+
 @theme inline {
   --color-canvas: var(--canvas);
   --color-surface: var(--surface);
@@ -110,6 +122,24 @@
   --radius-xl: 1.25rem;
 }
 
+/* Tamaño del texto: escala todo lo que va en rem, que es casi toda la interfaz. En %, para
+   respetar además el tamaño que cada cual tenga puesto en su navegador. */
+:root[data-text='small'] {
+  font-size: 93.75%;
+}
+:root[data-text='large'] {
+  font-size: 112.5%;
+}
+:root[data-text='xlarge'] {
+  font-size: 125%;
+}
+:root[data-font='system'] {
+  --app-font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+:root[data-font='serif'] {
+  --app-font: ui-serif, 'Iowan Old Style', Charter, Georgia, 'Times New Roman', serif;
+}
+
 @layer base {
   html {
     -webkit-text-size-adjust: 100%;
@@ -121,8 +151,8 @@
   body {
     background: var(--canvas);
     color: var(--ink);
-    font-family: var(--font-sans);
-    font-size: 15px;
+    font-family: var(--app-font, var(--font-sans));
+    font-size: 0.9375rem;
     line-height: 1.5;
     overscroll-behavior-y: none;
   }
@@ -132,7 +162,7 @@
     input,
     select,
     textarea {
-      font-size: 16px !important;
+      font-size: max(16px, 1rem) !important;
     }
   }
 

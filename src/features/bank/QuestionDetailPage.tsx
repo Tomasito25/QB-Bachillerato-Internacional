@@ -1,4 +1,4 @@
-import { ArrowLeft, Archive, Copy, Download, Eye, EyeOff, Flag, Pencil, Play, ShieldAlert, Star, Trash2, UploadCloud } from 'lucide-react';
+import { ArrowLeft, Archive, Copy, Download, ExternalLink, Eye, EyeOff, Flag, History, Pencil, Play, ShieldAlert, Star, Trash2, UploadCloud } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { identity, newNonce } from '@/features/account/identity';
@@ -7,7 +7,8 @@ import { SessionError, startSession } from '@/features/study/sessions';
 import { enqueue } from '@/features/sync/outbox';
 import { PublishDialog } from '@/features/sync/PublishDialog';
 import { topicPath, useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
-import { Button, ButtonLink } from '@/ui/Button';
+import { config, hasCommunity } from '@/infra/config';
+import { Button, ButtonLink, buttonClass } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
 import { Field, Select, Textarea } from '@/ui/Field';
 import { Badge, Card, EmptyState, Notice, PageHeader, Spinner, Stat } from '@/ui/Surface';
@@ -148,7 +149,7 @@ export default function QuestionDetailPage() {
 
   return (
     <>
-      <Link to="/bank" className="mb-3 inline-flex items-center gap-1.5 text-[13px] text-muted hover:text-ink">
+      <Link to="/bank" className="mb-3 inline-flex items-center gap-1.5 text-[0.8125rem] text-muted hover:text-ink">
         <ArrowLeft size={14} aria-hidden />
         Banco de preguntas
       </Link>
@@ -180,7 +181,7 @@ export default function QuestionDetailPage() {
               <OriginBadge origin={question.origin} />
             </div>
             <DifficultyBadge value={question.difficulty} />
-            <ul className="flex flex-col gap-1 text-[13px]">
+            <ul className="flex flex-col gap-1 text-[0.8125rem]">
               {paths.map((path, i) => (
                 <li key={i}>
                   <span className="text-muted">
@@ -231,6 +232,19 @@ export default function QuestionDetailPage() {
             <Button variant="ghost" className="justify-start" icon={<Download size={15} aria-hidden />} onClick={() => void onExport()}>
               Exportar
             </Button>
+            {question.origin === 'community' && hasCommunity() ? (
+              <>
+                {/* Cada pregunta es un fichero de la rama `data`: GitHub guarda quién cambió qué y cuándo. */}
+                <a href={config.repoUrl(`/blob/data/questions/${question.subjectId}/${question.id}.json`)} target="_blank" rel="noopener noreferrer" className={buttonClass('ghost', 'md', 'justify-start')}>
+                  <ExternalLink size={15} aria-hidden />
+                  Ver en GitHub
+                </a>
+                <a href={config.repoUrl(`/commits/data/questions/${question.subjectId}/${question.id}.json`)} target="_blank" rel="noopener noreferrer" className={buttonClass('ghost', 'md', 'justify-start')}>
+                  <History size={15} aria-hidden />
+                  Historial de cambios
+                </a>
+              </>
+            ) : null}
             {question.origin !== 'community' ? (
               <Button variant="ghost" className="justify-start text-danger hover:text-danger" icon={<Trash2 size={15} aria-hidden />} onClick={() => setDiscarding(true)}>
                 {question.origin === 'edited' ? 'Descartar mi edición' : 'Borrar'}

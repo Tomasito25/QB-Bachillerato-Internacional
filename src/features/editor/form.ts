@@ -15,6 +15,14 @@ export interface AnswerForm {
   feedback: string;
 }
 
+export interface PartForm {
+  id: string;
+  statement: string;
+  modelAnswer: string;
+  /** `null`: sin puntos. */
+  marks: number | null;
+}
+
 export interface CriterionForm {
   id: string;
   text: string;
@@ -39,6 +47,8 @@ export interface QuestionForm {
   modelAnswer: string;
   criteria: CriterionForm[];
   keywords: string[];
+  /** Apartados de una pregunta de desarrollo. Vacío: es de una sola respuesta. */
+  parts: PartForm[];
   rev: number;
   baseRev: number | null;
   createdAt: string | null;
@@ -82,6 +92,7 @@ export function newForm(subjectId = '', topicIds: string[] = []): QuestionForm {
     modelAnswer: '',
     criteria: [],
     keywords: [],
+    parts: [],
     rev: 1,
     baseRev: null,
     createdAt: null,
@@ -120,10 +131,11 @@ export function questionToForm(question: Question): QuestionForm {
     modelAnswer: question.modelAnswer,
     criteria: question.criteria.map((c) => ({ ...c })),
     keywords: [...question.keywords],
+    parts: (question.parts ?? []).map((part) => ({ id: part.id, statement: part.statement, modelAnswer: part.modelAnswer, marks: part.marks ?? null })),
   };
 }
 
-export type FormErrors = Partial<Record<'statement' | 'answers' | 'topics' | 'modelAnswer' | 'explanation' | 'references' | 'images' | 'general', string>>;
+export type FormErrors = Partial<Record<'statement' | 'answers' | 'topics' | 'modelAnswer' | 'parts' | 'explanation' | 'references' | 'images' | 'general', string>>;
 
 export interface FormResult {
   question: Question | null;
@@ -144,8 +156,12 @@ export function formToQuestion(form: QuestionForm, now: number = Date.now()): Fo
     else if (answers.length < LIMITS.minAnswers) errors.answers = `Hacen falta al menos ${LIMITS.minAnswers} opciones.`;
     else if (!answers.some((a) => a.correct)) errors.answers = 'Marca cuál es la respuesta correcta.';
     else if (!form.multiple && answers.filter((a) => a.correct).length > 1) errors.answers = 'Con respuesta única sólo puede haber una correcta.';
-  } else if (!form.modelAnswer.trim()) {
+  } else if (form.parts.length === 0 && !form.modelAnswer.trim()) {
     errors.modelAnswer = 'Escribe la respuesta modelo.';
+  } else if (form.parts.some((part) => !part.statement.trim())) {
+    errors.parts = 'Hay apartados sin enunciado: complétalos o elimínalos.';
+  } else if (form.parts.some((part) => !part.modelAnswer.trim())) {
+    errors.parts = 'Cada apartado necesita su solución.';
   }
   if (form.references.some((r) => !r.title.trim())) errors.references = 'Cada referencia necesita un título.';
   if (hasErrors(errors)) return { question: null, errors };
@@ -184,6 +200,7 @@ export function formToQuestion(form: QuestionForm, now: number = Date.now()): Fo
           modelAnswer: form.modelAnswer.trim(),
           criteria: form.criteria.filter((c) => c.text.trim()).map((c) => ({ ...c, text: c.text.trim() })),
           keywords: form.keywords,
+          ...(form.parts.length > 0 ? { parts: form.parts.map((part) => ({ id: part.id, statement: part.statement.trim(), modelAnswer: part.modelAnswer.trim(), marks: part.marks ?? undefined })) } : {}),
         };
 
   const parsed = Question.safeParse(candidate);
@@ -196,6 +213,7 @@ export function formToQuestion(form: QuestionForm, now: number = Date.now()): Fo
     else if (field === 'explanation') errors.explanation = `La explicación es demasiado larga (máximo ${LIMITS.explanation} caracteres).`;
     else if (field === 'modelAnswer') errors.modelAnswer = `La respuesta modelo es demasiado larga (máximo ${LIMITS.modelAnswer} caracteres).`;
     else if (field === 'answers') errors.answers = message.startsWith('Invalid') ? 'Alguna opción es demasiado larga.' : message;
+    else if (field === 'parts') errors.parts = message.startsWith('Too big') || message.startsWith('Invalid') ? `Algún apartado es demasiado largo, o hay más de ${LIMITS.maxParts}.` : message;
     else errors.general = `${String(field ?? 'Formulario')}: ${message}`;
     return { question: null, errors };
   }
@@ -222,6 +240,7 @@ export function removeImageReferences(form: QuestionForm, hash: string): Questio
     explanation: strip(form.explanation),
     modelAnswer: strip(form.modelAnswer),
     answers: form.answers.map((a) => ({ ...a, text: strip(a.text), feedback: strip(a.feedback) })),
+    parts: form.parts.map((part) => ({ ...part, statement: strip(part.statement), modelAnswer: strip(part.modelAnswer) })),
   };
 }
 

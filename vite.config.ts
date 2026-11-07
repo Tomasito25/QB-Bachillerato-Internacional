@@ -10,6 +10,9 @@ const pkg = JSON.parse(readFileSync(new URL('./package.json', import.meta.url), 
   version: string;
 };
 
+/** Nombre que ve la gente. Cada despliegue puede poner el suyo con la variable QB_APP_NAME. */
+const appName = (process.env.QB_APP_NAME ?? '').trim().slice(0, 40) || 'QuestionBank';
+
 /**
  * Ruta de la que cuelga la app. GitHub Pages la sirve en `/<repo>/`; el workflow
  * de despliegue la lee de `actions/configure-pages` y la pasa aquí.
@@ -60,6 +63,12 @@ function contentSecurityPolicy(): Plugin {
   };
 }
 
+/** El nombre del despliegue también en el título, en iOS y en el aviso sin JavaScript. */
+function appNameInHtml(): Plugin {
+  const escaped = appName.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c] as string);
+  return { name: 'qb-app-name', transformIndexHtml: (html) => html.replaceAll('QuestionBank', escaped) };
+}
+
 /**
  * Enlaces profundos en Pages.
  *
@@ -86,6 +95,7 @@ export default defineConfig({
   base,
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
+    __APP_NAME__: JSON.stringify(appName),
   },
   resolve: {
     alias: {
@@ -104,6 +114,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     contentSecurityPolicy(),
+    appNameInHtml(),
     spaFallback(),
     VitePWA({
       // La actualización la decide el usuario: un examen a medias no se recarga solo.
@@ -112,8 +123,8 @@ export default defineConfig({
       includeAssets: ['icons/favicon.svg', 'icons/apple-touch-icon.png'],
       manifest: {
         id: base,
-        name: 'QuestionBank',
-        short_name: 'QuestionBank',
+        name: appName,
+        short_name: appName.length <= 15 ? appName : (appName.split(/\s+/)[0] as string),
         description: 'Banco de preguntas colaborativo para estudiar, repasar y competir, también sin conexión.',
         lang: 'es',
         start_url: base,

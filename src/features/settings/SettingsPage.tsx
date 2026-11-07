@@ -1,4 +1,4 @@
-import { Download, HardDriveDownload, HardDriveUpload, Moon, Monitor, Sun, Trash2 } from 'lucide-react';
+import { Download, HardDriveDownload, HardDriveUpload, Trash2 } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AccountCard } from '@/features/account/AccountCard';
@@ -8,18 +8,14 @@ import { config } from '@/infra/config';
 import { installPrompt, isIos, isStandalone, promptInstall, requestPersistence, storageInfo, type StorageInfo } from '@/infra/pwa/pwa';
 import { Button } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
-import { cn } from '@/ui/cn';
 import { Card, CardHeader, Notice, PageHeader } from '@/ui/Surface';
-import { Field, Input, Toggle } from '@/ui/Field';
+import { Field, Input, Select, Toggle } from '@/ui/Field';
 import { toast } from '@/ui/toast';
 import { BackupError, buildBackup, restoreBackup, wipeLocalData } from './backup';
-import { preferences, updatePreferences, type ThemePreference } from './preferences';
+import { AppearanceControls } from './appearance';
+import { preferences, updatePreferences } from './preferences';
 
-const THEMES: { value: ThemePreference; label: string; icon: typeof Sun }[] = [
-  { value: 'system', label: 'Sistema', icon: Monitor },
-  { value: 'light', label: 'Claro', icon: Sun },
-  { value: 'dark', label: 'Oscuro', icon: Moon },
-];
+const PRACTICE_COUNTS = [5, 10, 20, 30];
 
 function formatBytes(bytes: number): string {
   if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
@@ -32,25 +28,9 @@ function AppearanceCard() {
   return (
     <Card>
       <CardHeader title="Apariencia" />
-      <div className="p-4">
-        <div role="radiogroup" aria-label="Tema" className="inline-flex rounded-md border border-border bg-subtle p-0.5">
-          {THEMES.map(({ value, label, icon: Icon }) => (
-            <button
-              key={value}
-              type="button"
-              role="radio"
-              aria-checked={prefs.theme === value}
-              onClick={() => void updatePreferences({ theme: value })}
-              className={cn(
-                'inline-flex h-7 items-center gap-1.5 rounded px-2.5 text-[13px] font-medium',
-                prefs.theme === value ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink',
-              )}
-            >
-              <Icon size={14} aria-hidden />
-              {label}
-            </button>
-          ))}
-        </div>
+      <div className="flex flex-col gap-5 p-4">
+        <AppearanceControls />
+        <Toggle label="Sólo estudiar" description="Quita competiciones, rankings y amigos de los menús y de Inicio. Siguen ahí si los abres desde un enlace." checked={prefs.studyOnly} onChange={(v) => void updatePreferences({ studyOnly: v })} />
       </div>
     </Card>
   );
@@ -74,6 +54,17 @@ function StudyCard() {
                 value={prefs.dailyGoal}
                 onChange={(e) => void updatePreferences({ dailyGoal: Math.max(1, Math.min(500, Number(e.target.value) || 1)) })}
               />
+            )}
+          </Field>
+          <Field label="Preguntas por práctica" hint="Las de «Practicar» en Inicio y en Estudiar.">
+            {(id, describedBy) => (
+              <Select id={id} aria-describedby={describedBy} value={prefs.practiceCount} onChange={(e) => void updatePreferences({ practiceCount: Number(e.target.value) })}>
+                {PRACTICE_COUNTS.map((n) => (
+                  <option key={n} value={n}>
+                    {n}
+                  </option>
+                ))}
+              </Select>
             )}
           </Field>
           <Field label={`Retención objetivo: ${Math.round(prefs.retention * 100)} %`} hint="Más alta significa recordar más, a cambio de repasar más a menudo.">
@@ -108,7 +99,7 @@ function InstallCard() {
       <div className="p-4 text-sm text-muted">
         {prompt ? (
           <Button variant="primary" icon={<Download size={16} aria-hidden />} onClick={() => void promptInstall()}>
-            Instalar QuestionBank
+            Instalar {config.appName}
           </Button>
         ) : isIos() ? (
           <p>En Safari: botón Compartir → «Añadir a pantalla de inicio».</p>

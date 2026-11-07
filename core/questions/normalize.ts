@@ -31,6 +31,9 @@ function comparableParts(question: Question): string[] {
   if (question.type === 'mcq') {
     // Ordenadas: cambiar el orden de las opciones no hace distinta a una pregunta.
     parts.push(...question.answers.map((a) => normalizeText(a.text)).sort());
+  } else {
+    // En orden: los apartados de un examen no se pueden barajar.
+    parts.push(...(question.parts ?? []).map((part) => normalizeText(part.statement)));
   }
   return parts;
 }
@@ -113,6 +116,6 @@ export function findDuplicates(question: Question, others: Iterable<DuplicateInd
 export function searchableText(question: Question): string {
   const parts = [question.statement, question.tags.join(' ')];
   if (question.type === 'mcq') parts.push(...question.answers.map((a) => a.text));
-  else parts.push(question.keywords.join(' '));
+  else parts.push(question.keywords.join(' '), ...(question.parts ?? []).map((part) => part.statement));
   return normalizeText(parts.join(' '));
 }

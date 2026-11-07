@@ -46,7 +46,7 @@ export function Field({ label, hint, error, className, children }: FieldProps) {
   const describedBy = error || hint ? hintId : undefined;
   return (
     <div className={cn('flex flex-col gap-1.5', className)}>
-      <label htmlFor={id} className="text-[13px] font-medium text-ink">
+      <label htmlFor={id} className="text-[0.8125rem] font-medium text-ink">
         {label}
       </label>
       {children(id, describedBy)}
@@ -124,5 +124,33 @@ export function Checkbox({ checked, onChange, label, disabled, className }: Chec
       />
       <span className="min-w-0">{label}</span>
     </label>
+  );
+}
+
+interface SegmentedProps<T extends string | boolean> {
+  label: string;
+  value: T;
+  options: readonly { value: T; label: string; icon?: ReactNode }[];
+  onChange: (value: T) => void;
+}
+
+/** Una opción entre pocas, a la vista. Para más de cuatro, mejor un `Select`. */
+export function Segmented<T extends string | boolean>({ label, value, options, onChange }: SegmentedProps<T>) {
+  return (
+    <div role="radiogroup" aria-label={label} className="inline-flex w-fit max-w-full flex-wrap rounded-md border border-border bg-subtle p-0.5">
+      {options.map((option) => (
+        <button
+          key={String(option.value)}
+          type="button"
+          role="radio"
+          aria-checked={value === option.value}
+          onClick={() => onChange(option.value)}
+          className={cn('inline-flex min-h-7 items-center gap-1.5 rounded px-2.5 text-[0.8125rem] font-medium', value === option.value ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink')}
+        >
+          {option.icon}
+          {option.label}
+        </button>
+      ))}
+    </div>
   );
 }

@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { identity, tokenReady } from '@/features/account/identity';
 import { excerpt } from '@/features/bank/questionsRepo';
-import { hasCommunity } from '@/infra/config';
+import { config, hasCommunity } from '@/infra/config';
 import { db } from '@/infra/db/db';
 import { online } from '@/infra/connectivity';
 import type { LocalQuestionRow, OutboxRow } from '@/infra/db/types';
@@ -12,6 +12,7 @@ import { RateLimitError, rateLimit } from '@/infra/github/client';
 import { Markdown } from '@/infra/markdown/Markdown';
 import { Button, ButtonLink, buttonClass } from '@/ui/Button';
 import { Checkbox } from '@/ui/Field';
+import { OutLink } from '@/ui/OutLink';
 import { Badge, Card, CardHeader, EmptyState, Notice, PageHeader, Spinner, type BadgeTone } from '@/ui/Surface';
 import { timeAgo } from '@/ui/time';
 import { toast } from '@/ui/toast';
@@ -53,6 +54,12 @@ function StatusCard() {
             {counts.questions.toLocaleString('es')} preguntas · {counts.subjects} asignaturas · {counts.users} personas · {counts.answers.toLocaleString('es')} respuestas publicadas
           </p>
         ) : null}
+        {counts?.commit && /^[0-9a-f]{7,40}$/.test(counts.commit) ? (
+          <div className="flex flex-wrap gap-x-4 gap-y-1">
+            <OutLink href={config.repoUrl(`/commit/${counts.commit}`)}>Datos del commit {counts.commit.slice(0, 7)}</OutLink>
+            <OutLink href={config.repoUrl('/actions')}>Qué está haciendo GitHub Actions</OutLink>
+          </div>
+        ) : null}
       </div>
     </Card>
   );
@@ -86,7 +93,7 @@ function SendAction({ row }: { row: OutboxRow }) {
   }
   if (transport.mode === 'url') {
     return (
-      <a href={transport.url} target="_blank" rel="noopener noreferrer" onClick={() => void markAwaitingUser(row.id)} className="inline-flex h-8 items-center gap-1.5 rounded-md bg-accent px-2.5 text-[13px] font-medium text-accent-ink hover:bg-accent-hover">
+      <a href={transport.url} target="_blank" rel="noopener noreferrer" onClick={() => void markAwaitingUser(row.id)} className="inline-flex h-8 items-center gap-1.5 rounded-md bg-accent px-2.5 text-[0.8125rem] font-medium text-accent-ink hover:bg-accent-hover">
         <Send size={14} aria-hidden />
         {row.status === 'awaiting-user' ? 'Abrir de nuevo en GitHub' : 'Enviar en GitHub'}
       </a>
@@ -115,7 +122,7 @@ function OutboxItem({ row }: { row: OutboxRow }) {
   return (
     <li className="flex flex-col gap-2 px-4 py-3">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <p className="min-w-0 text-[13.5px]">{row.summary}</p>
+        <p className="min-w-0 text-[0.84375rem]">{row.summary}</p>
         <Badge tone={STATUS_TONE[row.status]}>
           <StatusIcon status={row.status} />
           {OUTBOX_STATUS_LABELS[row.status]}
@@ -127,7 +134,7 @@ function OutboxItem({ row }: { row: OutboxRow }) {
         <p className="text-xs text-muted">Pulsa «Create» en GitHub para enviarlo. Esta página lo detectará sola.</p>
       ) : null}
       {row.error ? (
-        <div className="rounded-md bg-danger-soft p-2.5 text-[13px]">
+        <div className="rounded-md bg-danger-soft p-2.5 text-[0.8125rem]">
           <Markdown source={row.error} />
         </div>
       ) : null}
@@ -288,7 +295,7 @@ function UnpublishedCard() {
             </div>
             <ul className="flex flex-col gap-1.5">
               {publishable.map((row) => (
-                <li key={row.id} className="flex items-start gap-2 text-[13.5px]">
+                <li key={row.id} className="flex items-start gap-2 text-[0.84375rem]">
                   <Checkbox
                     checked={selected.has(row.id)}
                     onChange={(checked) =>
@@ -329,11 +336,11 @@ function ConflictRow({ row }: { row: LocalQuestionRow }) {
       <div className="grid gap-2 sm:grid-cols-2">
         <div className="rounded-md border border-border p-2.5">
           <p className="mb-1 text-xs font-medium text-muted">Tu versión</p>
-          <p className="text-[13.5px]">{excerpt(row.statement, 200)}</p>
+          <p className="text-[0.84375rem]">{excerpt(row.statement, 200)}</p>
         </div>
         <div className="rounded-md border border-border p-2.5">
           <p className="mb-1 text-xs font-medium text-muted">Versión comunitaria{community ? ` (rev. ${community.rev})` : ''}</p>
-          <p className="text-[13.5px]">{community ? excerpt(community.statement, 200) : '…'}</p>
+          <p className="text-[0.84375rem]">{community ? excerpt(community.statement, 200) : '…'}</p>
         </div>
       </div>
       <div className="flex flex-wrap gap-2">

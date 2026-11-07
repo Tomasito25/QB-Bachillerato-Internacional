@@ -16,7 +16,9 @@ export async function saveDraft(form: QuestionForm): Promise<void> {
 }
 
 export async function loadDraft(id: string): Promise<QuestionForm | null> {
-  return ((await db.drafts.get(id))?.form as QuestionForm | undefined) ?? null;
+  const form = (await db.drafts.get(id))?.form as QuestionForm | undefined;
+  // Los borradores de antes de los apartados no traen el campo.
+  return form ? { ...form, parts: form.parts ?? [] } : null;
 }
 
 export async function deleteDraft(id: string): Promise<void> {

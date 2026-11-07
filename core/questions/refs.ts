@@ -17,6 +17,7 @@ export function markdownFields(question: Question): string[] {
     }
   } else {
     fields.push(question.modelAnswer, ...question.criteria.map((c) => c.text));
+    for (const part of question.parts ?? []) fields.push(part.statement, part.modelAnswer);
   }
   return fields;
 }

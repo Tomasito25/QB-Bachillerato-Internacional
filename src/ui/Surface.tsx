@@ -1,4 +1,5 @@
 import { useEffect, type ReactNode } from 'react';
+import { config } from '@/infra/config';
 import { cn } from './cn';
 
 export function Card({ className, children }: { className?: string; children: ReactNode }) {
@@ -9,8 +10,8 @@ export function CardHeader({ title, description, action }: { title: ReactNode; d
   return (
     <div className="flex items-start justify-between gap-3 border-b border-border px-4 py-3.5">
       <div className="min-w-0">
-        <h2 className="text-[15px] font-semibold tracking-tight">{title}</h2>
-        {description ? <p className="mt-0.5 text-[13px] text-muted">{description}</p> : null}
+        <h2 className="text-[0.9375rem] font-semibold tracking-tight">{title}</h2>
+        {description ? <p className="mt-0.5 text-[0.8125rem] text-muted">{description}</p> : null}
       </div>
       {action ? <div className="shrink-0">{action}</div> : null}
     </div>
@@ -38,13 +39,13 @@ export function Badge({ tone = 'neutral', className, children, title }: { tone?:
 export function PageHeader({ title, description, actions, documentTitle }: { title: ReactNode; description?: ReactNode; actions?: ReactNode; documentTitle?: string }) {
   const text = documentTitle ?? (typeof title === 'string' ? title : undefined);
   useEffect(() => {
-    if (text) document.title = `${text} · QuestionBank`;
+    if (text) document.title = `${text} · ${config.appName}`;
   }, [text]);
   return (
     <header className="mb-7 flex flex-wrap items-end justify-between gap-3">
       <div className="min-w-0">
         <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>
-        {description ? <p className="mt-1.5 max-w-2xl text-[15px] text-muted">{description}</p> : null}
+        {description ? <p className="mt-1.5 max-w-2xl text-[0.9375rem] text-muted">{description}</p> : null}
       </div>
       {actions ? <div className="flex flex-wrap items-center gap-2">{actions}</div> : null}
     </header>
@@ -55,7 +56,7 @@ export function EmptyState({ icon, title, children, action }: { icon?: ReactNode
   return (
     <div className="flex flex-col items-center rounded-lg bg-subtle/70 px-6 py-12 text-center">
       {icon ? <div className="mb-4 flex size-14 items-center justify-center rounded-full bg-surface text-accent-text">{icon}</div> : null}
-      <p className="text-[15px] font-semibold tracking-tight">{title}</p>
+      <p className="text-[0.9375rem] font-semibold tracking-tight">{title}</p>
       {children ? <div className="mt-1 max-w-md text-sm text-muted">{children}</div> : null}
       {action ? <div className="mt-4 flex flex-wrap justify-center gap-2">{action}</div> : null}
     </div>
@@ -103,7 +104,7 @@ export function Notice({ tone = 'neutral', title, children, className, action }:
     <div className={cn('flex flex-wrap items-center justify-between gap-x-4 gap-y-2 rounded-lg px-4 py-3 text-sm', styles[tone], className)}>
       <div className="min-w-0 flex-1 basis-60">
         {title ? <p className="font-medium">{title}</p> : null}
-        {children ? <div className={cn(title ? 'mt-0.5' : '', 'text-[13px] text-muted')}>{children}</div> : null}
+        {children ? <div className={cn(title ? 'mt-0.5' : '', 'text-[0.8125rem] text-muted')}>{children}</div> : null}
       </div>
       {action ? <div className="flex shrink-0 flex-wrap gap-2">{action}</div> : null}
     </div>

@@ -77,7 +77,7 @@ export default function CompetitionsPage() {
         <Card className="flex flex-wrap items-center justify-between gap-3 p-4">
           <div className="min-w-0">
             <p className="text-sm font-semibold">¿Tienes un código?</p>
-            <p className="text-[13px] text-muted">Te lo pasa quien te invita.</p>
+            <p className="text-[0.8125rem] text-muted">Te lo pasa quien te invita.</p>
           </div>
           <JoinByCode />
         </Card>

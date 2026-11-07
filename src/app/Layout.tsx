@@ -1,23 +1,26 @@
 import { Download, Menu, Plus, RefreshCw, WifiOff, X } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
+import { config } from '@/infra/config';
 import { online } from '@/infra/connectivity';
 import { installUpdate, updateAvailable } from '@/infra/pwa/pwa';
 import { Button, ButtonLink } from '@/ui/Button';
 import { cn } from '@/ui/cn';
 import { Toaster } from '@/ui/toast';
-import { CREATE_ITEM, MOBILE_MORE_NAV, MOBILE_NAV, NAV_GROUPS, type NavItem } from './nav';
+import { WelcomeTour } from '@/features/guide/WelcomeTour';
+import { preferences } from '@/features/settings/preferences';
+import { CREATE_ITEM, navFor, type NavGroup, type NavItem } from './nav';
 import { SyncStatus } from './SyncStatus';
 
 function Logo({ className }: { className?: string }) {
   return (
-    <Link to="/" className={cn('flex items-center gap-2 rounded-md font-semibold tracking-tight', className)}>
+    <Link to="/" className={cn('flex min-w-0 items-center gap-2 rounded-md font-semibold tracking-tight', className)}>
       <svg viewBox="0 0 512 512" className="size-6 shrink-0" aria-hidden>
         <rect width="512" height="512" rx="112" fill="var(--accent)" />
         <circle cx="242" cy="238" r="116" fill="none" stroke="var(--accent-ink)" strokeWidth="46" />
         <path d="M306 302L394 390" fill="none" stroke="var(--accent-ink)" strokeWidth="46" strokeLinecap="round" />
       </svg>
-      QuestionBank
+      <span className="truncate">{config.appName}</span>
     </Link>
   );
 }
@@ -42,7 +45,7 @@ function SideLink({ item }: { item: NavItem }) {
   );
 }
 
-function Sidebar() {
+function Sidebar({ groups }: { groups: NavGroup[] }) {
   return (
     <aside className="sticky top-0 hidden h-dvh flex-col border-r border-border bg-canvas lg:flex">
       <div className="flex flex-col gap-5 px-4 pt-5 pb-2">
@@ -52,7 +55,7 @@ function Sidebar() {
         </ButtonLink>
       </div>
       <nav aria-label="Principal" className="flex min-h-0 flex-1 flex-col overflow-y-auto px-3 pb-3">
-        {NAV_GROUPS.map((group) => (
+        {groups.map((group) => (
           <div key={group.label ?? 'inicio'} role="group" aria-label={group.label} className="flex flex-col gap-0.5 pt-4">
             {group.label ? <p className="px-2.5 pb-1 text-xs font-medium text-faint">{group.label}</p> : null}
             {group.items.map((item) => (
@@ -81,11 +84,11 @@ function BottomItem({ item, active }: { item: Pick<NavItem, 'icon' | 'label'>; a
   );
 }
 
-function BottomNav({ onMore, moreOpen }: { onMore: () => void; moreOpen: boolean }) {
+function BottomNav({ items, onMore, moreOpen }: { items: NavItem[]; onMore: () => void; moreOpen: boolean }) {
   return (
     <nav aria-label="Principal" className="safe-bottom fixed inset-x-0 bottom-0 z-30 border-t border-border bg-surface/90 backdrop-blur-md lg:hidden">
       <div className="grid grid-cols-5">
-        {MOBILE_NAV.map((item) => (
+        {items.map((item) => (
           <NavLink key={item.to} to={item.to} end={item.end} className="flex h-16 flex-col items-center justify-center gap-1">
             {({ isActive }) => <BottomItem item={item} active={isActive && !moreOpen} />}
           </NavLink>
@@ -98,7 +101,7 @@ function BottomNav({ onMore, moreOpen }: { onMore: () => void; moreOpen: boolean
   );
 }
 
-function MoreSheet({ open, onClose }: { open: boolean; onClose: () => void }) {
+function MoreSheet({ items, open, onClose }: { items: NavItem[]; open: boolean; onClose: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const dialog = ref.current;
@@ -123,7 +126,7 @@ function MoreSheet({ open, onClose }: { open: boolean; onClose: () => void }) {
             </Button>
           </div>
           <div className="grid grid-cols-2 gap-1 p-2">
-            {MOBILE_MORE_NAV.map((item) => {
+            {items.map((item) => {
               const Icon = item.icon;
               return (
                 <NavLink
@@ -194,12 +197,13 @@ const isFocusRoute = (pathname: string) => /^\/study\/session\/[^/]+$/.test(path
 export function Layout() {
   const [moreOpen, setMoreOpen] = useState(false);
   const focus = isFocusRoute(useLocation().pathname);
+  const nav = navFor(preferences.use().studyOnly);
   return (
     <div className={cn('min-h-dvh', !focus && 'lg:grid lg:grid-cols-[248px_minmax(0,1fr)]')}>
       <a href="#main" className="sr-only rounded-md bg-surface px-3 py-2 focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50">
         Saltar al contenido
       </a>
-      {focus ? null : <Sidebar />}
+      {focus ? null : <Sidebar groups={nav.groups} />}
       <div className="flex min-h-dvh min-w-0 flex-col">
         {focus ? null : (
           <header className="safe-top sticky top-0 z-20 border-b border-border bg-canvas/90 backdrop-blur-md lg:hidden">
@@ -216,10 +220,11 @@ export function Layout() {
       </div>
       {focus ? null : (
         <>
-          <BottomNav onMore={() => setMoreOpen((v) => !v)} moreOpen={moreOpen} />
-          <MoreSheet open={moreOpen} onClose={() => setMoreOpen(false)} />
+          <BottomNav items={nav.mobile} onMore={() => setMoreOpen((v) => !v)} moreOpen={moreOpen} />
+          <MoreSheet items={nav.more} open={moreOpen} onClose={() => setMoreOpen(false)} />
         </>
       )}
+      {focus ? null : <WelcomeTour />}
       <Toaster />
       <RouteAnnouncer />
       <ScrollRestoration />

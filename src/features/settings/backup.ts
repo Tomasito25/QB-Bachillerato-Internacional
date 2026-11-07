@@ -3,6 +3,7 @@ import { bytesToBase64, base64ToBytes } from '@core/util/encoding';
 import { toIso } from '@core/util/time';
 import { db, kvGet, kvSet } from '@/infra/db/db';
 import type { AttemptRow, DraftRow, LocalImageRow, LocalQuestionRow, LocalSubjectRow, ProgressRow, SessionRow } from '@/infra/db/types';
+import { getFriends, mergeFriends, setFriends } from '@/features/friends/friends';
 
 /**
  * Copia de seguridad de lo que es del usuario. No incluye el token ni la réplica comunitaria,
@@ -21,6 +22,8 @@ const BackupFile = z.object({
   progress: z.array(z.unknown()),
   images: z.array(z.object({ hash: z.string(), base64: z.string(), type: z.string() }).loose()),
   preferences: z.unknown(),
+  /** Desde que hay amigos; las copias anteriores no lo traen. */
+  friends: z.array(z.unknown()).optional(),
 });
 
 export async function buildBackup(): Promise<Blob> {
@@ -41,6 +44,7 @@ export async function buildBackup(): Promise<Blob> {
     progress: await db.progress.toArray(),
     images,
     preferences: await kvGet('preferences'),
+    friends: await getFriends(),
   };
   return new Blob([JSON.stringify(file)], { type: 'application/json' });
 }
@@ -70,7 +74,7 @@ export async function restoreBackup(file: File): Promise<RestoreReport> {
     throw new BackupError('El fichero no es JSON válido.');
   }
   const parsed = BackupFile.safeParse(raw);
-  if (!parsed.success) throw new BackupError('No es una copia de seguridad de QuestionBank.');
+  if (!parsed.success) throw new BackupError('No es una copia de seguridad de esta app.');
   const data = parsed.data;
 
   const incomingProgress = data.progress as ProgressRow[];
@@ -114,6 +118,7 @@ export async function restoreBackup(file: File): Promise<RestoreReport> {
     }
   });
   if (data.preferences && !(await kvGet('preferences'))) await kvSet('preferences', data.preferences);
+  if (data.friends) await setFriends(mergeFriends(await getFriends(), data.friends));
   return report;
 }
 

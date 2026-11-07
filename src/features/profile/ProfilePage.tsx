@@ -1,22 +1,25 @@
-import { Award, CalendarDays, Lock, Pencil, ShieldCheck, Swords, Trophy, Users } from 'lucide-react';
+import { Award, CalendarDays, Lock, Pencil, ShieldCheck, Swords, Trophy, UserCheck, UserPlus, Users } from 'lucide-react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ACHIEVEMENTS } from '@core/scoring/achievements';
 import { levelFromPoints, pointsForLevel } from '@core/scoring/rules';
 import type { DerivedProfile, UserDetail } from '@core/schema/derived';
+import { cleanDisplayName, displayNameProblem, NAME_COOLDOWN_DAYS, NAME_LENGTH, nextNameChange } from '@core/schema/profile';
 import { UserDetail as UserDetailSchema } from '@core/schema/derived';
 import { identity, newNonce } from '@/features/account/identity';
 import { AccountCard } from '@/features/account/AccountCard';
 import { Avatar } from '@/features/bank/parts';
+import { addFriend, removeFriend, useFriends } from '@/features/friends/friends';
 import { excerpt, getQuestion, useQuestions } from '@/features/bank/questionsRepo';
 import { useLocalStats } from '@/features/study/localStats';
 import { enqueue } from '@/features/sync/outbox';
-import { config } from '@/infra/config';
+import { config, hasCommunity } from '@/infra/config';
 import { db } from '@/infra/db/db';
 import { Button, ButtonLink } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
 import { Field, Input, Textarea } from '@/ui/Field';
+import { OutLink } from '@/ui/OutLink';
 import { Badge, Card, CardHeader, EmptyState, PageHeader, ProgressBar, Spinner, Stat } from '@/ui/Surface';
 import { cn } from '@/ui/cn';
 import { toast } from '@/ui/toast';
@@ -46,19 +49,30 @@ function useUserDetail(login: string | undefined): UserDetail | null {
   return detail;
 }
 
-function EditProfileDialog({ profile, open, onClose }: { profile: DerivedProfile | undefined; open: boolean; onClose: () => void }) {
-  const [displayName, setDisplayName] = useState(profile?.displayName ?? '');
-  const [bio, setBio] = useState(profile?.bio ?? '');
+function EditProfileDialog({ profile, open, onClose }: { profile: DerivedProfile; open: boolean; onClose: () => void }) {
+  const [displayName, setDisplayName] = useState(profile.displayName ?? '');
+  const [bio, setBio] = useState(profile.bio ?? '');
   const [busy, setBusy] = useState(false);
+  const others = useLiveQuery(async () => (await db.dProfiles.toArray()).filter((p) => p.login !== profile.login).flatMap((p) => [p.login, p.displayName ?? '']), [profile.login]);
   useEffect(() => {
     if (open) {
-      setDisplayName(profile?.displayName ?? '');
-      setBio(profile?.bio ?? '');
+      setDisplayName(profile.displayName ?? '');
+      setBio(profile.bio ?? '');
     }
   }, [open, profile]);
+  // La espera la impone Actions; aquí sólo se avisa para no gastar un envío que se rechazaría.
+  const name = cleanDisplayName(displayName);
+  const renaming = name !== profile.displayName;
+  const lockedUntil = nextNameChange(profile.nameChangedAt, Date.now());
+  const problem = renaming && name ? displayNameProblem(name, others ?? []) : null;
+  const nameHint = lockedUntil
+    ? `Lo cambiaste hace poco: podrás volver a hacerlo a partir del ${dateFormat.format(lockedUntil)}.`
+    : renaming
+      ? `Revísalo bien: después no podrás cambiarlo en ${NAME_COOLDOWN_DAYS} días. Junto al nombre se verá siempre @${profile.login}.`
+      : `Se puede cambiar una vez cada ${NAME_COOLDOWN_DAYS} días. Vacío, se usa @${profile.login}.`;
   const save = async () => {
     setBusy(true);
-    await enqueue({ v: 1, kind: 'profile', nonce: newNonce(), displayName: displayName.trim() || undefined, bio: bio.trim() || undefined }, 'Actualizo mi perfil público.', {});
+    await enqueue({ v: 1, kind: 'profile', nonce: newNonce(), displayName: lockedUntil ? profile.displayName : name, bio: bio.trim() || undefined }, 'Actualizo mi perfil público.', {});
     setBusy(false);
     toast.success('Preparado. Envíalo desde Sincronización.');
     onClose();
@@ -72,14 +86,16 @@ function EditProfileDialog({ profile, open, onClose }: { profile: DerivedProfile
       footer={
         <>
           <Button onClick={onClose}>Cancelar</Button>
-          <Button variant="primary" busy={busy} onClick={() => void save()}>
+          <Button variant="primary" busy={busy} disabled={problem !== null} onClick={() => void save()}>
             Preparar envío
           </Button>
         </>
       }
     >
       <div className="flex flex-col gap-3">
-        <Field label="Nombre visible (opcional)">{(id) => <Input id={id} data-autofocus maxLength={60} value={displayName} onChange={(e) => setDisplayName(e.target.value)} />}</Field>
+        <Field label="Nombre visible" hint={nameHint} error={problem ?? undefined}>
+          {(id, describedBy) => <Input id={id} aria-describedby={describedBy} data-autofocus disabled={lockedUntil !== null} maxLength={NAME_LENGTH.max} placeholder={`@${profile.login}`} value={displayName} onChange={(e) => setDisplayName(e.target.value)} />}
+        </Field>
         <Field label="Biografía (opcional)" hint={`${bio.length} de 280`}>
           {(id, describedBy) => <Textarea id={id} aria-describedby={describedBy} rows={3} maxLength={280} value={bio} onChange={(e) => setBio(e.target.value)} />}
         </Field>
@@ -101,7 +117,7 @@ function Achievements({ unlocked }: { unlocked: readonly string[] }) {
             <li key={achievement.id} className={cn('flex items-start gap-2.5 rounded-md border p-2.5', has ? 'border-border' : 'border-dashed border-border')}>
               {has ? <Award size={16} className="mt-0.5 shrink-0 text-accent-text" aria-hidden /> : <Lock size={14} className="mt-0.5 shrink-0 text-faint" aria-hidden />}
               <div className="min-w-0">
-                <p className={cn('text-[13px] font-medium', !has && 'text-muted')}>
+                <p className={cn('text-[0.8125rem] font-medium', !has && 'text-muted')}>
                   {achievement.title}
                   <span className="sr-only">{has ? ' (conseguido)' : ' (pendiente)'}</span>
                 </p>
@@ -124,7 +140,7 @@ function ContributedList({ ids }: { ids: readonly string[] }) {
       <ul className="divide-y divide-border">
         {items.map((question) => (
           <li key={question.id}>
-            <Link to={`/q/${question.id}`} className="block px-4 py-2 text-[13.5px] hover:bg-subtle/60">
+            <Link to={`/q/${question.id}`} className="block px-4 py-2 text-[0.84375rem] hover:bg-subtle/60">
               {excerpt(question.statement, 110)}
             </Link>
           </li>
@@ -139,7 +155,7 @@ function ActivityList({ detail }: { detail: UserDetail }) {
   return (
     <Card>
       <CardHeader title="Historial de actividad" />
-      <ul className="divide-y divide-border text-[13.5px]">
+      <ul className="divide-y divide-border text-[0.84375rem]">
         {detail.activity.map((item, i) => (
           <li key={i} className="flex items-center justify-between gap-3 px-4 py-2">
             {item.kind === 'study' ? (
@@ -195,9 +211,10 @@ function OfficialProfile({ profile, isMe, onEdit }: { profile: DerivedProfile; i
                 </Badge>
               ) : null}
             </div>
-            <a href={`https://github.com/${profile.login}`} target="_blank" rel="noopener noreferrer" className="text-[13px] text-muted hover:underline">
-              @{profile.login} en GitHub
-            </a>
+            <div className="flex flex-wrap gap-x-4 gap-y-1">
+              <OutLink href={`https://github.com/${profile.login}`}>@{profile.login} en GitHub</OutLink>
+              {hasCommunity() ? <OutLink href={config.repoUrl(`/issues?q=${encodeURIComponent(`author:${profile.login}`)}`)}>Sus envíos</OutLink> : null}
+            </div>
             {profile.bio ? <p className="mt-2 text-sm whitespace-pre-wrap">{profile.bio}</p> : null}
             <p className="mt-2 flex items-center gap-1.5 text-xs text-muted">
               <CalendarDays size={12} aria-hidden />
@@ -208,7 +225,14 @@ function OfficialProfile({ profile, isMe, onEdit }: { profile: DerivedProfile; i
             <Button size="sm" icon={<Pencil size={14} aria-hidden />} onClick={onEdit}>
               Editar
             </Button>
-          ) : null}
+          ) : (
+            <div className="flex flex-wrap gap-2">
+              <FriendButton login={profile.login} />
+              <ButtonLink to={`/competitions/new?invite=${profile.login}`} size="sm" icon={<Swords size={14} aria-hidden />}>
+                Retar a un duelo
+              </ButtonLink>
+            </div>
+          )}
         </div>
         <div className="mt-4 border-t border-border pt-4">
           <div className="mb-1.5 flex items-baseline justify-between gap-3">
@@ -268,6 +292,17 @@ function LocalSummary() {
   );
 }
 
+function FriendButton({ login }: { login: string }) {
+  const friends = useFriends();
+  if (!friends) return null;
+  const isFriend = friends.includes(login);
+  return (
+    <Button size="sm" variant={isFriend ? 'secondary' : 'primary'} aria-pressed={isFriend} icon={isFriend ? <UserCheck size={14} aria-hidden /> : <UserPlus size={14} aria-hidden />} onClick={() => void (isFriend ? removeFriend(login) : addFriend(login))}>
+      {isFriend ? 'En tus amigos' : 'Añadir a amigos'}
+    </Button>
+  );
+}
+
 export default function ProfilePage() {
   const { login: routeLogin } = useParams();
   const me = identity.use();
@@ -311,11 +346,6 @@ export default function ProfilePage() {
       <div className="-mt-[3.25rem] flex flex-col gap-4">
         <OfficialProfile profile={profile} isMe={isMe} onEdit={() => setEditing(true)} />
         {isMe ? <LocalSummary /> : null}
-        {!isMe ? (
-          <ButtonLink to={`/competitions/new?invite=${profile.login}`} className="w-fit" icon={<Swords size={16} aria-hidden />}>
-            Retar a un duelo
-          </ButtonLink>
-        ) : null}
       </div>
       <EditProfileDialog profile={profile} open={editing} onClose={() => setEditing(false)} />
     </>

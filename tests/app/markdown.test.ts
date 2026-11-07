@@ -1,5 +1,8 @@
 import { beforeAll, describe, expect, it } from 'vitest';
 import { loadMath, renderMarkdown } from '@/infra/markdown/render';
+import type { McqQuestion } from '@core/schema/question';
+import { loose } from '@/features/bank/QuestionView';
+import { makeMcq, makeOpen } from '../fixtures';
 
 const HASH = 'b'.repeat(64);
 
@@ -139,5 +142,20 @@ describe('Markdown: fórmulas', () => {
     const html = renderMarkdown(attack);
     expectSafe(html);
     expect(html.toLowerCase()).not.toContain('href="javascript');
+  });
+});
+
+describe('imágenes sueltas', () => {
+  const image = (hash: string) => ({ hash, ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' });
+
+  it('las de una opción o de la solución no salen bajo el enunciado', () => {
+    const inAnswer = 'c'.repeat(64);
+    const inSolution = 'd'.repeat(64);
+    const unused = 'e'.repeat(64);
+    const mcq = makeMcq({ images: [image(inAnswer), image(unused)] });
+    mcq.answers[0] = { ...(mcq.answers[0] as McqQuestion['answers'][number]), text: `![figura](qbimg:${inAnswer})` };
+    expect(loose(mcq).map((i) => i.hash)).toEqual([unused]);
+    const open = makeOpen({ images: [image(inSolution)], modelAnswer: `Mira: ![figura](qbimg:${inSolution})` });
+    expect(loose(open)).toEqual([]);
   });
 });

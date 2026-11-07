@@ -13,6 +13,7 @@ export const SUBMISSION_VERSION = 1;
 
 export const MAX_QUESTIONS_PER_SUBMISSION = 20;
 export const MAX_ANSWERS_PER_SUBMISSION = 2000;
+export const MAX_IMAGES_PER_SUBMISSION = 12;
 
 const head = {
   v: z.literal(SUBMISSION_VERSION),
@@ -42,7 +43,7 @@ export const QuestionsSubmission = z.strictObject({
   /** Se validan después con su propio esquema, para dar errores por pregunta. */
   questions: z.array(z.unknown()).min(1).max(MAX_QUESTIONS_PER_SUBMISSION),
   subjects: z.array(z.unknown()).max(MAX_QUESTIONS_PER_SUBMISSION),
-  images: z.array(InlineImage).max(12),
+  images: z.array(InlineImage).max(MAX_IMAGES_PER_SUBMISSION),
   /** Licencia aceptada y procedencia declarada por quien publica. */
   licenseAccepted: z.literal(true),
   origin: z.enum(['own', 'open-licensed', 'public-domain']),

@@ -97,7 +97,7 @@ export async function decodeIssueBody(body: string | null | undefined): Promise<
 }
 
 /** Lo que ve en GitHub quien tiene que pegar. Sin un aviso allí mismo, el issue llega vacío y se rechaza. */
-export const PASTE_HINT = 'Pega aquí debajo lo que ha copiado QuestionBank (Ctrl+V, o mantén pulsado y elige «Pegar») y después pulsa «Create».\n\n';
+export const PASTE_HINT = 'Pega aquí debajo lo que ha copiado la app (Ctrl+V, o mantén pulsado y elige «Pegar») y después pulsa «Create».\n\n';
 
 export function buildIssueUrl(repo: string, encoded: EncodedSubmission): string {
   const params = new URLSearchParams({ title: encoded.title, body: encoded.body });

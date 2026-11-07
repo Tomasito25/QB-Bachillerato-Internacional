@@ -256,7 +256,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
               ) : null}
             </>
           ) : deferred ? (
-            <p className="rounded-md bg-subtle p-3 text-[13px] text-muted">Es de desarrollo: al terminar verás la solución y te autoevaluarás. Mientras tanto, resuélvela en papel o en tu cabeza.</p>
+            <p className="rounded-md bg-subtle p-3 text-[0.8125rem] text-muted">Es de desarrollo: al terminar verás la solución y te autoevaluarás. Mientras tanto, resuélvela en papel o en tu cabeza.</p>
           ) : (
             <>
               <OpenPlayer key={question.id} question={question} revealed={openRevealed} committed={committed} initialGrade={saved?.selfGrade} initialCriteria={saved?.metCriteria} onGrade={(grade, met) => void onSelfGrade(grade, met)} />

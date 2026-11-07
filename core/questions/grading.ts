@@ -72,8 +72,28 @@ export function suggestSelfGrade(
   if (total === 0) return 0;
   const metSet = new Set(met);
   const earned = criteria.reduce((sum, c) => sum + (metSet.has(c.id) ? c.weight : 0), 0);
-  const ratio = earned / total;
+  return gradeFromRatio(earned / total);
+}
+
+function gradeFromRatio(ratio: number): SelfGrade {
   if (ratio >= 0.85) return 2;
   if (ratio >= 0.5) return 1;
   return 0;
+}
+
+/**
+ * Nota sugerida a partir de cómo salió cada apartado, pesando por sus puntos (1 si no
+ * tiene). `null` mientras falte alguno por valorar.
+ */
+export function suggestFromParts(parts: readonly { id: string; marks?: number }[], grades: Readonly<Record<string, SelfGrade>>): SelfGrade | null {
+  let total = 0;
+  let earned = 0;
+  for (const part of parts) {
+    const grade = grades[part.id];
+    if (grade === undefined) return null;
+    const weight = part.marks ?? 1;
+    total += weight;
+    earned += (grade / 2) * weight;
+  }
+  return total === 0 ? null : gradeFromRatio(earned / total);
 }

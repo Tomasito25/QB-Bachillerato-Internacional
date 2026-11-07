@@ -52,7 +52,7 @@ export interface PendingConnect {
 /** Prepara el issue de conexión. Lo abre el usuario con su sesión de GitHub: no hay contraseña ni token aquí. */
 export async function startConnect(): Promise<PendingConnect> {
   const nonce = newNonce();
-  const encoded = await encodeSubmission({ v: 1, kind: 'connect', nonce }, 'Conecto mi cuenta de GitHub a QuestionBank. Este issue sólo prueba que soy yo, y se cierra solo.');
+  const encoded = await encodeSubmission({ v: 1, kind: 'connect', nonce }, `Conecto mi cuenta de GitHub a ${config.appName}. Este issue sólo prueba que soy yo, y se cierra solo.`);
   const params = new URLSearchParams({ title: encoded.title, body: encoded.body });
   const pending: PendingConnect = { nonce, url: `https://github.com/${config.repo}/issues/new?${params.toString()}`, startedAt: Date.now() };
   await kvSet(PENDING_KEY, pending);
@@ -125,4 +125,4 @@ export async function removeToken(): Promise<void> {
   if (current) await saveIdentity({ ...current, via: 'issue' });
 }
 
-export const TOKEN_CREATE_URL = 'https://github.com/settings/tokens/new?scopes=public_repo&description=QuestionBank';
+export const TOKEN_CREATE_URL = `https://github.com/settings/tokens/new?scopes=public_repo&description=${encodeURIComponent(config.appName)}`;

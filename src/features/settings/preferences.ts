@@ -2,6 +2,9 @@ import { kvGet, kvSet } from '@/infra/db/db';
 import { createStore } from '@/infra/store';
 
 export type ThemePreference = 'system' | 'light' | 'dark';
+export type AccentName = 'indigo' | 'blue' | 'teal' | 'violet' | 'pink' | 'orange';
+export type TextSize = 'small' | 'normal' | 'large' | 'xlarge';
+export type FontChoice = 'inter' | 'system' | 'serif';
 
 export interface Preferences {
   theme: ThemePreference;
@@ -15,6 +18,15 @@ export interface Preferences {
   showDifficulty: boolean;
   /** Sólo con token: publicar resultados sin pedir confirmación cada vez. */
   autoPublishResults: boolean;
+  /** Color de botones, enlaces y progreso. */
+  accent: AccentName;
+  /** Preguntas de una práctica rápida. */
+  practiceCount: number;
+  /** Oculta competiciones, rankings y amigos: sólo estudiar. */
+  studyOnly: boolean;
+  /** Escala toda la interfaz, no sólo el texto de las preguntas. */
+  textSize: TextSize;
+  font: FontChoice;
 }
 
 export const DEFAULT_PREFERENCES: Preferences = {
@@ -24,6 +36,11 @@ export const DEFAULT_PREFERENCES: Preferences = {
   autoAdvance: false,
   showDifficulty: true,
   autoPublishResults: false,
+  accent: 'indigo',
+  practiceCount: 10,
+  studyOnly: false,
+  textSize: 'normal',
+  font: 'inter',
 };
 
 export const preferences = createStore<Preferences>(DEFAULT_PREFERENCES);
@@ -40,11 +57,24 @@ export function applyTheme(theme: ThemePreference): void {
   }
 }
 
+/** Como el tema, se guardan también fuera de IndexedDB para aplicarlos antes de pintar (`theme-init.js`). */
+function applyLook(key: 'accent' | 'text' | 'font', value: string): void {
+  document.documentElement.dataset[key] = value;
+  try {
+    localStorage.setItem(`qb-${key}`, value);
+  } catch {
+    /* Sin almacenamiento: se aplica igual en esta sesión. */
+  }
+}
+
 export async function loadPreferences(): Promise<void> {
   const stored = await kvGet<Partial<Preferences>>(KEY);
   const merged = { ...DEFAULT_PREFERENCES, ...stored };
   preferences.set(merged);
   applyTheme(merged.theme);
+  applyLook('accent', merged.accent);
+  applyLook('text', merged.textSize);
+  applyLook('font', merged.font);
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     if (preferences.get().theme === 'system') applyTheme('system');
   });
@@ -54,5 +84,8 @@ export async function updatePreferences(patch: Partial<Preferences>): Promise<vo
   const next = { ...preferences.get(), ...patch };
   preferences.set(next);
   if (patch.theme) applyTheme(patch.theme);
+  if (patch.accent) applyLook('accent', patch.accent);
+  if (patch.textSize) applyLook('text', patch.textSize);
+  if (patch.font) applyLook('font', patch.font);
   await kvSet(KEY, next);
 }

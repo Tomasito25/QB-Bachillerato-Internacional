@@ -94,7 +94,7 @@ export default function StatsPage() {
             <h2 id="bank-stats" className="text-xs font-semibold tracking-wide text-muted uppercase">
               Banco de preguntas
             </h2>
-            <Select aria-label="Filtrar estadísticas por asignatura" className="h-8 w-auto text-[13px]" value={subjectId} onChange={(e) => setSubjectId(e.target.value)}>
+            <Select aria-label="Filtrar estadísticas por asignatura" className="h-8 w-auto text-[0.8125rem]" value={subjectId} onChange={(e) => setSubjectId(e.target.value)}>
               <option value="">Todas las asignaturas</option>
               {taxonomy.subjects.map((s) => (
                 <option key={s.id} value={s.id}>

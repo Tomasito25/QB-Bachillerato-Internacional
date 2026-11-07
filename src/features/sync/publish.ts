@@ -1,4 +1,4 @@
-import { MAX_ANSWERS_PER_SUBMISSION, MAX_QUESTIONS_PER_SUBMISSION, type Submission } from '@core/schema/submission';
+import { MAX_ANSWERS_PER_SUBMISSION, MAX_IMAGES_PER_SUBMISSION, MAX_QUESTIONS_PER_SUBMISSION, type Submission } from '@core/schema/submission';
 import type { AnswerEvent } from '@core/schema/events';
 import type { UserRef } from '@core/schema/common';
 import type { Question, QuestionImage } from '@core/schema/question';
@@ -38,17 +38,11 @@ const INLINE_ATTEMPTS = [
   { maxDimension: 512, maxBytes: 14 * 1024 },
 ];
 
-function replaceImageRefs(text: string | undefined, from: string, to: string): string | undefined {
-  return text?.replaceAll(`qbimg:${from}`, `qbimg:${to}`);
-}
-
+/** Cambia una imagen por otra en todos los textos de la pregunta: enunciado, opciones, apartados… */
 function swapImage(question: Question, from: QuestionImage, to: QuestionImage): Question {
-  const images = question.images.map((i) => (i.hash === from.hash ? to : i));
-  const common = { ...question, images, statement: replaceImageRefs(question.statement, from.hash, to.hash) as string, explanation: replaceImageRefs(question.explanation, from.hash, to.hash) };
-  if (question.type === 'mcq') {
-    return { ...common, type: 'mcq', answers: question.answers.map((a) => ({ ...a, text: replaceImageRefs(a.text, from.hash, to.hash) as string })) } as Question;
-  }
-  return { ...common, type: 'open', modelAnswer: replaceImageRefs(question.modelAnswer, from.hash, to.hash) as string } as Question;
+  // Los hashes son hexadecimales: reemplazar en el JSON no puede romper nada más.
+  const swapped = JSON.parse(JSON.stringify(question).replaceAll(`qbimg:${from.hash}`, `qbimg:${to.hash}`)) as Question;
+  return { ...swapped, images: swapped.images.map((i) => (i.hash === from.hash ? to : i)) };
 }
 
 interface Prepared {
@@ -148,8 +142,8 @@ async function buildIssueSubmissions(questions: readonly Question[], subjects: r
     const item = queue.shift() as (typeof queue)[number];
     const submission = build(item.batch, item.subjects);
     const size = JSON.stringify(submission).length;
-    // Estimación prudente antes de comprimir: si es muy grande, se parte directamente.
-    if (size > MAX_ISSUE_BODY_LENGTH * 3 && item.batch.length > 1) {
+    // Estimación prudente antes de comprimir: si es muy grande, o lleva más imágenes de las que admite un envío, se parte.
+    if ((size > MAX_ISSUE_BODY_LENGTH * 3 || submission.images.length > MAX_IMAGES_PER_SUBMISSION) && item.batch.length > 1) {
       const middle = Math.ceil(item.batch.length / 2);
       queue.unshift({ batch: item.batch.slice(0, middle), subjects: item.subjects }, { batch: item.batch.slice(middle), subjects: [] });
       continue;

@@ -38,15 +38,19 @@ export async function loadSyncState(): Promise<void> {
   syncState.set((current) => ({ ...current, lastSyncAt }));
 }
 
-export function useManifestSummary(): Manifest['counts'] | undefined {
-  return useLiveQuery(async () => kvGet<Manifest['counts']>(MANIFEST_KEY), []);
+/** Cifras del último manifiesto, y el commit de `data` del que salen. */
+export type ManifestSummary = Manifest['counts'] & { commit?: string };
+
+export function useManifestSummary(): ManifestSummary | undefined {
+  return useLiveQuery(async () => kvGet<ManifestSummary>(MANIFEST_KEY), []);
 }
 
 class ManifestUnavailable extends Error {}
 
 async function fetchManifest(): Promise<Manifest> {
-  // El parámetro salta la caché de 10 minutos del CDN de Pages (comprobado: max-age=600).
-  const response = await fetch(`${config.communityUrl('manifest.json')}?t=${Math.floor(Date.now() / 30_000)}`, { cache: 'no-store' });
+  // Sin caché del navegador. La del CDN de Pages (10 minutos) no se puede saltar: ignora los
+  // parámetros de la URL (comprobado). Por eso, tras un envío, se mira cada minuto durante 15.
+  const response = await fetch(config.communityUrl('manifest.json'), { cache: 'no-store' });
   if (response.status === 404) throw new ManifestUnavailable();
   if (!response.ok) throw new Error(`El servidor respondió ${response.status}`);
   // En desarrollo, una ruta inexistente devuelve el HTML de la app.
@@ -204,7 +208,7 @@ async function run({ force = false }: { force?: boolean }): Promise<SyncReport |
     const reconciled = await reconcileLocal();
     const now = Date.now();
     await kvSet(LAST_SYNC_KEY, now);
-    await kvSet(MANIFEST_KEY, manifest.counts);
+    await kvSet(MANIFEST_KEY, { ...manifest.counts, commit: manifest.dataCommit } satisfies ManifestSummary);
     syncState.set((s) => ({ ...s, status: 'idle', lastSyncAt: now, message: null, noCommunity: false }));
     online.set(true);
 

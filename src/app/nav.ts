@@ -1,5 +1,6 @@
 import {
   BarChart3,
+  BookOpen,
   Compass,
   FolderTree,
   GraduationCap,
@@ -11,6 +12,7 @@ import {
   Swords,
   Trophy,
   User,
+  Users,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -49,8 +51,10 @@ export const NAV_GROUPS: NavGroup[] = [
     items: [
       { to: '/stats', label: 'Estadísticas', icon: BarChart3 },
       { to: '/profile', label: 'Perfil', icon: User },
+      { to: '/friends', label: 'Amigos', icon: Users },
       { to: '/sync', label: 'Sincronización', icon: RefreshCw },
       { to: '/settings', label: 'Configuración', icon: Settings },
+      { to: '/guide', label: 'Guía', icon: BookOpen },
     ],
   },
 ];
@@ -65,4 +69,12 @@ export const MOBILE_NAV: NavItem[] = [
   { to: '/competitions', label: 'Competir', icon: Swords },
 ];
 
-export const MOBILE_MORE_NAV: NavItem[] = [CREATE_ITEM, ...NAV_GROUPS.flatMap((group) => group.items).filter((item) => !MOBILE_NAV.some((m) => m.to === item.to))];
+const SOCIAL = new Set(['/competitions', '/leaderboards', '/friends']);
+
+/** Con «Sólo estudiar» no hay competiciones, rankings ni amigos en los menús; siguen a un enlace de distancia. */
+export function navFor(studyOnly: boolean): { groups: NavGroup[]; mobile: NavItem[]; more: NavItem[] } {
+  const groups = studyOnly ? NAV_GROUPS.map((group) => ({ ...group, items: group.items.filter((item) => !SOCIAL.has(item.to)) })) : NAV_GROUPS;
+  const mobile = studyOnly ? [...MOBILE_NAV.filter((item) => !SOCIAL.has(item.to)), { to: '/bank', label: 'Banco', icon: Library }] : MOBILE_NAV;
+  const more = [CREATE_ITEM, ...groups.flatMap((group) => group.items).filter((item) => !mobile.some((m) => m.to === item.to))];
+  return { groups, mobile, more };
+}

@@ -19,7 +19,7 @@ import { currentRound, hasEntered, joinTournament, PHASE_LABELS, startCompetitio
 const dateFormat = new Intl.DateTimeFormat('es', { dateStyle: 'medium', timeStyle: 'short' });
 
 function StandingsTable({ competition, me }: { competition: DerivedCompetition; me?: string }) {
-  if (competition.standings.length === 0) return <p className="p-4 text-[13px] text-muted">Aún no ha entregado nadie.</p>;
+  if (competition.standings.length === 0) return <p className="p-4 text-[0.8125rem] text-muted">Aún no ha entregado nadie.</p>;
   return (
     <div className="overflow-x-auto">
       <table className="w-full text-sm">
@@ -67,7 +67,7 @@ const DECIDED_BY: Record<BracketMatch['decidedBy'], string> = {
 
 function MatchCard({ match, me }: { match: BracketMatch; me?: string }) {
   const side = (login: string | null, correct: number | null) => (
-    <div className={cn('flex items-center justify-between gap-3 px-2.5 py-1.5 text-[13px]', match.winner === login && login !== null && 'font-semibold', login === me && 'bg-accent-soft')}>
+    <div className={cn('flex items-center justify-between gap-3 px-2.5 py-1.5 text-[0.8125rem]', match.winner === login && login !== null && 'font-semibold', login === me && 'bg-accent-soft')}>
       <span className="min-w-0 truncate">{login ?? <span className="text-muted">—</span>}</span>
       <span className="shrink-0 text-muted tabular-nums">{correct ?? ''}</span>
     </div>
@@ -84,7 +84,7 @@ function MatchCard({ match, me }: { match: BracketMatch; me?: string }) {
 
 function Bracket({ competition, me }: { competition: DerivedCompetition; me?: string }) {
   if (!competition.bracket || competition.bracket.length === 0) {
-    return <p className="p-4 text-[13px] text-muted">El cuadro se sortea al cerrar la inscripción. Hacen falta al menos 2 inscritos.</p>;
+    return <p className="p-4 text-[0.8125rem] text-muted">El cuadro se sortea al cerrar la inscripción. Hacen falta al menos 2 inscritos.</p>;
   }
   return (
     <div className="flex gap-4 overflow-x-auto p-4">
@@ -168,7 +168,7 @@ export default function CompetitionDetailPage() {
 
   return (
     <>
-      <Link to="/competitions" className="mb-3 inline-flex items-center gap-1.5 text-[13px] text-muted hover:text-ink">
+      <Link to="/competitions" className="mb-3 inline-flex items-center gap-1.5 text-[0.8125rem] text-muted hover:text-ink">
         <ArrowLeft size={14} aria-hidden />
         Competiciones
       </Link>
@@ -221,7 +221,7 @@ export default function CompetitionDetailPage() {
           <Card className="flex flex-wrap items-center justify-between gap-3 p-4">
             <div className="min-w-0">
               <p className="text-sm font-semibold">{session?.state === 'active' ? 'Tienes un intento a medias' : isTournament ? `Te toca la ronda ${(round ?? 0) + 1}` : 'Cuando quieras'}</p>
-              <p className="text-[13px] text-muted">
+              <p className="text-[0.8125rem] text-muted">
                 {competition.questionCount} preguntas · {Math.round(competition.durationSec / 60)} minutos desde que empieces. Sólo hay un intento.
               </p>
             </div>

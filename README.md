@@ -9,7 +9,7 @@ Actions como backend. Es una PWA instalable.
 
 | | |
 |---|---|
-| **Sin cuenta** | Crear preguntas, estudiar, exámenes, repaso y estadísticas. Todo queda en el dispositivo |
+| **Sin cuenta** | Crear preguntas, estudiar, exámenes, repaso y estadísticas, con tema y color a tu gusto y una guía paso a paso dentro de la app. Todo queda en el dispositivo |
 | **Con cuenta de GitHub** | Publicar preguntas, perfil público, rankings y competiciones |
 
 ## Empezar en local
@@ -37,6 +37,7 @@ npm run dev
 
 Lo explica paso a paso [docs/SETUP.md](docs/SETUP.md). En resumen: crear un repositorio público,
 subir `main` y ejecutar `tools/setup-repo.sh`. Después, cada push a `main` despliega solo.
+El nombre que muestra la app se cambia con la variable de repositorio `QB_APP_NAME`.
 
 ## Cómo funciona
 

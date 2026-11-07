@@ -101,6 +101,20 @@ describe('publicar preguntas por issue', () => {
     expect(all).toHaveLength(45);
   });
 
+  it('parte el envío si lleva más imágenes de las que admite uno', async () => {
+    await db.cSubjects.put(makeSubject());
+    const questions = [];
+    for (let q = 0; q < 2; q++) {
+      const images = Array.from({ length: 8 }, (_, i) => ({ hash: `${q}${i}`.padEnd(64, 'f'), ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' }));
+      for (const image of images) await db.localImages.put({ ...image, blob: new NodeBlob([new Uint8Array(100)], { type: 'image/webp' }) as unknown as Blob, createdAt: 1 });
+      questions.push(makeMcq({ id: uuid(), author: null, images, statement: images.map((image) => `![x](qbimg:${image.hash})`).join(' ') }));
+    }
+    for (const question of questions) await saveLocalQuestion(question, null);
+    const rows = await publishViaIssue(questions.map((q) => q.id), 'own');
+    expect(rows).toHaveLength(2);
+    for (const row of rows) expect(Submission.safeParse(await decodeIssueBody(row.issueBody)).success).toBe(true);
+  });
+
   it('no publica lo que no existe', async () => {
     await expect(publishViaIssue([uuid()], 'own')).rejects.toThrow(/No hay preguntas/);
   });

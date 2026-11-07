@@ -88,3 +88,50 @@ export function insertAt(state: TextState, text: string): TextState {
   const position = state.start + text.length;
   return { value, start: position, end: position };
 }
+
+/** Una fórmula ya escrita: dónde está (con sus `$`) y qué lleva dentro. */
+export interface FormulaSpan {
+  start: number;
+  end: number;
+  latex: string;
+  display: boolean;
+}
+
+/** La fórmula en la que está el cursor, para editarla en vez de escribir otra. */
+export function formulaAt(state: TextState): FormulaSpan | null {
+  const caret = state.start;
+  for (const match of state.value.matchAll(/\$\$([\s\S]*?)\$\$|\$(?!\s)([^$\n]*?[^\s$\\])\$/g)) {
+    const start = match.index;
+    const end = start + match[0].length;
+    if (caret > start && caret < end) return { start, end, latex: (match[1] ?? match[2] ?? '').trim(), display: match[1] !== undefined };
+    if (start > caret) break;
+  }
+  return null;
+}
+
+/** Pone la fórmula en lugar de la selección: `$…$` en la línea, o un bloque `$$` aparte. */
+export function insertFormula(state: TextState, latex: string, display: boolean): TextState {
+  const tex = latex.trim();
+  if (!display) return insertAt(state, `$${tex}$`);
+  const inserted = block({ value: state.value.slice(0, state.start) + state.value.slice(state.end), start: state.start, end: state.start }, '$$', '$$', tex);
+  const after = inserted.end + '\n$$'.length;
+  return { value: inserted.value, start: after, end: after };
+}
+
+/**
+ * Plantilla de la paleta, como `\frac{}{}`. Lo seleccionado entra en el primer hueco y el
+ * cursor salta al siguiente; sin selección, el cursor se queda en el primero.
+ */
+export function applyTemplate(state: TextState, template: string): TextState {
+  const selected = state.value.slice(state.start, state.end);
+  const slot = template.indexOf('{}');
+  let text = template;
+  let caret = template.length;
+  if (slot !== -1) {
+    text = template.slice(0, slot + 1) + selected + template.slice(slot + 1);
+    const next = text.indexOf('{}', slot + 1 + selected.length);
+    caret = !selected ? slot + 1 : next === -1 ? text.length : next + 1;
+  }
+  const value = state.value.slice(0, state.start) + text + state.value.slice(state.end);
+  return { value, start: state.start + caret, end: state.start + caret };
+}

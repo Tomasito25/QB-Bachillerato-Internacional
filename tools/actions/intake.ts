@@ -2,6 +2,7 @@ import { buildCompetition, buildBracket, activeInRound, CompetitionError, entryP
 import { questionFingerprint } from '../../core/questions/normalize.ts';
 import { normalizeLogin, type UserRef } from '../../core/schema/common.ts';
 import { migrateDocument } from '../../core/schema/migrations.ts';
+import { cleanDisplayName, displayNameProblem, NAME_COOLDOWN_DAYS, nextNameChange } from '../../core/schema/profile.ts';
 import { Question } from '../../core/schema/question.ts';
 import type { Competition } from '../../core/schema/competition.ts';
 import type { StoredAnswerEvent } from '../../core/schema/events.ts';
@@ -70,6 +71,8 @@ function actorOf(issue: IssueData): UserRef {
 function epoch(ms: number): number {
   return Math.floor(ms / 1000);
 }
+
+const longDate = new Intl.DateTimeFormat('es', { dateStyle: 'long', timeZone: 'UTC' });
 
 function clean(text: string | undefined): string | undefined {
   // Texto plano: fuera caracteres de control. Se muestra siempre como texto, nunca como HTML.
@@ -266,10 +269,31 @@ class Intake {
   private async profile(issue: IssueData, submission: Extract<Submission, { kind: 'profile' }>): Promise<void> {
     const { store, now } = this.deps;
     await this.ensureUser(issue);
-    const user = store.users.get(actorOf(issue).login);
+    const login = actorOf(issue).login;
+    const user = store.users.get(login);
     if (!user) throw new Error('Usuario no creado');
-    await store.putUser({ ...user, displayName: clean(submission.displayName), bio: clean(submission.bio), updatedAt: toIso(now()) });
-    this.done(issue, 'accepted', 'Perfil actualizado.', true);
+    const displayName = cleanDisplayName(submission.displayName);
+    let nameChangedAt = user.nameChangedAt;
+    let lockedUntil: number | null = null;
+    if (displayName !== user.displayName) {
+      // La hora es la del issue, que pone GitHub: el cliente no puede adelantarla.
+      const at = Date.parse(issue.created_at);
+      const wait = nextNameChange(user.nameChangedAt, at);
+      if (wait !== null) {
+        this.done(issue, 'rejected', `El nombre sólo se puede cambiar una vez cada ${NAME_COOLDOWN_DAYS} días. El próximo cambio, a partir del ${longDate.format(wait)}. No se ha tocado nada.`);
+        return;
+      }
+      const others = [...store.users.values()].filter((other) => other.login !== login).flatMap((other) => [other.login, other.displayName ?? '']);
+      const problem = displayName ? displayNameProblem(displayName, others) : null;
+      if (problem) {
+        this.done(issue, 'rejected', `No se puede usar ese nombre: ${problem} No se ha tocado nada.`);
+        return;
+      }
+      nameChangedAt = toIso(at);
+      lockedUntil = nextNameChange(nameChangedAt, at);
+    }
+    await store.putUser({ ...user, displayName, nameChangedAt, bio: clean(submission.bio), updatedAt: toIso(now()) });
+    this.done(issue, 'accepted', lockedUntil ? `Perfil actualizado. El nombre se podrá volver a cambiar a partir del ${longDate.format(lockedUntil)}.` : 'Perfil actualizado.', true);
   }
 
   private async retire(issue: IssueData, submission: Extract<Submission, { kind: 'retire' }>): Promise<void> {

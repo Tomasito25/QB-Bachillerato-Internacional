@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { applyFormat, insertAt } from '@/features/editor/format';
+import { applyFormat, applyTemplate, formulaAt, insertAt, insertFormula } from '@/features/editor/format';
 import { formToQuestion, newForm, nextId, questionToForm, removeImageReferences, type QuestionForm } from '@/features/editor/form';
 import { excerpt } from '@/features/bank/questionsRepo';
 import { makeMcq, makeOpen, SUBJECT_ID, TOPIC_ID } from '../fixtures';
@@ -15,6 +15,30 @@ function validForm(overrides: Partial<QuestionForm> = {}): QuestionForm {
     ...overrides,
   };
 }
+
+describe('asistente de fórmulas', () => {
+  it('encuentra la fórmula en la que está el cursor', () => {
+    const value = 'La velocidad $v = \\frac{d}{t}$ y luego\n$$\nE = mc^2\n$$\nfin';
+    expect(formulaAt({ value, start: 16, end: 16 })).toEqual({ start: 13, end: 30, latex: 'v = \\frac{d}{t}', display: false });
+    expect(formulaAt({ value, start: value.indexOf('mc'), end: value.indexOf('mc') })).toMatchObject({ latex: 'E = mc^2', display: true });
+    expect(formulaAt({ value, start: 3, end: 3 })).toBeNull();
+    // Un precio no es una fórmula.
+    expect(formulaAt({ value: 'cuesta $5 y $10', start: 9, end: 9 })).toBeNull();
+  });
+
+  it('inserta en la línea o en un bloque aparte, en lugar de la selección', () => {
+    expect(insertFormula({ value: 'a = x', start: 4, end: 5 }, ' \\sqrt{2} ', false)).toEqual({ value: 'a = $\\sqrt{2}$', start: 14, end: 14 });
+    const block = insertFormula({ value: 'Sea\nfin', start: 3, end: 3 }, 'F = ma', true);
+    expect(block.value).toBe('Sea\n\n$$\nF = ma\n$$\n\nfin');
+    expect(block.value.slice(0, block.start)).toBe('Sea\n\n$$\nF = ma\n$$');
+  });
+
+  it('las plantillas meten lo seleccionado en el primer hueco y saltan al siguiente', () => {
+    expect(applyTemplate({ value: 'a+b', start: 0, end: 3 }, '\\frac{}{}')).toEqual({ value: '\\frac{a+b}{}', start: 11, end: 11 });
+    expect(applyTemplate({ value: 'x', start: 1, end: 1 }, '^{}')).toEqual({ value: 'x^{}', start: 3, end: 3 });
+    expect(applyTemplate({ value: '', start: 0, end: 0 }, '\\alpha ')).toEqual({ value: '\\alpha ', start: 7, end: 7 });
+  });
+});
 
 describe('barra de formato', () => {
   it('envuelve la selección', () => {
@@ -122,8 +146,31 @@ describe('del formulario a la pregunta', () => {
     expect(formToQuestion(form).question).not.toBeNull();
   });
 
+  it('los apartados se validan y sólo aparecen en el documento si los hay', () => {
+    const open = (overrides: Partial<QuestionForm>) => validForm({ type: 'open', modelAnswer: '', ...overrides });
+    expect(formToQuestion(open({})).errors.modelAnswer).toBeTruthy();
+    // Sin apartados el campo no va: las versiones anteriores de la app rechazarían la pregunta.
+    expect(formToQuestion(open({ modelAnswer: 'Sí' })).question).not.toHaveProperty('parts');
+    const part = { id: 'a', statement: ' ¿Cuánto vale? ', modelAnswer: ' 3 ', marks: null };
+    expect(formToQuestion(open({ parts: [{ ...part, statement: '' }] })).errors.parts).toBeTruthy();
+    expect(formToQuestion(open({ parts: [{ ...part, modelAnswer: ' ' }] })).errors.parts).toBeTruthy();
+    const { question } = formToQuestion(open({ parts: [part, { ...part, id: 'b', marks: 4 }] }));
+    expect(question?.type === 'open' && question.parts).toEqual([
+      { id: 'a', statement: '¿Cuánto vale?', modelAnswer: '3' },
+      { id: 'b', statement: '¿Cuánto vale?', modelAnswer: '3', marks: 4 },
+    ]);
+  });
+
+  it('las imágenes de un apartado cuentan como usadas, y se limpian al quitarlas', () => {
+    const images = [{ hash: HASH, ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' }];
+    const form = validForm({ type: 'open', modelAnswer: '', images, parts: [{ id: 'a', statement: `Mira ![x](qbimg:${HASH})`, modelAnswer: 'Esto', marks: null }] });
+    expect(formToQuestion(form).question).not.toBeNull();
+    expect(formToQuestion({ ...form, images: [] }).errors.images).toBeTruthy();
+    expect(removeImageReferences(form, HASH).parts[0]?.statement).toBe('Mira ');
+  });
+
   it('ida y vuelta sin perder datos', () => {
-    for (const original of [makeMcq({ tags: ['a'], references: [{ title: 'Gray' }] }), makeOpen()]) {
+    for (const original of [makeMcq({ tags: ['a'], references: [{ title: 'Gray' }] }), makeOpen(), makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: 'Uno', modelAnswer: 'Sí', marks: 3 }, { id: 'b', statement: 'Dos', modelAnswer: 'No' }] })]) {
       const { question, errors } = formToQuestion(questionToForm(original), Date.parse(original.updatedAt));
       expect(errors).toEqual({});
       expect(JSON.parse(JSON.stringify(question))).toEqual(JSON.parse(JSON.stringify(original)));

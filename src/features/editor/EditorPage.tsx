@@ -1,15 +1,15 @@
-import { ArrowDown, ArrowUp, Eye, ImagePlus, Plus, Save, Trash2, X } from 'lucide-react';
+import { ArrowDown, ArrowUp, Eye, Image as ImageIcon, ImagePlus, Plus, Save, Sigma, Trash2, X } from 'lucide-react';
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { DIFFICULTY_LABELS } from '@core/schema/common';
-import { LIMITS, type QuestionImage, type Reference } from '@core/schema/question';
+import { LIMITS, partLabel, type QuestionImage, type Reference } from '@core/schema/question';
 import { duplicateIndexEntry, findDuplicates } from '@core/questions/normalize';
 import type { Question } from '@core/schema/question';
 import { QuestionView } from '@/features/bank/QuestionView';
 import { getQuestion, saveLocalQuestion, toQuestion, useQuestions } from '@/features/bank/questionsRepo';
 import { TopicPicker } from '@/features/taxonomy/TopicPicker';
 import { DEFAULT_IMAGE_OPTIONS, ImageError, processImage, saveLocalImage } from '@/infra/images/process';
-import { AttachedImage } from '@/infra/markdown/Markdown';
+import { AttachedImage, Markdown } from '@/infra/markdown/Markdown';
 import { requestPersistence } from '@/infra/pwa/pwa';
 import { Button } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
@@ -19,7 +19,7 @@ import { cn } from '@/ui/cn';
 import { toast } from '@/ui/toast';
 import { deleteDraft, loadDraft, saveDraft } from './drafts';
 import { DIFFICULTIES, formToQuestion, hasErrors, newForm, nextId, questionToForm, removeImageReferences, type FormErrors, type QuestionForm } from './form';
-import { MarkdownEditor } from './MarkdownEditor';
+import { MarkdownEditor, ToolButton, useMarkdownField } from './MarkdownEditor';
 
 type SaveStatus = 'idle' | 'pending' | 'saved';
 
@@ -189,7 +189,7 @@ function EditorForm({ loaded }: { loaded: Loaded }) {
               role="radio"
               aria-checked={form.type === value}
               onClick={() => update({ type: value })}
-              className={cn('h-7 rounded px-3 text-[13px] font-medium', form.type === value ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink')}
+              className={cn('h-7 rounded px-3 text-[0.8125rem] font-medium', form.type === value ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink')}
             >
               {label}
             </button>
@@ -211,7 +211,12 @@ function EditorForm({ loaded }: { loaded: Loaded }) {
           <LiveDuplicates form={form} />
         </Card>
 
-        {form.type === 'mcq' ? <AnswersCard form={form} update={update} error={errors.answers} /> : <OpenAnswerCard form={form} update={update} errors={errors} uploadImage={uploadImage} />}
+        {form.type === 'mcq' ? <AnswersCard form={form} update={update} error={errors.answers} uploadImage={uploadImage} /> : (
+          <>
+            <PartsCard form={form} update={update} error={errors.parts} uploadImage={uploadImage} />
+            <OpenAnswerCard form={form} update={update} errors={errors} uploadImage={uploadImage} />
+          </>
+        )}
 
         <Card className="p-4">
           <MarkdownEditor
@@ -231,7 +236,7 @@ function EditorForm({ loaded }: { loaded: Loaded }) {
           <div className="flex flex-col gap-4 p-4">
             <TopicPicker subjectId={form.subjectId} topicIds={form.topicIds} onChange={update} error={errors.topics} />
             <div>
-              <p className="mb-1.5 text-[13px] font-medium" id="difficulty-label">
+              <p className="mb-1.5 text-[0.8125rem] font-medium" id="difficulty-label">
                 Dificultad
               </p>
               <div role="radiogroup" aria-labelledby="difficulty-label" className="flex flex-wrap gap-1.5">
@@ -243,7 +248,7 @@ function EditorForm({ loaded }: { loaded: Loaded }) {
                     aria-checked={form.difficulty === level}
                     onClick={() => update({ difficulty: level })}
                     className={cn(
-                      'h-8 rounded-md border px-2.5 text-[13px] font-medium transition-colors',
+                      'h-8 rounded-md border px-2.5 text-[0.8125rem] font-medium transition-colors',
                       form.difficulty === level ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:border-border-strong hover:text-ink',
                     )}
                   >
@@ -333,7 +338,83 @@ function LiveDuplicates({ form }: { form: QuestionForm }) {
   );
 }
 
-function AnswersCard({ form, update, error }: { form: QuestionForm; update: (patch: Partial<QuestionForm>) => void; error?: string }) {
+/** Con fórmulas, imágenes o formato, se ve debajo cómo quedará. */
+const RICH_TEXT = /[$*`_]|qbimg:|\\\(/;
+
+function AnswerRow(props: {
+  answer: QuestionForm['answers'][number];
+  index: number;
+  count: number;
+  multiple: boolean;
+  group: string;
+  images: readonly QuestionImage[];
+  uploadImage: (file: File) => Promise<QuestionImage | null>;
+  onChange: (patch: Partial<QuestionForm['answers'][number]>) => void;
+  onMarkCorrect: (checked: boolean) => void;
+  onMove: (delta: -1 | 1) => void;
+  onRemove: () => void;
+}) {
+  const { answer, index, count, multiple, group, images, uploadImage, onChange, onMarkCorrect, onMove, onRemove } = props;
+  const field = useMarkdownField(answer.text, (text) => onChange({ text }), uploadImage);
+  const n = index + 1;
+  return (
+    <li className={cn('rounded-md border p-2', answer.correct ? 'border-success bg-success-soft/40' : 'border-border')}>
+      <div className="flex items-start gap-2">
+        <label className="mt-2 flex shrink-0 cursor-pointer items-center" title="Marcar como correcta">
+          <input type={multiple ? 'checkbox' : 'radio'} name={group} checked={answer.correct} onChange={(e) => onMarkCorrect(e.target.checked)} className="size-4 accent-[var(--success)]" aria-label={`Opción ${n} correcta`} />
+        </label>
+        <div className="min-w-0 flex-1">
+          <textarea
+            ref={field.textarea}
+            rows={1}
+            value={answer.text}
+            onChange={(e) => onChange({ text: e.target.value })}
+            onPaste={field.onPaste}
+            onDrop={field.onDrop}
+            aria-label={`Texto de la opción ${n}`}
+            placeholder={`Opción ${n}`}
+            className="field-sizing-content min-h-9 w-full min-w-0 resize-none rounded-md border border-border bg-surface px-2.5 py-1.5 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent/25"
+          />
+          {RICH_TEXT.test(answer.text) ? (
+            <div className="mt-1 rounded-md border border-dashed border-border px-2.5 py-1.5 text-sm" aria-label={`Así se verá la opción ${n}`}>
+              <Markdown source={answer.text} images={images} />
+            </div>
+          ) : null}
+        </div>
+        <div className="flex shrink-0 items-center">
+          <button type="button" title="Subir" aria-label={`Subir opción ${n}`} disabled={index === 0} onClick={() => onMove(-1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+            <ArrowUp size={14} aria-hidden />
+          </button>
+          <button type="button" title="Bajar" aria-label={`Bajar opción ${n}`} disabled={index === count - 1} onClick={() => onMove(1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+            <ArrowDown size={14} aria-hidden />
+          </button>
+          <button type="button" title="Eliminar" aria-label={`Eliminar opción ${n}`} disabled={count <= LIMITS.minAnswers} onClick={onRemove} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger disabled:opacity-30">
+            <Trash2 size={14} aria-hidden />
+          </button>
+        </div>
+      </div>
+      <div className="mt-1 ml-6 flex items-center gap-0.5">
+        <ToolButton label={`Fórmula en la opción ${n}`} onClick={() => field.openFormula(false)}>
+          <Sigma size={14} aria-hidden />
+        </ToolButton>
+        <ToolButton label={field.uploading ? 'Subiendo imagen…' : `Imagen en la opción ${n}`} onClick={field.pickImages}>
+          <ImageIcon size={14} aria-hidden />
+        </ToolButton>
+        <input
+          value={answer.feedback}
+          onChange={(e) => onChange({ feedback: e.target.value })}
+          placeholder="Comentario (opcional)"
+          aria-label={`Comentario de la opción ${n}`}
+          maxLength={LIMITS.answerFeedback}
+          className="ml-1 min-w-0 flex-1 bg-transparent px-1 text-xs text-muted outline-none placeholder:text-faint focus:text-ink"
+        />
+      </div>
+      {field.dialogs}
+    </li>
+  );
+}
+
+function AnswersCard({ form, update, error, uploadImage }: { form: QuestionForm; update: (patch: Partial<QuestionForm>) => void; error?: string; uploadImage: (file: File) => Promise<QuestionImage | null> }) {
   const setAnswer = (id: string, patch: Partial<QuestionForm['answers'][number]>) => update({ answers: form.answers.map((a) => (a.id === id ? { ...a, ...patch } : a)) });
   const markCorrect = (id: string, checked: boolean) => {
     if (form.multiple) setAnswer(id, { correct: checked });
@@ -349,7 +430,7 @@ function AnswersCard({ form, update, error }: { form: QuestionForm; update: (pat
     <Card>
       <CardHeader
         title="Respuestas"
-        description="Marca la correcta. El orden se puede barajar al estudiar."
+        description="Marca la correcta. Cada opción admite fórmulas (Σ) e imágenes. El orden se puede barajar al estudiar."
         action={
           <Checkbox
             checked={form.multiple}
@@ -365,54 +446,20 @@ function AnswersCard({ form, update, error }: { form: QuestionForm; update: (pat
       <div className="flex flex-col gap-2 p-4">
         <ul className="flex flex-col gap-2" aria-label="Opciones de respuesta">
           {form.answers.map((answer, index) => (
-            <li key={answer.id} className={cn('rounded-md border p-2', answer.correct ? 'border-success bg-success-soft/40' : 'border-border')}>
-              <div className="flex items-start gap-2">
-                <label className="mt-2 flex shrink-0 cursor-pointer items-center" title="Marcar como correcta">
-                  <input
-                    type={form.multiple ? 'checkbox' : 'radio'}
-                    name={`correct-${form.id}`}
-                    checked={answer.correct}
-                    onChange={(e) => markCorrect(answer.id, e.target.checked)}
-                    className="size-4 accent-[var(--success)]"
-                    aria-label={`Opción ${index + 1} correcta`}
-                  />
-                </label>
-                <textarea
-                  rows={1}
-                  value={answer.text}
-                  onChange={(e) => setAnswer(answer.id, { text: e.target.value })}
-                  aria-label={`Texto de la opción ${index + 1}`}
-                  placeholder={`Opción ${index + 1}`}
-                  className="field-sizing-content min-h-9 w-full min-w-0 resize-none rounded-md border border-border bg-surface px-2.5 py-1.5 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent/25"
-                />
-                <div className="flex shrink-0 items-center">
-                  <button type="button" title="Subir" aria-label={`Subir opción ${index + 1}`} disabled={index === 0} onClick={() => move(index, -1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
-                    <ArrowUp size={14} aria-hidden />
-                  </button>
-                  <button type="button" title="Bajar" aria-label={`Bajar opción ${index + 1}`} disabled={index === form.answers.length - 1} onClick={() => move(index, 1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
-                    <ArrowDown size={14} aria-hidden />
-                  </button>
-                  <button
-                    type="button"
-                    title="Eliminar"
-                    aria-label={`Eliminar opción ${index + 1}`}
-                    disabled={form.answers.length <= LIMITS.minAnswers}
-                    onClick={() => update({ answers: form.answers.filter((a) => a.id !== answer.id) })}
-                    className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger disabled:opacity-30"
-                  >
-                    <Trash2 size={14} aria-hidden />
-                  </button>
-                </div>
-              </div>
-              <input
-                value={answer.feedback}
-                onChange={(e) => setAnswer(answer.id, { feedback: e.target.value })}
-                placeholder="Comentario al elegir esta opción (opcional)"
-                aria-label={`Comentario de la opción ${index + 1}`}
-                maxLength={LIMITS.answerFeedback}
-                className="mt-1.5 ml-6 w-[calc(100%-1.5rem)] bg-transparent px-1 text-xs text-muted outline-none placeholder:text-faint focus:text-ink"
-              />
-            </li>
+            <AnswerRow
+              key={answer.id}
+              answer={answer}
+              index={index}
+              count={form.answers.length}
+              multiple={form.multiple}
+              group={`correct-${form.id}`}
+              images={form.images}
+              uploadImage={uploadImage}
+              onChange={(patch) => setAnswer(answer.id, patch)}
+              onMarkCorrect={(checked) => markCorrect(answer.id, checked)}
+              onMove={(delta) => move(index, delta)}
+              onRemove={() => update({ answers: form.answers.filter((a) => a.id !== answer.id) })}
+            />
           ))}
         </ul>
         {error ? (
@@ -434,15 +481,100 @@ function AnswersCard({ form, update, error }: { form: QuestionForm; update: (pat
   );
 }
 
+function PartsCard({ form, update, error, uploadImage }: { form: QuestionForm; update: (patch: Partial<QuestionForm>) => void; error?: string; uploadImage: (file: File) => Promise<QuestionImage | null> }) {
+  const setPart = (id: string, patch: Partial<QuestionForm['parts'][number]>) => update({ parts: form.parts.map((part) => (part.id === id ? { ...part, ...patch } : part)) });
+  const add = (count: number) => {
+    const parts = [...form.parts];
+    for (let i = 0; i < count && parts.length < LIMITS.maxParts; i++) parts.push({ id: nextId(parts), statement: '', modelAnswer: '', marks: null });
+    update({ parts });
+  };
+  const move = (index: number, delta: -1 | 1) => {
+    const parts = [...form.parts];
+    const [item] = parts.splice(index, 1);
+    if (item) parts.splice(index + delta, 0, item);
+    update({ parts });
+  };
+  return (
+    <Card>
+      <CardHeader title="Apartados (opcional)" description="Para preguntas como las de examen: el enunciado de arriba es el común y cada apartado tiene su pregunta, su solución, sus imágenes y, si quieres, sus puntos." />
+      <div className="flex flex-col gap-3 p-4">
+        {form.parts.length === 0 ? (
+          <Button size="sm" className="w-fit" icon={<Plus size={14} aria-hidden />} onClick={() => add(2)}>
+            Dividir en apartados
+          </Button>
+        ) : (
+          <ol className="flex flex-col gap-3" aria-label="Apartados">
+            {form.parts.map((part, index) => {
+              const label = partLabel(index);
+              return (
+                <li key={part.id} className="flex flex-col gap-3 rounded-md border border-border p-3">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <p className="text-sm font-semibold">Apartado {label}</p>
+                    <label className="ml-auto flex items-center gap-1.5 text-xs text-muted">
+                      Puntos
+                      <Input
+                        type="number"
+                        min={1}
+                        max={LIMITS.partMarks}
+                        placeholder="—"
+                        value={part.marks ?? ''}
+                        aria-label={`Puntos del apartado ${label}`}
+                        onChange={(e) => setPart(part.id, { marks: e.target.value === '' ? null : Math.min(LIMITS.partMarks, Math.max(1, Math.round(Number(e.target.value)) || 1)) })}
+                        className="h-8 w-16 text-center"
+                      />
+                    </label>
+                    <div className="flex items-center">
+                      <button type="button" title="Subir" aria-label={`Subir apartado ${label}`} disabled={index === 0} onClick={() => move(index, -1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+                        <ArrowUp size={14} aria-hidden />
+                      </button>
+                      <button type="button" title="Bajar" aria-label={`Bajar apartado ${label}`} disabled={index === form.parts.length - 1} onClick={() => move(index, 1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+                        <ArrowDown size={14} aria-hidden />
+                      </button>
+                      <button type="button" title="Eliminar" aria-label={`Eliminar apartado ${label}`} onClick={() => update({ parts: form.parts.filter((p) => p.id !== part.id) })} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
+                        <Trash2 size={14} aria-hidden />
+                      </button>
+                    </div>
+                  </div>
+                  <MarkdownEditor label={`Pregunta del apartado ${label}`} value={part.statement} onChange={(statement) => setPart(part.id, { statement })} images={form.images} onUploadImage={uploadImage} rows={3} />
+                  <MarkdownEditor label={`Solución del apartado ${label}`} value={part.modelAnswer} onChange={(modelAnswer) => setPart(part.id, { modelAnswer })} images={form.images} onUploadImage={uploadImage} rows={4} />
+                </li>
+              );
+            })}
+          </ol>
+        )}
+        {error ? (
+          <p className="text-xs text-danger" role="alert">
+            {error}
+          </p>
+        ) : null}
+        {form.parts.length > 0 ? (
+          <Button size="sm" className="w-fit" disabled={form.parts.length >= LIMITS.maxParts} icon={<Plus size={14} aria-hidden />} onClick={() => add(1)}>
+            Añadir apartado
+          </Button>
+        ) : null}
+      </div>
+    </Card>
+  );
+}
+
 function OpenAnswerCard({ form, update, errors, uploadImage }: { form: QuestionForm; update: (patch: Partial<QuestionForm>) => void; errors: FormErrors; uploadImage: (file: File) => Promise<QuestionImage | null> }) {
   const setCriterion = (id: string, patch: Partial<QuestionForm['criteria'][number]>) => update({ criteria: form.criteria.map((c) => (c.id === id ? { ...c, ...patch } : c)) });
   return (
     <Card>
       <CardHeader title="Respuesta" description="Se compara después con lo que haya escrito o pensado el estudiante." />
       <div className="flex flex-col gap-4 p-4">
-        <MarkdownEditor label="Solución o respuesta modelo" value={form.modelAnswer} onChange={(modelAnswer) => update({ modelAnswer })} error={errors.modelAnswer} images={form.images} onUploadImage={uploadImage} rows={6} />
+        <MarkdownEditor
+          label={form.parts.length > 0 ? 'Solución general (opcional)' : 'Solución o respuesta modelo'}
+          hint={form.parts.length > 0 ? 'Cada apartado lleva la suya: aquí, lo que valga para todos.' : undefined}
+          value={form.modelAnswer}
+          onChange={(modelAnswer) => update({ modelAnswer })}
+          error={errors.modelAnswer}
+          images={form.images}
+          onUploadImage={uploadImage}
+          rows={form.parts.length > 0 ? 3 : 6}
+        />
         <div>
-          <p className="text-[13px] font-medium">Criterios de corrección (opcional)</p>
+          <p className="text-[0.8125rem] font-medium">Criterios de corrección (opcional)</p>
           <p className="mb-2 text-xs text-muted">Sirven para autoevaluarse: el estudiante marca los que cumple y se le sugiere una nota.</p>
           <ul className="flex flex-col gap-1.5">
             {form.criteria.map((criterion, index) => (
@@ -537,13 +669,13 @@ function ImagesCard({ form, setForm, uploadImage, error }: { form: QuestionForm;
         }
       />
       <div className="p-4">
-        {form.images.length === 0 ? <p className="text-[13px] text-muted">Sin imágenes. También puedes pegarlas en el texto.</p> : null}
+        {form.images.length === 0 ? <p className="text-[0.8125rem] text-muted">Sin imágenes. También puedes pegarlas en el texto.</p> : null}
         <ul className="grid gap-3 sm:grid-cols-2">
           {form.images.map((image) => (
             <li key={image.hash} className="flex gap-2.5 rounded-md border border-border p-2">
               <AttachedImage image={image} className="h-16 w-20 shrink-0 object-contain" />
               <div className="flex min-w-0 flex-1 flex-col gap-1.5">
-                <Input value={image.alt} maxLength={300} placeholder="Descripción para quien no la vea" aria-label="Descripción de la imagen" onChange={(e) => setAlt(image.hash, e.target.value)} className="h-8 text-[13px]" />
+                <Input value={image.alt} maxLength={300} placeholder="Descripción para quien no la vea" aria-label="Descripción de la imagen" onChange={(e) => setAlt(image.hash, e.target.value)} className="h-8 text-[0.8125rem]" />
                 <div className="flex items-center justify-between text-xs text-muted">
                   <span className="tabular-nums">{Math.round(image.bytes / 1024)} KB</span>
                   <button type="button" onClick={() => setForm((current) => removeImageReferences(current, image.hash))} className="hover:text-danger">

@@ -179,7 +179,7 @@ export default function NewCompetitionPage() {
                 </button>
               ))}
             </div>
-            <p className={cn('text-[13px]', eligible < 3 ? 'text-danger' : 'text-muted')} role="status">
+            <p className={cn('text-[0.8125rem]', eligible < 3 ? 'text-danger' : 'text-muted')} role="status">
               {eligible} {eligible === 1 ? 'pregunta publicada' : 'preguntas publicadas'} de tipo test con estos filtros
               {eligible < 3 ? '. Hacen falta al menos 3. Las preguntas sin publicar no cuentan.' : '.'}
             </p>

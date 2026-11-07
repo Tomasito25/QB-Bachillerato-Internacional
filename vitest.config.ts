@@ -10,6 +10,7 @@ export default defineConfig({
   plugins: [react()],
   define: {
     __APP_VERSION__: JSON.stringify('test'),
+    __APP_NAME__: JSON.stringify('QuestionBank'),
   },
   resolve: {
     alias: {

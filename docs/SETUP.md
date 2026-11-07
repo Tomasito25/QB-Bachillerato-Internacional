@@ -74,6 +74,18 @@ configurar: basta el `GITHUB_TOKEN` que da Actions.
 | Variable | Por defecto | Efecto |
 |---|---|---|
 | `QB_AUTO_MERGE` | activado | Con `false`, toda aportación espera a una revisión humana |
+| `QB_APP_NAME` | `QuestionBank` | Nombre de la app: título, menú y nombre al instalarla (máx. 40 caracteres). Se aplica en el siguiente despliegue |
+
+Si renombras el repositorio, la dirección de la web cambia y la página publicada sigue
+apuntando a la antigua hasta que se vuelva a compilar. Relanza el despliegue:
+
+```bash
+gh workflow run deploy.yml --ref main
+```
+
+Quien tenga la app instalada con la dirección antigua tendrá que instalarla de nuevo: GitHub
+no redirige las páginas de un repositorio renombrado. Su progreso no se pierde, porque el
+navegador lo guarda por dominio (`<usuario>.github.io`), no por ruta.
 
 ## Moderar
 

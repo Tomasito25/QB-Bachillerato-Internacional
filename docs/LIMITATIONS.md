@@ -40,7 +40,7 @@ de autor: por eso se pide declarar el origen y aceptar la licencia.
 | **Un clic en GitHub por envío** sin token | Sin token, sólo GitHub puede crear el issue | Se puede evitar con un token, con el riesgo que implica |
 | **Los envíos grandes hay que pegarlos** sin token | No caben en la dirección prellenada de 6 000 caracteres, sobre todo con imágenes | La app los copia en un paso aparte y el formulario de GitHub dice dónde pegarlos. En el uso real, tres envíos llegaron vacíos antes de este cambio |
 | **El token da demasiado permiso** | Los tokens de grano fino no pueden contribuir a repos públicos ajenos (documentado por GitHub) | `public_repo` da escritura en todos tus repos públicos. Es opcional y se avisa |
-| **Publicar tarda de 1 a 3 minutos** | Action + despliegue. La caché de Pages añade hasta 10 minutos si no se evita | La app muestra el estado intermedio y salta la caché en el manifiesto |
+| **Publicar tarda de 1 a 3 minutos**, y a veces hasta 10 más | Action + despliegue, más la caché del CDN de Pages, de 10 minutos. No se puede saltar: ignora los parámetros de la URL (comprobado) | La app muestra el estado intermedio y, tras un envío, mira cada minuto durante 15 minutos |
 | **Sin tiempo real** | Sin servidor no hay WebSocket; señalizar por issues tarda de 30 a 120 s; WebRTC necesita un STUN externo o intercambiar datos a mano | Competiciones asíncronas |
 | **Sin notificaciones push** | Web Push necesita un servidor | Sólo las de GitHub: las invitaciones son menciones reales |
 | **Los crons no son puntuales** | GitHub los retrasa y puede perderlos con carga; los desactiva tras 60 días sin actividad en repos públicos | Se ejecutan de más y son idempotentes. Los plazos oficiales usan la hora de GitHub, no la del cron |
@@ -70,6 +70,15 @@ aprender. Los torneos pueden fijar rondas cortas para reducirlo.
   uso: por eso conviene instalarla y descargar copias.
 - **No todos los navegadores de escritorio permiten instalar** aplicaciones web. Sigue funcionando en una pestaña.
 - **Sin Background Sync:** Safari y Firefox no lo tienen. Lo pendiente se envía al abrir la app.
+- **Los amigos son una lista privada, no una amistad.** Viven en este dispositivo y en las copias:
+  la otra persona no se entera ni tiene que aceptar. Hacerlo mutuo obligaría a publicar quién sigue
+  a quién en el repositorio, que es público.
+- **Una versión antigua de la app no ve lo nuevo hasta actualizarse.** Las preguntas de desarrollo con
+  apartados, las de más de 6 imágenes y los perfiles con nombre cambiado tienen campos que esa versión
+  no conoce: los aparta como inválidos en vez de enseñarlos a medias. Al actualizar, aparecen.
+- **El nombre visible no impide los parecidos.** Actions rechaza el de otra cuenta aunque cambien
+  mayúsculas, tildes, signos o caracteres invisibles, pero no letras de otros alfabetos que se parecen
+  (una «а» cirílica). Por eso el @usuario se muestra siempre al lado.
 
 ## Seguridad en Pages
 
@@ -99,7 +108,7 @@ un negocio.
 
 ## Qué se ha probado contra GitHub y qué no
 
-Probado el 2026-11-05 en el despliegue real de `Tomasito25/questionbank`, con **una sola cuenta**
+Probado el 2026-11-05 en el despliegue real de `Tomasito25/questionbank` (hoy `Tomasito25/QB-Bachillerato-Internacional`), con **una sola cuenta**
 de GitHub y un navegador de escritorio.
 
 | Comprobado de principio a fin | Resultado |

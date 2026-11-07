@@ -1,19 +1,24 @@
 import { CheckCircle2, Circle, ExternalLink } from 'lucide-react';
-import type { Question } from '@core/schema/question';
+import type { ReactNode } from 'react';
+import { partLabel, type OpenPart, type Question } from '@core/schema/question';
+import { scanImageReferences } from '@core/questions/refs';
 import { AttachedImage, Markdown } from '@/infra/markdown/Markdown';
 import { cn } from '@/ui/cn';
 
-/** Imágenes adjuntas que el texto no incrusta: se muestran bajo el enunciado. */
+/**
+ * Imágenes adjuntas que ningún texto incrusta: se muestran bajo el enunciado. Las de una
+ * opción o una solución van en su sitio; sacarlas aquí adelantaría la respuesta.
+ */
 export function loose(question: Question) {
-  const text = [question.statement, question.explanation ?? ''].join(' ');
-  return question.images.filter((image) => !text.includes(`qbimg:${image.hash}`));
+  const used = scanImageReferences(question).hashes;
+  return question.images.filter((image) => !used.has(image.hash));
 }
 
 export function QuestionStatement({ question }: { question: Question }) {
   const attachments = loose(question);
   return (
     <div>
-      <Markdown source={question.statement} images={question.images} className="text-[15.5px]" />
+      <Markdown source={question.statement} images={question.images} className="text-[0.96875rem]" />
       {attachments.length > 0 ? (
         <div className="mt-3 flex flex-wrap gap-3">
           {attachments.map((image) => (
@@ -31,6 +36,26 @@ export function SolutionBlock({ title, source, question }: { title: string; sour
       <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">{title}</h3>
       <Markdown source={source} images={question.images} className="text-sm" />
     </section>
+  );
+}
+
+/** Un apartado: su letra, su pregunta y sus puntos. Debajo, lo que toque: la respuesta, la solución… */
+export function PartBlock({ question, part, index, children }: { question: Question; part: OpenPart; index: number; children?: ReactNode }) {
+  return (
+    <li className="flex gap-2.5">
+      <span className="w-5 shrink-0 text-[0.9375rem] font-semibold">{partLabel(index)}</span>
+      <div className="flex min-w-0 flex-1 flex-col gap-2">
+        <div className="flex items-start justify-between gap-3">
+          <Markdown source={part.statement} images={question.images} className="min-w-0 text-[0.9375rem]" />
+          {part.marks ? (
+            <span className="shrink-0 pt-0.5 text-xs text-muted tabular-nums">
+              {part.marks} {part.marks === 1 ? 'punto' : 'puntos'}
+            </span>
+          ) : null}
+        </div>
+        {children}
+      </div>
+    </li>
   );
 }
 
@@ -56,7 +81,16 @@ export function QuestionView({ question, showSolution }: { question: Question; s
           })}
         </ul>
       ) : null}
-      {showSolution && question.type === 'open' ? <SolutionBlock title="Respuesta modelo" source={question.modelAnswer} question={question} /> : null}
+      {question.type === 'open' && question.parts ? (
+        <ol className="flex flex-col gap-4">
+          {question.parts.map((part, index) => (
+            <PartBlock key={part.id} question={question} part={part} index={index}>
+              {showSolution ? <SolutionBlock title="Solución" source={part.modelAnswer} question={question} /> : null}
+            </PartBlock>
+          ))}
+        </ol>
+      ) : null}
+      {showSolution && question.type === 'open' && question.modelAnswer ? <SolutionBlock title={question.parts ? 'Solución general' : 'Respuesta modelo'} source={question.modelAnswer} question={question} /> : null}
       {showSolution && question.type === 'open' && question.criteria.length > 0 ? (
         <section>
           <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">Criterios de corrección</h3>

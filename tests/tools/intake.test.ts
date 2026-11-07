@@ -426,8 +426,47 @@ describe('intake: identidad y seguridad', () => {
     await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'Ana\u0007 G.', bio: 'Estudio\u0000 medicina' });
     await run();
     const store = await loadRemote();
-    expect(store.users.get('ana')).toMatchObject({ displayName: 'Ana  G.', bio: 'Estudio  medicina' });
+    // En el nombre los invisibles se quitan sin dejar hueco; en la bio se cambian por espacios.
+    expect(store.users.get('ana')).toMatchObject({ displayName: 'Ana G.', bio: 'Estudio  medicina' });
     expect(store.users.get('luis')?.bio).toBeUndefined();
+  });
+
+  it('el nombre se cambia como mucho una vez cada 30 días, con la hora del issue', async () => {
+    const DAY = 86_400_000;
+    await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'Ana García' }, ANA, NOW - 40 * DAY);
+    await run();
+    expect((await loadRemote()).users.get('ana')).toMatchObject({ displayName: 'Ana García', nameChangedAt: new Date(NOW - 40 * DAY).toISOString() });
+
+    const early = await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'Ana G.', bio: 'Hola' }, ANA, NOW - 20 * DAY);
+    await run();
+    expect(api.labels.get(early.number)).toContain(LABELS.rejected);
+    const untouched = (await loadRemote()).users.get('ana');
+    expect(untouched?.displayName).toBe('Ana García');
+    expect(untouched?.bio).toBeUndefined();
+
+    // Cambiar sólo la biografía no gasta el cambio de nombre.
+    const bioOnly = await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'Ana García', bio: 'Sólo la bio' }, ANA, NOW - 19 * DAY);
+    await run();
+    expect(api.labels.get(bioOnly.number)).toContain(LABELS.accepted);
+    expect((await loadRemote()).users.get('ana')).toMatchObject({ bio: 'Sólo la bio', nameChangedAt: new Date(NOW - 40 * DAY).toISOString() });
+
+    const later = await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'Ana G.' }, ANA, NOW - 5 * DAY);
+    await run();
+    expect(api.labels.get(later.number)).toContain(LABELS.accepted);
+    expect((await loadRemote()).users.get('ana')).toMatchObject({ displayName: 'Ana G.', nameChangedAt: new Date(NOW - 5 * DAY).toISOString() });
+  });
+
+  it('no deja usar el nombre ni el usuario de otra cuenta', async () => {
+    await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'Luisa M.' }, LUIS);
+    await run();
+    const copy = await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'luisa m' });
+    const login = await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'L U I S' });
+    const symbols = await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: '★ ★' });
+    // Un espacio de anchura cero no basta para que parezca otro nombre.
+    const hidden = await send({ v: 1, kind: 'profile', nonce: nonce(), displayName: 'Lu\u200bisa M.' });
+    await run();
+    for (const issue of [copy, login, symbols, hidden]) expect(api.labels.get(issue.number)).toContain(LABELS.rejected);
+    expect((await loadRemote()).users.get('ana')?.displayName).toBeUndefined();
   });
 
   it('no permite suplantar un login reutilizado por otra cuenta', async () => {

@@ -9,10 +9,14 @@ export const LIMITS = {
   answerText: 2000,
   answerFeedback: 1000,
   modelAnswer: 12000,
+  partStatement: 4000,
+  maxParts: 10,
+  partMarks: 20,
   criterion: 500,
   keyword: 60,
   tag: 40,
-  images: 6,
+  /** Diez: una pregunta de examen con varios apartados lleva a menudo una figura en cada uno. */
+  images: 10,
   imageBytes: 512 * 1024,
   minAnswers: 4,
   maxAnswers: 12,
@@ -108,14 +112,39 @@ export const McqQuestion = z
   });
 export type McqQuestion = z.infer<typeof McqQuestion>;
 
-export const OpenQuestion = z.strictObject({
-  ...base,
-  type: z.literal('open'),
+/** Apartado a), b)… de una pregunta de desarrollo: su enunciado, su solución y sus puntos. */
+export const OpenPart = z.strictObject({
+  id: z.string().regex(/^[a-z0-9]{1,8}$/),
+  statement: z.string().min(1).max(LIMITS.partStatement),
   modelAnswer: z.string().min(1).max(LIMITS.modelAnswer),
-  criteria: z.array(Criterion).max(LIMITS.maxCriteria),
-  keywords: z.array(z.string().min(1).max(LIMITS.keyword)).max(LIMITS.maxKeywords),
+  /** Como en un examen. Pesan en la nota que se sugiere al autoevaluarse. */
+  marks: z.number().int().min(1).max(LIMITS.partMarks).optional(),
 });
+export type OpenPart = z.infer<typeof OpenPart>;
+
+export const OpenQuestion = z
+  .strictObject({
+    ...base,
+    type: z.literal('open'),
+    /** Con apartados puede ir vacía: cada apartado lleva la suya. */
+    modelAnswer: z.string().max(LIMITS.modelAnswer),
+    criteria: z.array(Criterion).max(LIMITS.maxCriteria),
+    keywords: z.array(z.string().min(1).max(LIMITS.keyword)).max(LIMITS.maxKeywords),
+    /** Sin apartados, el campo no va: así la pregunta sigue siendo como antes para versiones viejas. */
+    parts: z.array(OpenPart).min(1).max(LIMITS.maxParts).optional(),
+  })
+  .superRefine((q, ctx) => {
+    if (!q.parts && q.modelAnswer.length === 0) ctx.addIssue({ code: 'custom', path: ['modelAnswer'], message: 'Falta la respuesta modelo' });
+    if (q.parts && new Set(q.parts.map((p) => p.id)).size !== q.parts.length) {
+      ctx.addIssue({ code: 'custom', path: ['parts'], message: 'Hay apartados repetidos' });
+    }
+  });
 export type OpenQuestion = z.infer<typeof OpenQuestion>;
+
+/** a), b), c)… Para pocas cosas más que diez basta el abecedario. */
+export function partLabel(index: number): string {
+  return `${String.fromCharCode(97 + index)})`;
+}
 
 export const Question = z.discriminatedUnion('type', [McqQuestion, OpenQuestion]);
 export type Question = z.infer<typeof Question>;

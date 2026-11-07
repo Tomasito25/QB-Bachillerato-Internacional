@@ -153,7 +153,7 @@ sequenceDiagram
   participant App
   participant Pages as GitHub Pages
   participant DB as IndexedDB
-  App->>Pages: GET community/manifest.json?t=… (evita caché de 10 min)
+  App->>Pages: GET community/manifest.json (sin caché del navegador)
   Pages-->>App: { dataCommit, shards: [{id, hash, path}] }
   App->>DB: ¿qué hash tengo de cada fragmento?
   alt nada cambió
@@ -262,10 +262,11 @@ erDiagram
 | Entidad | Capa | Notas |
 |---|---|---|
 | `User` | Comunitaria | `{login, githubId}`. Viene de GitHub, nunca del cliente |
-| `Profile` | Comunitaria + derivada | `displayName` y `bio` los edita el dueño; lo demás se calcula |
+| `Profile` | Comunitaria + derivada | `displayName` y `bio` los edita el dueño; lo demás se calcula. El nombre, como mucho una vez cada 30 días |
 | `Subject` / `Unit` / `Topic` | Local y comunitaria | UUID estable. Un documento por asignatura para diffs legibles |
 | `Question` / `Answer` / `QuestionImage` | Local y comunitaria | UUID estable, `rev` incremental, contenido en Markdown |
 | `StudySession` / `UserProgress` | Local | Lo oficial se deriva de los eventos publicados |
+| `Friends` | Local | Lista de logins en `kv`. No se publica: seguir a alguien no le revela nada a nadie, y lo que se ve de un amigo es su perfil público |
 | `Competition` / `CompetitionParticipant` | Comunitaria + derivada | La clasificación se recalcula |
 | `Achievement` / `Leaderboard` | Derivada | Sin fichero editable: función de los eventos |
 | `Contribution` | Local + comunitaria | Estado de cada envío en el cliente; rastro en Issue y PR |
@@ -332,7 +333,7 @@ moderation/{banned,hidden,trusted}.json
 | Concepto | Qué es | ¿Quién lo garantiza? |
 |---|---|---|
 | **Identidad autenticada** | «Este envío es de `@login`» | GitHub, como autor del issue/PR. Actions lee `issue.user`, nunca un campo del cuerpo |
-| **Perfil público** | Nombre visible, biografía, avatar | El dueño lo edita con un issue propio; Actions valida y sanea |
+| **Perfil público** | Nombre visible, biografía, avatar | El dueño lo edita con un issue propio; Actions valida y sanea. El nombre sólo cambia una vez cada 30 días, contados con la hora del issue que pone GitHub, y no puede coincidir con el nombre ni el login de otra cuenta (sin contar mayúsculas, tildes, signos ni caracteres invisibles). La app avisa antes, pero quien lo hace cumplir es Actions |
 | **Datos verificables** | Puntos, precisión, logros, nivel | Nadie los escribe: se derivan de los eventos validados |
 
 **Conexión sin token («Conectar con GitHub»)**

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { gradeAnswer, isCorrectSelection, partialScore, suggestSelfGrade } from '@core/questions/grading';
+import { gradeAnswer, isCorrectSelection, partialScore, suggestFromParts, suggestSelfGrade } from '@core/questions/grading';
 import { duplicateIndexEntry, findDuplicates, jaccard, normalizeText, plainText, questionFingerprint, searchableText } from '@core/questions/normalize';
 import { scanImageReferences } from '@core/questions/refs';
 import { makeMcq, makeOpen } from '../fixtures';
@@ -63,6 +63,14 @@ describe('corrección', () => {
     expect(suggestSelfGrade(criteria, ['x'])).toBe(1);
     expect(suggestSelfGrade(criteria, ['y'])).toBe(0);
     expect(suggestSelfGrade([], [])).toBe(0);
+  });
+
+  it('con apartados, la nota sugerida pesa cada uno por sus puntos', () => {
+    const parts = [{ id: 'a', marks: 4 }, { id: 'b' }];
+    expect(suggestFromParts(parts, { a: 2 })).toBeNull();
+    expect(suggestFromParts(parts, { a: 2, b: 0 })).toBe(1);
+    expect(suggestFromParts(parts, { a: 0, b: 2 })).toBe(0);
+    expect(suggestFromParts(parts, { a: 2, b: 2 })).toBe(2);
   });
 });
 

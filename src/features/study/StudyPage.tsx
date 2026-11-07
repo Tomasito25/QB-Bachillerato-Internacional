@@ -13,6 +13,7 @@ import { Button, ButtonLink } from '@/ui/Button';
 import { Field, Input, Select } from '@/ui/Field';
 import { Card, CardHeader, EmptyState, Notice, PageHeader, Spinner } from '@/ui/Surface';
 import { cn } from '@/ui/cn';
+import { preferences } from '@/features/settings/preferences';
 import { useLaunchSession } from './launch';
 import { MODE_LABELS, useActiveSessions } from './sessions';
 
@@ -23,7 +24,7 @@ function ModeCard({ icon, title, description, children }: { icon: ReactNode; tit
         <span className="mt-0.5 text-accent-text">{icon}</span>
         <div className="min-w-0">
           <h2 className="text-sm font-semibold">{title}</h2>
-          <p className="mt-0.5 text-[13px] text-muted">{description}</p>
+          <p className="mt-0.5 text-[0.8125rem] text-muted">{description}</p>
         </div>
       </div>
       <div className="mt-auto">{children}</div>
@@ -33,7 +34,7 @@ function ModeCard({ icon, title, description, children }: { icon: ReactNode; tit
 
 function ReviewButton({ icon, label, count, onClick }: { icon: ReactNode; label: string; count: number; onClick: () => void }) {
   return (
-    <button type="button" disabled={count === 0} onClick={onClick} className="flex h-9 items-center gap-2 rounded-md border border-border px-2.5 text-[13px] font-medium transition-colors hover:border-border-strong hover:bg-subtle disabled:cursor-not-allowed disabled:opacity-50">
+    <button type="button" disabled={count === 0} onClick={onClick} className="flex h-9 items-center gap-2 rounded-md border border-border px-2.5 text-[0.8125rem] font-medium transition-colors hover:border-border-strong hover:bg-subtle disabled:cursor-not-allowed disabled:opacity-50">
       {icon}
       <span className="min-w-0 flex-1 truncate text-left">{label}</span>
       <span className="text-muted tabular-nums">{count}</span>
@@ -46,6 +47,7 @@ export default function StudyPage() {
   const taxonomy = useTaxonomy();
   const active = useActiveSessions();
   const launchSession = useLaunchSession();
+  const { practiceCount } = preferences.use();
   const [params] = useSearchParams();
 
   const [subjectId, setSubjectId] = useState(params.get('subject') ?? '');
@@ -96,7 +98,7 @@ export default function StudyPage() {
     launchSession({ mode, title, config: sessionConfig, timeLimitSec });
 
   const quick = (mode: 'practice' | 'exam') => {
-    const scope = { count: mode === 'exam' ? count : 10, subjectId: subjectId || undefined };
+    const scope = { count: mode === 'exam' ? count : practiceCount, subjectId: subjectId || undefined };
     void launch(mode, scope, subject?.name ?? 'Todo el banco', mode === 'exam' ? examMinutes * 60 : undefined);
   };
 
@@ -141,7 +143,7 @@ export default function StudyPage() {
       ) : (
         <div className="flex flex-col gap-4">
           <div className="grid gap-4 md:grid-cols-3">
-            <ModeCard icon={<Repeat size={18} aria-hidden />} title="Práctica" description="10 preguntas con corrección y explicación al momento. Da prioridad a lo que toca repasar.">
+            <ModeCard icon={<Repeat size={18} aria-hidden />} title="Práctica" description={`${practiceCount} preguntas con corrección y explicación al momento. Da prioridad a lo que toca repasar.`}>
               <Button variant="primary" className="w-full" icon={<Play size={16} aria-hidden />} onClick={() => quick('practice')}>
                 Empezar práctica
               </Button>
@@ -229,12 +231,12 @@ export default function StudyPage() {
                 ))}
               </div>
               <div className="flex flex-wrap items-center justify-between gap-3 border-t border-border pt-3">
-                <p className="text-[13px] text-muted" role="status">
+                <p className="text-[0.8125rem] text-muted" role="status">
                   <span className="font-medium text-ink tabular-nums">{matches}</span> {matches === 1 ? 'pregunta coincide' : 'preguntas coinciden'}.{' '}
                   {matches > 0 ? <Link to={`/bank?${new URLSearchParams(Object.entries({ subject: subjectId, unit: unitId, topic: topicId, type, difficulty: difficulties.join(',') }).filter(([, v]) => v)).toString()}`} className="underline underline-offset-2">Verlas</Link> : null}
                 </p>
                 <div className="flex flex-wrap items-center gap-2">
-                  <label className="flex items-center gap-1.5 text-[13px] text-muted">
+                  <label className="flex items-center gap-1.5 text-[0.8125rem] text-muted">
                     Cuántas
                     <Input type="number" min={1} max={200} value={count} onChange={(e) => setCount(Math.max(1, Math.min(200, Number(e.target.value) || 1)))} className="h-8 w-16" />
                   </label>

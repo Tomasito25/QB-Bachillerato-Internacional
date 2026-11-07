@@ -50,6 +50,7 @@ jobs:
         env:
           QB_BASE: ${{ steps.pages.outputs.base_path }}/
           VITE_COMMUNITY_REPO: ${{ github.repository }}
+          QB_APP_NAME: ${{ vars.QB_APP_NAME }}
 
       - name: ¿Existe la rama data?
         id: data

@@ -90,7 +90,7 @@ export async function importFile(file: File): Promise<ImportReport> {
     throw new ImportError('El fichero no es JSON válido.');
   }
   const parsed = ExportFile.safeParse(raw);
-  if (!parsed.success) throw new ImportError('No es un fichero exportado desde QuestionBank.');
+  if (!parsed.success) throw new ImportError('No es un fichero exportado desde esta app.');
 
   const report: ImportReport = { imported: 0, existing: 0, duplicates: 0, invalid: 0, images: 0 };
   const now = toIso(Date.now());

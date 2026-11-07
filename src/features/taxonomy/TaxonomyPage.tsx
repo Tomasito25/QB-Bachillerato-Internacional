@@ -147,14 +147,14 @@ function SubjectCard({ subject, stats, communityIds, hasLocal, ask }: { subject:
       </div>
       {open ? (
         <div className="border-t border-border px-3 py-3">
-          {subject.description ? <p className="mb-3 text-[13px] text-muted">{subject.description}</p> : null}
+          {subject.description ? <p className="mb-3 text-[0.8125rem] text-muted">{subject.description}</p> : null}
           <ol className="flex flex-col gap-3">
             {units.map((unit, unitIndex) => {
               const topics = [...unit.topics].sort((a, b) => a.order - b.order);
               return (
                 <li key={unit.id} className="rounded-md border border-border">
                   <div className="flex flex-wrap items-center gap-1 border-b border-border bg-subtle/50 px-2.5 py-1.5">
-                    <span className="min-w-0 flex-1 truncate text-[13px] font-medium">
+                    <span className="min-w-0 flex-1 truncate text-[0.8125rem] font-medium">
                       <span className="text-muted tabular-nums">Unidad {unitIndex + 1} · </span>
                       {unit.name}
                     </span>
@@ -180,7 +180,7 @@ function SubjectCard({ subject, stats, communityIds, hasLocal, ask }: { subject:
                   <ol className="flex flex-col py-1">
                     {topics.map((topic, topicIndex) => (
                       <li key={topic.id} className="flex flex-wrap items-center gap-1 px-2.5 py-0.5">
-                        <span className="min-w-0 flex-1 truncate text-[13px]">
+                        <span className="min-w-0 flex-1 truncate text-[0.8125rem]">
                           <span className="text-muted tabular-nums">
                             {unitIndex + 1}.{topicIndex + 1}{' '}
                           </span>

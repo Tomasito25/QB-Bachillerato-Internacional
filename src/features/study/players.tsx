@@ -1,8 +1,9 @@
 import { Check, CheckCircle2, Circle, Square, SquareCheck, X, XCircle } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
-import { correctAnswerIds, isCorrectSelection, SELF_GRADE_LABELS, suggestSelfGrade, type SelfGrade } from '@core/questions/grading';
-import type { McqQuestion, OpenQuestion } from '@core/schema/question';
+import { correctAnswerIds, isCorrectSelection, SELF_GRADE_LABELS, suggestFromParts, suggestSelfGrade, type SelfGrade } from '@core/questions/grading';
+import { partLabel, type McqQuestion, type OpenQuestion } from '@core/schema/question';
 import { shuffledOptions } from '@core/study/select';
+import { PartBlock, SolutionBlock } from '@/features/bank/QuestionView';
 import { Markdown } from '@/infra/markdown/Markdown';
 import { Button } from '@/ui/Button';
 import { Checkbox, Textarea } from '@/ui/Field';
@@ -140,20 +141,58 @@ interface OpenPlayerProps {
  * Desarrollo: se puede contrastar con la solución o autoevaluar por criterios. Lo que se
  * escribe aquí no se guarda ni se publica: sirve para concretar la respuesta antes de mirar.
  */
+function PartGrade({ label, value, onChange }: { label: string; value: SelfGrade | undefined; onChange: (grade: SelfGrade) => void }) {
+  return (
+    <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label={`¿Cómo te ha salido el apartado ${label}?`}>
+      <span className="text-xs text-muted">¿Qué tal te ha salido?</span>
+      {([0, 1, 2] as const).map((grade) => (
+        <Button key={grade} size="sm" variant={value === grade ? 'primary' : 'secondary'} aria-pressed={value === grade} onClick={() => onChange(grade)}>
+          {SELF_GRADE_LABELS[grade]}
+        </Button>
+      ))}
+    </div>
+  );
+}
+
 export function OpenPlayer({ question, revealed, committed, initialGrade, initialCriteria, onGrade }: OpenPlayerProps) {
   const [draft, setDraft] = useState('');
+  const [drafts, setDrafts] = useState<Record<string, string>>({});
+  const [partGrades, setPartGrades] = useState<Record<string, SelfGrade>>({});
   const [met, setMet] = useState<string[]>([...(initialCriteria ?? [])]);
-  const suggestion = question.criteria.length > 0 ? suggestSelfGrade(question.criteria, met) : null;
+  const parts = question.parts ?? [];
+  const suggestion = parts.length > 0 ? suggestFromParts(parts, partGrades) : question.criteria.length > 0 ? suggestSelfGrade(question.criteria, met) : null;
 
   useEffect(() => {
     setDraft('');
+    setDrafts({});
+    setPartGrades({});
     setMet([...(initialCriteria ?? [])]);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- sólo al cambiar de pregunta.
   }, [question.id]);
 
   return (
     <div className="flex flex-col gap-4">
-      {!revealed ? (
+      {parts.length > 0 ? (
+        <ol className="flex flex-col gap-5">
+          {parts.map((part, index) => {
+            const label = partLabel(index);
+            const written = drafts[part.id]?.trim();
+            return (
+              <PartBlock key={part.id} question={question} part={part} index={index}>
+                {!revealed ? (
+                  <Textarea rows={3} value={drafts[part.id] ?? ''} onChange={(e) => setDrafts((current) => ({ ...current, [part.id]: e.target.value }))} placeholder="Tu respuesta, antes de ver la solución. No se guarda." aria-label={`Tu respuesta al apartado ${label}`} />
+                ) : (
+                  <>
+                    {written ? <p className="rounded-md border border-border bg-subtle p-3 text-sm whitespace-pre-wrap">{written}</p> : null}
+                    <SolutionBlock title="Solución" source={part.modelAnswer} question={question} />
+                    {!committed ? <PartGrade label={label} value={partGrades[part.id]} onChange={(grade) => setPartGrades((current) => ({ ...current, [part.id]: grade }))} /> : null}
+                  </>
+                )}
+              </PartBlock>
+            );
+          })}
+        </ol>
+      ) : !revealed ? (
         <Textarea
           rows={5}
           value={draft}
@@ -164,16 +203,13 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
       ) : null}
       {revealed ? (
         <>
-          {draft.trim() ? (
+          {parts.length === 0 && draft.trim() ? (
             <section>
               <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">Lo que has escrito</h3>
               <p className="rounded-md border border-border bg-subtle p-3 text-sm whitespace-pre-wrap">{draft}</p>
             </section>
           ) : null}
-          <section>
-            <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">Respuesta modelo</h3>
-            <Markdown source={question.modelAnswer} images={question.images} className="text-sm" />
-          </section>
+          {question.modelAnswer ? <SolutionBlock title={parts.length > 0 ? 'Solución general' : 'Respuesta modelo'} source={question.modelAnswer} question={question} /> : null}
           {question.keywords.length > 0 ? (
             <div className="flex flex-wrap items-center gap-1.5">
               <span className="text-xs text-muted">Palabras clave:</span>
@@ -204,7 +240,7 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
             </section>
           ) : null}
           <section>
-            <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">¿Cómo te ha salido?</h3>
+            <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">{parts.length > 0 ? 'En total, ¿cómo te ha salido?' : '¿Cómo te ha salido?'}</h3>
             <div className="flex flex-wrap gap-2" role="group" aria-label="Autoevaluación">
               {([0, 1, 2] as const).map((grade) => (
                 <Button
@@ -219,7 +255,10 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
                 </Button>
               ))}
             </div>
-            <p className="mt-1.5 text-xs text-muted">Decide cuándo vuelve a salir esta pregunta. No se puede verificar, así que apenas suma puntos oficiales.</p>
+            <p className="mt-1.5 text-xs text-muted">
+              {parts.length > 0 && !committed ? 'Valora cada apartado y se sugiere la nota, pesando por sus puntos. ' : ''}
+              Decide cuándo vuelve a salir esta pregunta. No se puede verificar, así que apenas suma puntos oficiales.
+            </p>
           </section>
         </>
       ) : null}

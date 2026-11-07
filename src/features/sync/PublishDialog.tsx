@@ -63,7 +63,7 @@ export function PublishDialog({ questionIds, open, onClose, onPublished }: { que
       ) : null}
       <div className="mt-1 flex flex-col gap-4">
         <fieldset className="flex flex-col gap-2">
-          <legend className="mb-1.5 text-[13px] font-medium">¿De dónde sale este contenido?</legend>
+          <legend className="mb-1.5 text-[0.8125rem] font-medium">¿De dónde sale este contenido?</legend>
           {ORIGINS.map((option) => (
             <label key={option.value} className="flex cursor-pointer items-start gap-2 text-sm">
               <input type="radio" name="origin" checked={origin === option.value} onChange={() => setOrigin(option.value)} className="mt-0.5 size-4 shrink-0 accent-[var(--accent)]" />
@@ -85,7 +85,7 @@ export function PublishDialog({ questionIds, open, onClose, onPublished }: { que
             </>
           }
         />
-        <p className="text-[13px] text-muted">
+        <p className="text-[0.8125rem] text-muted">
           {hasToken
             ? 'Se abrirá un pull request desde tu fork. Una Action lo valida y, si todo está bien, lo publica.'
             : 'Se abrirá GitHub con el envío ya escrito: sólo tendrás que pulsar «Create». Una Action lo valida y, si todo está bien, lo publica.'}

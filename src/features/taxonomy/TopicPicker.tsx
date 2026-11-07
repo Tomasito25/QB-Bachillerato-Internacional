@@ -38,7 +38,7 @@ function QuickAdd({ label, onAdd }: { label: string; onAdd: (name: string) => Pr
         }}
         placeholder={label}
         aria-label={label}
-        className="h-8 text-[13px]"
+        className="h-8 text-[0.8125rem]"
       />
       <Button size="sm" onClick={() => void submit()} disabled={!name.trim()} icon={<Plus size={14} aria-hidden />}>
         Añadir
@@ -80,13 +80,13 @@ export function TopicPicker({ subjectId, topicIds, onChange, error }: TopicPicke
         />
       ) : (
         <div className="flex flex-col gap-3 rounded-md border border-border p-3">
-          <p className="text-[13px] font-medium">
+          <p className="text-[0.8125rem] font-medium">
             Temas <span className="font-normal text-muted">(puedes marcar varios)</span>
           </p>
-          {subject.units.length === 0 ? <p className="text-[13px] text-muted">Esta asignatura aún no tiene unidades. Crea la primera:</p> : null}
+          {subject.units.length === 0 ? <p className="text-[0.8125rem] text-muted">Esta asignatura aún no tiene unidades. Crea la primera:</p> : null}
           {subject.units.map((unit) => (
             <fieldset key={unit.id} className="flex flex-col gap-1.5">
-              <legend className="mb-1 text-[13px] font-medium text-muted">{unit.name}</legend>
+              <legend className="mb-1 text-[0.8125rem] font-medium text-muted">{unit.name}</legend>
               {unit.topics.map((topic) => (
                 <Checkbox key={topic.id} checked={topicIds.includes(topic.id)} onChange={(checked) => toggle(topic.id, checked)} label={topic.name} />
               ))}

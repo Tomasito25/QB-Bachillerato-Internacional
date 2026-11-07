@@ -21,7 +21,7 @@ export default function SubjectPage() {
   const count = stats.bySubject.get(subject.id) ?? 0;
   return (
     <>
-      <Link to="/explore" className="mb-3 inline-flex items-center gap-1.5 text-[13px] text-muted hover:text-ink">
+      <Link to="/explore" className="mb-3 inline-flex items-center gap-1.5 text-[0.8125rem] text-muted hover:text-ink">
         <ArrowLeft size={14} aria-hidden />
         Explorar
       </Link>
@@ -67,7 +67,7 @@ export default function SubjectPage() {
                       const topicCount = stats.byTopic.get(topic.id) ?? 0;
                       return (
                         <li key={topic.id}>
-                          <Link to={`/bank?subject=${subject.id}&topic=${topic.id}`} className="flex items-center justify-between gap-3 px-4 py-2 text-[13.5px] hover:bg-subtle/60">
+                          <Link to={`/bank?subject=${subject.id}&topic=${topic.id}`} className="flex items-center justify-between gap-3 px-4 py-2 text-[0.84375rem] hover:bg-subtle/60">
                             <span className="min-w-0">
                               <span className="text-muted tabular-nums">
                                 {unitIndex + 1}.{topicIndex + 1}{' '}
@@ -81,7 +81,7 @@ export default function SubjectPage() {
                     })}
                 </ul>
               ) : (
-                <p className="px-4 py-3 text-[13px] text-muted">Sin temas todavía.</p>
+                <p className="px-4 py-3 text-[0.8125rem] text-muted">Sin temas todavía.</p>
               )}
             </Card>
           ))}

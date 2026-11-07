@@ -32,7 +32,7 @@ function AttemptIcon({ question, attempt }: { question: Question; attempt?: Atte
 function McqReview({ question, attempt }: { question: Extract<Question, { type: 'mcq' }>; attempt?: AttemptRow }) {
   const selected = new Set(attempt?.selected ?? []);
   if (!question.reveal.solutionsAtExamEnd) {
-    return <p className="text-[13px] text-muted">Quien creó esta pregunta ha decidido no mostrar la solución al terminar.</p>;
+    return <p className="text-[0.8125rem] text-muted">Quien creó esta pregunta ha decidido no mostrar la solución al terminar.</p>;
   }
   return (
     <ul className="flex flex-col gap-1.5">
@@ -58,7 +58,7 @@ function ReviewItem({ index, question, attempt, sessionId }: { index: number; qu
   };
   return (
     <li>
-      <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)} className="flex w-full items-start gap-2.5 px-4 py-2.5 text-left text-[13.5px] hover:bg-subtle/60">
+      <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)} className="flex w-full items-start gap-2.5 px-4 py-2.5 text-left text-[0.84375rem] hover:bg-subtle/60">
         <span className="mt-0.5 shrink-0">
           <AttemptIcon question={question} attempt={attempt} />
         </span>

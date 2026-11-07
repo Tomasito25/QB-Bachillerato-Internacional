@@ -35,7 +35,7 @@ function OfficialCard() {
     return (
       <Card>
         <CardHeader title="Ranking" />
-        <div className="flex flex-col gap-2 p-4 text-[13.5px]">
+        <div className="flex flex-col gap-2 p-4 text-[0.84375rem]">
           <p className="text-muted">Conecta tu cuenta de GitHub para tener perfil público y entrar en los rankings. Es opcional.</p>
           <ButtonLink to="/settings" className="w-fit">
             Conectar
@@ -55,7 +55,7 @@ function OfficialCard() {
             <Stat label="Semana" value={profile.ranks.week ? `#${profile.ranks.week}` : '—'} />
           </div>
         ) : (
-          <p className="text-[13px] text-muted">Tu perfil aparecerá cuando se procese tu primer envío.</p>
+          <p className="text-[0.8125rem] text-muted">Tu perfil aparecerá cuando se procese tu primer envío.</p>
         )}
         {unpublished ? (
           <ButtonLink to="/sync" className="w-fit" icon={<UploadCloud size={14} aria-hidden />} size="sm">
@@ -81,7 +81,7 @@ function ActiveCompetitions() {
           ))}
         </ul>
       ) : (
-        <div className="flex flex-col gap-2 p-4 text-[13.5px]">
+        <div className="flex flex-col gap-2 p-4 text-[0.84375rem]">
           <p className="text-muted">Ninguna en este momento.</p>
           <ButtonLink to="/competitions/new" className="w-fit" size="sm" icon={<Swords size={14} aria-hidden />}>
             Retar a alguien
@@ -97,7 +97,7 @@ export default function DashboardPage() {
   const questions = useQuestions();
   const taxonomy = useTaxonomy();
   const active = useActiveSessions();
-  const { dailyGoal } = preferences.use();
+  const { dailyGoal, practiceCount, studyOnly } = preferences.use();
   const launch = useLaunchSession();
 
   const recentSubjects = useMemo(() => {
@@ -127,6 +127,9 @@ export default function DashboardPage() {
               </ButtonLink>
               <ButtonLink to="/create" icon={<PencilLine size={16} aria-hidden />}>
                 Crear una pregunta
+              </ButtonLink>
+              <ButtonLink to="/guide" variant="ghost">
+                Ver la guía
               </ButtonLink>
             </>
           }
@@ -164,7 +167,7 @@ export default function DashboardPage() {
                   Repasar {stats.due}
                 </Button>
               ) : (
-                <Button variant="primary" icon={<Play size={16} aria-hidden />} onClick={() => void launch({ mode: 'practice', title: 'Todo el banco', config: { count: 10 } })}>
+                <Button variant="primary" icon={<Play size={16} aria-hidden />} onClick={() => void launch({ mode: 'practice', title: 'Todo el banco', config: { count: practiceCount } })}>
                   Practicar
                 </Button>
               )}
@@ -173,11 +176,11 @@ export default function DashboardPage() {
           </div>
           <ProgressBar value={goalProgress} label="Objetivo diario" tone={goalProgress >= 1 ? 'success' : 'accent'} className="mt-5 h-2" />
           {session ? (
-            <p className="mt-3 text-[13px] text-muted">
+            <p className="mt-3 text-[0.8125rem] text-muted">
               {MODE_LABELS[session.mode]} a medias{session.title ? `: ${session.title}` : ''} · pregunta {session.cursor + 1} de {session.questionIds.length}
             </p>
           ) : stats.due > 0 ? (
-            <p className="mt-3 text-[13px] text-muted">Es el momento en que repasar cunde más.</p>
+            <p className="mt-3 text-[0.8125rem] text-muted">Es el momento en que repasar cunde más.</p>
           ) : null}
           <div className="mt-6 grid grid-cols-3 gap-4 border-t border-border pt-5">
             <Stat
@@ -198,7 +201,7 @@ export default function DashboardPage() {
           <Card>
             <CardHeader title="Asignaturas recientes" action={<Link to="/explore" className="inline-flex items-center gap-1 text-xs text-muted hover:text-ink">Explorar <ArrowRight size={12} aria-hidden /></Link>} />
             {recentSubjects.length === 0 ? (
-              <p className="p-4 text-[13px] text-muted">Aparecerán cuando empieces a estudiar.</p>
+              <p className="p-4 text-[0.8125rem] text-muted">Aparecerán cuando empieces a estudiar.</p>
             ) : (
               <ul className="divide-y divide-border">
                 {recentSubjects.map((subject) => (
@@ -215,8 +218,12 @@ export default function DashboardPage() {
               </ul>
             )}
           </Card>
-          <ActiveCompetitions />
-          <OfficialCard />
+          {studyOnly ? null : (
+            <>
+              <ActiveCompetitions />
+              <OfficialCard />
+            </>
+          )}
         </div>
       </div>
     </>

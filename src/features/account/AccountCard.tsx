@@ -2,10 +2,11 @@ import { AlertTriangle, ExternalLink, KeyRound, LogOut, ShieldCheck } from 'luci
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Avatar } from '@/features/bank/parts';
-import { hasCommunity } from '@/infra/config';
+import { config, hasCommunity } from '@/infra/config';
 import { RateLimitError } from '@/infra/github/client';
 import { Button } from '@/ui/Button';
 import { Checkbox, Field, Input } from '@/ui/Field';
+import { OutLink } from '@/ui/OutLink';
 import { Card, CardHeader, Notice } from '@/ui/Surface';
 import { toast } from '@/ui/toast';
 import { cancelConnect, checkConnect, connectWithToken, disconnect, getPendingConnect, identity, removeToken, startConnect, TOKEN_CREATE_URL, tokenReady, type PendingConnect } from './identity';
@@ -73,7 +74,7 @@ function ConnectFlow() {
           <Button variant="primary" onClick={() => void startConnect().then(setPending)}>
             Conectar con GitHub
           </Button>
-          <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer" className="text-[13px] text-muted underline underline-offset-2 hover:text-ink">
+          <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer" className="text-[0.8125rem] text-muted underline underline-offset-2 hover:text-ink">
             No tengo cuenta
           </a>
         </div>
@@ -85,7 +86,7 @@ function ConnectFlow() {
     <ol className="flex flex-col gap-3 text-sm">
       <li>
         <p className="font-medium">1. Abre GitHub y pulsa «Create»</p>
-        <p className="mt-0.5 mb-2 text-[13px] text-muted">El issue ya está escrito. Sólo prueba que eres tú, y se cierra solo.</p>
+        <p className="mt-0.5 mb-2 text-[0.8125rem] text-muted">El issue ya está escrito. Sólo prueba que eres tú, y se cierra solo.</p>
         <a href={pending.url} target="_blank" rel="noopener noreferrer" className="inline-flex h-9 items-center gap-2 rounded-md bg-accent px-3.5 text-sm font-medium text-accent-ink hover:bg-accent-hover">
           <ExternalLink size={16} aria-hidden />
           Abrir GitHub
@@ -93,7 +94,7 @@ function ConnectFlow() {
       </li>
       <li>
         <p className="font-medium">2. Vuelve aquí</p>
-        <p className="mt-0.5 mb-2 text-[13px] text-muted" role="status">
+        <p className="mt-0.5 mb-2 text-[0.8125rem] text-muted" role="status">
           Se detecta solo en unos segundos.
         </p>
         <div className="flex flex-wrap gap-2">
@@ -133,7 +134,7 @@ function TokenSection() {
 
   return (
     <div className="border-t border-border pt-4">
-      <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)} className="text-[13px] font-medium underline-offset-2 hover:underline">
+      <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)} className="text-[0.8125rem] font-medium underline-offset-2 hover:underline">
         Avanzado: publicar sin clics con un token
       </button>
       {open ? (
@@ -156,7 +157,7 @@ function TokenSection() {
           <Notice tone="warning" title="Piénsatelo: da permiso de escritura en todos tus repos públicos">
             GitHub sólo permite contribuir a repos ajenos con un token clásico <code>public_repo</code>; los de grano fino no pueden. Ponle caducidad corta. Sin token, todo funciona igual con un clic más: es la opción más segura.
           </Notice>
-          <a href={TOKEN_CREATE_URL} target="_blank" rel="noopener noreferrer" className="inline-flex w-fit items-center gap-1.5 text-[13px] underline underline-offset-2">
+          <a href={TOKEN_CREATE_URL} target="_blank" rel="noopener noreferrer" className="inline-flex w-fit items-center gap-1.5 text-[0.8125rem] underline underline-offset-2">
             Crear un token en GitHub
             <ExternalLink size={12} aria-hidden />
           </a>
@@ -206,6 +207,13 @@ export function AccountCard() {
                 Desconectar
               </Button>
             </div>
+            {hasCommunity() ? (
+              <div className="flex flex-wrap gap-x-4 gap-y-1">
+                <OutLink href={`https://github.com/${user.login}`}>Tu perfil de GitHub</OutLink>
+                <OutLink href={config.repoUrl(`/issues?q=${encodeURIComponent(`author:${user.login}`)}`)}>Tus envíos</OutLink>
+                <OutLink href={config.repoUrl()}>El repositorio</OutLink>
+              </div>
+            ) : null}
             <p className="text-xs text-muted">Desconectar sólo afecta a este dispositivo: tu progreso sigue aquí y lo publicado sigue publicado.</p>
           </>
         ) : (

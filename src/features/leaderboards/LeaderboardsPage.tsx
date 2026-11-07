@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import type { Leaderboard } from '@core/schema/derived';
 import { identity } from '@/features/account/identity';
+import { FriendsRanking } from '@/features/friends/FriendsPage';
 import { Avatar } from '@/features/bank/parts';
 import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
 import { db } from '@/infra/db/db';
@@ -16,6 +17,7 @@ const BOARDS: { id: string; label: string; description: string }[] = [
   { id: 'week', label: 'Semanal', description: 'Puntos recibidos esta semana.' },
   { id: 'month', label: 'Mensual', description: 'Puntos recibidos este mes.' },
   { id: 'global', label: 'Global', description: 'Todos los puntos.' },
+  { id: 'friends', label: 'Amigos', description: 'Tú y la gente que sigues, por puntos totales. La lista sólo está en este dispositivo.' },
   { id: 'subject', label: 'Por asignatura', description: 'Puntos ganados en esa asignatura.' },
   { id: 'contributors', label: 'Aportaciones', description: 'Preguntas aprobadas. Al lado, cuántas personas las han usado.' },
   { id: 'performance', label: 'Rendimiento', description: 'Precisión con corrección estadística: 950/1000 vale más que 10/10. Mínimo 30 respuestas.' },
@@ -69,7 +71,7 @@ export default function LeaderboardsPage() {
             role="tab"
             aria-selected={tab === item.id}
             onClick={() => setParams({ tab: item.id }, { replace: true })}
-            className={cn('border-b-2 px-2.5 py-2 text-[13px] font-medium whitespace-nowrap', tab === item.id ? 'border-accent text-ink' : 'border-transparent text-muted hover:text-ink')}
+            className={cn('border-b-2 px-2.5 py-2 text-[0.8125rem] font-medium whitespace-nowrap', tab === item.id ? 'border-accent text-ink' : 'border-transparent text-muted hover:text-ink')}
           >
             {item.label}
           </button>
@@ -77,12 +79,12 @@ export default function LeaderboardsPage() {
       </div>
 
       <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
-        <p className="text-[13px] text-muted">
+        <p className="text-[0.8125rem] text-muted">
           {definition?.description}
           {board?.period ? ` Periodo: ${board.period}.` : ''}
         </p>
         {tab === 'subject' && subjectBoards.length > 0 ? (
-          <Select aria-label="Asignatura" className="h-8 w-auto text-[13px]" value={effectiveSubject} onChange={(e) => setSubjectId(e.target.value)}>
+          <Select aria-label="Asignatura" className="h-8 w-auto text-[0.8125rem]" value={effectiveSubject} onChange={(e) => setSubjectId(e.target.value)}>
             {subjectBoards.map((b) => {
               const id = b.id.slice('subject:'.length);
               return (
@@ -95,7 +97,9 @@ export default function LeaderboardsPage() {
         ) : null}
       </div>
 
-      {!board || board.entries.length === 0 ? (
+      {tab === 'friends' ? (
+        <FriendsRanking />
+      ) : !board || board.entries.length === 0 ? (
         <EmptyState
           icon={<Trophy size={28} aria-hidden />}
           title={boards.length === 0 ? 'Aún no hay datos de rankings' : 'Nadie ha puntuado aquí todavía'}
@@ -130,6 +134,8 @@ export default function LeaderboardsPage() {
                       <Avatar user={{ id: profile?.githubId ?? 0, login: entry.login }} size={24} />
                       <span className="min-w-0 flex-1 truncate text-sm">
                         {profile?.displayName ?? entry.login}
+                        {/* El nombre lo elige cada cual: el login, que no se puede imitar, va siempre al lado. */}
+                        {profile?.displayName ? <span className="ml-1.5 text-xs text-muted">@{entry.login}</span> : null}
                         {isMe ? <span className="ml-1.5 text-xs text-muted">(tú)</span> : null}
                       </span>
                       {detail ? <span className="hidden shrink-0 text-xs text-muted sm:inline">{detail}</span> : null}

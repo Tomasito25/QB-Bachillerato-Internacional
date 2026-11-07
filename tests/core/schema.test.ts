@@ -65,6 +65,18 @@ describe('esquema de pregunta', () => {
     expect(errorsOf(makeMcq({ topicIds: [] })).length).toBeGreaterThan(0);
     expect(errorsOf(makeMcq({ topicIds: [uuid(1), uuid(2)] }))).toEqual([]);
   });
+
+  it('el desarrollo admite apartados; sin ellos, sigue exigiendo la respuesta modelo', () => {
+    const parts = [
+      { id: 'a', statement: 'Calcula la velocidad.', modelAnswer: '$v = 3\\,\\text{m s}^{-1}$', marks: 2 },
+      { id: 'b', statement: 'Explica el resultado.', modelAnswer: 'Porque…' },
+    ];
+    expect(errorsOf(makeOpen({ modelAnswer: '', parts }))).toEqual([]);
+    expect(errorsOf(makeOpen({ modelAnswer: '' })).length).toBeGreaterThan(0);
+    expect(errorsOf(makeOpen({ parts: [] })).length).toBeGreaterThan(0);
+    expect(errorsOf(makeOpen({ parts: [parts[0], { ...parts[1], id: 'a' }] as typeof parts })).length).toBeGreaterThan(0);
+    expect(errorsOf(makeOpen({ parts: [{ ...parts[0], marks: 0 }] as typeof parts })).length).toBeGreaterThan(0);
+  });
 });
 
 describe('login', () => {
