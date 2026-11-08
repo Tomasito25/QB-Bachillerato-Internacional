@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4f2da99b-71a8-5104-8060-a3d40c86d836",
+  "rev": 1,
+  "statement": "Dos cargas positivas de $+q$ y $+4q$ están separadas una distancia $d$. ¿A qué distancia de la carga $+q$, sobre la línea que las une, se anula el campo eléctrico?",
+  "explanation": "$\\frac{q}{x^2} = \\frac{4q}{(d-x)^2}$, de donde $d - x = 2x$ y $x = \\frac{d}{3}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo eléctrico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\frac{d}{2}$",
+      "correct": false,
+      "feedback": "Las cargas son distintas: el punto está más cerca de la menor."
+    },
+    {
+      "id": "b",
+      "text": "$\\frac{d}{5}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$\\frac{d}{3}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$\\frac{2d}{3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

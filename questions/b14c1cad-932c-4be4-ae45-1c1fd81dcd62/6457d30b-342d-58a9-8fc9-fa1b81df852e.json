@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "6457d30b-342d-58a9-8fc9-fa1b81df852e",
+  "rev": 1,
+  "statement": "Un sónar de un barco emite pulsos de ultrasonidos de $50\\,\\text{kHz}$, que viajan por el agua a $1500\\,\\text{m}\\,\\text{s}^{-1}$. El eco del fondo se recibe $0{,}16\\,\\text{s}$ después de emitir cada pulso.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "sonido",
+    "ultrasonidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la profundidad del agua.",
+      "modelAnswer": "El pulso recorre el camino dos veces: $d = \\frac{1500\\cdot 0{,}16}{2} = 120\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la longitud de onda de los ultrasonidos en el agua.",
+      "modelAnswer": "$\\lambda = \\frac{1500}{5{,}0\\times10^{4}} = 3{,}0\\,\\text{cm}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la máxima frecuencia de emisión de pulsos, para que cada eco llegue antes de emitir el siguiente, en aguas de hasta $600\\,\\text{m}$.",
+      "modelAnswer": "El eco tarda $\\frac{1200}{1500} = 0{,}80\\,\\text{s}$: la frecuencia máxima es $\\frac{1}{0{,}80} = 1{,}25\\,\\text{Hz}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué se usan ultrasonidos de alta frecuencia para detectar objetos pequeños.",
+      "modelAnswer": "Porque su longitud de onda es pequeña: un objeto sólo refleja de forma apreciable, sin que las ondas lo rodeen por difracción, si su tamaño es comparable o mayor que la longitud de onda.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "En agua más salada, el sonido viaja algo más rápido. Razona cómo afecta eso a la medida si el aparato sigue suponiendo $1500\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "modelAnswer": "El eco llega antes de lo esperado, así que el aparato calcula una profundidad menor que la real.",
+      "marks": 2
+    }
+  ]
+}

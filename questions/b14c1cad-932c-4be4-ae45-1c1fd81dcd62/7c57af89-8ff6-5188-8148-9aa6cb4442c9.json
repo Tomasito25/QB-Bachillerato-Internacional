@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "7c57af89-8ff6-5188-8148-9aa6cb4442c9",
+  "rev": 1,
+  "statement": "En un experimento inspirado en el de Millikan, se mantienen unas gotas de aceite en reposo entre dos placas horizontales separadas $8{,}0\\,\\text{mm}$. Para cada gota, de masa conocida $m$, se ajusta la tensión $V$ hasta que queda suspendida.\n\n| Gota | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $m$ / $10^{-15}$ kg | 2,0 | 3,1 | 1,6 | 4,1 |\n| $V$ / V | 490 | 380 | 245 | 251 |\n\nToma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "datos",
+    "carga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "cuantización",
+    "equilibrio de fuerzas"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que la carga de cada gota es $q = \\frac{mgd}{V}$.",
+      "modelAnswer": "En equilibrio, $qE = mg$, con $E = \\frac{V}{d}$. Despejando $q$ queda la expresión.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la carga de las gotas 1 y 3.",
+      "modelAnswer": "Gota 1: $\\frac{2{,}0\\times10^{-15}\\cdot 9{,}8\\cdot 8{,}0\\times10^{-3}}{490} = 3{,}2\\times10^{-19}\\,\\text{C}$. Gota 3: $\\frac{1{,}6\\times10^{-15}\\cdot 9{,}8\\cdot 8{,}0\\times10^{-3}}{245} = 5{,}1\\times10^{-19}\\,\\text{C}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Las gotas 2 y 4 dan $6{,}4\\times10^{-19}\\,\\text{C}$ y $1{,}28\\times10^{-18}\\,\\text{C}$. Razona qué se deduce del conjunto de valores, y si la gota 3 es coherente con él.",
+      "modelAnswer": "Las cargas 1, 2 y 4 son múltiplos de $1{,}6\\times10^{-19}\\,\\text{C}$ (2, 4 y 8 veces): la carga está cuantizada. La gota 3 da $3{,}2$ veces ese valor: no es un múltiplo entero, así que esa medida es errónea o tiene una incertidumbre grande.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Indica la polaridad de la placa superior si las gotas tienen carga negativa, y justifica por qué.",
+      "modelAnswer": "Positiva. La fuerza eléctrica debe apuntar hacia arriba para equilibrar el peso, y una carga negativa es atraída por la placa positiva.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué sería mala idea usar gotas muy cargadas para comprobar la cuantización.",
+      "modelAnswer": "Porque entonces los valores son múltiplos enteros grandes, muy próximos entre sí: las diferencias entre valores permitidos serían menores que la incertidumbre, y no se apreciaría la cuantización.",
+      "marks": 2
+    }
+  ]
+}

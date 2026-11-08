@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b5c45afb-2be5-52b0-81c7-cdeee776336a",
+  "rev": 1,
+  "statement": "En un experimento de doble rendija, si se duplica la separación entre las rendijas sin cambiar nada más, la separación entre franjas:",
+  "explanation": "$s = \\frac{\\lambda D}{d}$: es inversamente proporcional a $d$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "doble rendija"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "se duplica",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "se reduce a la mitad",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "no cambia",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "se reduce a la cuarta parte",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

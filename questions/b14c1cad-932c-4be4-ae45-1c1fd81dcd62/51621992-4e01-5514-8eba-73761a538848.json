@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "51621992-4e01-5514-8eba-73761a538848",
+  "rev": 1,
+  "statement": "¿Cuál es el radio orbital de un satélite geoestacionario? Periodo: $8{,}6\\times10^{4}\\,\\text{s}$. Masa de la Tierra: $6{,}0\\times10^{24}\\,\\text{kg}$. $G = 6{,}67\\times10^{-11}\\,\\text{N}\\,\\text{m}^{2}\\,\\text{kg}^{-2}$.",
+  "explanation": "$r = \\left(\\frac{GMT^2}{4\\pi^2}\\right)^{1/3} = 4{,}2\\times10^{7}\\,\\text{m}$. Sobre la superficie son unos $3{,}6\\times10^{7}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "órbitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}6\\times10^{7}\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$4{,}2\\times10^{7}\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$6{,}4\\times10^{6}\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$7{,}5\\times10^{22}\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Falta la raíz cúbica."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

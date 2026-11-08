@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "55c891ab-d1b3-5012-8caa-3ae4e059d143",
+  "rev": 1,
+  "statement": "Dos altavoces, separados $2{,}0\\,\\text{m}$, emiten en fase un sonido de $680\\,\\text{Hz}$. El sonido viaja a $340\\,\\text{m}\\,\\text{s}^{-1}$. Una persona camina por una recta paralela a la línea de los altavoces, a $4{,}0\\,\\text{m}$ de ella.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "interferencia",
+    "sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "diferencia de camino",
+    "en fase"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la longitud de onda.",
+      "modelAnswer": "$\\lambda = \\frac{340}{680} = 0{,}50\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica qué se oye en el punto medio de la recta, y por qué.",
+      "modelAnswer": "Un máximo: el camino desde cada altavoz es el mismo, las ondas llegan en fase e interfieren de manera constructiva.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la diferencia de camino cuando la persona está justo enfrente de uno de los altavoces.",
+      "modelAnswer": "Un camino mide $4{,}0\\,\\text{m}$ y el otro, $\\sqrt{4{,}0^2 + 2{,}0^2} = 4{,}47\\,\\text{m}$. La diferencia es de $0{,}47\\,\\text{m}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Indica si ahí habrá un máximo o un mínimo, razonando con la longitud de onda.",
+      "modelAnswer": "La diferencia, $0{,}47\\,\\text{m}$, es casi exactamente $\\lambda = 0{,}50\\,\\text{m}$: la interferencia es casi constructiva, y se oye un máximo próximo al primero.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué en una sala real no se llega a un silencio total en los mínimos.",
+      "modelAnswer": "Las amplitudes no son iguales, porque la intensidad depende de la distancia, y además hay reflexiones en las paredes, que añaden otras ondas.",
+      "marks": 2
+    }
+  ]
+}

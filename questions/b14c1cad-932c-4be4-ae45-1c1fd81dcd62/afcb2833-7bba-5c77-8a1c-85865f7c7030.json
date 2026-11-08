@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "afcb2833-7bba-5c77-8a1c-85865f7c7030",
+  "rev": 1,
+  "statement": "Un coche pasa por lo alto de un badén circular de $40\\,\\text{m}$ de radio. ¿Cuál es la rapidez máxima con la que no pierde el contacto con la carretera? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "En el límite la normal es cero y el peso da la fuerza centrípeta: $mg = \\frac{mv^2}{r}$, luego $v = \\sqrt{9{,}8\\cdot 40} = 20\\,\\text{m}\\,\\text{s}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$14\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$392\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false,
+      "feedback": "Te ha faltado la raíz cuadrada."
+    },
+    {
+      "id": "c",
+      "text": "$20\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$28\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

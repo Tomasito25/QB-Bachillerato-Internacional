@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "aa62ecca-c8f7-540c-8bc2-4d0b5c48e23e",
+  "rev": 1,
+  "statement": "Desde lo alto de un acantilado de $15\\,\\text{m}$ se lanza una piedra a $20\\,\\text{m}\\,\\text{s}^{-1}$, con un ángulo de $30^{\\circ}$ sobre la horizontal. Sin resistencia del aire, ¿a qué distancia horizontal cae al nivel del mar? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "En vertical: $-15 = 10\\,t - 4{,}9\\,t^2$, de donde $t = 3{,}05\\,\\text{s}$. En horizontal: $x = 20\\cos 30^{\\circ}\\cdot 3{,}05 = 53\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$35\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Ése sería el alcance si cayera a la altura desde la que se lanzó."
+    },
+    {
+      "id": "b",
+      "text": "$53\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$61\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$30\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "904b2c07-7df7-54df-831e-0a43bf4df480",
+  "rev": 1,
+  "statement": "Para medir la velocidad del sonido, se acerca un diapasón a un tubo con un émbolo y se busca la longitud de aire $L$ a la que se produce la primera resonancia.\n\n| $f$ / Hz | 256 | 320 | 384 | 480 | 512 |\n|---|---|---|---|---|---|\n| $L$ / cm ($\\pm 0{,}5$) | 32,3 | 25,7 | 21,3 | 16,8 | 15,6 |\n\nDebido a la «corrección de extremo» $e$, se cumple $\\frac{\\lambda}{4} = L + e$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "datos",
+    "tubos",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "corrección de extremo",
+    "linealizar"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que $L = \\frac{v}{4}\\cdot\\frac{1}{f} - e$, e indica qué representación da una recta.",
+      "modelAnswer": "$\\frac{\\lambda}{4} = \\frac{v}{4f} = L + e$, de donde sale la expresión. Representando $L$ frente a $\\frac{1}{f}$, se obtiene una recta de pendiente $\\frac{v}{4}$ y ordenada en el origen $-e$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula $\\frac{1}{f}$ para $f = 256\\,\\text{Hz}$ y para $f = 512\\,\\text{Hz}$.",
+      "modelAnswer": "$3{,}906\\times10^{-3}\\,\\text{s}$ y $1{,}953\\times10^{-3}\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina $v$ y $e$ con estos dos puntos.",
+      "modelAnswer": "Pendiente: $\\frac{0{,}323 - 0{,}156}{1{,}953\\times10^{-3}} = 85{,}5\\,\\text{m}\\,\\text{s}^{-1}$. $v = 4\\cdot 85{,}5 = 3{,}4\\times10^{2}\\,\\text{m}\\,\\text{s}^{-1}$. $e = 85{,}5\\cdot 1{,}953\\times10^{-3} - 0{,}156 = 0{,}011\\,\\text{m}$.",
+      "marks": 4
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué conviene usar el método de la gráfica en lugar de calcular $v$ a partir de una sola medida.",
+      "modelAnswer": "Reparte el error entre varias medidas y permite eliminar la corrección de extremo $e$, que no se conoce; un solo valor de $L$ daría una $v$ sistemáticamente baja.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Indica cómo varía la velocidad del sonido si se repite la experiencia en un día más cálido, y cómo se vería en la gráfica.",
+      "modelAnswer": "Aumenta con la temperatura. La pendiente sería mayor.",
+      "marks": 1
+    }
+  ]
+}

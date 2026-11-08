@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "46660035-e6ea-533b-81fc-c0af1a69a516",
+  "rev": 1,
+  "statement": "En un vaso aislado hay $250\\,\\text{g}$ de agua a $30\\,^{\\circ}\\text{C}$. Se añaden $50\\,\\text{g}$ de hielo a $-10\\,^{\\circ}\\text{C}$. Datos: $c_\\text{agua} = 4180\\,\\text{J}\\,\\text{kg}^{-1}\\,\\text{K}^{-1}$, $c_\\text{hielo} = 2100\\,\\text{J}\\,\\text{kg}^{-1}\\,\\text{K}^{-1}$, $L_f = 3{,}34\\times10^{5}\\,\\text{J}\\,\\text{kg}^{-1}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "calor latente",
+    "calor específico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "balance de energía"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía para llevar el hielo a $0\\,^{\\circ}\\text{C}$.",
+      "modelAnswer": "$0{,}050\\cdot 2100\\cdot 10 = 1{,}05\\times10^{3}\\,\\text{J}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la energía para fundirlo.",
+      "modelAnswer": "$0{,}050\\cdot 3{,}34\\times10^{5} = 1{,}67\\times10^{4}\\,\\text{J}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Muestra que se funde todo el hielo, comparando con la energía que puede ceder el agua al llegar a $0\\,^{\\circ}\\text{C}$.",
+      "modelAnswer": "El agua cede hasta $0{,}250\\cdot 4180\\cdot 30 = 3{,}1\\times10^{4}\\,\\text{J}$, más que los $1{,}8\\times10^{4}\\,\\text{J}$ que necesita el hielo.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la temperatura final.",
+      "modelAnswer": "$0{,}250\\cdot 4180\\,(30 - T) = 1{,}05\\times10^{3} + 1{,}67\\times10^{4} + 0{,}050\\cdot 4180\\,T$, de donde $T = 11\\,^{\\circ}\\text{C}$.",
+      "marks": 4
+    },
+    {
+      "id": "e",
+      "statement": "El vaso real no es perfecto y el aire de la sala está a $22\\,^{\\circ}\\text{C}$. Razona si la temperatura medida sería mayor o menor que la calculada.",
+      "modelAnswer": "Mayor. Como la mezcla queda más fría que la sala, entra energía desde el entorno y la temperatura sube.",
+      "marks": 2
+    }
+  ]
+}

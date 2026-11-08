@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "43af1735-0a64-5380-8674-20577b8542c7",
+  "rev": 1,
+  "statement": "¿Qué hace que un gas como el $\\text{CO}_2$ contribuya al efecto invernadero?",
+  "explanation": "Las moléculas absorben infrarrojos de frecuencias que coinciden con sus modos de vibración, y reemiten parte de esa energía hacia la superficie.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "gases de efecto invernadero"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Refleja la luz visible hacia el espacio",
+      "correct": false,
+      "feedback": "La luz visible apenas interacciona con estos gases."
+    },
+    {
+      "id": "b",
+      "text": "Se calienta al absorber radiación ultravioleta",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La radiación infrarroja hace vibrar sus moléculas, que la absorben y reemiten en todas direcciones",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Forma una capa que impide el paso del aire caliente",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

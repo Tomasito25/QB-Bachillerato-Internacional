@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "42891434-305e-52e2-8d66-8752b1dde2b9",
+  "rev": 1,
+  "statement": "La gráfica muestra la posición $x$ de un patinete frente al tiempo $t$. Hasta el punto P acelera de manera uniforme desde el reposo; después se mueve con velocidad constante.\n\n![Gráfica de posición frente a tiempo: parábola desde el origen hasta el punto P en t = 4 s y x = 20 m, y luego recta de pendiente constante hasta x = 40 m en t = 6 s.](qbimg:ab74eadbc784e824cf41e6a011ac9bad8259f751e4231130c6c70385234b2227)",
+  "images": [
+    {
+      "hash": "ab74eadbc784e824cf41e6a011ac9bad8259f751e4231130c6c70385234b2227",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 2856,
+      "alt": "Gráfica de posición frente a tiempo: parábola desde el origen hasta el punto P en t = 4 s y x = 20 m, y luego recta de pendiente constante hasta x = 40 m en t = 6 s."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas",
+    "MRUA"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la aceleración durante el primer tramo.",
+      "modelAnswer": "En $4{,}0\\,\\text{s}$ recorre $20\\,\\text{m}$ desde el reposo: $a = \\frac{2\\cdot 20}{4{,}0^2} = 2{,}5\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la velocidad en el punto P de dos maneras distintas y compara los resultados.",
+      "modelAnswer": "Con la aceleración: $v = 2{,}5\\cdot 4{,}0 = 10\\,\\text{m}\\,\\text{s}^{-1}$. Con la pendiente del tramo recto: $\\frac{40 - 20}{6{,}0 - 4{,}0} = 10\\,\\text{m}\\,\\text{s}^{-1}$. Coinciden: la gráfica no tiene pico en P.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Determina la velocidad media entre $t = 0$ y $t = 6{,}0\\,\\text{s}$.",
+      "modelAnswer": "$\\frac{40}{6{,}0} = 6{,}7\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Indica el instante en el que la velocidad instantánea es igual a esa velocidad media durante el primer tramo.",
+      "modelAnswer": "$2{,}5\\,t = 6{,}67$, de donde $t = 2{,}7\\,\\text{s}$.",
+      "marks": 2
+    }
+  ]
+}

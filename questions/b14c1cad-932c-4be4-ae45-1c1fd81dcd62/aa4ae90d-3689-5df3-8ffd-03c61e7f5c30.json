@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "aa4ae90d-3689-5df3-8ffd-03c61e7f5c30",
+  "rev": 1,
+  "statement": "En una cámara de niebla con un campo magnético uniforme de $1{,}2\\,\\text{T}$, una partícula alfa ($q = +2e$, $m = 6{,}64\\times10^{-27}\\,\\text{kg}$) entra perpendicular al campo a $1{,}5\\times10^{7}\\,\\text{m}\\,\\text{s}^{-1}$. Usa $e = 1{,}6\\times10^{-19}\\,\\text{C}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "hélice",
+    "espiral"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el radio de la trayectoria.",
+      "modelAnswer": "$r = \\frac{mv}{qB} = \\frac{6{,}64\\times10^{-27}\\cdot 1{,}5\\times10^{7}}{3{,}2\\times10^{-19}\\cdot 1{,}2} = 0{,}26\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Compara con el radio de un protón con la misma velocidad.",
+      "modelAnswer": "$r_p = \\frac{m_pv}{eB} = 0{,}13\\,\\text{m}$: la mitad, porque la alfa tiene 4 veces la masa y 2 veces la carga.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el valor de la fuerza magnética sobre la partícula alfa.",
+      "modelAnswer": "$F = qvB = 3{,}2\\times10^{-19}\\cdot 1{,}5\\times10^{7}\\cdot 1{,}2 = 5{,}8\\times10^{-12}\\,\\text{N}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "A medida que la partícula pierde energía en la cámara, el radio de su trayectoria cambia. Razona cómo cambia y qué forma tiene la traza.",
+      "modelAnswer": "Se hace cada vez más pequeño, porque el radio es proporcional a la velocidad: la traza es una espiral hacia dentro.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Razona qué ocurriría si la partícula entrara formando un ángulo agudo con el campo.",
+      "modelAnswer": "La componente paralela al campo no se ve afectada, y la perpendicular produce un movimiento circular. La trayectoria combinada es una hélice.",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a2d9fcb9-ba0e-56b2-88db-e81b8a74e3e2",
+  "rev": 1,
+  "statement": "¿Cuánto vale el campo eléctrico a $20\\,\\text{cm}$ de una carga puntual de $4{,}0\\,\\mu\\text{C}$? Usa $k = 8{,}99\\times10^{9}\\,\\text{N}\\,\\text{m}^{2}\\,\\text{C}^{-2}$.",
+  "explanation": "$E = \\frac{kq}{r^2} = \\frac{8{,}99\\times10^{9}\\cdot 4{,}0\\times10^{-6}}{0{,}20^2} = 9{,}0\\times10^{5}\\,\\text{N}\\,\\text{C}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo eléctrico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$9{,}0\\times10^{5}\\,\\text{N}\\,\\text{C}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$1{,}8\\times10^{5}\\,\\text{N}\\,\\text{C}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4{,}5\\times10^{6}\\,\\text{N}\\,\\text{C}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$3{,}6\\times10^{4}\\,\\text{N}\\,\\text{C}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

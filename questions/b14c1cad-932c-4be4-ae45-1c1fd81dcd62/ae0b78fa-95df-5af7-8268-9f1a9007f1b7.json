@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ae0b78fa-95df-5af7-8268-9f1a9007f1b7",
+  "rev": 1,
+  "statement": "En el modelo de Bohr del átomo de hidrógeno, el electrón gira en torno al protón en una órbita circular de $5{,}3\\times10^{-11}\\,\\text{m}$ de radio. Usa $k = 8{,}99\\times10^{9}\\,\\text{N}\\,\\text{m}^{2}\\,\\text{C}^{-2}$, $G = 6{,}67\\times10^{-11}\\,\\text{N}\\,\\text{m}^{2}\\,\\text{kg}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "ley de Coulomb",
+    "modelo atómico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la fuerza eléctrica entre el protón y el electrón.",
+      "modelAnswer": "$F = \\frac{ke^2}{r^2} = 8{,}2\\times10^{-8}\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza gravitatoria entre ellos, y el cociente con la anterior.",
+      "modelAnswer": "$F_g = \\frac{Gm_em_p}{r^2} = 3{,}6\\times10^{-47}\\,\\text{N}$. El cociente es de unos $2{,}3\\times10^{39}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la rapidez del electrón.",
+      "modelAnswer": "$\\frac{ke^2}{r^2} = \\frac{m_ev^2}{r}$, de donde $v = 2{,}2\\times10^{6}\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué, sin embargo, la gravedad gobierna el movimiento de los planetas y no la fuerza eléctrica.",
+      "modelAnswer": "Los planetas son eléctricamente casi neutros, de modo que las fuerzas eléctricas se cancelan. La gravedad, que sólo atrae, se suma y domina a gran escala.",
+      "marks": 2
+    }
+  ]
+}

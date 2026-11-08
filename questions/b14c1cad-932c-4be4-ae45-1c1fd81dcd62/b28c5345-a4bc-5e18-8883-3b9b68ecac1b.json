@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b28c5345-a4bc-5e18-8883-3b9b68ecac1b",
+  "rev": 1,
+  "statement": "En una onda transversal, las partículas del medio oscilan:",
+  "explanation": "Es la definición de onda transversal. En una longitudinal oscilan en la dirección de propagación.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "tipos de ondas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "en la dirección de propagación",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "perpendicularmente a la dirección de propagación",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "en círculos alrededor de la dirección de propagación",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "sólo si el medio es un sólido",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "62e37a97-53bd-51d2-8cce-a67968d7f63f",
+  "rev": 1,
+  "statement": "Un muelle de $2000\\,\\text{N}\\,\\text{m}^{-1}$, comprimido $10\\,\\text{cm}$, lanza un bloque de $0{,}50\\,\\text{kg}$ por una rampa inclinada $30^{\\circ}$, con coeficiente de rozamiento $0{,}25$. El muelle está en la base de la rampa. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "energía elástica",
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "energía disipada",
+    "rozamiento estático"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía almacenada en el muelle.",
+      "modelAnswer": "$\\frac{1}{2}\\cdot 2000\\cdot 0{,}10^2 = 10\\,\\text{J}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza de rozamiento sobre el bloque.",
+      "modelAnswer": "$F_r = \\mu mg\\cos 30^{\\circ} = 0{,}25\\cdot 0{,}50\\cdot 9{,}8\\cdot 0{,}866 = 1{,}1\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la distancia que sube el bloque por la rampa hasta pararse.",
+      "modelAnswer": "Toda la energía del muelle se convierte en potencial y en calor: $10 = 0{,}50\\cdot 9{,}8\\cdot L\\sin 30^{\\circ} + 1{,}06\\,L$. Por tanto $L = \\frac{10}{2{,}45 + 1{,}06} = 2{,}8\\,\\text{m}$.",
+      "marks": 4
+    },
+    {
+      "id": "d",
+      "statement": "Determina si el bloque volverá a bajar por sí solo, con un coeficiente estático de $0{,}30$.",
+      "modelAnswer": "La componente del peso, $mg\\sin 30^{\\circ} = 2{,}45\\,\\text{N}$, supera el rozamiento estático máximo, $\\mu_s mg\\cos 30^{\\circ} = 1{,}3\\,\\text{N}$: sí volverá a bajar.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Calcula la rapidez del bloque cuando vuelve a la posición en la que el muelle quedó libre, si baja toda la rampa con el rozamiento dinámico.",
+      "modelAnswer": "Al bajar, $E_k = mgL\\sin 30^{\\circ} - 1{,}06\\,L = (2{,}45 - 1{,}06)\\cdot 2{,}85 = 3{,}96\\,\\text{J}$, y $v = \\sqrt{\\frac{2\\cdot 3{,}96}{0{,}50}} = 4{,}0\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    }
+  ]
+}

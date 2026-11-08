@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "7a3625d4-549b-589c-85ad-3798fa854d05",
+  "rev": 1,
+  "statement": "El satélite B orbita a un radio 9 veces mayor que el A, en torno al mismo planeta. ¿Cuántas veces mayor es su periodo?",
+  "explanation": "$T^2 \\propto r^3$: $T$ se multiplica por $9^{3/2} = 27$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "leyes de Kepler"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$9$",
+      "correct": false,
+      "feedback": "La tercera ley de Kepler relaciona T² con r³."
+    },
+    {
+      "id": "b",
+      "text": "$81$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$3$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$27$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

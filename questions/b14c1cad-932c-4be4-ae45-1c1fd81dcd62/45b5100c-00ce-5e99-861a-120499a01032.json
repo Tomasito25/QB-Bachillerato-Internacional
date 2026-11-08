@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "45b5100c-00ce-5e99-861a-120499a01032",
+  "rev": 1,
+  "statement": "En el fondo de un lago, a $25\\,\\text{m}$ de profundidad y $5{,}0\\,^{\\circ}\\text{C}$, se forma una burbuja de $2{,}0\\,\\text{cm}^{3}$. Sube hasta la superficie, donde el agua está a $20\\,^{\\circ}\\text{C}$ y la presión es de $1{,}0\\times10^{5}\\,\\text{Pa}$. La densidad del agua es de $1000\\,\\text{kg}\\,\\text{m}^{-3}$. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "leyes de los gases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la presión en el fondo del lago.",
+      "modelAnswer": "$P = P_\\text{atm} + \\rho g h = 1{,}0\\times10^{5} + 1000\\cdot 9{,}8\\cdot 25 = 3{,}5\\times10^{5}\\,\\text{Pa}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el volumen de la burbuja al llegar a la superficie.",
+      "modelAnswer": "$\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}$: $V_2 = 2{,}0\\cdot\\frac{3{,}45\\times10^{5}}{1{,}0\\times10^{5}}\\cdot\\frac{293}{278} = 7{,}3\\,\\text{cm}^{3}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Indica una suposición del cálculo y razona cómo influye en el resultado.",
+      "modelAnswer": "Se supone que el aire está en equilibrio térmico con el agua en todo momento. Si sube muy rápido y no llega a calentarse, el volumen es algo menor que el calculado.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué un buceador debe expulsar aire al ascender.",
+      "modelAnswer": "El aire de sus pulmones se expande al bajar la presión, igual que la burbuja; si no lo expulsa, puede dañar los pulmones.",
+      "marks": 1
+    }
+  ]
+}

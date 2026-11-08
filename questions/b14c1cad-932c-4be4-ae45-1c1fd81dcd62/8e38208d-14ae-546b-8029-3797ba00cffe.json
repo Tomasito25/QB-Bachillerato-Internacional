@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "8e38208d-14ae-546b-8029-3797ba00cffe",
+  "rev": 1,
+  "statement": "Modelo de balance de energía de la Tierra. La constante solar es de $1360\\,\\text{W}\\,\\text{m}^{-2}$ y el albedo, $0{,}30$. Usa $\\sigma = 5{,}67\\times10^{-8}\\,\\text{W}\\,\\text{m}^{-2}\\,\\text{K}^{-4}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía",
+    "albedo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "constante solar",
+    "equilibrio"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce la intensidad media absorbida por unidad de superficie.",
+      "modelAnswer": "El disco intercepta $S\\pi R^2$ y la superficie es $4\\pi R^2$: la media entrante es $\\frac{S}{4} = 340\\,\\text{W}\\,\\text{m}^{-2}$. Absorbido: $(1 - a)\\frac{S}{4} = 238\\,\\text{W}\\,\\text{m}^{-2}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Determina la temperatura de equilibrio sin atmósfera.",
+      "modelAnswer": "$\\sigma T^4 = 238$, así que $T = 255\\,\\text{K}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "La temperatura superficial media real es de $288\\,\\text{K}$. Explica la diferencia con el resultado anterior.",
+      "modelAnswer": "Los gases de efecto invernadero absorben parte del infrarrojo que emite la superficie y reemiten una parte hacia abajo. La superficie recibe más energía de la que le llega directamente del Sol y su equilibrio está a mayor temperatura.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la potencia que emitiría por metro cuadrado la superficie real, si fuese un cuerpo negro.",
+      "modelAnswer": "$\\sigma\\cdot 288^4 = 390\\,\\text{W}\\,\\text{m}^{-2}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "El albedo de la Tierra baja a $0{,}28$. Calcula la nueva temperatura de equilibrio sin atmósfera y el cambio respecto a la anterior.",
+      "modelAnswer": "Absorbido: $0{,}72\\cdot 340 = 245\\,\\text{W}\\,\\text{m}^{-2}$, y $T = 256\\,\\text{K}$: unos $1{,}8\\,\\text{K}$ más.",
+      "marks": 3
+    }
+  ]
+}

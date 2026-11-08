@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "68dfa172-84a5-5b53-886f-a46877135659",
+  "rev": 1,
+  "statement": "Un planeta tiene una atmósfera con emisividad efectiva $\\varepsilon = 0{,}78$. En un modelo sencillo, la temperatura superficial cumple $\\sigma T^4\\left(1 - \\frac{\\varepsilon}{2}\\right) = 240\\,\\text{W}\\,\\text{m}^{-2}$. ¿Cuánto vale $T$?",
+  "explanation": "$T = \\left(\\frac{240}{5{,}67\\times10^{-8}\\cdot 0{,}61}\\right)^{1/4} = 289\\,\\text{K}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$255\\,\\text{K}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$308\\,\\text{K}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$289\\,\\text{K}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$271\\,\\text{K}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

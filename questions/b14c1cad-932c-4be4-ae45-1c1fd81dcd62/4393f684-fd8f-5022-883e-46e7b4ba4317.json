@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4393f684-fd8f-5022-883e-46e7b4ba4317",
+  "rev": 1,
+  "statement": "Una persona se acerca, corriendo, a una sirena parada. Comparado con estar parada, ¿qué cambia en lo que percibe?",
+  "explanation": "Con la fuente quieta, los frentes de onda no se deforman. Sin embargo, al moverse hacia ellos los encuentra más a menudo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumentan la frecuencia y la longitud de onda",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Disminuye la frecuencia; la longitud de onda es la misma",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Aumenta la frecuencia; la longitud de onda en el aire es la misma",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "No cambia nada",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

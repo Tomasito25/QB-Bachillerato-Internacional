@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "63df8ccc-2f49-5a97-837f-3da79cd88306",
+  "rev": 1,
+  "statement": "Dos ondas electromagnéticas de distinta frecuencia viajan por el vacío. ¿Qué tienen en común?",
+  "explanation": "Todas las ondas electromagnéticas se propagan en el vacío a $c$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas electromagnéticas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Su longitud de onda",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La energía de sus fotones",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Su periodo",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Su rapidez",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

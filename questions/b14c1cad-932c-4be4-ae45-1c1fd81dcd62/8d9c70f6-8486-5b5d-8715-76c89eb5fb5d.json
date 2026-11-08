@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "8d9c70f6-8486-5b5d-8715-76c89eb5fb5d",
+  "rev": 1,
+  "statement": "La gráfica muestra la fuerza que un palo ejerce sobre una pelota de $0{,}25\\,\\text{kg}$, inicialmente en reposo. ¿Con qué rapidez sale la pelota?\n\n![Gráfica de fuerza frente a tiempo: triángulo que sube de 0 a 400 N en 20 ms y baja a 0 en 50 ms.](qbimg:e86a655e924a08e029ed5905ed8b955a91cea238b70bbc0c2a3076819a45478f)",
+  "explanation": "El impulso es el área bajo la gráfica: $\\frac{1}{2}\\cdot 0{,}050\\cdot 400 = 10\\,\\text{N}\\,\\text{s}$. Por tanto $v = \\frac{10}{0{,}25} = 40\\,\\text{m}\\,\\text{s}^{-1}$.",
+  "images": [
+    {
+      "hash": "e86a655e924a08e029ed5905ed8b955a91cea238b70bbc0c2a3076819a45478f",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 3787,
+      "alt": "Gráfica de fuerza frente a tiempo: triángulo que sube de 0 a 400 N en 20 ms y baja a 0 en 50 ms."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "impulso",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$80\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false,
+      "feedback": "El área de un triángulo es la mitad de base por altura."
+    },
+    {
+      "id": "b",
+      "text": "$20\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$16\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$40\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

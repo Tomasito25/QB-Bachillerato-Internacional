@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "559f7b2b-f581-5dfd-8eac-e17b110864e3",
+  "rev": 1,
+  "statement": "Una ciclista y su bici, $80\\,\\text{kg}$ en total, suben a $6{,}0\\,\\text{m}\\,\\text{s}^{-1}$ una cuesta de $5{,}0^{\\circ}$. Ignorando el rozamiento y el aire, ¿qué potencia desarrolla? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "$P = mg\\sin\\theta\\cdot v = 80\\cdot 9{,}8\\cdot\\sin 5{,}0^{\\circ}\\cdot 6{,}0 = 4{,}1\\times10^{2}\\,\\text{W}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "potencia",
+    "plano inclinado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4{,}1\\times10^{2}\\,\\text{W}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$4{,}7\\times10^{3}\\,\\text{W}$",
+      "correct": false,
+      "feedback": "Sólo trabaja contra la componente del peso paralela a la cuesta."
+    },
+    {
+      "id": "c",
+      "text": "$2{,}0\\times10^{2}\\,\\text{W}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$78\\,\\text{W}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5548b434-f4ec-5a62-8402-a49c74efc2cf",
+  "rev": 1,
+  "statement": "Un paracaidista desciende a velocidad constante. ¿Qué afirmación es correcta?",
+  "explanation": "A velocidad constante, la fuerza neta es cero (primera ley de Newton).",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No actúa ninguna fuerza sobre él",
+      "correct": false,
+      "feedback": "Actúan fuerzas, pero se compensan: su resultante es cero."
+    },
+    {
+      "id": "b",
+      "text": "Su peso es mayor que la fuerza del aire",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La fuerza del aire es igual en módulo a su peso",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La fuerza del aire es mayor que su peso",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

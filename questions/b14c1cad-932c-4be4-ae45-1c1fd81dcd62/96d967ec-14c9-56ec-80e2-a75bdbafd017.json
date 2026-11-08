@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "96d967ec-14c9-56ec-80e2-a75bdbafd017",
+  "rev": 1,
+  "statement": "Para hallar la constante de un muelle se cuelgan masas $m$ y se mide su alargamiento $x$.\n\n| $m$ / g ($\\pm 1$) | 50 | 100 | 150 | 200 | 250 |\n|---|---|---|---|---|---|\n| $x$ / cm ($\\pm 0{,}2$) | 2,1 | 3,9 | 6,0 | 8,1 | 9,9 |\n\nToma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "datos",
+    "muelles",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "pendiente",
+    "límite elástico"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica qué magnitudes representarías en cada eje para obtener $k$ de la pendiente, y qué relación hay entre la pendiente y $k$.",
+      "modelAnswer": "El peso $mg$ en el eje vertical y $x$, en metros, en el horizontal. Como $F = kx$, la pendiente es $k$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Usando el primer y el último punto, determina $k$.",
+      "modelAnswer": "$\\Delta F = 0{,}200\\cdot 9{,}8 = 1{,}96\\,\\text{N}$; $\\Delta x = 0{,}078\\,\\text{m}$. $k = \\frac{1{,}96}{0{,}078} = 25\\,\\text{N}\\,\\text{m}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Estima la incertidumbre porcentual de $\\Delta x$ y, con ella, la incertidumbre absoluta de $k$. Ignora la incertidumbre de las masas.",
+      "modelAnswer": "$\\Delta x$ tiene una incertidumbre de $\\pm 0{,}4\\,\\text{cm}$ por sumar la de dos lecturas: $\\frac{0{,}4}{7{,}8} = 5{,}1\\,\\%$. La de $k$ es $\\pm 1{,}3\\,\\text{N}\\,\\text{m}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Con dos muelles iguales colocados en paralelo, determina la constante del conjunto.",
+      "modelAnswer": "Cada uno soporta la mitad de la fuerza y el alargamiento se reduce a la mitad: $k_\\text{conjunto} = 2k = 50\\,\\text{N}\\,\\text{m}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Indica qué observarías en la gráfica si el muelle superara su límite elástico.",
+      "modelAnswer": "Los puntos se alejarían de la recta para alargamientos grandes: el alargamiento crecería más de lo que corresponde a la fuerza.",
+      "marks": 1
+    }
+  ]
+}

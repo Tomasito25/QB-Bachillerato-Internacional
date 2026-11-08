@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "967d8042-d61e-565f-8def-986a08774c38",
+  "rev": 1,
+  "statement": "En un gas ideal a temperatura constante, ¿qué explica el aumento de presión al reducir el volumen?",
+  "explanation": "Con menos volumen hay más choques por segundo y por unidad de área. La energía cinética media sólo depende de la temperatura.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "teoría cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las partículas se mueven más deprisa",
+      "correct": false,
+      "feedback": "Con la temperatura constante, la rapidez media no cambia."
+    },
+    {
+      "id": "b",
+      "text": "Las partículas chocan con más fuerza",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las partículas se atraen más entre sí",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las partículas chocan con las paredes con más frecuencia",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

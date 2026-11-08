@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "541b68f2-81ac-5b51-8e32-6b720694dedf",
+  "rev": 1,
+  "statement": "Un rayo pasa del aire al agua ($n = 1{,}33$) con un ángulo de incidencia de $45^{\\circ}$. ¿Cuál es el ángulo de refracción?",
+  "explanation": "$\\sin\\theta_2 = \\frac{\\sin 45^{\\circ}}{1{,}33}$, de donde $\\theta_2 = 32^{\\circ}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "ley de Snell"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$45^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$32^{\\circ}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$70^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$41^{\\circ}$",
+      "correct": false,
+      "feedback": "Es el ángulo crítico para pasar del agua al aire con otra pareja de datos; aquí aplica la ley de Snell."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b1e8a9d8-4a6b-5b31-85c7-60edf7eb6b84",
+  "rev": 1,
+  "statement": "Un objeto de $200\\,\\text{cm}^{3}$ se sumerge por completo en agua, de densidad $1000\\,\\text{kg}\\,\\text{m}^{-3}$. ¿Cuál es el empuje sobre él? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "$F_b = \\rho V g = 1000\\cdot 2{,}0\\times10^{-4}\\cdot 9{,}8 = 2{,}0\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "empuje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$0{,}20\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$20\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$200\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Convierte los centímetros cúbicos a metros cúbicos."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

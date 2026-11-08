@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "8fb4030c-4ae0-5eaa-8268-bbb1eb546f92",
+  "rev": 1,
+  "statement": "Un sensor usa un termistor NTC en serie con una resistencia fija de $2{,}2\\,\\text{k}\\Omega$ y una fuente de $5{,}0\\,\\text{V}$. La salida es la tensión en la resistencia fija. A $293\\,\\text{K}$, el termistor tiene $12\\,\\text{k}\\Omega$; a $333\\,\\text{K}$, $2{,}5\\,\\text{k}\\Omega$.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "divisor de tensión",
+    "sensores"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "portadores de carga",
+    "autocalentamiento"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la tensión de salida a $293\\,\\text{K}$.",
+      "modelAnswer": "$V = 5{,}0\\cdot\\frac{2{,}2}{12 + 2{,}2} = 0{,}77\\,\\text{V}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la tensión de salida a $333\\,\\text{K}$.",
+      "modelAnswer": "$V = 5{,}0\\cdot\\frac{2{,}2}{2{,}5 + 2{,}2} = 2{,}3\\,\\text{V}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica, a nivel de partículas, por qué la resistencia del termistor baja al aumentar la temperatura.",
+      "modelAnswer": "Al calentarse el semiconductor, muchos más electrones pasan a estar libres. El aumento del número de portadores supera con creces el efecto de la mayor vibración de la red.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la potencia disipada en el termistor a $333\\,\\text{K}$, y razona si este autocalentamiento podría falsear la medida.",
+      "modelAnswer": "$I = \\frac{5{,}0}{4{,}7\\times10^{3}} = 1{,}06\\,\\text{mA}$; $P = I^2 R = 2{,}8\\,\\text{mW}$. Es muy poca, pero el sensor se calienta algo por encima del ambiente y da una lectura ligeramente alta.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Se quiere que la salida valga $2{,}5\\,\\text{V}$ a $333\\,\\text{K}$. Calcula la resistencia fija necesaria.",
+      "modelAnswer": "Para que caiga la mitad en cada elemento, las dos resistencias deben ser iguales: $2{,}5\\,\\text{k}\\Omega$.",
+      "marks": 2
+    }
+  ]
+}

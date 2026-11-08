@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8312ee0c-7a98-5ae0-8c6e-53cc625b1842",
+  "rev": 1,
+  "statement": "En un diagrama de Sankey, ¿qué indica la anchura de cada flecha?",
+  "explanation": "El ancho es proporcional a la energía o a la potencia. La suma de las salidas tiene la misma anchura que la entrada.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "rendimiento",
+    "Sankey"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La velocidad con la que se transfiere la energía",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El rendimiento del sistema",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La energía o la potencia que transporta",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El tiempo que dura la transferencia",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

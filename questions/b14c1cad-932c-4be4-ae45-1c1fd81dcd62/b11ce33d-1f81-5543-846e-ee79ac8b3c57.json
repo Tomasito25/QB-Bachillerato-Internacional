@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b11ce33d-1f81-5543-846e-ee79ac8b3c57",
+  "rev": 1,
+  "statement": "Si la temperatura absoluta de un cuerpo negro se duplica, la potencia que radia se multiplica por:",
+  "explanation": "$L = \\sigma A T^4$: al duplicar $T$, $L$ se multiplica por $2^4 = 16$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "Stefan-Boltzmann"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$4$",
+      "correct": false,
+      "feedback": "La potencia depende de la cuarta potencia de la temperatura."
+    },
+    {
+      "id": "c",
+      "text": "$16$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$8$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

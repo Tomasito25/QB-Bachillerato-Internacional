@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "7dad3235-9b68-5de4-8f04-17c2af598c02",
+  "rev": 1,
+  "statement": "Una cubeta de ondas tiene una zona profunda y otra menos profunda, separadas por una línea recta. Se generan ondas planas de $8{,}0\\,\\text{Hz}$, cuya longitud de onda es de $3{,}0\\,\\text{cm}$ en la zona profunda y de $2{,}0\\,\\text{cm}$ en la menos profunda. Los frentes llegan a la línea formando $40^{\\circ}$ con ella.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "refracción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "frecuencia constante",
+    "ángulo crítico"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad de las ondas en cada zona.",
+      "modelAnswer": "Profunda: $8{,}0\\cdot 3{,}0 = 24\\,\\text{cm}\\,\\text{s}^{-1}$. Menos profunda: $8{,}0\\cdot 2{,}0 = 16\\,\\text{cm}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué cambia la longitud de onda y no la frecuencia.",
+      "modelAnswer": "La frecuencia la fija la fuente. Al cambiar la rapidez, y con la misma frecuencia, la longitud de onda debe cambiar para que se siga cumpliendo v = fλ.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el ángulo que forman los frentes de onda con la línea en la zona menos profunda.",
+      "modelAnswer": "$\\frac{\\sin\\theta_2}{\\sin 40^{\\circ}} = \\frac{16}{24}$, así que $\\sin\\theta_2 = 0{,}43$ y $\\theta_2 = 25^{\\circ}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Razona si puede producirse reflexión total al pasar de la zona menos profunda a la profunda, y calcula el ángulo crítico.",
+      "modelAnswer": "Sí: al pasar a la zona en la que las ondas son más rápidas. $\\sin\\theta_c = \\frac{16}{24}$, de donde $\\theta_c = 42^{\\circ}$.",
+      "marks": 3
+    }
+  ]
+}

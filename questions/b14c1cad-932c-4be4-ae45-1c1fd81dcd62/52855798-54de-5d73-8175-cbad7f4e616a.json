@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "52855798-54de-5d73-8175-cbad7f4e616a",
+  "rev": 1,
+  "statement": "Si la intensidad media que llega a la Tierra es de $340\\,\\text{W}\\,\\text{m}^{-2}$ y el albedo es $0{,}30$, ¿qué intensidad media absorbe el planeta?",
+  "explanation": "Se absorbe la fracción $1 - 0{,}30$: $0{,}70\\cdot 340 = 238\\,\\text{W}\\,\\text{m}^{-2}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "albedo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$238\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$102\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": false,
+      "feedback": "Eso es lo que se refleja."
+    },
+    {
+      "id": "c",
+      "text": "$340\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$442\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "8c72db8b-5a7a-5ed4-8648-234b25a5450c",
+  "rev": 1,
+  "statement": "Un vagón de $500\\,\\text{kg}$ parte del reposo a $30\\,\\text{m}$ de altura y entra en un rizo circular de $8{,}0\\,\\text{m}$ de radio. Hasta llegar a lo alto del rizo, el rozamiento disipa $12\\,\\text{kJ}$. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "conservación de la energía",
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "fuerza centrípeta",
+    "energía disipada"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía cinética del vagón en lo alto del rizo.",
+      "modelAnswer": "Desnivel hasta lo alto: $30 - 16 = 14\\,\\text{m}$. $E_k = 500\\cdot 9{,}8\\cdot 14 - 12\\,000 = 5{,}7\\times10^{4}\\,\\text{J}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Determina la rapidez en lo alto del rizo.",
+      "modelAnswer": "$v = \\sqrt{\\frac{2\\cdot 5{,}66\\times10^{4}}{500}} = 15\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la fuerza que la vía ejerce sobre el vagón en ese punto y di hacia dónde apunta.",
+      "modelAnswer": "En lo alto, peso y normal apuntan al centro, hacia abajo: $N = \\frac{mv^2}{r} - mg = \\frac{500\\cdot 226}{8{,}0} - 4900 = 9{,}3\\times10^{3}\\,\\text{N}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Determina la altura inicial mínima para que el vagón llegue a lo alto del rizo sin perder el contacto con la vía, con la misma disipación.",
+      "modelAnswer": "En el límite, $N = 0$ y $v^2 = rg = 78{,}4\\,\\text{m}^{2}\\,\\text{s}^{-2}$. Energía: $mg(h - 16) = \\frac{1}{2}mv^2 + 12\\,000$; $h = 16 + \\frac{0{,}5\\cdot 78{,}4}{9{,}8} + \\frac{12\\,000}{4900} = 22\\,\\text{m}$.",
+      "marks": 4
+    },
+    {
+      "id": "e",
+      "statement": "Razona si la masa influiría en el resultado anterior.",
+      "modelAnswer": "Influiría, porque la energía disipada es una cantidad fija: dividida por una masa mayor, pesa menos en el cálculo. Si no hubiera rozamiento, la masa se cancelaría y la altura mínima sería independiente de ella.",
+      "marks": 2
+    }
+  ]
+}

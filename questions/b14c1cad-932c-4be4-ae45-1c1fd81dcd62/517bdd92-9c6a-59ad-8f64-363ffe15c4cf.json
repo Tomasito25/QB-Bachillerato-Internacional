@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "517bdd92-9c6a-59ad-8f64-363ffe15c4cf",
+  "rev": 1,
+  "statement": "Un planeta orbita a una distancia de su estrella el doble que la de otro, con la misma estrella. La intensidad recibida es:",
+  "explanation": "$I = \\frac{L}{4\\pi d^2}$: al duplicar $d$, la intensidad se divide entre $4$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "intensidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "la mitad",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "el doble",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "la cuarta parte",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "la dieciseisava parte",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ae4ed7e2-5496-5f57-8add-14063107f142",
+  "rev": 1,
+  "statement": "Un hilo de $50\\,\\text{cm}$ con $2{,}0\\,\\text{A}$ forma $30^{\\circ}$ con un campo de $0{,}20\\,\\text{T}$. ¿Qué fuerza actúa sobre él?",
+  "explanation": "$F = BIL\\sin\\theta = 0{,}20\\cdot 2{,}0\\cdot 0{,}50\\cdot\\sin 30^{\\circ} = 0{,}10\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "fuerza sobre un conductor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}10\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$0{,}20\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Sólo cuenta la componente perpendicular al campo."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}17\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$0{,}050\\,\\text{N}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

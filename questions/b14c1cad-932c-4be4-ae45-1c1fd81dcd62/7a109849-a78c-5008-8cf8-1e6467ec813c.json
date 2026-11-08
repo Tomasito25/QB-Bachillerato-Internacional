@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "7a109849-a78c-5008-8cf8-1e6467ec813c",
+  "rev": 1,
+  "statement": "Un radar de tráfico emite microondas de $24\\,\\text{GHz}$ y recibe la señal reflejada en un coche que se acerca a $30\\,\\text{m}\\,\\text{s}^{-1}$. Como la onda se refleja en un objeto en movimiento, el desplazamiento relativo de frecuencia es el doble del habitual: $\\frac{\\Delta f}{f} = \\frac{2v}{c}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "radar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "línea de visión",
+    "desplazamiento de frecuencia"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la longitud de onda de las microondas.",
+      "modelAnswer": "$\\lambda = \\frac{3{,}0\\times10^{8}}{2{,}4\\times10^{10}} = 1{,}25\\,\\text{cm}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el desplazamiento de frecuencia.",
+      "modelAnswer": "$\\Delta f = \\frac{2\\cdot 30}{3{,}0\\times10^{8}}\\cdot 2{,}4\\times10^{10} = 4{,}8\\,\\text{kHz}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica si la frecuencia recibida es mayor o menor que la emitida, y por qué.",
+      "modelAnswer": "Mayor: el coche se acerca, así que encuentra los frentes con mayor frecuencia y los reemite comprimidos.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué se mide la diferencia de frecuencias en lugar de cada frecuencia por separado.",
+      "modelAnswer": "El cambio relativo es del orden de $10^{-7}$. Medir cada frecuencia por separado con esa precisión sería muy difícil. En cambio, una diferencia de unos $5\\,\\text{kHz}$ es fácil de medir mezclando las dos señales.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "El radar apunta formando $20^{\\circ}$ con la dirección del coche. Calcula qué velocidad indicaría, y si eso beneficia al conductor.",
+      "modelAnswer": "Sólo mide la componente en la línea de visión: $30\\cos 20^{\\circ} = 28\\,\\text{m}\\,\\text{s}^{-1}$. Indica menos de lo real, así que beneficia al conductor.",
+      "marks": 3
+    }
+  ]
+}

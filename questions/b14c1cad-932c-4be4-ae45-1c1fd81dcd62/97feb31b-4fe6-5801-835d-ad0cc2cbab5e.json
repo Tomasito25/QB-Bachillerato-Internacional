@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "97feb31b-4fe6-5801-835d-ad0cc2cbab5e",
+  "rev": 1,
+  "statement": "Si se duplica la rapidez de una partícula en una trayectoria circular dentro de un campo magnético uniforme, su periodo:",
+  "explanation": "$T = \\frac{2\\pi m}{qB}$: no depende de la rapidez.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "se duplica",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "no cambia",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "se reduce a la mitad",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "se multiplica por 4",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

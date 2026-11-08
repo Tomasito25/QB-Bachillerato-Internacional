@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a6c18d5c-e7e5-51ec-8f9e-d240c05353d9",
+  "rev": 1,
+  "statement": "Dos fuentes coherentes en fase emiten con longitud de onda $\\lambda$. En un punto, la diferencia de camino es de $1{,}5\\lambda$. ¿Qué se observa en ese punto?",
+  "explanation": "Una diferencia de un número semientero de $\\lambda$ es destructiva.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "interferencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Interferencia constructiva",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una intensidad igual a la de una fuente",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Interferencia destructiva",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Resonancia",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

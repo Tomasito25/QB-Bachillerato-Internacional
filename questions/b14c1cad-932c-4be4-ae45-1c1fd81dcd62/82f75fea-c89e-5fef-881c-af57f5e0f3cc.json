@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "82f75fea-c89e-5fef-881c-af57f5e0f3cc",
+  "rev": 1,
+  "statement": "Una ciclista recorre $12\\,\\text{km}$ a $24\\,\\text{km}\\,\\text{h}^{-1}$ y vuelve por el mismo camino a $12\\,\\text{km}\\,\\text{h}^{-1}$. ¿Cuál es su rapidez media en todo el viaje?",
+  "explanation": "La distancia es $24\\,\\text{km}$ y el tiempo, $0{,}50 + 1{,}0 = 1{,}5\\,\\text{h}$. La rapidez media es $\\frac{24}{1{,}5} = 16\\,\\text{km}\\,\\text{h}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "rapidez media"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$18\\,\\text{km}\\,\\text{h}^{-1}$",
+      "correct": false,
+      "feedback": "Es la media de las dos rapideces, pero el trayecto lento dura más tiempo."
+    },
+    {
+      "id": "b",
+      "text": "$0\\,\\text{km}\\,\\text{h}^{-1}$",
+      "correct": false,
+      "feedback": "Eso es la velocidad media: el desplazamiento total es cero. La rapidez usa la distancia."
+    },
+    {
+      "id": "c",
+      "text": "$16\\,\\text{km}\\,\\text{h}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$20\\,\\text{km}\\,\\text{h}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
