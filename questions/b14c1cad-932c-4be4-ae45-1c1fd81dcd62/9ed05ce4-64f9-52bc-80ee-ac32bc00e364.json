@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "9ed05ce4-64f9-52bc-80ee-ac32bc00e364",
+  "rev": 1,
+  "statement": "Un modelo de una sola capa considera que la atmósfera es transparente a la luz solar y absorbe una fracción $\\varepsilon$ de la radiación infrarroja de la superficie. La atmósfera, a su vez, emite hacia arriba y hacia abajo. La intensidad media absorbida por el planeta es de $240\\,\\text{W}\\,\\text{m}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía",
+    "modelos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "emisividad",
+    "ventana atmosférica"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Para $\\varepsilon = 1$, plantea los balances de energía de la atmósfera y de la superficie, y deduce que $\\sigma T_s^4 = 2\\sigma T_a^4$.",
+      "modelAnswer": "Atmósfera: absorbe $\\sigma T_s^4$ y emite $2\\sigma T_a^4$ (arriba y abajo), luego $\\sigma T_s^4 = 2\\sigma T_a^4$. Superficie: absorbe $240 + \\sigma T_a^4$ y emite $\\sigma T_s^4$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula $T_a$ y $T_s$ con $\\varepsilon = 1$, sabiendo que, en lo alto, la atmósfera debe emitir al espacio lo que absorbe el planeta.",
+      "modelAnswer": "Hacia el espacio: $\\sigma T_a^4 = 240$, luego $T_a = 255\\,\\text{K}$. $T_s = 2^{1/4}\\,T_a = 303\\,\\text{K}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Compara el resultado con la temperatura superficial real, de $288\\,\\text{K}$, y explica qué aspecto del modelo hace que salga demasiado alta.",
+      "modelAnswer": "El modelo supone $\\varepsilon = 1$: una atmósfera que absorbe toda la radiación infrarroja. En realidad, parte escapa directamente al espacio (la «ventana atmosférica») y $\\varepsilon$ es menor que 1, de modo que el calentamiento es menor.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Razona qué le ocurre a la temperatura de la superficie si aumenta la concentración de gases de efecto invernadero, según este modelo.",
+      "modelAnswer": "Aumenta $\\varepsilon$: la atmósfera absorbe y devuelve más radiación, y la superficie tiene que estar más caliente para que el planeta siga emitiendo al espacio lo mismo que absorbe.",
+      "marks": 2
+    }
+  ]
+}

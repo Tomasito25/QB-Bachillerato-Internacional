@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b30a4ec6-ffb2-51a2-8519-8191a7819cd3",
+  "rev": 1,
+  "statement": "El filamento de una bombilla está a $2900\\,\\text{K}$. ¿En qué longitud de onda emite con más intensidad? Usa la constante de Wien, $2{,}9\\times10^{-3}\\,\\text{m}\\,\\text{K}$.",
+  "explanation": "$\\lambda_\\text{máx} = \\frac{2{,}9\\times10^{-3}}{2900} = 1{,}0\\times10^{-6}\\,\\text{m}$, en el infrarrojo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "ley de Wien"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}0\\,\\text{nm}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$8{,}4\\,\\mu\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$500\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "Esa longitud de onda corresponde a una estrella como el Sol, a unos 5800 K."
+    },
+    {
+      "id": "d",
+      "text": "$1{,}0\\,\\mu\\text{m}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

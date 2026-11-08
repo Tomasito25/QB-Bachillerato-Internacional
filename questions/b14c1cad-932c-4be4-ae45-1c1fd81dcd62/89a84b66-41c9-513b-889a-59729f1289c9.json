@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "89a84b66-41c9-513b-889a-59729f1289c9",
+  "rev": 1,
+  "statement": "En un experimento de doble rendija con un láser, se mide la distancia $D$ a la pantalla y la separación $s$ entre franjas brillantes. Las rendijas están separadas $d = 0{,}50\\,\\text{mm}$.\n\n| $D$ / m ($\\pm 0{,}01$) | 1,00 | 1,50 | 2,00 | 2,50 | 3,00 |\n|---|---|---|---|---|---|\n| $s$ / mm ($\\pm 0{,}1$) | 1,3 | 1,9 | 2,6 | 3,2 | 3,9 |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "datos",
+    "doble rendija",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "pendiente",
+    "coherencia"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué la gráfica de $s$ frente a $D$ permite obtener $\\lambda$, e indica cómo se obtiene.",
+      "modelAnswer": "$s = \\frac{\\lambda}{d}D$: es una recta por el origen de pendiente $\\frac{\\lambda}{d}$, de modo que $\\lambda = d\\cdot\\text{pendiente}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la longitud de onda con los puntos primero y último.",
+      "modelAnswer": "Pendiente: $\\frac{(3{,}9 - 1{,}3)\\times10^{-3}}{2{,}00} = 1{,}3\\times10^{-3}$. $\\lambda = 5{,}0\\times10^{-4}\\cdot 1{,}3\\times10^{-3} = 6{,}5\\times10^{-7}\\,\\text{m}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la incertidumbre porcentual de $s$ en la primera medida, y explica cómo se puede reducir.",
+      "modelAnswer": "$\\frac{0{,}1}{1{,}3} = 7{,}7\\,\\%$. Se puede reducir midiendo la anchura total de varias franjas y dividiendo.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica un motivo por el que conviene usar luz monocromática y coherente.",
+      "modelAnswer": "Con varias longitudes de onda, cada una produce franjas con otra separación y el patrón se emborrona. Sin coherencia, la relación de fase cambia sin cesar y no hay un patrón estable.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Razona cómo cambiaría el patrón si todo el montaje se sumergiera en agua.",
+      "modelAnswer": "La longitud de onda se reduce en un factor $n$, y la separación de franjas también: sería unas $1{,}33$ veces menor.",
+      "marks": 2
+    }
+  ]
+}

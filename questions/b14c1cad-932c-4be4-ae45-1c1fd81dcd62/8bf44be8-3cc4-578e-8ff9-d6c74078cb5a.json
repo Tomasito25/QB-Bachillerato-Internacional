@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8bf44be8-3cc4-578e-8ff9-d6c74078cb5a",
+  "rev": 1,
+  "statement": "En el punto de equilibrio de un movimiento armónico simple:",
+  "explanation": "$a = -\\omega^2 x$ se anula en $x = 0$, justo donde el oscilador pasa más deprisa.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "fases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "la velocidad es cero y la aceleración es máxima",
+      "correct": false,
+      "feedback": "Eso ocurre en los extremos."
+    },
+    {
+      "id": "b",
+      "text": "la velocidad es máxima y la aceleración es cero",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "la velocidad y la aceleración son máximas",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "la velocidad y la aceleración son cero",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "6a81f094-5841-5ed3-864a-f2c1cc913eeb",
+  "rev": 1,
+  "statement": "En un ciclotrón, unos protones giran en semicírculos dentro de un campo magnético uniforme de $1{,}2\\,\\text{T}$. Una tensión alterna los acelera cada vez que cruzan el hueco central. El radio máximo es de $0{,}60\\,\\text{m}$. Usa $e = 1{,}6\\times10^{-19}\\,\\text{C}$, $m_p = 1{,}67\\times10^{-27}\\,\\text{kg}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "frecuencia",
+    "energía cinética máxima"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que el periodo de giro no depende de la rapidez.",
+      "modelAnswer": "$r = \\frac{mv}{qB}$, así que $T = \\frac{2\\pi r}{v} = \\frac{2\\pi m}{qB}$, que no incluye $v$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la frecuencia que debe tener la tensión alterna.",
+      "modelAnswer": "$f = \\frac{qB}{2\\pi m} = \\frac{1{,}6\\times10^{-19}\\cdot 1{,}2}{2\\pi\\cdot 1{,}67\\times10^{-27}} = 1{,}8\\times10^{7}\\,\\text{Hz}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la rapidez máxima y la energía cinética máxima, en MeV.",
+      "modelAnswer": "$v = \\frac{qBr}{m} = 6{,}9\\times10^{7}\\,\\text{m}\\,\\text{s}^{-1}$. $E_k = \\frac{1}{2}mv^2 = 4{,}0\\times10^{-12}\\,\\text{J} = 25\\,\\text{MeV}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Si la tensión entre las placas es de $20\\,\\text{kV}$, calcula el número de vueltas completas que dan los protones.",
+      "modelAnswer": "Cada vuelta gana dos veces $20\\,\\text{keV}$: $\\frac{25\\,\\text{MeV}}{40\\,\\text{keV}} = 6{,}2\\times10^{2}$ vueltas.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Indica por qué el ciclotrón deja de funcionar si la velocidad se aproxima a la de la luz.",
+      "modelAnswer": "A velocidades relativistas, la masa efectiva aumenta y el periodo de giro deja de ser constante. Los protones se desacompasan respecto a la tensión alterna.",
+      "marks": 1
+    }
+  ]
+}

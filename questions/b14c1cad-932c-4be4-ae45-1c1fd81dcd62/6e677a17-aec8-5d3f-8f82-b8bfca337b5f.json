@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6e677a17-aec8-5d3f-8f82-b8bfca337b5f",
+  "rev": 1,
+  "statement": "Un trineo baja por una pendiente de hielo, sin rozamiento, inclinada $25^{\\circ}$. ¿Cuál es su aceleración? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "La componente del peso paralela a la pendiente da $a = g\\sin 25^{\\circ} = 4{,}1\\,\\text{m}\\,\\text{s}^{-2}$. La masa se simplifica.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "plano inclinado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$8{,}9\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false,
+      "feedback": "Has usado el coseno: ésa es la componente perpendicular a la pendiente."
+    },
+    {
+      "id": "b",
+      "text": "$9{,}8\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4{,}1\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$2{,}4\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

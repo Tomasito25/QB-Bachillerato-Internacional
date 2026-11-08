@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "66af4f23-fe0e-5a2d-8d93-e6509e063189",
+  "rev": 1,
+  "statement": "Un diapasón de $440\\,\\text{Hz}$ produce un sonido que viaja a $340\\,\\text{m}\\,\\text{s}^{-1}$. ¿Cuál es su longitud de onda?",
+  "explanation": "$\\lambda = \\frac{v}{f} = \\frac{340}{440} = 0{,}77\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}77\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$1{,}3\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$150\\,\\text{km}$",
+      "correct": false,
+      "feedback": "La longitud de onda es v/f, no v·f."
+    },
+    {
+      "id": "d",
+      "text": "$0{,}45\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

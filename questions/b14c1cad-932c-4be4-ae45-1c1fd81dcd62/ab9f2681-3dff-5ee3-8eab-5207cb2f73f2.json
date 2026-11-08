@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ab9f2681-3dff-5ee3-8eab-5207cb2f73f2",
+  "rev": 1,
+  "statement": "El coche A pasa a $20\\,\\text{m}\\,\\text{s}^{-1}$ junto al coche B, que está parado. En ese instante, B arranca con una aceleración constante de $2{,}5\\,\\text{m}\\,\\text{s}^{-2}$. ¿Cuánto tarda B en alcanzar a A?",
+  "explanation": "Alcanzar significa recorrer lo mismo: $20t = \\frac{1}{2}\\cdot 2{,}5\\,t^2$, de donde $t = 16\\,\\text{s}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "MRUA"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$16\\,\\text{s}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$8{,}0\\,\\text{s}$",
+      "correct": false,
+      "feedback": "En ese instante B iguala la velocidad de A, pero aún va por detrás."
+    },
+    {
+      "id": "c",
+      "text": "$4{,}0\\,\\text{s}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$32\\,\\text{s}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

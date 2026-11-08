@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7a409b47-b83d-52b9-89c7-0efb84ff0f09",
+  "rev": 1,
+  "statement": "En una onda sonora, ¿cómo es la presión en un punto donde las partículas no tienen desplazamiento pero están muy juntas?",
+  "explanation": "En el centro de una compresión el desplazamiento es nulo: las partículas de cada lado se han movido hacia ese punto. Ahí la presión es máxima.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mínima: es una rarefacción",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Máxima: es una compresión",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Igual a la presión media",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cero",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

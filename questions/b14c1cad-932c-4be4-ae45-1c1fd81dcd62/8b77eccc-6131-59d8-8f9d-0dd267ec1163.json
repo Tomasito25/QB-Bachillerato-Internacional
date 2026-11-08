@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "8b77eccc-6131-59d8-8f9d-0dd267ec1163",
+  "rev": 1,
+  "statement": "Para medir el rendimiento de un pequeño motor eléctrico se levanta una masa de $0{,}200\\,\\text{kg}$ una altura de $1{,}00 \\pm 0{,}005\\,\\text{m}$. El motor funciona a $6{,}0 \\pm 0{,}1\\,\\text{V}$ con una corriente de $0{,}20 \\pm 0{,}01\\,\\text{A}$, y tarda $2{,}4 \\pm 0{,}2\\,\\text{s}$. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$ e ignora la incertidumbre de la masa.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "datos",
+    "rendimiento",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "incertidumbre relativa",
+    "suma de incertidumbres"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el trabajo útil y la energía eléctrica consumida.",
+      "modelAnswer": "Útil: $0{,}200\\cdot 9{,}8\\cdot 1{,}00 = 1{,}96\\,\\text{J}$. Eléctrica: $6{,}0\\cdot 0{,}20\\cdot 2{,}4 = 2{,}9\\,\\text{J}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el rendimiento.",
+      "modelAnswer": "$\\eta = \\frac{1{,}96}{2{,}88} = 68\\,\\%$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la incertidumbre absoluta del rendimiento.",
+      "modelAnswer": "Las incertidumbres relativas se suman: altura $0{,}5\\,\\%$; tensión $1{,}7\\,\\%$; corriente $5{,}0\\,\\%$; tiempo $8{,}3\\,\\%$. Total: $15{,}5\\,\\%$. Por tanto $\\pm 11$ puntos: $\\eta = (68 \\pm 11)\\,\\%$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Identifica qué medida contribuye más a la incertidumbre y propón una mejora concreta.",
+      "modelAnswer": "La del tiempo. Se podría usar un sensor o una puerta fotoeléctrica, o subir la masa una altura mayor para que el tiempo fuese más largo y la incertidumbre relativa, menor.",
+      "marks": 2
+    }
+  ]
+}

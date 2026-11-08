@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "9162b715-6239-5dab-8a77-9e38e08239b5",
+  "rev": 1,
+  "statement": "Una bola de $0{,}30\\,\\text{kg}$ atada a un hilo de $0{,}80\\,\\text{m}$ gira en un círculo vertical. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$ e ignora la resistencia del aire.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular",
+    "conservación de la energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "tensión mínima",
+    "fuerza centrípeta"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la rapidez mínima en el punto más alto para que el hilo no se afloje.",
+      "modelAnswer": "En el límite la tensión es cero y el peso da la fuerza centrípeta: $mg = \\frac{mv^2}{r}$, $v = \\sqrt{9{,}8\\cdot 0{,}80} = 2{,}8\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Con esa rapidez mínima arriba, calcula la rapidez en el punto más bajo.",
+      "modelAnswer": "Conservación de la energía, con un desnivel de $2r$: $v^2 = 2{,}8^2 + 4\\cdot 9{,}8\\cdot 0{,}80 = 39{,}2$, así que $v = 6{,}3\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la tensión en el punto más bajo.",
+      "modelAnswer": "$T - mg = \\frac{mv^2}{r}$: $T = 0{,}30\\cdot 9{,}8 + \\frac{0{,}30\\cdot 39{,}2}{0{,}80} = 18\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Muestra que la diferencia entre la tensión abajo y la tensión arriba no depende de la rapidez con la que gire la bola.",
+      "modelAnswer": "Arriba: $T_a = \\frac{mv_a^2}{r} - mg$. Abajo: $T_b = \\frac{mv_b^2}{r} + mg$. Con $v_b^2 = v_a^2 + 4gr$, se obtiene $T_b - T_a = 6mg$, que no depende de la rapidez.",
+      "marks": 3
+    }
+  ]
+}

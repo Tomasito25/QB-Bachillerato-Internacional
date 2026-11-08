@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "8164548d-2a00-5ff1-8fa0-067460b59692",
+  "rev": 1,
+  "statement": "Desde una ventana situada a $25\\,\\text{m}$ del suelo se lanza una pelota hacia arriba a $18\\,\\text{m}\\,\\text{s}^{-1}$. A la vez, desde el suelo y justo debajo, una compañera lanza hacia arriba otra pelota a $30\\,\\text{m}\\,\\text{s}^{-1}$. Ignora el aire y toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "caída libre",
+    "velocidad relativa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "misma aceleración"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina el instante en que las pelotas están a la misma altura.",
+      "modelAnswer": "$25 + 18t - 4{,}9t^2 = 30t - 4{,}9t^2$. Los términos en $t^2$ se cancelan: $t = \\frac{25}{12} = 2{,}1\\,\\text{s}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula esa altura sobre el suelo.",
+      "modelAnswer": "$30\\cdot 2{,}08 - 4{,}9\\cdot 2{,}08^2 = 41\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la velocidad de cada pelota en ese instante, e indica si suben o bajan.",
+      "modelAnswer": "Primera: $18 - 9{,}8\\cdot 2{,}08 = -2{,}4\\,\\text{m}\\,\\text{s}^{-1}$, bajando. Segunda: $30 - 9{,}8\\cdot 2{,}08 = 9{,}6\\,\\text{m}\\,\\text{s}^{-1}$, subiendo.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué la velocidad de la segunda pelota respecto a la primera es constante durante todo el movimiento.",
+      "modelAnswer": "Ambas tienen la misma aceleración, $g$ hacia abajo, así que la diferencia de velocidades no cambia: es de $30 - 18 = 12\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Calcula la altura máxima de la primera pelota sobre el suelo.",
+      "modelAnswer": "Sube $\\frac{18^2}{2\\cdot 9{,}8} = 16{,}5\\,\\text{m}$ sobre la ventana: $41{,}5\\,\\text{m}$.",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "8a484da5-a663-5738-8878-7edc12fecf45",
+  "rev": 1,
+  "statement": "Un protón describe una circunferencia en un campo magnético uniforme. Si su rapidez se duplica, el radio:",
+  "explanation": "$r = \\frac{mv}{qB}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "se reduce a la mitad",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "se multiplica por 4",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "no cambia",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "se duplica",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

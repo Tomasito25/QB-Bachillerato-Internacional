@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "7ac56a1d-b265-5664-83e9-143337978806",
+  "rev": 1,
+  "statement": "Durante una tormenta, entre la base de una nube y el suelo hay un campo eléctrico aproximadamente uniforme de $1{,}0\\times10^{5}\\,\\text{V}\\,\\text{m}^{-1}$. La base de la nube está a $800\\,\\text{m}$ de altura.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo uniforme",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "jaula de Faraday"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la diferencia de potencial entre la nube y el suelo.",
+      "modelAnswer": "$V = Ed = 1{,}0\\times10^{5}\\cdot 800 = 8{,}0\\times10^{7}\\,\\text{V}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Un rayo transfiere $15\\,\\text{C}$. Calcula la energía que libera.",
+      "modelAnswer": "$E = QV = 15\\cdot 8{,}0\\times10^{7} = 1{,}2\\times10^{9}\\,\\text{J}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Si el rayo dura $0{,}20\\,\\text{ms}$, calcula la corriente media y la potencia media.",
+      "modelAnswer": "$I = \\frac{15}{2{,}0\\times10^{-4}} = 7{,}5\\times10^{4}\\,\\text{A}$. $P = \\frac{1{,}2\\times10^{9}}{2{,}0\\times10^{-4}} = 6{,}0\\times10^{12}\\,\\text{W}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la fuerza sobre un electrón en ese campo, y la aceleración que tendría si no chocara con moléculas.",
+      "modelAnswer": "$F = 1{,}6\\times10^{-14}\\,\\text{N}$; $a = \\frac{F}{m_e} = 1{,}8\\times10^{16}\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué un coche metálico protege a sus ocupantes durante una tormenta.",
+      "modelAnswer": "Las cargas se reparten por la superficie exterior de la carrocería, que actúa como jaula de Faraday: el campo en su interior es prácticamente nulo y la corriente va por el exterior.",
+      "marks": 2
+    }
+  ]
+}

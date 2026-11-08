@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "7b40eb0c-a3e3-5d85-8e36-7b904a902504",
+  "rev": 1,
+  "statement": "La constante solar es de $1360\\,\\text{W}\\,\\text{m}^{-2}$. ¿Cuál es la intensidad media sobre toda la superficie terrestre?",
+  "explanation": "La Tierra intercepta $\\pi R^2$ y su superficie es $4\\pi R^2$: la media es $\\frac{1360}{4} = 340\\,\\text{W}\\,\\text{m}^{-2}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$340\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$680\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": false,
+      "feedback": "La Tierra intercepta un disco de área πR², pero la radiación se reparte sobre 4πR²."
+    },
+    {
+      "id": "c",
+      "text": "$1360\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$2720\\,\\text{W}\\,\\text{m}^{-2}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

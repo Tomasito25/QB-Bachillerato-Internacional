@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "9922faf8-c709-5b01-8442-521e75a564e4",
+  "rev": 1,
+  "statement": "Un haz de electrones entra a $2{,}0\\times10^{7}\\,\\text{m}\\,\\text{s}^{-1}$ entre dos placas horizontales de $5{,}0\\,\\text{cm}$ de longitud, con un campo eléctrico uniforme de $2{,}0\\times10^{4}\\,\\text{N}\\,\\text{C}^{-1}$ dirigido hacia abajo. Fuera de las placas el campo es nulo. Usa $e = 1{,}6\\times10^{-19}\\,\\text{C}$ y $m_e = 9{,}11\\times10^{-31}\\,\\text{kg}$.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "campo uniforme"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "trayectoria parabólica"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el tiempo que tardan los electrones en atravesar las placas.",
+      "modelAnswer": "La velocidad horizontal no cambia: $t = \\frac{0{,}050}{2{,}0\\times10^{7}} = 2{,}5\\times10^{-9}\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la aceleración de los electrones, e indica su sentido.",
+      "modelAnswer": "$a = \\frac{eE}{m_e} = 3{,}5\\times10^{15}\\,\\text{m}\\,\\text{s}^{-2}$, hacia arriba, opuesta al campo.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la desviación vertical al salir de las placas.",
+      "modelAnswer": "$y = \\frac{1}{2}at^2 = \\frac{1}{2}\\cdot 3{,}5\\times10^{15}\\cdot(2{,}5\\times10^{-9})^2 = 1{,}1\\,\\text{cm}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula el ángulo que forma el haz con la horizontal al salir de las placas.",
+      "modelAnswer": "$v_y = at = 8{,}8\\times10^{6}\\,\\text{m}\\,\\text{s}^{-1}$; $\\tan\\theta = \\frac{8{,}8\\times10^{6}}{2{,}0\\times10^{7}} = 0{,}44$; $\\theta = 24^{\\circ}$.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Una pantalla está a $20\\,\\text{cm}$ del borde de las placas. Calcula la desviación total en la pantalla.",
+      "modelAnswer": "Fuera de las placas el haz va recto: $y' = 0{,}20\\cdot\\tan\\theta = 8{,}8\\,\\text{cm}$. Total: $8{,}8 + 1{,}1 = 9{,}9\\,\\text{cm}$.",
+      "marks": 2
+    },
+    {
+      "id": "f",
+      "statement": "Razona por qué la trayectoria entre las placas se parece a la de un proyectil, y en qué se diferencia.",
+      "modelAnswer": "Como en un proyectil, hay movimiento uniforme en una dirección y aceleración constante en la perpendicular, y resulta una parábola. La diferencia es que aquí la fuerza es eléctrica y la gravedad es despreciable.",
+      "marks": 2
+    }
+  ]
+}

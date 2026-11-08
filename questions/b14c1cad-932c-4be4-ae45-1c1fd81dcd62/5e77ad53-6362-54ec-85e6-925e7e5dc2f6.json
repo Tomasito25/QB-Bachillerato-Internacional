@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5e77ad53-6362-54ec-85e6-925e7e5dc2f6",
+  "rev": 1,
+  "statement": "Dos hilos paralelos llevan corrientes en el mismo sentido. ¿Qué ocurre entre ellos?",
+  "explanation": "El campo de cada hilo ejerce una fuerza sobre el otro: con corrientes en el mismo sentido, las fuerzas son de atracción.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "fuerza sobre un conductor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se repelen",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se atraen",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "No hay fuerza entre ellos",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Giran hasta ponerse perpendiculares",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

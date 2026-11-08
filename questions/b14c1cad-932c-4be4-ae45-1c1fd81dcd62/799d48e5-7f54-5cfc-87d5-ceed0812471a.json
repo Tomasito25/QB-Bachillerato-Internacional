@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "799d48e5-7f54-5cfc-87d5-ceed0812471a",
+  "rev": 1,
+  "statement": "Un balón se patea desde el suelo a $25\\,\\text{m}\\,\\text{s}^{-1}$ con un ángulo de $37^{\\circ}$ sobre la horizontal. Sin resistencia del aire, ¿cuál es su alcance? Usa $\\sin 37^{\\circ} = 0{,}60$, $\\cos 37^{\\circ} = 0{,}80$ y $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "El tiempo de vuelo es $t = \\frac{2 u_y}{g} = \\frac{2\\cdot 15}{9{,}8} = 3{,}06\\,\\text{s}$ y el alcance, $x = u_x t = 20\\cdot 3{,}06 = 61\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$31\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Es el recorrido hasta el punto más alto: el vuelo dura el doble."
+    },
+    {
+      "id": "b",
+      "text": "$46\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$61\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$122\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "4e8f20af-378b-5f48-8d7f-5a19ae6294c9",
+  "rev": 1,
+  "statement": "Una barca que navega a $4{,}0\\,\\text{m}\\,\\text{s}^{-1}$ respecto al agua cruza un río de $200\\,\\text{m}$ de ancho. El agua corre a $1{,}5\\,\\text{m}\\,\\text{s}^{-1}$ paralela a las orillas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "vectores",
+    "velocidad relativa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "La barca apunta perpendicular a la orilla. Calcula el tiempo que tarda en cruzar.",
+      "modelAnswer": "Sólo la componente perpendicular a la orilla la acerca al otro lado: $t = \\frac{200}{4{,}0} = 50\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula cuánto la arrastra la corriente río abajo.",
+      "modelAnswer": "$x = 1{,}5\\cdot 50 = 75\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el módulo de su velocidad respecto a la orilla.",
+      "modelAnswer": "$v = \\sqrt{4{,}0^2 + 1{,}5^2} = 4{,}3\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Para llegar justo enfrente, determina el ángulo, respecto a la perpendicular a la orilla, con el que debe apuntar la barca, y el tiempo que tarda ahora.",
+      "modelAnswer": "La componente río arriba debe compensar la corriente: $\\sin\\theta = \\frac{1{,}5}{4{,}0}$, $\\theta = 22^{\\circ}$. La velocidad neta hacia la otra orilla es $4{,}0\\cos 22^{\\circ} = 3{,}7\\,\\text{m}\\,\\text{s}^{-1}$, y $t = \\frac{200}{3{,}71} = 54\\,\\text{s}$.",
+      "marks": 4
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué, si la corriente fuera de $5{,}0\\,\\text{m}\\,\\text{s}^{-1}$, la barca no podría llegar justo enfrente.",
+      "modelAnswer": "Tendría que compensar una corriente mayor que su propia rapidez respecto al agua: haría falta un seno mayor que 1, y eso es imposible.",
+      "marks": 1
+    }
+  ]
+}

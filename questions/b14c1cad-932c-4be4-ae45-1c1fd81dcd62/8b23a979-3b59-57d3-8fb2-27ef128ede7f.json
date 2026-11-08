@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "8b23a979-3b59-57d3-8fb2-27ef128ede7f",
+  "rev": 1,
+  "statement": "Una persona de $60\\,\\text{kg}$ está sobre una báscula en un ascensor que baja acelerando a $2{,}0\\,\\text{m}\\,\\text{s}^{-2}$. ¿Qué marca la báscula? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "Con sentido positivo hacia abajo: $mg - N = ma$, luego $N = 60\\,(9{,}8 - 2{,}0) = 468\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton",
+    "peso aparente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$588\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Es su peso: la báscula marcaría eso si el ascensor no acelerara."
+    },
+    {
+      "id": "b",
+      "text": "$708\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Sería si el ascensor acelerara hacia arriba."
+    },
+    {
+      "id": "c",
+      "text": "$120\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$468\\,\\text{N}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

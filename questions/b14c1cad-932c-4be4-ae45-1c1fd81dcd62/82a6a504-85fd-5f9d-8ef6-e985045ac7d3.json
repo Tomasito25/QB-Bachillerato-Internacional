@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "82a6a504-85fd-5f9d-8ef6-e985045ac7d3",
+  "rev": 1,
+  "statement": "Marte recibe del Sol unos $590\\,\\text{W}\\,\\text{m}^{-2}$, tiene un albedo de $0{,}25$ y una atmósfera muy tenue. Venus recibe unos $2600\\,\\text{W}\\,\\text{m}^{-2}$, tiene un albedo de $0{,}75$, y una temperatura superficial medida de unos $735\\,\\text{K}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía",
+    "albedo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la temperatura de equilibrio de Marte como cuerpo negro.",
+      "modelAnswer": "$\\frac{0{,}75\\cdot 590}{4} = 111\\,\\text{W}\\,\\text{m}^{-2}$, y $T = \\left(\\frac{111}{5{,}67\\times10^{-8}}\\right)^{1/4} = 210\\,\\text{K}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Haz el mismo cálculo para Venus.",
+      "modelAnswer": "$\\frac{0{,}25\\cdot 2600}{4} = 163\\,\\text{W}\\,\\text{m}^{-2}$, y $T = 231\\,\\text{K}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Venus recibe más radiación que Marte y, sin embargo, su temperatura de equilibrio es parecida. Explícalo.",
+      "modelAnswer": "Su albedo es mucho mayor: las nubes reflejan el 75 % de la radiación incidente, así que absorbe por metro cuadrado poco más que Marte.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Compara el resultado de Venus con la temperatura medida, e indica qué conclusión se puede sacar sobre su atmósfera.",
+      "modelAnswer": "La temperatura real supera en unos $5{,}0\\times10^{2}\\,\\text{K}$ a la de equilibrio. Su atmósfera densa de $\\text{CO}_2$ produce un efecto invernadero enorme.",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a492912e-c9c9-5948-8e98-6e7bb5809928",
+  "rev": 1,
+  "statement": "Dentro de una estación espacial en órbita, los astronautas «flotan». ¿Por qué?",
+  "explanation": "La estación y los astronautas están en caída libre alrededor de la Tierra: el suelo no ejerce ninguna fuerza sobre ellos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "órbitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Allí no hay gravedad",
+      "correct": false,
+      "feedback": "A esa altura, la gravedad es casi la de la superficie."
+    },
+    {
+      "id": "b",
+      "text": "Ellos y la estación caen juntos, con la misma aceleración",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La fuerza centrífuga anula su peso",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La estación los empuja hacia arriba",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

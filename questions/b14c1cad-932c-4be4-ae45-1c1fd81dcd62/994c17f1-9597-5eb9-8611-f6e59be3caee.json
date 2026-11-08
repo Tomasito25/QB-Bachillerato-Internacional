@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "994c17f1-9597-5eb9-8611-f6e59be3caee",
+  "rev": 1,
+  "statement": "Se lanza una pelota en vertical hacia arriba. Sin resistencia del aire, ¿cuál es su aceleración en el punto más alto?",
+  "explanation": "La única fuerza es el peso, que no cambia: la aceleración es $g$ hacia abajo durante todo el vuelo.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "caída libre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$9{,}8\\,\\text{m}\\,\\text{s}^{-2}$ hacia abajo",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Cero",
+      "correct": false,
+      "feedback": "La velocidad es cero en ese instante, pero la gravedad sigue actuando."
+    },
+    {
+      "id": "c",
+      "text": "$9{,}8\\,\\text{m}\\,\\text{s}^{-2}$ hacia arriba",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Depende de la velocidad con la que se lanzó",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "51992098-1fc0-5664-85bd-d9283f025095",
+  "rev": 1,
+  "statement": "Una esfera negra de $5{,}0\\,\\text{cm}$ de radio está a $1000\\,\\text{K}$. ¿Cuánta potencia radia? Usa $\\sigma = 5{,}67\\times10^{-8}\\,\\text{W}\\,\\text{m}^{-2}\\,\\text{K}^{-4}$.",
+  "explanation": "$A = 4\\pi\\cdot 0{,}050^2 = 3{,}1\\times10^{-2}\\,\\text{m}^{2}$. $L = \\sigma A T^4 = 1{,}8\\times10^{3}\\,\\text{W}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "Stefan-Boltzmann"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$14\\,\\text{W}$",
+      "correct": false,
+      "feedback": "Revisa la superficie: es 4πr², y el radio debe ir en metros."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}8\\,\\text{kW}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$57\\,\\text{W}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$7{,}1\\,\\text{kW}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

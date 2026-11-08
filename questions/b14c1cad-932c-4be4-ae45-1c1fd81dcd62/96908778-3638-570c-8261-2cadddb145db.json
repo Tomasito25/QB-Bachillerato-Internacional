@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "96908778-3638-570c-8261-2cadddb145db",
+  "rev": 1,
+  "statement": "Para medir la f. e. m. y la resistencia interna de una pila se conecta a una resistencia variable y se anotan la tensión $V$ en bornes y la corriente $I$.\n\n| $I$ / A ($\\pm 0{,}02$) | 0,20 | 0,40 | 0,60 | 0,80 | 1,00 |\n|---|---|---|---|---|---|\n| $V$ / V ($\\pm 0{,}02$) | 1,42 | 1,34 | 1,26 | 1,18 | 1,10 |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "datos",
+    "resistencia interna",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "pendiente",
+    "ordenada en el origen",
+    "f. e. m."
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que la gráfica de $V$ frente a $I$ es una recta, e indica qué representan su pendiente y su ordenada en el origen.",
+      "modelAnswer": "$V = \\varepsilon - Ir$: la pendiente es $-r$ y la ordenada en el origen, $\\varepsilon$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Usa el primer y el último punto para determinar $r$ y $\\varepsilon$.",
+      "modelAnswer": "$r = -\\frac{1{,}10 - 1{,}42}{1{,}00 - 0{,}20} = 0{,}40\\,\\Omega$. $\\varepsilon = 1{,}42 + 0{,}20\\cdot 0{,}40 = 1{,}50\\,\\text{V}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Estima la incertidumbre de $r$ a partir de las incertidumbres de los dos puntos.",
+      "modelAnswer": "$\\Delta V = 0{,}32 \\pm 0{,}04\\,\\text{V}$ ($12{,}5\\,\\%$) y $\\Delta I = 0{,}80 \\pm 0{,}04\\,\\text{A}$ ($5\\,\\%$). Sumando: $17{,}5\\,\\%$, es decir, $r = 0{,}40 \\pm 0{,}07\\,\\Omega$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la corriente de cortocircuito de la pila.",
+      "modelAnswer": "$I = \\frac{\\varepsilon}{r} = \\frac{1{,}50}{0{,}40} = 3{,}8\\,\\text{A}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Determina la potencia máxima que la pila puede entregar a una resistencia externa.",
+      "modelAnswer": "Se da con $R = r$: $I = \\frac{\\varepsilon}{2r} = 1{,}9\\,\\text{A}$, y $P = I^2R = 1{,}9^2\\cdot 0{,}40 = 1{,}4\\,\\text{W}$.",
+      "marks": 3
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "42ed3bc2-2628-5375-8166-24fab616c9a2",
+  "rev": 1,
+  "statement": "Si la amplitud de una onda se duplica sin que cambie su frecuencia, su intensidad se multiplica por:",
+  "explanation": "La intensidad es proporcional al cuadrado de la amplitud.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "intensidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$\\sqrt{2}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$8$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

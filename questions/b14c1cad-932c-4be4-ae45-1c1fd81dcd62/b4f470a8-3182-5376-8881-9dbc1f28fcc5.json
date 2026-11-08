@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b4f470a8-3182-5376-8881-9dbc1f28fcc5",
+  "rev": 1,
+  "statement": "Dos pulsos de la misma forma y amplitud $A$ viajan en sentidos opuestos por una cuerda, y uno está invertido respecto al otro. En el instante en que coinciden por completo, ¿qué se observa?",
+  "explanation": "Los desplazamientos se suman en cada punto y se anulan justo en ese instante; después, cada pulso sigue su camino.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "superposición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La cuerda queda momentáneamente recta",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Un pulso de amplitud $2A$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los pulsos rebotan uno en otro",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los pulsos desaparecen para siempre",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

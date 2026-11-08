@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6ab05645-21ce-50b8-8a52-f72d68a6c15a",
+  "rev": 1,
+  "statement": "Una pelota de $0{,}20\\,\\text{kg}$ golpea una pared de frente a $10\\,\\text{m}\\,\\text{s}^{-1}$ y rebota a $8{,}0\\,\\text{m}\\,\\text{s}^{-1}$. El contacto dura $0{,}040\\,\\text{s}$. ¿Cuál es la fuerza media sobre la pelota?",
+  "explanation": "$\\Delta p = 0{,}20\\,(10 + 8{,}0) = 3{,}6\\,\\text{N}\\,\\text{s}$. $F = \\frac{3{,}6}{0{,}040} = 90\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "impulso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$10\\,\\text{N}$",
+      "correct": false,
+      "feedback": "La velocidad cambia de sentido: su variación es la suma de las rapideces."
+    },
+    {
+      "id": "b",
+      "text": "$90\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$40\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$50\\,\\text{N}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

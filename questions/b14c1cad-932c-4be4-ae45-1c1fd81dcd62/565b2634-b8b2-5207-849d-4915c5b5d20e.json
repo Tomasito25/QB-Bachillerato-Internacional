@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "565b2634-b8b2-5207-849d-4915c5b5d20e",
+  "rev": 1,
+  "statement": "Un coche alcanza una velocidad máxima de $50\\,\\text{m}\\,\\text{s}^{-1}$ con una potencia máxima de $75\\,\\text{kW}$. La fuerza de resistencia se ajusta a $F = bv^2$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "potencia",
+    "rendimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "fuerza de resistencia",
+    "consumo"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina $b$, indicando sus unidades.",
+      "modelAnswer": "A velocidad máxima, $P = Fv = bv^3$: $b = \\frac{75\\,000}{50^3} = 0{,}60\\,\\text{kg}\\,\\text{m}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la potencia necesaria para mantener una velocidad constante de $25\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "modelAnswer": "$P = 0{,}60\\cdot 25^3 = 9{,}4\\times10^{3}\\,\\text{W}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El motor tiene un rendimiento del $30\\,\\%$ y la gasolina, $34\\,\\text{MJ}$ por litro. Calcula los litros consumidos en $100\\,\\text{km}$ a $25\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "modelAnswer": "Tiempo: $\\frac{100\\,000}{25} = 4000\\,\\text{s}$. Energía útil: $9{,}4\\times10^{3}\\cdot 4000 = 3{,}75\\times10^{7}\\,\\text{J}$. Energía de combustible: $\\frac{3{,}75\\times10^{7}}{0{,}30} = 1{,}25\\times10^{8}\\,\\text{J}$. Litros: $3{,}7\\,\\text{L}$.",
+      "marks": 4
+    },
+    {
+      "id": "d",
+      "statement": "Compara el consumo por kilómetro a $50\\,\\text{m}\\,\\text{s}^{-1}$ con el consumo a $25\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "modelAnswer": "La fuerza va con $v^2$, y la energía por kilómetro es fuerza por distancia: al duplicar la velocidad, se consume $4$ veces más por kilómetro.",
+      "marks": 2
+    }
+  ]
+}

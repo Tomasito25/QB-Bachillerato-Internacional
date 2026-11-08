@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "a9da289d-20ad-584f-8b0b-16941e363d77",
+  "rev": 1,
+  "statement": "Dos placas paralelas horizontales, de $2{,}0\\,\\text{cm}$ de separación, se conectan a una fuente de $200\\,\\text{V}$. La placa de arriba es positiva.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo uniforme"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja las líneas de campo entre las placas, incluidos los bordes, y describe el campo.",
+      "modelAnswer": "Líneas rectas, paralelas y equidistantes en la zona central, que van de la placa positiva a la negativa: el campo es uniforme. En los bordes, las líneas se curvan.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el campo eléctrico entre las placas.",
+      "modelAnswer": "$E = \\frac{V}{d} = \\frac{200}{0{,}020} = 1{,}0\\times10^{4}\\,\\text{V}\\,\\text{m}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la fuerza sobre un protón situado entre las placas y su aceleración.",
+      "modelAnswer": "$F = eE = 1{,}6\\times10^{-15}\\,\\text{N}$, hacia abajo. $a = \\frac{F}{m_p} = 9{,}6\\times10^{11}\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la energía cinética, en julios y en electronvoltios, de un protón acelerado desde la placa positiva hasta la negativa.",
+      "modelAnswer": "$E_k = eV = 3{,}2\\times10^{-17}\\,\\text{J}$, que son $200\\,\\text{eV}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Razona si un electrón, soltado cerca de la placa negativa, llega a la otra con la misma energía cinética que el protón, y con la misma velocidad.",
+      "modelAnswer": "Misma energía, porque tiene la misma carga en valor absoluto y atraviesa la misma tensión. Su velocidad es mucho mayor, porque su masa es mucho menor.",
+      "marks": 2
+    }
+  ]
+}

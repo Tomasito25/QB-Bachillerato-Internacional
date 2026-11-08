@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "61e4d84f-7648-5ed8-8a0a-79fe6c9c3fc6",
+  "rev": 1,
+  "statement": "Un ascensor de $700\\,\\text{kg}$, con carga incluida, arranca desde el reposo hacia arriba y alcanza $3{,}0\\,\\text{m}\\,\\text{s}^{-1}$ en $2{,}0\\,\\text{s}$, con aceleración constante. Después sube a velocidad constante durante $10\\,\\text{s}$ y frena hasta pararse en $1{,}5\\,\\text{s}$. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton",
+    "peso aparente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la tensión del cable en cada una de las tres fases.",
+      "modelAnswer": "Arranque: $a = 1{,}5\\,\\text{m}\\,\\text{s}^{-2}$ y $T = 700\\,(9{,}8 + 1{,}5) = 7{,}9\\times10^{3}\\,\\text{N}$. Velocidad constante: $T = 6{,}9\\times10^{3}\\,\\text{N}$. Frenada: $a = 2{,}0\\,\\text{m}\\,\\text{s}^{-2}$ hacia abajo y $T = 700\\,(9{,}8 - 2{,}0) = 5{,}5\\times10^{3}\\,\\text{N}$.",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Determina la altura total que sube.",
+      "modelAnswer": "$\\frac{1}{2}\\cdot 2{,}0\\cdot 3{,}0 + 3{,}0\\cdot 10 + \\frac{1}{2}\\cdot 1{,}5\\cdot 3{,}0 = 3{,}0 + 30 + 2{,}25 = 35\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Una persona de $65\\,\\text{kg}$ dentro del ascensor nota que «pesa» más durante una de las fases. Indica cuál y calcula la fuerza que le hace el suelo.",
+      "modelAnswer": "Durante el arranque: $N = 65\\,(9{,}8 + 1{,}5) = 7{,}3\\times10^{2}\\,\\text{N}$, mayor que su peso de $6{,}4\\times10^{2}\\,\\text{N}$.",
+      "marks": 3
+    }
+  ]
+}

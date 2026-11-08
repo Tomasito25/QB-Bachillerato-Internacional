@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "68bdb092-a606-5783-8d88-6e6e0e287d7a",
+  "rev": 1,
+  "statement": "Una ventana doble de $2{,}0\\,\\text{m}^{2}$ tiene dos cristales de $4{,}0\\,\\text{mm}$, con conductividad $0{,}80\\,\\text{W}\\,\\text{m}^{-1}\\,\\text{K}^{-1}$, separados por una capa de aire de $12\\,\\text{mm}$, con conductividad $0{,}026\\,\\text{W}\\,\\text{m}^{-1}\\,\\text{K}^{-1}$. Dentro hay $22\\,^{\\circ}\\text{C}$ y fuera, $2\\,^{\\circ}\\text{C}$. Considera sólo la conducción, con el aire quieto.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "conducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "resistencia térmica",
+    "convección"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Una capa de grosor $x$ tiene una «resistencia» $\\frac{x}{k}$ por unidad de área. Explica por qué las resistencias de las capas se suman.",
+      "modelAnswer": "El calor atraviesa las capas en serie: en régimen estacionario, por todas pasa la misma potencia, y la diferencia de temperatura total es la suma de las de cada capa.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la potencia que atraviesa la ventana.",
+      "modelAnswer": "$\\sum\\frac{x}{k} = 2\\cdot\\frac{0{,}0040}{0{,}80} + \\frac{0{,}012}{0{,}026} = 0{,}010 + 0{,}46 = 0{,}47\\,\\text{K}\\,\\text{m}^{2}\\,\\text{W}^{-1}$. $P = \\frac{2{,}0\\cdot 20}{0{,}47} = 85\\,\\text{W}$.",
+      "marks": 4
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la diferencia de temperatura a través de la capa de aire.",
+      "modelAnswer": "$\\Delta T = \\frac{0{,}46}{0{,}47}\\cdot 20 = 19{,}6\\,\\text{K}$: casi toda está en el aire.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula qué potencia atravesaría un solo cristal de $4{,}0\\,\\text{mm}$, y comenta el resultado.",
+      "modelAnswer": "$P = 0{,}80\\cdot 2{,}0\\cdot\\frac{20}{0{,}0040} = 8{,}0\\times10^{3}\\,\\text{W}$, unas 94 veces más. La cámara de aire es lo que aísla.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "En la práctica, si la separación de aire fuera mucho mayor, el aislamiento mejoraría menos de lo que predice este modelo. Explica por qué.",
+      "modelAnswer": "Con más espacio, el aire puede moverse y aparece la convección, que transporta calor mucho mejor que la conducción. Además, la radiación atraviesa el hueco.",
+      "marks": 2
+    }
+  ]
+}

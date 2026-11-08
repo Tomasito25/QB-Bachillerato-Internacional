@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "7b9b1c22-938f-58eb-8b97-c06519af248f",
+  "rev": 1,
+  "statement": "Un bloque de $3{,}0\\,\\text{kg}$ sobre una mesa lisa está unido por un hilo, a través de una polea, a una masa colgante de $2{,}0\\,\\text{kg}$. ¿Cuál es la aceleración del sistema? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "La fuerza neta del sistema es el peso colgante: $a = \\frac{2{,}0\\cdot 9{,}8}{3{,}0 + 2{,}0} = 3{,}9\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}5\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false,
+      "feedback": "Has dividido el peso sólo entre la masa del bloque: se aceleran las dos masas."
+    },
+    {
+      "id": "b",
+      "text": "$9{,}8\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false,
+      "feedback": "La masa colgante no cae libremente: el hilo tira de ella."
+    },
+    {
+      "id": "c",
+      "text": "$3{,}9\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$2{,}0\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

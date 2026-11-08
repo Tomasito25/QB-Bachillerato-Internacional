@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9f77cd90-3787-582a-8fda-4e97daf760bb",
+  "rev": 1,
+  "statement": "Una corriente de $2{,}5\\,\\text{A}$ circula durante $2{,}0\\,\\text{min}$. ¿Cuánta carga pasa?",
+  "explanation": "$q = It = 2{,}5\\cdot 120 = 300\\,\\text{C}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "corriente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$300\\,\\text{C}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$5{,}0\\,\\text{C}$",
+      "correct": false,
+      "feedback": "Pasa los minutos a segundos."
+    },
+    {
+      "id": "c",
+      "text": "$150\\,\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$48\\,\\text{C}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

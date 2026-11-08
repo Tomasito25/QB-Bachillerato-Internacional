@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "8a0e681e-007a-55c4-8259-fbf1bef7caec",
+  "rev": 1,
+  "statement": "La gráfica muestra la fuerza sobre un objeto, en la dirección de su movimiento. ¿Cuánto trabajo hace la fuerza entre $x = 0$ y $x = 5\\,\\text{m}$?\n\n![Gráfica de fuerza frente a posición: recta de 0 a 20 N entre 0 y 2 m, y constante en 20 N hasta 5 m.](qbimg:3ffd42214ce1379d203c7e4f244bb63ee2ca4f63a9c89506e2d6351bb7a99c35)",
+  "explanation": "El trabajo es el área bajo la gráfica: $\\frac{1}{2}\\cdot 2\\cdot 20 + 3\\cdot 20 = 80\\,\\text{J}$.",
+  "images": [
+    {
+      "hash": "3ffd42214ce1379d203c7e4f244bb63ee2ca4f63a9c89506e2d6351bb7a99c35",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 2313,
+      "alt": "Gráfica de fuerza frente a posición: recta de 0 a 20 N entre 0 y 2 m, y constante en 20 N hasta 5 m."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "gráficas",
+    "trabajo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$100\\,\\text{J}$",
+      "correct": false,
+      "feedback": "Los primeros 2 m forman un triángulo, no un rectángulo."
+    },
+    {
+      "id": "b",
+      "text": "$60\\,\\text{J}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$80\\,\\text{J}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$20\\,\\text{J}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

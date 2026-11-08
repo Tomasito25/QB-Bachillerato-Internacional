@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "4d5b3b85-7554-5b17-82d7-9c96d033ea7b",
+  "rev": 1,
+  "statement": "Unos protones atraviesan sin desviarse una región con campo eléctrico de $4{,}5\\times10^{4}\\,\\text{V}\\,\\text{m}^{-1}$ y magnético perpendicular de $0{,}30\\,\\text{T}$. Después, pasan a otra región donde sólo hay un campo magnético de $0{,}50\\,\\text{T}$, perpendicular a su velocidad. Usa $e = 1{,}6\\times10^{-19}\\,\\text{C}$, $m_p = 1{,}67\\times10^{-27}\\,\\text{kg}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "selector de velocidades",
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la rapidez de los protones.",
+      "modelAnswer": "$v = \\frac{E}{B} = \\frac{4{,}5\\times10^{4}}{0{,}30} = 1{,}5\\times10^{5}\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Razona si unos iones de helio con la misma velocidad también atravesarían la primera región sin desviarse.",
+      "modelAnswer": "Sí. En el selector las dos fuerzas son proporcionales a la carga, y la velocidad seleccionada no depende de la carga ni de la masa.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el radio de la trayectoria en la segunda región.",
+      "modelAnswer": "$r = \\frac{mv}{qB} = \\frac{1{,}67\\times10^{-27}\\cdot 1{,}5\\times10^{5}}{1{,}6\\times10^{-19}\\cdot 0{,}50} = 3{,}1\\,\\text{mm}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula el tiempo que tarda un protón en describir media circunferencia.",
+      "modelAnswer": "$t = \\frac{\\pi r}{v} = \\frac{\\pi\\cdot 3{,}13\\times10^{-3}}{1{,}5\\times10^{5}} = 6{,}6\\times10^{-8}\\,\\text{s}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica qué pasaría en la primera región con un protón de más velocidad que la calculada.",
+      "modelAnswer": "La fuerza magnética, que crece con la velocidad, superaría a la eléctrica. El protón se desviaría en el sentido de la fuerza magnética.",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "5151206c-f2da-5766-896d-2d76adc5f4e7",
+  "rev": 1,
+  "statement": "Para medir un campo magnético se coloca un imán sobre una balanza y un hilo fijo, horizontal y perpendicular al campo, entre los polos. Por el hilo, de $6{,}0\\,\\text{cm}$ de longitud en el campo, se hace pasar una corriente $I$, y la balanza registra un cambio de lectura $\\Delta m$.\n\n| $I$ / A ($\\pm 0{,}05$) | 1,00 | 2,00 | 3,00 | 4,00 | 5,00 |\n|---|---|---|---|---|---|\n| $\\Delta m$ / g ($\\pm 0{,}02$) | 0,31 | 0,60 | 0,92 | 1,22 | 1,53 |\n\nToma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "datos",
+    "fuerza sobre un conductor",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "tercera ley de Newton",
+    "pendiente"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica, usando la tercera ley de Newton, por qué cambia la lectura de la balanza.",
+      "modelAnswer": "El campo del imán ejerce una fuerza sobre el hilo, y el hilo ejerce sobre el imán una fuerza igual y opuesta, que la balanza registra como un cambio aparente de masa.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Muestra que la pendiente de $\\Delta m$ frente a $I$ es $\\frac{BL}{g}$.",
+      "modelAnswer": "$F = BIL = \\Delta m\\,g$, así que $\\Delta m = \\frac{BL}{g}\\,I$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina el valor de $B$, usando el primer y el último punto.",
+      "modelAnswer": "Pendiente: $\\frac{(1{,}53 - 0{,}31)\\times10^{-3}}{4{,}00} = 3{,}05\\times10^{-4}\\,\\text{kg}\\,\\text{A}^{-1}$. $B = \\frac{3{,}05\\times10^{-4}\\cdot 9{,}8}{0{,}060} = 5{,}0\\times10^{-2}\\,\\text{T}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la incertidumbre porcentual de la pendiente, y comenta la mayor fuente de incertidumbre.",
+      "modelAnswer": "$\\Delta(\\Delta m) = 1{,}22 \\pm 0{,}04\\,\\text{g}$ ($3{,}3\\,\\%$) y $\\Delta I = 4{,}00 \\pm 0{,}10\\,\\text{A}$ ($2{,}5\\,\\%$). Total: $5{,}8\\,\\%$. Predomina la lectura de la balanza.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Indica cómo se comprobaría experimentalmente que la lectura de la balanza depende del seno del ángulo entre el hilo y el campo.",
+      "modelAnswer": "Girando el hilo a varios ángulos conocidos, midiendo la fuerza con una corriente fija y comprobando que una gráfica de F frente a sen θ es una recta que pasa por el origen.",
+      "marks": 2
+    }
+  ]
+}

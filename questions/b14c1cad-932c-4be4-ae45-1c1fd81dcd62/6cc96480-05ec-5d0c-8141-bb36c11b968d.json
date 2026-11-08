@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6cc96480-05ec-5d0c-8141-bb36c11b968d",
+  "rev": 1,
+  "statement": "Un hilo se estira uniformemente hasta el doble de su longitud, sin cambiar su volumen. Su resistencia se multiplica por:",
+  "explanation": "$R = \\frac{\\rho L}{A}$: $L$ se duplica y $A$ se reduce a la mitad, así que $R$ se multiplica por $4$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2$",
+      "correct": false,
+      "feedback": "Al estirarlo también se reduce su sección a la mitad."
+    },
+    {
+      "id": "b",
+      "text": "$8$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$\\frac{1}{2}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

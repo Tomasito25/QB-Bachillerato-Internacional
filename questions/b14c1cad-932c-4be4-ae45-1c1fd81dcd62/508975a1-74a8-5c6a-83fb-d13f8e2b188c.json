@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "508975a1-74a8-5c6a-83fb-d13f8e2b188c",
+  "rev": 1,
+  "statement": "En la gráfica de presión frente a volumen de un gas ideal, las isotermas a mayor temperatura están:",
+  "explanation": "$PV = nRT$: a un $V$ fijo, $P$ es mayor cuanto mayor es $T$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "leyes de los gases",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "más alejadas del origen",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "más cerca del origen",
+      "correct": false,
+      "feedback": "A un volumen dado, una temperatura mayor implica más presión."
+    },
+    {
+      "id": "c",
+      "text": "en la misma curva",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "son rectas que pasan por el origen",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

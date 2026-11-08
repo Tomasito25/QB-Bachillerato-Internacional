@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b24da3e4-5c66-5da8-88c5-35474d96cb5a",
+  "rev": 1,
+  "statement": "Una barra de cobre de $0{,}50\\,\\text{m}$ de longitud y $0{,}020\\,\\text{m}^{2}$ de sección tiene sus extremos a una diferencia de temperatura de $60\\,\\text{K}$. Con conductividad $400\\,\\text{W}\\,\\text{m}^{-1}\\,\\text{K}^{-1}$, ¿qué potencia conduce?",
+  "explanation": "$\\frac{\\Delta Q}{\\Delta t} = kA\\frac{\\Delta T}{\\Delta x} = 400\\cdot 0{,}020\\cdot\\frac{60}{0{,}50} = 960\\,\\text{W}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "conducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$240\\,\\text{W}$",
+      "correct": false,
+      "feedback": "Se divide entre la longitud, no se multiplica por ella."
+    },
+    {
+      "id": "b",
+      "text": "$960\\,\\text{W}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$24\\,\\text{kW}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$96\\,\\text{W}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

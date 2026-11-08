@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "8d5cc61c-0545-5278-879b-ee8971e5e6f4",
+  "rev": 1,
+  "statement": "En una estrella binaria, una línea del hidrógeno de $656{,}3\\,\\text{nm}$ se desplaza periódicamente entre $656{,}26$ y $656{,}34\\,\\text{nm}$. El ciclo se repite cada $4{,}0$ días. La órbita se ve de canto y es circular.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "corrimiento al rojo",
+    "estrellas binarias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "línea de visión"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad orbital de la estrella.",
+      "modelAnswer": "$\\Delta\\lambda = 0{,}040\\,\\text{nm}$ a cada lado: $v = c\\,\\frac{\\Delta\\lambda}{\\lambda} = 3{,}0\\times10^{8}\\cdot\\frac{0{,}040}{656{,}3} = 1{,}8\\times10^{4}\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el radio de la órbita.",
+      "modelAnswer": "$r = \\frac{vT}{2\\pi} = \\frac{1{,}83\\times10^{4}\\cdot 3{,}46\\times10^{5}}{2\\pi} = 1{,}0\\times10^{9}\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la línea se desplaza a ambos lados del valor de laboratorio.",
+      "modelAnswer": "La estrella se acerca a nosotros durante media órbita y se aleja durante la otra media, de manera que alterna entre corrimiento al azul y al rojo.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica cómo cambiaría el desplazamiento si se viera la órbita desde arriba (de cara), y por qué.",
+      "modelAnswer": "Sería nulo: la velocidad de la estrella sería perpendicular a la línea de visión, y el corrimiento sólo depende de la componente de la velocidad en esa línea.",
+      "marks": 2
+    }
+  ]
+}

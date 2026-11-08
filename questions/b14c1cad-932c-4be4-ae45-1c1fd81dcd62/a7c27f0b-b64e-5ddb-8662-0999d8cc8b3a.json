@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "a7c27f0b-b64e-5ddb-8662-0999d8cc8b3a",
+  "rev": 1,
+  "statement": "Una motocicleta parte del reposo y acelera a $3{,}0\\,\\text{m}\\,\\text{s}^{-2}$ durante $6{,}0\\,\\text{s}$. Luego mantiene la velocidad durante $10\\,\\text{s}$, y finalmente frena de manera uniforme hasta detenerse tras recorrer $36\\,\\text{m}$ más.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas",
+    "MRUA"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad máxima y la distancia recorrida durante la aceleración.",
+      "modelAnswer": "$v = 3{,}0\\cdot 6{,}0 = 18\\,\\text{m}\\,\\text{s}^{-1}$; $s = \\frac{1}{2}\\cdot 3{,}0\\cdot 6{,}0^2 = 54\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la deceleración de la frenada y su duración.",
+      "modelAnswer": "$a = \\frac{18^2}{2\\cdot 36} = 4{,}5\\,\\text{m}\\,\\text{s}^{-2}$; $t = \\frac{18}{4{,}5} = 4{,}0\\,\\text{s}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la velocidad media de todo el recorrido.",
+      "modelAnswer": "Distancia: $54 + 180 + 36 = 270\\,\\text{m}$. Tiempo: $6{,}0 + 10 + 4{,}0 = 20\\,\\text{s}$. Velocidad media: $13{,}5\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Dibuja la gráfica de aceleración frente a tiempo, indicando los valores.",
+      "modelAnswer": "Tres tramos horizontales: $+3{,}0\\,\\text{m}\\,\\text{s}^{-2}$ de $0$ a $6\\,\\text{s}$, cero de $6$ a $16\\,\\text{s}$ y $-4{,}5\\,\\text{m}\\,\\text{s}^{-2}$ de $16$ a $20\\,\\text{s}$.",
+      "marks": 3
+    }
+  ]
+}

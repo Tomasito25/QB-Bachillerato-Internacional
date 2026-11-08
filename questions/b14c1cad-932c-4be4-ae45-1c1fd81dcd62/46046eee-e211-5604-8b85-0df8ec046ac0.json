@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "46046eee-e211-5604-8b85-0df8ec046ac0",
+  "rev": 1,
+  "statement": "Datos de varios planetas de un sistema: radio orbital medio $r$ y periodo $T$.\n\n| Planeta | P | Q | R | S |\n|---|---|---|---|---|\n| $r$ / $10^{11}$ m | 1,08 | 1,50 | 2,28 | 7,78 |\n| $T$ / años | 0,62 | 1,00 | 1,88 | 11,9 |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "datos",
+    "leyes de Kepler"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "linealizar",
+    "masa de la estrella"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica qué gráfica da una recta si se cumple la tercera ley de Kepler y qué se obtiene de su pendiente.",
+      "modelAnswer": "$T^2$ frente a $r^3$: es una recta por el origen, de pendiente $\\frac{4\\pi^2}{GM}$, de donde se obtiene la masa de la estrella.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula $\\frac{T^2}{r^3}$ para Q y para S, en $\\text{años}^2\\,\\text{m}^{-3}$.",
+      "modelAnswer": "Q: $\\frac{1{,}00}{(1{,}50\\times10^{11})^3} = 2{,}96\\times10^{-34}$. S: $\\frac{141{,}6}{(7{,}78\\times10^{11})^3} = 3{,}01\\times10^{-34}$. Son prácticamente iguales.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Determina la masa de la estrella.",
+      "modelAnswer": "$T = 1{,}00$ año $= 3{,}16\\times10^{7}\\,\\text{s}$. $M = \\frac{4\\pi^2r^3}{GT^2} = \\frac{4\\pi^2\\cdot(1{,}50\\times10^{11})^3}{6{,}67\\times10^{-11}\\cdot(3{,}16\\times10^{7})^2} = 2{,}0\\times10^{30}\\,\\text{kg}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Un cometa tiene una órbita con radio medio de $2{,}7\\times10^{12}\\,\\text{m}$. Determina su periodo.",
+      "modelAnswer": "Respecto a Q: $T = \\left(\\frac{27}{1{,}5}\\right)^{3/2}$, con los radios en $10^{11}\\,\\text{m}$. Resulta $T = 18^{3/2} = 76$ años.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Calcula la intensidad del campo gravitatorio de la estrella en la órbita de Q, y compárala con la aceleración centrípeta de Q.",
+      "modelAnswer": "$g = \\frac{GM}{r^2} = 5{,}9\\times10^{-3}\\,\\text{m}\\,\\text{s}^{-2}$. La centrípeta, $\\frac{4\\pi^2 r}{T^2} = 5{,}9\\times10^{-3}\\,\\text{m}\\,\\text{s}^{-2}$, tiene el mismo valor, como corresponde a una órbita gobernada sólo por la gravedad.",
+      "marks": 2
+    }
+  ]
+}

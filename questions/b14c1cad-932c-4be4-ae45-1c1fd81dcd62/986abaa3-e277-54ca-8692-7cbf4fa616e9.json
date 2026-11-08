@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "986abaa3-e277-54ca-8692-7cbf4fa616e9",
+  "rev": 1,
+  "statement": "La gráfica muestra la velocidad de un carrito frente al tiempo. ¿Cuál es su desplazamiento entre $t = 0$ y $t = 6\\,\\text{s}$?\n\n![Gráfica de velocidad frente a tiempo: recta que baja de 12 m/s en t = 0 hasta 0 en t = 4 s y sigue hasta −6 m/s en t = 6 s.](qbimg:13d59b9714919f15024b480ef6e28779479bde6e5b6f9eda02c55521bb4298ef)",
+  "explanation": "El área por encima del eje vale $\\frac{1}{2}\\cdot 4\\cdot 12 = 24\\,\\text{m}$; la de debajo, $\\frac{1}{2}\\cdot 2\\cdot 6 = 6\\,\\text{m}$, en sentido contrario. El desplazamiento es $24 - 6 = 18\\,\\text{m}$.",
+  "images": [
+    {
+      "hash": "13d59b9714919f15024b480ef6e28779479bde6e5b6f9eda02c55521bb4298ef",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 2722,
+      "alt": "Gráfica de velocidad frente a tiempo: recta que baja de 12 m/s en t = 0 hasta 0 en t = 4 s y sigue hasta −6 m/s en t = 6 s."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$30\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Ésa es la distancia recorrida: el área bajo el eje cuenta como desplazamiento negativo."
+    },
+    {
+      "id": "b",
+      "text": "$18\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$24\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$12\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

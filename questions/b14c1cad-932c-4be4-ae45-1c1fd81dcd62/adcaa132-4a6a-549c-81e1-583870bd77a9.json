@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "adcaa132-4a6a-549c-81e1-583870bd77a9",
+  "rev": 1,
+  "statement": "Las líneas de campo gravitatorio alrededor de un planeta esférico son:",
+  "explanation": "Apuntan en el sentido de la fuerza sobre una masa de prueba: hacia el centro.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "líneas de campo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "radiales y apuntan hacia fuera",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "radiales y apuntan hacia el centro",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "circunferencias concéntricas",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "paralelas entre sí",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

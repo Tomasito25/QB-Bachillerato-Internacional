@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6358cc65-3e6d-5abb-8b5c-2767dba65243",
+  "rev": 1,
+  "statement": "Si dos bombillas iguales pasan de estar en serie a estar en paralelo con la misma fuente ideal, la potencia total:",
+  "explanation": "En serie, $R = 2R_0$; en paralelo, $R = \\frac{R_0}{2}$. Con $P = \\frac{V^2}{R}$, la potencia se multiplica por 4.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "asociación de resistencias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:13.000Z",
+  "updatedAt": "2026-11-08T20:34:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "se multiplica por 2",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "se multiplica por 4",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "se reduce a la mitad",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "no cambia",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
