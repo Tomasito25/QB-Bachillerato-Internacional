@@ -182,8 +182,13 @@ export async function openContributionPull(token: string, login: string, branch:
   if (head === null) throw new GitHubError(504, 'El fork no está listo todavía. Vuelve a intentarlo en un minuto.');
 
   const baseCommit = await githubJson<{ tree: { sha: string } }>(`/repos/${target}/git/commits/${head}`, { token });
+  // El texto va dentro del árbol: una sola petición, y no se roza el límite de 80 creaciones por minuto.
   const tree = [];
   for (const file of files) {
+    if (file.encoding === 'utf-8') {
+      tree.push({ path: file.path, mode: '100644', type: 'blob', content: file.content });
+      continue;
+    }
     const blob = await send<{ sha: string }>(`/repos/${target}/git/blobs`, { content: file.content, encoding: file.encoding });
     tree.push({ path: file.path, mode: '100644', type: 'blob', sha: blob.sha });
   }

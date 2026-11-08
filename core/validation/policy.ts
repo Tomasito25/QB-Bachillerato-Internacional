@@ -7,10 +7,8 @@ export const POLICY = {
   maxAnswerAgeDays: 14,
   /** Respuestas aceptadas por usuario y día de recepción. */
   maxAnswersPerDay: 3000,
-  /** Preguntas nuevas aceptadas por usuario y día. */
-  maxQuestionsPerDay: 30,
-  /** Nodos de temario nuevos por envío. */
-  maxNewTaxonomyNodes: 60,
+  /** Nodos de temario nuevos por envío. Da para varias asignaturas completas de una vez. */
+  maxNewTaxonomyNodes: 500,
   /** Competiciones creadas por usuario y día. */
   maxCompetitionsPerDay: 10,
   /** Envíos que procesa cada ejecución de Actions. Respeta el límite de 80 creaciones/minuto. */

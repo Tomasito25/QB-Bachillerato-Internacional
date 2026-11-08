@@ -3,7 +3,7 @@ import type { AnswerEvent } from '@core/schema/events';
 import type { UserRef } from '@core/schema/common';
 import type { Question, QuestionImage } from '@core/schema/question';
 import type { SubjectDoc } from '@core/schema/taxonomy';
-import { MAX_ISSUE_BODY_LENGTH } from '@core/submissions/envelope';
+import { encodeSubmission, MAX_ISSUE_BODY_LENGTH } from '@core/submissions/envelope';
 import { mergeSubject } from '@core/taxonomy/merge';
 import { bytesToBase64 } from '@core/util/encoding';
 import { toIso } from '@core/util/time';
@@ -84,33 +84,38 @@ async function communityImageHashes(): Promise<Set<string>> {
   return hashes;
 }
 
-/** Sin token, las imágenes viajan dentro del issue: si no caben, se reducen más. */
+/**
+ * Sin token, las imágenes viajan dentro del issue. El tope es por issue, no por publicación:
+ * sólo se reduce una imagen si las de su pregunta no caben ni en un issue para ellas solas.
+ */
 async function fitImagesForIssue(prepared: Prepared): Promise<{ questions: Question[]; images: { hash: string; ext: QuestionImage['ext']; base64: string }[] }> {
   const known = await communityImageHashes();
   let questions = prepared.questions;
-  const pending = () => {
-    const seen = new Map<string, QuestionImage>();
-    for (const image of questions.flatMap((q) => q.images)) if (!known.has(image.hash)) seen.set(image.hash, image);
-    return [...seen.values()];
-  };
-  const total = () => pending().reduce((sum, image) => sum + image.bytes, 0);
+  const pendingOf = (question: Question) => question.images.filter((image) => !known.has(image.hash));
+  const totalOf = (question: Question) => pendingOf(question).reduce((sum, image) => sum + image.bytes, 0);
 
-  for (const options of INLINE_ATTEMPTS) {
-    if (total() <= INLINE_BUDGET_BYTES) break;
-    for (const image of pending()) {
-      if (image.bytes <= options.maxBytes) continue;
-      const stored = await db.localImages.get(image.hash);
-      if (!stored) continue;
-      const smaller = await saveLocalImage(await processImage(stored.blob, options), image.alt);
-      const replacement: QuestionImage = { hash: smaller.hash, ext: smaller.ext, width: smaller.width, height: smaller.height, bytes: smaller.bytes, alt: image.alt };
-      questions = questions.map((q) => (q.images.some((i) => i.hash === image.hash) ? swapImage(q, image, replacement) : q));
+  for (const id of prepared.questions.map((q) => q.id)) {
+    const current = () => questions.find((q) => q.id === id) as Question;
+    for (const options of INLINE_ATTEMPTS) {
+      if (totalOf(current()) <= INLINE_BUDGET_BYTES) break;
+      for (const image of pendingOf(current())) {
+        if (image.bytes <= options.maxBytes) continue;
+        const stored = await db.localImages.get(image.hash);
+        if (!stored) continue;
+        const smaller = await saveLocalImage(await processImage(stored.blob, options), image.alt);
+        const replacement: QuestionImage = { hash: smaller.hash, ext: smaller.ext, width: smaller.width, height: smaller.height, bytes: smaller.bytes, alt: image.alt };
+        questions = questions.map((q) => (q.images.some((i) => i.hash === image.hash) ? swapImage(q, image, replacement) : q));
+      }
+    }
+    if (totalOf(current()) > INLINE_BUDGET_BYTES) {
+      throw new PublishError(`Las imágenes de «${current().statement.slice(0, 60)}…» no caben en un issue ni reducidas. Quita alguna imagen o conecta un token.`);
     }
   }
-  if (total() > INLINE_BUDGET_BYTES) {
-    throw new PublishError('Las imágenes no caben en un issue ni reducidas. Publica menos de golpe, quita alguna imagen o conecta un token.');
-  }
+
+  const seen = new Map<string, QuestionImage>();
+  for (const image of questions.flatMap(pendingOf)) seen.set(image.hash, image);
   const images = [];
-  for (const image of pending()) {
+  for (const image of seen.values()) {
     const stored = await db.localImages.get(image.hash);
     if (!stored) throw new PublishError('Falta una imagen en este dispositivo. Vuelve a subirla editando la pregunta.');
     images.push({ hash: image.hash, ext: image.ext, base64: bytesToBase64(new Uint8Array(await stored.blob.arrayBuffer())) });
@@ -127,28 +132,44 @@ async function saveRewritten(prepared: Prepared, questions: readonly Question[])
   await db.lQuestions.bulkPut(questions.map((q) => ({ ...q, local: (byId.get(q.id) as LocalQuestionRow).local }) as LocalQuestionRow));
 }
 
-/** Parte en lotes hasta que cada uno cabe en un issue. */
-async function buildIssueSubmissions(questions: readonly Question[], subjects: readonly SubjectDoc[], images: Extract<Submission, { kind: 'questions' }>['images'], origin: ContentOrigin): Promise<Extract<Submission, { kind: 'questions' }>[]> {
-  const build = (batch: readonly Question[], batchSubjects: readonly SubjectDoc[]): Extract<Submission, { kind: 'questions' }> => {
+/** Las de una sola asignatura o las que tocan temas de otra: el envío lleva el temario que necesita. */
+function subjectsFor(batch: readonly Question[], subjects: readonly SubjectDoc[]): SubjectDoc[] {
+  const ids = new Set(batch.map((q) => q.subjectId));
+  const topics = new Set(batch.flatMap((q) => q.topicIds));
+  return subjects.filter((s) => ids.has(s.id) || s.units.some((u) => u.topics.some((t) => topics.has(t.id))));
+}
+
+/**
+ * Reparte las preguntas en el menor número razonable de issues, midiendo lo que ocupa cada uno
+ * ya comprimido. Cada envío lleva su temario y sus imágenes: si uno falla, los demás no dependen
+ * de él, y da igual en qué orden lleguen.
+ */
+export async function buildIssueSubmissions(questions: readonly Question[], subjects: readonly SubjectDoc[], images: Extract<Submission, { kind: 'questions' }>['images'], origin: ContentOrigin): Promise<Extract<Submission, { kind: 'questions' }>[]> {
+  const build = (batch: readonly Question[]): Extract<Submission, { kind: 'questions' }> => {
     const hashes = new Set(batch.flatMap((q) => q.images.map((i) => i.hash)));
-    return { v: 1, kind: 'questions', nonce: newNonce(), questions: [...batch], subjects: [...batchSubjects], images: images.filter((i) => hashes.has(i.hash)), licenseAccepted: true, origin };
+    return { v: 1, kind: 'questions', nonce: newNonce(), questions: [...batch], subjects: subjectsFor(batch, subjects), images: images.filter((i) => hashes.has(i.hash)), licenseAccepted: true, origin };
   };
+  const fits = async (batch: readonly Question[]) => {
+    const submission = build(batch);
+    if (submission.images.length > MAX_IMAGES_PER_SUBMISSION) return false;
+    return (await encodeSubmission(submission, summaryFor(batch.length))).body.length <= MAX_ISSUE_BODY_LENGTH;
+  };
+
   const out: Extract<Submission, { kind: 'questions' }>[] = [];
-  const queue: { batch: readonly Question[]; subjects: readonly SubjectDoc[] }[] = [];
-  for (let i = 0; i < questions.length; i += MAX_QUESTIONS_PER_SUBMISSION) {
-    queue.push({ batch: questions.slice(i, i + MAX_QUESTIONS_PER_SUBMISSION), subjects: i === 0 ? subjects : [] });
-  }
-  while (queue.length > 0) {
-    const item = queue.shift() as (typeof queue)[number];
-    const submission = build(item.batch, item.subjects);
-    const size = JSON.stringify(submission).length;
-    // Estimación prudente antes de comprimir: si es muy grande, o lleva más imágenes de las que admite un envío, se parte.
-    if ((size > MAX_ISSUE_BODY_LENGTH * 3 || submission.images.length > MAX_IMAGES_PER_SUBMISSION) && item.batch.length > 1) {
-      const middle = Math.ceil(item.batch.length / 2);
-      queue.unshift({ batch: item.batch.slice(0, middle), subjects: item.subjects }, { batch: item.batch.slice(middle), subjects: [] });
-      continue;
+  let start = 0;
+  while (start < questions.length) {
+    // Búsqueda binaria del bloque más grande que cabe: añadir preguntas nunca lo encoge.
+    let low = 1;
+    let high = Math.min(MAX_QUESTIONS_PER_SUBMISSION, questions.length - start);
+    while (low < high) {
+      const middle = Math.ceil((low + high) / 2);
+      if (await fits(questions.slice(start, start + middle))) low = middle;
+      else high = middle - 1;
     }
-    out.push(submission);
+    const batch = questions.slice(start, start + low);
+    if (!(await fits(batch))) throw new PublishError(`«${(batch[0] as Question).statement.slice(0, 60)}…» no cabe en un issue. Acórtala, quita alguna imagen o conecta un token.`);
+    out.push(build(batch));
+    start += low;
   }
   return out;
 }
@@ -173,7 +194,13 @@ export async function publishViaIssue(questionIds: readonly string[], origin: Co
 
 const utf8 = (value: unknown): PullFileWrite['content'] => `${JSON.stringify(value, null, 2)}\n`;
 
-/** Vía con token: fork, commit y PR, sin clics y sin límite práctico de imágenes. */
+/**
+ * Hasta aquí, un solo PR. Revisarlo lee cada fichero por la API, y el token de Actions tiene 1000
+ * peticiones por hora: los volúmenes grandes van mejor por issues, que cuestan unas pocas.
+ */
+export const MAX_QUESTIONS_PER_PULL = 200;
+
+/** Vía con token: fork, commit y PR, sin clics y con las imágenes a tamaño completo. */
 export async function publishViaPull(questionIds: readonly string[], origin: ContentOrigin): Promise<OutboxRow> {
   const token = await getToken();
   const user = identity.get();

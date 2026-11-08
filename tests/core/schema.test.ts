@@ -77,6 +77,15 @@ describe('esquema de pregunta', () => {
     expect(errorsOf(makeOpen({ parts: [parts[0], { ...parts[1], id: 'a' }] as typeof parts })).length).toBeGreaterThan(0);
     expect(errorsOf(makeOpen({ parts: [{ ...parts[0], marks: 0 }] as typeof parts })).length).toBeGreaterThan(0);
   });
+
+  it('un apartado puede dividirse en subapartados; sin ellos necesita enunciado y solución', () => {
+    const sub = { id: 'a', statement: 'Calcula', modelAnswer: '3', marks: 2 };
+    expect(errorsOf(makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: '', modelAnswer: '', subparts: [sub] }] }))).toEqual([]);
+    expect(errorsOf(makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: '', modelAnswer: '' }] })).length).toBeGreaterThan(0);
+    expect(errorsOf(makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: 'Texto', modelAnswer: '', marks: 1, subparts: [sub] }] }))).toContain('Con subapartados, los puntos van en cada uno');
+    expect(errorsOf(makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: '', modelAnswer: '', subparts: [sub, sub] }] }))).toContain('Hay subapartados repetidos');
+    expect(errorsOf(makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: '', modelAnswer: '', subparts: [] }] })).length).toBeGreaterThan(0);
+  });
 });
 
 describe('login', () => {

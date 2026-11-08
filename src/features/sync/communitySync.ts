@@ -60,13 +60,24 @@ async function fetchManifest(): Promise<Manifest> {
   return parsed.data;
 }
 
+const SHARD_ATTEMPTS = 3;
+
+/** Un fallo suelto (corte de red, 5xx, copia vieja del CDN) se reintenta antes de darlo por malo. */
 async function fetchShard(shard: ManifestShard): Promise<unknown> {
-  const response = await fetch(config.communityUrl(shard.path));
-  if (!response.ok) throw new Error(`No se ha podido descargar ${shard.id} (${response.status})`);
-  const text = await response.text();
-  // El CDN puede servir una copia vieja de un fichero: el hash lo destapa.
-  if ((await sha256Hex(text)) !== shard.hash) throw new Error(`El fragmento ${shard.id} no coincide con su hash`);
-  return JSON.parse(text);
+  for (let attempt = 1; ; attempt++) {
+    try {
+      // En los reintentos se salta la caché del navegador: puede estar ahí la copia mala.
+      const response = await fetch(config.communityUrl(shard.path), attempt > 1 ? { cache: 'reload' } : undefined);
+      if (!response.ok) throw new Error(`No se ha podido descargar ${shard.id} (${response.status})`);
+      const text = await response.text();
+      // El CDN puede servir una copia vieja de un fichero: el hash lo destapa.
+      if ((await sha256Hex(text)) !== shard.hash) throw new Error(`El fragmento ${shard.id} no coincide con su hash`);
+      return JSON.parse(text);
+    } catch (error) {
+      if (attempt >= SHARD_ATTEMPTS || !navigator.onLine) throw error;
+      await new Promise((resolve) => setTimeout(resolve, 400 * 2 ** attempt));
+    }
+  }
 }
 
 function validDocs<T>(docs: unknown, schema: { safeParse(data: unknown): { success: true; data: T } | { success: false } }, onInvalid: () => void): T[] {
@@ -185,12 +196,18 @@ async function run({ force = false }: { force?: boolean }): Promise<SyncReport |
     const removed = [...stored.keys()].filter((id) => !wanted.has(id));
     let invalid = 0;
     let done = 0;
+    const failed: string[] = [];
     syncState.set((s) => ({ ...s, total: changed.length, noCommunity: false }));
 
+    // Un fragmento que falla no tira lo demás: se aplica lo que llegue y él se reintenta luego.
     await pool(changed, async (shard) => {
-      await applyShard(shard, await fetchShard(shard), () => {
-        invalid += 1;
-      });
+      try {
+        await applyShard(shard, await fetchShard(shard), () => {
+          invalid += 1;
+        });
+      } catch (error) {
+        failed.push((error as Error).message);
+      }
       done += 1;
       syncState.set((s) => ({ ...s, done }));
     });
@@ -206,6 +223,13 @@ async function run({ force = false }: { force?: boolean }): Promise<SyncReport |
     }
 
     const reconciled = await reconcileLocal();
+    if (failed.length > 0) {
+      if (failed.length === changed.length) throw new Error(failed[0]);
+      const message = `Faltan ${failed.length} de ${changed.length} fragmentos. Lo demás ya está al día; se reintentará enseguida.`;
+      syncState.set((s) => ({ ...s, status: 'error', message }));
+      await logSync('warn', `${message} Primer error: ${failed[0]}`);
+      return null;
+    }
     const now = Date.now();
     await kvSet(LAST_SYNC_KEY, now);
     await kvSet(MANIFEST_KEY, { ...manifest.counts, commit: manifest.dataCommit } satisfies ManifestSummary);

@@ -158,12 +158,6 @@ class Intake {
       return;
     }
 
-    const approvedToday = (await store.allSystemEvents()).filter((e) => e.t === 'question-approved' && e.by === actor.login && dayKey(e.at * 1000) === dayKey(now())).length;
-    if (approvedToday + submission.questions.length > POLICY.maxQuestionsPerDay) {
-      this.done(issue, 'rejected', `Has alcanzado el límite de ${POLICY.maxQuestionsPerDay} preguntas al día. Vuelve a intentarlo mañana.`);
-      return;
-    }
-
     const images: ProposedImage[] = submission.images.map((image: InlineImage) => ({ hash: image.hash, ext: image.ext, bytes: base64ToBytes(image.base64) }));
     const isMaintainer = isMaintainerPermission(await api.permission(actor.login));
     const result = await validateContribution({ actor: { ...actor, isMaintainer }, questions: submission.questions, subjects: submission.subjects, images, now: rcv, mode: 'issue' }, store);

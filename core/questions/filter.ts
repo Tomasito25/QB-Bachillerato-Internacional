@@ -14,6 +14,20 @@ export interface QuestionFilter {
   text?: string;
 }
 
+/** Qué parte del temario entra al estudiar: todo, sólo unos temas, o todos menos esos. */
+export interface StudyScope {
+  mode: 'all' | 'only' | 'block';
+  topicIds: readonly string[];
+}
+
+/** Una lista vacía no filtra: «sólo» sin nada marcado dejaría sin preguntas por un descuido. */
+export function scopePredicate(scope: StudyScope): (question: { topicIds: readonly string[] }) => boolean {
+  if (scope.mode === 'all' || scope.topicIds.length === 0) return () => true;
+  const chosen = new Set(scope.topicIds);
+  const touches = (question: { topicIds: readonly string[] }) => question.topicIds.some((id) => chosen.has(id));
+  return scope.mode === 'only' ? touches : (question) => !touches(question);
+}
+
 const searchCache = new WeakMap<Question, string>();
 
 function searchTextOf(question: Question): string {

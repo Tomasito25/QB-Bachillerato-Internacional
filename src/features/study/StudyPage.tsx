@@ -3,7 +3,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { DIFFICULTY_LABELS, DIFFICULTY_VALUES, type Difficulty } from '@core/schema/common';
-import { filterQuestions } from '@core/questions/filter';
+import { filterQuestions, scopePredicate } from '@core/questions/filter';
 import { QUESTION_TYPE_LABELS, type QuestionType } from '@core/schema/question';
 import { useQuestions } from '@/features/bank/questionsRepo';
 import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
@@ -15,6 +15,7 @@ import { Card, CardHeader, EmptyState, Notice, PageHeader, Spinner } from '@/ui/
 import { cn } from '@/ui/cn';
 import { preferences } from '@/features/settings/preferences';
 import { useLaunchSession } from './launch';
+import { ScopeCard } from './ScopeCard';
 import { MODE_LABELS, useActiveSessions } from './sessions';
 
 function ModeCard({ icon, title, description, children }: { icon: ReactNode; title: string; description: string; children: ReactNode }) {
@@ -47,7 +48,7 @@ export default function StudyPage() {
   const taxonomy = useTaxonomy();
   const active = useActiveSessions();
   const launchSession = useLaunchSession();
-  const { practiceCount } = preferences.use();
+  const { practiceCount, studyScope } = preferences.use();
   const [params] = useSearchParams();
 
   const [subjectId, setSubjectId] = useState(params.get('subject') ?? '');
@@ -63,16 +64,21 @@ export default function StudyPage() {
     if (subject) setSubjectId(subject);
   }, [params]);
 
-  const reviewCounts = useLiveQuery(async () => {
+  const inScope = useMemo(() => scopePredicate(studyScope), [studyScope]);
+  const progressRows = useLiveQuery(() => db.progress.toArray(), []);
+  const reviewCounts = useMemo(() => {
+    if (!progressRows || !questions) return undefined;
+    // Sólo cuenta lo que luego puede salir: si no, el botón prometería preguntas que no hay.
+    const scoped = new Set(questions.filter(inScope).map((q) => q.id));
+    const rows = progressRows.filter((r) => scoped.has(r.questionId));
     const now = Date.now();
-    const rows = await db.progress.toArray();
     return {
       due: rows.filter((r) => r.attempts > 0 && r.due <= now).length,
       failed: rows.filter((r) => r.lastCorrect === false).length,
       hard: rows.filter((r) => r.hard === 1).length,
       favorites: rows.filter((r) => r.favorite === 1).length,
     };
-  }, []);
+  }, [progressRows, questions, inScope]);
 
   const config: SessionConfig = useMemo(
     () => ({
@@ -86,7 +92,7 @@ export default function StudyPage() {
     [subjectId, unitId, topicId, difficulties, type, count],
   );
 
-  const matches = useMemo(() => (questions && taxonomy ? filterQuestions(questions, config, taxonomy.index).length : 0), [questions, taxonomy, config]);
+  const matches = useMemo(() => (questions && taxonomy ? filterQuestions(questions, config, taxonomy.index).filter(inScope).length : 0), [questions, taxonomy, config, inScope]);
 
   if (!questions || !taxonomy || !reviewCounts) return <Spinner />;
 
@@ -142,6 +148,7 @@ export default function StudyPage() {
         </EmptyState>
       ) : (
         <div className="flex flex-col gap-4">
+          <ScopeCard />
           <div className="grid gap-4 md:grid-cols-3">
             <ModeCard icon={<Repeat size={18} aria-hidden />} title="Práctica" description={`${practiceCount} preguntas con corrección y explicación al momento. Da prioridad a lo que toca repasar.`}>
               <Button variant="primary" className="w-full" icon={<Play size={16} aria-hidden />} onClick={() => quick('practice')}>

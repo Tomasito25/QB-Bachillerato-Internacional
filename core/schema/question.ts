@@ -11,6 +11,7 @@ export const LIMITS = {
   modelAnswer: 12000,
   partStatement: 4000,
   maxParts: 10,
+  maxSubparts: 8,
   partMarks: 20,
   criterion: 500,
   keyword: 60,
@@ -112,14 +113,39 @@ export const McqQuestion = z
   });
 export type McqQuestion = z.infer<typeof McqQuestion>;
 
-/** Apartado a), b)… de una pregunta de desarrollo: su enunciado, su solución y sus puntos. */
-export const OpenPart = z.strictObject({
-  id: z.string().regex(/^[a-z0-9]{1,8}$/),
+const partId = z.string().regex(/^[a-z0-9]{1,8}$/);
+/** Como en un examen. Pesan en la nota que se sugiere al autoevaluarse. */
+const marks = z.number().int().min(1).max(LIMITS.partMarks).optional();
+
+/** Subapartado i), ii)… de un apartado. */
+export const OpenSubpart = z.strictObject({
+  id: partId,
   statement: z.string().min(1).max(LIMITS.partStatement),
   modelAnswer: z.string().min(1).max(LIMITS.modelAnswer),
-  /** Como en un examen. Pesan en la nota que se sugiere al autoevaluarse. */
-  marks: z.number().int().min(1).max(LIMITS.partMarks).optional(),
+  marks,
 });
+export type OpenSubpart = z.infer<typeof OpenSubpart>;
+
+/** Apartado a), b)… de una pregunta de desarrollo: su enunciado, su solución y sus puntos. */
+export const OpenPart = z
+  .strictObject({
+    id: partId,
+    /** Con subapartados es opcional: sólo el texto común a todos ellos. */
+    statement: z.string().max(LIMITS.partStatement),
+    modelAnswer: z.string().max(LIMITS.modelAnswer),
+    marks,
+    /** Sin subapartados, el campo no va. */
+    subparts: z.array(OpenSubpart).min(1).max(LIMITS.maxSubparts).optional(),
+  })
+  .superRefine((part, ctx) => {
+    if (!part.subparts) {
+      if (!part.statement) ctx.addIssue({ code: 'custom', path: ['statement'], message: 'Falta el enunciado del apartado' });
+      if (!part.modelAnswer) ctx.addIssue({ code: 'custom', path: ['modelAnswer'], message: 'Falta la solución del apartado' });
+      return;
+    }
+    if (part.marks !== undefined) ctx.addIssue({ code: 'custom', path: ['marks'], message: 'Con subapartados, los puntos van en cada uno' });
+    if (new Set(part.subparts.map((s) => s.id)).size !== part.subparts.length) ctx.addIssue({ code: 'custom', path: ['subparts'], message: 'Hay subapartados repetidos' });
+  });
 export type OpenPart = z.infer<typeof OpenPart>;
 
 export const OpenQuestion = z
@@ -144,6 +170,17 @@ export type OpenQuestion = z.infer<typeof OpenQuestion>;
 /** a), b), c)… Para pocas cosas más que diez basta el abecedario. */
 export function partLabel(index: number): string {
   return `${String.fromCharCode(97 + index)})`;
+}
+
+const ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii'];
+
+export function subpartLabel(index: number): string {
+  return `${ROMAN[index] ?? index + 1})`;
+}
+
+/** Lo que se responde y se valora por separado: cada subapartado, o el apartado si no tiene. */
+export function gradedItems(parts: readonly OpenPart[]): { id: string; marks?: number }[] {
+  return parts.flatMap((part) => (part.subparts ? part.subparts.map((sub) => ({ id: `${part.id}.${sub.id}`, marks: sub.marks })) : [{ id: part.id, marks: part.marks }]));
 }
 
 export const Question = z.discriminatedUnion('type', [McqQuestion, OpenQuestion]);

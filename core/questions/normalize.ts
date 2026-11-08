@@ -26,6 +26,10 @@ export function normalizedName(name: string): string {
   return normalizeText(name);
 }
 
+function partStatements(question: Extract<Question, { type: 'open' }>): string[] {
+  return (question.parts ?? []).flatMap((part) => [part.statement, ...(part.subparts ?? []).map((sub) => sub.statement)]).filter(Boolean);
+}
+
 function comparableParts(question: Question): string[] {
   const parts = [normalizeText(question.statement)];
   if (question.type === 'mcq') {
@@ -33,7 +37,7 @@ function comparableParts(question: Question): string[] {
     parts.push(...question.answers.map((a) => normalizeText(a.text)).sort());
   } else {
     // En orden: los apartados de un examen no se pueden barajar.
-    parts.push(...(question.parts ?? []).map((part) => normalizeText(part.statement)));
+    parts.push(...partStatements(question).map(normalizeText));
   }
   return parts;
 }
@@ -116,6 +120,6 @@ export function findDuplicates(question: Question, others: Iterable<DuplicateInd
 export function searchableText(question: Question): string {
   const parts = [question.statement, question.tags.join(' ')];
   if (question.type === 'mcq') parts.push(...question.answers.map((a) => a.text));
-  else parts.push(question.keywords.join(' '), ...(question.parts ?? []).map((part) => part.statement));
+  else parts.push(question.keywords.join(' '), ...partStatements(question));
   return normalizeText(parts.join(' '));
 }

@@ -6,7 +6,8 @@ import { Dialog } from '@/ui/Dialog';
 import { Checkbox } from '@/ui/Field';
 import { Notice } from '@/ui/Surface';
 import { toast } from '@/ui/toast';
-import { publishViaIssue, publishViaPull, PublishError, type ContentOrigin } from './publish';
+import { flushWithToken } from './outbox';
+import { MAX_QUESTIONS_PER_PULL, publishViaIssue, publishViaPull, PublishError, type ContentOrigin } from './publish';
 
 const ORIGINS: { value: ContentOrigin; label: string }[] = [
   { value: 'own', label: 'La he escrito yo' },
@@ -21,17 +22,23 @@ export function PublishDialog({ questionIds, open, onClose, onPublished }: { que
   const [accepted, setAccepted] = useState(false);
   const [busy, setBusy] = useState(false);
   const count = questionIds.length;
+  const viaPull = hasToken && count <= MAX_QUESTIONS_PER_PULL;
 
   const submit = async () => {
     if (!origin) return;
     setBusy(true);
     try {
-      if (hasToken) {
+      if (viaPull) {
         await publishViaPull(questionIds, origin);
         toast.success('Pull request abierto. La validación tarda un par de minutos.');
       } else {
         const rows = await publishViaIssue(questionIds, origin);
-        toast.success(rows.length === 1 ? 'Listo para enviar. Falta confirmarlo en GitHub.' : `Preparados ${rows.length} envíos. Falta confirmarlos en GitHub.`);
+        if (hasToken) {
+          await flushWithToken();
+          toast.success(`Enviados ${rows.length} lotes. Se publican en unos minutos.`);
+        } else {
+          toast.success(rows.length === 1 ? 'Listo para enviar. Falta confirmarlo en GitHub, en Sincronización.' : `Preparados ${rows.length} envíos. Falta confirmarlos en GitHub, en Sincronización.`);
+        }
       }
       onPublished?.();
       onClose();
@@ -86,9 +93,13 @@ export function PublishDialog({ questionIds, open, onClose, onPublished }: { que
           }
         />
         <p className="text-[0.8125rem] text-muted">
-          {hasToken
+          {viaPull
             ? 'Se abrirá un pull request desde tu fork. Una Action lo valida y, si todo está bien, lo publica.'
-            : 'Se abrirá GitHub con el envío ya escrito: sólo tendrás que pulsar «Create». Una Action lo valida y, si todo está bien, lo publica.'}
+            : hasToken
+              ? 'Se enviará por lotes, sin que tengas que hacer nada. Una Action los valida y, si todo está bien, los publica.'
+              : count > 1
+                ? 'Se reparte en los menos envíos posibles. En Sincronización los confirmas en GitHub, uno tras otro. Una Action los valida y los publica.'
+                : 'Se abrirá GitHub con el envío ya escrito: sólo tendrás que pulsar «Create». Una Action lo valida y, si todo está bien, lo publica.'}
         </p>
       </div>
     </Dialog>

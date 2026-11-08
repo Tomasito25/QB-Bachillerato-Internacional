@@ -2,7 +2,7 @@ import { ArrowDown, ArrowUp, Eye, Image as ImageIcon, ImagePlus, Plus, Save, Sig
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { DIFFICULTY_LABELS } from '@core/schema/common';
-import { LIMITS, partLabel, type QuestionImage, type Reference } from '@core/schema/question';
+import { LIMITS, partLabel, subpartLabel, type QuestionImage, type Reference } from '@core/schema/question';
 import { duplicateIndexEntry, findDuplicates } from '@core/questions/normalize';
 import type { Question } from '@core/schema/question';
 import { QuestionView } from '@/features/bank/QuestionView';
@@ -481,22 +481,58 @@ function AnswersCard({ form, update, error, uploadImage }: { form: QuestionForm;
   );
 }
 
+/** Subir, bajar y eliminar. Los apartados y subapartados los llevan iguales. */
+function ItemTools({ name, index, count, onMove, onRemove }: { name: string; index: number; count: number; onMove: (delta: -1 | 1) => void; onRemove: () => void }) {
+  return (
+    <div className="flex items-center">
+      <button type="button" title="Subir" aria-label={`Subir ${name}`} disabled={index === 0} onClick={() => onMove(-1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+        <ArrowUp size={14} aria-hidden />
+      </button>
+      <button type="button" title="Bajar" aria-label={`Bajar ${name}`} disabled={index === count - 1} onClick={() => onMove(1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+        <ArrowDown size={14} aria-hidden />
+      </button>
+      <button type="button" title="Eliminar" aria-label={`Eliminar ${name}`} onClick={onRemove} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
+        <Trash2 size={14} aria-hidden />
+      </button>
+    </div>
+  );
+}
+
+function MarksInput({ name, value, onChange }: { name: string; value: number | null; onChange: (marks: number | null) => void }) {
+  return (
+    <label className="ml-auto flex items-center gap-1.5 text-xs text-muted">
+      Puntos
+      <Input type="number" min={1} max={LIMITS.partMarks} placeholder="—" value={value ?? ''} aria-label={`Puntos ${name}`} onChange={(e) => onChange(e.target.value === '' ? null : Math.min(LIMITS.partMarks, Math.max(1, Math.round(Number(e.target.value)) || 1)))} className="h-8 w-16 text-center" />
+    </label>
+  );
+}
+
+function moved<T>(list: readonly T[], index: number, delta: -1 | 1): T[] {
+  const copy = [...list];
+  const [item] = copy.splice(index, 1);
+  if (item) copy.splice(index + delta, 0, item);
+  return copy;
+}
+
 function PartsCard({ form, update, error, uploadImage }: { form: QuestionForm; update: (patch: Partial<QuestionForm>) => void; error?: string; uploadImage: (file: File) => Promise<QuestionImage | null> }) {
-  const setPart = (id: string, patch: Partial<QuestionForm['parts'][number]>) => update({ parts: form.parts.map((part) => (part.id === id ? { ...part, ...patch } : part)) });
+  type Part = QuestionForm['parts'][number];
+  type Sub = Part['subparts'][number];
+  const setPart = (id: string, patch: Partial<Part>) => update({ parts: form.parts.map((part) => (part.id === id ? { ...part, ...patch } : part)) });
+  const setSub = (part: Part, id: string, patch: Partial<Sub>) => setPart(part.id, { subparts: part.subparts.map((sub) => (sub.id === id ? { ...sub, ...patch } : sub)) });
   const add = (count: number) => {
     const parts = [...form.parts];
-    for (let i = 0; i < count && parts.length < LIMITS.maxParts; i++) parts.push({ id: nextId(parts), statement: '', modelAnswer: '', marks: null });
+    for (let i = 0; i < count && parts.length < LIMITS.maxParts; i++) parts.push({ id: nextId(parts), statement: '', modelAnswer: '', marks: null, subparts: [] });
     update({ parts });
   };
-  const move = (index: number, delta: -1 | 1) => {
-    const parts = [...form.parts];
-    const [item] = parts.splice(index, 1);
-    if (item) parts.splice(index + delta, 0, item);
-    update({ parts });
+  // Al dividir un apartado, lo que ya tenía de solución y puntos pasa al primer subapartado.
+  const addSub = (part: Part) => {
+    const first = part.subparts.length === 0;
+    setPart(part.id, { subparts: [...part.subparts, { id: nextId(part.subparts), statement: '', modelAnswer: first ? part.modelAnswer : '', marks: first ? part.marks : null }], ...(first ? { modelAnswer: '', marks: null } : {}) });
   };
+  const editors = { images: form.images, onUploadImage: uploadImage };
   return (
     <Card>
-      <CardHeader title="Apartados (opcional)" description="Para preguntas como las de examen: el enunciado de arriba es el común y cada apartado tiene su pregunta, su solución, sus imágenes y, si quieres, sus puntos." />
+      <CardHeader title="Apartados (opcional)" description="Para preguntas como las de examen: el enunciado de arriba es el común y cada apartado tiene su pregunta, su solución, sus imágenes y, si quieres, sus puntos. Un apartado se puede dividir en subapartados i), ii)…" />
       <div className="flex flex-col gap-3 p-4">
         {form.parts.length === 0 ? (
           <Button size="sm" className="w-fit" icon={<Plus size={14} aria-hidden />} onClick={() => add(2)}>
@@ -506,37 +542,37 @@ function PartsCard({ form, update, error, uploadImage }: { form: QuestionForm; u
           <ol className="flex flex-col gap-3" aria-label="Apartados">
             {form.parts.map((part, index) => {
               const label = partLabel(index);
+              const divided = part.subparts.length > 0;
               return (
                 <li key={part.id} className="flex flex-col gap-3 rounded-md border border-border p-3">
                   <div className="flex flex-wrap items-center gap-2">
                     <p className="text-sm font-semibold">Apartado {label}</p>
-                    <label className="ml-auto flex items-center gap-1.5 text-xs text-muted">
-                      Puntos
-                      <Input
-                        type="number"
-                        min={1}
-                        max={LIMITS.partMarks}
-                        placeholder="—"
-                        value={part.marks ?? ''}
-                        aria-label={`Puntos del apartado ${label}`}
-                        onChange={(e) => setPart(part.id, { marks: e.target.value === '' ? null : Math.min(LIMITS.partMarks, Math.max(1, Math.round(Number(e.target.value)) || 1)) })}
-                        className="h-8 w-16 text-center"
-                      />
-                    </label>
-                    <div className="flex items-center">
-                      <button type="button" title="Subir" aria-label={`Subir apartado ${label}`} disabled={index === 0} onClick={() => move(index, -1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
-                        <ArrowUp size={14} aria-hidden />
-                      </button>
-                      <button type="button" title="Bajar" aria-label={`Bajar apartado ${label}`} disabled={index === form.parts.length - 1} onClick={() => move(index, 1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
-                        <ArrowDown size={14} aria-hidden />
-                      </button>
-                      <button type="button" title="Eliminar" aria-label={`Eliminar apartado ${label}`} onClick={() => update({ parts: form.parts.filter((p) => p.id !== part.id) })} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
-                        <Trash2 size={14} aria-hidden />
-                      </button>
-                    </div>
+                    {divided ? <span className="ml-auto" /> : <MarksInput name={`del apartado ${label}`} value={part.marks} onChange={(marks) => setPart(part.id, { marks })} />}
+                    <ItemTools name={`apartado ${label}`} index={index} count={form.parts.length} onMove={(delta) => update({ parts: moved(form.parts, index, delta) })} onRemove={() => update({ parts: form.parts.filter((p) => p.id !== part.id) })} />
                   </div>
-                  <MarkdownEditor label={`Pregunta del apartado ${label}`} value={part.statement} onChange={(statement) => setPart(part.id, { statement })} images={form.images} onUploadImage={uploadImage} rows={3} />
-                  <MarkdownEditor label={`Solución del apartado ${label}`} value={part.modelAnswer} onChange={(modelAnswer) => setPart(part.id, { modelAnswer })} images={form.images} onUploadImage={uploadImage} rows={4} />
+                  <MarkdownEditor label={divided ? `Texto común del apartado ${label} (opcional)` : `Pregunta del apartado ${label}`} value={part.statement} onChange={(statement) => setPart(part.id, { statement })} rows={divided ? 2 : 3} {...editors} />
+                  {divided ? null : <MarkdownEditor label={`Solución del apartado ${label}`} value={part.modelAnswer} onChange={(modelAnswer) => setPart(part.id, { modelAnswer })} rows={4} {...editors} />}
+                  {divided ? (
+                    <ol className="flex flex-col gap-3" aria-label={`Subapartados de ${label}`}>
+                      {part.subparts.map((sub, subIndex) => {
+                        const subLabel = `${label} ${subpartLabel(subIndex)}`;
+                        return (
+                          <li key={sub.id} className="flex flex-col gap-3 rounded-md border border-dashed border-border-strong p-3">
+                            <div className="flex flex-wrap items-center gap-2">
+                              <p className="text-[0.8125rem] font-semibold">Subapartado {subpartLabel(subIndex)}</p>
+                              <MarksInput name={`del subapartado ${subLabel}`} value={sub.marks} onChange={(marks) => setSub(part, sub.id, { marks })} />
+                              <ItemTools name={`subapartado ${subLabel}`} index={subIndex} count={part.subparts.length} onMove={(delta) => setPart(part.id, { subparts: moved(part.subparts, subIndex, delta) })} onRemove={() => setPart(part.id, { subparts: part.subparts.filter((s) => s.id !== sub.id) })} />
+                            </div>
+                            <MarkdownEditor label={`Pregunta del subapartado ${subLabel}`} value={sub.statement} onChange={(statement) => setSub(part, sub.id, { statement })} rows={2} {...editors} />
+                            <MarkdownEditor label={`Solución del subapartado ${subLabel}`} value={sub.modelAnswer} onChange={(modelAnswer) => setSub(part, sub.id, { modelAnswer })} rows={3} {...editors} />
+                          </li>
+                        );
+                      })}
+                    </ol>
+                  ) : null}
+                  <Button size="sm" variant="ghost" className="w-fit" disabled={part.subparts.length >= LIMITS.maxSubparts} icon={<Plus size={14} aria-hidden />} onClick={() => addSub(part)}>
+                    {divided ? 'Añadir subapartado' : 'Dividir en subapartados'}
+                  </Button>
                 </li>
               );
             })}

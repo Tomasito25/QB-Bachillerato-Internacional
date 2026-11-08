@@ -230,7 +230,7 @@ describe('temario', () => {
   });
 
   it('limita cuánto temario se puede crear de una vez', async () => {
-    const units = Array.from({ length: 70 }, (_, i) => ({ id: uuid(1000 + i), name: `Unidad ${i}`, order: i, topics: [] }));
+    const units = Array.from({ length: 3 }, (_, u) => ({ id: uuid(1000 + u), name: `Unidad ${u}`, order: u, topics: Array.from({ length: 200 }, (_, t) => ({ id: uuid(2000 + u * 1000 + t), name: `Tema ${t}`, order: t })) }));
     const result = await validateContribution(input({ subjects: [makeSubject({ id: uuid(420), name: 'Enorme', units })] }), view());
     expect(codes(result)).toContain('taxonomy-too-big');
   });

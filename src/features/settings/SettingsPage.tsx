@@ -16,6 +16,7 @@ import { AppearanceControls } from './appearance';
 import { preferences, updatePreferences } from './preferences';
 
 const PRACTICE_COUNTS = [5, 10, 20, 30];
+const goal = (value: string) => Math.max(0, Math.min(500, Math.round(Number(value)) || 0));
 
 function formatBytes(bytes: number): string {
   if (bytes < 1024 * 1024) return `${Math.round(bytes / 1024)} KB`;
@@ -43,18 +44,21 @@ function StudyCard() {
       <CardHeader title="Estudio" />
       <div className="flex flex-col gap-4 p-4">
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="Objetivo diario" hint="Respuestas al día.">
+          <Field label="Objetivo diario de tipo test" hint="Respuestas al día. Con 0, no cuenta.">
             {(id, describedBy) => (
               <Input
                 id={id}
                 aria-describedby={describedBy}
                 type="number"
-                min={1}
+                min={0}
                 max={500}
-                value={prefs.dailyGoal}
-                onChange={(e) => void updatePreferences({ dailyGoal: Math.max(1, Math.min(500, Number(e.target.value) || 1)) })}
+                value={prefs.dailyGoalMcq}
+                onChange={(e) => void updatePreferences({ dailyGoalMcq: goal(e.target.value) })}
               />
             )}
+          </Field>
+          <Field label="Objetivo diario de desarrollo" hint="Respuestas al día. Con 0, no cuenta.">
+            {(id, describedBy) => <Input id={id} aria-describedby={describedBy} type="number" min={0} max={500} value={prefs.dailyGoalOpen} onChange={(e) => void updatePreferences({ dailyGoalOpen: goal(e.target.value) })} />}
           </Field>
           <Field label="Preguntas por práctica" hint="Las de «Practicar» en Inicio y en Estudiar.">
             {(id, describedBy) => (

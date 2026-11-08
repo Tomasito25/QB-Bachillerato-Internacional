@@ -47,7 +47,7 @@ Es lo más delicado: corre con permiso de escritura sobre entrada de cualquiera.
 | Escritura fuera de lugar (`../`) | Las rutas se construyen con ids validados con expresión regular, y una lista blanca en los PR |
 | Fusionar algo distinto de lo validado | La fusión indica el SHA revisado |
 | Agotar la API | Lotes de 25 envíos; respeta `retry-after` |
-| Crear un flujo de issues | Cuotas por usuario y día. Además, GitHub permite limitar interacciones |
+| Crear un flujo de issues | Cuotas de respuestas y competiciones por usuario y día. Las preguntas no tienen tope diario. GitHub permite limitar interacciones |
 
 ### Atacar a otros usuarios (XSS)
 
@@ -88,7 +88,7 @@ los repositorios públicos del usuario. Por eso el modo sin token es el predeter
 
 | Abuso | Defensa |
 |---|---|
-| Spam de preguntas | Cuotas, duplicados exactos rechazados, casi duplicados a revisión |
+| Spam de preguntas | Duplicados exactos rechazados y casi duplicados a revisión, sin tope diario. Ante un abuso: `QB_AUTO_MERGE=false` deja todo pendiente de revisión, y la cuenta se puede vetar |
 | Contenido con derechos de autor | Declaración de origen y licencia; reportes; ocultación por mantenedores |
 | Usar el repo como almacén | Las imágenes no referenciadas se descartan; tamaño y número limitados |
 | Sockpuppets para inflar el uso de preguntas | Topes por pregunta y día. **No se puede impedir del todo** |

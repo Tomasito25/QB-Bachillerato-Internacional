@@ -59,6 +59,15 @@ beforeEach(() => {
 afterEach(() => repo.cleanup());
 
 describe('intake: publicar preguntas', () => {
+  it('no hay tope de preguntas al día', async () => {
+    const lote = (n: number) => questionsSubmission({ questions: Array.from({ length: n }, (_, i) => makeMcq({ author: null, id: uuid(), statement: `Pregunta ${n}-${i} para comprobar que entran todas las que se envíen` })) });
+    const primero = await send(lote(40));
+    const segundo = await send(lote(41));
+    await run();
+    for (const issue of [primero, segundo]) expect(api.labels.get(issue.number)).toContain(LABELS.accepted);
+    expect((await loadRemote()).questions.size).toBe(81);
+  });
+
   it('crea el PR, lo fusiona, publica y avisa', async () => {
     const issue = await send(questionsSubmission());
     const result = await run();

@@ -1,16 +1,59 @@
-import { beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { RULES } from '@core/scoring/rules';
 import { discardLocalQuestion, loadQuestions, saveLocalQuestion } from '@/features/bank/questionsRepo';
 import { db } from '@/infra/db/db';
 import { commitAnswer, commitSelfGrade, finishSession, saveDeferredAnswer, startSession, summarizeSession } from '@/features/study/sessions';
 import { computeLocalStats, computeStreak, localDay } from '@/features/study/localStats';
 import { toggleFavorite, toggleHard } from '@/features/study/progressRepo';
-import { makeMcq, makeOpen, makeSubject } from '../fixtures';
+import { DEFAULT_PREFERENCES, migratePreferences, preferences } from '@/features/settings/preferences';
+import type { ProgressRow } from '@/infra/db/types';
+import { makeMcq, makeOpen, makeSubject, uuid } from '../fixtures';
 
 async function reset() {
   await Promise.all(db.tables.map((table) => table.clear()));
   await db.cSubjects.put(makeSubject());
 }
+
+describe('temario elegido y objetivo por tipo', () => {
+  beforeEach(reset);
+  afterEach(() => preferences.set(DEFAULT_PREFERENCES));
+
+  it('las sesiones sólo sacan preguntas del temario elegido', async () => {
+    const kept = uuid();
+    const a = makeMcq({ topicIds: [kept] });
+    const b = makeMcq({ statement: 'Otra de un tema que queda fuera', topicIds: [uuid()] });
+    await saveLocalQuestion(a, null);
+    await saveLocalQuestion(b, null);
+    preferences.set({ ...DEFAULT_PREFERENCES, studyScope: { mode: 'only', topicIds: [kept] } });
+    const only = await startSession({ mode: 'practice', title: '', config: { count: 5 } });
+    expect((await db.sessions.get(only))?.questionIds).toEqual([a.id]);
+    preferences.set({ ...DEFAULT_PREFERENCES, studyScope: { mode: 'block', topicIds: [kept] } });
+    const blocked = await startSession({ mode: 'exam', title: '', config: { count: 5 } });
+    expect((await db.sessions.get(blocked))?.questionIds).toEqual([b.id]);
+  });
+
+  it('avisa si el temario elegido deja la sesión sin preguntas', async () => {
+    await saveLocalQuestion(makeMcq({ topicIds: [uuid()] }), null);
+    preferences.set({ ...DEFAULT_PREFERENCES, studyScope: { mode: 'only', topicIds: [uuid()] } });
+    await expect(startSession({ mode: 'practice', title: '', config: { count: 5 } })).rejects.toThrow(/temario que has elegido/);
+  });
+
+  it('una sesión con reparto saca las de cada tipo que se piden', async () => {
+    for (let i = 0; i < 3; i++) await saveLocalQuestion(makeMcq({ statement: `Tipo test ${i}` }), null);
+    for (let i = 0; i < 3; i++) await saveLocalQuestion(makeOpen({ statement: `Desarrollo ${i}` }), null);
+    const id = await startSession({ mode: 'practice', title: '', config: { count: 3, mix: { mcq: 1, open: 2 } } });
+    const picked = (await db.sessions.get(id))?.questionIds ?? [];
+    const types = (await loadQuestions()).filter((q) => picked.includes(q.id)).map((q) => q.type).sort();
+    expect(types).toEqual(['mcq', 'open', 'open']);
+  });
+
+  it('el objetivo único de antes pasa a ser el de tipo test', () => {
+    expect(migratePreferences({ dailyGoal: 35 })).toMatchObject({ dailyGoalMcq: 35, dailyGoalOpen: 0 });
+    expect(migratePreferences({ dailyGoalMcq: 5, dailyGoalOpen: 2 })).toMatchObject({ dailyGoalMcq: 5, dailyGoalOpen: 2 });
+    expect(migratePreferences(undefined)).toEqual(DEFAULT_PREFERENCES);
+    expect(migratePreferences({ dailyGoal: 35 })).not.toHaveProperty('dailyGoal');
+  });
+});
 
 describe('sesiones de estudio', () => {
   beforeEach(reset);
@@ -206,5 +249,27 @@ describe('estadísticas locales', () => {
     expect(stats.unpublished).toBe(3);
     expect(stats.recentDays).toHaveLength(28);
     expect(stats.recentDays.at(-1)?.answers).toBe(3);
+  });
+
+  it('separa lo de hoy por tipo, la nota de desarrollo, la semana y el tiempo', () => {
+    const base = { questionRev: 1, sessionId: null, mode: 'practice', selected: null, selfGrade: null, score: 1, durationMs: 60_000, subjectId: 's', difficulty: 3, published: 0 } as const;
+    const day = 86_400_000;
+    const attempts = [
+      { ...base, id: 'a', questionId: 'q1', correct: true, at: now },
+      { ...base, id: 'b', questionId: 'q2', correct: null, selfGrade: 1 as const, score: 0.5, at: now },
+      // Una pregunta abierta durante horas no son horas de estudio.
+      { ...base, id: 'c', questionId: 'q3', correct: null, selfGrade: 2 as const, durationMs: 4 * 3_600_000, at: now - 3 * day },
+      { ...base, id: 'd', questionId: 'q4', correct: false, at: now - 9 * day },
+      { ...base, id: 'e', questionId: 'q5', correct: true, at: now - 20 * day },
+    ];
+    const stats = computeLocalStats(attempts, [], now);
+    expect(stats).toMatchObject({ todayMcq: 1, todayOpen: 1, openTotal: 2, openAverage: 0.75, weekAnswers: 3, previousWeekAnswers: 1 });
+    expect(stats.weekMs).toBe(2 * 60_000 + 10 * 60_000);
+  });
+
+  it('lo pendiente de repasar sólo cuenta lo que entra en el temario elegido', () => {
+    const card = {} as ProgressRow['card'];
+    const row = (questionId: string) => ({ questionId, card, due: now - 1000, attempts: 1, correct: 1, lastCorrect: true, lastAt: now, favorite: 0, hard: 0 }) as ProgressRow;
+    expect(computeLocalStats([], [row('a'), row('b')], now, 28, (id) => id === 'a').due).toBe(1);
   });
 });

@@ -1,6 +1,6 @@
 import { CheckCircle2, Circle, ExternalLink } from 'lucide-react';
 import type { ReactNode } from 'react';
-import { partLabel, type OpenPart, type Question } from '@core/schema/question';
+import { partLabel, subpartLabel, type Question } from '@core/schema/question';
 import { scanImageReferences } from '@core/questions/refs';
 import { AttachedImage, Markdown } from '@/infra/markdown/Markdown';
 import { cn } from '@/ui/cn';
@@ -39,20 +39,22 @@ export function SolutionBlock({ title, source, question }: { title: string; sour
   );
 }
 
-/** Un apartado: su letra, su pregunta y sus puntos. Debajo, lo que toque: la respuesta, la solución… */
-export function PartBlock({ question, part, index, children }: { question: Question; part: OpenPart; index: number; children?: ReactNode }) {
+/** Un apartado o subapartado: su letra, su pregunta y sus puntos. Debajo, lo que toque: la respuesta, la solución… */
+export function PartBlock({ question, label, statement, marks, children }: { question: Question; label: string; statement: string; marks?: number; children?: ReactNode }) {
   return (
     <li className="flex gap-2.5">
-      <span className="w-5 shrink-0 text-[0.9375rem] font-semibold">{partLabel(index)}</span>
+      <span className="min-w-5 shrink-0 text-[0.9375rem] font-semibold">{label}</span>
       <div className="flex min-w-0 flex-1 flex-col gap-2">
-        <div className="flex items-start justify-between gap-3">
-          <Markdown source={part.statement} images={question.images} className="min-w-0 text-[0.9375rem]" />
-          {part.marks ? (
-            <span className="shrink-0 pt-0.5 text-xs text-muted tabular-nums">
-              {part.marks} {part.marks === 1 ? 'punto' : 'puntos'}
-            </span>
-          ) : null}
-        </div>
+        {statement || marks ? (
+          <div className="flex items-start justify-between gap-3">
+            {statement ? <Markdown source={statement} images={question.images} className="min-w-0 text-[0.9375rem]" /> : <span />}
+            {marks ? (
+              <span className="shrink-0 pt-0.5 text-xs text-muted tabular-nums">
+                {marks} {marks === 1 ? 'punto' : 'puntos'}
+              </span>
+            ) : null}
+          </div>
+        ) : null}
         {children}
       </div>
     </li>
@@ -84,8 +86,17 @@ export function QuestionView({ question, showSolution }: { question: Question; s
       {question.type === 'open' && question.parts ? (
         <ol className="flex flex-col gap-4">
           {question.parts.map((part, index) => (
-            <PartBlock key={part.id} question={question} part={part} index={index}>
-              {showSolution ? <SolutionBlock title="Solución" source={part.modelAnswer} question={question} /> : null}
+            <PartBlock key={part.id} question={question} label={partLabel(index)} statement={part.statement} marks={part.marks}>
+              {part.subparts ? (
+                <ol className="flex flex-col gap-3">
+                  {part.subparts.map((sub, subIndex) => (
+                    <PartBlock key={sub.id} question={question} label={subpartLabel(subIndex)} statement={sub.statement} marks={sub.marks}>
+                      {showSolution ? <SolutionBlock title="Solución" source={sub.modelAnswer} question={question} /> : null}
+                    </PartBlock>
+                  ))}
+                </ol>
+              ) : null}
+              {showSolution && part.modelAnswer ? <SolutionBlock title={part.subparts ? 'Solución común' : 'Solución'} source={part.modelAnswer} question={question} /> : null}
             </PartBlock>
           ))}
         </ol>

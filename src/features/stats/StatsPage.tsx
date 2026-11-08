@@ -1,14 +1,18 @@
 import { useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { DIFFICULTY_LABELS, DIFFICULTY_VALUES } from '@core/schema/common';
 import { filterQuestions } from '@core/questions/filter';
 import { bankStats } from '@core/questions/stats';
 import { useQuestions } from '@/features/bank/questionsRepo';
 import { useLocalStats } from '@/features/study/localStats';
+import { useSyllabusProgress } from '@/features/study/syllabusProgress';
 import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
 import { ButtonLink } from '@/ui/Button';
 import { BarList, ColumnChart, SplitBar, type BarDatum } from '@/ui/charts';
 import { Select } from '@/ui/Field';
 import { Card, CardHeader, EmptyState, PageHeader, Spinner, Stat } from '@/ui/Surface';
+import { formatDuration } from '@/ui/time';
+import { SyllabusTree } from './SyllabusTree';
 
 const dayFormat = new Intl.DateTimeFormat('es', { day: 'numeric', month: 'short' });
 
@@ -25,12 +29,14 @@ export default function StatsPage() {
   const questions = useQuestions();
   const taxonomy = useTaxonomy();
   const local = useLocalStats();
+  const syllabus = useSyllabusProgress();
+  const [params] = useSearchParams();
   const [subjectId, setSubjectId] = useState('');
 
   const scoped = useMemo(() => (questions && taxonomy ? filterQuestions(questions, { subjectId: subjectId || undefined }, taxonomy.index) : []), [questions, taxonomy, subjectId]);
   const bank = useMemo(() => (taxonomy ? bankStats(scoped, taxonomy.index) : null), [scoped, taxonomy]);
 
-  if (!questions || !taxonomy || !local || !bank) return <Spinner />;
+  if (!questions || !taxonomy || !local || !bank || !syllabus) return <Spinner />;
 
   const subject = taxonomy.subjects.find((s) => s.id === subjectId);
   const bySubject: BarDatum[] = taxonomy.subjects
@@ -68,11 +74,17 @@ export default function StatsPage() {
             <EmptyState title="Aún no has respondido ninguna pregunta" action={<ButtonLink to="/study" variant="primary">Empezar a estudiar</ButtonLink>} />
           ) : (
             <>
-              <Card className="grid grid-cols-2 gap-4 p-4 sm:grid-cols-4">
-                <Stat label="Respuestas" value={local.total.toLocaleString('es')} />
+              <Card className="grid grid-cols-2 gap-4 p-4 sm:grid-cols-3 lg:grid-cols-6">
+                <Stat label="Respuestas" value={local.total.toLocaleString('es')} hint={`${local.weekAnswers} esta semana`} />
                 <Stat label="Precisión en test" value={percent(local.accuracy)} hint={`${local.mcqCorrect} de ${local.mcqTotal}`} />
+                <Stat label="Nota en desarrollo" value={percent(local.openAverage)} hint={`${local.openTotal} autoevaluadas`} />
                 <Stat label="Racha" value={`${local.streak} ${local.streak === 1 ? 'día' : 'días'}`} hint={`Mejor: ${local.longestStreak}`} />
                 <Stat label="Dominadas" value={local.mastered} hint={`de ${local.seen} vistas`} />
+                <Stat label="Tiempo" value={formatDuration(local.studyMs)} hint={`${formatDuration(local.weekMs)} esta semana`} />
+              </Card>
+              <Card>
+                <CardHeader title="Cómo vas por temario" description="Despliega cada asignatura y unidad. El botón practica justo esa parte." />
+                <SyllabusTree tree={syllabus} initialOpen={params.get('subject')} />
               </Card>
               <div className="grid gap-4 lg:grid-cols-2">
                 <Card className="p-4">

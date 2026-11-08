@@ -1,3 +1,4 @@
+import type { StudyScope } from '@core/questions/filter';
 import { kvGet, kvSet } from '@/infra/db/db';
 import { createStore } from '@/infra/store';
 
@@ -10,8 +11,11 @@ export interface Preferences {
   theme: ThemePreference;
   /** Retención objetivo de la repetición espaciada. */
   retention: number;
-  /** Respuestas al día que cuentan como objetivo cumplido. */
-  dailyGoal: number;
+  /** Objetivo diario de cada tipo de pregunta. Con 0, ese tipo no cuenta. */
+  dailyGoalMcq: number;
+  dailyGoalOpen: number;
+  /** Qué parte del temario entra al estudiar. No afecta a las competiciones. */
+  studyScope: StudyScope;
   /** Pasar solo a la siguiente pregunta tras acertar. */
   autoAdvance: boolean;
   /** Enseñar la dificultad antes de responder. */
@@ -32,7 +36,9 @@ export interface Preferences {
 export const DEFAULT_PREFERENCES: Preferences = {
   theme: 'system',
   retention: 0.9,
-  dailyGoal: 20,
+  dailyGoalMcq: 20,
+  dailyGoalOpen: 0,
+  studyScope: { mode: 'all', topicIds: [] },
   autoAdvance: false,
   showDifficulty: true,
   autoPublishResults: false,
@@ -67,9 +73,14 @@ function applyLook(key: 'accent' | 'text' | 'font', value: string): void {
   }
 }
 
+/** Antes había un único objetivo diario: cuenta como de tipo test, que era lo que medía casi siempre. */
+export function migratePreferences(stored: (Partial<Preferences> & { dailyGoal?: number }) | undefined): Preferences {
+  const { dailyGoal, ...rest } = stored ?? {};
+  return { ...DEFAULT_PREFERENCES, ...(dailyGoal !== undefined ? { dailyGoalMcq: dailyGoal } : {}), ...rest };
+}
+
 export async function loadPreferences(): Promise<void> {
-  const stored = await kvGet<Partial<Preferences>>(KEY);
-  const merged = { ...DEFAULT_PREFERENCES, ...stored };
+  const merged = migratePreferences(await kvGet<Partial<Preferences>>(KEY));
   preferences.set(merged);
   applyTheme(merged.theme);
   applyLook('accent', merged.accent);

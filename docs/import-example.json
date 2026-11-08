@@ -1,0 +1,277 @@
+{
+  "format": "questionbank-export",
+  "version": 1,
+  "exportedAt": "2026-11-08T10:00:00Z",
+  "subjects": [
+    {
+      "schemaVersion": 1,
+      "id": "cdd8cf0e-2bce-418d-9242-d457f28a10da",
+      "name": "Física SL (ejemplo)",
+      "description": "Asignatura de ejemplo del formato de importación.",
+      "rev": 1,
+      "createdBy": null,
+      "createdAt": "2026-11-08T10:00:00Z",
+      "updatedAt": "2026-11-08T10:00:00Z",
+      "units": [
+        {
+          "id": "b380046c-03f9-4b63-93a2-542f32e35ca0",
+          "name": "A. Espacio, tiempo y movimiento",
+          "order": 0,
+          "topics": [
+            {
+              "id": "a92ae354-7f00-4bf6-8608-6e85fb1de8d7",
+              "name": "A.1 Cinemática",
+              "order": 0
+            },
+            {
+              "id": "90a1d840-8595-4762-a97c-cccdbbaca920",
+              "name": "A.2 Fuerzas y cantidad de movimiento",
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c8694349-4521-42e4-8f89-dc0ad7ecb861",
+      "name": "Business Management (example)",
+      "rev": 1,
+      "createdBy": null,
+      "createdAt": "2026-11-08T10:00:00Z",
+      "updatedAt": "2026-11-08T10:00:00Z",
+      "units": [
+        {
+          "id": "cb59ef42-ac0f-4003-83a5-c4e4c763ec03",
+          "name": "3. Finance and accounts",
+          "order": 0,
+          "topics": [
+            {
+              "id": "c7bb5729-e253-4c06-8d70-643147ea961f",
+              "name": "3.3 Costs and revenues",
+              "order": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "schemaVersion": 1,
+      "id": "17d97ec8-ece0-4c28-a3d4-842926016850",
+      "rev": 1,
+      "statement": "Un objeto parte del reposo con una aceleración constante de $2\\,\\text{m s}^{-2}$. ¿Qué velocidad tiene a los $3\\,\\text{s}$?",
+      "images": [],
+      "difficulty": 2,
+      "subjectId": "cdd8cf0e-2bce-418d-9242-d457f28a10da",
+      "topicIds": [
+        "a92ae354-7f00-4bf6-8608-6e85fb1de8d7"
+      ],
+      "tags": [
+        "MRUA"
+      ],
+      "references": [],
+      "author": null,
+      "createdAt": "2026-11-08T10:00:00Z",
+      "updatedAt": "2026-11-08T10:00:00Z",
+      "license": "CC-BY-SA-4.0",
+      "explanation": "Con aceleración constante, $v = u + at = 0 + 2 \\cdot 3 = 6\\,\\text{m s}^{-1}$.",
+      "type": "mcq",
+      "answers": [
+        {
+          "id": "a",
+          "text": "$1{,}5\\,\\text{m s}^{-1}$",
+          "correct": false,
+          "feedback": "Eso es dividir la aceleración entre el tiempo: hay que multiplicar."
+        },
+        {
+          "id": "b",
+          "text": "$5\\,\\text{m s}^{-1}$",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "$6\\,\\text{m s}^{-1}$",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "$9\\,\\text{m s}^{-1}$",
+          "correct": false,
+          "feedback": "$9\\,\\text{m}$ es la distancia recorrida en esos 3 s, no la velocidad."
+        }
+      ],
+      "multiple": false,
+      "reveal": {
+        "explanationAfterAnswer": true,
+        "solutionsAtExamEnd": true
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "c450e99c-dcdf-46bc-9bf9-f66e6474aee9",
+      "rev": 1,
+      "statement": "¿Cuáles de estas magnitudes son vectoriales? Marca todas las que lo sean.",
+      "images": [],
+      "difficulty": 1,
+      "subjectId": "cdd8cf0e-2bce-418d-9242-d457f28a10da",
+      "topicIds": [
+        "90a1d840-8595-4762-a97c-cccdbbaca920"
+      ],
+      "tags": [
+        "magnitudes"
+      ],
+      "references": [],
+      "author": null,
+      "createdAt": "2026-11-08T10:00:00Z",
+      "updatedAt": "2026-11-08T10:00:00Z",
+      "license": "CC-BY-SA-4.0",
+      "explanation": "Fuerza y cantidad de movimiento tienen módulo, dirección y sentido. Masa y energía cinética sólo tienen módulo: son escalares.",
+      "type": "mcq",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Fuerza",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Masa",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cantidad de movimiento",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Energía cinética",
+          "correct": false
+        }
+      ],
+      "multiple": true,
+      "reveal": {
+        "explanationAfterAnswer": true,
+        "solutionsAtExamEnd": true
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "886bfb3a-83d0-4c7c-9eb4-aa95171cdbc3",
+      "rev": 1,
+      "statement": "Un ciclista acelera uniformemente desde el reposo. La gráfica muestra su velocidad durante los primeros 4 s: cada marca horizontal es 1 s y cada marca vertical, 2 m/s.\n\n![Gráfica velocidad-tiempo: recta que sube de 0 a 8 m/s en 4 s](qbimg:ab619f5b855ac4a159930a3b8be98e92648c848ed7ce6d855f09f713afee8c7c)",
+      "images": [
+        {
+          "hash": "ab619f5b855ac4a159930a3b8be98e92648c848ed7ce6d855f09f713afee8c7c",
+          "ext": "png",
+          "width": 200,
+          "height": 140,
+          "bytes": 530,
+          "alt": "Gráfica velocidad-tiempo: recta que sube de 0 a 8 m/s en 4 s"
+        }
+      ],
+      "difficulty": 3,
+      "subjectId": "cdd8cf0e-2bce-418d-9242-d457f28a10da",
+      "topicIds": [
+        "a92ae354-7f00-4bf6-8608-6e85fb1de8d7"
+      ],
+      "tags": [
+        "gráficas"
+      ],
+      "references": [],
+      "author": null,
+      "createdAt": "2026-11-08T10:00:00Z",
+      "updatedAt": "2026-11-08T10:00:00Z",
+      "license": "CC-BY-SA-4.0",
+      "type": "open",
+      "modelAnswer": "",
+      "criteria": [],
+      "keywords": [
+        "pendiente",
+        "área bajo la gráfica"
+      ],
+      "parts": [
+        {
+          "id": "a",
+          "statement": "Calcula la aceleración del ciclista.",
+          "modelAnswer": "Es la pendiente de la recta: $a = \\frac{\\Delta v}{\\Delta t} = \\frac{8}{4} = 2\\,\\text{m s}^{-2}$.",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "statement": "Calcula la distancia que recorre en esos 4 s.",
+          "modelAnswer": "Es el área bajo la gráfica, un triángulo: $s = \\frac{1}{2} \\cdot 4 \\cdot 8 = 16\\,\\text{m}$.",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "statement": "Explica cómo cambiaría la gráfica si la aceleración fuera el doble.",
+          "modelAnswer": "Seguiría siendo una recta desde el origen, con el doble de pendiente: llegaría a 8 m/s en 2 s.",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "d8edc965-a336-4bb6-923b-111b60a65d89",
+      "rev": 1,
+      "statement": "Which of the following is a fixed cost for a small bakery?",
+      "images": [],
+      "difficulty": 1,
+      "subjectId": "c8694349-4521-42e4-8f89-dc0ad7ecb861",
+      "topicIds": [
+        "c7bb5729-e253-4c06-8d70-643147ea961f"
+      ],
+      "tags": [
+        "costs"
+      ],
+      "references": [],
+      "author": null,
+      "createdAt": "2026-11-08T10:00:00Z",
+      "updatedAt": "2026-11-08T10:00:00Z",
+      "license": "CC-BY-SA-4.0",
+      "explanation": "Rent stays the same however many loaves are baked, in the short run. Flour, packaging and delivery fuel all rise with each extra unit sold, so they are variable costs.",
+      "type": "mcq",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rent for the premises",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Flour",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Packaging",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fuel for deliveries",
+          "correct": false
+        }
+      ],
+      "multiple": false,
+      "reveal": {
+        "explanationAfterAnswer": true,
+        "solutionsAtExamEnd": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "hash": "ab619f5b855ac4a159930a3b8be98e92648c848ed7ce6d855f09f713afee8c7c",
+      "ext": "png",
+      "width": 200,
+      "height": 140,
+      "bytes": 530,
+      "alt": "Gráfica velocidad-tiempo: recta que sube de 0 a 8 m/s en 4 s",
+      "base64": "iVBORw0KGgoAAAANSUhEUgAAAMgAAACMCAAAAAAc+rk4AAAB2UlEQVR42u3cuZXEMAwDUBWm/tuaSXZD2+IJ0APGCvQfGDHA+rxkliCCCCKIIIIIcgFZSxBBBBFEEEEEEUQQQX4Bsv6H+NN77zcksvcrIHu/A3LlGAa5ZMyC3DBGQW4dcyD3jDGQJ8YUyLNjBOSAMQFyxBgAOXSwQ04Z5JBzBjfE4iCGmBi8ECODFmJ2cELsDEqIh8EI8TnoIE4GG8TNILtrBRxMiUQYRJAYgwcSdZBAwgwOSAKDApLiwENyGHBIFgMNyXNAIYkMJCSVAYQkO1CQbAYIks/AQCocAEgJox9SxGiHlDl6IXWMVkgloxNS62iDFDO6IOWMprtWg6MjkQ5GA6SHUQ/pchRD2hi1kEZGKaTVUQfpZZRBuhlVkH5HCQTAqIBAGAUQkCMbgmIkQ3CMXAjSkQiBMvIgYEYaBO7IgeAZKRAGRgaEwxGGkDCiEBpG8K5F5IgkwsQIQLgYfgibwwmhY/gghAwXhNJhh3AyzBBWhhXC6zBBiBkWCDXDACF3nELYGYcQfsYZZILjADKC8QwZwniEjHHcQ+YwbiHOngXQu2uIt2eBDOLvWaCCRHoWmCB/jjVhniFrvQJCszKh1foQfVCQqSOIIIIIIogggggiiCC/A/kCywOVXe2EKCgAAAAASUVORK5CYII="
+    }
+  ]
+}

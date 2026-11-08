@@ -1,9 +1,11 @@
-import { AlertTriangle, CheckCircle2, CircleDashed, Clipboard, ExternalLink, GitPullRequest, RefreshCw, Send, Trash2, UploadCloud, XCircle } from 'lucide-react';
+import { AlertTriangle, CheckCircle2, ChevronDown, CircleDashed, Clipboard, ExternalLink, GitPullRequest, RefreshCw, Send, Trash2, UploadCloud, XCircle } from 'lucide-react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { identity, tokenReady } from '@/features/account/identity';
 import { excerpt } from '@/features/bank/questionsRepo';
+import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
+import { cn } from '@/ui/cn';
 import { config, hasCommunity } from '@/infra/config';
 import { db } from '@/infra/db/db';
 import { online } from '@/infra/connectivity';
@@ -17,7 +19,7 @@ import { Badge, Card, CardHeader, EmptyState, Notice, PageHeader, Spinner, type 
 import { timeAgo } from '@/ui/time';
 import { toast } from '@/ui/toast';
 import { syncCommunity, syncState, useManifestSummary } from './communitySync';
-import { awaitsGitHub, discardItem, flushWithToken, isOpen, manualTransport, markAwaitingUser, OUTBOX_STATUS_LABELS, refreshStatuses, useOutbox } from './outbox';
+import { awaitsGitHub, clearAccepted, discardItem, flushWithToken, isOpen, manualQueue, manualTransport, markAwaitingUser, OUTBOX_STATUS_LABELS, refreshStatuses, useOutbox } from './outbox';
 import { PublishDialog } from './PublishDialog';
 import { publishResults, PublishError, unpublishedAnswerCount } from './publish';
 import { resolveConflict, type ConflictChoice } from './reconcile';
@@ -117,8 +119,8 @@ function SendAction({ row }: { row: OutboxRow }) {
   );
 }
 
-function OutboxItem({ row }: { row: OutboxRow }) {
-  const manual = row.channel === 'issue' && (row.status === 'queued' || row.status === 'awaiting-user');
+function OutboxItem({ row, canSend }: { row: OutboxRow; canSend: boolean }) {
+  const manual = row.channel === 'issue' && (row.status === 'queued' || row.status === 'awaiting-user') && canSend;
   return (
     <li className="flex flex-col gap-2 px-4 py-3">
       <div className="flex flex-wrap items-center justify-between gap-2">
@@ -217,13 +219,25 @@ function OutboxCard() {
   if (!rows || rows.length === 0) return null;
   const pending = rows.some(awaitsGitHub);
   const queued = rows.filter((r) => r.status === 'queued' && r.channel === 'issue').length;
+  const manual = hasToken ? [] : manualQueue(rows);
+  const next = manual.find((r) => r.status === 'queued');
+  // Lo que falta confirmar va arriba y por orden: se envían uno tras otro sin buscarlos.
+  const ordered = [...manual, ...rows.filter((r) => !manual.includes(r))];
+  const processing = rows.filter((r) => r.status === 'sent').length;
+  const accepted = rows.filter((r) => r.status === 'accepted').length;
+  const summary = [manual.length > 0 ? `${manual.length} por confirmar en GitHub` : '', processing > 0 ? `${processing} procesándose` : '', accepted > 0 ? `${accepted} ${accepted === 1 ? 'publicado' : 'publicados'}` : ''].filter(Boolean).join(' · ');
   return (
     <Card>
       <CardHeader
         title="Envíos"
-        description={limit && !hasToken ? `Consultas a GitHub disponibles: ${limit.remaining} de ${limit.limit} esta hora` : undefined}
+        description={[summary, limit && !hasToken ? `Consultas a GitHub disponibles: ${limit.remaining} de ${limit.limit} esta hora` : ''].filter(Boolean).join('. ') || undefined}
         action={
-          <div className="flex gap-2">
+          <div className="flex flex-wrap justify-end gap-2">
+            {accepted > 0 ? (
+              <Button size="sm" variant="ghost" onClick={() => void clearAccepted()}>
+                Limpiar publicados
+              </Button>
+            ) : null}
             {hasToken && queued > 0 ? (
               <Button size="sm" variant="primary" icon={<Send size={14} aria-hidden />} onClick={() => void flushWithToken()}>
                 Enviar {queued}
@@ -238,8 +252,8 @@ function OutboxCard() {
         }
       />
       <ul className="divide-y divide-border">
-        {rows.map((row) => (
-          <OutboxItem key={row.id} row={row} />
+        {ordered.map((row) => (
+          <OutboxItem key={row.id} row={row} canSend={hasToken ? false : row === next || row.status === 'awaiting-user'} />
         ))}
       </ul>
     </Card>
@@ -250,14 +264,25 @@ function UnpublishedCard() {
   const user = identity.use();
   const rows = useLiveQuery(() => db.lQuestions.toArray(), []);
   const answers = useLiveQuery(() => unpublishedAnswerCount(), []);
+  const taxonomy = useTaxonomy();
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [publishing, setPublishing] = useState(false);
+  const [toggled, setToggled] = useState<Set<string>>(new Set());
   if (!rows || answers === undefined) return null;
   const publishable = rows.filter((row) => row.local.syncState === 'local' || row.local.syncState === 'rejected');
   if (publishable.length === 0 && answers === 0) return null;
 
   const allChecked = publishable.length > 0 && publishable.every((row) => selected.has(row.id));
   const chosen = publishable.filter((row) => selected.has(row.id)).map((row) => row.id);
+  const bySubject = new Map<string, typeof publishable>();
+  for (const row of publishable) {
+    const group = bySubject.get(row.subjectId);
+    if (group) group.push(row);
+    else bySubject.set(row.subjectId, [row]);
+  }
+  const groups = [...bySubject];
+  // Con pocas se ven de un vistazo; con muchas, se empieza por las asignaturas.
+  const openByDefault = publishable.length <= 30;
 
   return (
     <Card>
@@ -294,29 +319,75 @@ function UnpublishedCard() {
               </Button>
             </div>
             <ul className="flex flex-col gap-1.5">
-              {publishable.map((row) => (
-                <li key={row.id} className="flex items-start gap-2 text-[0.84375rem]">
-                  <Checkbox
-                    checked={selected.has(row.id)}
-                    onChange={(checked) =>
-                      setSelected((current) => {
-                        const next = new Set(current);
-                        if (checked) next.add(row.id);
-                        else next.delete(row.id);
-                        return next;
-                      })
-                    }
-                    label={<span className="sr-only">Elegir: {excerpt(row.statement, 60)}</span>}
-                  />
-                  <span className="min-w-0 flex-1">
-                    <Link to={`/q/${row.id}`} className="hover:text-accent-text hover:underline">
-                      {excerpt(row.statement, 110)}
-                    </Link>
-                    {row.local.baseRev !== null ? <Badge className="ml-1.5">Edición</Badge> : null}
-                    {row.local.syncState === 'rejected' ? <Badge tone="danger" className="ml-1.5">Rechazada</Badge> : null}
-                  </span>
-                </li>
-              ))}
+              {groups.map(([subjectId, group]) => {
+                const expanded = toggled.has(subjectId) ? !openByDefault : openByDefault;
+                const groupChecked = group.every((row) => selected.has(row.id));
+                return (
+                  <li key={subjectId} className="rounded-md border border-border">
+                    <div className="flex items-center gap-2 px-2.5 py-1.5">
+                      <Checkbox
+                        checked={groupChecked}
+                        onChange={(checked) =>
+                          setSelected((current) => {
+                            const next = new Set(current);
+                            for (const row of group) {
+                              if (checked) next.add(row.id);
+                              else next.delete(row.id);
+                            }
+                            return next;
+                          })
+                        }
+                        label={<span className="font-medium">{taxonomy?.index.subjects.get(subjectId)?.name ?? 'Sin asignatura'}</span>}
+                      />
+                      <span className="text-xs text-muted tabular-nums">{group.length}</span>
+                      <button
+                        type="button"
+                        aria-expanded={expanded}
+                        onClick={() =>
+                          setToggled((current) => {
+                            const next = new Set(current);
+                            if (!next.delete(subjectId)) next.add(subjectId);
+                            return next;
+                          })
+                        }
+                        className="ml-auto inline-flex items-center gap-1 text-xs text-muted hover:text-ink"
+                      >
+                        {expanded ? 'Ocultar' : 'Ver preguntas'}
+                        <ChevronDown size={12} className={cn('transition-transform', expanded && 'rotate-180')} aria-hidden />
+                      </button>
+                    </div>
+                    {expanded ? (
+                      <ul className="flex flex-col gap-1.5 border-t border-border p-2.5">
+                        {/* shortcut: se pintan las 200 primeras por grupo; con miles habría que paginar. Elegir el grupo entero las incluye todas. */}
+                        {group.slice(0, 200).map((row) => (
+                          <li key={row.id} className="flex items-start gap-2 text-[0.84375rem]">
+                            <Checkbox
+                              checked={selected.has(row.id)}
+                              onChange={(checked) =>
+                                setSelected((current) => {
+                                  const next = new Set(current);
+                                  if (checked) next.add(row.id);
+                                  else next.delete(row.id);
+                                  return next;
+                                })
+                              }
+                              label={<span className="sr-only">Elegir: {excerpt(row.statement, 60)}</span>}
+                            />
+                            <span className="min-w-0 flex-1">
+                              <Link to={`/q/${row.id}`} className="hover:text-accent-text hover:underline">
+                                {excerpt(row.statement, 110)}
+                              </Link>
+                              {row.local.baseRev !== null ? <Badge className="ml-1.5">Edición</Badge> : null}
+                              {row.local.syncState === 'rejected' ? <Badge tone="danger" className="ml-1.5">Rechazada</Badge> : null}
+                            </span>
+                          </li>
+                        ))}
+                        {group.length > 200 ? <li className="text-xs text-muted">Y {group.length - 200} más. Marca la asignatura para incluirlas todas.</li> : null}
+                      </ul>
+                    ) : null}
+                  </li>
+                );
+              })}
             </ul>
           </div>
         ) : null}

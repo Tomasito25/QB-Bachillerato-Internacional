@@ -15,12 +15,17 @@ export interface AnswerForm {
   feedback: string;
 }
 
-export interface PartForm {
+export interface SubpartForm {
   id: string;
   statement: string;
   modelAnswer: string;
   /** `null`: sin puntos. */
   marks: number | null;
+}
+
+export interface PartForm extends SubpartForm {
+  /** Vacío: se responde el apartado entero. */
+  subparts: SubpartForm[];
 }
 
 export interface CriterionForm {
@@ -131,7 +136,13 @@ export function questionToForm(question: Question): QuestionForm {
     modelAnswer: question.modelAnswer,
     criteria: question.criteria.map((c) => ({ ...c })),
     keywords: [...question.keywords],
-    parts: (question.parts ?? []).map((part) => ({ id: part.id, statement: part.statement, modelAnswer: part.modelAnswer, marks: part.marks ?? null })),
+    parts: (question.parts ?? []).map((part) => ({
+      id: part.id,
+      statement: part.statement,
+      modelAnswer: part.modelAnswer,
+      marks: part.marks ?? null,
+      subparts: (part.subparts ?? []).map((sub) => ({ id: sub.id, statement: sub.statement, modelAnswer: sub.modelAnswer, marks: sub.marks ?? null })),
+    })),
   };
 }
 
@@ -158,10 +169,14 @@ export function formToQuestion(form: QuestionForm, now: number = Date.now()): Fo
     else if (!form.multiple && answers.filter((a) => a.correct).length > 1) errors.answers = 'Con respuesta única sólo puede haber una correcta.';
   } else if (form.parts.length === 0 && !form.modelAnswer.trim()) {
     errors.modelAnswer = 'Escribe la respuesta modelo.';
-  } else if (form.parts.some((part) => !part.statement.trim())) {
+  } else if (form.parts.some((part) => part.subparts.length === 0 && !part.statement.trim())) {
     errors.parts = 'Hay apartados sin enunciado: complétalos o elimínalos.';
-  } else if (form.parts.some((part) => !part.modelAnswer.trim())) {
+  } else if (form.parts.some((part) => part.subparts.length === 0 && !part.modelAnswer.trim())) {
     errors.parts = 'Cada apartado necesita su solución.';
+  } else if (form.parts.some((part) => part.subparts.some((sub) => !sub.statement.trim()))) {
+    errors.parts = 'Hay subapartados sin enunciado: complétalos o elimínalos.';
+  } else if (form.parts.some((part) => part.subparts.some((sub) => !sub.modelAnswer.trim()))) {
+    errors.parts = 'Cada subapartado necesita su solución.';
   }
   if (form.references.some((r) => !r.title.trim())) errors.references = 'Cada referencia necesita un título.';
   if (hasErrors(errors)) return { question: null, errors };
@@ -200,7 +215,16 @@ export function formToQuestion(form: QuestionForm, now: number = Date.now()): Fo
           modelAnswer: form.modelAnswer.trim(),
           criteria: form.criteria.filter((c) => c.text.trim()).map((c) => ({ ...c, text: c.text.trim() })),
           keywords: form.keywords,
-          ...(form.parts.length > 0 ? { parts: form.parts.map((part) => ({ id: part.id, statement: part.statement.trim(), modelAnswer: part.modelAnswer.trim(), marks: part.marks ?? undefined })) } : {}),
+          ...(form.parts.length > 0
+            ? {
+                parts: form.parts.map((part) => ({
+                  id: part.id,
+                  statement: part.statement.trim(),
+                  modelAnswer: part.modelAnswer.trim(),
+                  ...(part.subparts.length > 0 ? { subparts: part.subparts.map((sub) => ({ id: sub.id, statement: sub.statement.trim(), modelAnswer: sub.modelAnswer.trim(), marks: sub.marks ?? undefined })) } : { marks: part.marks ?? undefined }),
+                })),
+              }
+            : {}),
         };
 
   const parsed = Question.safeParse(candidate);
@@ -240,7 +264,12 @@ export function removeImageReferences(form: QuestionForm, hash: string): Questio
     explanation: strip(form.explanation),
     modelAnswer: strip(form.modelAnswer),
     answers: form.answers.map((a) => ({ ...a, text: strip(a.text), feedback: strip(a.feedback) })),
-    parts: form.parts.map((part) => ({ ...part, statement: strip(part.statement), modelAnswer: strip(part.modelAnswer) })),
+    parts: form.parts.map((part) => ({
+      ...part,
+      statement: strip(part.statement),
+      modelAnswer: strip(part.modelAnswer),
+      subparts: part.subparts.map((sub) => ({ ...sub, statement: strip(sub.statement), modelAnswer: strip(sub.modelAnswer) })),
+    })),
   };
 }
 

@@ -157,3 +157,35 @@ export function SplitBar({ parts, label }: { parts: readonly { key: string; labe
     </div>
   );
 }
+
+/**
+ * Cuánto llevas de un total: dominadas, vistas y sin ver. Es una escala ordenada, así que va en un
+ * solo tono, de más a menos intenso; el número exacto siempre va escrito al lado.
+ */
+export function ProgressSegments({ label, mastered, seen, total, className }: { label: string; mastered: number; seen: number; total: number; className?: string }) {
+  const learning = Math.max(0, seen - mastered);
+  const width = (value: number) => `${total > 0 ? (value / total) * 100 : 0}%`;
+  const description = `${label}: ${mastered} dominadas, ${learning} vistas y ${Math.max(0, total - seen)} sin ver, de ${total}`;
+  return (
+    <div role="img" aria-label={description} title={description} className={cn('flex h-2 gap-[2px] overflow-hidden rounded-full bg-subtle', className)}>
+      {mastered > 0 ? <span className="bg-chart" style={{ width: width(mastered) }} /> : null}
+      {learning > 0 ? <span className="bg-chart/55" style={{ width: width(learning) }} /> : null}
+    </div>
+  );
+}
+
+export function ProgressLegend() {
+  const item = (swatch: string, text: string) => (
+    <li className="flex items-center gap-1.5">
+      <span className={cn('size-2.5 rounded-sm', swatch)} aria-hidden />
+      {text}
+    </li>
+  );
+  return (
+    <ul className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted">
+      {item('bg-chart', 'Dominadas')}
+      {item('bg-chart/55', 'Vistas')}
+      {item('bg-subtle border border-border', 'Sin ver')}
+    </ul>
+  );
+}

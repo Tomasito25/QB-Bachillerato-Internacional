@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { gradeAnswer, isCorrectSelection, partialScore, suggestFromParts, suggestSelfGrade } from '@core/questions/grading';
 import { duplicateIndexEntry, findDuplicates, jaccard, normalizeText, plainText, questionFingerprint, searchableText } from '@core/questions/normalize';
+import { scopePredicate } from '@core/questions/filter';
+import { gradedItems } from '@core/schema/question';
 import { scanImageReferences } from '@core/questions/refs';
 import { makeMcq, makeOpen } from '../fixtures';
 
@@ -71,6 +73,52 @@ describe('corrección', () => {
     expect(suggestFromParts(parts, { a: 2, b: 0 })).toBe(1);
     expect(suggestFromParts(parts, { a: 0, b: 2 })).toBe(0);
     expect(suggestFromParts(parts, { a: 2, b: 2 })).toBe(2);
+  });
+});
+
+describe('apartados y subapartados', () => {
+  const parts = [
+    { id: 'a', statement: 'Uno', modelAnswer: 'x', marks: 3 },
+    { id: 'b', statement: '', modelAnswer: '', subparts: [{ id: 'a', statement: 'Dos zarzamora', modelAnswer: 'y', marks: 1 }, { id: 'b', statement: 'Tres', modelAnswer: 'z' }] },
+  ];
+
+  it('se valora cada subapartado, o el apartado si no tiene', () => {
+    expect(gradedItems(parts)).toEqual([{ id: 'a', marks: 3 }, { id: 'b.a', marks: 1 }, { id: 'b.b', marks: undefined }]);
+    // 4 de 5 puntos es 0,8: se queda en «a medias».
+    expect(suggestFromParts(gradedItems(parts), { a: 2, 'b.a': 2, 'b.b': 0 })).toBe(1);
+    expect(suggestFromParts(gradedItems(parts), { a: 2, 'b.a': 2, 'b.b': 2 })).toBe(2);
+    expect(suggestFromParts(gradedItems(parts), { a: 2 })).toBeNull();
+  });
+
+  it('se busca también en los subapartados, y distinguen a dos preguntas', async () => {
+    const question = makeOpen({ modelAnswer: '', parts });
+    expect(searchableText(question)).toContain('zarzamora');
+    const other = makeOpen({ modelAnswer: '', parts: [parts[0] as (typeof parts)[0], { ...(parts[1] as (typeof parts)[1]), subparts: [{ id: 'a', statement: 'Otra cosa', modelAnswer: 'y' }] }] });
+    expect(await questionFingerprint(question)).not.toBe(await questionFingerprint(other));
+  });
+});
+
+describe('temario de estudio', () => {
+  const question = (...topicIds: string[]) => ({ topicIds });
+
+  it('«sólo» deja pasar lo que toque un tema marcado', () => {
+    const inScope = scopePredicate({ mode: 'only', topicIds: ['a', 'b'] });
+    expect(inScope(question('a'))).toBe(true);
+    expect(inScope(question('c', 'b'))).toBe(true);
+    expect(inScope(question('c'))).toBe(false);
+  });
+
+  it('«bloquear» saca todo lo que toque un tema marcado, aunque tenga otros', () => {
+    const inScope = scopePredicate({ mode: 'block', topicIds: ['a'] });
+    expect(inScope(question('a'))).toBe(false);
+    expect(inScope(question('c', 'a'))).toBe(false);
+    expect(inScope(question('c'))).toBe(true);
+  });
+
+  it('sin nada marcado no filtra: no se queda nadie sin preguntas por un descuido', () => {
+    expect(scopePredicate({ mode: 'only', topicIds: [] })(question('a'))).toBe(true);
+    expect(scopePredicate({ mode: 'block', topicIds: [] })(question('a'))).toBe(true);
+    expect(scopePredicate({ mode: 'all', topicIds: ['a'] })(question('b'))).toBe(true);
   });
 });
 

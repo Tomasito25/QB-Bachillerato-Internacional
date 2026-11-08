@@ -137,6 +137,16 @@ export async function discardItem(row: OutboxRow): Promise<void> {
   });
 }
 
+/** Los ya publicados sólo ocupan sitio en la lista: su rastro sigue en GitHub. */
+export async function clearAccepted(): Promise<void> {
+  await db.outbox.where('status').equals('accepted').delete();
+}
+
+/** Los que esperan que alguien los confirme en GitHub, primero el más antiguo. */
+export function manualQueue(rows: readonly OutboxRow[]): OutboxRow[] {
+  return rows.filter((r) => r.channel === 'issue' && (r.status === 'queued' || r.status === 'awaiting-user')).sort((a, b) => a.createdAt - b.createdAt);
+}
+
 /**
  * Pregunta a GitHub por el estado de los envíos. Una sola petición cubre todos, y sólo se hace
  * si hay algo pendiente. Va sin token si no lo hay, y por eso no puede hacerse a menudo.

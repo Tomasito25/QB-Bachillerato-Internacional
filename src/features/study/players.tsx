@@ -1,7 +1,7 @@
 import { Check, CheckCircle2, Circle, Square, SquareCheck, X, XCircle } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 import { correctAnswerIds, isCorrectSelection, SELF_GRADE_LABELS, suggestFromParts, suggestSelfGrade, type SelfGrade } from '@core/questions/grading';
-import { partLabel, type McqQuestion, type OpenQuestion } from '@core/schema/question';
+import { gradedItems, partLabel, subpartLabel, type McqQuestion, type OpenQuestion } from '@core/schema/question';
 import { shuffledOptions } from '@core/study/select';
 import { PartBlock, SolutionBlock } from '@/features/bank/QuestionView';
 import { Markdown } from '@/infra/markdown/Markdown';
@@ -160,7 +160,19 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
   const [partGrades, setPartGrades] = useState<Record<string, SelfGrade>>({});
   const [met, setMet] = useState<string[]>([...(initialCriteria ?? [])]);
   const parts = question.parts ?? [];
-  const suggestion = parts.length > 0 ? suggestFromParts(parts, partGrades) : question.criteria.length > 0 ? suggestSelfGrade(question.criteria, met) : null;
+  const suggestion = parts.length > 0 ? suggestFromParts(gradedItems(parts), partGrades) : question.criteria.length > 0 ? suggestSelfGrade(question.criteria, met) : null;
+
+  /** Lo que va bajo cada cosa que se responde: la caja de texto y, al corregir, solución y valoración. */
+  const answerArea = (id: string, label: string, modelAnswer: string) =>
+    !revealed ? (
+      <Textarea rows={3} value={drafts[id] ?? ''} onChange={(e) => setDrafts((current) => ({ ...current, [id]: e.target.value }))} placeholder="Tu respuesta, antes de ver la solución. No se guarda." aria-label={`Tu respuesta al apartado ${label}`} />
+    ) : (
+      <>
+        {drafts[id]?.trim() ? <p className="rounded-md border border-border bg-subtle p-3 text-sm whitespace-pre-wrap">{drafts[id]}</p> : null}
+        <SolutionBlock title="Solución" source={modelAnswer} question={question} />
+        {!committed ? <PartGrade label={label} value={partGrades[id]} onChange={(grade) => setPartGrades((current) => ({ ...current, [id]: grade }))} /> : null}
+      </>
+    );
 
   useEffect(() => {
     setDraft('');
@@ -174,23 +186,22 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
     <div className="flex flex-col gap-4">
       {parts.length > 0 ? (
         <ol className="flex flex-col gap-5">
-          {parts.map((part, index) => {
-            const label = partLabel(index);
-            const written = drafts[part.id]?.trim();
-            return (
-              <PartBlock key={part.id} question={question} part={part} index={index}>
-                {!revealed ? (
-                  <Textarea rows={3} value={drafts[part.id] ?? ''} onChange={(e) => setDrafts((current) => ({ ...current, [part.id]: e.target.value }))} placeholder="Tu respuesta, antes de ver la solución. No se guarda." aria-label={`Tu respuesta al apartado ${label}`} />
-                ) : (
-                  <>
-                    {written ? <p className="rounded-md border border-border bg-subtle p-3 text-sm whitespace-pre-wrap">{written}</p> : null}
-                    <SolutionBlock title="Solución" source={part.modelAnswer} question={question} />
-                    {!committed ? <PartGrade label={label} value={partGrades[part.id]} onChange={(grade) => setPartGrades((current) => ({ ...current, [part.id]: grade }))} /> : null}
-                  </>
-                )}
-              </PartBlock>
-            );
-          })}
+          {parts.map((part, index) => (
+            <PartBlock key={part.id} question={question} label={partLabel(index)} statement={part.statement} marks={part.marks}>
+              {part.subparts ? (
+                <ol className="flex flex-col gap-4">
+                  {part.subparts.map((sub, subIndex) => (
+                    <PartBlock key={sub.id} question={question} label={subpartLabel(subIndex)} statement={sub.statement} marks={sub.marks}>
+                      {answerArea(`${part.id}.${sub.id}`, `${partLabel(index)} ${subpartLabel(subIndex)}`, sub.modelAnswer)}
+                    </PartBlock>
+                  ))}
+                </ol>
+              ) : (
+                answerArea(part.id, partLabel(index), part.modelAnswer)
+              )}
+              {part.subparts && part.modelAnswer && revealed ? <SolutionBlock title="Solución común" source={part.modelAnswer} question={question} /> : null}
+            </PartBlock>
+          ))}
         </ol>
       ) : !revealed ? (
         <Textarea

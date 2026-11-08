@@ -1,12 +1,13 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import type { StudyMode } from '@core/schema/events';
 import { gradeAnswer, type SelfGrade } from '@core/questions/grading';
-import { filterQuestions, type QuestionFilter } from '@core/questions/filter';
+import { filterQuestions, scopePredicate, type QuestionFilter, type StudyScope } from '@core/questions/filter';
 import type { Question } from '@core/schema/question';
 import { selectBalanced, selectDue, selectPractice, type SelectionProgress } from '@core/study/select';
 import { DEFAULT_PARAMS, gradeFromResult, review } from '@core/srs/fsrs';
 import { buildTaxonomyIndex } from '@core/taxonomy/merge';
 import { bytesToBase64Url } from '@core/util/encoding';
+import { shuffle } from '@core/util/rng';
 import { loadQuestions, toQuestion } from '@/features/bank/questionsRepo';
 import { preferences } from '@/features/settings/preferences';
 import { loadSubjects } from '@/features/taxonomy/taxonomyRepo';
@@ -47,9 +48,16 @@ function toFilter(config: SessionConfig): QuestionFilter {
   };
 }
 
+/** Resumen del temario elegido, o `null` si entra todo. */
+export function scopeLabel(scope: StudyScope): string | null {
+  if (scope.mode === 'all' || scope.topicIds.length === 0) return null;
+  const topics = `${scope.topicIds.length} ${scope.topicIds.length === 1 ? 'tema' : 'temas'}`;
+  return scope.mode === 'only' ? `Sólo ${topics}` : `Todo menos ${topics}`;
+}
+
 export async function matchingQuestions(config: SessionConfig): Promise<Question[]> {
   const [questions, subjects] = await Promise.all([loadQuestions(), loadSubjects()]);
-  return filterQuestions(questions, toFilter(config), buildTaxonomyIndex(subjects)).map(toQuestion);
+  return filterQuestions(questions, toFilter(config), buildTaxonomyIndex(subjects)).filter(scopePredicate(preferences.get().studyScope)).map(toQuestion);
 }
 
 async function progressMap(): Promise<Map<string, SelectionProgress>> {
@@ -84,6 +92,12 @@ export async function pickQuestionIds(mode: StudyMode, config: SessionConfig): P
     return selectPractice(eligible, config.count, await progressMap(), now).map((q) => q.id);
   }
   if (mode === 'exam') return selectBalanced(pool, config.count).map((q) => q.id);
+  if (config.mix) {
+    const { mcq, open } = config.mix;
+    const progress = await progressMap();
+    const ofType = (type: Question['type'], count: number) => selectPractice(pool.filter((q) => q.type === type), count, progress, now);
+    return shuffle([...ofType('mcq', mcq), ...ofType('open', open)]).map((q) => q.id);
+  }
   return selectPractice(pool, config.count, await progressMap(), now).map((q) => q.id);
 }
 
@@ -99,7 +113,7 @@ export interface StartSessionInput {
 
 export async function startSession(input: StartSessionInput): Promise<string> {
   const questionIds = input.questionIds ?? (await pickQuestionIds(input.mode, input.config));
-  if (questionIds.length === 0) throw new SessionError('No hay preguntas que cumplan estas condiciones.');
+  if (questionIds.length === 0) throw new SessionError(scopeLabel(preferences.get().studyScope) ? 'No hay preguntas que cumplan estas condiciones dentro del temario que has elegido en Estudiar.' : 'No hay preguntas que cumplan estas condiciones.');
   const id = crypto.randomUUID();
   const row: SessionRow = {
     id,

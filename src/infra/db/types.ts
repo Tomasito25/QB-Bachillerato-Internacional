@@ -87,6 +87,8 @@ export interface SessionConfig {
   order?: 'random' | 'selected';
   /** Sólo repaso. */
   source?: 'due' | 'failed' | 'hard' | 'favorites';
+  /** Cuántas de cada tipo: para hacer justo lo que falta del objetivo diario. */
+  mix?: { mcq: number; open: number };
 }
 
 export interface SessionAnswer {

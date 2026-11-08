@@ -11,9 +11,10 @@ import { CompetitionEntryAnswer } from './competition.ts';
 
 export const SUBMISSION_VERSION = 1;
 
-export const MAX_QUESTIONS_PER_SUBMISSION = 20;
+/** Topes de seguridad: lo que manda en la práctica es que el envío quepa en el cuerpo de un issue. */
+export const MAX_QUESTIONS_PER_SUBMISSION = 500;
 export const MAX_ANSWERS_PER_SUBMISSION = 2000;
-export const MAX_IMAGES_PER_SUBMISSION = 12;
+export const MAX_IMAGES_PER_SUBMISSION = 40;
 
 const head = {
   v: z.literal(SUBMISSION_VERSION),

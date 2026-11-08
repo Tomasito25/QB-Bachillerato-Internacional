@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { Question } from '@core/schema/question';
 import { Submission } from '@core/schema/submission';
 import { SubjectDoc } from '@core/schema/taxonomy';
-import { decodeIssueBody } from '@core/submissions/envelope';
+import { decodeIssueBody, MAX_ISSUE_BODY_LENGTH } from '@core/submissions/envelope';
 import { connectWithToken, disconnect, identity, TokenScopeError } from '@/features/account/identity';
 import { saveLocalQuestion } from '@/features/bank/questionsRepo';
 import { discardItem, enqueue, flushWithToken, isOpen, LABEL_TO_STATUS, manualTransport, markAwaitingUser, markSent, refreshStatuses } from '@/features/sync/outbox';
@@ -24,6 +24,9 @@ beforeEach(async () => {
   identity.set(null);
   await clearToken();
 });
+
+/** Temario sólo local: es el que tiene que viajar con las preguntas. */
+const saveLocalSubject = () => db.lSubjects.put({ ...makeSubject(), local: { baseRev: null } });
 
 const attempt = (questionId: string, overrides: Partial<AttemptRow> = {}): AttemptRow => ({
   id: `attempt${Math.random().toString(36).slice(2, 10)}`,
@@ -89,30 +92,75 @@ describe('publicar preguntas por issue', () => {
     expect(manualTransport(row as OutboxRow).mode).toBe('url');
   });
 
-  it('un lote grande pasa al portapapeles o se parte, pero siempre es enviable', async () => {
+  it('mete en un issue todo lo que quepa: muchas preguntas cortas, un solo envío', async () => {
     await db.cSubjects.put(makeSubject());
-    const lorem = (seed: number) => Array.from({ length: 700 }, (_, i) => `palabra${(i * 7 + seed) % 97}`).join(' ');
-    const questions = Array.from({ length: 45 }, (_, i) => makeMcq({ id: uuid(), author: null, statement: lorem(i) }));
+    const questions = Array.from({ length: 80 }, (_, i) => makeMcq({ id: uuid(), author: null, statement: `Pregunta corta número ${i} sobre el hueso más largo` }));
     for (const q of questions) await saveLocalQuestion(q, null);
     const rows = await publishViaIssue(questions.map((q) => q.id), 'own');
-    expect(rows.length).toBeGreaterThanOrEqual(3);
-    for (const row of rows) expect(manualTransport(row).mode).not.toBe('too-large');
-    const all = (await Promise.all(rows.map(async (row) => Submission.parse(await decodeIssueBody(row.issueBody))))).flatMap((s) => (s.kind === 'questions' ? s.questions : []));
-    expect(all).toHaveLength(45);
+    expect(rows).toHaveLength(1);
+    const submission = Submission.parse(await decodeIssueBody((rows[0] as OutboxRow).issueBody));
+    expect(submission.kind === 'questions' && submission.questions).toHaveLength(80);
+  });
+
+  it('un lote enorme se reparte en envíos que caben, sin perder ninguna', async () => {
+    await db.cSubjects.put(makeSubject());
+    // Texto casi incomprimible: lo que ocupa de verdad es lo que decide el reparto.
+    const noise = (seed: number) => Array.from({ length: 400 }, (_, i) => ((seed + 1) * (i + 7) * 2654435761).toString(36)).join(' ');
+    const questions = Array.from({ length: 45 }, (_, i) => makeMcq({ id: uuid(), author: null, statement: noise(i) }));
+    for (const q of questions) await saveLocalQuestion(q, null);
+    const rows = await publishViaIssue(questions.map((q) => q.id), 'own');
+    expect(rows.length).toBeGreaterThanOrEqual(2);
+    for (const row of rows) {
+      expect(row.issueBody.length).toBeLessThanOrEqual(MAX_ISSUE_BODY_LENGTH);
+      expect(manualTransport(row).mode).not.toBe('too-large');
+    }
+    const submissions = await Promise.all(rows.map(async (row) => Submission.parse(await decodeIssueBody(row.issueBody))));
+    const all = submissions.flatMap((s) => (s.kind === 'questions' ? (s.questions as { id: string }[]) : []));
+    expect(new Set(all.map((q) => q.id)).size).toBe(45);
+  });
+
+  it('cada envío lleva su temario: no depende de que otro llegue antes', async () => {
+    await saveLocalSubject();
+    const noise = (seed: number) => Array.from({ length: 700 }, (_, i) => ((seed + 3) * (i + 11) * 2654435761).toString(36)).join(' ');
+    const questions = Array.from({ length: 30 }, (_, i) => makeMcq({ id: uuid(), author: null, statement: noise(i) }));
+    for (const q of questions) await saveLocalQuestion(q, null);
+    const rows = await publishViaIssue(questions.map((q) => q.id), 'own');
+    expect(rows.length).toBeGreaterThanOrEqual(2);
+    for (const row of rows) {
+      const submission = Submission.parse(await decodeIssueBody(row.issueBody));
+      expect(submission.kind === 'questions' && submission.subjects).toHaveLength(1);
+    }
   });
 
   it('parte el envío si lleva más imágenes de las que admite uno', async () => {
     await db.cSubjects.put(makeSubject());
     const questions = [];
-    for (let q = 0; q < 2; q++) {
-      const images = Array.from({ length: 8 }, (_, i) => ({ hash: `${q}${i}`.padEnd(64, 'f'), ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' }));
+    for (let q = 0; q < 5; q++) {
+      const images = Array.from({ length: 9 }, (_, i) => ({ hash: `${q}${i}`.padEnd(64, 'f'), ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' }));
       for (const image of images) await db.localImages.put({ ...image, blob: new NodeBlob([new Uint8Array(100)], { type: 'image/webp' }) as unknown as Blob, createdAt: 1 });
       questions.push(makeMcq({ id: uuid(), author: null, images, statement: images.map((image) => `![x](qbimg:${image.hash})`).join(' ') }));
     }
     for (const question of questions) await saveLocalQuestion(question, null);
     const rows = await publishViaIssue(questions.map((q) => q.id), 'own');
-    expect(rows).toHaveLength(2);
+    expect(rows.length).toBeGreaterThanOrEqual(2);
     for (const row of rows) expect(Submission.safeParse(await decodeIssueBody(row.issueBody)).success).toBe(true);
+  });
+
+  it('el tope de imágenes es por issue: las que caben por separado no se reducen', async () => {
+    await db.cSubjects.put(makeSubject());
+    const questions = [];
+    for (let q = 0; q < 4; q++) {
+      const image = { hash: `${q}a`.padEnd(64, 'e'), ext: 'webp' as const, width: 10, height: 10, bytes: 20_000, alt: '' };
+      const bytes = crypto.getRandomValues(new Uint8Array(20_000));
+      await db.localImages.put({ ...image, blob: new NodeBlob([bytes], { type: 'image/webp' }) as unknown as Blob, createdAt: 1 });
+      questions.push(makeMcq({ id: uuid(), author: null, images: [image], statement: `Con figura ${q} ![x](qbimg:${image.hash})` }));
+    }
+    for (const question of questions) await saveLocalQuestion(question, null);
+    // 80 KB en total: antes era un error y ahora son varios envíos, con las imágenes intactas.
+    const rows = await publishViaIssue(questions.map((q) => q.id), 'own');
+    expect(rows.length).toBeGreaterThanOrEqual(2);
+    const sent = (await Promise.all(rows.map(async (row) => Submission.parse(await decodeIssueBody(row.issueBody))))).flatMap((s) => (s.kind === 'questions' ? s.images : []));
+    expect(sent.map((i) => i.hash).sort()).toEqual(questions.map((q) => (q.images[0] as { hash: string }).hash).sort());
   });
 
   it('no publica lo que no existe', async () => {
@@ -444,9 +492,10 @@ describe('publicar con token: fork, commit y PR', () => {
     const question = await setUp();
     const calls = stubGitHub();
     await publishViaPull([question.id], 'own');
-    const blobs = calls.filter((c) => c.route.includes('/git/blobs')).map((c) => JSON.parse((c.body as { content: string }).content));
-    const questionDoc = blobs.find((b) => b.statement);
-    const subjectDoc = blobs.find((b) => b.units);
+    const tree = (calls.find((c) => c.route.includes('/git/trees'))?.body as { tree: { content?: string }[] }).tree;
+    const docs = tree.filter((f) => f.content).map((f) => JSON.parse(f.content as string));
+    const questionDoc = docs.find((b) => b.statement);
+    const subjectDoc = docs.find((b) => b.units);
     expect(questionDoc.author).toEqual({ login: 'ana', id: 11 });
     expect(subjectDoc.createdBy).toEqual({ login: 'ana', id: 11 });
     expect(Question.safeParse(questionDoc).success).toBe(true);

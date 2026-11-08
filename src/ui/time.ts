@@ -1,5 +1,11 @@
 const relative = new Intl.RelativeTimeFormat('es', { numeric: 'auto' });
 
+export function formatDuration(ms: number): string {
+  const minutes = Math.round(ms / 60_000);
+  if (minutes < 60) return `${minutes} min`;
+  return `${Math.floor(minutes / 60)} h ${minutes % 60} min`;
+}
+
 export function timeAgo(ms: number): string {
   const minutes = Math.round((ms - Date.now()) / 60_000);
   if (Math.abs(minutes) < 1) return 'ahora mismo';

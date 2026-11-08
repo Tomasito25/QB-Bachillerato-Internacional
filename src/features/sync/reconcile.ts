@@ -76,8 +76,9 @@ export async function reconcileLocal(): Promise<ReconcileReport> {
   const report: ReconcileReport = { promoted: 0, conflicts: 0, overlaysRemoved: 0 };
   await alignLocalTaxonomy();
   const rows = await db.lQuestions.toArray();
-  for (const row of rows) {
-    const community = await db.cQuestions.get(row.id);
+  const communityRows = await db.cQuestions.bulkGet(rows.map((row) => row.id));
+  for (const [index, row] of rows.entries()) {
+    const community = communityRows[index];
     if (!community) continue;
     const [mine, theirs] = await Promise.all([questionFingerprint(toQuestion(row)), questionFingerprint(toQuestion(community))]);
     const decision = classifyLocal(row, community, mine === theirs);

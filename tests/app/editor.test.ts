@@ -151,7 +151,7 @@ describe('del formulario a la pregunta', () => {
     expect(formToQuestion(open({})).errors.modelAnswer).toBeTruthy();
     // Sin apartados el campo no va: las versiones anteriores de la app rechazarían la pregunta.
     expect(formToQuestion(open({ modelAnswer: 'Sí' })).question).not.toHaveProperty('parts');
-    const part = { id: 'a', statement: ' ¿Cuánto vale? ', modelAnswer: ' 3 ', marks: null };
+    const part = { id: 'a', statement: ' ¿Cuánto vale? ', modelAnswer: ' 3 ', marks: null, subparts: [] };
     expect(formToQuestion(open({ parts: [{ ...part, statement: '' }] })).errors.parts).toBeTruthy();
     expect(formToQuestion(open({ parts: [{ ...part, modelAnswer: ' ' }] })).errors.parts).toBeTruthy();
     const { question } = formToQuestion(open({ parts: [part, { ...part, id: 'b', marks: 4 }] }));
@@ -161,16 +161,35 @@ describe('del formulario a la pregunta', () => {
     ]);
   });
 
+  it('los subapartados se validan, y el apartado que los tiene no necesita solución propia', () => {
+    const open = (subparts: QuestionForm['parts'][number]['subparts']) => validForm({ type: 'open', modelAnswer: '', parts: [{ id: 'a', statement: '', modelAnswer: '', marks: null, subparts }] });
+    const sub = { id: 'a', statement: ' Calcula ', modelAnswer: ' 3 ', marks: 2 };
+    expect(formToQuestion(open([{ ...sub, statement: ' ' }])).errors.parts).toMatch(/subapartados sin enunciado/);
+    expect(formToQuestion(open([{ ...sub, modelAnswer: '' }])).errors.parts).toMatch(/subapartado necesita/);
+    const { question } = formToQuestion(open([sub, { ...sub, id: 'b', marks: null }]));
+    expect(question?.type === 'open' && JSON.parse(JSON.stringify(question.parts))).toEqual([{ id: 'a', statement: '', modelAnswer: '', subparts: [{ id: 'a', statement: 'Calcula', modelAnswer: '3', marks: 2 }, { id: 'b', statement: 'Calcula', modelAnswer: '3' }] }]);
+    // Sin subapartados, el apartado sigue necesitando las dos cosas.
+    expect(formToQuestion(open([])).errors.parts).toMatch(/apartados sin enunciado/);
+  });
+
+  it('las imágenes de un subapartado cuentan como usadas, y se limpian al quitarlas', () => {
+    const images = [{ hash: HASH, ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' }];
+    const form = validForm({ type: 'open', modelAnswer: '', images, parts: [{ id: 'a', statement: '', modelAnswer: '', marks: null, subparts: [{ id: 'a', statement: `Mira ![x](qbimg:${HASH})`, modelAnswer: 'Esto', marks: null }] }] });
+    expect(formToQuestion(form).question).not.toBeNull();
+    expect(formToQuestion({ ...form, images: [] }).errors.images).toBeTruthy();
+    expect(removeImageReferences(form, HASH).parts[0]?.subparts[0]?.statement).toBe('Mira ');
+  });
+
   it('las imágenes de un apartado cuentan como usadas, y se limpian al quitarlas', () => {
     const images = [{ hash: HASH, ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' }];
-    const form = validForm({ type: 'open', modelAnswer: '', images, parts: [{ id: 'a', statement: `Mira ![x](qbimg:${HASH})`, modelAnswer: 'Esto', marks: null }] });
+    const form = validForm({ type: 'open', modelAnswer: '', images, parts: [{ id: 'a', statement: `Mira ![x](qbimg:${HASH})`, modelAnswer: 'Esto', marks: null, subparts: [] }] });
     expect(formToQuestion(form).question).not.toBeNull();
     expect(formToQuestion({ ...form, images: [] }).errors.images).toBeTruthy();
     expect(removeImageReferences(form, HASH).parts[0]?.statement).toBe('Mira ');
   });
 
   it('ida y vuelta sin perder datos', () => {
-    for (const original of [makeMcq({ tags: ['a'], references: [{ title: 'Gray' }] }), makeOpen(), makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: 'Uno', modelAnswer: 'Sí', marks: 3 }, { id: 'b', statement: 'Dos', modelAnswer: 'No' }] })]) {
+    for (const original of [makeMcq({ tags: ['a'], references: [{ title: 'Gray' }] }), makeOpen(), makeOpen({ modelAnswer: '', parts: [{ id: 'a', statement: 'Uno', modelAnswer: 'Sí', marks: 3 }, { id: 'b', statement: 'Dos', modelAnswer: 'No' }, { id: 'c', statement: '', modelAnswer: '', subparts: [{ id: 'a', statement: 'Tres', modelAnswer: 'Quizá', marks: 1 }] }] })]) {
       const { question, errors } = formToQuestion(questionToForm(original), Date.parse(original.updatedAt));
       expect(errors).toEqual({});
       expect(JSON.parse(JSON.stringify(question))).toEqual(JSON.parse(JSON.stringify(original)));

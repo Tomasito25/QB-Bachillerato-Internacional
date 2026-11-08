@@ -132,6 +132,35 @@ describe('descarga incremental', () => {
     expect(await db.cQuestions.count()).toBe(1);
   });
 
+  it('un fallo pasajero se reintenta solo, sin molestar a nadie', async () => {
+    const question = makeMcq();
+    await pages.put(`q/${SUBJECT_ID}/0`, 'questions', [question], SUBJECT_ID);
+    const path = (pages.shards.find((s) => s.kind === 'questions') as ManifestShard).path;
+    pages.failing.add(path);
+    setTimeout(() => pages.failing.delete(path), 100);
+    expect(await syncCommunity()).toMatchObject({ changed: 2 });
+    expect(await db.cQuestions.get(question.id)).toBeDefined();
+    expect(syncState.get().status).toBe('idle');
+  });
+
+  it('un fragmento que falla no impide aplicar los demás, y sólo él se pide otra vez', async () => {
+    const good = makeMcq();
+    const bad = makeMcq({ statement: 'La que no llega en el primer intento' });
+    await pages.put(`q/${SUBJECT_ID}/0`, 'questions', [good], SUBJECT_ID);
+    await pages.put(`q/${SUBJECT_ID}/1`, 'questions', [bad], SUBJECT_ID);
+    const path = (pages.shards.find((s) => s.id.endsWith('/1')) as ManifestShard).path;
+    pages.failing.add(path);
+    expect(await syncCommunity()).toBeNull();
+    expect(syncState.get().status).toBe('error');
+    expect(syncState.get().message).toMatch(/Faltan 1 de 3/);
+    expect(await db.cQuestions.get(good.id)).toBeDefined();
+    pages.failing.clear();
+    pages.fetched = [];
+    expect(await syncCommunity()).toMatchObject({ changed: 1 });
+    expect(pages.fetched).toEqual([path]);
+    expect(await db.cQuestions.get(bad.id)).toBeDefined();
+  });
+
   it('sin datos publicados no es un error', async () => {
     vi.stubGlobal('fetch', async () => new Response('', { status: 404 }));
     expect(await syncCommunity()).toBeNull();
