@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "1a1c179f-be1b-5b85-807e-9496a35cbcea",
+  "rev": 1,
+  "statement": "Un pequeño cohete de $2000\\,\\text{kg}$ despega en vertical. Sus motores expulsan $12\\,\\text{kg}$ de gases por segundo con una velocidad de $2700\\,\\text{m}\\,\\text{s}^{-1}$ respecto al cohete. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "cantidad de movimiento",
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "empuje",
+    "tercera ley"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el empuje.",
+      "modelAnswer": "$F = \\frac{\\Delta m}{\\Delta t}\\,v = 12\\cdot 2700 = 3{,}2\\times10^{4}\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la aceleración inicial.",
+      "modelAnswer": "$a = \\frac{3{,}24\\times10^{4} - 2000\\cdot 9{,}8}{2000} = 6{,}4\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la aceleración tras $60\\,\\text{s}$ de funcionamiento, si el empuje no cambia.",
+      "modelAnswer": "La masa es entonces de $2000 - 12\\cdot 60 = 1280\\,\\text{kg}$: $a = \\frac{3{,}24\\times10^{4}}{1280} - 9{,}8 = 16\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica, con la tercera ley de Newton, cómo acelera el cohete en el vacío, donde no tiene aire contra el que empujar.",
+      "modelAnswer": "El cohete ejerce una fuerza sobre los gases para expulsarlos, y los gases ejercen sobre él una fuerza igual y opuesta. No necesita ningún medio exterior.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Razona por qué la aceleración aumenta aunque el empuje sea constante.",
+      "modelAnswer": "Porque se va gastando combustible y baja la masa: con la misma fuerza neta (y mayor, al bajar también el peso), la aceleración crece.",
+      "marks": 1
+    }
+  ]
+}

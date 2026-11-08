@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "06793916-940e-5eb8-8377-178e0629dbfa",
+  "rev": 1,
+  "statement": "¿Cuál es la energía interna de $2{,}0\\,\\text{mol}$ de un gas ideal monoatómico a $300\\,\\text{K}$? Usa $R = 8{,}31\\,\\text{J}\\,\\text{K}^{-1}\\,\\text{mol}^{-1}$.",
+  "explanation": "$U = \\frac{3}{2}nRT = 1{,}5\\cdot 2{,}0\\cdot 8{,}31\\cdot 300 = 7{,}5\\times10^{3}\\,\\text{J}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$5{,}0\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$2{,}5\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$15\\,\\text{kJ}$",
+      "correct": false,
+      "feedback": "La energía interna es 3/2 nRT."
+    },
+    {
+      "id": "d",
+      "text": "$7{,}5\\,\\text{kJ}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

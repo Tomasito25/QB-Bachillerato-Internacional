@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "373e7721-095c-5188-8158-c347ce418984",
+  "rev": 1,
+  "statement": "Una bola atada a un hilo gira en un círculo horizontal de $0{,}50\\,\\text{m}$ de radio a $2{,}0\\,\\text{m}\\,\\text{s}^{-1}$. ¿Qué ángulo forma el hilo con la vertical? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "$T\\cos\\theta = mg$ y $T\\sin\\theta = \\frac{mv^2}{r}$. Dividiendo: $\\tan\\theta = \\frac{v^2}{rg} = \\frac{4{,}0}{4{,}9}$, y $\\theta = 39^{\\circ}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$51^{\\circ}$",
+      "correct": false,
+      "feedback": "Ése es el ángulo con la horizontal."
+    },
+    {
+      "id": "b",
+      "text": "$45^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$22^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$39^{\\circ}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

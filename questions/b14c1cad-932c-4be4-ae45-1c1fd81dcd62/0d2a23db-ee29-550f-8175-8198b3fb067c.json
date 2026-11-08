@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "0d2a23db-ee29-550f-8175-8198b3fb067c",
+  "rev": 1,
+  "statement": "Un rayo entra desde el aire por la cara plana de un bloque semicircular de vidrio, dirigido hacia el centro del arco, e incide con el ángulo crítico de $42^{\\circ}$ en la superficie vidrio-aire.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total",
+    "ley de Snell"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el índice de refracción del vidrio.",
+      "modelAnswer": "$n = \\frac{1}{\\sin 42^{\\circ}} = 1{,}5$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la velocidad de la luz en el vidrio.",
+      "modelAnswer": "$v = \\frac{3{,}0\\times10^{8}}{1{,}49} = 2{,}0\\times10^{8}\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Un rayo de $600\\,\\text{nm}$ en el aire entra en el vidrio. Calcula su longitud de onda en el vidrio.",
+      "modelAnswer": "$\\lambda = \\frac{600}{1{,}49} = 4{,}0\\times10^{2}\\,\\text{nm}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Calcula con qué ángulo sale al aire un rayo que llega desde dentro a la superficie con un ángulo de $25^{\\circ}$.",
+      "modelAnswer": "$\\sin\\theta = 1{,}49\\cdot\\sin 25^{\\circ} = 0{,}63$, y $\\theta = 39^{\\circ}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué, en la experiencia, no se desvía el rayo al entrar por la cara curva cuando apunta hacia el centro.",
+      "modelAnswer": "Porque el rayo entra por la cara curva siguiendo un radio, es decir, perpendicular a la superficie. El ángulo de incidencia es cero y no hay desviación.",
+      "marks": 2
+    },
+    {
+      "id": "f",
+      "statement": "Explica por qué esta medida del ángulo crítico es más fácil de hacer que una medida directa de los ángulos de refracción.",
+      "modelAnswer": "Porque basta con encontrar el ángulo en el que aparece la reflexión total, que es un cambio brusco, y sólo hace falta medir un ángulo.",
+      "marks": 1
+    }
+  ]
+}

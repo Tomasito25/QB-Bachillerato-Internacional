@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "179c884c-731b-5706-8d73-6fd99731c409",
+  "rev": 1,
+  "statement": "La gráfica muestra el desplazamiento de un punto de una cuerda frente al tiempo. Si la onda se propaga a $12\\,\\text{m}\\,\\text{s}^{-1}$, ¿cuál es su longitud de onda?\n\n![Gráfica sinusoidal de desplazamiento frente a tiempo de un punto de una onda: amplitud 4 mm y periodo 0,02 s.](qbimg:7d32131daa3dd403780a2d4e1723fef6d84aef7fb6048947d6dc24c6aeae8d5a)",
+  "explanation": "El periodo es de $0{,}020\\,\\text{s}$: $\\lambda = vT = 12\\cdot 0{,}020 = 0{,}24\\,\\text{m}$.",
+  "images": [
+    {
+      "hash": "7d32131daa3dd403780a2d4e1723fef6d84aef7fb6048947d6dc24c6aeae8d5a",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 5136,
+      "alt": "Gráfica sinusoidal de desplazamiento frente a tiempo de un punto de una onda: amplitud 4 mm y periodo 0,02 s."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$600\\,\\text{m}$",
+      "correct": false,
+      "feedback": "La longitud de onda es v/f."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}24\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$0{,}12\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$0{,}48\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

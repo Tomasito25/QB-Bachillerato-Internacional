@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "08d5146e-2d66-55a5-8052-1e594b5ba0e5",
+  "rev": 1,
+  "statement": "Un tubo cerrado por un extremo tiene un primer armónico de $120\\,\\text{Hz}$. ¿Cuál es la siguiente frecuencia de resonancia?",
+  "explanation": "Sólo hay armónicos impares: $3\\cdot 120 = 360\\,\\text{Hz}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "tubos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$240\\,\\text{Hz}$",
+      "correct": false,
+      "feedback": "En un tubo cerrado sólo existen los armónicos impares."
+    },
+    {
+      "id": "b",
+      "text": "$180\\,\\text{Hz}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$480\\,\\text{Hz}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$360\\,\\text{Hz}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

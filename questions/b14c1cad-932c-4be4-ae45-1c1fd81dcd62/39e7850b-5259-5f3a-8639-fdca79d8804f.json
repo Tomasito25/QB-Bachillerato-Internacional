@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "39e7850b-5259-5f3a-8639-fdca79d8804f",
+  "rev": 1,
+  "statement": "Una corriente recorre un hilo vertical hacia arriba. Visto desde arriba, las líneas de campo magnético que crea son:",
+  "explanation": "Con la regla de la mano derecha, el pulgar apunta en el sentido de la corriente, y los dedos, en el del campo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "circunferencias en el sentido de las agujas del reloj",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "circunferencias en sentido contrario a las agujas del reloj",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "rectas que salen radialmente del hilo",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "rectas paralelas al hilo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

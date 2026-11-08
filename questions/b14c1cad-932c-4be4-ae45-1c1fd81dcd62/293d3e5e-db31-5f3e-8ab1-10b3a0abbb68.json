@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "293d3e5e-db31-5f3e-8ab1-10b3a0abbb68",
+  "rev": 1,
+  "statement": "Un electrón se mueve hacia la derecha, dentro de un campo magnético perpendicular que entra en la página. ¿Hacia dónde actúa la fuerza?",
+  "explanation": "Para una carga positiva, $\\vec{v}\\times\\vec{B}$ apuntaría hacia arriba. El electrón tiene carga negativa: hacia abajo.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hacia arriba",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Hacia la derecha",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hacia abajo",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Hacia dentro de la página",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

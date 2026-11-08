@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "32711676-b378-5dc8-8333-70844360342c",
+  "rev": 1,
+  "statement": "Un hervidor de $1800\\,\\text{W}$, para $230\\,\\text{V}$, tiene un elemento calefactor de nicromo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "potencia eléctrica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la resistencia del elemento en caliente.",
+      "modelAnswer": "$R = \\frac{V^2}{P} = \\frac{230^2}{1800} = 29\\,\\Omega$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la corriente que circula.",
+      "modelAnswer": "$I = \\frac{1800}{230} = 7{,}8\\,\\text{A}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Con la mitad de tensión y la misma resistencia, calcula la potencia y cuánto más tardaría en calentar la misma agua.",
+      "modelAnswer": "$P = \\frac{115^2}{29{,}4} = 450\\,\\text{W}$: una cuarta parte de la potencia, luego tardaría $4$ veces más.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula el tiempo para llevar $1{,}0\\,\\text{kg}$ de agua de 20 a $100\\,^{\\circ}\\text{C}$ con un rendimiento del $85\\,\\%$. Usa $c = 4180\\,\\text{J}\\,\\text{kg}^{-1}\\,\\text{K}^{-1}$.",
+      "modelAnswer": "$E = \\frac{1{,}0\\cdot 4180\\cdot 80}{0{,}85} = 3{,}9\\times10^{5}\\,\\text{J}$; $t = \\frac{3{,}9\\times10^{5}}{1800} = 2{,}2\\times10^{2}\\,\\text{s}$.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué el enchufe y el cable necesitan toma de tierra si la carcasa es metálica.",
+      "modelAnswer": "Si un fallo pusiera la carcasa bajo tensión, la corriente iría a tierra por el camino de baja resistencia y haría saltar el fusible o el diferencial, en lugar de pasar por una persona.",
+      "marks": 2
+    }
+  ]
+}

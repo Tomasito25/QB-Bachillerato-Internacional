@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "233f643d-bf1a-58dc-8890-d957f7405dfc",
+  "rev": 1,
+  "statement": "Un electrón parte del reposo y se acelera con una diferencia de potencial de $150\\,\\text{V}$. ¿Cuál es su energía cinética final?",
+  "explanation": "$E_k = eV = 1{,}6\\times10^{-19}\\cdot 150 = 2{,}4\\times10^{-17}\\,\\text{J}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "campo uniforme"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$150\\,\\text{J}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$2{,}4\\times10^{-17}\\,\\text{J}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1{,}1\\times10^{-28}\\,\\text{J}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$1{,}5\\times10^{-17}\\,\\text{J}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

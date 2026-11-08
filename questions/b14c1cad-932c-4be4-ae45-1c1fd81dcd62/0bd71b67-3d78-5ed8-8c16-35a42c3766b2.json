@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0bd71b67-3d78-5ed8-8c16-35a42c3766b2",
+  "rev": 1,
+  "statement": "Un neumático contiene aire a $240\\,\\text{kPa}$ y $15\\,^{\\circ}\\text{C}$. Con volumen constante, se calienta hasta $45\\,^{\\circ}\\text{C}$. ¿Cuál es la nueva presión?",
+  "explanation": "$\\frac{P_2}{P_1} = \\frac{T_2}{T_1} = \\frac{318}{288}$, luego $P_2 = 265\\,\\text{kPa}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "leyes de los gases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$720\\,\\text{kPa}$",
+      "correct": false,
+      "feedback": "Hay que usar kelvin: la temperatura no se ha triplicado."
+    },
+    {
+      "id": "b",
+      "text": "$217\\,\\text{kPa}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$265\\,\\text{kPa}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$320\\,\\text{kPa}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

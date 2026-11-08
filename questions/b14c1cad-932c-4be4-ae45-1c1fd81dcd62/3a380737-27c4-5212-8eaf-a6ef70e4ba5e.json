@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "3a380737-27c4-5212-8eaf-a6ef70e4ba5e",
+  "rev": 1,
+  "statement": "Un cohete de agua sale del reposo, en vertical, con una aceleración constante de $8{,}0\\,\\text{m}\\,\\text{s}^{-2}$ durante $10\\,\\text{s}$; en ese momento se le acaba el combustible. A partir de ahí sólo actúa la gravedad. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$ e ignora el aire.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "MRUA",
+    "caída libre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad y la altura en el instante en que se acaba el combustible.",
+      "modelAnswer": "$v = 8{,}0\\cdot 10 = 80\\,\\text{m}\\,\\text{s}^{-1}$; $h = \\frac{1}{2}\\cdot 8{,}0\\cdot 10^2 = 400\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la altura máxima.",
+      "modelAnswer": "Sigue subiendo $\\frac{80^2}{2\\cdot 9{,}8} = 327\\,\\text{m}$: altura máxima $727\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina el tiempo total de vuelo, desde el lanzamiento hasta volver al suelo.",
+      "modelAnswer": "Subida sin combustible: $\\frac{80}{9{,}8} = 8{,}2\\,\\text{s}$. Caída desde $727\\,\\text{m}$: $\\sqrt{\\frac{2\\cdot 727}{9{,}8}} = 12{,}2\\,\\text{s}$. Total: $10 + 8{,}2 + 12{,}2 = 30\\,\\text{s}$.",
+      "marks": 4
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la rapidez con la que llega al suelo.",
+      "modelAnswer": "$v = \\sqrt{2\\cdot 9{,}8\\cdot 727} = 119\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "En la realidad el aire no es despreciable. Indica cómo afecta a la altura máxima y a la rapidez de llegada, y justifica por qué el tiempo de bajada sería mayor que el de subida.",
+      "modelAnswer": "Las dos se reducen, porque el aire disipa energía. En cada altura el cohete baja más despacio de lo que subió, porque ha perdido energía, y tarda más en bajar.",
+      "marks": 3
+    }
+  ]
+}

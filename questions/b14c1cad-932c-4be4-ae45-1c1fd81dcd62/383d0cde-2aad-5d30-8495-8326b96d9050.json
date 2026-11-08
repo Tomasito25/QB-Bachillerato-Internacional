@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "383d0cde-2aad-5d30-8495-8326b96d9050",
+  "rev": 1,
+  "statement": "El núcleo de una fibra óptica tiene índice $1{,}50$, y el revestimiento, $1{,}46$. ¿Cuál es el ángulo crítico en la superficie de separación?",
+  "explanation": "$\\sin\\theta_c = \\frac{1{,}46}{1{,}50}$, de donde $\\theta_c = 77^{\\circ}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total",
+    "fibra óptica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$42^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$13^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$67^{\\circ}$",
+      "correct": false,
+      "feedback": "Comprueba el cociente: es 1,46 dividido entre 1,50."
+    },
+    {
+      "id": "d",
+      "text": "$77^{\\circ}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

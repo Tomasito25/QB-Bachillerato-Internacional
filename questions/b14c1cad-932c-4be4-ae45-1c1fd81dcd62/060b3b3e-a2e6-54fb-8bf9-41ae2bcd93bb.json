@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "060b3b3e-a2e6-54fb-8bf9-41ae2bcd93bb",
+  "rev": 1,
+  "statement": "Un coche de $1400\\,\\text{kg}$ que va a $20\\,\\text{m}\\,\\text{s}^{-1}$ hacia el este choca de frente con otro de $900\\,\\text{kg}$ que va a $10\\,\\text{m}\\,\\text{s}^{-1}$ hacia el oeste. Los coches quedan enganchados.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "choques",
+    "cantidad de movimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "fuerza externa",
+    "choque inelástico"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la velocidad justo después del choque.",
+      "modelAnswer": "Con el este positivo: $1400\\cdot 20 - 900\\cdot 10 = 2300\\,v$, luego $v = 8{,}3\\,\\text{m}\\,\\text{s}^{-1}$ hacia el este.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la energía cinética perdida en el choque.",
+      "modelAnswer": "Antes: $\\frac{1}{2}\\cdot 1400\\cdot 20^2 + \\frac{1}{2}\\cdot 900\\cdot 10^2 = 3{,}25\\times10^{5}\\,\\text{J}$. Después: $\\frac{1}{2}\\cdot 2300\\cdot 8{,}26^2 = 7{,}8\\times10^{4}\\,\\text{J}$. Se pierden $2{,}5\\times10^{5}\\,\\text{J}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Los coches derrapan juntos, con $\\mu = 0{,}70$. Calcula la distancia que recorren hasta pararse.",
+      "modelAnswer": "$a = \\mu g = 6{,}9\\,\\text{m}\\,\\text{s}^{-2}$; $d = \\frac{8{,}26^2}{2\\cdot 6{,}86} = 5{,}0\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El choque dura $0{,}12\\,\\text{s}$. Calcula la fuerza media sobre el coche más ligero.",
+      "modelAnswer": "Su variación de velocidad es de $8{,}26 - (-10) = 18{,}3\\,\\text{m}\\,\\text{s}^{-1}$: $F = \\frac{900\\cdot 18{,}3}{0{,}12} = 1{,}4\\times10^{5}\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Razona si el sistema formado por los dos coches conserva la cantidad de movimiento durante el derrape.",
+      "modelAnswer": "No: el rozamiento es una fuerza externa neta sobre el sistema. Se puede tratar como conservada sólo en el instante del choque, cuando las fuerzas internas son mucho mayores.",
+      "marks": 2
+    }
+  ]
+}

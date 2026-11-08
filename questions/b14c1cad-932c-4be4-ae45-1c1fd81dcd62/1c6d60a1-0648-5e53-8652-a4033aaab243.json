@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1c6d60a1-0648-5e53-8652-a4033aaab243",
+  "rev": 1,
+  "statement": "¿Cuántas moléculas hay en $1{,}0\\,\\text{m}^{3}$ de gas ideal a $100\\,\\text{kPa}$ y $290\\,\\text{K}$? Usa $k_B = 1{,}38\\times10^{-23}\\,\\text{J}\\,\\text{K}^{-1}$.",
+  "explanation": "$N = \\frac{PV}{k_BT} = \\frac{1{,}0\\times10^{5}}{1{,}38\\times10^{-23}\\cdot 290} = 2{,}5\\times10^{25}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}0\\times10^{23}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$2{,}5\\times10^{25}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$4{,}0\\times10^{25}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$2{,}5\\times10^{22}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

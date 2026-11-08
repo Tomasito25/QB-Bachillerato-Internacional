@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "341bc793-a294-55cd-8540-28d323f5a67d",
+  "rev": 1,
+  "statement": "Para medir la velocidad de un proyectil de $15\\,\\text{g}$, se dispara contra un bloque de madera de $2{,}0\\,\\text{kg}$ que cuelga de un hilo largo. El proyectil queda incrustado y el bloque se eleva $7{,}0\\,\\text{cm}$. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "choques",
+    "conservación de la energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "cantidad de movimiento",
+    "energía disipada"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad del bloque justo después del impacto.",
+      "modelAnswer": "Conservación de la energía durante el balanceo: $v = \\sqrt{2gh} = \\sqrt{2\\cdot 9{,}8\\cdot 0{,}070} = 1{,}2\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la velocidad del proyectil antes del impacto.",
+      "modelAnswer": "La cantidad de movimiento se conserva en el impacto: $0{,}015\\,u = 2{,}015\\cdot 1{,}17$, luego $u = 1{,}6\\times10^{2}\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula qué porcentaje de la energía cinética del proyectil queda como energía cinética del conjunto.",
+      "modelAnswer": "Inicial: $\\frac{1}{2}\\cdot 0{,}015\\cdot 157^2 = 186\\,\\text{J}$. Conjunto: $\\frac{1}{2}\\cdot 2{,}015\\cdot 1{,}17^2 = 1{,}4\\,\\text{J}$. Queda un $0{,}74\\,\\%$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué no se puede aplicar la conservación de la energía mecánica al impacto, pero sí a la subida del bloque.",
+      "modelAnswer": "En el impacto la energía se disipa como calor y deformación de la madera, aunque se conserva la cantidad de movimiento. En la subida sólo actúan el peso y la tensión, que no hace trabajo porque es perpendicular al movimiento.",
+      "marks": 3
+    }
+  ]
+}

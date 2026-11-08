@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "01b6d234-bc8f-5889-8d10-f07ebc8030de",
+  "rev": 1,
+  "statement": "En un espectrómetro de masas se acelera, desde el reposo y con una tensión de $2000\\,\\text{V}$, un ion de neón con carga $+2e$ y masa de $3{,}65\\times10^{-26}\\,\\text{kg}$. Después entra perpendicularmente en un campo magnético uniforme de $0{,}25\\,\\text{T}$. Usa $e = 1{,}6\\times10^{-19}\\,\\text{C}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "espectrómetro de masas",
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "energía cinética",
+    "isótopos"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la rapidez con la que entra en el campo magnético.",
+      "modelAnswer": "$qV = \\frac{1}{2}mv^2$: $v = \\sqrt{\\frac{2\\cdot 2\\cdot 1{,}6\\times10^{-19}\\cdot 2000}{3{,}65\\times10^{-26}}} = 1{,}9\\times10^{5}\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Determina el radio de su trayectoria.",
+      "modelAnswer": "$r = \\frac{mv}{qB} = \\frac{3{,}65\\times10^{-26}\\cdot 1{,}87\\times10^{5}}{3{,}2\\times10^{-19}\\cdot 0{,}25} = 8{,}5\\,\\text{cm}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Muestra que, con la misma tensión y campo, el radio es proporcional a $\\sqrt{\\frac{m}{q}}$.",
+      "modelAnswer": "Como $v = \\sqrt{\\frac{2qV}{m}}$, $r = \\frac{mv}{qB} = \\frac{1}{B}\\sqrt{\\frac{2mV}{q}}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El isótopo más pesado tiene una masa $\\frac{22}{20}$ veces mayor. Calcula la distancia entre los puntos de impacto de los dos isótopos, tras media vuelta.",
+      "modelAnswer": "El radio del pesado es $\\sqrt{1{,}1} = 1{,}05$ veces mayor: $8{,}9\\,\\text{cm}$. Tras media vuelta, los impactos distan $2\\,(8{,}9 - 8{,}5) = 0{,}8\\,\\text{cm}$.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Explica para qué sirve un selector de velocidades antes del campo magnético.",
+      "modelAnswer": "Para que todos los iones tengan la misma velocidad: el radio depende entonces sólo de la relación masa/carga.",
+      "marks": 1
+    }
+  ]
+}

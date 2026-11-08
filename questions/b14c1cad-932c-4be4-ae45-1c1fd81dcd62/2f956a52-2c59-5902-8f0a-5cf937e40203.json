@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2f956a52-2c59-5902-8f0a-5cf937e40203",
+  "rev": 1,
+  "statement": "¿Cuál de estas cantidades de carga es imposible para un objeto aislado? Usa $e = 1{,}6\\times10^{-19}\\,\\text{C}$.",
+  "explanation": "La carga está cuantizada: $2{,}4\\times10^{-19}\\,\\text{C}$ corresponde a $1{,}5\\,e$, que no es un múltiplo entero.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "carga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}2\\times10^{-19}\\,\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$1{,}6\\times10^{-18}\\,\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4{,}8\\times10^{-19}\\,\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$2{,}4\\times10^{-19}\\,\\text{C}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

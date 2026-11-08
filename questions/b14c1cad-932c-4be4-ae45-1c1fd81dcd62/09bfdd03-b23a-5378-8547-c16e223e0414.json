@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "09bfdd03-b23a-5378-8547-c16e223e0414",
+  "rev": 1,
+  "statement": "Una cuerda fija por los dos extremos vibra en su tercer armónico. ¿Cuántos nodos tiene, contando los extremos?",
+  "explanation": "Con $n$ vientres hay $n + 1$ nodos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "armónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3$",
+      "correct": false,
+      "feedback": "Tiene tres vientres; los nodos son uno más."
+    },
+    {
+      "id": "b",
+      "text": "$2$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$6$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

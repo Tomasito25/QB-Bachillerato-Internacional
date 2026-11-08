@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "21aa3b8b-d198-554a-8e23-63136800cc7d",
+  "rev": 1,
+  "statement": "Un coche va a $72\\,\\text{km}\\,\\text{h}^{-1}$. Su conductora reacciona en $0{,}80\\,\\text{s}$ y luego frena a $5{,}0\\,\\text{m}\\,\\text{s}^{-2}$. ¿Qué distancia recorre desde que ve el obstáculo hasta pararse?",
+  "explanation": "$72\\,\\text{km}\\,\\text{h}^{-1}$ son $20\\,\\text{m}\\,\\text{s}^{-1}$. Reacción: $20\\cdot 0{,}80 = 16\\,\\text{m}$. Frenada: $\\frac{20^2}{2\\cdot 5{,}0} = 40\\,\\text{m}$. Total: $56\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "MRUA",
+    "frenada"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$40\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Falta lo que recorre durante el tiempo de reacción, sin frenar."
+    },
+    {
+      "id": "b",
+      "text": "$56\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$16\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Ésa es sólo la distancia de reacción."
+    },
+    {
+      "id": "d",
+      "text": "$72\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

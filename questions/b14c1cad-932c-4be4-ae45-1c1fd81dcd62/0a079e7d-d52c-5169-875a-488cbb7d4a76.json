@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0a079e7d-d52c-5169-875a-488cbb7d4a76",
+  "rev": 1,
+  "statement": "La cabina de un ascensor de $1200\\,\\text{kg}$ sube a $2{,}5\\,\\text{m}\\,\\text{s}^{-1}$ compensada por un contrapeso de $800\\,\\text{kg}$. Sin pérdidas, ¿qué potencia necesita el motor? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "El motor sólo aporta la diferencia: $P = (1200 - 800)\\cdot 9{,}8\\cdot 2{,}5 = 9{,}8\\times10^{3}\\,\\text{W}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "potencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$29\\,\\text{kW}$",
+      "correct": false,
+      "feedback": "El contrapeso baja mientras sube la cabina y aporta parte de esa potencia."
+    },
+    {
+      "id": "b",
+      "text": "$20\\,\\text{kW}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$9{,}8\\,\\text{kW}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$3{,}9\\,\\text{kW}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

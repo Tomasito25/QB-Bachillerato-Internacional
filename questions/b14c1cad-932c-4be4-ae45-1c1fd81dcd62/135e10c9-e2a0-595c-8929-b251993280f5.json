@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "135e10c9-e2a0-595c-8929-b251993280f5",
+  "rev": 1,
+  "statement": "En el circuito de la figura, la fuente es ideal.\n\n![Circuito: fuente de 24 V sin resistencia interna, R1 de 8,0 Ω en serie con el paralelo de R2 de 12 Ω y R3 de 24 Ω.](qbimg:f8265ea5472b14f84c15af83f8618b42e40e5c390a8709e86f32bac7b46972a0)",
+  "images": [
+    {
+      "hash": "f8265ea5472b14f84c15af83f8618b42e40e5c390a8709e86f32bac7b46972a0",
+      "ext": "png",
+      "width": 560,
+      "height": 320,
+      "bytes": 1742,
+      "alt": "Circuito: fuente de 24 V sin resistencia interna, R1 de 8,0 Ω en serie con el paralelo de R2 de 12 Ω y R3 de 24 Ω."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "asociación de resistencias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "paralelo",
+    "conservación de la energía"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la resistencia equivalente del circuito.",
+      "modelAnswer": "Paralelo: $\\frac{1}{R_p} = \\frac{1}{12} + \\frac{1}{24}$, $R_p = 8{,}0\\,\\Omega$. Total: $16\\,\\Omega$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la corriente que atraviesa cada resistencia.",
+      "modelAnswer": "$I_1 = \\frac{24}{16} = 1{,}5\\,\\text{A}$. La tensión del paralelo es de $12\\,\\text{V}$: $I_2 = 1{,}0\\,\\text{A}$ e $I_3 = 0{,}50\\,\\text{A}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la potencia que disipa cada resistencia y comprueba que la suma coincide con la que entrega la fuente.",
+      "modelAnswer": "$P_1 = 1{,}5^2\\cdot 8{,}0 = 18\\,\\text{W}$; $P_2 = 12\\,\\text{W}$; $P_3 = 6{,}0\\,\\text{W}$. Suma: $36\\,\\text{W}$, igual a $\\varepsilon I = 24\\cdot 1{,}5 = 36\\,\\text{W}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Se desconecta $R_3$. Razona cualitativamente cómo cambia la tensión en $R_2$, y comprueba el resultado.",
+      "modelAnswer": "Aumenta la resistencia total, baja la corriente y cae menos tensión en $R_1$, así que queda más para $R_2$. Con $R_{\\text{total}} = 20\\,\\Omega$, $I = 1{,}2\\,\\text{A}$ y $V_2 = 14{,}4\\,\\text{V}$, mayor que $12\\,\\text{V}$.",
+      "marks": 3
+    }
+  ]
+}

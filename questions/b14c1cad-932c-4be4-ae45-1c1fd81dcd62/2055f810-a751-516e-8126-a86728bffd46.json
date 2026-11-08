@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2055f810-a751-516e-8126-a86728bffd46",
+  "rev": 1,
+  "statement": "Si la distancia entre dos masas puntuales se triplica, la fuerza gravitatoria entre ellas:",
+  "explanation": "$F \\propto \\frac{1}{r^2}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "ley de gravitación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "se divide entre 3",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "se divide entre 9",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "se multiplica por 9",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "no cambia",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

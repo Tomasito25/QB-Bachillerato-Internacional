@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "1449c6c1-4289-5973-8f50-eaa4cf20ac83",
+  "rev": 1,
+  "statement": "La Luna da una vuelta a la Tierra cada $27{,}3$ días, con un radio de $3{,}84\\times10^{8}\\,\\text{m}$. ¿Cuál es su rapidez orbital?",
+  "explanation": "$v = \\frac{2\\pi r}{T} = \\frac{2\\pi\\cdot 3{,}84\\times10^{8}}{2{,}36\\times10^{6}} = 1{,}0\\times10^{3}\\,\\text{m}\\,\\text{s}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "órbitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}6\\times10^{2}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$1{,}0\\times10^{3}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$3{,}1\\times10^{3}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$2{,}3\\times10^{-6}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false,
+      "feedback": "Esa es la velocidad angular en radianes por segundo."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
