@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "edef02a8-07de-563c-859e-f4f7d3213a15",
+  "rev": 1,
+  "statement": "¿Cuál de estas superficies tiene un albedo mayor?",
+  "explanation": "El albedo es la fracción de la radiación incidente que se refleja. La nieve reciente refleja la mayor parte de la luz (albedo cercano a 0,8), mientras que el océano, el bosque y el asfalto absorben casi toda.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "albedo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Océano abierto",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Bosque de coníferas",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Asfalto",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Nieve reciente",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

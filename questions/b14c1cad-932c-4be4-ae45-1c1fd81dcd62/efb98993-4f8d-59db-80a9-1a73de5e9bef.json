@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "efb98993-4f8d-59db-80a9-1a73de5e9bef",
+  "rev": 1,
+  "statement": "El satélite B orbita a un radio cuatro veces mayor que el satélite A, ambos en órbitas circulares alrededor del mismo planeta. ¿Cuántas veces mayor es el periodo de B?",
+  "explanation": "Tercera ley de Kepler: $T^2 \\propto r^3$. Por tanto, $\\frac{T_B}{T_A} = 4^{3/2} = 8$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "leyes de Kepler"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "2",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "8",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "4",
+      "correct": false,
+      "feedback": "El periodo no es proporcional al radio."
+    },
+    {
+      "id": "d",
+      "text": "16",
+      "correct": false,
+      "feedback": "Es la tercera ley de Kepler: el cuadrado del periodo es proporcional al cubo del radio."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

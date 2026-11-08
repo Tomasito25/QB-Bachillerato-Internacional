@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "e6b7c086-ed36-54e7-86f1-ba9073b876d2",
+  "rev": 1,
+  "statement": "Una cuerda de $1{,}2\\,\\text{m}$ fija por los dos extremos vibra a $150\\,\\text{Hz}$ formando la onda estacionaria de la figura.\n\n![Onda estacionaria en una cuerda de 1,2 m fija por los dos extremos, con tres vientres.](qbimg:85bb9a6c44dbf75158a4e6e5069b1716e2e2aaad26c8a4006cafbdc750a9511b)",
+  "images": [
+    {
+      "hash": "85bb9a6c44dbf75158a4e6e5069b1716e2e2aaad26c8a4006cafbdc750a9511b",
+      "ext": "png",
+      "width": 520,
+      "height": 240,
+      "bytes": 3206,
+      "alt": "Onda estacionaria en una cuerda de 1,2 m fija por los dos extremos, con tres vientres."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "armónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica de qué armónico se trata y calcula la longitud de onda.",
+      "modelAnswer": "Tiene tres vientres: es el tercer armónico. $L = \\frac{3\\lambda}{2}$, así que $\\lambda = 0{,}80\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la rapidez de las ondas en la cuerda.",
+      "modelAnswer": "$v = f\\lambda = 150 \\cdot 0{,}80 = 120\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la frecuencia fundamental de la cuerda.",
+      "modelAnswer": "$f_1 = \\frac{v}{2L} = \\frac{120}{2{,}4} = 50\\,\\text{Hz}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Compara el movimiento de dos puntos de la cuerda situados en vientres contiguos.",
+      "modelAnswer": "Tienen la misma frecuencia y vibran con la misma amplitud máxima, pero en oposición de fase: cuando uno sube, el otro baja.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Indica una diferencia entre esta onda y una onda viajera en cuanto al transporte de energía.",
+      "modelAnswer": "Una onda estacionaria no transporta energía de forma neta a lo largo de la cuerda; una onda viajera sí.",
+      "marks": 1
+    }
+  ]
+}

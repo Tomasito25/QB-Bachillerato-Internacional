@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
   "name": "Fisica SL IB",
-  "rev": 4,
+  "rev": 5,
   "createdBy": {
     "login": "tomasito25",
     "id": 179742599
   },
   "createdAt": "2026-11-05T18:28:35.000Z",
-  "updatedAt": "2026-11-06T22:02:40.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
   "units": [
     {
       "id": "48b3aac0-61bd-46fb-ac94-499d133bf1f4",
@@ -33,22 +33,112 @@
       ]
     },
     {
+      "id": "ebca2cc2-0226-5362-8080-7f815de12a82",
+      "name": "B. Naturaleza particulada de la materia",
+      "order": 1,
+      "topics": [
+        {
+          "id": "6ca63617-0d8f-535b-8bba-75432263b872",
+          "name": "Transferencias de energía térmica",
+          "order": 0
+        },
+        {
+          "id": "406b9b75-60cf-5737-8075-1995ce6d19c4",
+          "name": "Efecto invernadero",
+          "order": 1
+        },
+        {
+          "id": "68669a52-78ab-5156-8906-c652664c8fc0",
+          "name": "Leyes de los gases",
+          "order": 2
+        },
+        {
+          "id": "4f426f02-0601-5a02-8512-d36a958edf7d",
+          "name": "Corriente y circuitos",
+          "order": 3
+        }
+      ]
+    },
+    {
       "id": "a13b7f8a-7bbc-40cb-8fa7-0f45716a37d6",
       "name": "C. Ondas",
-      "order": 1,
+      "order": 2,
       "topics": [
         {
           "id": "7d8e6e1c-3d53-4f49-9e10-aad9c782b501",
           "name": "Movimiento Armonico Simple (MAS)",
           "order": 0
+        },
+        {
+          "id": "61f14426-0f92-54a9-85b1-6412395a306c",
+          "name": "Modelo ondulatorio",
+          "order": 1
+        },
+        {
+          "id": "b7e29757-f91f-55ca-8574-80697030774a",
+          "name": "Fenómenos ondulatorios",
+          "order": 2
+        },
+        {
+          "id": "a1680f92-caeb-5b6b-8617-d29935280334",
+          "name": "Ondas estacionarias y resonancia",
+          "order": 3
+        },
+        {
+          "id": "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6",
+          "name": "Efecto Doppler",
+          "order": 4
         }
       ]
     },
     {
       "id": "9e468dda-63e3-4a82-8859-ba9d5e68f261",
       "name": "D. Campos",
-      "order": 2,
-      "topics": []
+      "order": 3,
+      "topics": [
+        {
+          "id": "96b161cf-8adb-50a0-8907-8854eb18f13b",
+          "name": "Campos gravitatorios",
+          "order": 0
+        },
+        {
+          "id": "51318236-c420-5c4e-85b6-78c85928b753",
+          "name": "Campos eléctricos y magnéticos",
+          "order": 1
+        },
+        {
+          "id": "8ed1bd7d-7f3e-5710-892c-35f4f682945e",
+          "name": "Movimiento en campos electromagnéticos",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "d5669581-aab7-5a82-8183-00ad4d495b56",
+      "name": "E. Física nuclear y cuántica",
+      "order": 4,
+      "topics": [
+        {
+          "id": "01ac8135-642b-5b3c-8138-5c9c57a2afb1",
+          "name": "Estructura del átomo",
+          "order": 0
+        },
+        {
+          "id": "91f60b07-f5c5-5049-8c46-4bb347d63c02",
+          "name": "Desintegración radiactiva",
+          "order": 1
+        },
+        {
+          "id": "ddcb3fae-96f8-5c9f-8194-065c1a9cdc11",
+          "name": "Fisión",
+          "order": 2
+        },
+        {
+          "id": "2da2fe0e-743f-5d38-81d7-c319e6711c96",
+          "name": "Fusión y estrellas",
+          "order": 3
+        }
+      ]
     }
   ]
 }

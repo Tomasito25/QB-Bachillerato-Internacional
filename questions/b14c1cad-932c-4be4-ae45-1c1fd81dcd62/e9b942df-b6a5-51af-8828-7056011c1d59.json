@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e9b942df-b6a5-51af-8828-7056011c1d59",
+  "rev": 1,
+  "statement": "Un tren de cercanías circula a $24\\,\\text{m s}^{-1}$ y frena con aceleración constante hasta pararse en $60\\,\\text{s}$. ¿Qué distancia recorre mientras frena?",
+  "explanation": "Con aceleración constante, la velocidad media es la media de la inicial y la final: $s = \\frac{u+v}{2}\\,t = \\frac{24+0}{2}\\cdot 60 = 720\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "MRUA"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$360\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$720\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1440\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Eso recorrería si mantuviera los 24 m/s durante todo el minuto."
+    },
+    {
+      "id": "d",
+      "text": "$2880\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
