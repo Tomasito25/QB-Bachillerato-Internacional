@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ef1fe950-368f-5a04-8180-a356e7c6e48b",
+  "rev": 1,
+  "statement": "¿Qué efecto tiene aumentar el amortiguamiento en un sistema forzado cerca de la resonancia?",
+  "explanation": "Con más amortiguamiento se disipa más energía en cada ciclo: la amplitud máxima baja y la respuesta se reparte en un intervalo de frecuencias más ancho.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "resonancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La amplitud máxima aumenta y el pico de la curva de resonancia se estrecha.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La amplitud no cambia, porque la fija la fuerza impulsora.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La frecuencia natural se duplica.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La amplitud máxima disminuye y el pico de la curva de resonancia se ensancha.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

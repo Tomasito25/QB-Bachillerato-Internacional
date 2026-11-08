@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "e9b6e040-8f29-5825-8f60-865f7aec4ea2",
+  "rev": 1,
+  "statement": "Un ascensor sube desde el reposo. La gráfica muestra su velocidad $v$ frente al tiempo $t$ durante todo el trayecto.\n\n![Gráfica de velocidad frente a tiempo: sube de 0 a 3 m/s entre 0 y 2 s, se mantiene en 3 m/s hasta los 8 s y baja a 0 a los 11 s.](qbimg:c5f2d126ecac89760d67d5a5d5dbdf76b0b45296b183883af59373ee654ba0ad)",
+  "images": [
+    {
+      "hash": "c5f2d126ecac89760d67d5a5d5dbdf76b0b45296b183883af59373ee654ba0ad",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 3468,
+      "alt": "Gráfica de velocidad frente a tiempo: sube de 0 a 3 m/s entre 0 y 2 s, se mantiene en 3 m/s hasta los 8 s y baja a 0 a los 11 s."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "pendiente",
+    "área bajo la gráfica"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la aceleración durante los primeros 2 s.",
+      "modelAnswer": "Es la pendiente de la recta: $a = \\frac{\\Delta v}{\\Delta t} = \\frac{3{,}0}{2{,}0} = 1{,}5\\,\\text{m s}^{-2}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Determina la distancia total que recorre el ascensor.",
+      "modelAnswer": "Es el área bajo la gráfica: $\\frac{1}{2}\\cdot 2 \\cdot 3 + 6 \\cdot 3 + \\frac{1}{2}\\cdot 3 \\cdot 3 = 3 + 18 + 4{,}5 = 25{,}5\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la rapidez media en todo el trayecto.",
+      "modelAnswer": "$\\bar{v} = \\frac{25{,}5}{11} = 2{,}3\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Una persona de $70\\,\\text{kg}$ viaja dentro. Determina la fuerza que el suelo ejerce sobre ella durante los primeros 2 s. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+      "modelAnswer": "Segunda ley, con el sentido positivo hacia arriba: $N - mg = ma$. Por tanto, $N = m(g + a) = 70 \\cdot (9{,}8 + 1{,}5) = 7{,}9\\times10^{2}\\,\\text{N}$.",
+      "marks": 2
+    }
+  ]
+}

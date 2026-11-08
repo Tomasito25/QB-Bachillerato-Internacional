@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "f29eb5e1-e263-57a9-8e0a-ef9e7727fbfd",
+  "rev": 1,
+  "statement": "Para un lanzador de juguete se mide la fuerza $F$ necesaria para comprimir un muelle una distancia $x$.\n\n![Gráfica de fuerza frente a compresión: recta desde el origen hasta 12 N para 8 cm.](qbimg:f7f7be116138994f524ed4b1df57a1cec9b6762abf157887538244a58ed34a71)",
+  "images": [
+    {
+      "hash": "f7f7be116138994f524ed4b1df57a1cec9b6762abf157887538244a58ed34a71",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 2586,
+      "alt": "Gráfica de fuerza frente a compresión: recta desde el origen hasta 12 N para 8 cm."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "energía elástica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la constante elástica del muelle.",
+      "modelAnswer": "Es la pendiente: $k = \\frac{F}{x} = \\frac{12}{0{,}080} = 150\\,\\text{N m}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la energía almacenada con $x = 8{,}0\\,\\text{cm}$.",
+      "modelAnswer": "Es el área bajo la gráfica: $E = \\frac{1}{2}Fx = \\frac{1}{2}\\cdot 12 \\cdot 0{,}080 = 0{,}48\\,\\text{J}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El muelle lanza verticalmente una bola de $20\\,\\text{g}$. Calcula la altura máxima que alcanza sobre el punto de lanzamiento. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+      "modelAnswer": "$mgh = E$, así que $h = \\frac{0{,}48}{0{,}020 \\cdot 9{,}8} = 2{,}4\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "La altura medida es menor. Indica dos motivos.",
+      "modelAnswer": "La resistencia del aire, y que parte de la energía del muelle se disipa como energía térmica o se queda en el propio muelle (no toda pasa a la bola).",
+      "marks": 2
+    }
+  ]
+}

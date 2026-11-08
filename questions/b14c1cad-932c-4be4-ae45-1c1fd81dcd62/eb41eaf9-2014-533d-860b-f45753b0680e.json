@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "eb41eaf9-2014-533d-860b-f45753b0680e",
+  "rev": 1,
+  "statement": "Una estrella tiene una paralaje de $0{,}025$ segundos de arco. ¿A qué distancia está?",
+  "explanation": "$d = \\frac{1}{p} = \\frac{1}{0{,}025} = 40\\,\\text{pc}$, con $p$ en segundos de arco.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "2da2fe0e-743f-5d38-81d7-c319e6711c96"
+  ],
+  "tags": [
+    "paralaje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}025\\,\\text{pc}$",
+      "correct": false,
+      "feedback": "La distancia es la inversa de la paralaje."
+    },
+    {
+      "id": "b",
+      "text": "$25\\,\\text{pc}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$130\\,\\text{pc}$",
+      "correct": false,
+      "feedback": "Ése sería el número de años luz: 40 pc son unos 130 años luz."
+    },
+    {
+      "id": "d",
+      "text": "$40\\,\\text{pc}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

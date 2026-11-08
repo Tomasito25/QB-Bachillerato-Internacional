@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e2781232-685f-50e7-8f15-7c121026c8ee",
+  "rev": 1,
+  "statement": "Un satélite describe una órbita circular a $600\\,\\text{km}$ sobre la superficie terrestre. Datos: $G = 6{,}67\\times10^{-11}\\,\\text{N m}^2\\,\\text{kg}^{-2}$, $M_T = 5{,}97\\times10^{24}\\,\\text{kg}$, $R_T = 6{,}37\\times10^{6}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "órbitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la intensidad del campo gravitatorio en la órbita.",
+      "modelAnswer": "El radio orbital es $r = 6{,}97\\times10^{6}\\,\\text{m}$, así que $g = \\frac{GM}{r^2} = 8{,}2\\,\\text{N kg}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Iguala la fuerza gravitatoria a la fuerza centrípeta para determinar la rapidez orbital.",
+      "modelAnswer": "$\\frac{GMm}{r^2} = \\frac{mv^2}{r}$, de donde $v = \\sqrt{\\frac{GM}{r}} = 7{,}6\\times10^{3}\\,\\text{m s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el periodo de la órbita en minutos.",
+      "modelAnswer": "$T = \\frac{2\\pi r}{v} = 5{,}8\\times10^{3}\\,\\text{s} \\approx 97\\,\\text{min}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Los astronautas se sienten ingrávidos aunque $g$ no sea cero. Explica por qué.",
+      "modelAnswer": "El astronauta y la nave caen hacia la Tierra con la misma aceleración, así que el suelo de la nave no ejerce sobre él ninguna fuerza normal.",
+      "marks": 2
+    }
+  ]
+}
