@@ -33,7 +33,7 @@ export function QuestionStatement({ question }: { question: Question }) {
 export function SolutionBlock({ title, source, question }: { title: string; source: string; question: Question }) {
   return (
     <section>
-      <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">{title}</h3>
+      <h3 className="mb-1.5 text-[0.9375rem] font-bold">{title}</h3>
       <Markdown source={source} images={question.images} className="text-sm" />
     </section>
   );
@@ -104,7 +104,7 @@ export function QuestionView({ question, showSolution }: { question: Question; s
       {showSolution && question.type === 'open' && question.modelAnswer ? <SolutionBlock title={question.parts ? 'Solución general' : 'Respuesta modelo'} source={question.modelAnswer} question={question} /> : null}
       {showSolution && question.type === 'open' && question.criteria.length > 0 ? (
         <section>
-          <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">Criterios de corrección</h3>
+          <h3 className="mb-1.5 text-[0.9375rem] font-bold">Criterios de corrección</h3>
           <ul className="flex flex-col gap-1 text-sm">
             {question.criteria.map((criterion) => (
               <li key={criterion.id} className="flex items-baseline justify-between gap-3">

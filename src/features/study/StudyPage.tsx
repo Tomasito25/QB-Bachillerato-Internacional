@@ -11,7 +11,9 @@ import { db } from '@/infra/db/db';
 import type { SessionConfig } from '@/infra/db/types';
 import { Button, ButtonLink } from '@/ui/Button';
 import { Field, Input, Select } from '@/ui/Field';
+import { Band } from '@/ui/Band';
 import { Card, CardHeader, EmptyState, Notice, PageHeader, Spinner } from '@/ui/Surface';
+import { useLocalStats } from './localStats';
 import { cn } from '@/ui/cn';
 import { preferences } from '@/features/settings/preferences';
 import { useLaunchSession } from './launch';
@@ -20,16 +22,16 @@ import { MODE_LABELS, useActiveSessions } from './sessions';
 
 function ModeCard({ icon, title, description, children }: { icon: ReactNode; title: string; description: string; children: ReactNode }) {
   return (
-    <Card className="flex flex-col gap-3 p-4">
-      <div className="flex items-start gap-2.5">
-        <span className="mt-0.5 text-accent-text">{icon}</span>
-        <div className="min-w-0">
-          <h2 className="text-sm font-semibold">{title}</h2>
-          <p className="mt-0.5 text-[0.8125rem] text-muted">{description}</p>
-        </div>
+    <section className="flex flex-col gap-3 border-t-2 border-ink pt-3">
+      <div>
+        <h2 className="qb-heading flex items-center justify-between gap-2 sm:text-[2.25rem]">
+          {title}
+          <span className="text-accent-text">{icon}</span>
+        </h2>
+        <p className="mt-2 text-[0.9375rem] text-muted">{description}</p>
       </div>
       <div className="mt-auto">{children}</div>
-    </Card>
+    </section>
   );
 }
 
@@ -66,6 +68,7 @@ export default function StudyPage() {
 
   const inScope = useMemo(() => scopePredicate(studyScope), [studyScope]);
   const progressRows = useLiveQuery(() => db.progress.toArray(), []);
+  const local = useLocalStats();
   const reviewCounts = useMemo(() => {
     if (!progressRows || !questions) return undefined;
     // Sólo cuenta lo que luego puede salir: si no, el botón prometería preguntas que no hay.
@@ -110,7 +113,11 @@ export default function StudyPage() {
 
   return (
     <>
-      <PageHeader title="Estudiar" description="Lo que estudies se guarda en este dispositivo, también sin conexión." />
+      {questions.length > 0 && local ? (
+        <Band className="mb-8" value={local.seen / questions.length} label="Preguntas vistas del banco" title="Estudiar" subtitle="Lo que estudies se guarda en este dispositivo, también sin conexión." detail={`${local.seen} de ${questions.length} preguntas vistas`} figure={`${Math.round((local.seen / questions.length) * 100)}%`} />
+      ) : (
+        <PageHeader title="Estudiar" description="Lo que estudies se guarda en este dispositivo, también sin conexión." />
+      )}
 
       {active && active.length > 0 ? (
         <div className="mb-4 flex flex-col gap-2">
@@ -147,9 +154,9 @@ export default function StudyPage() {
           Crea las tuyas o descarga las que ha publicado la comunidad.
         </EmptyState>
       ) : (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-8">
           <ScopeCard />
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-3">
             <ModeCard icon={<Repeat size={18} aria-hidden />} title="Práctica" description={`${practiceCount} preguntas con corrección y explicación al momento. Da prioridad a lo que toca repasar.`}>
               <Button variant="primary" className="w-full" icon={<Play size={16} aria-hidden />} onClick={() => quick('practice')}>
                 Empezar práctica
@@ -231,7 +238,7 @@ export default function StudyPage() {
                     type="button"
                     aria-pressed={difficulties.includes(level)}
                     onClick={() => setDifficulties((list) => (list.includes(level) ? list.filter((x) => x !== level) : [...list, level]))}
-                    className={cn('h-7 rounded-full border px-2.5 text-xs font-medium transition-colors', difficulties.includes(level) ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:border-border-strong hover:text-ink')}
+                    className={cn('h-7 rounded-none border px-2.5 text-xs font-medium transition-colors', difficulties.includes(level) ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:border-border-strong hover:text-ink')}
                   >
                     {DIFFICULTY_LABELS[level]}
                   </button>

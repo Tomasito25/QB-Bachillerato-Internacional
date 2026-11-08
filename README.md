@@ -5,9 +5,9 @@
 **Crea preguntas con fórmulas e imágenes, repasa justo antes de olvidar y mira cómo vas tema a tema.**<br>
 Funciona sin conexión y sin cuenta, y vive entero en GitHub: cero servidores propios, cero bases de datos.
 
-<a href="https://tomasito25.github.io/QB-Bachillerato-Internacional/"><img src="https://img.shields.io/badge/Abrir_la_app-4f46e5?style=for-the-badge" alt="Abrir la app"></a>
-<a href="docs/IMPORT.md"><img src="https://img.shields.io/badge/Importar_preguntas-3f3f46?style=for-the-badge" alt="Importar preguntas"></a>
-<a href="docs/ARCHITECTURE.md"><img src="https://img.shields.io/badge/C%C3%B3mo_funciona-3f3f46?style=for-the-badge" alt="Cómo funciona"></a>
+<a href="https://tomasito25.github.io/QB-Bachillerato-Internacional/"><img src="https://img.shields.io/badge/Abrir_la_app-0b2bff?style=for-the-badge" alt="Abrir la app"></a>
+<a href="docs/IMPORT.md"><img src="https://img.shields.io/badge/Importar_preguntas-0a0a0a?style=for-the-badge" alt="Importar preguntas"></a>
+<a href="docs/ARCHITECTURE.md"><img src="https://img.shields.io/badge/C%C3%B3mo_funciona-0a0a0a?style=for-the-badge" alt="Cómo funciona"></a>
 
 <a href="https://github.com/Tomasito25/QB-Bachillerato-Internacional/actions/workflows/deploy.yml"><img src="https://github.com/Tomasito25/QB-Bachillerato-Internacional/actions/workflows/deploy.yml/badge.svg" alt="Estado del despliegue"></a>
 <img src="https://img.shields.io/badge/PWA-instalable-5a0fc8?style=flat-square&logo=pwa&logoColor=white" alt="PWA instalable">
@@ -181,7 +181,7 @@ flowchart LR
     A -- "despliega" --> P
     P -- "lee sin cuota" --> N
 
-    classDef accent fill:#4f46e5,stroke:#4f46e5,color:#fff
+    classDef accent fill:#0b2bff,stroke:#0b2bff,color:#fff
     class A accent
 ```
 

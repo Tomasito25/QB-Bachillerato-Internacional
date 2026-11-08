@@ -87,7 +87,7 @@ function IconAction({ label, onClick, disabled, children }: { label: string; onC
       aria-label={label}
       onClick={onClick}
       disabled={disabled}
-      className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-ink disabled:opacity-30"
+      className="inline-flex size-7 items-center justify-center rounded-none text-muted hover:bg-hover hover:text-ink disabled:opacity-30"
     >
       {children}
     </button>
@@ -100,7 +100,7 @@ function run(action: Promise<unknown>) {
 
 function CountLink({ to, count }: { to: string; count: number }) {
   return (
-    <Link to={to} className="shrink-0 rounded px-1.5 text-xs text-muted tabular-nums hover:bg-hover hover:text-ink" title="Ver estas preguntas">
+    <Link to={to} className="shrink-0 rounded-none px-1.5 text-xs text-muted tabular-nums hover:bg-hover hover:text-ink" title="Ver estas preguntas">
       {count} {count === 1 ? 'pregunta' : 'preguntas'}
     </Link>
   );
@@ -113,7 +113,7 @@ function SubjectCard({ subject, stats, communityIds, hasLocal, ask }: { subject:
   return (
     <Card>
       <div className="flex flex-wrap items-center gap-2 px-3 py-2.5">
-        <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)} className="flex min-w-0 flex-1 items-center gap-2 rounded text-left">
+        <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)} className="flex min-w-0 flex-1 items-center gap-2 rounded-none text-left">
           <ChevronRight size={16} className={cn('shrink-0 text-muted transition-transform', open && 'rotate-90')} aria-hidden />
           <span className="truncate text-sm font-semibold">{subject.name}</span>
           {!isCommunity ? <Badge tone="warning">Sólo aquí</Badge> : hasLocal ? <Badge tone="warning">Cambios sin publicar</Badge> : null}

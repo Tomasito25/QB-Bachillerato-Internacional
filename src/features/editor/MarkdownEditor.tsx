@@ -45,7 +45,7 @@ export function ToolButton({ label, onClick, children, pressed }: { label: strin
       onClick={onClick}
       // No quita el foco del texto: la selección debe seguir ahí al aplicar el formato.
       onMouseDown={(e) => e.preventDefault()}
-      className={cn('inline-flex size-7 shrink-0 items-center justify-center rounded text-muted transition-colors hover:bg-hover hover:text-ink', pressed && 'bg-hover text-ink')}
+      className={cn('inline-flex size-7 shrink-0 items-center justify-center rounded-none text-muted transition-colors hover:bg-hover hover:text-ink', pressed && 'bg-hover text-ink')}
     >
       {children}
     </button>

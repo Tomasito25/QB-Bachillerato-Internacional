@@ -20,6 +20,8 @@ import { Button, ButtonLink } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
 import { Field, Input, Textarea } from '@/ui/Field';
 import { OutLink } from '@/ui/OutLink';
+import { Band } from '@/ui/Band';
+import { bandPercent } from '@/ui/marks';
 import { Badge, Card, CardHeader, EmptyState, PageHeader, ProgressBar, Spinner, Stat } from '@/ui/Surface';
 import { cn } from '@/ui/cn';
 import { toast } from '@/ui/toast';
@@ -204,7 +206,7 @@ function OfficialProfile({ profile, isMe, onEdit }: { profile: DerivedProfile; i
           <Avatar user={{ id: profile.githubId, login: profile.login }} size={64} />
           <div className="min-w-0 flex-1 basis-56">
             <div className="flex flex-wrap items-center gap-2">
-              <h1 className="text-xl font-semibold tracking-tight">{profile.displayName ?? `@${profile.login}`}</h1>
+              <h2 className="qb-heading">{profile.displayName ?? `@${profile.login}`}</h2>
               {profile.suspect ? (
                 <Badge tone="warning" title="Respuestas demasiado rápidas y acertadas. Fuera de los rankings hasta que lo revise un mantenedor.">
                   En revisión
@@ -246,7 +248,7 @@ function OfficialProfile({ profile, isMe, onEdit }: { profile: DerivedProfile; i
       </Card>
 
       <section aria-labelledby="official-heading">
-        <h2 id="official-heading" className="mb-2 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-xs font-semibold tracking-wide text-muted uppercase">
+        <h2 id="official-heading" className="mb-2 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[0.9375rem] font-bold">
           <ShieldCheck size={13} className="text-success" aria-hidden />
           Calculado por GitHub Actions
           <span className="font-normal normal-case">a partir de lo publicado, sin que el cliente pueda fijarlo</span>
@@ -275,7 +277,7 @@ function LocalSummary() {
   if (!local) return null;
   return (
     <section aria-labelledby="local-heading">
-      <h2 id="local-heading" className="mb-2 flex items-center gap-1.5 text-xs font-semibold tracking-wide text-muted uppercase">
+      <h2 id="local-heading" className="mb-2 flex items-center gap-1.5 text-[0.9375rem] font-bold">
         <Users size={13} aria-hidden />
         Sólo en este dispositivo
         <span className="font-normal normal-case">incluye lo que no has publicado; no es oficial</span>
@@ -340,10 +342,23 @@ export default function ProfilePage() {
     );
   }
 
+  const level = levelFromPoints(profile.stats.points);
+  const floor = pointsForLevel(level);
+  const next = pointsForLevel(level + 1);
+
   return (
     <>
-      <PageHeader title={profile.displayName ?? `@${profile.login}`} documentTitle={profile.login} />
-      <div className="-mt-[3.25rem] flex flex-col gap-4">
+      <Band
+        className="mb-8"
+        value={next > floor ? (profile.stats.points - floor) / (next - floor) : 1}
+        label={`Progreso hasta el nivel ${level + 1}`}
+        title={profile.displayName ?? `@${profile.login}`}
+        documentTitle={profile.login}
+        subtitle={`Nivel ${level}`}
+        detail={`${profile.stats.points.toLocaleString('es')} puntos`}
+        figure={`${bandPercent(next > floor ? (profile.stats.points - floor) / (next - floor) : 1)}%`}
+      />
+      <div className="flex flex-col gap-8">
         <OfficialProfile profile={profile} isMe={isMe} onEdit={() => setEditing(true)} />
         {isMe ? <LocalSummary /> : null}
       </div>

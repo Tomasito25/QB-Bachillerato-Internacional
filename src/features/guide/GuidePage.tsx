@@ -184,7 +184,7 @@ function TutorialCard({ tutorial }: { tutorial: Tutorial }) {
         <ol className="flex flex-col gap-3">
           {tutorial.steps.map((step, index) => (
             <li key={step} className="flex gap-3 text-sm leading-relaxed">
-              <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-accent-soft text-xs font-semibold text-accent-text tabular-nums">{index + 1}</span>
+              <span className="flex size-6 shrink-0 items-center justify-center rounded-none bg-accent-soft text-xs font-semibold text-accent-text tabular-nums">{index + 1}</span>
               <span className="min-w-0 pt-0.5">{step}</span>
             </li>
           ))}
@@ -200,7 +200,7 @@ function TutorialCard({ tutorial }: { tutorial: Tutorial }) {
               {tutorial.keys.map(([keys, action]) => (
                 <div key={keys} className="contents">
                   <dt>
-                    <kbd className="rounded border border-border bg-surface px-1.5 py-0.5 font-mono text-xs">{keys}</kbd>
+                    <kbd className="rounded-none border border-border bg-surface px-1.5 py-0.5 font-mono text-xs">{keys}</kbd>
                   </dt>
                   <dd className="mb-1 text-muted sm:mb-0">{action}</dd>
                 </div>
@@ -242,7 +242,7 @@ export default function GuidePage() {
       />
       <nav aria-label="Tutoriales" className="mb-5 flex flex-wrap gap-1.5">
         {tutorials.map((tutorial) => (
-          <a key={tutorial.id} href={`#${tutorial.id}`} className="rounded-full border border-border bg-surface px-3 py-1 text-[0.8125rem] text-muted hover:border-border-strong hover:text-ink">
+          <a key={tutorial.id} href={`#${tutorial.id}`} className="rounded-none border border-border bg-surface px-3 py-1 text-[0.8125rem] text-muted hover:border-border-strong hover:text-ink">
             {tutorial.title}
           </a>
         ))}

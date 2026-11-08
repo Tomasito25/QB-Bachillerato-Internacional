@@ -120,7 +120,7 @@ function OptionIcon({ state, multiple }: { state: 'plain' | 'selected' | 'correc
 export function McqResultBanner({ question, selected }: { question: McqQuestion; selected: readonly string[] }) {
   const ok = isCorrectSelection(question, selected);
   return (
-    <div role="status" className={cn('flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium', ok ? 'bg-success-soft text-success' : 'bg-danger-soft text-danger')}>
+    <div role="status" className={cn('flex items-center gap-2 px-3 py-2.5 text-[0.9375rem] font-bold', ok ? 'bg-success text-canvas' : 'bg-danger text-canvas')}>
       {ok ? <Check size={16} aria-hidden /> : <X size={16} aria-hidden />}
       {ok ? 'Correcto' : selected.length === 0 ? 'Sin responder' : 'Incorrecto'}
     </div>
@@ -216,7 +216,7 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
         <>
           {parts.length === 0 && draft.trim() ? (
             <section>
-              <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">Lo que has escrito</h3>
+              <h3 className="mb-1.5 text-[0.9375rem] font-bold">Lo que has escrito</h3>
               <p className="rounded-md border border-border bg-subtle p-3 text-sm whitespace-pre-wrap">{draft}</p>
             </section>
           ) : null}
@@ -231,7 +231,7 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
           ) : null}
           {question.criteria.length > 0 ? (
             <section>
-              <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">Marca lo que has cumplido</h3>
+              <h3 className="mb-1.5 text-[0.9375rem] font-bold">Marca lo que has cumplido</h3>
               <ul className="flex flex-col gap-1.5">
                 {question.criteria.map((criterion) => (
                   <li key={criterion.id}>
@@ -251,7 +251,7 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
             </section>
           ) : null}
           <section>
-            <h3 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">{parts.length > 0 ? 'En total, ¿cómo te ha salido?' : '¿Cómo te ha salido?'}</h3>
+            <h3 className="mb-1.5 text-[0.9375rem] font-bold">{parts.length > 0 ? 'En total, ¿cómo te ha salido?' : '¿Cómo te ha salido?'}</h3>
             <div className="flex flex-wrap gap-2" role="group" aria-label="Autoevaluación">
               {([0, 1, 2] as const).map((grade) => (
                 <Button

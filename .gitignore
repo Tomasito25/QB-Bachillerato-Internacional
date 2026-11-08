@@ -12,3 +12,7 @@ coverage
 public/community
 *.tsbuildinfo
 .DS_Store
+# Bocetos, capturas de revisión y caché de la herramienta de diseño.
+.impeccable/mocks
+.impeccable/review
+.impeccable/hook.cache.json

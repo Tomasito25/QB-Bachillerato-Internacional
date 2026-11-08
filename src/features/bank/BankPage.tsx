@@ -143,7 +143,7 @@ function FiltersBar({ taxonomy }: { taxonomy: TaxonomyView }) {
               aria-pressed={chosen.has(level)}
               onClick={() => toggleDifficulty(level)}
               className={cn(
-                'h-7 rounded-full border px-2.5 text-xs font-medium transition-colors',
+                'h-7 rounded-none border px-2.5 text-xs font-medium transition-colors',
                 chosen.has(level) ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:border-border-strong hover:text-ink',
               )}
             >

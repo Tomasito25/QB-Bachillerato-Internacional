@@ -11,12 +11,12 @@ const THEMES: { value: ThemePreference; label: string; icon: React.ReactNode }[]
 
 /** El de la muestra es el del tema claro; en el oscuro, la app usa su versión más luminosa. */
 const ACCENTS: { value: AccentName; label: string; swatch: string }[] = [
-  { value: 'indigo', label: 'Índigo', swatch: '#4f46e5' },
-  { value: 'blue', label: 'Azul', swatch: '#2563eb' },
-  { value: 'teal', label: 'Verde azulado', swatch: '#0f766e' },
-  { value: 'violet', label: 'Violeta', swatch: '#7c3aed' },
-  { value: 'pink', label: 'Rosa', swatch: '#db2777' },
-  { value: 'orange', label: 'Naranja', swatch: '#c2410c' },
+  { value: 'indigo', label: 'Cobalto', swatch: '#0b2bff' },
+  { value: 'blue', label: 'Azul', swatch: '#0070c9' },
+  { value: 'teal', label: 'Verde', swatch: '#007a55' },
+  { value: 'violet', label: 'Violeta', swatch: '#6a14ff' },
+  { value: 'pink', label: 'Magenta', swatch: '#d6006f' },
+  { value: 'orange', label: 'Bermellón', swatch: '#d33800' },
 ];
 
 const TEXT_SIZES: { value: TextSize; label: string }[] = [
@@ -60,9 +60,9 @@ export function AppearanceControls() {
               aria-label={label}
               title={label}
               onClick={() => void updatePreferences({ accent: value })}
-              className={cn('flex size-9 items-center justify-center rounded-full border-2 transition-colors', prefs.accent === value ? 'border-ink' : 'border-transparent hover:border-border-strong')}
+              className={cn('flex size-11 items-center justify-center border-2 transition-colors', prefs.accent === value ? 'border-ink' : 'border-transparent hover:border-ink')}
             >
-              <span className="size-6 rounded-full" style={{ background: swatch }} />
+              <span className="size-7" style={{ background: swatch }} />
             </button>
           ))}
         </div>

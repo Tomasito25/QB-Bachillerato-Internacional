@@ -30,7 +30,7 @@ export const toast = {
 };
 
 const ICONS = { info: Info, success: CheckCircle2, error: CircleAlert };
-const COLORS = { info: 'text-accent-text', success: 'text-success', error: 'text-danger' };
+const COLORS = { info: 'text-canvas', success: 'text-canvas', error: 'text-canvas' };
 
 export function Toaster() {
   const items = toasts.use();
@@ -45,11 +45,11 @@ export function Toaster() {
           <div
             key={item.id}
             role={item.kind === 'error' ? 'alert' : 'status'}
-            className="pointer-events-auto flex w-full max-w-sm items-start gap-2.5 rounded-lg border border-border bg-surface px-3 py-2.5 text-sm shadow-overlay"
+            className="pointer-events-auto flex w-full max-w-sm items-start gap-2.5 bg-ink px-4 py-3 text-sm font-medium text-canvas"
           >
             <Icon size={16} className={cn('mt-0.5 shrink-0', COLORS[item.kind])} aria-hidden />
             <p className="min-w-0 flex-1">{item.message}</p>
-            <button type="button" onClick={() => dismiss(item.id)} aria-label="Cerrar aviso" className="text-faint hover:text-ink">
+            <button type="button" onClick={() => dismiss(item.id)} aria-label="Cerrar aviso" className="text-canvas">
               <X size={14} aria-hidden />
             </button>
           </div>

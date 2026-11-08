@@ -9,8 +9,9 @@ import { excerpt, getQuestion, toQuestion } from '@/features/bank/questionsRepo'
 import { db } from '@/infra/db/db';
 import type { AttemptRow } from '@/infra/db/types';
 import { Markdown } from '@/infra/markdown/Markdown';
+import { Band } from '@/ui/Band';
 import { Button, ButtonLink } from '@/ui/Button';
-import { Card, CardHeader, EmptyState, Notice, PageHeader, Spinner, Stat } from '@/ui/Surface';
+import { Card, CardHeader, EmptyState, Notice, Spinner, Stat } from '@/ui/Surface';
 import { cn } from '@/ui/cn';
 import { toast } from '@/ui/toast';
 import { submitEntry, useCompetition, useMyEntryStatus } from '@/features/competitions/repo';
@@ -154,24 +155,29 @@ export default function ResultsPage() {
 
   return (
     <>
-      <PageHeader
+      <Band
+        className="mb-8"
+        value={summary.scorePercent !== null ? summary.scorePercent / 100 : summary.total > 0 ? summary.answered / summary.total : 0}
+        label={summary.scorePercent !== null ? 'Nota en tipo test' : 'Preguntas respondidas'}
         title="Resultados"
-        description={`${MODE_LABELS[session.mode]}${session.title ? ` · ${session.title}` : ''}`}
+        subtitle={`${MODE_LABELS[session.mode]}${session.title ? ` · ${session.title}` : ''}`}
+        detail={summary.mcqTotal > 0 ? `${summary.correct} de ${summary.mcqTotal} aciertos` : `${summary.answered} de ${summary.total} respondidas`}
+        figure={summary.scorePercent !== null ? `${summary.scorePercent}%` : '—'}
         actions={
           <>
+            <ButtonLink to="/study" variant="signal" icon={<GraduationCap size={16} aria-hidden />}>
+              Seguir estudiando
+            </ButtonLink>
             {failedIds.length > 0 ? (
-              <Button icon={<RotateCcw size={16} aria-hidden />} onClick={() => void retryFailed()}>
+              <Button variant="plate" icon={<RotateCcw size={16} aria-hidden />} onClick={() => void retryFailed()}>
                 Repasar {failedIds.length} {failedIds.length === 1 ? 'fallo' : 'fallos'}
               </Button>
             ) : null}
-            <ButtonLink to="/study" variant="primary" icon={<GraduationCap size={16} aria-hidden />}>
-              Seguir estudiando
-            </ButtonLink>
           </>
         }
       />
-      <div className="flex flex-col gap-4">
-        <Card className="grid grid-cols-2 gap-4 p-4 sm:grid-cols-4">
+      <div className="flex flex-col gap-8">
+        <Card className="grid grid-cols-2 gap-x-4 gap-y-6 p-4 sm:grid-cols-4">
           <Stat label="Nota (test)" value={summary.scorePercent !== null ? `${summary.scorePercent} %` : '—'} />
           <Stat label="Aciertos" value={`${summary.correct} / ${summary.mcqTotal}`} />
           <Stat label="Respondidas" value={`${summary.answered} / ${summary.total}`} />

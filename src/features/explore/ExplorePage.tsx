@@ -9,20 +9,24 @@ import { useTaxonomy, type TaxonomyView } from '@/features/taxonomy/taxonomyRepo
 import { db } from '@/infra/db/db';
 import { ButtonLink } from '@/ui/Button';
 import { Input } from '@/ui/Field';
+import { SubjectMark } from '@/ui/SubjectMark';
 import { Card, CardHeader, EmptyState, PageHeader, Spinner } from '@/ui/Surface';
 
 function SubjectCard({ subject, stats }: { subject: TaxonomyView['subjects'][number]; stats: BankStats }) {
   const count = stats.bySubject.get(subject.id) ?? 0;
   const topics = subject.units.reduce((sum, unit) => sum + unit.topics.length, 0);
   return (
-    <Link to={`/explore/${subject.id}`} className="group flex flex-col gap-1 rounded-lg border border-border bg-surface p-4 transition-colors hover:border-border-strong">
-      <span className="flex items-center justify-between gap-2 text-sm font-semibold">
-        <span className="truncate">{subject.name}</span>
-        <ChevronRight size={16} className="shrink-0 text-faint transition-transform group-hover:translate-x-0.5" aria-hidden />
-      </span>
-      {subject.description ? <span className="line-clamp-2 text-[0.8125rem] text-muted">{subject.description}</span> : null}
-      <span className="mt-1 text-xs text-muted tabular-nums">
-        {count} {count === 1 ? 'pregunta' : 'preguntas'} · {subject.units.length} {subject.units.length === 1 ? 'unidad' : 'unidades'} · {topics} {topics === 1 ? 'tema' : 'temas'}
+    <Link to={`/explore/${subject.id}`} className="group flex items-start gap-3 border-t-2 border-ink py-3 transition-colors hover:bg-subtle">
+      <SubjectMark id={subject.id} name={subject.name} />
+      <span className="flex min-w-0 flex-1 flex-col gap-1">
+        <span className="flex items-center justify-between gap-2">
+          <span className="qb-heading truncate">{subject.name}</span>
+          <ChevronRight size={18} className="shrink-0 transition-transform group-hover:translate-x-0.5" aria-hidden />
+        </span>
+        {subject.description ? <span className="line-clamp-2 text-[0.8125rem] text-muted">{subject.description}</span> : null}
+        <span className="text-xs font-medium tabular-nums">
+          {count} {count === 1 ? 'pregunta' : 'preguntas'} · {subject.units.length} {subject.units.length === 1 ? 'unidad' : 'unidades'} · {topics} {topics === 1 ? 'tema' : 'temas'}
+        </span>
       </span>
     </Link>
   );
@@ -97,13 +101,13 @@ export default function ExplorePage() {
           Descarga lo que ha publicado la comunidad o empieza tu propio temario.
         </EmptyState>
       ) : (
-        <div className="flex flex-col gap-5">
-          <section aria-label="Asignaturas" className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="flex flex-col gap-10">
+          <section aria-label="Asignaturas" className="grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-3">
             {taxonomy.subjects.map((subject) => (
               <SubjectCard key={subject.id} subject={subject} stats={stats} />
             ))}
           </section>
-          <div className="grid gap-4 lg:grid-cols-2">
+          <div className="grid gap-8 lg:grid-cols-2">
             <QuestionList title="Más usadas" description="Las que más personas han respondido." questions={popular} />
             <QuestionList title="Recientes" questions={recent} />
           </div>

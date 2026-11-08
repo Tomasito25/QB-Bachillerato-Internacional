@@ -21,17 +21,17 @@ export function SyncStatus({ compact }: { compact?: boolean }) {
   else label = 'En línea';
 
   return (
-    <Link to="/sync" className={cn('flex min-w-0 items-center gap-2 rounded-md text-xs text-muted hover:text-ink', compact && 'shrink-0')} title={label}>
+    <Link to="/sync" className={cn('flex min-w-0 items-center gap-2 text-xs font-medium opacity-85 hover:opacity-100', compact && 'shrink-0')} title={label}>
       {!isOnline ? (
         <CloudOff size={14} className="shrink-0 text-warning" aria-hidden />
       ) : state.status === 'syncing' ? (
         <RefreshCw size={14} className="shrink-0 animate-spin" aria-hidden />
       ) : (
-        <span className={cn('size-2 shrink-0 rounded-full', state.status === 'error' ? 'bg-danger' : 'bg-success')} aria-hidden />
+        <span className={cn('size-2 shrink-0 rounded-none', state.status === 'error' ? 'bg-danger' : 'bg-success')} aria-hidden />
       )}
       <span className={cn('truncate', compact && 'sr-only')}>{label}</span>
       {pending ? (
-        <span className="ml-auto shrink-0 rounded-full bg-accent px-1.5 text-xs font-medium text-accent-ink tabular-nums" title={`${pending} envíos pendientes`}>
+        <span className="ml-auto shrink-0 bg-signal px-1.5 text-xs font-bold text-signal-ink tabular-nums" title={`${pending} envíos pendientes`}>
           {pending}
         </span>
       ) : null}

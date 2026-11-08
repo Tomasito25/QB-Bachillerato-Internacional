@@ -24,71 +24,85 @@
     U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+@font-face {
+  font-family: 'Archivo Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('../../node_modules/@fontsource-variable/archivo/files/archivo-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* Tokens semánticos. Los componentes nunca nombran un color concreto. */
 :root {
   color-scheme: light;
-  --canvas: #fafafa;
+  --canvas: #ffffff;
   --surface: #ffffff;
-  --subtle: #f4f4f5;
-  --hover: #f0f0f2;
-  --border: #e9e9ec;
-  --border-strong: #d4d4d8;
-  --ink: #18181b;
-  --muted: #52525b;
-  --faint: #6b6b74;
-  --accent: #4f46e5;
-  --accent-hover: #4338ca;
+  /* Sin grises de relleno: lo que no es tinta ni papel es un tinte del acento. */
+  --subtle: var(--accent-soft);
+  --hover: var(--accent-soft);
+  --border: #0a0a0a;
+  --border-strong: #0a0a0a;
+  --ink: #0a0a0a;
+  --muted: #3f3f46;
+  --faint: #55555f;
+  --accent: #0b2bff;
+  --accent-hover: #0820cc;
   --accent-ink: #ffffff;
-  --accent-soft: #eef0ff;
-  --accent-text: #4338ca;
-  --chart: #4f5bd5;
-  --success: #17794d;
-  --success-soft: #e6f4ed;
-  --warning: #955a00;
-  --warning-soft: #fbf1df;
-  --danger: #c5382e;
-  --danger-soft: #fcecea;
-  --shadow-overlay: 0 12px 32px -8px rgb(20 20 18 / 0.18), 0 2px 6px -2px rgb(20 20 18 / 0.08);
+  --accent-soft: #e4e8ff;
+  --accent-text: #0b2bff;
+  /* Sólo para lo que te necesita ahora. */
+  --signal: #ffe500;
+  --signal-ink: #0a0a0a;
+  --rail: #0a0a0a;
+  --rail-ink: #ffffff;
+  --rail-muted: #c4c4cc;
+  --chart: #0a0a0a;
+  --success: #00803c;
+  --success-soft: #d9f7e6;
+  --warning: #8a5a00;
+  --warning-soft: #fff3c4;
+  --danger: #d4161c;
+  --danger-soft: #ffe3e1;
 }
 
 [data-theme='dark'] {
   color-scheme: dark;
-  --canvas: #09090b;
-  --surface: #111113;
-  --subtle: #18181b;
-  --hover: #1f1f23;
-  --border: #232327;
-  --border-strong: #34343a;
+  --canvas: #0a0a0a;
+  --surface: #0a0a0a;
+  --border: #f4f4f5;
+  --border-strong: #f4f4f5;
   --ink: #f4f4f5;
-  --muted: #a1a1aa;
-  --faint: #8b8b95;
-  --accent: #8b93f8;
-  --accent-hover: #a3a9fa;
-  --accent-ink: #0b0b12;
-  --accent-soft: #1c1d3a;
-  --accent-text: #a9b0fb;
-  /* Validado con el comprobador de paletas: el acento oscuro es demasiado claro para marcas de datos. */
-  --chart: #7c87f2;
-  --success: #4cc38a;
-  --success-soft: #14291f;
-  --warning: #e0a84a;
-  --warning-soft: #2c2212;
-  --danger: #f2776d;
-  --danger-soft: #311917;
-  --shadow-overlay: 0 12px 32px -8px rgb(0 0 0 / 0.6), 0 2px 6px -2px rgb(0 0 0 / 0.4);
+  --muted: #c4c4cc;
+  --faint: #a0a0aa;
+  --accent: #3a5aff;
+  --accent-hover: #2c4cf0;
+  --accent-ink: #ffffff;
+  --accent-soft: #141b57;
+  --accent-text: #a3b1ff;
+  --rail: #000000;
+  --chart: #f4f4f5;
+  --success: #3ddc84;
+  --success-soft: #0e2d1c;
+  --warning: #ffc233;
+  --warning-soft: #332500;
+  --danger: #ff5a52;
+  --danger-soft: #3d1210;
 }
 
 /* Acentos de Configuración. Cada par está comprobado a 4,5:1 o más en los dos temas. */
-[data-accent='blue'] { --accent: #2563eb; --accent-hover: #1d4ed8; --accent-soft: #eaf1fe; --accent-text: #1d4ed8; }
-[data-accent='teal'] { --accent: #0f766e; --accent-hover: #115e59; --accent-soft: #e6f6f4; --accent-text: #0f766e; }
-[data-accent='violet'] { --accent: #7c3aed; --accent-hover: #6d28d9; --accent-soft: #f3edff; --accent-text: #6d28d9; }
-[data-accent='pink'] { --accent: #db2777; --accent-hover: #be185d; --accent-soft: #fdecf4; --accent-text: #be185d; }
-[data-accent='orange'] { --accent: #c2410c; --accent-hover: #9a3412; --accent-soft: #fdf0e7; --accent-text: #c2410c; }
-[data-theme='dark'][data-accent='blue'] { --accent: #60a5fa; --accent-hover: #93c5fd; --accent-soft: #11203a; --accent-text: #93c5fd; }
-[data-theme='dark'][data-accent='teal'] { --accent: #2dd4bf; --accent-hover: #5eead4; --accent-soft: #0d2a27; --accent-text: #5eead4; }
-[data-theme='dark'][data-accent='violet'] { --accent: #a78bfa; --accent-hover: #c4b5fd; --accent-soft: #241a3d; --accent-text: #c4b5fd; }
-[data-theme='dark'][data-accent='pink'] { --accent: #f472b6; --accent-hover: #f9a8d4; --accent-soft: #3a1426; --accent-text: #f9a8d4; }
-[data-theme='dark'][data-accent='orange'] { --accent: #fb923c; --accent-hover: #fdba74; --accent-soft: #3a1d0c; --accent-text: #fdba74; }
+[data-accent='blue'] { --accent: #0070c9; --accent-hover: #005fae; --accent-soft: #dcefff; --accent-text: #005fae; }
+[data-accent='teal'] { --accent: #007a55; --accent-hover: #00654a; --accent-soft: #d6f5e8; --accent-text: #006d4c; }
+[data-accent='violet'] { --accent: #6a14ff; --accent-hover: #5a0ee0; --accent-soft: #ece2ff; --accent-text: #5a0ee0; }
+[data-accent='pink'] { --accent: #d6006f; --accent-hover: #b3005c; --accent-soft: #ffe0f0; --accent-text: #c20065; }
+[data-accent='orange'] { --accent: #d33800; --accent-hover: #b53000; --accent-soft: #ffe6da; --accent-text: #bf3300; }
+[data-theme='dark'][data-accent='blue'] { --accent: #1a8fe8; --accent-hover: #4aa8f0; --accent-ink: #0a0a0a; --accent-soft: #0b2743; --accent-text: #86c8ff; }
+[data-theme='dark'][data-accent='teal'] { --accent: #00b07c; --accent-hover: #2cc795; --accent-ink: #0a0a0a; --accent-soft: #08332a; --accent-text: #62e0b7; }
+[data-theme='dark'][data-accent='violet'] { --accent: #8a4dff; --accent-hover: #7a3af2; --accent-ink: #ffffff; --accent-soft: #26134f; --accent-text: #c8adff; }
+[data-theme='dark'][data-accent='pink'] { --accent: #f0339a; --accent-hover: #f55fb0; --accent-ink: #0a0a0a; --accent-soft: #42102b; --accent-text: #ff9ccd; }
+[data-theme='dark'][data-accent='orange'] { --accent: #f2601f; --accent-hover: #f57e45; --accent-ink: #0a0a0a; --accent-soft: #42200e; --accent-text: #ffab85; }
 
 @theme inline {
   --color-canvas: var(--canvas);
@@ -112,14 +126,20 @@
   --color-warning-soft: var(--warning-soft);
   --color-danger: var(--danger);
   --color-danger-soft: var(--danger-soft);
+  --color-signal: var(--signal);
+  --color-signal-ink: var(--signal-ink);
+  --color-rail: var(--rail);
+  --color-rail-ink: var(--rail-ink);
+  --color-rail-muted: var(--rail-muted);
   --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Archivo Variable', var(--font-sans);
   --font-mono: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
-  --shadow-overlay: var(--shadow-overlay);
-  /* Esquinas más suaves en toda la app: los componentes sólo nombran md, lg o xl. */
-  --radius-sm: 0.375rem;
-  --radius-md: 0.625rem;
-  --radius-lg: 0.875rem;
-  --radius-xl: 1.25rem;
+  /* Esquinas rectas en toda la app: los componentes sólo nombran md, lg o xl. */
+  --radius-xs: 0;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
 }
 
 /* Tamaño del texto: escala todo lo que va en rem, que es casi toda la interfaz. En %, para
@@ -155,6 +175,26 @@
     font-size: 0.9375rem;
     line-height: 1.5;
     overscroll-behavior-y: none;
+    overflow-x: clip;
+  }
+
+  html {
+    scrollbar-color: var(--ink) var(--canvas);
+    scrollbar-width: thin;
+  }
+
+  ::selection {
+    background: var(--signal);
+    color: var(--signal-ink);
+  }
+
+  input,
+  textarea {
+    caret-color: var(--accent);
+  }
+
+  a {
+    text-underline-offset: 3px;
   }
 
   /* iOS amplía la página al enfocar un campo con letra de menos de 16 px. */
@@ -169,7 +209,6 @@
   :focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
-    border-radius: 4px;
   }
 
   button,
@@ -212,7 +251,7 @@
   }
 
   dialog::backdrop {
-    background: rgb(10 10 12 / 0.45);
+    background: rgb(10 10 10 / 0.6);
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -228,6 +267,198 @@
 }
 
 @layer components {
+  .qb-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .qb-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: clamp(2.25rem, 10.5vw, 4.5rem);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    text-wrap: balance;
+    hyphens: auto;
+    overflow-wrap: anywhere;
+  }
+
+  .qb-heading {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.625rem;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+
+  .qb-main {
+    --gutter: 1rem;
+    --page-top: 1.5rem;
+  }
+  @media (min-width: 40rem) {
+    .qb-main {
+      --gutter: 1.5rem;
+    }
+  }
+  @media (min-width: 64rem) {
+    .qb-main {
+      --gutter: 2.5rem;
+      --page-top: 2.5rem;
+    }
+  }
+  .qb-main > :not(.qb-bleed, .qb-bleed-screen) {
+    max-width: 72rem;
+  }
+  .qb-bleed {
+    margin-inline: calc(var(--gutter) * -1);
+  }
+  .qb-bleed-screen {
+    margin-inline: calc(50% - 50vw);
+  }
+
+  .qb-rail {
+    scrollbar-color: var(--rail-muted) var(--rail);
+  }
+  .qb-rail :focus-visible {
+    outline-color: var(--signal);
+    outline-offset: -2px;
+  }
+
+  /* Cabecera sin nada que medir: un campo de tinta. Dentro, los tokens se invierten. */
+  .qb-page-head {
+    --ink: #ffffff;
+    --canvas: #0a0a0a;
+    --surface: #0a0a0a;
+    --muted: #d4d4d8;
+    --faint: #c4c4cc;
+    --border: #ffffff;
+    --border-strong: #ffffff;
+    --subtle: color-mix(in srgb, var(--accent) 40%, #0a0a0a);
+    --hover: var(--subtle);
+    background: var(--rail);
+    color: #ffffff;
+  }
+  .qb-main > .qb-page-head:first-child {
+    margin-top: calc(var(--page-top) * -1);
+  }
+  [data-theme='dark'] .qb-page-head {
+    border-bottom: 1px solid #f4f4f5;
+  }
+
+  /* La banda de progreso: ver Band.tsx. */
+  .qb-band {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background: var(--accent-soft);
+    color: var(--ink);
+  }
+  .qb-band-top {
+    margin-top: calc(var(--page-top) * -1);
+    margin-bottom: 0;
+  }
+  .qb-band-fill {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: var(--accent);
+    color: var(--accent-ink);
+    clip-path: inset(0 calc(100% - var(--band)) 0 0);
+    transition: clip-path 700ms cubic-bezier(0.16, 1, 0.3, 1);
+    animation: qb-band-in 900ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  @keyframes qb-band-in {
+    from {
+      clip-path: inset(0 100% 0 0);
+    }
+  }
+  .qb-band-layer {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 1.5rem var(--gutter);
+  }
+  .qb-band-title {
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: clamp(2.25rem, 12vw, 4rem);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    hyphens: auto;
+    overflow-wrap: anywhere;
+  }
+  .qb-band-sub {
+    margin-top: 0.375rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+  }
+  .qb-band-detail {
+    margin-top: 1.25rem;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.75rem;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  .qb-band-actions {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+  }
+  .qb-band-figure {
+    justify-self: end;
+    font-family: var(--font-display);
+    font-weight: 900;
+    font-size: clamp(7rem, 18vw, 16.5rem);
+    letter-spacing: -0.04em;
+    line-height: 0.8;
+    white-space: nowrap;
+    color: var(--accent-text);
+    font-variant-numeric: tabular-nums;
+  }
+  .qb-band-fill .qb-band-figure {
+    color: inherit;
+  }
+  .qb-band-long .qb-band-figure {
+    font-size: clamp(6rem, 13.5vw, 13rem);
+  }
+  @media (min-width: 64rem) {
+    .qb-band-title {
+      font-size: clamp(3rem, 5.2vw, 4.75rem);
+    }
+    .qb-band-layer {
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: center;
+      min-height: 20.5rem;
+      padding-block: 1.75rem;
+    }
+  }
+  .qb-band-compact .qb-band-layer {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    min-height: 0;
+    padding: calc(0.75rem + env(safe-area-inset-top)) max(1rem, calc(50vw - 21rem)) 0.75rem;
+  }
+  .qb-band-compact .qb-band-title {
+    font-size: 1.625rem;
+    letter-spacing: -0.03em;
+  }
+  .qb-band-compact .qb-band-sub {
+    margin-top: 0.125rem;
+    font-size: 0.8125rem;
+  }
+  .qb-band-compact .qb-band-actions {
+    margin-top: 0;
+  }
+
   .safe-bottom {
     padding-bottom: env(safe-area-inset-bottom);
   }
@@ -279,7 +510,7 @@
     text-underline-offset: 2px;
   }
   .qb-prose blockquote {
-    border-left: 3px solid var(--border-strong);
+    border-left: 1px solid var(--ink);
     padding-left: 0.9em;
     color: var(--muted);
   }
@@ -287,14 +518,10 @@
     font-family: var(--font-mono);
     font-size: 0.88em;
     background: var(--subtle);
-    border: 1px solid var(--border);
-    border-radius: 4px;
     padding: 0.05em 0.3em;
   }
   .qb-prose pre {
     background: var(--subtle);
-    border: 1px solid var(--border);
-    border-radius: 8px;
     padding: 0.75em 0.9em;
     overflow-x: auto;
     line-height: 1.5;
@@ -325,8 +552,6 @@
   .qb-prose img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    border: 1px solid var(--border);
     background: #fff;
   }
   .qb-prose hr {

@@ -48,7 +48,7 @@ export function Avatar({ user, size = 20, className }: { user: { id: number; log
       width={size}
       height={size}
       loading="lazy"
-      className={cn('shrink-0 rounded-full bg-subtle', className)}
+      className={cn('shrink-0 rounded-none bg-subtle', className)}
       style={{ width: size, height: size }}
     />
   );

@@ -173,7 +173,7 @@ export default function NewCompetitionPage() {
                   type="button"
                   aria-pressed={difficulties.includes(level)}
                   onClick={() => setDifficulties((list) => (list.includes(level) ? list.filter((x) => x !== level) : [...list, level]))}
-                  className={cn('h-7 rounded-full border px-2.5 text-xs font-medium', difficulties.includes(level) ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:text-ink')}
+                  className={cn('h-7 rounded-none border px-2.5 text-xs font-medium', difficulties.includes(level) ? 'border-accent bg-accent-soft text-accent-text' : 'border-border text-muted hover:text-ink')}
                 >
                   {DIFFICULTY_LABELS[level]}
                 </button>

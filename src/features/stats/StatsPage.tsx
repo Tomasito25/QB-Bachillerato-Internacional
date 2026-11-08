@@ -8,6 +8,7 @@ import { useLocalStats } from '@/features/study/localStats';
 import { useSyllabusProgress } from '@/features/study/syllabusProgress';
 import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
 import { ButtonLink } from '@/ui/Button';
+import { Band } from '@/ui/Band';
 import { BarList, ColumnChart, SplitBar, type BarDatum } from '@/ui/charts';
 import { Select } from '@/ui/Field';
 import { Card, CardHeader, EmptyState, PageHeader, Spinner, Stat } from '@/ui/Surface';
@@ -62,19 +63,27 @@ export default function StatsPage() {
     return { key: d.day, label: dayFormat.format(date), value: d.answers, tick: i % 7 === 0 ? dayFormat.format(date) : '' };
   });
 
+  const seen = syllabus.reduce((sum, node) => sum + node.seen, 0);
+  const total = syllabus.reduce((sum, node) => sum + node.total, 0);
+  const coverage = total > 0 ? seen / total : 0;
+
   return (
     <>
-      <PageHeader title="Estadísticas" description="Tu progreso en este dispositivo y el contenido del banco." />
-      <div className="flex flex-col gap-4">
-        <section aria-labelledby="my-progress" className="flex flex-col gap-4">
-          <h2 id="my-progress" className="text-xs font-semibold tracking-wide text-muted uppercase">
-            Tu progreso <span className="font-normal normal-case">(sólo en este dispositivo)</span>
+      {local.total > 0 && total > 0 ? (
+        <Band className="mb-8" value={coverage} label="Preguntas vistas del banco" title="Estadísticas" subtitle="Tu progreso en este dispositivo y el contenido del banco." detail={`${seen} de ${total} preguntas vistas`} figure={`${Math.round(coverage * 100)}%`} />
+      ) : (
+        <PageHeader title="Estadísticas" description="Tu progreso en este dispositivo y el contenido del banco." />
+      )}
+      <div className="flex flex-col gap-10">
+        <section aria-labelledby="my-progress" className="flex flex-col gap-6">
+          <h2 id="my-progress" className="qb-heading sm:text-[2.25rem]">
+            Tu progreso
           </h2>
           {local.total === 0 ? (
             <EmptyState title="Aún no has respondido ninguna pregunta" action={<ButtonLink to="/study" variant="primary">Empezar a estudiar</ButtonLink>} />
           ) : (
             <>
-              <Card className="grid grid-cols-2 gap-4 p-4 sm:grid-cols-3 lg:grid-cols-6">
+              <Card className="grid grid-cols-2 gap-x-4 gap-y-6 p-4 sm:grid-cols-3">
                 <Stat label="Respuestas" value={local.total.toLocaleString('es')} hint={`${local.weekAnswers} esta semana`} />
                 <Stat label="Precisión en test" value={percent(local.accuracy)} hint={`${local.mcqCorrect} de ${local.mcqTotal}`} />
                 <Stat label="Nota en desarrollo" value={percent(local.openAverage)} hint={`${local.openTotal} autoevaluadas`} />
@@ -86,7 +95,7 @@ export default function StatsPage() {
                 <CardHeader title="Cómo vas por temario" description="Despliega cada asignatura y unidad. El botón practica justo esa parte." />
                 <SyllabusTree tree={syllabus} initialOpen={params.get('subject')} />
               </Card>
-              <div className="grid gap-4 lg:grid-cols-2">
+              <div className="grid gap-8 lg:grid-cols-2">
                 <Card className="p-4">
                   <ColumnChart data={activity} title="Respuestas por día, últimos 28 días" unit="respuestas" />
                 </Card>
@@ -101,12 +110,12 @@ export default function StatsPage() {
           )}
         </section>
 
-        <section aria-labelledby="bank-stats" className="flex flex-col gap-4">
+        <section aria-labelledby="bank-stats" className="flex flex-col gap-6">
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <h2 id="bank-stats" className="text-xs font-semibold tracking-wide text-muted uppercase">
+            <h2 id="bank-stats" className="qb-heading sm:text-[2.25rem]">
               Banco de preguntas
             </h2>
-            <Select aria-label="Filtrar estadísticas por asignatura" className="h-8 w-auto text-[0.8125rem]" value={subjectId} onChange={(e) => setSubjectId(e.target.value)}>
+            <Select aria-label="Filtrar estadísticas por asignatura" className="h-9 w-auto text-[0.8125rem]" value={subjectId} onChange={(e) => setSubjectId(e.target.value)}>
               <option value="">Todas las asignaturas</option>
               {taxonomy.subjects.map((s) => (
                 <option key={s.id} value={s.id}>
@@ -125,11 +134,11 @@ export default function StatsPage() {
                   label="Tipos de pregunta"
                   parts={[
                     { key: 'mcq', label: 'Tipo test', value: bank.byType.mcq, className: 'bg-chart' },
-                    { key: 'open', label: 'Desarrollo', value: bank.byType.open, className: 'bg-faint' },
+                    { key: 'open', label: 'Desarrollo', value: bank.byType.open, className: 'bg-accent' },
                   ]}
                 />
               </Card>
-              <div className="grid gap-4 lg:grid-cols-2">
+              <div className="grid gap-8 lg:grid-cols-2">
                 <Card>
                   <CardHeader title="Por dificultad" />
                   <div className="p-4">

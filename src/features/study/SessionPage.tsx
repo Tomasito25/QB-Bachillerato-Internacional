@@ -12,7 +12,8 @@ import { preferences } from '@/features/settings/preferences';
 import type { SessionRow } from '@/infra/db/types';
 import { Button, ButtonLink } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
-import { Card, EmptyState, PageHeader, ProgressBar, Spinner } from '@/ui/Surface';
+import { Band } from '@/ui/Band';
+import { Card, EmptyState, PageHeader, Spinner } from '@/ui/Surface';
 import { cn } from '@/ui/cn';
 import { McqPlayer, McqResultBanner, OpenPlayer } from './players';
 import { toggleFavorite, toggleHard, useProgress } from './progressRepo';
@@ -83,7 +84,7 @@ function QuestionGrid({ session, questions, onJump }: { session: SessionRow; que
             aria-label={`Pregunta ${index + 1}${done ? ', respondida' : ', sin responder'}`}
             onClick={() => onJump(index)}
             className={cn(
-              'size-7 rounded text-xs font-medium tabular-nums transition-colors',
+              'size-7 rounded-none text-xs font-medium tabular-nums transition-colors',
               current ? 'bg-accent text-accent-ink' : done ? 'bg-accent-soft text-accent-text' : 'border border-border text-muted hover:border-border-strong',
             )}
           >
@@ -209,29 +210,29 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
 
   return (
     <>
-      <div className="mb-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
-        <div className="min-w-0">
-          <p className="truncate text-xs text-muted">
-            {MODE_LABELS[session.mode]}
-            {session.title ? ` · ${session.title}` : ''}
-          </p>
-          <p className="text-sm font-semibold tabular-nums">
-            Pregunta {session.cursor + 1} de {session.questionIds.length}
-          </p>
-        </div>
-        <div className="flex items-center gap-2">
-          {remaining !== null ? (
-            <span role="timer" aria-label="Tiempo restante" className={cn('inline-flex items-center gap-1.5 rounded-md border px-2 py-1 text-sm font-medium tabular-nums', low ? 'border-danger bg-danger-soft text-danger' : 'border-border')}>
-              <Clock size={14} aria-hidden />
-              {formatDuration(remaining)}
-            </span>
-          ) : null}
-          <Button variant="ghost" size="sm" icon={<LogOut size={14} aria-hidden />} onClick={() => setConfirmLeave(true)}>
-            Salir
-          </Button>
-        </div>
-      </div>
-      <ProgressBar value={answeredCount / session.questionIds.length} label="Progreso de la sesión" className="mb-4" />
+      <Band
+        compact
+        screen
+        as="p"
+        className="mb-5"
+        value={answeredCount / session.questionIds.length}
+        label="Progreso de la sesión"
+        title={`Pregunta ${session.cursor + 1} de ${session.questionIds.length}`}
+        subtitle={`${MODE_LABELS[session.mode]}${session.title ? ` · ${session.title}` : ''}`}
+        actions={
+          <>
+            {remaining !== null ? (
+              <span role="timer" aria-label="Tiempo restante" className={cn('inline-flex h-9 items-center gap-1.5 border-2 border-[#0a0a0a] px-2.5 text-sm font-bold tabular-nums', low ? 'bg-signal text-[#0a0a0a]' : 'bg-white text-[#0a0a0a]')}>
+                <Clock size={14} aria-hidden />
+                {formatDuration(remaining)}
+              </span>
+            ) : null}
+            <Button variant="plate" size="sm" icon={<LogOut size={14} aria-hidden />} onClick={() => setConfirmLeave(true)}>
+              Salir
+            </Button>
+          </>
+        }
+      />
       {deferred ? (
         <div className="mb-4">
           <QuestionGrid session={session} questions={questions} onJump={go} />
@@ -266,7 +267,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
         </div>
       </Card>
 
-      <div className="safe-bottom sticky bottom-0 z-10 -mx-4 mt-auto flex lg:mt-0 items-center justify-between gap-2 border-t border-border bg-canvas/90 px-4 py-3 backdrop-blur-md sm:-mx-6 sm:px-6">
+      <div className="safe-bottom sticky bottom-0 z-10 -mx-[var(--gutter)] mt-auto flex lg:mt-0 items-center justify-between gap-2 border-t-2 border-ink bg-canvas px-[var(--gutter)] py-3">
         <Button icon={<ArrowLeft size={16} aria-hidden />} disabled={session.cursor === 0} onClick={() => go(session.cursor - 1)}>
           Anterior
         </Button>

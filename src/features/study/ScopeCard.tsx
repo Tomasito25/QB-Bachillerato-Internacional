@@ -43,7 +43,7 @@ function TreeRow({ depth, name, count, state, onToggle, expanded, onExpand }: { 
   return (
     <div className={cn('flex min-h-9 items-center gap-1 rounded-md pr-2 hover:bg-subtle/60', depth === 1 && 'pl-5', depth === 2 && 'pl-10')}>
       {onExpand ? (
-        <button type="button" aria-expanded={expanded} aria-label={`${expanded ? 'Ocultar' : 'Ver'} ${name}`} onClick={onExpand} className="inline-flex size-7 shrink-0 items-center justify-center rounded text-muted hover:text-ink">
+        <button type="button" aria-expanded={expanded} aria-label={`${expanded ? 'Ocultar' : 'Ver'} ${name}`} onClick={onExpand} className="inline-flex size-7 shrink-0 items-center justify-center rounded-none text-muted hover:text-ink">
           <ChevronRight size={14} className={cn('transition-transform', expanded && 'rotate-90')} aria-hidden />
         </button>
       ) : (

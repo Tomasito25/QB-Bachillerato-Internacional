@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T14:00:29.791609+00:00",
+  "title": "Design System: QuestionBank",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#0a0a0a",
+        "tonalRamp": [
+          "#262626",
+          "#454545",
+          "#636363",
+          "#828282",
+          "#a1a1a1",
+          "#bfbfbf",
+          "#d9d9d9",
+          "#f2f2f2"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#454545",
+          "#636363",
+          "#828282",
+          "#a1a1a1",
+          "#bfbfbf",
+          "#d9d9d9",
+          "#f2f2f2"
+        ]
+      },
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Cobalto",
+        "canonical": "#0b2bff",
+        "tonalRamp": [
+          "#0c1340",
+          "#0e1d7b",
+          "#0a21bd",
+          "#0627fe",
+          "#4d63f4",
+          "#8e9bf1",
+          "#bfc5f3",
+          "#ebedfa"
+        ]
+      },
+      "cobalt-tint": {
+        "role": "neutral",
+        "displayName": "Tinte de cobalto",
+        "canonical": "#e4e8ff",
+        "tonalRamp": [
+          "#0c1440",
+          "#0e1e7b",
+          "#0a24bd",
+          "#062bfe",
+          "#4d66f4",
+          "#8e9cf1",
+          "#bfc6f3",
+          "#ebedfa"
+        ]
+      },
+      "signal": {
+        "role": "secondary",
+        "displayName": "Amarillo señal",
+        "canonical": "#ffe500",
+        "tonalRamp": [
+          "#403b0c",
+          "#7b700e",
+          "#bdab0a",
+          "#fee506",
+          "#f4e34d",
+          "#f1e78e",
+          "#f3eebf",
+          "#faf8eb"
+        ]
+      },
+      "success": {
+        "role": "tertiary",
+        "displayName": "Verde correcto",
+        "canonical": "#00803c",
+        "tonalRamp": [
+          "#0c4025",
+          "#0e7b41",
+          "#0abd5e",
+          "#06fe7a",
+          "#4df49b",
+          "#8ef1bc",
+          "#bff3d7",
+          "#ebfaf2"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Rojo incorrecto",
+        "canonical": "#d4161c",
+        "tonalRamp": [
+          "#3c1112",
+          "#71191b",
+          "#ac1b1f",
+          "#e71e24",
+          "#e45d61",
+          "#e7979a",
+          "#eec3c5",
+          "#f8ecec"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "poster": {
+        "displayName": "Cartel",
+        "purpose": "Sólo la cifra de la banda."
+      },
+      "display": {
+        "displayName": "Título",
+        "purpose": "Títulos de pantalla."
+      },
+      "headline": {
+        "displayName": "Sección",
+        "purpose": "Títulos de sección."
+      },
+      "figure": {
+        "displayName": "Cifra",
+        "purpose": "Cifras de resumen."
+      },
+      "body": {
+        "displayName": "Lectura",
+        "purpose": "Interfaz y enunciados."
+      },
+      "label": {
+        "displayName": "Etiqueta",
+        "purpose": "Etiquetas y pies de cifra."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "band-sweep",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "La banda entra en 900 ms y cambia de valor en 700 ms."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "40rem"
+      },
+      {
+        "name": "lg",
+        "value": "64rem"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "La acción principal de una pantalla.",
+      "html": "<button class=\"ds-btn\">Empezar práctica</button>",
+      "css": ".ds-btn{background:var(--accent,#0b2bff);color:var(--accent-ink,#fff);height:2.75rem;padding:0 1.25rem;border:2px solid transparent;font-weight:700;cursor:pointer}.ds-btn:hover{background:var(--accent-hover,#0820cc)}.ds-btn:focus-visible{outline:2px solid var(--accent,#0b2bff);outline-offset:2px}"
+    },
+    {
+      "name": "Botón secundario",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Acciones de apoyo sobre papel.",
+      "html": "<button class=\"ds-btn2\">Exportar</button>",
+      "css": ".ds-btn2{background:#fff;color:#0a0a0a;height:2.75rem;padding:0 1.25rem;border:2px solid #0a0a0a;font-weight:700;cursor:pointer}.ds-btn2:hover{background:#0a0a0a;color:#fff}.ds-btn2:focus-visible{outline:2px solid #0b2bff;outline-offset:2px}"
+    },
+    {
+      "name": "Botón señal",
+      "kind": "button",
+      "refersTo": "button-signal",
+      "description": "Lo que hay que hacer ahora, sobre campos de color.",
+      "html": "<button class=\"ds-sig\">Practicar</button>",
+      "css": ".ds-sig{background:#ffe500;color:#0a0a0a;height:2.75rem;padding:0 1.25rem;border:2px solid #0a0a0a;font-weight:700;cursor:pointer}.ds-sig:hover{background:#fff}.ds-sig:focus-visible{outline:2px solid #0a0a0a;outline-offset:2px}"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Entradas de formulario.",
+      "html": "<input class=\"ds-input\" placeholder=\"Buscar preguntas…\">",
+      "css": ".ds-input{height:2.75rem;padding:0 .75rem;border:2px solid #0a0a0a;background:#fff;color:#0a0a0a;font-size:.9375rem}.ds-input:hover{background:#e4e8ff}.ds-input:focus{outline:none;border-color:#0b2bff;background:#fff}"
+    },
+    {
+      "name": "Navegación",
+      "kind": "nav",
+      "refersTo": "nav-item-active",
+      "description": "Barra lateral negra con el activo en acento.",
+      "html": "<nav class=\"ds-nav\"><a class=\"on\">Inicio</a><a>Estudiar</a></nav>",
+      "css": ".ds-nav{background:#0a0a0a;color:#fff;width:14.5rem;padding:.5rem 0}.ds-nav a{display:flex;align-items:center;height:2.25rem;padding:0 1.5rem;font-weight:600;font-size:.875rem}.ds-nav a:hover{background:rgba(255,255,255,.15)}.ds-nav a.on{background:#0b2bff}"
+    },
+    {
+      "name": "Banda de progreso",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "La cabecera mide el avance; la cifra cambia de color al cruzar el borde.",
+      "html": "<section class=\"ds-band\" style=\"--p:67%\"><p class=\"ds-fig\">67%</p><div class=\"ds-fill\"><p class=\"ds-fig\">67%</p></div></section>",
+      "css": ".ds-band{position:relative;overflow:hidden;background:#e4e8ff;color:#0b2bff;padding:1rem 1.5rem;text-align:right}.ds-fig{margin:0;font-family:'Archivo Variable',sans-serif;font-weight:900;font-size:6rem;line-height:.9;letter-spacing:-.04em}.ds-fill{position:absolute;inset:0;padding:1rem 1.5rem;background:#0b2bff;color:#fff;clip-path:inset(0 calc(100% - var(--p)) 0 0);transition:clip-path .7s cubic-bezier(.16,1,.3,1)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "El cartel que avanza",
+    "overview": "Estilo tipográfico internacional aplicado a una herramienta de estudio: retícula estricta, grotesca enorme y campos de color planos. La pieza central es la banda de progreso: la cabecera de cada pantalla con algo que medir se rellena de color, y la cifra gigante cambia de color justo al cruzar el borde del relleno.",
+    "keyCharacteristics": [
+      "Barra lateral negra a sangre y activo en acento hasta el borde.",
+      "Cabeceras a sangre: banda de progreso, o campo de tinta cuando no hay nada que medir.",
+      "Cifras en Archivo Black; lectura en Inter.",
+      "Esquinas rectas, reglas negras, ninguna sombra.",
+      "Amarillo señal sólo para lo que te necesita ahora."
+    ],
+    "rules": [
+      {
+        "name": "The No Grey Fill Rule",
+        "body": "Ninguna superficie es gris: es tinta, papel o un tinte del acento. Los grises sólo existen como color de texto secundario.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signal Rule",
+        "body": "El amarillo sólo marca lo que te necesita ahora. Si todo es urgente, nada lo es.",
+        "section": "colors"
+      },
+      {
+        "name": "The Strong Color Rule",
+        "body": "El color fuerte recorre lo que estás haciendo en este momento: dónde estás, cuánto llevas y qué pulsar.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Extremes Rule",
+        "body": "O texto de lectura o cartel. Casi nada en medio.",
+        "section": "typography"
+      },
+      {
+        "name": "The Square Rule",
+        "body": "Si tiene esquinas, son rectas.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do usar la banda de progreso en toda cabecera que tenga algo que medir.",
+      "Do usar el campo de tinta en las cabeceras sin nada que medir.",
+      "Do dejar la pregunta en Inter, sobre papel y a 42 rem como máximo.",
+      "Do escribir siempre el dato exacto junto a cualquier barra."
+    ],
+    "donts": [
+      "Don't usar sombras, degradados o esquinas redondeadas.",
+      "Don't rellenar superficies con gris.",
+      "Don't usar el amarillo como decoración.",
+      "Don't poner etiquetas pequeñas en mayúsculas encima de los títulos.",
+      "Don't imitar documentos ni la identidad de la Organización del Bachillerato Internacional."
+    ]
+  }
+}

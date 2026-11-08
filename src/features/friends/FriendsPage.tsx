@@ -82,7 +82,7 @@ export function FriendsRanking({ manage = false }: { manage?: boolean }) {
         {unseen.map((login) => (
           <li key={login} className="flex items-center gap-3 border-b border-border px-4 py-2 last:border-0">
             <span className="w-6 shrink-0" />
-            <span aria-hidden className="flex size-7 shrink-0 items-center justify-center rounded-full bg-subtle text-xs font-medium text-muted uppercase">
+            <span aria-hidden className="flex size-7 shrink-0 items-center justify-center rounded-none bg-subtle text-xs font-medium text-muted uppercase">
               {login[0]}
             </span>
             <span className="min-w-0 flex-1">

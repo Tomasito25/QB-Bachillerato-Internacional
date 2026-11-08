@@ -20,7 +20,7 @@ function Points({ items }: { items: ReactNode[] }) {
     <ul className="flex flex-col gap-2">
       {items.map((item, index) => (
         <li key={index} className="flex gap-2.5 leading-relaxed">
-          <span aria-hidden className="mt-2 size-1.5 shrink-0 rounded-full bg-accent" />
+          <span aria-hidden className="mt-2 size-1.5 shrink-0 rounded-none bg-accent" />
           <span className="min-w-0">{item}</span>
         </li>
       ))}
@@ -28,7 +28,7 @@ function Points({ items }: { items: ReactNode[] }) {
   );
 }
 
-const Key = ({ children }: { children: ReactNode }) => <kbd className="rounded border border-border bg-subtle px-1.5 py-0.5 font-mono text-xs">{children}</kbd>;
+const Key = ({ children }: { children: ReactNode }) => <kbd className="rounded-none border border-border bg-subtle px-1.5 py-0.5 font-mono text-xs">{children}</kbd>;
 
 interface Step {
   icon: LucideIcon;
@@ -142,7 +142,7 @@ export function WelcomeTour() {
         <>
           <div className="mr-auto flex items-center gap-1.5" aria-label={`Paso ${step + 1} de ${steps.length}`} role="img">
             {steps.map((s, index) => (
-              <span key={s.title} className={cn('size-1.5 rounded-full', index === step ? 'bg-accent' : 'bg-border-strong')} />
+              <span key={s.title} className={cn('size-1.5 rounded-none', index === step ? 'bg-accent' : 'bg-border-strong')} />
             ))}
           </div>
           {step > 0 ? (
@@ -171,7 +171,7 @@ export function WelcomeTour() {
     >
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-3">
-          <span className="flex size-10 shrink-0 items-center justify-center rounded-full bg-accent-soft text-accent-text">
+          <span className="flex size-10 shrink-0 items-center justify-center rounded-none bg-accent-soft text-accent-text">
             <Icon size={20} aria-hidden />
           </span>
           <h3 className="text-base font-semibold tracking-tight">{current.title}</h3>

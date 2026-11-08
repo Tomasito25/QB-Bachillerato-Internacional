@@ -2,8 +2,8 @@ import { useId, type InputHTMLAttributes, type ReactNode, type SelectHTMLAttribu
 import { cn } from './cn';
 
 const CONTROL =
-  'rounded-md border border-border bg-surface px-3 text-sm text-ink placeholder:text-faint transition-colors ' +
-  'hover:border-border-strong focus:border-accent focus:outline-none focus:ring-3 focus:ring-accent/15 disabled:opacity-60 ' +
+  'border-2 border-ink bg-surface px-3 text-[0.9375rem] text-ink placeholder:text-faint transition-colors ' +
+  'hover:bg-subtle focus:border-accent focus:bg-surface focus:outline-none disabled:opacity-60 ' +
   'aria-invalid:border-danger';
 
 /**
@@ -16,7 +16,7 @@ function sized(className: string | undefined, height: string | false): string {
 }
 
 export function Input({ className, ...rest }: InputHTMLAttributes<HTMLInputElement>) {
-  return <input className={sized(className, 'h-10')} {...rest} />;
+  return <input className={sized(className, 'h-11')} {...rest} />;
 }
 
 export function Textarea({ className, ...rest }: TextareaHTMLAttributes<HTMLTextAreaElement>) {
@@ -25,7 +25,7 @@ export function Textarea({ className, ...rest }: TextareaHTMLAttributes<HTMLText
 
 export function Select({ className, children, ...rest }: SelectHTMLAttributes<HTMLSelectElement>) {
   return (
-    <select className={cn(sized(className, 'h-10'), 'pr-8')} {...rest}>
+    <select className={cn(sized(className, 'h-11'), 'pr-8')} {...rest}>
       {children}
     </select>
   );
@@ -46,7 +46,7 @@ export function Field({ label, hint, error, className, children }: FieldProps) {
   const describedBy = error || hint ? hintId : undefined;
   return (
     <div className={cn('flex flex-col gap-1.5', className)}>
-      <label htmlFor={id} className="text-[0.8125rem] font-medium text-ink">
+      <label htmlFor={id} className="text-[0.8125rem] font-bold text-ink">
         {label}
       </label>
       {children(id, describedBy)}
@@ -76,7 +76,7 @@ export function Toggle({ checked, onChange, label, description, disabled }: Togg
   return (
     <div className="flex items-start justify-between gap-4">
       <div className="min-w-0">
-        <label htmlFor={id} className="text-sm font-medium">
+        <label htmlFor={id} className="text-sm font-bold">
           {label}
         </label>
         {description ? <p className="mt-0.5 text-xs text-muted">{description}</p> : null}
@@ -89,14 +89,14 @@ export function Toggle({ checked, onChange, label, description, disabled }: Togg
         disabled={disabled}
         onClick={() => onChange(!checked)}
         className={cn(
-          'relative mt-0.5 h-5 w-9 shrink-0 rounded-full transition-colors disabled:opacity-50',
-          checked ? 'bg-accent' : 'bg-border-strong',
+          'relative mt-0.5 h-6 w-11 shrink-0 border-2 border-ink transition-colors disabled:opacity-50',
+          checked ? 'bg-accent' : 'bg-surface',
         )}
       >
         <span
           className={cn(
-            'absolute top-0.5 left-0.5 size-4 rounded-full bg-white shadow-sm transition-transform',
-            checked && 'translate-x-4',
+            'absolute top-[2px] left-[2px] size-4 transition-transform',
+            checked ? 'translate-x-5 bg-accent-ink' : 'bg-ink',
           )}
         />
       </button>
@@ -137,7 +137,7 @@ interface SegmentedProps<T extends string | boolean> {
 /** Una opción entre pocas, a la vista. Para más de cuatro, mejor un `Select`. */
 export function Segmented<T extends string | boolean>({ label, value, options, onChange }: SegmentedProps<T>) {
   return (
-    <div role="radiogroup" aria-label={label} className="inline-flex w-fit max-w-full flex-wrap rounded-md border border-border bg-subtle p-0.5">
+    <div role="radiogroup" aria-label={label} className="inline-flex w-fit max-w-full flex-wrap border-2 border-ink">
       {options.map((option) => (
         <button
           key={String(option.value)}
@@ -145,7 +145,7 @@ export function Segmented<T extends string | boolean>({ label, value, options, o
           role="radio"
           aria-checked={value === option.value}
           onClick={() => onChange(option.value)}
-          className={cn('inline-flex min-h-7 items-center gap-1.5 rounded px-2.5 text-[0.8125rem] font-medium', value === option.value ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink')}
+          className={cn('inline-flex min-h-9 items-center gap-1.5 px-3 text-[0.8125rem] font-bold', value === option.value ? 'bg-ink text-canvas' : 'text-ink hover:bg-subtle')}
         >
           {option.icon}
           {option.label}

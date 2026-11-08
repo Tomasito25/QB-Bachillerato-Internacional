@@ -176,7 +176,7 @@ function EditorForm({ loaded }: { loaded: Loaded }) {
       />
 
       <div className="flex flex-col gap-4 pb-16">
-        <div role="radiogroup" aria-label="Tipo de pregunta" className="inline-flex w-fit rounded-md border border-border bg-subtle p-0.5">
+        <div role="radiogroup" aria-label="Tipo de pregunta" className="inline-flex w-fit border-2 border-ink">
           {(
             [
               ['mcq', 'Tipo test'],
@@ -189,7 +189,7 @@ function EditorForm({ loaded }: { loaded: Loaded }) {
               role="radio"
               aria-checked={form.type === value}
               onClick={() => update({ type: value })}
-              className={cn('h-7 rounded px-3 text-[0.8125rem] font-medium', form.type === value ? 'bg-surface text-ink shadow-sm' : 'text-muted hover:text-ink')}
+              className={cn('min-h-9 px-3 text-[0.8125rem] font-bold', form.type === value ? 'bg-ink text-canvas' : 'text-ink hover:bg-subtle')}
             >
               {label}
             </button>
@@ -277,7 +277,7 @@ function EditorForm({ loaded }: { loaded: Loaded }) {
         {errors.general ? <Notice tone="danger" title="No se puede guardar">{errors.general}</Notice> : null}
       </div>
 
-      <div className="safe-bottom sticky bottom-16 z-10 -mx-4 flex flex-wrap items-center justify-between gap-2 border-t border-border bg-canvas/95 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6 lg:bottom-0 lg:-mx-10 lg:px-10">
+      <div className="safe-bottom sticky bottom-16 z-10 -mx-[var(--gutter)] flex flex-wrap items-center justify-between gap-2 border-t-2 border-ink bg-canvas px-[var(--gutter)] py-2.5 lg:bottom-0">
         <p className="text-xs text-muted" role="status">
           {status === 'pending' ? 'Guardando borrador…' : status === 'saved' ? 'Borrador guardado en este dispositivo' : 'Se guardará un borrador mientras escribes'}
         </p>
@@ -382,13 +382,13 @@ function AnswerRow(props: {
           ) : null}
         </div>
         <div className="flex shrink-0 items-center">
-          <button type="button" title="Subir" aria-label={`Subir opción ${n}`} disabled={index === 0} onClick={() => onMove(-1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+          <button type="button" title="Subir" aria-label={`Subir opción ${n}`} disabled={index === 0} onClick={() => onMove(-1)} className="inline-flex size-7 items-center justify-center rounded-none text-muted hover:bg-hover disabled:opacity-30">
             <ArrowUp size={14} aria-hidden />
           </button>
-          <button type="button" title="Bajar" aria-label={`Bajar opción ${n}`} disabled={index === count - 1} onClick={() => onMove(1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+          <button type="button" title="Bajar" aria-label={`Bajar opción ${n}`} disabled={index === count - 1} onClick={() => onMove(1)} className="inline-flex size-7 items-center justify-center rounded-none text-muted hover:bg-hover disabled:opacity-30">
             <ArrowDown size={14} aria-hidden />
           </button>
-          <button type="button" title="Eliminar" aria-label={`Eliminar opción ${n}`} disabled={count <= LIMITS.minAnswers} onClick={onRemove} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger disabled:opacity-30">
+          <button type="button" title="Eliminar" aria-label={`Eliminar opción ${n}`} disabled={count <= LIMITS.minAnswers} onClick={onRemove} className="inline-flex size-7 items-center justify-center rounded-none text-muted hover:bg-hover hover:text-danger disabled:opacity-30">
             <Trash2 size={14} aria-hidden />
           </button>
         </div>
@@ -485,13 +485,13 @@ function AnswersCard({ form, update, error, uploadImage }: { form: QuestionForm;
 function ItemTools({ name, index, count, onMove, onRemove }: { name: string; index: number; count: number; onMove: (delta: -1 | 1) => void; onRemove: () => void }) {
   return (
     <div className="flex items-center">
-      <button type="button" title="Subir" aria-label={`Subir ${name}`} disabled={index === 0} onClick={() => onMove(-1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+      <button type="button" title="Subir" aria-label={`Subir ${name}`} disabled={index === 0} onClick={() => onMove(-1)} className="inline-flex size-7 items-center justify-center rounded-none text-muted hover:bg-hover disabled:opacity-30">
         <ArrowUp size={14} aria-hidden />
       </button>
-      <button type="button" title="Bajar" aria-label={`Bajar ${name}`} disabled={index === count - 1} onClick={() => onMove(1)} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover disabled:opacity-30">
+      <button type="button" title="Bajar" aria-label={`Bajar ${name}`} disabled={index === count - 1} onClick={() => onMove(1)} className="inline-flex size-7 items-center justify-center rounded-none text-muted hover:bg-hover disabled:opacity-30">
         <ArrowDown size={14} aria-hidden />
       </button>
-      <button type="button" title="Eliminar" aria-label={`Eliminar ${name}`} onClick={onRemove} className="inline-flex size-7 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
+      <button type="button" title="Eliminar" aria-label={`Eliminar ${name}`} onClick={onRemove} className="inline-flex size-7 items-center justify-center rounded-none text-muted hover:bg-hover hover:text-danger">
         <Trash2 size={14} aria-hidden />
       </button>
     </div>
@@ -626,7 +626,7 @@ function OpenAnswerCard({ form, update, errors, uploadImage }: { form: QuestionF
                   onChange={(e) => setCriterion(criterion.id, { weight: Math.min(10, Math.max(1, Number(e.target.value) || 1)) })}
                   className="w-16 shrink-0 text-center"
                 />
-                <button type="button" aria-label={`Eliminar criterio ${index + 1}`} onClick={() => update({ criteria: form.criteria.filter((c) => c.id !== criterion.id) })} className="inline-flex size-8 shrink-0 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
+                <button type="button" aria-label={`Eliminar criterio ${index + 1}`} onClick={() => update({ criteria: form.criteria.filter((c) => c.id !== criterion.id) })} className="inline-flex size-8 shrink-0 items-center justify-center rounded-none text-muted hover:bg-hover hover:text-danger">
                   <Trash2 size={14} aria-hidden />
                 </button>
               </li>
@@ -660,7 +660,7 @@ function ChipsInput({ label, values, max, maxLength, onChange }: { label: string
       {(id, describedBy) => (
         <div className="flex flex-wrap items-center gap-1.5 rounded-md border border-border bg-surface p-1.5 focus-within:border-accent focus-within:ring-2 focus-within:ring-accent/25">
           {values.map((value) => (
-            <span key={value} className="inline-flex items-center gap-1 rounded bg-subtle px-1.5 py-0.5 text-xs">
+            <span key={value} className="inline-flex items-center gap-1 rounded-none bg-subtle px-1.5 py-0.5 text-xs">
               {value}
               <button type="button" aria-label={`Quitar ${value}`} onClick={() => onChange(values.filter((v) => v !== value))} className="text-muted hover:text-ink">
                 <X size={12} aria-hidden />
@@ -756,7 +756,7 @@ function ReferencesCard({ references, onChange, error }: { references: Reference
           <div key={index} className="flex flex-wrap items-center gap-1.5 sm:flex-nowrap">
             <Input value={reference.title} maxLength={300} placeholder="Título" aria-label={`Título de la referencia ${index + 1}`} onChange={(e) => set(index, { title: e.target.value })} />
             <Input type="url" value={reference.url ?? ''} placeholder="https:// (opcional)" aria-label={`Enlace de la referencia ${index + 1}`} onChange={(e) => set(index, { url: e.target.value })} />
-            <button type="button" aria-label={`Eliminar referencia ${index + 1}`} onClick={() => onChange(references.filter((_, i) => i !== index))} className="inline-flex size-8 shrink-0 items-center justify-center rounded text-muted hover:bg-hover hover:text-danger">
+            <button type="button" aria-label={`Eliminar referencia ${index + 1}`} onClick={() => onChange(references.filter((_, i) => i !== index))} className="inline-flex size-8 shrink-0 items-center justify-center rounded-none text-muted hover:bg-hover hover:text-danger">
               <Trash2 size={14} aria-hidden />
             </button>
           </div>

@@ -281,7 +281,7 @@ export default function QuestionDetailPage() {
 
           {question.references.length > 0 ? (
             <Card className="p-4">
-              <h2 className="mb-1.5 text-xs font-semibold tracking-wide text-muted uppercase">Referencias</h2>
+              <h2 className="mb-1.5 text-[0.9375rem] font-bold">Referencias</h2>
               <ReferencesList question={question} />
             </Card>
           ) : null}

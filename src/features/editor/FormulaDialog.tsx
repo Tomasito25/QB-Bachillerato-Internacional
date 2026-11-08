@@ -219,7 +219,7 @@ export function FormulaDialog({ open, initial, display: initialDisplay, editing,
                     aria-label={title}
                     onMouseDown={(e) => e.preventDefault()}
                     onClick={() => use(template)}
-                    className="h-8 min-w-8 rounded border border-border bg-surface px-1.5 text-sm hover:border-border-strong hover:bg-hover"
+                    className="h-8 min-w-8 rounded-none border border-border bg-surface px-1.5 text-sm hover:border-border-strong hover:bg-hover"
                   >
                     {label}
                   </button>
