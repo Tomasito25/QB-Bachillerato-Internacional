@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c3b48e30-47fe-5c56-80dd-c299c5183b9b",
+  "rev": 1,
+  "statement": "Una onda sonora pasa del aire ($340\\,\\text{m s}^{-1}$) al agua ($1500\\,\\text{m s}^{-1}$). ¿Qué les ocurre a su frecuencia y a su longitud de onda?",
+  "explanation": "La frecuencia la determina la fuente. Como $v = f\\lambda$, al aumentar $v$ aumenta $\\lambda$ en la misma proporción.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumentan las dos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La frecuencia no cambia y la longitud de onda aumenta.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La frecuencia aumenta y la longitud de onda no cambia.",
+      "correct": false,
+      "feedback": "La frecuencia la fija la fuente: no cambia al pasar de un medio a otro."
+    },
+    {
+      "id": "d",
+      "text": "La frecuencia no cambia y la longitud de onda disminuye.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

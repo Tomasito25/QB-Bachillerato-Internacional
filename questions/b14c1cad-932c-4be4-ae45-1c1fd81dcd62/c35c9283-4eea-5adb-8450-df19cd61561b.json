@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c35c9283-4eea-5adb-8450-df19cd61561b",
+  "rev": 1,
+  "statement": "Una jeringa sellada contiene $30\\,\\text{cm}^3$ de aire a $100\\,\\text{kPa}$ y $295\\,\\text{K}$. El aire se comporta como un gas ideal. Usa $k_B = 1{,}38\\times10^{-23}\\,\\text{J K}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el número de moléculas que hay en la jeringa.",
+      "modelAnswer": "$N = \\frac{PV}{k_B T} = \\frac{1{,}0\\times10^{5} \\cdot 3{,}0\\times10^{-5}}{1{,}38\\times10^{-23} \\cdot 295} = 7{,}4\\times10^{20}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Se empuja el émbolo despacio, a temperatura constante, hasta reducir el volumen a la mitad. Calcula la nueva presión.",
+      "modelAnswer": "A temperatura constante, $PV$ es constante: $P = 2 \\cdot 100 = 200\\,\\text{kPa}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica ese aumento de presión con el modelo de partículas.",
+      "modelAnswer": "A la misma temperatura, las moléculas tienen la misma energía cinética media, pero en la mitad de volumen chocan con las paredes el doble de veces por segundo. La fuerza media por unidad de área, es decir, la presión, se duplica.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica en qué condiciones un gas real se aparta de este modelo.",
+      "modelAnswer": "A presiones muy altas o temperaturas muy bajas: las moléculas están tan cerca que su volumen propio y las fuerzas entre ellas dejan de ser despreciables.",
+      "marks": 1
+    }
+  ]
+}

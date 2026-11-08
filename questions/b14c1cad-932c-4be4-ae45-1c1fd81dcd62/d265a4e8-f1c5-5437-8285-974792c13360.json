@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "d265a4e8-f1c5-5437-8285-974792c13360",
+  "rev": 1,
+  "statement": "La intensidad de la radiación solar en lo alto de la atmósfera es $S = 1360\\,\\text{W m}^{-2}$, y el albedo medio de la Tierra, $0{,}30$. Usa $\\sigma = 5{,}67\\times10^{-8}\\,\\text{W m}^{-2}\\,\\text{K}^{-4}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "albedo",
+    "emisividad"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Demuestra que la intensidad media absorbida por metro cuadrado de superficie terrestre es de unos $240\\,\\text{W m}^{-2}$.",
+      "modelAnswer": "La Tierra intercepta la radiación con un disco de área $\\pi R^2$, pero la reparte sobre una esfera de área $4\\pi R^2$: $\\frac{S}{4}(1-\\alpha) = \\frac{1360}{4}\\cdot 0{,}70 = 238\\,\\text{W m}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la temperatura de equilibrio de la Tierra si se comportara como un cuerpo negro.",
+      "modelAnswer": "$\\sigma T^4 = 238$, así que $T = \\left(\\frac{238}{5{,}67\\times10^{-8}}\\right)^{1/4} = 255\\,\\text{K}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "La temperatura media real de la superficie es de $288\\,\\text{K}$. Explica la diferencia.",
+      "modelAnswer": "Los gases de efecto invernadero absorben parte del infrarrojo que emite la superficie y reemiten una parte hacia ella. La superficie recibe más energía de la que le llega sólo del Sol y se equilibra a mayor temperatura.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la emisividad efectiva de la Tierra a $288\\,\\text{K}$.",
+      "modelAnswer": "$e = \\frac{238}{\\sigma T^4} = \\frac{238}{5{,}67\\times10^{-8}\\cdot 288^4} = 0{,}61$.",
+      "marks": 2
+    }
+  ]
+}

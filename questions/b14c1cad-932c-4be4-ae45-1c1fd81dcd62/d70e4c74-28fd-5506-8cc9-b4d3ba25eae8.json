@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "d70e4c74-28fd-5506-8cc9-b4d3ba25eae8",
+  "rev": 1,
+  "statement": "Un bloque de $4{,}0\\,\\text{kg}$ permanece en reposo sobre un plano inclinado $30^{\\circ}$ respecto a la horizontal. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.\n\n![Bloque de 4,0 kg apoyado sobre un plano inclinado 30° respecto a la horizontal.](qbimg:8c6b7c820307d0ab3911c1b25af033ebefa24d3da760308c963bf2fafc73c8c0)",
+  "images": [
+    {
+      "hash": "8c6b7c820307d0ab3911c1b25af033ebefa24d3da760308c963bf2fafc73c8c0",
+      "ext": "png",
+      "width": 480,
+      "height": 280,
+      "bytes": 2332,
+      "alt": "Bloque de 4,0 kg apoyado sobre un plano inclinado 30° respecto a la horizontal."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica las fuerzas que actúan sobre el bloque y su dirección.",
+      "modelAnswer": "Peso, vertical hacia abajo. Fuerza normal, perpendicular al plano y hacia fuera. Rozamiento estático, paralelo al plano y hacia arriba.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza de rozamiento sobre el bloque.",
+      "modelAnswer": "En equilibrio, el rozamiento compensa la componente del peso paralela al plano: $f = mg\\sin 30^{\\circ} = 4{,}0 \\cdot 9{,}8 \\cdot 0{,}50 = 19{,}6\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina el valor mínimo del coeficiente de rozamiento estático.",
+      "modelAnswer": "Sin deslizar, $mg\\sin\\theta \\le \\mu_s\\, mg\\cos\\theta$, de donde $\\mu_s \\ge \\tan 30^{\\circ} = 0{,}58$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Se aumenta poco a poco la inclinación del plano. Explica qué le ocurre al bloque.",
+      "modelAnswer": "La componente del peso paralela al plano crece y la normal disminuye, así que baja el rozamiento máximo $\\mu_s N$. Cuando $\\tan\\theta$ supera $\\mu_s$, el bloque empieza a deslizar.",
+      "marks": 2
+    }
+  ]
+}
