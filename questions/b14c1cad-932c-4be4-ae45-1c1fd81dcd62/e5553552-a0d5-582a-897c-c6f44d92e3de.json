@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e5553552-a0d5-582a-897c-c6f44d92e3de",
+  "rev": 1,
+  "statement": "¿Cuándo puede darse la reflexión total interna?",
+  "explanation": "Debe ir de un medio más denso ópticamente a otro menos denso, y con un ángulo de incidencia mayor que el crítico.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Al pasar a un medio de índice mayor, con cualquier ángulo",
+      "correct": false,
+      "feedback": "Pasando a un medio de índice mayor, siempre hay refracción."
+    },
+    {
+      "id": "b",
+      "text": "Con cualquier ángulo mayor de 45°",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Sólo cuando el ángulo de incidencia es de 90°",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Al pasar a un medio de índice menor, con un ángulo mayor que el crítico",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

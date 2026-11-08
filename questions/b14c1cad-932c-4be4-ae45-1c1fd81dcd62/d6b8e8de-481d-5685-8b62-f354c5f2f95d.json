@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d6b8e8de-481d-5685-8b62-f354c5f2f95d",
+  "rev": 1,
+  "statement": "Se lanza una piedra hacia arriba a $14\\,\\text{m}\\,\\text{s}^{-1}$. Sin resistencia del aire, ¿a qué altura su rapidez es la mitad de la inicial? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "$v^2 = u^2 - 2gh$, así que $h = \\frac{14^2 - 7^2}{2\\cdot 9{,}8} = 7{,}5\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "MRUA"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$5{,}0\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Es la mitad de la altura máxima, y la rapidez no varía linealmente con la altura."
+    },
+    {
+      "id": "b",
+      "text": "$7{,}5\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$2{,}5\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$10\\,\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

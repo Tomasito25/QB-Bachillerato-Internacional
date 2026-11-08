@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c5a9608a-3761-516b-8835-d68dc8a4977b",
+  "rev": 1,
+  "statement": "En una gráfica de posición frente a tiempo con forma curva, la velocidad instantánea en un punto es:",
+  "explanation": "La velocidad es el ritmo de cambio de la posición. La recta al origen da la velocidad media desde el inicio.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "el área bajo la curva hasta ese punto",
+      "correct": false,
+      "feedback": "El área es lo útil en una gráfica de velocidad, no de posición."
+    },
+    {
+      "id": "b",
+      "text": "la pendiente de la recta que une ese punto con el origen",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "el valor de la posición dividido entre el tiempo total",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "la pendiente de la tangente en ese punto",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

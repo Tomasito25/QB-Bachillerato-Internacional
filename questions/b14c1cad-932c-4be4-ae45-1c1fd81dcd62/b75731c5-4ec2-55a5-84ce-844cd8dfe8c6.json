@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "b75731c5-4ec2-55a5-84ce-844cd8dfe8c6",
+  "rev": 1,
+  "statement": "Una jugadora lanza un balón a $8{,}0\\,\\text{m}\\,\\text{s}^{-1}$, con $50^{\\circ}$ sobre la horizontal, desde una altura de $2{,}0\\,\\text{m}$. La canasta está a $3{,}05\\,\\text{m}$ del suelo. Ignora la resistencia del aire y toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "componentes",
+    "independencia de los movimientos"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula las componentes horizontal y vertical de la velocidad inicial.",
+      "modelAnswer": "$u_x = 8{,}0\\cos 50^{\\circ} = 5{,}1\\,\\text{m}\\,\\text{s}^{-1}$; $u_y = 8{,}0\\sin 50^{\\circ} = 6{,}1\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la altura máxima del balón sobre el suelo.",
+      "modelAnswer": "Sube $\\frac{u_y^2}{2g} = \\frac{6{,}13^2}{19{,}6} = 1{,}9\\,\\text{m}$ sobre el punto de lanzamiento. Altura máxima: $2{,}0 + 1{,}9 = 3{,}9\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El balón entra en la canasta cuando va bajando. Determina el tiempo que tarda en llegar.",
+      "modelAnswer": "$1{,}05 = 6{,}13\\,t - 4{,}9\\,t^2$. Las soluciones son $0{,}20\\,\\text{s}$ (al subir) y $1{,}05\\,\\text{s}$. Como baja, $t = 1{,}05\\,\\text{s}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la distancia horizontal entre la jugadora y la canasta.",
+      "modelAnswer": "$x = u_x t = 5{,}14\\cdot 1{,}05 = 5{,}4\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Calcula el módulo de la velocidad del balón al llegar a la canasta y el ángulo que forma con la horizontal.",
+      "modelAnswer": "$v_y = 6{,}13 - 9{,}8\\cdot 1{,}05 = -4{,}1\\,\\text{m}\\,\\text{s}^{-1}$; $v_x = 5{,}1\\,\\text{m}\\,\\text{s}^{-1}$. Módulo: $\\sqrt{5{,}14^2 + 4{,}12^2} = 6{,}6\\,\\text{m}\\,\\text{s}^{-1}$. Ángulo: $\\arctan\\frac{4{,}12}{5{,}14} = 39^{\\circ}$ bajo la horizontal.",
+      "marks": 3
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "f835e2f2-ab29-5b27-8a79-b2097a5ac8d0",
+  "rev": 1,
+  "statement": "Un globo sube a una velocidad constante de $6{,}0\\,\\text{m}\\,\\text{s}^{-1}$. Cuando está a $120\\,\\text{m}$ del suelo, se suelta un saco de lastre. Ignora la resistencia del aire sobre el saco y toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "caída libre",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "misma velocidad inicial",
+    "pendiente"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica la velocidad del saco, respecto al suelo, justo al soltarlo. Razona la respuesta.",
+      "modelAnswer": "Es de $6{,}0\\,\\text{m}\\,\\text{s}^{-1}$ hacia arriba: el saco iba con el globo y, al soltarse, conserva esa velocidad. Lo único que cambia es que ahora la fuerza neta es su peso.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la altura máxima que alcanza el saco sobre el suelo.",
+      "modelAnswer": "$\\frac{6{,}0^2}{2\\cdot 9{,}8} = 1{,}8\\,\\text{m}$ por encima del punto de suelta: $h = 122\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina el tiempo que tarda el saco en llegar al suelo.",
+      "modelAnswer": "$-120 = 6{,}0\\,t - 4{,}9\\,t^2$. La solución positiva es $t = 5{,}6\\,\\text{s}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la distancia entre el saco y el globo en el instante en que el saco llega al suelo.",
+      "modelAnswer": "El globo está a $120 + 6{,}0\\cdot 5{,}6 = 154\\,\\text{m}$ de altura, y el saco en el suelo, así que la distancia es $154\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Dibuja, de forma aproximada, la gráfica de velocidad del saco frente al tiempo, con sentido positivo hacia arriba. Indica el valor de la pendiente.",
+      "modelAnswer": "Una recta que empieza en $+6{,}0\\,\\text{m}\\,\\text{s}^{-1}$, cruza el eje en $t = 0{,}61\\,\\text{s}$ y termina en $-49\\,\\text{m}\\,\\text{s}^{-1}$ en $t = 5{,}6\\,\\text{s}$. La pendiente es constante y vale $-9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 3
+    }
+  ]
+}

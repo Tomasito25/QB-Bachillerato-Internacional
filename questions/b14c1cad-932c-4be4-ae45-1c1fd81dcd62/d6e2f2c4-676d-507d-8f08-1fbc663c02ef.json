@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d6e2f2c4-676d-507d-8f08-1fbc663c02ef",
+  "rev": 1,
+  "statement": "Dos muelles iguales, de constante $200\\,\\text{N}\\,\\text{m}^{-1}$, se unen en serie y se cuelga de ellos una carga de $5{,}0\\,\\text{N}$. ¿Cuánto se alarga el conjunto?",
+  "explanation": "Por cada muelle pasa toda la fuerza: $\\frac{5{,}0}{200} = 0{,}025\\,\\text{m}$. Dos muelles en serie se alargan $5{,}0\\,\\text{cm}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "muelles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}5\\,\\text{cm}$",
+      "correct": false,
+      "feedback": "Cada muelle se alarga eso, y hay dos en serie."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}3\\,\\text{cm}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$10\\,\\text{cm}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$5{,}0\\,\\text{cm}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

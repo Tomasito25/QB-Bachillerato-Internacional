@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "b5f298aa-d090-5b21-8b9b-bf4561179720",
+  "rev": 1,
+  "statement": "Una persona de $70\\,\\text{kg}$ hace puenting con una cuerda elástica de $20\\,\\text{m}$ de longitud natural, y desciende $50\\,\\text{m}$ antes de pararse por primera vez. Trata la cuerda como un muelle ideal e ignora el aire. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "energía elástica",
+    "conservación de la energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "fuerza neta nula",
+    "energía disipada"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la constante elástica de la cuerda.",
+      "modelAnswer": "Toda la energía potencial perdida queda en la cuerda: $mg\\cdot 50 = \\frac{1}{2}k\\cdot 30^2$. Por tanto $k = 76\\,\\text{N}\\,\\text{m}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el alargamiento de la cuerda en el punto en que la rapidez es máxima, y justifica por qué es ese punto.",
+      "modelAnswer": "Es donde la fuerza neta se anula: mientras el peso supere la fuerza de la cuerda, la persona sigue acelerando. $kx = mg$, así que $x = 9{,}0\\,\\text{m}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Determina la rapidez máxima.",
+      "modelAnswer": "$mg\\,(20 + 9{,}0) = \\frac{1}{2}mv^2 + \\frac{1}{2}k\\cdot 9{,}0^2$. Se obtiene $v = 22\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la aceleración en el punto más bajo, indicando su sentido.",
+      "modelAnswer": "$F = k\\cdot 30 - mg = 2290 - 686 = 1{,}6\\times10^{3}\\,\\text{N}$ hacia arriba, y $a = 23\\,\\text{m}\\,\\text{s}^{-2}$ hacia arriba.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué, en la realidad, cada rebote es más corto que el anterior.",
+      "modelAnswer": "Parte de la energía se disipa en cada oscilación: por el aire y por las pérdidas internas de la cuerda al estirarse y recuperarse. Queda menos energía para el siguiente rebote.",
+      "marks": 1
+    }
+  ]
+}

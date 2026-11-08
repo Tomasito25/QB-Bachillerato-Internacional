@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "ec189b27-f1d1-5968-8a76-4ce44db18cf3",
+  "rev": 1,
+  "statement": "Un aerogenerador tiene palas de $40\\,\\text{m}$ de longitud. En un día con viento de $12\\,\\text{m}\\,\\text{s}^{-1}$ y aire de densidad $1{,}2\\,\\text{kg}\\,\\text{m}^{-3}$, su rendimiento global es del $35\\,\\%$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "potencia",
+    "rendimiento",
+    "fuentes de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "área barrida",
+    "tercera potencia"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que la potencia del viento que atraviesa el círculo de las palas es $P = \\frac{1}{2}\\rho A v^3$.",
+      "modelAnswer": "En un tiempo $t$ pasa una masa $m = \\rho A v t$, con energía cinética $\\frac{1}{2}mv^2 = \\frac{1}{2}\\rho A v^3 t$. Dividiendo por $t$ se obtiene $P$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la potencia eléctrica que entrega.",
+      "modelAnswer": "Área: $\\pi\\cdot 40^2 = 5{,}0\\times10^{3}\\,\\text{m}^{2}$. Viento: $\\frac{1}{2}\\cdot 1{,}2\\cdot 5{,}0\\times10^{3}\\cdot 12^3 = 5{,}2\\times10^{6}\\,\\text{W}$. Eléctrica: $0{,}35\\cdot 5{,}2\\times10^{6} = 1{,}8\\times10^{6}\\,\\text{W}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Determina por qué factor cambia esa potencia si el viento baja a $6{,}0\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "modelAnswer": "La potencia va con $v^3$: al reducirse la velocidad a la mitad, la potencia se divide entre $2^3 = 8$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué una turbina no puede extraer toda la energía del viento que la atraviesa.",
+      "modelAnswer": "Si la extrajera toda, el aire se pararía detrás de las palas y no dejaría pasar más aire. Tiene que salir con cierta velocidad, así que sólo se aprovecha una parte.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Calcula la energía, en MW h, producida en un día si el viento medio se mantiene.",
+      "modelAnswer": "$E = 1{,}8\\,\\text{MW}\\cdot 24\\,\\text{h} = 44\\,\\text{MW}\\,\\text{h}$.",
+      "marks": 2
+    }
+  ]
+}

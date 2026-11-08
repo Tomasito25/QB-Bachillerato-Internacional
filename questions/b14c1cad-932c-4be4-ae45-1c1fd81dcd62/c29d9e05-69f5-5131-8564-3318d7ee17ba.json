@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c29d9e05-69f5-5131-8564-3318d7ee17ba",
+  "rev": 1,
+  "statement": "Comparada con el vuelo sin aire, ¿cómo cambia la trayectoria de una pelota cuando la resistencia del aire es apreciable?",
+  "explanation": "La resistencia frena las dos componentes de la velocidad. Al perder velocidad horizontal, la bajada es más empinada y la trayectoria deja de ser una parábola simétrica.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El alcance y la altura máxima se reducen, y la bajada es más empinada que la subida",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Sólo se reduce el alcance; la altura máxima es la misma",
+      "correct": false,
+      "feedback": "El aire también frena el movimiento vertical durante la subida."
+    },
+    {
+      "id": "c",
+      "text": "Se reducen el alcance y la altura, pero sigue siendo simétrica",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Aumenta el alcance porque tarda más en caer",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "c1d4d61b-ded2-5d35-8121-44a0ad4ff293",
+  "rev": 1,
+  "statement": "Para comprobar la ley de Boyle, se comprime aire encerrado en una columna y se anota el volumen $V$ y la presión $P$, a temperatura ambiente.\n\n| $V$ / cm³ ($\\pm 0{,}5$) | 40,0 | 32,0 | 25,0 | 20,0 | 16,0 |\n|---|---|---|---|---|---|\n| $P$ / kPa ($\\pm 2$) | 100 | 125 | 160 | 200 | 250 |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "datos",
+    "leyes de los gases",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "recta por el origen",
+    "temperatura constante"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué gráfica permite comprobar la ley de Boyle con una recta, y qué debe cumplir.",
+      "modelAnswer": "La de $P$ frente a $\\frac{1}{V}$: debe ser una recta que pase por el origen, porque $P = \\frac{nRT}{V}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula $PV$ para la primera y la última medida, y comenta si los datos apoyan la ley.",
+      "modelAnswer": "$100\\cdot 40{,}0 = 4000$ y $250\\cdot 16{,}0 = 4000\\,\\text{kPa}\\,\\text{cm}^{3}$. Coinciden, de modo que los datos apoyan la ley.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la incertidumbre porcentual de $PV$ en la última medida.",
+      "modelAnswer": "$\\frac{2}{250} = 0{,}8\\,\\%$ y $\\frac{0{,}5}{16{,}0} = 3{,}1\\,\\%$. Se suman: $3{,}9\\,\\%$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina el número de moles de aire, si la temperatura es de $295\\,\\text{K}$.",
+      "modelAnswer": "$PV = 4000\\,\\text{kPa}\\,\\text{cm}^{3} = 4{,}0\\,\\text{J}$, y $n = \\frac{4{,}0}{8{,}31\\cdot 295} = 1{,}6\\times10^{-3}\\,\\text{mol}$.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Indica por qué hay que comprimir el aire despacio y esperar antes de leer la presión.",
+      "modelAnswer": "Al comprimirlo rápido, el aire se calienta: hay que esperar a que vuelva a la temperatura ambiente, porque la ley sólo vale a temperatura constante.",
+      "marks": 2
+    }
+  ]
+}

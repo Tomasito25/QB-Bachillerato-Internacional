@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "e68994e0-e1e6-5897-871f-dc9694f384a0",
+  "rev": 1,
+  "statement": "Dos objetos tienen la misma cantidad de movimiento, y uno tiene el doble de masa que el otro. ¿Cuál tiene más energía cinética?",
+  "explanation": "$E_k = \\frac{p^2}{2m}$: con el mismo $p$, la energía es inversamente proporcional a la masa.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "energía cinética",
+    "cantidad de movimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El de menor masa, el doble",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El de mayor masa, el doble",
+      "correct": false,
+      "feedback": "Con el mismo momento lineal, el ligero va más rápido."
+    },
+    {
+      "id": "c",
+      "text": "Los dos la misma",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El de mayor masa, cuatro veces",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

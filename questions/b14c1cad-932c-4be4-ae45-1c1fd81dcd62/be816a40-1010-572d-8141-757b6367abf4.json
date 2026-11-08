@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "be816a40-1010-572d-8141-757b6367abf4",
+  "rev": 1,
+  "statement": "Un globo con gas ideal a $300\\,\\text{K}$ se calienta a presión constante hasta $450\\,\\text{K}$. Su volumen:",
+  "explanation": "Con $P$ constante, $V \\propto T$: el volumen se multiplica por $\\frac{450}{300} = 1{,}5$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "leyes de los gases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "se multiplica por 450",
+      "correct": false,
+      "feedback": "Las proporciones se calculan con la temperatura en kelvin."
+    },
+    {
+      "id": "b",
+      "text": "aumenta en un $50\\,\\%$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "disminuye en un tercio",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "aumenta en un $100\\,\\%$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "cd92001e-8487-5512-87fd-1f3be5881241",
+  "rev": 1,
+  "statement": "¿Cuántos moles de gas ideal hay en $10\\,\\text{L}$ a $200\\,\\text{kPa}$ y $300\\,\\text{K}$? Usa $R = 8{,}31\\,\\text{J}\\,\\text{K}^{-1}\\,\\text{mol}^{-1}$.",
+  "explanation": "$n = \\frac{PV}{RT} = \\frac{2{,}0\\times10^{5}\\cdot 1{,}0\\times10^{-2}}{8{,}31\\cdot 300} = 0{,}80\\,\\text{mol}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$800\\,\\text{mol}$",
+      "correct": false,
+      "feedback": "El volumen debe ir en metros cúbicos."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}40\\,\\text{mol}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$0{,}80\\,\\text{mol}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$1{,}6\\,\\text{mol}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f4f68c79-b286-5414-82ce-05ef6566428f",
+  "rev": 1,
+  "statement": "Un combustible tiene una densidad energética de $45\\,\\text{MJ}\\,\\text{kg}^{-1}$. Un generador con un rendimiento del $30\\,\\%$ quema $2{,}0\\,\\text{kg}$. ¿Cuánta energía eléctrica produce?",
+  "explanation": "$E = 0{,}30\\cdot 2{,}0\\cdot 45 = 27\\,\\text{MJ}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "densidad energética",
+    "rendimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$27\\,\\text{MJ}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$90\\,\\text{MJ}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$63\\,\\text{MJ}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$14\\,\\text{MJ}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

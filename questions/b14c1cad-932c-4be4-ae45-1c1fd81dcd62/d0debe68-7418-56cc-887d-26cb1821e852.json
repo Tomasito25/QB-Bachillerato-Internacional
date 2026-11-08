@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "d0debe68-7418-56cc-887d-26cb1821e852",
+  "rev": 1,
+  "statement": "La concentración media de $\\text{CO}_2$ en la atmósfera pasó de unas $280\\,\\text{ppm}$, antes de la era industrial, a unas $420\\,\\text{ppm}$. Un modelo sencillo estima el forzamiento radiativo como $\\Delta F = 5{,}35\\,\\ln\\frac{C}{C_0}$, en $\\text{W m}^{-2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "gases de efecto invernadero",
+    "realimentación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el aumento porcentual de la concentración.",
+      "modelAnswer": "$\\frac{420 - 280}{280} = 50\\,\\%$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el forzamiento radiativo.",
+      "modelAnswer": "$\\Delta F = 5{,}35\\,\\ln 1{,}5 = 2{,}2\\,\\text{W}\\,\\text{m}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Con una sensibilidad climática de $0{,}8\\,\\text{K}$ por cada $\\text{W m}^{-2}$, estima el aumento de temperatura en el equilibrio.",
+      "modelAnswer": "$\\Delta T = 0{,}8\\cdot 2{,}17 = 1{,}7\\,\\text{K}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica una realimentación positiva y una negativa que hagan que el resultado real se aparte de esta estimación.",
+      "modelAnswer": "Positiva: al calentarse la atmósfera, retiene más vapor de agua, que también es un gas de efecto invernadero; o se funde el hielo y baja el albedo. Negativa: la Tierra, más caliente, radia más; más nubes bajas pueden reflejar más luz.",
+      "marks": 2
+    }
+  ]
+}

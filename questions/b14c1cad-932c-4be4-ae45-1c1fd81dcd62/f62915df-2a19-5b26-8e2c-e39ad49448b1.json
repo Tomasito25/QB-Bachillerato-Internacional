@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f62915df-2a19-5b26-8e2c-e39ad49448b1",
+  "rev": 1,
+  "statement": "Un oscilador armónico tiene una amplitud de $5{,}0\\,\\text{cm}$ y una frecuencia de $2{,}0\\,\\text{Hz}$. ¿Cuál es el módulo de su aceleración máxima?",
+  "explanation": "$\\omega = 2\\pi f = 12{,}6\\,\\text{rad}\\,\\text{s}^{-1}$; $a_\\text{máx} = \\omega^2 x_0 = 12{,}6^2\\cdot 0{,}050 = 7{,}9\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "aceleración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$7{,}9\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$0{,}63\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$3{,}9\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$0{,}20\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false,
+      "feedback": "Usa la frecuencia angular, ω = 2πf."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

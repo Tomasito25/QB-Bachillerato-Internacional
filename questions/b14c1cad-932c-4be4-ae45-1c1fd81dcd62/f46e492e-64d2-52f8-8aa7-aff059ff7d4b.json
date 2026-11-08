@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "f46e492e-64d2-52f8-8aa7-aff059ff7d4b",
+  "rev": 1,
+  "statement": "Un camión con suspensión de frecuencia natural $1{,}5\\,\\text{Hz}$ pasa sobre badenes separados $12\\,\\text{m}$ entre sí.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "resonancia",
+    "amortiguamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad a la que los badenes provocan resonancia.",
+      "modelAnswer": "Los badenes dan $f$ impulsos por segundo: $v = fd = 1{,}5\\cdot 12 = 18\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué, a esa velocidad, la amplitud de oscilación crece hasta un valor muy alto.",
+      "modelAnswer": "Cada impulso llega en fase con la oscilación y aporta energía de forma sucesiva, de modo que la amplitud aumenta hasta que la energía aportada iguala a la disipada.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica cómo influyen unos amortiguadores más fuertes en la amplitud máxima y en la anchura de la curva de resonancia.",
+      "modelAnswer": "La amplitud máxima baja y la curva se ensancha.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Razona por qué se producen también oscilaciones importantes a $9{,}0\\,\\text{m}\\,\\text{s}^{-1}$, aunque menores.",
+      "modelAnswer": "A esa velocidad los impulsos llegan cada $\\frac{12}{9{,}0} = 1{,}33\\,\\text{s}$, justo cada dos oscilaciones naturales ($0{,}67\\,\\text{s}$ cada una). Sigue habiendo una transferencia de energía en fase, pero sólo un impulso de cada dos oscilaciones.",
+      "marks": 3
+    }
+  ]
+}

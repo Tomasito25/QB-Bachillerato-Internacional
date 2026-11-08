@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "f68c3bdb-6b20-54a4-83e6-006ea899afa1",
+  "rev": 1,
+  "statement": "Dos cargas fijas de $+2{,}0\\,\\mu\\text{C}$ y $+8{,}0\\,\\mu\\text{C}$ están separadas $30\\,\\text{cm}$. Usa $k = 8{,}99\\times10^{9}\\,\\text{N}\\,\\text{m}^{2}\\,\\text{C}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "ley de Coulomb",
+    "campo eléctrico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "punto neutro"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la fuerza entre ellas.",
+      "modelAnswer": "$F = \\frac{k q_1q_2}{r^2} = \\frac{8{,}99\\times10^{9}\\cdot 2{,}0\\times10^{-6}\\cdot 8{,}0\\times10^{-6}}{0{,}30^2} = 1{,}6\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la posición del punto, entre las cargas, en el que el campo es cero.",
+      "modelAnswer": "$\\frac{q_1}{x^2} = \\frac{q_2}{(0{,}30 - x)^2}$: $\\frac{0{,}30 - x}{x} = 2$, así que $x = 10\\,\\text{cm}$ desde la carga de $2{,}0\\,\\mu\\text{C}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Razona si una carga de prueba colocada en ese punto estaría en equilibrio estable a lo largo de la recta que une las cargas, según sea positiva.",
+      "modelAnswer": "Una carga positiva está en equilibrio estable a lo largo de la recta: al desplazarla hacia cualquiera de las dos, esa carga la repele más que la otra y la devuelve al punto.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula el módulo del campo eléctrico en el punto medio entre las dos cargas.",
+      "modelAnswer": "$E_1 = \\frac{k\\,q_1}{0{,}15^2} = 8{,}0\\times10^{5}\\,\\text{N}\\,\\text{C}^{-1}$ y $E_2 = 3{,}2\\times10^{6}\\,\\text{N}\\,\\text{C}^{-1}$, en sentidos opuestos. Resultante: $2{,}4\\times10^{6}\\,\\text{N}\\,\\text{C}^{-1}$, hacia la carga menor.",
+      "marks": 3
+    }
+  ]
+}

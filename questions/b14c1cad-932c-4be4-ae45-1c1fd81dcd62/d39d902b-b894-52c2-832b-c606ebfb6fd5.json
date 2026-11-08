@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "d39d902b-b894-52c2-832b-c606ebfb6fd5",
+  "rev": 1,
+  "statement": "¿Cuál de estas unidades equivale al newton-segundo?",
+  "explanation": "$1\\,\\text{N} = 1\\,\\text{kg}\\,\\text{m}\\,\\text{s}^{-2}$, así que $1\\,\\text{N}\\,\\text{s} = 1\\,\\text{kg}\\,\\text{m}\\,\\text{s}^{-1}$: las unidades de la cantidad de movimiento.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "unidades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\text{kg}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$\\text{kg}\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$\\text{kg}\\,\\text{m}^2\\,\\text{s}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$\\text{J}\\,\\text{s}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

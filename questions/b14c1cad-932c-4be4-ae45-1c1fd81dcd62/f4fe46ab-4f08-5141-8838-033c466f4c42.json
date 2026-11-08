@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "f4fe46ab-4f08-5141-8838-033c466f4c42",
+  "rev": 1,
+  "statement": "El bloque A, de $5{,}0\\,\\text{kg}$, está sobre una mesa horizontal con coeficiente de rozamiento dinámico $0{,}20$. Un hilo inextensible y una polea sin masa lo unen al bloque B, de $3{,}0\\,\\text{kg}$, que cuelga. El sistema parte del reposo. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton",
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "diagrama de fuerzas",
+    "tensión"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja las fuerzas que actúan sobre cada bloque.",
+      "modelAnswer": "A: peso, normal, tensión hacia la polea y rozamiento en sentido contrario. B: peso hacia abajo y tensión hacia arriba.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la aceleración del sistema.",
+      "modelAnswer": "Rozamiento: $0{,}20\\cdot 5{,}0\\cdot 9{,}8 = 9{,}8\\,\\text{N}$. Para el conjunto: $3{,}0\\cdot 9{,}8 - 9{,}8 = (5{,}0 + 3{,}0)\\,a$, luego $a = 2{,}5\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la tensión del hilo.",
+      "modelAnswer": "En B: $T = m_B(g - a) = 3{,}0\\,(9{,}8 - 2{,}45) = 22\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "B baja $1{,}2\\,\\text{m}$ hasta tocar el suelo. Calcula la rapidez de los bloques en ese momento.",
+      "modelAnswer": "$v = \\sqrt{2\\cdot 2{,}45\\cdot 1{,}2} = 2{,}4\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Tras tocar B el suelo, el hilo se afloja. Determina qué distancia adicional recorre A hasta pararse.",
+      "modelAnswer": "Sólo le frena el rozamiento: $a = \\mu g = 1{,}96\\,\\text{m}\\,\\text{s}^{-2}$ y $d = \\frac{v^2}{2a} = \\frac{2{,}42^2}{2\\cdot 1{,}96} = 1{,}5\\,\\text{m}$.",
+      "marks": 3
+    }
+  ]
+}

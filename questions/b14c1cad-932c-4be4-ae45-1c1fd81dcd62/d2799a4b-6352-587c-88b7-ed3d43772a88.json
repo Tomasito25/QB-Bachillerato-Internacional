@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d2799a4b-6352-587c-88b7-ed3d43772a88",
+  "rev": 1,
+  "statement": "Dos puntos de una onda estacionaria están entre dos nodos consecutivos. ¿Cómo oscilan?",
+  "explanation": "En una onda estacionaria, la amplitud cambia de un punto a otro, pero todos los puntos entre dos nodos consecutivos oscilan en fase.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "ondas estacionarias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En fase, y con amplitudes que pueden ser distintas",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Con la misma amplitud y desfasados",
+      "correct": false,
+      "feedback": "Entre dos nodos, todos los puntos oscilan en fase."
+    },
+    {
+      "id": "c",
+      "text": "En oposición de fase, y con la misma amplitud",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En fase y con la misma amplitud",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

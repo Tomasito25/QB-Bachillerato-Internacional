@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b9afc5a0-6dd0-57bb-829b-5cba633f8573",
+  "rev": 1,
+  "statement": "Un hilo de $0{,}40\\,\\text{m}$ por el que circulan $5{,}0\\,\\text{A}$ es perpendicular a un campo magnético de $0{,}30\\,\\text{T}$. ¿Qué fuerza actúa sobre él?",
+  "explanation": "$F = BIL = 0{,}30\\cdot 5{,}0\\cdot 0{,}40 = 0{,}60\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "fuerza sobre un conductor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}0\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}24\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$3{,}0\\,\\text{N}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$0{,}60\\,\\text{N}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

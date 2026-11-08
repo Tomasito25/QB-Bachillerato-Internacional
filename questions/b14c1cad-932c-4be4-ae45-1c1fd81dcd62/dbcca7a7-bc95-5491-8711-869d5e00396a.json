@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dbcca7a7-bc95-5491-8711-869d5e00396a",
+  "rev": 1,
+  "statement": "En un hilo de cobre con $8{,}5\\times10^{28}$ electrones libres por metro cúbico y sección de $1{,}0\\times10^{-6}\\,\\text{m}^{2}$ circula una corriente de $3{,}4\\,\\text{A}$. ¿Cuál es la velocidad media de arrastre?",
+  "explanation": "$v = \\frac{I}{nAe} = \\frac{3{,}4}{8{,}5\\times10^{28}\\cdot 1{,}0\\times10^{-6}\\cdot 1{,}6\\times10^{-19}} = 2{,}5\\times10^{-4}\\,\\text{m}\\,\\text{s}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "corriente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}5\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$2{,}5\\times10^{-4}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$4{,}0\\times10^{-5}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$3{,}0\\times10^{8}\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false,
+      "feedback": "Ésa es la velocidad de la luz: los electrones avanzan muchísimo más despacio."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "fa5d80eb-55db-591d-8eb0-a2ca92e03049",
+  "rev": 1,
+  "statement": "¿Cómo deben conectarse un amperímetro y un voltímetro ideales para medir la corriente y la tensión de una resistencia?",
+  "explanation": "El amperímetro, de resistencia casi nula, debe recorrerlo la misma corriente. El voltímetro, de resistencia muy alta, debe medir entre los extremos de la resistencia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "medidas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El amperímetro en paralelo y el voltímetro en serie",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Los dos en serie",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El amperímetro en serie y el voltímetro en paralelo",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Los dos en paralelo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

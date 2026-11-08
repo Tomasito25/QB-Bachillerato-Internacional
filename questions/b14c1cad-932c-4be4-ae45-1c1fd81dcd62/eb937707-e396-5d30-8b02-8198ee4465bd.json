@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "eb937707-e396-5d30-8b02-8198ee4465bd",
+  "rev": 1,
+  "statement": "Una cuerda de $0{,}80\\,\\text{m}$, fija por sus extremos, tiene una masa de $4{,}0\\,\\text{g}$. Está sometida a una tensión de $125\\,\\text{N}$. La velocidad de las ondas en la cuerda viene dada por $v = \\sqrt{\\frac{T}{\\mu}}$, donde $\\mu$ es la masa por unidad de longitud.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "armónicos",
+    "cuerdas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad de las ondas en la cuerda.",
+      "modelAnswer": "$\\mu = \\frac{0{,}0040}{0{,}80} = 5{,}0\\times10^{-3}\\,\\text{kg}\\,\\text{m}^{-1}$. $v = \\sqrt{\\frac{125}{5{,}0\\times10^{-3}}} = 158\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la frecuencia fundamental.",
+      "modelAnswer": "$f = \\frac{v}{2L} = \\frac{158}{1{,}6} = 99\\,\\text{Hz}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Dibuja la cuerda en su segundo armónico, indica los nodos y calcula la distancia entre ellos.",
+      "modelAnswer": "Un nodo en cada extremo y otro en el centro, con dos vientres. Distancia entre nodos: $\\frac{L}{2} = 0{,}40\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina qué tensión se necesita para que la frecuencia fundamental sea $120\\,\\text{Hz}$.",
+      "modelAnswer": "$v = 2Lf = 192\\,\\text{m}\\,\\text{s}^{-1}$, y $T = \\mu v^2 = 5{,}0\\times10^{-3}\\cdot 192^2 = 184\\,\\text{N}$.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué se oye la misma nota al pulsar la cuerda en distintos puntos, aunque suene distinto.",
+      "modelAnswer": "La frecuencia fundamental es la misma, porque depende de la cuerda y de la tensión. Al pulsar en distintos puntos cambia qué armónicos se excitan, y por eso cambia el timbre.",
+      "marks": 2
+    }
+  ]
+}

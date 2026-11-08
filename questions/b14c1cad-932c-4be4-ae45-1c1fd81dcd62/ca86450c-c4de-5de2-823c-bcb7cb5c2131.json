@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ca86450c-c4de-5de2-823c-bcb7cb5c2131",
+  "rev": 1,
+  "statement": "Una esfera pequeña cae a velocidad límite en un líquido viscoso. Si se usa otra esfera de la misma densidad y el doble de radio, ¿por cuánto se multiplica la velocidad límite?",
+  "explanation": "En equilibrio, $\\frac{4}{3}\\pi r^3 (\\rho_e - \\rho_f) g = 6\\pi\\eta r v$, así que $v \\propto r^2$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "arrastre viscoso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$2$",
+      "correct": false,
+      "feedback": "El peso va con el cubo del radio, y el arrastre sólo con la primera potencia."
+    },
+    {
+      "id": "c",
+      "text": "$8$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$16$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

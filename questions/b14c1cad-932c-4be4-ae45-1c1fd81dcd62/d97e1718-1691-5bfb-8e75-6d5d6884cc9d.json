@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "d97e1718-1691-5bfb-8e75-6d5d6884cc9d",
+  "rev": 1,
+  "statement": "Una fibra óptica de $1{,}0\\,\\text{km}$ tiene un núcleo de índice $1{,}48$ y un revestimiento de índice $1{,}44$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total",
+    "fibra óptica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "dispersión modal",
+    "ensanchamiento del pulso"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el ángulo crítico en la superficie de separación.",
+      "modelAnswer": "$\\sin\\theta_c = \\frac{1{,}44}{1{,}48}$, de donde $\\theta_c = 77^{\\circ}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el tiempo que tarda un pulso que viaja por el eje de la fibra.",
+      "modelAnswer": "$v = \\frac{3{,}0\\times10^{8}}{1{,}48} = 2{,}03\\times10^{8}\\,\\text{m}\\,\\text{s}^{-1}$, y $t = \\frac{1000}{2{,}03\\times10^{8}} = 4{,}93\\,\\mu\\text{s}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el tiempo que tarda un rayo que se refleja con el ángulo crítico en cada contacto.",
+      "modelAnswer": "Recorre un camino mayor: $\\frac{L}{\\sin\\theta_c}$. El tiempo es $\\frac{4{,}93}{\\sin 76{,}7^{\\circ}} = 5{,}07\\,\\mu\\text{s}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué esta diferencia de tiempos limita la frecuencia con la que se pueden enviar pulsos, y calcula la separación mínima entre pulsos.",
+      "modelAnswer": "Cada pulso se ensancha porque los rayos llegan en momentos distintos: si los pulsos estuvieran muy juntos, se solaparían. La separación mínima es de unos $0{,}14\\,\\mu\\text{s}$.",
+      "marks": 3
+    }
+  ]
+}

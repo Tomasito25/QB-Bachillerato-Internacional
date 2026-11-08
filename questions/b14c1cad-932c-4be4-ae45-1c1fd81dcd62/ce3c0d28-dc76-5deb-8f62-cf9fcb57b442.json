@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ce3c0d28-dc76-5deb-8f62-cf9fcb57b442",
+  "rev": 1,
+  "statement": "Sin efecto invernadero, y absorbiendo $238\\,\\text{W}\\,\\text{m}^{-2}$, ¿qué temperatura de equilibrio tendría la Tierra como cuerpo negro?",
+  "explanation": "$\\sigma T^4 = 238$, de donde $T = \\left(\\frac{238}{5{,}67\\times10^{-8}}\\right)^{1/4} = 255\\,\\text{K}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$288\\,\\text{K}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$255\\,\\text{K}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$303\\,\\text{K}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$238\\,\\text{K}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

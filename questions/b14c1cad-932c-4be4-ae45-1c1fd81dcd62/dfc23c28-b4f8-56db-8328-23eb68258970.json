@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dfc23c28-b4f8-56db-8328-23eb68258970",
+  "rev": 1,
+  "statement": "En el punto más alto de la trayectoria de un proyectil lanzado de forma oblicua, sin resistencia del aire:",
+  "explanation": "La componente horizontal de la velocidad no cambia y la vertical se anula. La aceleración es $g$ hacia abajo en todo momento.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "la velocidad y la aceleración son cero",
+      "correct": false,
+      "feedback": "Sólo se anula la componente vertical de la velocidad."
+    },
+    {
+      "id": "b",
+      "text": "la velocidad es cero y la aceleración, vertical hacia abajo",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "la velocidad es horizontal y la aceleración, cero",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "la velocidad es horizontal y la aceleración, vertical hacia abajo",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
