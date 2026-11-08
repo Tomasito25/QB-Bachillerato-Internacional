@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "5dfb93a2-3535-558c-877a-f0d9b02a2476",
+  "rev": 1,
+  "statement": "El espectro de una estrella tiene su máximo en $\\lambda_{\\text{máx}} = 480\\,\\text{nm}$. ¿Cuál es su temperatura superficial? Usa $\\lambda_{\\text{máx}}\\,T = 2{,}9\\times10^{-3}\\,\\text{m K}$.",
+  "explanation": "Según la ley de Wien, $T = \\frac{2{,}9\\times10^{-3}}{4{,}8\\times10^{-7}} = 6{,}0\\times10^{3}\\,\\text{K}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "ley de Wien"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}0\\times10^{3}\\,\\text{K}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$6{,}0\\times10^{6}\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Revisa la conversión: 480 nm son 4,8 × 10⁻⁷ m."
+    },
+    {
+      "id": "c",
+      "text": "$6{,}0\\times10^{3}\\,\\text{K}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$1{,}7\\times10^{-4}\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Has invertido la fracción."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

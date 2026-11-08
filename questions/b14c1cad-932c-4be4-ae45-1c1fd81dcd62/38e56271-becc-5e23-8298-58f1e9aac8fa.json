@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "38e56271-becc-5e23-8298-58f1e9aac8fa",
+  "rev": 1,
+  "statement": "¿Qué mantiene estable a una estrella de la secuencia principal?",
+  "explanation": "Es el equilibrio hidrostático: la gravedad tiende a comprimir la estrella y la presión hacia fuera, alimentada por la energía de la fusión en el núcleo, lo impide.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "2da2fe0e-743f-5d38-81d7-c319e6711c96"
+  ],
+  "tags": [
+    "equilibrio hidrostático"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La repulsión eléctrica entre sus núcleos compensa su rotación.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La fuerza nuclear fuerte mantiene unidas sus capas exteriores.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La presión del gas caliente y de la radiación, mantenida por la fusión, equilibra la gravedad.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Su rotación compensa por completo la atracción gravitatoria.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

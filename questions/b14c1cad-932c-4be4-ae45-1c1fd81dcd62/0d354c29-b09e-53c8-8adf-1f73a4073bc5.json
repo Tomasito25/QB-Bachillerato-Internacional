@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "0d354c29-b09e-53c8-8adf-1f73a4073bc5",
+  "rev": 1,
+  "statement": "El diagrama de Hertzsprung-Russell muestra la banda de la secuencia principal y tres estrellas: X ($5800\\,\\text{K}$), Y ($4000\\,\\text{K}$ y 1000 veces la luminosidad del Sol) y Z.\n\n![Diagrama de Hertzsprung-Russell con la banda de la secuencia principal y tres estrellas: X sobre la banda (5800 K, 1 luminosidad solar), Y arriba a la derecha (4000 K, 1000) y Z abajo a la izquierda (10 000 K, 0,01).](qbimg:5ba75cd7c5d5f123b778388700ba68e56e6489002c617c5fa4bc386df8886568)",
+  "images": [
+    {
+      "hash": "5ba75cd7c5d5f123b778388700ba68e56e6489002c617c5fa4bc386df8886568",
+      "ext": "png",
+      "width": 520,
+      "height": 340,
+      "bytes": 5803,
+      "alt": "Diagrama de Hertzsprung-Russell con la banda de la secuencia principal y tres estrellas: X sobre la banda (5800 K, 1 luminosidad solar), Y arriba a la derecha (4000 K, 1000) y Z abajo a la izquierda (10 000 K, 0,01)."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "2da2fe0e-743f-5d38-81d7-c319e6711c96"
+  ],
+  "tags": [
+    "diagrama HR"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica a qué tipo pertenece cada estrella.",
+      "modelAnswer": "X es una estrella de la secuencia principal. Y es una gigante roja. Z es una enana blanca.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué Y es mucho más luminosa que X, aunque está más fría.",
+      "modelAnswer": "$L = \\sigma 4\\pi R^2 T^4$. Como su temperatura es menor, sólo puede ser más luminosa si su radio es mucho mayor.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Si X tiene la luminosidad del Sol, determina $\\frac{R_Y}{R_X}$.",
+      "modelAnswer": "$\\frac{R_Y}{R_X} = \\sqrt{\\frac{L_Y}{L_X}}\\left(\\frac{T_X}{T_Y}\\right)^2 = \\sqrt{1000}\\cdot\\left(\\frac{5800}{4000}\\right)^2 \\approx 66$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica qué proceso es la fuente de energía de X y cuál será su estado final.",
+      "modelAnswer": "La fusión de hidrógeno en helio. Una estrella como el Sol acabará como enana blanca, tras pasar por las fases de gigante roja y nebulosa planetaria.",
+      "marks": 2
+    }
+  ]
+}

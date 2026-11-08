@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "7a8c50f3-47a9-5d69-845a-fb0d3e57c634",
+  "rev": 1,
+  "statement": "Desde el borde de una azotea de $20\\,\\text{m}$ de altura se lanza una pelota en horizontal a $15\\,\\text{m s}^{-1}$. Sin resistencia del aire y con $g = 9{,}8\\,\\text{m s}^{-2}$, ¿a qué distancia horizontal del edificio llega al suelo?",
+  "explanation": "Los movimientos horizontal y vertical son independientes. El tiempo de caída sale de $h = \\frac{1}{2} g t^2$: $t = \\sqrt{\\frac{2 \\cdot 20}{9{,}8}} = 2{,}0\\,\\text{s}$. En horizontal no hay aceleración: $x = 15 \\cdot 2{,}02 = 30\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$15\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$20\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Ésa es la altura de la azotea, no el alcance."
+    },
+    {
+      "id": "c",
+      "text": "$61\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Has contado dos veces el tiempo de caída, que es de unos 2,0 s."
+    },
+    {
+      "id": "d",
+      "text": "$30\\,\\text{m}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

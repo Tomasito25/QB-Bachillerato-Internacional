@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "862fd7f5-139f-519f-8292-6ec89898e37b",
+  "rev": 1,
+  "statement": "Un hilo de $20\\,\\text{cm}$ por el que pasan $3{,}0\\,\\text{A}$ forma un ángulo de $30^{\\circ}$ con un campo magnético de $0{,}40\\,\\text{T}$. ¿Qué fuerza magnética actúa sobre él?",
+  "explanation": "$F = BIL\\sin\\theta = 0{,}40 \\cdot 3{,}0 \\cdot 0{,}20 \\cdot \\sin 30^{\\circ} = 0{,}12\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "fuerza sobre un conductor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}24\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Falta el seno de 30°."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}21\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Has usado el coseno: es el seno del ángulo entre el hilo y el campo."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}12\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$12\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Has dejado la longitud en centímetros."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

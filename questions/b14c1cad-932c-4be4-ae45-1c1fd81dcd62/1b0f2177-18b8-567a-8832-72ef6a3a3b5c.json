@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "1b0f2177-18b8-567a-8832-72ef6a3a3b5c",
+  "rev": 1,
+  "statement": "Una emisora de radio emite a $98\\,\\text{MHz}$. ¿Cuál es la longitud de onda? Usa $c = 3{,}00\\times10^{8}\\,\\text{m s}^{-1}$.",
+  "explanation": "$\\lambda = \\frac{c}{f} = \\frac{3{,}00\\times10^{8}}{9{,}8\\times10^{7}} = 3{,}1\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas electromagnéticas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}33\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Has invertido la fracción: λ = c/f."
+    },
+    {
+      "id": "b",
+      "text": "$31\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$2{,}9\\times10^{16}\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Has multiplicado: λ = c/f."
+    },
+    {
+      "id": "d",
+      "text": "$3{,}1\\,\\text{m}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

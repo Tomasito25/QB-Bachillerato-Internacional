@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "234b010f-5a14-5c21-8a3f-44af3f9665b4",
+  "rev": 1,
+  "statement": "Dos cargas puntuales de $+2{,}0\\,\\mu\\text{C}$ y $-3{,}0\\,\\mu\\text{C}$ están separadas $30\\,\\text{cm}$. ¿Qué fuerza se ejercen? Usa $k = 8{,}99\\times10^{9}\\,\\text{N m}^2\\,\\text{C}^{-2}$.",
+  "explanation": "$F = \\frac{k\\,q_1 q_2}{r^2} = \\frac{8{,}99\\times10^{9}\\cdot 2{,}0\\times10^{-6}\\cdot 3{,}0\\times10^{-6}}{0{,}30^2} = 0{,}60\\,\\text{N}$. Al ser de signo contrario, se atraen.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "ley de Coulomb"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}60\\,\\text{N}$, atractiva",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$0{,}60\\,\\text{N}$, repulsiva",
+      "correct": false,
+      "feedback": "Las cargas de signo contrario se atraen."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}18\\,\\text{N}$, atractiva",
+      "correct": false,
+      "feedback": "Falta elevar la distancia al cuadrado."
+    },
+    {
+      "id": "d",
+      "text": "$6{,}0\\times10^{-5}\\,\\text{N}$, atractiva",
+      "correct": false,
+      "feedback": "Has dejado la distancia en centímetros."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

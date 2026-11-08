@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6a3d8002-adcf-5f61-817f-e082c814b51d",
+  "rev": 1,
+  "statement": "¿Por qué se libera energía cuando se fisiona un núcleo pesado?",
+  "explanation": "En la curva de energía de enlace por nucleón, los núcleos medianos están más ligados que los muy pesados. La masa total disminuye, y esa diferencia se libera según $\\Delta E = \\Delta m\\,c^2$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "ddcb3fae-96f8-5c9f-8194-065c1a9cdc11"
+  ],
+  "tags": [
+    "energía de enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los productos tienen mayor energía de enlace por nucleón que el núcleo inicial.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Los productos tienen más masa que el núcleo inicial.",
+      "correct": false,
+      "feedback": "Es al revés: la masa total disminuye, y esa diferencia es la energía liberada."
+    },
+    {
+      "id": "c",
+      "text": "En la fisión se destruyen protones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los neutrones que provocan la fisión aportan toda esa energía.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

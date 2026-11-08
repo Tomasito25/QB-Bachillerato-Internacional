@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "28dc206e-9b2b-51b6-80c7-7797138026d3",
+  "rev": 1,
+  "statement": "Un rayo de luz pasa del aire a un vidrio de índice $1{,}5$ con un ángulo de incidencia de $40^{\\circ}$. ¿Cuál es el ángulo de refracción?",
+  "explanation": "Ley de Snell: $n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$. Entonces $\\sin\\theta_2 = \\frac{\\sin 40^{\\circ}}{1{,}5} = 0{,}43$, y $\\theta_2 = 25^{\\circ}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "ley de Snell"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$25^{\\circ}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$27^{\\circ}$",
+      "correct": false,
+      "feedback": "Has dividido los ángulos: la ley de Snell relaciona sus senos."
+    },
+    {
+      "id": "c",
+      "text": "$40^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$75^{\\circ}$",
+      "correct": false,
+      "feedback": "Has multiplicado por el índice en vez de dividir. Al entrar en un medio de mayor índice, el rayo se acerca a la normal."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

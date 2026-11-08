@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4cb2f118-411f-5dad-8dfb-16fb98413538",
+  "rev": 1,
+  "statement": "Un coche de $900\\,\\text{kg}$ toma una curva horizontal de $50\\,\\text{m}$ de radio a $15\\,\\text{m s}^{-1}$. ¿Qué fuerza de rozamiento lateral necesita para no derrapar?",
+  "explanation": "El rozamiento proporciona la fuerza centrípeta: $F = \\frac{mv^2}{r} = \\frac{900 \\cdot 15^2}{50} = 4050\\,\\text{N} \\approx 4{,}1\\,\\text{kN}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$270\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Has usado v en lugar de v²."
+    },
+    {
+      "id": "b",
+      "text": "$8{,}1\\,\\text{kN}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$13\\,\\text{kN}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$4{,}1\\,\\text{kN}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

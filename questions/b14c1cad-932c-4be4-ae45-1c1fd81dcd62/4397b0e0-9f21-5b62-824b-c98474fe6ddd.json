@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4397b0e0-9f21-5b62-824b-c98474fe6ddd",
+  "rev": 1,
+  "statement": "Un protón entra a $2{,}0\\times10^{6}\\,\\text{m s}^{-1}$ perpendicularmente a un campo magnético uniforme de $0{,}50\\,\\text{T}$. ¿Cuál es el radio de su trayectoria? Usa $m_p = 1{,}67\\times10^{-27}\\,\\text{kg}$ y $e = 1{,}60\\times10^{-19}\\,\\text{C}$.",
+  "explanation": "La fuerza magnética es la centrípeta: $qvB = \\frac{mv^2}{r}$, así que $r = \\frac{mv}{qB} = \\frac{1{,}67\\times10^{-27}\\cdot 2{,}0\\times10^{6}}{1{,}60\\times10^{-19}\\cdot 0{,}50} = 4{,}2\\times10^{-2}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}1\\,\\text{cm}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$4{,}2\\,\\text{cm}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$8{,}4\\,\\text{cm}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$42\\,\\text{cm}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "1f5c1111-8a08-5a6f-86cc-f5ba7300685f",
+  "rev": 1,
+  "statement": "Se empuja una caja de $12\\,\\text{kg}$ sobre un suelo horizontal con una fuerza horizontal de $50\\,\\text{N}$. El coeficiente de rozamiento dinámico es $0{,}25$. ¿Cuál es su aceleración? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "La fuerza de rozamiento es $F_r = \\mu N = 0{,}25 \\cdot 12 \\cdot 9{,}8 = 29{,}4\\,\\text{N}$. La resultante es $50 - 29{,}4 = 20{,}6\\,\\text{N}$, así que $a = \\frac{20{,}6}{12} = 1{,}7\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}5\\,\\text{m s}^{-2}$",
+      "correct": false,
+      "feedback": "Eso es sólo el rozamiento dividido entre la masa."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}7\\,\\text{m s}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$4{,}2\\,\\text{m s}^{-2}$",
+      "correct": false,
+      "feedback": "Has olvidado el rozamiento."
+    },
+    {
+      "id": "d",
+      "text": "$6{,}6\\,\\text{m s}^{-2}$",
+      "correct": false,
+      "feedback": "Has sumado el rozamiento en vez de restarlo: se opone al movimiento."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

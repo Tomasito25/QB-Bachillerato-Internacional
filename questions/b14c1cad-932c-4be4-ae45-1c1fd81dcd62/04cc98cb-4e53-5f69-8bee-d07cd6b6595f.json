@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "04cc98cb-4e53-5f69-8bee-d07cd6b6595f",
+  "rev": 1,
+  "statement": "Un hervidor de $2{,}0\\,\\text{kW}$ calienta $1{,}5\\,\\text{kg}$ de agua de $20\\,^{\\circ}\\text{C}$ a $100\\,^{\\circ}\\text{C}$. El calor específico del agua es $4180\\,\\text{J kg}^{-1}\\,\\text{K}^{-1}$. Si no hay pérdidas, ¿cuánto tarda?",
+  "explanation": "$Q = mc\\Delta T = 1{,}5 \\cdot 4180 \\cdot 80 = 5{,}0\\times10^{5}\\,\\text{J}$. El tiempo es $t = \\frac{Q}{P} = \\frac{5{,}0\\times10^{5}}{2000} = 251\\,\\text{s} = 4{,}2\\,\\text{min}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "calor específico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}1\\,\\text{min}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$4{,}2\\,\\text{min}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$8{,}4\\,\\text{min}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$14\\,\\text{min}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

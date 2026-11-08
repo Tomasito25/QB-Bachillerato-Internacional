@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "76a4d511-7c33-55f7-8eb9-6884cda5d5a9",
+  "rev": 1,
+  "statement": "¿Qué ocurre en el núcleo durante una desintegración $\\beta^-$?",
+  "explanation": "El número másico no cambia, y el número atómico aumenta en una unidad. El antineutrino se lleva parte de la energía, lo que explica que los electrones emitidos tengan un espectro continuo de energías.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "91f60b07-f5c5-5049-8c46-4bb347d63c02"
+  ],
+  "tags": [
+    "desintegración beta"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un protón se convierte en un neutrón, y se emiten un positrón y un neutrino.",
+      "correct": false,
+      "feedback": "Eso es la desintegración β⁺."
+    },
+    {
+      "id": "b",
+      "text": "Se emite un electrón de la corteza del átomo.",
+      "correct": false,
+      "feedback": "El electrón se crea en el núcleo: no procede de la corteza."
+    },
+    {
+      "id": "c",
+      "text": "El número másico disminuye en una unidad.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un neutrón se convierte en un protón, y se emiten un electrón y un antineutrino.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
