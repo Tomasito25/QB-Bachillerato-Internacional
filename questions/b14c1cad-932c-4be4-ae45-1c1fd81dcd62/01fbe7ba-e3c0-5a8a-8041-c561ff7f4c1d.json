@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "01fbe7ba-e3c0-5a8a-8041-c561ff7f4c1d",
+  "rev": 1,
+  "statement": "La Tierra ($5{,}97\\times10^{24}\\,\\text{kg}$) y la Luna ($7{,}35\\times10^{22}\\,\\text{kg}$) están separadas $3{,}84\\times10^{8}\\,\\text{m}$, de centro a centro.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "campo gravitatorio",
+    "órbitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "punto neutro",
+    "universalidad"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el campo gravitatorio resultante en el punto medio entre las dos.",
+      "modelAnswer": "Tierra: $\\frac{G\\cdot 5{,}97\\times10^{24}}{(1{,}92\\times10^{8})^2} = 1{,}08\\times10^{-2}\\,\\text{m}\\,\\text{s}^{-2}$. Luna: $1{,}33\\times10^{-4}\\,\\text{m}\\,\\text{s}^{-2}$. Resultante: $1{,}07\\times10^{-2}\\,\\text{m}\\,\\text{s}^{-2}$ hacia la Tierra.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Determina la distancia al centro de la Tierra a la que el campo resultante se anula.",
+      "modelAnswer": "$\\frac{M_T}{x^2} = \\frac{M_L}{(d-x)^2}$. Con $\\sqrt{\\frac{M_T}{M_L}} = 9{,}01$: $x = \\frac{9{,}01\\,d}{10{,}01} = 3{,}46\\times10^{8}\\,\\text{m}$.",
+      "marks": 4
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la aceleración centrípeta de la Luna, con un periodo orbital de $27{,}3$ días, y compárala con el campo de la Tierra en la órbita de la Luna.",
+      "modelAnswer": "$a = \\frac{4\\pi^2 d}{T^2} = 2{,}7\\times10^{-3}\\,\\text{m}\\,\\text{s}^{-2}$. $\\frac{GM_T}{d^2} = 2{,}7\\times10^{-3}\\,\\text{m}\\,\\text{s}^{-2}$. Coinciden: la gravedad terrestre mantiene a la Luna en órbita.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Explica la importancia histórica de esta comparación.",
+      "modelAnswer": "Newton comprobó así que la misma ley explica la caída de los objetos en la Tierra y el movimiento de la Luna: la gravedad es universal.",
+      "marks": 1
+    }
+  ]
+}

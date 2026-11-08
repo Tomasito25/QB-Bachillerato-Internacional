@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "2d8e393b-20d2-5f27-811e-3a21f9e42f03",
+  "rev": 1,
+  "statement": "Dos esferas iguales, de $0{,}10\\,\\text{g}$ cada una, cuelgan de un mismo punto con hilos aislantes de $50\\,\\text{cm}$. Se les da la misma carga $q$ y se separan hasta que cada hilo forma $8{,}0^{\\circ}$ con la vertical. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "ley de Coulomb",
+    "equilibrio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "componentes de la tensión"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja las fuerzas que actúan sobre una esfera.",
+      "modelAnswer": "El peso hacia abajo, la tensión en la dirección del hilo y la fuerza eléctrica horizontal, de repulsión.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Muestra que la fuerza eléctrica es $F = mg\\tan\\theta$, y calcula su valor.",
+      "modelAnswer": "Equilibrio: $T\\cos\\theta = mg$ y $T\\sin\\theta = F$. Al dividir se obtiene la expresión. $F = 1{,}0\\times10^{-4}\\cdot 9{,}8\\cdot\\tan 8{,}0^{\\circ} = 1{,}4\\times10^{-4}\\,\\text{N}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Determina la separación entre las esferas y el valor de la carga.",
+      "modelAnswer": "$r = 2L\\sin\\theta = 0{,}14\\,\\text{m}$. $q = \\sqrt{\\frac{Fr^2}{k}} = 1{,}7\\times10^{-8}\\,\\text{C}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Calcula cuántos electrones se han añadido o quitado a cada esfera, y qué fracción representan de los que tiene, si cada esfera tiene unos $3\\times10^{22}$ electrones.",
+      "modelAnswer": "$N = \\frac{1{,}7\\times10^{-8}}{1{,}6\\times10^{-19}} = 1{,}1\\times10^{11}$ electrones, una fracción de $3{,}6\\times10^{-12}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Razona qué ángulo se observaría si una de las esferas tuviera el doble de masa, y qué esfera se desvía más.",
+      "modelAnswer": "La fuerza eléctrica es la misma sobre las dos. La esfera más pesada se desvía menos, porque tan θ = F/mg.",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "394e509d-218d-57d7-870c-cdc1740bfe12",
+  "rev": 1,
+  "statement": "En una prueba de choque, un coche de $1200\\,\\text{kg}$ se estrella contra una barrera rígida y queda detenido. La gráfica muestra la fuerza de la barrera sobre el coche.\n\n![Gráfica de fuerza frente a tiempo durante un choque: sube de 0 a 150 kN en 20 ms, se mantiene hasta 80 ms y baja a 0 a los 100 ms.](qbimg:e5cbf25df96bf5d00de1ce4cc79b053233d42c589fa85842436f79d030b0dc23)",
+  "images": [
+    {
+      "hash": "e5cbf25df96bf5d00de1ce4cc79b053233d42c589fa85842436f79d030b0dc23",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 3562,
+      "alt": "Gráfica de fuerza frente a tiempo durante un choque: sube de 0 a 150 kN en 20 ms, se mantiene hasta 80 ms y baja a 0 a los 100 ms."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "impulso",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "área bajo la gráfica",
+    "tiempo de contacto"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina el impulso sobre el coche.",
+      "modelAnswer": "Área de un trapecio: $\\frac{1}{2}\\,(0{,}100 + 0{,}060)\\cdot 150\\times10^{3} = 1{,}2\\times10^{4}\\,\\text{N}\\,\\text{s}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la velocidad del coche antes del choque.",
+      "modelAnswer": "$v = \\frac{1{,}2\\times10^{4}}{1200} = 10\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la fuerza media durante el choque y la aceleración media, en múltiplos de $g$.",
+      "modelAnswer": "$\\bar{F} = \\frac{1{,}2\\times10^{4}}{0{,}100} = 1{,}2\\times10^{5}\\,\\text{N}$. $a = \\frac{1{,}2\\times10^{5}}{1200} = 100\\,\\text{m}\\,\\text{s}^{-2}$, unas $10\\,g$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Un nuevo diseño con zona de deformación alarga el choque hasta $200\\,\\text{ms}$. Explica qué le pasa a la fuerza media y por qué mejora la seguridad.",
+      "modelAnswer": "El impulso es el mismo, porque el cambio de cantidad de movimiento lo es. Con el doble de tiempo, la fuerza media se reduce a la mitad, $6{,}0\\times10^{4}\\,\\text{N}$, y la aceleración de los ocupantes también.",
+      "marks": 3
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0e7d9530-5c34-5976-8998-703d71a002d7",
+  "rev": 1,
+  "statement": "Se produce resonancia en un sistema cuando:",
+  "explanation": "Con esa frecuencia la transferencia de energía es máxima y la amplitud crece hasta un valor muy alto, limitado por el amortiguamiento.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "resonancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "la amplitud de la fuerza impulsora es muy grande",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "la frecuencia de la fuerza impulsora coincide con su frecuencia natural",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "no hay amortiguamiento",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "el sistema oscila con su periodo más largo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

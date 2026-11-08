@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2c891e45-ab0b-55b8-85a2-2fcb435c5bbc",
+  "rev": 1,
+  "statement": "Un motor consume $400\\,\\text{W}$ para subir una carga de $50\\,\\text{kg}$ hasta $12\\,\\text{m}$ de altura en $20\\,\\text{s}$. ¿Cuál es su rendimiento? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "Potencia útil: $\\frac{50\\cdot 9{,}8\\cdot 12}{20} = 294\\,\\text{W}$. Rendimiento: $\\frac{294}{400} = 74\\,\\%$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "rendimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$26\\,\\%$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$1{,}4\\,\\%$",
+      "correct": false,
+      "feedback": "Compara potencias, en vatios: la potencia útil es la energía dividida entre el tiempo."
+    },
+    {
+      "id": "c",
+      "text": "$88\\,\\%$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$74\\,\\%$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

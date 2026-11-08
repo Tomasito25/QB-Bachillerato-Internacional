@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "32162b78-1aed-51ae-8b6a-ab1f7c1068fe",
+  "rev": 1,
+  "statement": "Dos cargas puntuales se repelen con una fuerza $F$. Si una de ellas se duplica y la distancia también, la nueva fuerza es:",
+  "explanation": "$F \\propto \\frac{q_1q_2}{r^2}$: se multiplica por $2$ y se divide entre $4$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "ley de Coulomb"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$F$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$\\frac{F}{2}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$2F$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$\\frac{F}{4}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

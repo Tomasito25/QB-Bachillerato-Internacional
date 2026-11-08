@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "38f2eb64-6fe1-5366-83dd-5f35027c04ca",
+  "rev": 1,
+  "statement": "Si la velocidad de un coche se duplica, su energía cinética:",
+  "explanation": "$E_k = \\frac{1}{2}mv^2$: al duplicar $v$, la energía se multiplica por $2^2 = 4$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "energía cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "se multiplica por 4",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "se multiplica por 2",
+      "correct": false,
+      "feedback": "La energía cinética depende del cuadrado de la velocidad."
+    },
+    {
+      "id": "c",
+      "text": "se mantiene",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "se multiplica por 8",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

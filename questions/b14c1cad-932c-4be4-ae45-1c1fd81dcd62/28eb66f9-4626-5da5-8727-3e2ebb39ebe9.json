@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "28eb66f9-4626-5da5-8727-3e2ebb39ebe9",
+  "rev": 1,
+  "statement": "Cuando la luz pasa de aire a vidrio, ¿qué magnitudes cambian?",
+  "explanation": "La frecuencia no cambia. Si $v$ disminuye, $\\lambda = \\frac{v}{f}$ también.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "refracción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La frecuencia y la velocidad",
+      "correct": false,
+      "feedback": "La frecuencia la fija la fuente: no cambia al cambiar de medio."
+    },
+    {
+      "id": "b",
+      "text": "Sólo la frecuencia",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Sólo la velocidad",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La velocidad y la longitud de onda; la frecuencia no",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

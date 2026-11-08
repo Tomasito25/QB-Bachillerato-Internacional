@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "0718f016-6be3-5c9e-8641-de777e8d520c",
+  "rev": 1,
+  "statement": "En el circuito de la figura, la fuente tiene f. e. m. de $12\\,\\text{V}$ y resistencia interna despreciable, $R = 30\\,\\Omega$, y el amperímetro ideal marca $0{,}50\\,\\text{A}$.\n\n![Circuito: fuente conectada en paralelo con una resistencia R y con una rama formada por un amperímetro A en serie con una resistencia X.](qbimg:10c00f497e2e88087e040913e54f70eac90e20ef11fa8dc180d69f83b0213631)",
+  "images": [
+    {
+      "hash": "10c00f497e2e88087e040913e54f70eac90e20ef11fa8dc180d69f83b0213631",
+      "ext": "png",
+      "width": 560,
+      "height": 300,
+      "bytes": 937,
+      "alt": "Circuito: fuente conectada en paralelo con una resistencia R y con una rama formada por un amperímetro A en serie con una resistencia X."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "asociación de resistencias",
+    "medidas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "amperímetro",
+    "paralelo"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina el valor de la resistencia $X$.",
+      "modelAnswer": "La rama de $X$ está a $12\\,\\text{V}$: $X = \\frac{12}{0{,}50} = 24\\,\\Omega$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la corriente que entrega la fuente.",
+      "modelAnswer": "Por $R$ pasan $\\frac{12}{30} = 0{,}40\\,\\text{A}$. Total: $0{,}50 + 0{,}40 = 0{,}90\\,\\text{A}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El amperímetro real tiene $2{,}0\\,\\Omega$. Calcula cuánto marcaría en ese caso, y el error porcentual respecto a una lectura ideal.",
+      "modelAnswer": "$I = \\frac{12}{24 + 2{,}0} = 0{,}46\\,\\text{A}$. El error es del $\\frac{0{,}50 - 0{,}46}{0{,}50} = 7{,}7\\,\\%$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Si se sustituye $R$ por una resistencia de valor muy alto, razona qué ocurre con la lectura del amperímetro.",
+      "modelAnswer": "No cambia: la rama de $X$ sigue conectada directamente a los extremos de la fuente ideal. Sólo disminuye la corriente total.",
+      "marks": 2
+    }
+  ]
+}

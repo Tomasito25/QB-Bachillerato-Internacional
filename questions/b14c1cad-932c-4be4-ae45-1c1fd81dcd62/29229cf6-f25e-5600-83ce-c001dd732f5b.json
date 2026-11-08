@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "29229cf6-f25e-5600-83ce-c001dd732f5b",
+  "rev": 1,
+  "statement": "Un satélite de comunicaciones de $2500\\,\\text{kg}$ describe una órbita geoestacionaria. Datos: $M_T = 5{,}97\\times10^{24}\\,\\text{kg}$, $R_T = 6{,}37\\times10^{6}\\,\\text{m}$, periodo de rotación de la Tierra, $8{,}62\\times10^{4}\\,\\text{s}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "órbitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "plano ecuatorial",
+    "mismo periodo"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica las condiciones que debe cumplir una órbita geoestacionaria.",
+      "modelAnswer": "Debe ser circular, estar en el plano ecuatorial y tener el periodo de rotación de la Tierra, en el mismo sentido: el satélite queda siempre sobre el mismo punto.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Determina el radio de la órbita.",
+      "modelAnswer": "$\\frac{GM}{r^2} = \\frac{4\\pi^2 r}{T^2}$, de donde $r = \\left(\\frac{GMT^2}{4\\pi^2}\\right)^{1/3} = 4{,}2\\times10^{7}\\,\\text{m}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula su rapidez orbital.",
+      "modelAnswer": "$v = \\frac{2\\pi r}{T} = 3{,}1\\times10^{3}\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Calcula el campo gravitatorio de la Tierra a esa altura, y la fuerza sobre el satélite.",
+      "modelAnswer": "$g = \\frac{GM}{r^2} = 0{,}22\\,\\text{m}\\,\\text{s}^{-2}$. $F = mg = 5{,}6\\times10^{2}\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Calcula el tiempo mínimo que tarda una señal en ir de la superficie al satélite y volver.",
+      "modelAnswer": "Altura: $4{,}2\\times10^{7} - 6{,}37\\times10^{6} = 3{,}6\\times10^{7}\\,\\text{m}$. $t = \\frac{2\\cdot 3{,}6\\times10^{7}}{3{,}0\\times10^{8}} = 0{,}24\\,\\text{s}$.",
+      "marks": 2
+    }
+  ]
+}

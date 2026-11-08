@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "25a6adfb-35f1-557c-8764-01036bf01d1e",
+  "rev": 1,
+  "statement": "Una placa delgada, de $0{,}50\\,\\text{m}^{2}$ por cara, se coloca perpendicular a la luz del Sol, que le llega con una intensidad de $800\\,\\text{W}\\,\\text{m}^{-2}$. Absorbe el $90\\,\\%$ de esa radiación, emite por sus dos caras y tiene una emisividad de $0{,}90$. Sólo intercambia energía por radiación, y se ignora la que llega del entorno.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "Stefan-Boltzmann",
+    "emisividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "equilibrio térmico"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la potencia absorbida.",
+      "modelAnswer": "$P = 0{,}90\\cdot 800\\cdot 0{,}50 = 360\\,\\text{W}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Determina la temperatura de equilibrio de la placa.",
+      "modelAnswer": "En equilibrio la potencia absorbida es igual a la emitida por las dos caras: $360 = 0{,}90\\cdot\\sigma\\cdot 1{,}0\\cdot T^4$. Por tanto $T = 290\\,\\text{K}$.",
+      "marks": 4
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la longitud de onda de máxima emisión de la placa, e indica en qué región del espectro está.",
+      "modelAnswer": "$\\lambda = \\frac{2{,}9\\times10^{-3}}{290} = 1{,}0\\times10^{-5}\\,\\text{m}$, en el infrarrojo.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Razona qué temperatura tendría si sólo pudiera emitir por una cara.",
+      "modelAnswer": "Emitiría por la mitad de superficie: $T^4$ se duplica y $T$ queda multiplicada por $2^{1/4}$, unos $345\\,\\text{K}$.",
+      "marks": 3
+    }
+  ]
+}

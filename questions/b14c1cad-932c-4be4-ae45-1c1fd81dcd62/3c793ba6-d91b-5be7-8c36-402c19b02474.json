@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "3c793ba6-d91b-5be7-8c36-402c19b02474",
+  "rev": 1,
+  "statement": "Mientras un líquido hierve a temperatura constante, la energía que recibe:",
+  "explanation": "La temperatura mide la energía cinética media. Durante el cambio de estado, la energía se invierte en separar las partículas, y aumenta su energía potencial.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "calor latente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "aumenta la energía cinética media de sus partículas",
+      "correct": false,
+      "feedback": "A temperatura constante, la energía cinética media no cambia."
+    },
+    {
+      "id": "b",
+      "text": "se pierde por completo hacia el entorno",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "aumenta la energía potencial de sus partículas",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "disminuye la energía interna",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

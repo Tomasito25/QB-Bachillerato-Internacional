@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "258538a9-4c05-5c7e-8a18-14a076a78ac1",
+  "rev": 1,
+  "statement": "Para estudiar la distancia de parada de un coche se mide, a varias velocidades $v$, la distancia total $d$ hasta detenerse, con la misma conductora y sobre el mismo asfalto.\n\n| $v$ / m s⁻¹ | 10 | 15 | 20 | 25 | 30 |\n|---|---|---|---|---|---|\n| $d$ / m | 15 | 29 | 47 | 70 | 96 |\n\nLa distancia cumple $d = v\\,t_r + \\frac{v^2}{2a}$, donde $t_r$ es el tiempo de reacción y $a$ el módulo de la deceleración.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "datos",
+    "frenada",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "linealizar",
+    "pendiente",
+    "ordenada en el origen",
+    "incertidumbre porcentual"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que una gráfica de $\\frac{d}{v}$ frente a $v$ debe ser una recta, e indica qué representan su pendiente y su ordenada en el origen.",
+      "modelAnswer": "Al dividir entre $v$: $\\frac{d}{v} = t_r + \\frac{1}{2a}\\,v$. Es de la forma $y = c + m x$, con pendiente $\\frac{1}{2a}$ y ordenada en el origen $t_r$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula $\\frac{d}{v}$ para $v = 10\\,\\text{m}\\,\\text{s}^{-1}$ y para $v = 30\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "modelAnswer": "$\\frac{15}{10} = 1{,}5\\,\\text{s}$ y $\\frac{96}{30} = 3{,}2\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "A partir de esos dos puntos, determina $a$ y $t_r$.",
+      "modelAnswer": "Pendiente: $\\frac{3{,}2 - 1{,}5}{30 - 10} = 0{,}085\\,\\text{s}^{2}\\,\\text{m}^{-1}$, así que $a = \\frac{1}{2\\cdot 0{,}085} = 5{,}9\\,\\text{m}\\,\\text{s}^{-2}$. Ordenada: $t_r = 1{,}5 - 0{,}085\\cdot 10 = 0{,}65\\,\\text{s}$.",
+      "marks": 4
+    },
+    {
+      "id": "d",
+      "statement": "La distancia se mide con una incertidumbre de $\\pm 1\\,\\text{m}$. Calcula la incertidumbre porcentual de $d$ en la primera medida y explica por qué conviene dar más peso a las medidas a alta velocidad.",
+      "modelAnswer": "$\\frac{1}{15}\\cdot 100 = 6{,}7\\,\\%$. A $30\\,\\text{m}\\,\\text{s}^{-1}$, $\\frac{1}{96}$ supone sólo un $1\\,\\%$: la incertidumbre absoluta es la misma, pero la relativa es mucho menor.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Indica cómo cambiarían la pendiente y la ordenada en el origen si la conductora repitiera el ensayo sobre asfalto mojado, con la misma atención.",
+      "modelAnswer": "La deceleración máxima sería menor, así que la pendiente aumentaría. La ordenada, que es el tiempo de reacción, no cambiaría.",
+      "marks": 2
+    }
+  ]
+}

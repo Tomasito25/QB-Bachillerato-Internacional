@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0ea82789-dac6-5059-8fc3-8ca5de1b3886",
+  "rev": 1,
+  "statement": "Una bola choca de frente, de forma perfectamente elástica, con otra de la misma masa que está en reposo. ¿Qué ocurre justo después?",
+  "explanation": "Sólo este resultado conserva a la vez la cantidad de movimiento y la energía cinética para masas iguales: se intercambian las velocidades.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "choques"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Salen las dos juntas a la mitad de la velocidad",
+      "correct": false,
+      "feedback": "Eso ocurre en un choque totalmente inelástico."
+    },
+    {
+      "id": "b",
+      "text": "La primera se para y la segunda sale con la velocidad de la primera",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La primera rebota con la misma rapidez",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las dos se paran",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0a101165-285b-5a58-8d72-77e27e3dc752",
+  "rev": 1,
+  "statement": "¿Cuál de estas condiciones define un movimiento armónico simple?",
+  "explanation": "$a = -\\omega^2 x$. El signo menos indica que la fuerza siempre apunta hacia el equilibrio.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "definición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La aceleración es constante y de sentido contrario al desplazamiento",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La velocidad es proporcional al desplazamiento",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La aceleración es proporcional al desplazamiento y de sentido contrario",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La fuerza es constante y apunta hacia el centro",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

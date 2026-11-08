@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "2d2c2825-8474-5189-836f-e96e58e715bd",
+  "rev": 1,
+  "statement": "La Estación Espacial Internacional orbita a $4{,}2\\times10^{5}\\,\\text{m}$ sobre la superficie terrestre. Datos: $M_T = 5{,}97\\times10^{24}\\,\\text{kg}$, $R_T = 6{,}37\\times10^{6}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "órbitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "rozamiento atmosférico"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina el valor del campo gravitatorio a esa altura, y su porcentaje respecto al valor en la superficie.",
+      "modelAnswer": "$g = \\frac{GM}{r^2} = 8{,}6\\,\\text{m}\\,\\text{s}^{-2}$, un $88\\,\\%$ del valor en la superficie, de $9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la rapidez orbital y el periodo.",
+      "modelAnswer": "$v = \\sqrt{\\frac{GM}{r}} = 7{,}7\\times10^{3}\\,\\text{m}\\,\\text{s}^{-1}$. $T = \\frac{2\\pi r}{v} = 5{,}6\\times10^{3}\\,\\text{s}$, unos $93\\,\\text{min}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula cuántas veces al día pueden ver los astronautas la salida del Sol.",
+      "modelAnswer": "$\\frac{86\\,400}{5{,}6\\times10^{3}} = 15{,}5$ veces, unas $16$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Debido al leve rozamiento atmosférico, la órbita desciende poco a poco. Razona qué ocurre con la rapidez de la estación, y por qué esto parece paradójico.",
+      "modelAnswer": "Aumenta, porque $v = \\sqrt{\\frac{GM}{r}}$ crece al bajar $r$. Es paradójico, porque el rozamiento frena; sin embargo, la energía potencial que se pierde al bajar es mayor que la disipada, y parte de ella se convierte en energía cinética.",
+      "marks": 3
+    }
+  ]
+}

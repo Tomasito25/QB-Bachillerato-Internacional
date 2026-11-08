@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "0a20ea08-f178-53e6-85da-7c7264b61964",
+  "rev": 1,
+  "statement": "Una batería de móvil almacena una carga de $4000\\,\\text{mA}\\,\\text{h}$ con una tensión de $3{,}8\\,\\text{V}$. Se carga por completo en $1{,}5\\,\\text{h}$, con un cargador que entrega $5{,}0\\,\\text{V}$ y con un rendimiento global del $80\\,\\%$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "potencia eléctrica",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "resistencia interna",
+    "rendimiento"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía que almacena la batería, en julios.",
+      "modelAnswer": "Carga: $4{,}000\\,\\text{A}\\cdot 3600\\,\\text{s} = 1{,}44\\times10^{4}\\,\\text{C}$. Energía: $QV = 1{,}44\\times10^{4}\\cdot 3{,}8 = 5{,}5\\times10^{4}\\,\\text{J}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la energía que toma el cargador de la red, y la potencia media.",
+      "modelAnswer": "$E = \\frac{5{,}47\\times10^{4}}{0{,}80} = 6{,}8\\times10^{4}\\,\\text{J}$. $P = \\frac{6{,}8\\times10^{4}}{5400} = 13\\,\\text{W}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la corriente media que entrega el cargador.",
+      "modelAnswer": "$I = \\frac{13}{5{,}0} = 2{,}5\\,\\text{A}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Si el kW h cuesta $0{,}18$ euros, calcula el coste de 365 cargas completas.",
+      "modelAnswer": "Cada carga son $\\frac{6{,}84\\times10^{4}}{3{,}6\\times10^{6}} = 0{,}019\\,\\text{kW}\\,\\text{h}$. El coste anual es de $0{,}019\\cdot 365\\cdot 0{,}18 = 1{,}25$ euros.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué una batería se calienta durante la carga rápida, usando la resistencia interna.",
+      "modelAnswer": "La corriente que la atraviesa disipa una potencia $I^2r$ en su resistencia interna. Con más corriente, esa potencia crece con el cuadrado, y se calienta más.",
+      "marks": 2
+    }
+  ]
+}

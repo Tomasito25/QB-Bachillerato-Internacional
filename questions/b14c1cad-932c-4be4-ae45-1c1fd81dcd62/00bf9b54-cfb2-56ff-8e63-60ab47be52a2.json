@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "00bf9b54-cfb2-56ff-8e63-60ab47be52a2",
+  "rev": 1,
+  "statement": "Al estudiar una estrella que gira, las líneas espectrales aparecen ensanchadas. ¿Por qué?",
+  "explanation": "Un borde de la estrella presenta corrimiento al azul; el otro, al rojo. Todas estas contribuciones juntas ensanchan cada línea.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "corrimiento al rojo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque toda la estrella se aleja",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque la estrella es muy caliente y brilla más",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un borde se acerca y el otro se aleja, con lo que aparecen corrimientos opuestos",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque la luz se refracta en su atmósfera",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

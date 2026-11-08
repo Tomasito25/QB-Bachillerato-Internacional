@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "200f2f24-baf3-5729-83ad-732e0826b1f1",
+  "rev": 1,
+  "statement": "Una maleta se sube a la misma altura por una rampa larga o por unas escaleras. Ignorando el rozamiento, ¿cómo es el trabajo contra la gravedad?",
+  "explanation": "La fuerza gravitatoria es conservativa: su trabajo depende sólo de la diferencia de altura. La rampa exige menos fuerza durante más distancia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "trabajo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mayor por la rampa, porque el camino es más largo",
+      "correct": false,
+      "feedback": "El trabajo del peso sólo depende del desnivel."
+    },
+    {
+      "id": "b",
+      "text": "Mayor por las escaleras",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Igual en los dos casos",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Depende de lo rápido que se haga",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

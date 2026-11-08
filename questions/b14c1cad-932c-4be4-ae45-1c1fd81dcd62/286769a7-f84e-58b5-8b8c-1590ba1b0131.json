@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "286769a7-f84e-58b5-8b8c-1590ba1b0131",
+  "rev": 1,
+  "statement": "Un gas ideal describe el ciclo A→B→C→A de la gráfica. El tramo A→B es una expansión isoterma a $400\\,\\text{K}$.\n\n![Gráfica presión-volumen: curva isoterma desde A (1 L, 400 kPa) hasta B (4 L, 100 kPa), recta horizontal de B a C (1 L, 100 kPa) y recta vertical de C a A.](qbimg:ba6e383f1b3cbfb79dcb75ff2842cc85799cc6f71b5e35150ecc1bb504adc6ae)\n\nUsa $R = 8{,}31\\,\\text{J}\\,\\text{K}^{-1}\\,\\text{mol}^{-1}$.",
+  "images": [
+    {
+      "hash": "ba6e383f1b3cbfb79dcb75ff2842cc85799cc6f71b5e35150ecc1bb504adc6ae",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 2655,
+      "alt": "Gráfica presión-volumen: curva isoterma desde A (1 L, 400 kPa) hasta B (4 L, 100 kPa), recta horizontal de B a C (1 L, 100 kPa) y recta vertical de C a A."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "leyes de los gases",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "isoterma",
+    "área bajo la gráfica"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el número de moles del gas.",
+      "modelAnswer": "$n = \\frac{P_AV_A}{RT} = \\frac{4{,}0\\times10^{5}\\cdot 1{,}0\\times10^{-3}}{8{,}31\\cdot 400} = 0{,}12\\,\\text{mol}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la temperatura en C.",
+      "modelAnswer": "De B a C, a presión constante, $V$ se divide entre 4: $T_C = \\frac{400}{4} = 100\\,\\text{K}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el trabajo realizado sobre el gas en el tramo B→C.",
+      "modelAnswer": "$W = P\\,\\Delta V = 1{,}0\\times10^{5}\\cdot 3{,}0\\times10^{-3} = 300\\,\\text{J}$, realizado sobre el gas al comprimirlo.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la variación de energía interna en el tramo C→A, si el gas es monoatómico.",
+      "modelAnswer": "$\\Delta U = \\frac{3}{2}nR\\,\\Delta T = 1{,}5\\cdot 0{,}12\\cdot 8{,}31\\cdot 300 = 4{,}5\\times10^{2}\\,\\text{J}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica, en términos de la teoría cinética, por qué la presión baja de A a B aunque la temperatura sea constante.",
+      "modelAnswer": "Las partículas tienen la misma energía cinética media, pero al aumentar el volumen golpean las paredes con menos frecuencia. Con menos choques por unidad de tiempo y área, baja la presión.",
+      "marks": 2
+    }
+  ]
+}

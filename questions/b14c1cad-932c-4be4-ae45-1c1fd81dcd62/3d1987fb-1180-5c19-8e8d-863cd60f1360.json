@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "3d1987fb-1180-5c19-8e8d-863cd60f1360",
+  "rev": 1,
+  "statement": "¿Cuál es la aceleración de un electrón en un campo uniforme de $5{,}0\\times10^{3}\\,\\text{N}\\,\\text{C}^{-1}$? Usa $e = 1{,}6\\times10^{-19}\\,\\text{C}$ y $m_e = 9{,}11\\times10^{-31}\\,\\text{kg}$.",
+  "explanation": "$a = \\frac{eE}{m_e} = \\frac{1{,}6\\times10^{-19}\\cdot 5{,}0\\times10^{3}}{9{,}11\\times10^{-31}} = 8{,}8\\times10^{14}\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo uniforme"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}8\\times10^{-1}\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$8{,}0\\times10^{-16}\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$8{,}8\\times10^{14}\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$4{,}8\\times10^{11}\\,\\text{m}\\,\\text{s}^{-2}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

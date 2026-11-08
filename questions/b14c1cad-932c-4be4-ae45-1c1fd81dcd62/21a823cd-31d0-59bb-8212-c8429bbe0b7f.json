@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "21a823cd-31d0-59bb-8212-c8429bbe0b7f",
+  "rev": 1,
+  "statement": "Una esfera cae por el aire desde el reposo hasta alcanzar su velocidad límite. ¿Cómo cambia su aceleración durante la caída?",
+  "explanation": "Al principio sólo actúa el peso y $a = g$. La resistencia crece con la velocidad, la fuerza neta baja y, cuando iguala al peso, $a = 0$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "velocidad límite"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se mantiene igual a $g$ hasta que se detiene",
+      "correct": false,
+      "feedback": "La resistencia del aire crece con la velocidad, así que la fuerza neta disminuye."
+    },
+    {
+      "id": "b",
+      "text": "Aumenta desde cero hasta $g$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Es cero desde el principio",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Disminuye desde $g$ hasta cero",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

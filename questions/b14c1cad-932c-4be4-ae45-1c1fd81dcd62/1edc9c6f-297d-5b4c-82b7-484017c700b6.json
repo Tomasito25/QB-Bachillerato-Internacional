@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1edc9c6f-297d-5b4c-82b7-484017c700b6",
+  "rev": 1,
+  "statement": "¿Cuánta energía se necesita para calentar $2{,}0\\,\\text{kg}$ de aluminio $15\\,\\text{K}$? Su calor específico es $900\\,\\text{J}\\,\\text{kg}^{-1}\\,\\text{K}^{-1}$.",
+  "explanation": "$Q = mc\\Delta T = 2{,}0\\cdot 900\\cdot 15 = 2{,}7\\times10^{4}\\,\\text{J}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "calor específico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$13{,}5\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$1{,}2\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$54\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$27\\,\\text{kJ}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

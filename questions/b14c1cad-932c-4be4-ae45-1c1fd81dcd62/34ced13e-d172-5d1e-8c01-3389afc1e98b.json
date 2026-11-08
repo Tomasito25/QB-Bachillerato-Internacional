@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "34ced13e-d172-5d1e-8c01-3389afc1e98b",
+  "rev": 1,
+  "statement": "Una casa pierde calor a través de su envolvente con un coeficiente total de $250\\,\\text{W}\\,\\text{K}^{-1}$: cada grado de diferencia entre dentro y fuera supone $250\\,\\text{W}$. Se mantiene a $20\\,^{\\circ}\\text{C}$, y un día la temperatura exterior media es de $5\\,^{\\circ}\\text{C}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "conducción",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la potencia media de calefacción necesaria.",
+      "modelAnswer": "$P = 250\\cdot 15 = 3{,}8\\times10^{3}\\,\\text{W}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la energía necesaria en ese día, en julios y en kW h.",
+      "modelAnswer": "$E = 3750\\cdot 86\\,400 = 3{,}2\\times10^{8}\\,\\text{J} = 90\\,\\text{kW}\\,\\text{h}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Una caldera de gas tiene un rendimiento del $90\\,\\%$. El gas aporta $36\\,\\text{MJ}$ por metro cúbico. Calcula el volumen de gas diario.",
+      "modelAnswer": "Energía de combustible: $\\frac{3{,}2\\times10^{8}}{0{,}90} = 3{,}6\\times10^{8}\\,\\text{J}$, unos $10\\,\\text{m}^{3}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Mejorar el aislamiento rebaja el coeficiente a $150\\,\\text{W}\\,\\text{K}^{-1}$. Calcula qué porcentaje de energía se ahorra y si ese porcentaje depende de la temperatura exterior.",
+      "modelAnswer": "Se ahorra el $40\\,\\%$. No depende de la temperatura exterior: la energía es proporcional al coeficiente para una misma diferencia de temperatura.",
+      "marks": 2
+    }
+  ]
+}

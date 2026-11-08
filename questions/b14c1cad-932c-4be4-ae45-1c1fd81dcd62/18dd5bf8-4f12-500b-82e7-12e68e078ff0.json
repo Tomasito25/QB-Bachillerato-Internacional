@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "18dd5bf8-4f12-500b-82e7-12e68e078ff0",
+  "rev": 1,
+  "statement": "Un rifle de $4{,}0\\,\\text{kg}$ dispara una bala de $20\\,\\text{g}$ a $400\\,\\text{m}\\,\\text{s}^{-1}$. ¿Con qué rapidez retrocede el rifle?",
+  "explanation": "La cantidad de movimiento total sigue siendo cero: $0{,}020\\cdot 400 = 4{,}0\\,v$, de donde $v = 2{,}0\\,\\text{m}\\,\\text{s}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "cantidad de movimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$20\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false,
+      "feedback": "Revisa la conversión de gramos a kilogramos."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$0{,}5\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$8{,}0\\,\\text{m}\\,\\text{s}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

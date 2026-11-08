@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "192b523b-66c2-54e7-896a-40fe1622aeb6",
+  "rev": 1,
+  "statement": "Un péndulo simple tiene un periodo de $2{,}0\\,\\text{s}$ en la Tierra. ¿Cuál es, aproximadamente, su longitud? Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "explanation": "$L = g\\left(\\frac{T}{2\\pi}\\right)^2 = 9{,}8\\cdot\\left(\\frac{2{,}0}{2\\pi}\\right)^2 = 0{,}99\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "péndulo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:03.000Z",
+  "updatedAt": "2026-11-08T20:34:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}50\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$1{,}6\\,\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$3{,}1\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Te has olvidado del cuadrado de 2π."
+    },
+    {
+      "id": "d",
+      "text": "$0{,}99\\,\\text{m}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
