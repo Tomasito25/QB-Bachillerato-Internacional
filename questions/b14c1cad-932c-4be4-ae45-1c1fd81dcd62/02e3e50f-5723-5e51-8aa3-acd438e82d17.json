@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "02e3e50f-5723-5e51-8aa3-acd438e82d17",
+  "rev": 1,
+  "statement": "Un electrón de un átomo pasa de un nivel de energía de $-1{,}51\\,\\text{eV}$ a otro de $-3{,}40\\,\\text{eV}$. ¿Cuál es la longitud de onda del fotón emitido? Usa $h = 6{,}63\\times10^{-34}\\,\\text{J s}$, $c = 3{,}00\\times10^{8}\\,\\text{m s}^{-1}$ y $1\\,\\text{eV} = 1{,}60\\times10^{-19}\\,\\text{J}$.",
+  "explanation": "El fotón lleva la diferencia de energía: $\\Delta E = 3{,}40 - 1{,}51 = 1{,}89\\,\\text{eV} = 3{,}02\\times10^{-19}\\,\\text{J}$. Entonces $\\lambda = \\frac{hc}{\\Delta E} = 6{,}58\\times10^{-7}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "01ac8135-642b-5b3c-8138-5c9c57a2afb1"
+  ],
+  "tags": [
+    "niveles de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$253\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "Hay que restar las energías de los dos niveles, no sumarlas."
+    },
+    {
+      "id": "b",
+      "text": "$365\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "Has usado sólo la energía de un nivel, y el fotón lleva la diferencia entre los dos."
+    },
+    {
+      "id": "c",
+      "text": "$823\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "Has usado sólo la energía de un nivel, y el fotón lleva la diferencia entre los dos."
+    },
+    {
+      "id": "d",
+      "text": "$658\\,\\text{nm}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "7d1ffb6b-419b-5f21-81dd-9a5d10725a6d",
+  "rev": 1,
+  "statement": "En un experimento de doble rendija, con $d = 0{,}25\\,\\text{mm}$ y $D = 1{,}5\\,\\text{m}$, la separación entre franjas brillantes consecutivas es $s = 3{,}6\\,\\text{mm}$.\n\n![Esquema de doble rendija: la luz llega a dos rendijas separadas d y forma franjas, separadas s, en una pantalla a distancia D.](qbimg:cf28af0f14381dff97ab9400cddcd9ae51d2ebf1b63ee13257743976074aa0ea)",
+  "images": [
+    {
+      "hash": "cf28af0f14381dff97ab9400cddcd9ae51d2ebf1b63ee13257743976074aa0ea",
+      "ext": "png",
+      "width": 560,
+      "height": 300,
+      "bytes": 1558,
+      "alt": "Esquema de doble rendija: la luz llega a dos rendijas separadas d y forma franjas, separadas s, en una pantalla a distancia D."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "interferencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la longitud de onda de la luz.",
+      "modelAnswer": "$\\lambda = \\frac{sd}{D} = \\frac{3{,}6\\times10^{-3}\\cdot 2{,}5\\times10^{-4}}{1{,}5} = 6{,}0\\times10^{-7}\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica la diferencia de camino hasta la segunda franja brillante, contando desde la central.",
+      "modelAnswer": "$2\\lambda = 1{,}2\\times10^{-6}\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Se acercan las rendijas entre sí. Indica qué le ocurre a la separación entre franjas.",
+      "modelAnswer": "Aumenta, porque $s = \\frac{\\lambda D}{d}$ y $d$ disminuye.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué aparecen franjas oscuras en algunos puntos de la pantalla.",
+      "modelAnswer": "Las ondas que llegan de las dos rendijas tienen una diferencia de camino de $(n + \\frac{1}{2})\\lambda$: llegan en oposición de fase y la interferencia es destructiva.",
+      "marks": 2
+    }
+  ]
+}

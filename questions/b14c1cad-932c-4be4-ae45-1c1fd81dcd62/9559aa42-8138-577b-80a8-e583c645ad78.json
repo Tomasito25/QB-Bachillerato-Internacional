@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9559aa42-8138-577b-80a8-e583c645ad78",
+  "rev": 1,
+  "statement": "Un tubo de $0{,}34\\,\\text{m}$ está abierto por un extremo y cerrado por el otro. Con el sonido a $340\\,\\text{m s}^{-1}$, ¿cuál es su frecuencia fundamental?",
+  "explanation": "La fundamental tiene un nodo en el extremo cerrado y un vientre en el abierto, así que $L = \\frac{\\lambda}{4}$. Entonces $f = \\frac{v}{4L} = \\frac{340}{4 \\cdot 0{,}34} = 250\\,\\text{Hz}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "tubos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$125\\,\\text{Hz}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$500\\,\\text{Hz}$",
+      "correct": false,
+      "feedback": "Ésa sería la de un tubo abierto por los dos extremos."
+    },
+    {
+      "id": "c",
+      "text": "$250\\,\\text{Hz}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$1000\\,\\text{Hz}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

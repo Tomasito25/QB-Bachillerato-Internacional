@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "09615e59-fca2-5180-809c-3bead6366aef",
+  "rev": 1,
+  "statement": "En el espectro de una galaxia, una línea que en el laboratorio está en $656{,}3\\,\\text{nm}$ se observa en $669{,}4\\,\\text{nm}$. ¿Cómo se mueve la galaxia respecto a nosotros?",
+  "explanation": "Para $v \\ll c$, $\\frac{\\Delta\\lambda}{\\lambda} \\approx \\frac{v}{c}$: $v = \\frac{13{,}1}{656{,}3}\\cdot 3{,}00\\times10^{8} = 6{,}0\\times10^{6}\\,\\text{m s}^{-1}$. La longitud de onda aumenta, así que se aleja.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "corrimiento al rojo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se acerca a $6{,}0\\times10^{6}\\,\\text{m s}^{-1}$.",
+      "correct": false,
+      "feedback": "Un desplazamiento hacia longitudes de onda mayores, hacia el rojo, indica alejamiento."
+    },
+    {
+      "id": "b",
+      "text": "Se aleja a $6{,}0\\times10^{6}\\,\\text{m s}^{-1}$.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Se aleja a $1{,}5\\times10^{8}\\,\\text{m s}^{-1}$.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se aleja a $3{,}9\\times10^{9}\\,\\text{m s}^{-1}$.",
+      "correct": false,
+      "feedback": "Has olvidado dividir entre la longitud de onda: saldría más rápido que la luz."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2921667a-d669-51cf-83e0-00acbde87d0b",
+  "rev": 1,
+  "statement": "La estrella A tiene el doble de temperatura superficial y la mitad de radio que la estrella B. ¿Cuánto vale $\\frac{L_A}{L_B}$?",
+  "explanation": "$L = \\sigma 4\\pi R^2 T^4$, así que $\\frac{L_A}{L_B} = \\left(\\frac{1}{2}\\right)^2 \\cdot 2^4 = 4$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "2da2fe0e-743f-5d38-81d7-c319e6711c96"
+  ],
+  "tags": [
+    "luminosidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$2$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$8$",
+      "correct": false,
+      "feedback": "El radio va al cuadrado, y la temperatura a la cuarta potencia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

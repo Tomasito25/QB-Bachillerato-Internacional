@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "24867880-5329-5ecf-8ead-c984707b4f06",
+  "rev": 1,
+  "statement": "Un péndulo simple y un sistema masa-muelle tienen el mismo periodo en la Tierra. Si se llevan a la Luna, donde $g$ es menor, ¿cómo cambian sus periodos?",
+  "explanation": "$T = 2\\pi\\sqrt{\\frac{l}{g}}$ depende de $g$: con $g$ menor, el periodo del péndulo crece. $T = 2\\pi\\sqrt{\\frac{m}{k}}$ no depende de $g$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "péndulo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumentan los dos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "No cambia ninguno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El del péndulo aumenta y el del muelle no cambia.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El del péndulo disminuye y el del muelle no cambia.",
+      "correct": false,
+      "feedback": "Con g menor, el péndulo oscila más despacio: su periodo crece."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

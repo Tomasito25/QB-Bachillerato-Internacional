@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "6ddd9861-91b5-57f7-8aaa-730f3a66057d",
+  "rev": 1,
+  "statement": "Un gas ideal en un recipiente rígido se calienta de $27\\,^{\\circ}\\text{C}$ a $327\\,^{\\circ}\\text{C}$. ¿Por cuánto se multiplica su presión?",
+  "explanation": "A volumen constante, $\\frac{P}{T}$ es constante. En kelvin, la temperatura pasa de $300\\,\\text{K}$ a $600\\,\\text{K}$, de modo que la presión se duplica.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "leyes de los gases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por 2",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Por 12",
+      "correct": false,
+      "feedback": "Las temperaturas de las leyes de los gases deben estar en kelvin."
+    },
+    {
+      "id": "c",
+      "text": "Por 1,1",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "No cambia",
+      "correct": false,
+      "feedback": "Con el volumen constante, la presión es proporcional a la temperatura absoluta."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

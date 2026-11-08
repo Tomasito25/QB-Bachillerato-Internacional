@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "34ff34a8-4fb7-5d86-85cd-d5a36fdfcb68",
+  "rev": 1,
+  "statement": "¿Qué describe mejor cómo los gases de efecto invernadero elevan la temperatura de la superficie terrestre?",
+  "explanation": "La atmósfera deja pasar casi toda la luz visible, pero moléculas como H₂O, CO₂, CH₄ y N₂O absorben en el infrarrojo, porque esas frecuencias coinciden con sus modos de vibración. Al reemitir, parte de la energía vuelve a la superficie.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "atmósfera"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Reflejan hacia la Tierra la luz visible que llega del Sol.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Absorben la radiación infrarroja que emite la superficie y la reemiten en todas direcciones, parte de ella de vuelta hacia la superficie.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Absorben casi toda la luz visible del Sol antes de que llegue al suelo.",
+      "correct": false,
+      "feedback": "La atmósfera es casi transparente a la luz visible: por eso la superficie se calienta."
+    },
+    {
+      "id": "d",
+      "text": "Aumentan el albedo de la atmósfera, de modo que llega más energía al suelo.",
+      "correct": false,
+      "feedback": "Un albedo mayor significa más radiación devuelta al espacio: enfriaría."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

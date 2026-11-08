@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "2a6ded80-1c01-5221-8af5-275992b5c89c",
+  "rev": 1,
+  "statement": "¿Cuál es la función del moderador en un reactor de fisión?",
+  "explanation": "Los neutrones que emite la fisión son demasiado rápidos para que el uranio-235 los capture con facilidad. Al chocar con los núcleos del moderador pierden energía y se vuelven neutrones térmicos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "ddcb3fae-96f8-5c9f-8194-065c1a9cdc11"
+  ],
+  "tags": [
+    "reactores"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Absorber neutrones para controlar el ritmo de la reacción.",
+      "correct": false,
+      "feedback": "Eso lo hacen las barras de control."
+    },
+    {
+      "id": "b",
+      "text": "Frenar los neutrones para que puedan provocar más fisiones.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Llevar la energía térmica hasta el intercambiador.",
+      "correct": false,
+      "feedback": "Ésa es la función del refrigerante."
+    },
+    {
+      "id": "d",
+      "text": "Impedir que la radiación salga del reactor.",
+      "correct": false,
+      "feedback": "Eso lo hace el blindaje."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

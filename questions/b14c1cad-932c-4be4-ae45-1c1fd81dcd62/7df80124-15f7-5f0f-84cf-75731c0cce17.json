@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "7df80124-15f7-5f0f-84cf-75731c0cce17",
+  "rev": 1,
+  "statement": "¿Cuáles de estos son supuestos del modelo cinético de un gas ideal? Marca todas las correctas.",
+  "explanation": "El modelo supone un número enorme de moléculas en movimiento aleatorio, de volumen despreciable, sin fuerzas entre ellas salvo en las colisiones, que son elásticas y de duración despreciable.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las colisiones entre las moléculas son perfectamente elásticas.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Todas las moléculas tienen la misma rapidez.",
+      "correct": false,
+      "feedback": "Hay una distribución de rapideces: la temperatura está ligada a la energía cinética media."
+    },
+    {
+      "id": "c",
+      "text": "Las moléculas sólo ejercen fuerzas entre sí durante las colisiones.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El volumen propio de las moléculas es despreciable frente al del recipiente.",
+      "correct": true
+    },
+    {
+      "id": "e",
+      "text": "Las moléculas se atraen entre sí con una fuerza constante.",
+      "correct": false,
+      "feedback": "En el modelo ideal no hay fuerzas intermoleculares fuera de las colisiones."
+    }
+  ],
+  "multiple": true,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

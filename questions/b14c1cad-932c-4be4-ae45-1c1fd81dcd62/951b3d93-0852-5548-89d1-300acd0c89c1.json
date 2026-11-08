@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "951b3d93-0852-5548-89d1-300acd0c89c1",
+  "rev": 1,
+  "statement": "En el experimento de Geiger y Marsden, unas pocas partículas alfa rebotaban con ángulos muy grandes al chocar con una lámina de oro. ¿Qué se dedujo de ello?",
+  "explanation": "La gran mayoría de las partículas alfa pasaba casi sin desviarse, así que el átomo es sobre todo espacio vacío. Invertir el sentido de una partícula alfa requiere una fuerza enorme, posible sólo si la carga positiva y la masa están concentradas en un volumen muy pequeño.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "01ac8135-642b-5b3c-8138-5c9c57a2afb1"
+  ],
+  "tags": [
+    "modelo atómico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El átomo es una esfera maciza de carga positiva.",
+      "correct": false,
+      "feedback": "Con una carga repartida por todo el átomo, la fuerza no bastaría para hacerlas rebotar."
+    },
+    {
+      "id": "b",
+      "text": "Los electrones tienen carga negativa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Casi toda la masa y toda la carga positiva del átomo están en un núcleo diminuto.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La lámina tenía huecos entre sus átomos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

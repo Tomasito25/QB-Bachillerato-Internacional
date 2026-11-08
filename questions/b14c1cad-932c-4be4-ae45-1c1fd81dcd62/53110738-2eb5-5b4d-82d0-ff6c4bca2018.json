@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "53110738-2eb5-5b4d-82d0-ff6c4bca2018",
+  "rev": 1,
+  "statement": "Unos protones entran en la región I, donde hay un campo eléctrico de $3{,}0\\times10^{4}\\,\\text{V m}^{-1}$, hacia abajo, y un campo magnético de $0{,}15\\,\\text{T}$, entrante al papel. Los que la atraviesan en línea recta pasan a la región II, donde sólo hay ese campo magnético. Usa $m_p = 1{,}67\\times10^{-27}\\,\\text{kg}$ y $e = 1{,}60\\times10^{-19}\\,\\text{C}$.\n\n![Haz que cruza en línea recta la región I, con placa superior positiva y campo B entrante, y describe en la región II, sólo con B, un semicírculo hacia arriba hasta un detector.](qbimg:ce174c0dbc1070e0e4fae05734bbc95bacbdf93bd4253ed85e541e4e8ad8c603)",
+  "images": [
+    {
+      "hash": "ce174c0dbc1070e0e4fae05734bbc95bacbdf93bd4253ed85e541e4e8ad8c603",
+      "ext": "png",
+      "width": 560,
+      "height": 290,
+      "bytes": 2596,
+      "alt": "Haz que cruza en línea recta la región I, con placa superior positiva y campo B entrante, y describe en la región II, sólo con B, un semicírculo hacia arriba hasta un detector."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "selector de velocidades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué algunos protones atraviesan la región I sin desviarse.",
+      "modelAnswer": "Sobre ellos actúan la fuerza eléctrica $qE$, hacia abajo, y la magnética $qvB$, hacia arriba. Sólo se equilibran para los que tienen $v = \\frac{E}{B}$: sin fuerza resultante, siguen en línea recta.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la rapidez de esos protones.",
+      "modelAnswer": "$v = \\frac{E}{B} = \\frac{3{,}0\\times10^{4}}{0{,}15} = 2{,}0\\times10^{5}\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el radio de su trayectoria en la región II.",
+      "modelAnswer": "$r = \\frac{mv}{qB} = \\frac{1{,}67\\times10^{-27}\\cdot 2{,}0\\times10^{5}}{1{,}60\\times10^{-19}\\cdot 0{,}15} = 1{,}4\\times10^{-2}\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica el radio de unas partículas con la misma carga y la misma rapidez, pero el doble de masa.",
+      "modelAnswer": "El doble, unos $2{,}8\\,\\text{cm}$: con $q$, $v$ y $B$ iguales, $r$ es proporcional a $m$.",
+      "marks": 1
+    }
+  ]
+}

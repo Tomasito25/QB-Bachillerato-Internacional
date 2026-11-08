@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "128cb853-c84d-5287-8fd1-36864d9842fb",
+  "rev": 1,
+  "statement": "Una grúa sube una carga de $500\\,\\text{kg}$ a una velocidad constante de $2{,}0\\,\\text{m s}^{-1}$. Su motor tiene una eficiencia del 70 %. ¿Qué potencia eléctrica consume? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "La potencia útil es $P = Fv = mgv = 500 \\cdot 9{,}8 \\cdot 2{,}0 = 9{,}8\\,\\text{kW}$. Con una eficiencia de $0{,}70$, la consumida es $\\frac{9{,}8}{0{,}70} = 14\\,\\text{kW}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "eficiencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}9\\,\\text{kW}$",
+      "correct": false,
+      "feedback": "Has multiplicado por la eficiencia: la potencia consumida tiene que ser mayor que la útil."
+    },
+    {
+      "id": "b",
+      "text": "$9{,}8\\,\\text{kW}$",
+      "correct": false,
+      "feedback": "Ésa es la potencia útil, la que llega a la carga."
+    },
+    {
+      "id": "c",
+      "text": "$14\\,\\text{kW}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$20\\,\\text{kW}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "02329536-88ee-5550-88fa-5a2e4a09ee7a",
+  "rev": 1,
+  "statement": "La figura es una instantánea de una onda transversal en una cuerda, que se propaga hacia la derecha a $6{,}4\\,\\text{m s}^{-1}$.\n\n![Instantánea de una onda: amplitud 3 cm y longitud de onda 1,6 m, propagándose hacia la derecha; el punto P está a 0,8 m, con desplazamiento cero.](qbimg:e3cecb5541f9d7ec0c58b2b8c2ffcb7d09b5016f236251e90ab3d8cdddd0434d)",
+  "images": [
+    {
+      "hash": "e3cecb5541f9d7ec0c58b2b8c2ffcb7d09b5016f236251e90ab3d8cdddd0434d",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 6144,
+      "alt": "Instantánea de una onda: amplitud 3 cm y longitud de onda 1,6 m, propagándose hacia la derecha; el punto P está a 0,8 m, con desplazamiento cero."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas transversales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T09:37:06.000Z",
+  "updatedAt": "2026-11-08T09:37:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica la amplitud y la longitud de onda.",
+      "modelAnswer": "Amplitud: $3{,}0\\,\\text{cm}$. Longitud de onda: $1{,}6\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la frecuencia y el periodo.",
+      "modelAnswer": "$f = \\frac{v}{\\lambda} = \\frac{6{,}4}{1{,}6} = 4{,}0\\,\\text{Hz}$ y $T = \\frac{1}{f} = 0{,}25\\,\\text{s}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica hacia dónde se mueve en este instante el punto P, y por qué.",
+      "modelAnswer": "Hacia arriba. La onda avanza hacia la derecha, de modo que dentro de un instante P tendrá el desplazamiento que tiene ahora el punto situado a su izquierda, que es positivo.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica qué diferencia a esta onda de una longitudinal.",
+      "modelAnswer": "En una onda transversal, las partículas vibran perpendicularmente a la dirección de propagación. En una longitudinal, vibran paralelamente a ella.",
+      "marks": 1
+    }
+  ]
+}
