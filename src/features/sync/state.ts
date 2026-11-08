@@ -15,3 +15,12 @@ export interface SyncState {
 }
 
 export const syncState = createStore<SyncState>({ status: 'idle', message: null, done: 0, total: 0, lastSyncAt: null, noCommunity: false });
+
+export interface DeviceSyncStatus {
+  enabled: boolean;
+  status: 'idle' | 'syncing' | 'error';
+  message: string | null;
+  lastSyncAt: number | null;
+}
+
+export const deviceSync = createStore<DeviceSyncStatus>({ enabled: false, status: 'idle', message: null, lastSyncAt: null });

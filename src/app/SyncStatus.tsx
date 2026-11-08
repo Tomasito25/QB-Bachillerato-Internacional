@@ -1,7 +1,7 @@
 import { CloudOff, RefreshCw } from 'lucide-react';
 import { useLiveQuery } from 'dexie-react-hooks';
 import { Link } from 'react-router-dom';
-import { syncState } from '@/features/sync/state';
+import { deviceSync, syncState } from '@/features/sync/state';
 import { online } from '@/infra/connectivity';
 import { db } from '@/infra/db/db';
 import { cn } from '@/ui/cn';
@@ -10,7 +10,12 @@ import { timeAgo } from '@/ui/time';
 /** Conexión, última sincronización y envíos pendientes, siempre a la vista. */
 export function SyncStatus({ compact }: { compact?: boolean }) {
   const isOnline = online.use();
-  const state = syncState.use();
+  const community = syncState.use();
+  const devices = deviceSync.use();
+  const state = {
+    status: community.status === 'syncing' || devices.status === 'syncing' ? 'syncing' : community.status === 'error' || devices.status === 'error' ? 'error' : 'idle',
+    lastSyncAt: Math.max(community.lastSyncAt ?? 0, devices.lastSyncAt ?? 0) || null,
+  };
   const pending = useLiveQuery(() => db.outbox.where('status').anyOf(['queued', 'awaiting-user']).count(), []);
 
   let label: string;

@@ -17,6 +17,7 @@ void loadPreferences()
   .finally(() => {
     // Carga diferida: arrastra los esquemas de validación, que no hacen falta para el primer pintado.
     void import('@/features/sync/background').then(({ startBackgroundSync }) => startBackgroundSync());
+    void import('@/features/sync/deviceSync').then(({ startDeviceSync }) => startDeviceSync());
     createRoot(document.getElementById('root') as HTMLElement).render(
       <StrictMode>
         <RouterProvider router={router} />

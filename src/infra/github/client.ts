@@ -41,7 +41,18 @@ const ANONYMOUS_FLOOR = 5;
 /** Se comprobó en real: la API devuelve 5xx de vez en cuando, y repetir la petición funciona. */
 const TRANSIENT_ATTEMPTS = 3;
 
-export async function github(path: string, options: { token?: string | null; method?: string; body?: unknown; retry?: boolean } = {}): Promise<Response> {
+interface GitHubOptions {
+  token?: string | null;
+  method?: string;
+  body?: unknown;
+  retry?: boolean;
+  /** Para saber si algo ha cambiado sin bajarlo otra vez. Con él no se usa la caché del navegador, que tarda 60 s en caducar. */
+  etag?: string | null;
+  /** Saltarse la caché del navegador aunque no haya `etag` todavía. */
+  fresh?: boolean;
+}
+
+export async function github(path: string, options: GitHubOptions = {}): Promise<Response> {
   const { method = 'GET', retry = method === 'GET' } = options;
   for (let attempt = 1; ; attempt++) {
     let response: Response;
@@ -58,8 +69,8 @@ export async function github(path: string, options: { token?: string | null; met
   }
 }
 
-async function request(path: string, options: { token?: string | null; method?: string; body?: unknown }): Promise<Response> {
-  const { token, method = 'GET', body } = options;
+async function request(path: string, options: GitHubOptions): Promise<Response> {
+  const { token, method = 'GET', body, etag, fresh } = options;
   const known = rateLimit.get();
   if (!token && known && known.remaining <= ANONYMOUS_FLOOR && Date.now() < known.resetAt) {
     throw new RateLimitError(known.resetAt);
@@ -71,8 +82,10 @@ async function request(path: string, options: { token?: string | null; method?: 
       'X-GitHub-Api-Version': '2022-11-28',
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
       ...(body !== undefined ? { 'Content-Type': 'application/json' } : {}),
+      ...(etag ? { 'If-None-Match': etag } : {}),
     },
     ...(body !== undefined ? { body: JSON.stringify(body) } : {}),
+    ...(fresh || etag ? { cache: 'no-store' as const } : {}),
     // Sin cookies: la identidad sólo la da el token, si lo hay.
     credentials: 'omit',
   });
@@ -84,7 +97,7 @@ async function request(path: string, options: { token?: string | null; method?: 
   return response;
 }
 
-export async function githubJson<T>(path: string, options: { token?: string | null; method?: string; body?: unknown; retry?: boolean } = {}): Promise<T> {
+export async function githubJson<T>(path: string, options: GitHubOptions = {}): Promise<T> {
   const response = await github(path, options);
   if (!response.ok) {
     const detail = (await response.json().catch(() => null)) as { message?: string } | null;

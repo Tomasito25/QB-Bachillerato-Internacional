@@ -171,7 +171,7 @@ function StorageCard() {
             Borrar datos
           </Button>
         </div>
-        <p className="text-xs text-muted">Para llevar tu progreso a otro dispositivo: descarga la copia aquí y combínala allí. Se suman los intentos sin duplicar nada.</p>
+        <p className="text-xs text-muted">Para que tus dispositivos se mantengan al día solos, activa la <Link to="/sync" className="underline underline-offset-2">sincronización</Link>. Esta copia es para guardarla o pasar los datos sin conexión: al combinarla se suman los intentos sin duplicar nada.</p>
         <input
           ref={input}
           type="file"

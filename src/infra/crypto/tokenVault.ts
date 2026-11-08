@@ -75,3 +75,32 @@ export async function clearToken(): Promise<void> {
   memoryToken = null;
   await forgetStoredToken();
 }
+
+/**
+ * Lo que enlaza este dispositivo con la sincronización personal. Va aparte del token de publicar:
+ * sólo tiene permiso sobre gists, y sin guardarlo la sincronización no podría ser automática.
+ */
+const DEVICE_KEY_NAME = 'device-link-key';
+const DEVICE_SECRET_NAME = 'device-link';
+
+export async function saveDeviceSecret(secret: string): Promise<void> {
+  const key = (await kvGet<CryptoKey>(DEVICE_KEY_NAME)) ?? (await generateVaultKey());
+  await kvSet(DEVICE_KEY_NAME, key);
+  await kvSet(DEVICE_SECRET_NAME, await encryptToken(key, secret));
+}
+
+export async function loadDeviceSecret(): Promise<string | null> {
+  const [key, stored] = await Promise.all([kvGet<CryptoKey>(DEVICE_KEY_NAME), kvGet<StoredToken>(DEVICE_SECRET_NAME)]);
+  if (!key || !stored) return null;
+  try {
+    return await decryptToken(key, stored);
+  } catch {
+    await forgetDeviceSecret();
+    return null;
+  }
+}
+
+export async function forgetDeviceSecret(): Promise<void> {
+  await kvDelete(DEVICE_SECRET_NAME);
+  await kvDelete(DEVICE_KEY_NAME);
+}

@@ -1,80 +1,79 @@
-import {
-  BarChart3,
-  BookOpen,
-  Compass,
-  FolderTree,
-  GraduationCap,
-  House,
-  Library,
-  PencilLine,
-  RefreshCw,
-  Settings,
-  Swords,
-  Trophy,
-  User,
-  Users,
-  type LucideIcon,
-} from 'lucide-react';
+import { GraduationCap, House, Library, Settings, Users, type LucideIcon } from 'lucide-react';
 
-export interface NavItem {
+export interface NavPage {
   to: string;
   label: string;
+}
+
+/** Una entrada del menú. Sus páginas salen como pestañas arriba: el menú no pasa de cinco. */
+export interface NavSection extends NavPage {
   icon: LucideIcon;
   end?: boolean;
+  pages: NavPage[];
+  /** Rutas de detalle que pertenecen a la sección sin ser una pestaña. */
+  also?: string[];
 }
 
-export interface NavGroup {
-  label?: string;
-  items: NavItem[];
-}
+export const CREATE_ITEM: NavPage = { to: '/create', label: 'Nueva pregunta' };
 
-/** Barra lateral: primero lo de cada día; crear pregunta es un botón aparte. */
-export const NAV_GROUPS: NavGroup[] = [
+export const NAV_SECTIONS: NavSection[] = [
+  { to: '/', label: 'Inicio', icon: House, end: true, pages: [] },
   {
-    items: [
-      { to: '/', label: 'Inicio', icon: House, end: true },
-      { to: '/study', label: 'Estudiar', icon: GraduationCap },
-      { to: '/explore', label: 'Explorar', icon: Compass },
-      { to: '/competitions', label: 'Competiciones', icon: Swords },
-      { to: '/leaderboards', label: 'Rankings', icon: Trophy },
+    to: '/study',
+    label: 'Estudiar',
+    icon: GraduationCap,
+    pages: [
+      { to: '/study', label: 'Estudiar' },
+      { to: '/mocks', label: 'Simulacros' },
+      { to: '/calendar', label: 'Calendario' },
+      { to: '/stats', label: 'Estadísticas' },
     ],
   },
   {
-    label: 'Contenido',
-    items: [
-      { to: '/bank', label: 'Banco de preguntas', icon: Library },
-      { to: '/subjects', label: 'Temario', icon: FolderTree },
+    to: '/explore',
+    label: 'Preguntas',
+    icon: Library,
+    also: ['/q/'],
+    pages: [
+      { to: '/explore', label: 'Explorar' },
+      { to: '/bank', label: 'Banco' },
+      { to: '/subjects', label: 'Temario' },
+      { to: '/formulas', label: 'Formulario' },
+      CREATE_ITEM,
     ],
   },
   {
-    label: 'Tú',
-    items: [
-      { to: '/stats', label: 'Estadísticas', icon: BarChart3 },
-      { to: '/profile', label: 'Perfil', icon: User },
-      { to: '/friends', label: 'Amigos', icon: Users },
-      { to: '/sync', label: 'Sincronización', icon: RefreshCw },
-      { to: '/settings', label: 'Configuración', icon: Settings },
-      { to: '/guide', label: 'Guía', icon: BookOpen },
+    to: '/competitions',
+    label: 'Comunidad',
+    icon: Users,
+    also: ['/u/'],
+    pages: [
+      { to: '/competitions', label: 'Competiciones' },
+      { to: '/leaderboards', label: 'Rankings' },
+      { to: '/friends', label: 'Amigos' },
+    ],
+  },
+  {
+    to: '/settings',
+    label: 'Ajustes',
+    icon: Settings,
+    pages: [
+      { to: '/settings', label: 'Configuración' },
+      { to: '/sync', label: 'Sincronización' },
+      { to: '/profile', label: 'Perfil' },
+      { to: '/guide', label: 'Guía' },
     ],
   },
 ];
 
-export const CREATE_ITEM: NavItem = { to: '/create', label: 'Nueva pregunta', icon: PencilLine };
+/** Con «Sólo estudiar» no hay comunidad en los menús; sus páginas siguen a un enlace de distancia. */
+export function navFor(studyOnly: boolean): NavSection[] {
+  return studyOnly ? NAV_SECTIONS.filter((section) => section.to !== '/competitions') : NAV_SECTIONS;
+}
 
-/** Barra inferior del móvil: lo más frecuente. Lo demás, en «Más». */
-export const MOBILE_NAV: NavItem[] = [
-  { to: '/', label: 'Inicio', icon: House, end: true },
-  { to: '/explore', label: 'Explorar', icon: Compass },
-  { to: '/study', label: 'Estudiar', icon: GraduationCap },
-  { to: '/competitions', label: 'Competir', icon: Swords },
-];
+const within = (pathname: string, to: string) => pathname === to || pathname.startsWith(`${to}/`);
 
-const SOCIAL = new Set(['/competitions', '/leaderboards', '/friends']);
-
-/** Con «Sólo estudiar» no hay competiciones, rankings ni amigos en los menús; siguen a un enlace de distancia. */
-export function navFor(studyOnly: boolean): { groups: NavGroup[]; mobile: NavItem[]; more: NavItem[] } {
-  const groups = studyOnly ? NAV_GROUPS.map((group) => ({ ...group, items: group.items.filter((item) => !SOCIAL.has(item.to)) })) : NAV_GROUPS;
-  const mobile = studyOnly ? [...MOBILE_NAV.filter((item) => !SOCIAL.has(item.to)), { to: '/bank', label: 'Banco', icon: Library }] : MOBILE_NAV;
-  const more = [CREATE_ITEM, ...groups.flatMap((group) => group.items).filter((item) => !mobile.some((m) => m.to === item.to))];
-  return { groups, mobile, more };
+export function sectionOf(pathname: string, sections: readonly NavSection[]): NavSection | undefined {
+  if (pathname === '/') return sections[0];
+  return sections.find((section) => section.pages.some((page) => within(pathname, page.to)) || section.also?.some((prefix) => pathname.startsWith(prefix)));
 }

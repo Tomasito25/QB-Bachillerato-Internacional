@@ -157,6 +157,8 @@ Tema, color, tamaño del texto y tipo de letra.
 |---|:---:|:---:|
 | Crear preguntas, estudiar, hacer exámenes y repasar | ✅ | ✅ |
 | Estadísticas, objetivo diario y temario a tu medida | ✅ | ✅ |
+| Simulacros con formato IB, calendario de exámenes y formulario de Física | ✅ | ✅ |
+| Móvil y ordenador sincronizados, con un token de gist | | ✅ |
 | Usar las preguntas de la comunidad | ✅ | ✅ |
 | Publicar preguntas | | ✅ |
 | Perfil público, rankings y competiciones | | ✅ |

@@ -29,7 +29,7 @@ const escapedBase = base.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&');
  *
  * `style-src-attr` es necesario porque KaTeX coloca los símbolos con `style`. `connect-src`
  * es también la última barrera si un XSS intentara sacar el token: sólo puede hablar con
- * la propia página y con la API de GitHub.
+ * la propia página, con la API de GitHub y con el dominio del que la API sirve los gists de más de 1 MB.
  */
 const CONTENT_SECURITY_POLICY = [
   "default-src 'self'",
@@ -38,7 +38,7 @@ const CONTENT_SECURITY_POLICY = [
   "style-src-attr 'unsafe-inline'",
   "img-src 'self' blob: https://avatars.githubusercontent.com",
   "font-src 'self'",
-  "connect-src 'self' https://api.github.com",
+  "connect-src 'self' https://api.github.com https://gist.githubusercontent.com",
   "worker-src 'self'",
   "manifest-src 'self'",
   "object-src 'none'",

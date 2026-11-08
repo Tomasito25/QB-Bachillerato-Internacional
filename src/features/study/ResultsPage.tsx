@@ -18,7 +18,7 @@ import { submitEntry, useCompetition, useMyEntryStatus } from '@/features/compet
 import { OUTBOX_STATUS_LABELS } from '@/features/sync/outbox';
 import type { SessionRow } from '@/infra/db/types';
 import { OpenPlayer } from './players';
-import { commitSelfGrade, formatDuration, MODE_LABELS, SessionError, startSession, summarizeSession, useSession } from './sessions';
+import { commitSelfGrade, formatDuration, MODE_LABELS, SessionError, sessionMarks, startSession, summarizeSession, useSession } from './sessions';
 
 function AttemptIcon({ question, attempt }: { question: Question; attempt?: AttemptRow }) {
   if (question.type === 'open') {
@@ -138,6 +138,7 @@ export default function ResultsPage() {
   if (!questions || !summary) return <Spinner />;
 
   const byQuestion = new Map(attempts.map((a) => [a.questionId, a]));
+  const marks = session.config.paperId ? sessionMarks(session, questions, attempts) : null;
   const failedIds = session.questionIds.filter((qid) => {
     const question = questions.get(qid);
     const attempt = byQuestion.get(qid);
@@ -182,6 +183,7 @@ export default function ResultsPage() {
           <Stat label="Aciertos" value={`${summary.correct} / ${summary.mcqTotal}`} />
           <Stat label="Respondidas" value={`${summary.answered} / ${summary.total}`} />
           <Stat label="Tiempo" value={formatDuration(summary.durationMs)} />
+          {marks ? <Stat label="Puntos (estimación)" value={`${marks.earned} / ${marks.total}`} hint={marks.pending > 0 ? `Faltan ${marks.pending} por autoevaluar` : undefined} /> : null}
         </Card>
         {session.competitionId ? <CompetitionSubmit session={session} /> : null}
         {summary.pendingSelfGrade > 0 ? (

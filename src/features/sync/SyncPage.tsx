@@ -20,6 +20,7 @@ import { timeAgo } from '@/ui/time';
 import { toast } from '@/ui/toast';
 import { syncCommunity, syncState, useManifestSummary } from './communitySync';
 import { awaitsGitHub, clearAccepted, discardItem, flushWithToken, isOpen, manualQueue, manualTransport, markAwaitingUser, OUTBOX_STATUS_LABELS, refreshStatuses, useOutbox } from './outbox';
+import { DevicesCard } from './DevicesCard';
 import { PublishDialog } from './PublishDialog';
 import { publishResults, PublishError, unpublishedAnswerCount } from './publish';
 import { resolveConflict, type ConflictChoice } from './reconcile';
@@ -471,6 +472,7 @@ export default function SyncPage() {
     return (
       <>
         <PageHeader title="Sincronización" />
+        <DevicesCard />
         <EmptyState title="Este despliegue no tiene repositorio comunitario">
           La app funciona entera sin conexión, pero para compartir hay que compilarla con <code>VITE_COMMUNITY_REPO=propietario/repositorio</code>. El despliegue con Actions lo hace solo.
         </EmptyState>
@@ -479,8 +481,9 @@ export default function SyncPage() {
   }
   return (
     <>
-      <PageHeader title="Sincronización" description="Lo que entra del banco comunitario y lo que envías." />
+      <PageHeader title="Sincronización" description="Tus dispositivos, lo que entra del banco comunitario y lo que envías." />
       <div className="flex flex-col gap-4">
+        <DevicesCard />
         {!user ? (
           <Notice tone="accent" title="Para publicar, conecta tu cuenta de GitHub" action={<ButtonLink to="/settings" size="sm" variant="primary">Conectar</ButtonLink>}>
             Descargar y estudiar no la necesita.

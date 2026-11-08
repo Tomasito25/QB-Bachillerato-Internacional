@@ -64,14 +64,11 @@ aprender. Los torneos pueden fijar rondas cortas para reducirlo.
 
 ## Datos en el dispositivo
 
-- **El progreso no viaja solo entre dispositivos.** Hay exportación e importación; se combina sin
-  duplicar. Sincronizarlo solo requeriría una nube privada.
 - **El navegador puede borrar los datos** si se queda sin espacio. La app pide almacenamiento
   persistente y avisa si no lo consigue. En Safari, sin instalar, se pueden borrar tras 7 días sin
   uso: por eso conviene instalarla y descargar copias.
 - **No todos los navegadores de escritorio permiten instalar** aplicaciones web. Sigue funcionando en una pestaña.
 - **Sin Background Sync:** Safari y Firefox no lo tienen. Lo pendiente se envía al abrir la app.
-- **El temario elegido y el objetivo diario son de este dispositivo.** Se guardan con las preferencias y viajan en la copia de seguridad, pero no se sincronizan solos.
 - **Los amigos son una lista privada, no una amistad.** Viven en este dispositivo y en las copias:
   la otra persona no se entera ni tiene que aceptar. Hacerlo mutuo obligaría a publicar quién sigue
   a quién en el repositorio, que es público.
@@ -108,6 +105,26 @@ primera sincronización de 2,6 s, y 23 ms si nada cambió.
 GitHub Pages prohíbe los servicios comerciales: esto vale para una comunidad educativa, no para
 un negocio.
 
+## Sincronización entre tus dispositivos
+
+Es opcional. Sin ella, cada dispositivo guarda lo suyo y se puede pasar con una copia de seguridad.
+
+- **Dónde está:** en un gist secreto de tu propia cuenta. «Secreto» sólo significa sin listar: quien tenga la URL puede leerlo. Por eso todo va cifrado con AES-GCM y una clave que GitHub nunca ve.
+- **Hace falta un token con permiso `gist`.** No existe forma de escribir en GitHub desde el navegador sin él. Ese permiso alcanza a todos los gists de la cuenta. Se guarda cifrado en el dispositivo, igual que el token de publicar, y un XSS activo podría pedir usarlo.
+- **Vincular un dispositivo mueve el token y la clave** dentro de un enlace, cifrados con un código de 8 caracteres que se escribe a mano. Quien tenga el enlace y el código tiene acceso a la copia.
+- **Dos dispositivos pueden escribir a la vez.** Los gists no ofrecen escritura condicional, así que gana el último. No se pierde nada: cada dispositivo conserva lo suyo y lo vuelve a subir en la siguiente vuelta. Los borrados viajan como marcas explícitas, y una marca de más de 180 días se olvida.
+- **Lo oficial no cambia.** El gist no participa en los puntos ni en los rankings, que salen sólo del registro público de eventos.
+- **Las preferencias de pantalla y tu PDF no viajan.** El tema, el color, el tamaño y el tipo de letra son de cada dispositivo, y el cuadernillo que añadas se queda donde lo pusiste.
+- **Requiere Safari 16.4 o Firefox 113, o posteriores,** por la compresión del navegador.
+
+## Simulacros, calendario y formulario
+
+- **Las duraciones y el número de preguntas salen de los calendarios de examen y de resúmenes de las guías del IB.** Cambian cuando el IB renueva un programa: están en `core/exams/papers.ts`.
+- **Los puntos de un simulacro son una estimación.** El test se corrige solo, pero el desarrollo lo autoevalúa cada persona.
+- **Las preguntas no son exámenes del IB,** y el nivel de un simulacro depende de lo que haya en tu banco.
+- **El calendario es una estimación del esfuerzo:** cuenta unos 2,5 minutos por pregunta. Se rehace con cada respuesta.
+- **El formulario no es el cuadernillo oficial,** que tiene derechos de autor. Está escrito para esta app, sólo para Física, y en el examen se usa el que entrega el centro.
+
 ## Qué se ha probado contra GitHub y qué no
 
 Probado el 2026-11-05 en el despliegue real de `Tomasito25/questionbank` (hoy `Tomasito25/QB-Bachillerato-Internacional`), con **una sola cuenta**
@@ -132,6 +149,7 @@ de GitHub y un navegador de escritorio.
 | Pulsar «Create» en el formulario prellenado de GitHub | Los issues se crearon con `gh`, con el título y el cuerpo exactos que genera la app | La longitud de la URL se midió con `curl`. Lo cierra publicar una vez desde un navegador con sesión iniciada |
 | PR desde el fork de otra persona, y cómo trata GitHub a quien contribuye por primera vez | Hace falta una segunda cuenta | Pruebas con la API simulada |
 | Duelos, torneos y rankings con varias personas | Ídem | Pruebas automáticas del cálculo y del cuadro |
+| Sincronización entre dispositivos | No se escribe un token real durante una prueba | Pruebas con la API de gists simulada, con varios dispositivos, y activación y QR en el navegador |
 | Modo con token en el sitio publicado | No se escribe un token real durante una prueba | Pruebas con la API simulada, incluida la secuencia de Git Data |
 | Instalarla, en móvil o en escritorio | No había dispositivos, y el navegador de la prueba no lo permite | Manifiesto, iconos y Service Worker revisados; nada más |
 | Sin conexión en el sitio publicado | Se probó en local, con el servidor parado | En el sitio, el Service Worker está activo y con todo precacheado |

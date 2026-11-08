@@ -120,7 +120,7 @@ describe('código de la app', () => {
     expect(policy).toContain(`"script-src 'self'"`);
     expect(policy).toContain(`"object-src 'none'"`);
     expect(policy).toContain(`"base-uri 'self'"`);
-    expect(policy).toContain(`"connect-src 'self' https://api.github.com"`);
+    expect(policy).toContain(`"connect-src 'self' https://api.github.com https://gist.githubusercontent.com"`);
     expect(policy).not.toMatch(/script-src[^"]*unsafe/);
     expect(policy).not.toMatch(/img-src[^"]*\bdata:/);
   });

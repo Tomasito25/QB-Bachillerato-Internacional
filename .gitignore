@@ -16,3 +16,6 @@ public/community
 .impeccable/mocks
 .impeccable/review
 .impeccable/hook.cache.json
+
+# Configuración local de las herramientas
+.claude/

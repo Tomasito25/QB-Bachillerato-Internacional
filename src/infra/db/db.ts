@@ -6,6 +6,7 @@ import type {
   DerivedCompetitionRow,
   DerivedProfileRow,
   DraftRow,
+  ExamRow,
   KvRow,
   LeaderboardRow,
   LocalImageRow,
@@ -32,6 +33,7 @@ export class QuestionBankDb extends Dexie {
   attempts!: Table<AttemptRow, string>;
   sessions!: Table<SessionRow, string>;
   progress!: Table<ProgressRow, string>;
+  exams!: Table<ExamRow, string>;
   outbox!: Table<OutboxRow, string>;
   kv!: Table<KvRow, string>;
   // Comunitaria
@@ -67,6 +69,7 @@ export class QuestionBankDb extends Dexie {
       shards: 'id, kind',
       syncLog: '++seq, at',
     });
+    this.version(2).stores({ exams: 'id, date, subjectId' });
   }
 }
 

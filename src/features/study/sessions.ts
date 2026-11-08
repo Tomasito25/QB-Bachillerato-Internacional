@@ -1,10 +1,10 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import type { StudyMode } from '@core/schema/events';
+import { questionMarks } from '@core/exams/assemble';
 import { gradeAnswer, type SelfGrade } from '@core/questions/grading';
 import { filterQuestions, scopePredicate, type QuestionFilter, type StudyScope } from '@core/questions/filter';
 import type { Question } from '@core/schema/question';
 import { selectBalanced, selectDue, selectPractice, type SelectionProgress } from '@core/study/select';
-import { DEFAULT_PARAMS, gradeFromResult, review } from '@core/srs/fsrs';
 import { buildTaxonomyIndex } from '@core/taxonomy/merge';
 import { bytesToBase64Url } from '@core/util/encoding';
 import { shuffle } from '@core/util/rng';
@@ -12,8 +12,9 @@ import { loadQuestions, toQuestion } from '@/features/bank/questionsRepo';
 import { preferences } from '@/features/settings/preferences';
 import { loadSubjects } from '@/features/taxonomy/taxonomyRepo';
 import { db } from '@/infra/db/db';
-import type { AttemptRow, ProgressRow, SessionAnswer, SessionConfig, SessionRow } from '@/infra/db/types';
-import { emptyProgress } from './progressRepo';
+import type { AttemptRow, SessionAnswer, SessionConfig, SessionRow } from '@/infra/db/types';
+import { syncDevices } from '@/features/sync/deviceSync';
+import { applyAttempt, emptyProgress } from './progressRepo';
 
 export const MODE_LABELS: Record<StudyMode, string> = {
   practice: 'Práctica',
@@ -57,7 +58,9 @@ export function scopeLabel(scope: StudyScope): string | null {
 
 export async function matchingQuestions(config: SessionConfig): Promise<Question[]> {
   const [questions, subjects] = await Promise.all([loadQuestions(), loadSubjects()]);
-  return filterQuestions(questions, toFilter(config), buildTaxonomyIndex(subjects)).filter(scopePredicate(preferences.get().studyScope)).map(toQuestion);
+  return filterQuestions(questions, toFilter(config), buildTaxonomyIndex(subjects))
+    .filter(config.ignoreScope ? () => true : scopePredicate(preferences.get().studyScope))
+    .map(toQuestion);
 }
 
 async function progressMap(): Promise<Map<string, SelectionProgress>> {
@@ -177,20 +180,6 @@ function buildAttempt(session: SessionRow, question: Question, answer: Omit<Sess
   };
 }
 
-function nextProgress(row: ProgressRow, attempt: AttemptRow): ProgressRow {
-  const { retention } = preferences.get();
-  const card = review(row.card, gradeFromResult({ correct: attempt.correct, selfGrade: attempt.selfGrade ?? undefined }), attempt.at, { ...DEFAULT_PARAMS, retention });
-  return {
-    ...row,
-    card,
-    due: card.due,
-    attempts: row.attempts + 1,
-    correct: row.correct + (attempt.correct === true || attempt.selfGrade === 2 ? 1 : 0),
-    lastCorrect: attempt.correct ?? attempt.selfGrade === 2,
-    lastAt: attempt.at,
-  };
-}
-
 /**
  * Registra una respuesta definitiva: el intento, el estado de repetición espaciada y la sesión
  * se guardan en una sola transacción. Si la app se cierra, o está todo o no está nada.
@@ -204,7 +193,7 @@ export async function commitAnswer(sessionId: string, question: Question, answer
     const attempt = buildAttempt(session, question, answer, now);
     await db.attempts.put(attempt);
     const row = (await db.progress.get(question.id)) ?? emptyProgress(question.id, now);
-    await db.progress.put(nextProgress(row, attempt));
+    await db.progress.put(applyAttempt(row, attempt, preferences.get().retention));
     session.answers[question.id] = { ...answer, committed: true };
     await db.sessions.put(session);
     return attempt;
@@ -230,6 +219,7 @@ export async function finishSession(sessionId: string): Promise<void> {
     }
   }
   await db.sessions.update(sessionId, { state: 'finished', finishedAt: Date.now() });
+  void syncDevices();
 }
 
 /**
@@ -289,6 +279,29 @@ export function summarizeSession(session: SessionRow, questions: ReadonlyMap<str
     scorePercent: mcqTotal > 0 ? Math.round((correct / mcqTotal) * 100) : null,
     durationMs: (session.finishedAt ?? Date.now()) - session.startedAt,
   };
+}
+
+export interface SessionMarks {
+  earned: number;
+  total: number;
+  /** Preguntas de desarrollo aún sin autoevaluar. */
+  pending: number;
+}
+
+/** Puntos de un simulacro. En desarrollo salen de tu autoevaluación: son una estimación. */
+export function sessionMarks(session: SessionRow, questions: ReadonlyMap<string, Question>, attempts: readonly AttemptRow[]): SessionMarks {
+  const byQuestion = new Map(attempts.map((a) => [a.questionId, a]));
+  const marks: SessionMarks = { earned: 0, total: 0, pending: 0 };
+  for (const id of session.questionIds) {
+    const question = questions.get(id);
+    if (!question) continue;
+    const value = questionMarks(question);
+    const attempt = byQuestion.get(id);
+    marks.total += value;
+    if (attempt) marks.earned += question.type === 'mcq' ? (attempt.correct ? value : 0) : Math.round(attempt.score * value);
+    else if (question.type === 'open') marks.pending += 1;
+  }
+  return marks;
 }
 
 export function formatDuration(ms: number): string {

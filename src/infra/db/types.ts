@@ -89,6 +89,10 @@ export interface SessionConfig {
   source?: 'due' | 'failed' | 'hard' | 'favorites';
   /** Cuántas de cada tipo: para hacer justo lo que falta del objetivo diario. */
   mix?: { mcq: number; open: number };
+  /** Lo que estudias para un examen concreto no depende del temario elegido en Estudiar. */
+  ignoreScope?: boolean;
+  /** Simulacro con formato oficial. */
+  paperId?: string;
 }
 
 export interface SessionAnswer {
@@ -131,6 +135,24 @@ export interface ProgressRow {
   lastAt: number;
   favorite: 0 | 1;
   hard: 0 | 1;
+  /** Cuándo se tocaron las marcas. Decide entre dos dispositivos; las filas antiguas no lo traen. */
+  flagsAt?: number;
+}
+
+/** Examen con fecha, mock o final: de él sale el calendario de estudio. */
+export interface ExamRow {
+  id: string;
+  kind: 'mock' | 'final';
+  title: string;
+  /** Día local, `AAAA-MM-DD`. */
+  date: string;
+  subjectId: string;
+  /** Formato oficial de la prueba, si se sabe. */
+  paperId: string | null;
+  /** Temas que entran. Vacío: toda la asignatura. */
+  topicIds: string[];
+  createdAt: number;
+  updatedAt: number;
 }
 
 export type OutboxStatus =

@@ -84,6 +84,14 @@ navegador**.
 **Riesgo residual honesto:** con un token, un XSS que superase las cuatro barreras podría escribir en
 los repositorios públicos del usuario. Por eso el modo sin token es el predeterminado.
 
+### Sincronización entre dispositivos
+
+Va con otro token, de permiso `gist`, guardado cifrado como el anterior. Los datos se suben cifrados con AES-GCM y una clave aleatoria que no sale de los dispositivos vinculados. Al vincular, el token y esa clave viajan en el fragmento de la URL, que no llega a ningún servidor, cifrados con PBKDF2 (600 000 iteraciones) a partir de un código de 8 caracteres. La app quita ese fragmento de la barra de direcciones en cuanto lo lee.
+
+`connect-src` incluye `gist.githubusercontent.com` porque la API sirve desde ahí los ficheros de más de 1 MB. Un XSS podría usar esa vía para sacar el token, como ya podría con la API de GitHub.
+
+Lo que hay en el gist nunca afecta a puntos ni rankings: alterarlo sólo perjudica a quien lo altera.
+
 ### Abuso de contenido
 
 | Abuso | Defensa |

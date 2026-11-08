@@ -28,7 +28,7 @@ const TUTORIALS: Tutorial[] = [
     icon: Rocket,
     steps: [
       'Consigue preguntas: descarga las de la comunidad en Sincronización o escribe las tuyas con «Nueva pregunta».',
-      'En Inicio tienes tu objetivo del día, cómo vas por asignatura y los temas a reforzar. En Estudiar están todos los modos.',
+      'En Inicio tienes tu objetivo del día, cómo vas por asignatura y los temas a reforzar. En Estudiar están los modos, los simulacros y el calendario.',
       'Todo se guarda en este dispositivo y funciona sin conexión. Para estudiar no hace falta cuenta.',
       'El banco comunitario se actualiza solo: al abrir la app, al recuperar la conexión y cada pocos minutos.',
       'Instálala desde Configuración para abrirla en su propia ventana, como una app más.',
@@ -52,6 +52,8 @@ const TUTORIALS: Tutorial[] = [
       'El objetivo diario se fija por separado para tipo test y desarrollo. En Inicio, «Hacer lo que falta» te prepara justo eso.',
       'En las de desarrollo con apartados respondes cada uno, ves su solución y dices qué tal te ha salido: la nota se sugiere sola, según los puntos de cada apartado.',
       'Al terminar verás tus resultados. En Estadísticas, cómo vas en cada asignatura.',
+      'En Simulacros haces una prueba con el tiempo y el número de preguntas del IB; el test se corrige solo y el desarrollo lo autoevalúas al entregar.',
+      'En Calendario apuntas tus mocks y exámenes y lo que entra en cada uno. El plan de cada día se calcula con tu progreso y se rehace al estudiar.',
     ],
     keys: [
       ['1–9 o A, B, C…', 'Elegir respuesta'],
@@ -160,7 +162,7 @@ const TUTORIALS: Tutorial[] = [
     steps: [
       'Tu progreso, tus borradores y lo que no publicas sólo están en este navegador. No hay ningún servidor que los guarde.',
       'Lo que publicas va a un repositorio público de GitHub, con tu usuario y licencia CC BY-SA 4.0. Aunque luego se retire, sigue en la historia del repositorio.',
-      'Para pasar tu progreso a otro dispositivo, en Configuración: «Descargar copia» en este y «Combinar una copia» en el otro. Se suman los intentos sin duplicar nada.',
+      'Para tener el móvil y el ordenador al día, activa «Tus dispositivos» en Sincronización y escanea el código desde el otro. Los datos viajan cifrados a un gist secreto de tu cuenta.',
       'El navegador puede borrar los datos si se queda sin espacio: descarga una copia de vez en cuando.',
     ],
     links: [{ to: '/settings', label: 'Configuración' }],

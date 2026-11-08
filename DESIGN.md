@@ -187,7 +187,7 @@ Todo es rectangular: 0 de radio en botones, campos, fichas e imágenes. Sólo so
 - **Error:** borde de peligro y mensaje debajo.
 
 ### Navigation
-Texto en semibold sobre negro, sin iconos en escritorio. El activo es un bloque de acento de borde a borde. En móvil, iconos y texto, con el activo a toda la celda.
+Cinco secciones como mucho, en negrita sobre negro y sin iconos en escritorio. El activo es un bloque de acento de borde a borde. En móvil, las mismas cinco abajo, con icono y texto. Las páginas de cada sección son una fila de pestañas sobre el contenido, también con el activo en acento.
 
 ### Banda de progreso
 Fondo de tinte del acento y relleno recortado con `clip-path`. El contenido se pinta dos veces para invertir el color al cruzar el borde; las acciones van una sola vez por encima. Entra barriendo en 900 ms y se mueve en 700 ms al cambiar el valor, con ease-out exponencial; sin movimiento con `prefers-reduced-motion`. Versión baja en las sesiones de estudio.

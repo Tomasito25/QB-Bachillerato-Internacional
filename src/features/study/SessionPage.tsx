@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Clock, Flag, LogOut, Star } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Clock, Flag, LogOut, Sigma, Star } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
@@ -8,7 +8,10 @@ import { QuestionStatement, SolutionBlock } from '@/features/bank/QuestionView';
 import { DifficultyBadge } from '@/features/bank/parts';
 import { toQuestion } from '@/features/bank/questionsRepo';
 import { getQuestion } from '@/features/bank/questionsRepo';
+import { FormulaSheet } from '@/features/formulas/FormulaSheet';
+import { hasFormulaSheet } from '@/features/formulas/physics';
 import { preferences } from '@/features/settings/preferences';
+import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
 import type { SessionRow } from '@/infra/db/types';
 import { Button, ButtonLink } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
@@ -99,6 +102,8 @@ function QuestionGrid({ session, questions, onJump }: { session: SessionRow; que
 function Runner({ session, questions }: { session: SessionRow; questions: Map<string, Question> }) {
   const navigate = useNavigate();
   const prefs = preferences.use();
+  const taxonomy = useTaxonomy();
+  const [showFormulas, setShowFormulas] = useState(false);
   const deferred = isDeferredMode(session.mode);
   const questionId = session.questionIds[session.cursor] as string;
   const question = questions.get(questionId);
@@ -207,6 +212,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
   }).length;
   const unanswered = session.questionIds.length - answeredCount;
   const low = remaining !== null && remaining < 60_000;
+  const subjectHasFormulas = hasFormulaSheet(taxonomy?.subjects.find((s) => s.id === question.subjectId)?.name ?? '');
 
   return (
     <>
@@ -226,6 +232,11 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
                 <Clock size={14} aria-hidden />
                 {formatDuration(remaining)}
               </span>
+            ) : null}
+            {subjectHasFormulas ? (
+              <Button variant="plate" size="sm" icon={<Sigma size={14} aria-hidden />} onClick={() => setShowFormulas(true)}>
+                Formulario
+              </Button>
             ) : null}
             <Button variant="plate" size="sm" icon={<LogOut size={14} aria-hidden />} onClick={() => setConfirmLeave(true)}>
               Salir
@@ -316,6 +327,9 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
         {unanswered > 0 ? `${unanswered === 1 ? 'Queda 1 pregunta' : `Quedan ${unanswered} preguntas`} sin responder. Las de test contarán como falladas.` : 'Has respondido todas las preguntas.'}
       </Dialog>
 
+      <Dialog open={showFormulas} onClose={() => setShowFormulas(false)} title="Formulario" size="lg">
+        <FormulaSheet />
+      </Dialog>
       <Dialog
         open={confirmLeave}
         onClose={() => setConfirmLeave(false)}

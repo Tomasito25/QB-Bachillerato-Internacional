@@ -26,6 +26,8 @@ copia local con el mismo id, que tapa a la comunitaria hasta que se publica.
 | `QuestionImage` | Dentro de `Question` | `QuestionImage` | El fichero se llama `<sha256>.<ext>` |
 | `StudySession` | Local | tabla `sessions` | Se guarda en cada respuesta: se reanuda tras cerrar |
 | `UserProgress` | Local | tabla `progress` | Estado FSRS, favorita, difícil |
+| `Exam` | Local | tabla `exams` | Mock o final: fecha, asignatura, prueba y temas que entran. De ahí sale el calendario, que no se guarda: se calcula |
+| `DeviceSync` | Local + gist | `kv`, gist cifrado | Enlace cifrado, ids de la última vuelta y marcas de borrado |
 | `Competition` | Comunitaria | `Competition` | Preguntas elegidas por Actions |
 | `CompetitionParticipant` | Comunitaria | `CompetitionEntry`, `CompetitionRegistration` | Sólo lo marcado: la corrección se calcula |
 | `Achievement` | Derivada | `core/scoring/achievements.ts` | Catálogo + predicado. No hay fichero |

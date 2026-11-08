@@ -1,32 +1,44 @@
 import { describe, expect, it } from 'vitest';
-import { CREATE_ITEM, MOBILE_NAV, NAV_GROUPS, navFor } from '@/app/nav';
+import { NAV_SECTIONS, navFor, sectionOf } from '@/app/nav';
 
-const SOCIAL = ['/competitions', '/leaderboards', '/friends'];
-const paths = (items: { to: string }[]) => items.map((item) => item.to);
+const allPaths = (sections: typeof NAV_SECTIONS) => sections.flatMap((section) => [section.to, ...section.pages.map((page) => page.to)]);
 
 describe('menús', () => {
-  it('sin «Sólo estudiar» están todos', () => {
-    const nav = navFor(false);
-    expect(nav.groups).toBe(NAV_GROUPS);
-    expect(nav.mobile).toBe(MOBILE_NAV);
+  it('el menú no pasa de cinco entradas y no repite páginas', () => {
+    expect(NAV_SECTIONS.length).toBeLessThanOrEqual(5);
+    const pages = NAV_SECTIONS.flatMap((section) => section.pages.map((page) => page.to));
+    expect(new Set(pages).size).toBe(pages.length);
   });
 
-  it('con «Sólo estudiar» no hay competiciones, rankings ni amigos en ningún menú', () => {
-    const nav = navFor(true);
-    const all = [...nav.groups.flatMap((group) => group.items), ...nav.mobile, ...nav.more];
-    expect(paths(all).filter((to) => SOCIAL.includes(to))).toEqual([]);
-    // El hueco de «Competir» en la barra del móvil lo ocupa el banco.
-    expect(paths(nav.mobile)).toEqual(['/', '/explore', '/study', '/bank']);
-  });
-
-  it('«Más» tiene lo que no cabe abajo, sin repetir, y empieza por crear', () => {
-    for (const studyOnly of [false, true]) {
-      const nav = navFor(studyOnly);
-      const more = paths(nav.more);
-      expect(more[0]).toBe(CREATE_ITEM.to);
-      expect(more.filter((to) => paths(nav.mobile).includes(to))).toEqual([]);
-      expect(new Set(more).size).toBe(more.length);
-      expect(more).toContain('/guide');
+  it('cada sección abre una de sus propias pestañas', () => {
+    for (const section of NAV_SECTIONS) {
+      if (section.pages.length > 0) expect(section.pages[0]?.to).toBe(section.to);
     }
+  });
+
+  it('con «Sólo estudiar» no hay competiciones, rankings ni amigos', () => {
+    expect(navFor(false)).toBe(NAV_SECTIONS);
+    const paths = allPaths(navFor(true));
+    for (const social of ['/competitions', '/leaderboards', '/friends']) expect(paths).not.toContain(social);
+  });
+
+  it.each([
+    ['/', 'Inicio'],
+    ['/study', 'Estudiar'],
+    ['/study/session/abc/results', 'Estudiar'],
+    ['/calendar', 'Estudiar'],
+    ['/q/abc/edit', 'Preguntas'],
+    ['/explore/abc', 'Preguntas'],
+    ['/create', 'Preguntas'],
+    ['/competitions/abc', 'Comunidad'],
+    ['/u/ana', 'Comunidad'],
+    ['/sync', 'Ajustes'],
+  ])('%s está en %s', (pathname, label) => {
+    expect(sectionOf(pathname, NAV_SECTIONS)?.label).toBe(label);
+  });
+
+  it('una ruta que no está en el menú no marca ninguna sección', () => {
+    expect(sectionOf('/competitions', navFor(true))).toBeUndefined();
+    expect(sectionOf('/studying', NAV_SECTIONS)).toBeUndefined();
   });
 });

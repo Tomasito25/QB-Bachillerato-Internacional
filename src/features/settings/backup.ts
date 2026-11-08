@@ -2,7 +2,7 @@ import { z } from 'zod';
 import { bytesToBase64, base64ToBytes } from '@core/util/encoding';
 import { toIso } from '@core/util/time';
 import { db, kvGet, kvSet } from '@/infra/db/db';
-import type { AttemptRow, DraftRow, LocalImageRow, LocalQuestionRow, LocalSubjectRow, ProgressRow, SessionRow } from '@/infra/db/types';
+import type { AttemptRow, DraftRow, ExamRow, LocalImageRow, LocalQuestionRow, LocalSubjectRow, ProgressRow, SessionRow } from '@/infra/db/types';
 import { getFriends, mergeFriends, setFriends } from '@/features/friends/friends';
 
 /**
@@ -24,6 +24,8 @@ const BackupFile = z.object({
   preferences: z.unknown(),
   /** Desde que hay amigos; las copias anteriores no lo traen. */
   friends: z.array(z.unknown()).optional(),
+  /** Desde que hay calendario; las copias anteriores no lo traen. */
+  exams: z.array(z.unknown()).optional(),
 });
 
 export async function buildBackup(): Promise<Blob> {
@@ -45,6 +47,7 @@ export async function buildBackup(): Promise<Blob> {
     images,
     preferences: await kvGet('preferences'),
     friends: await getFriends(),
+    exams: await db.exams.toArray(),
   };
   return new Blob([JSON.stringify(file)], { type: 'application/json' });
 }
@@ -80,7 +83,7 @@ export async function restoreBackup(file: File): Promise<RestoreReport> {
   const incomingProgress = data.progress as ProgressRow[];
   const report: RestoreReport = { attempts: 0, questions: 0, progress: 0 };
 
-  await db.transaction('rw', [db.lQuestions, db.lSubjects, db.drafts, db.attempts, db.sessions, db.progress, db.localImages], async () => {
+  await db.transaction('rw', [db.lQuestions, db.lSubjects, db.drafts, db.attempts, db.sessions, db.progress, db.localImages, db.exams], async () => {
     for (const attempt of data.attempts as AttemptRow[]) {
       if (await db.attempts.get(attempt.id)) continue;
       await db.attempts.put(attempt);
@@ -110,6 +113,10 @@ export async function restoreBackup(file: File): Promise<RestoreReport> {
     }
     for (const session of data.sessions as SessionRow[]) {
       if (!(await db.sessions.get(session.id))) await db.sessions.put(session);
+    }
+    for (const exam of (data.exams ?? []) as ExamRow[]) {
+      const current = await db.exams.get(exam.id);
+      if (!current || exam.updatedAt > current.updatedAt) await db.exams.put(exam);
     }
     for (const image of data.images) {
       if (await db.localImages.get(image.hash)) continue;

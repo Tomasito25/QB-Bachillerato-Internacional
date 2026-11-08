@@ -31,6 +31,12 @@ export interface Preferences {
   /** Escala toda la interfaz, no sólo el texto de las preguntas. */
   textSize: TextSize;
   font: FontChoice;
+  /** Minutos al día para el calendario de estudio. */
+  planMinutes: number;
+  /** Días sin estudiar: 0 es domingo. */
+  planRestDays: number[];
+  /** Cuándo cambió por última vez algo de `SYNCED_PREFERENCES`. */
+  syncedAt: number;
 }
 
 export const DEFAULT_PREFERENCES: Preferences = {
@@ -47,7 +53,13 @@ export const DEFAULT_PREFERENCES: Preferences = {
   studyOnly: false,
   textSize: 'normal',
   font: 'inter',
+  planMinutes: 45,
+  planRestDays: [],
+  syncedAt: 0,
 };
+
+/** Lo que viaja entre tus dispositivos. El tema, el color y el tamaño son de cada pantalla. */
+export const SYNCED_PREFERENCES = ['retention', 'dailyGoalMcq', 'dailyGoalOpen', 'studyScope', 'autoAdvance', 'showDifficulty', 'practiceCount', 'studyOnly', 'planMinutes', 'planRestDays'] as const satisfies readonly (keyof Preferences)[];
 
 export const preferences = createStore<Preferences>(DEFAULT_PREFERENCES);
 
@@ -92,11 +104,19 @@ export async function loadPreferences(): Promise<void> {
 }
 
 export async function updatePreferences(patch: Partial<Preferences>): Promise<void> {
-  const next = { ...preferences.get(), ...patch };
+  const synced = SYNCED_PREFERENCES.some((key) => key in patch);
+  const next = { ...preferences.get(), ...patch, ...(synced ? { syncedAt: Date.now() } : {}) };
   preferences.set(next);
   if (patch.theme) applyTheme(patch.theme);
   if (patch.accent) applyLook('accent', patch.accent);
   if (patch.textSize) applyLook('text', patch.textSize);
   if (patch.font) applyLook('font', patch.font);
+  await kvSet(KEY, next);
+}
+
+/** Lo que llega de otro dispositivo: conserva su fecha para que no parezca un cambio de aquí. */
+export async function applySyncedPreferences(values: Partial<Preferences>, at: number): Promise<void> {
+  const next = { ...preferences.get(), ...values, syncedAt: at };
+  preferences.set(next);
   await kvSet(KEY, next);
 }

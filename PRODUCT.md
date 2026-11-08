@@ -26,7 +26,10 @@ El banco lo escribe y lo mantiene la gente que estudia con él, y funciona sin s
 
 ## Capabilities and Constraints
 
-- Modos de estudio: práctica, examen con reloj, repaso (FSRS) y sesiones personalizadas; temario elegible (sólo lo marcado o todo menos lo marcado); objetivo diario separado por tipo de pregunta.
+- Modos de estudio: práctica, examen con reloj, repaso (FSRS), sesiones personalizadas y simulacros con el formato de las pruebas del IB; temario elegible (sólo lo marcado o todo menos lo marcado); objetivo diario separado por tipo de pregunta.
+- Calendario: fechas de mocks y exámenes finales con lo que entra en cada uno, y un plan diario calculado con el progreso.
+- Formulario propio de Física. El cuadernillo oficial tiene derechos del IB: no se publica, y cada cual puede abrir su PDF desde la app.
+- Sincronización opcional entre los dispositivos de una persona, cifrada, en un gist secreto de su cuenta.
 - Tipos de pregunta: tipo test (una o varias correctas, con imágenes y comentarios por opción) y desarrollo (apartados, subapartados, puntos, criterios y autoevaluación).
 - Editor con asistente de fórmulas e imágenes; importación y exportación en bloque por JSON.
 - Comunidad: publicar por issue o PR, perfil público, rankings, logros, amigos, duelos, grupos, torneos y retos diarios y semanales.
@@ -45,7 +48,7 @@ El banco lo escribe y lo mantiene la gente que estudia con él, y funciona sin s
 
 ## Evidence on Hand
 
-- 61 preguntas originales de Física SL con 12 figuras, en `../banco-fisica-sl.json` (fuera del repositorio).
+- 300 preguntas originales de Física SL (200 de tipo test y 100 de desarrollo) con 25 figuras, en `../banco-fisica-sl-300.json` (fuera del repositorio).
 - Capturas del README en `docs/readme/`, hechas con progreso de prueba.
 - No hay testimonios, cifras de uso ni datos de resultados académicos: no se deben inventar.
 
