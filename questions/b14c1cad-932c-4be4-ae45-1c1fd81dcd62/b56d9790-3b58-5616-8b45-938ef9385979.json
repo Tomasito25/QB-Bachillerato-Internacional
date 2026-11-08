@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "b56d9790-3b58-5616-8b45-938ef9385979",
+  "rev": 1,
+  "statement": "La Tierra atrae a una manzana con una fuerza de $1{,}5\\,\\text{N}$. Según la tercera ley de Newton, ¿cuál es la otra fuerza del par?",
+  "explanation": "Las fuerzas de un par acción-reacción son iguales en módulo, opuestas, del mismo tipo y actúan sobre cuerpos distintos. La manzana tira de la Tierra hacia arriba con 1,5 N; la Tierra apenas acelera porque su masa es enorme.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La mesa empuja a la manzana hacia arriba con $1{,}5\\,\\text{N}$.",
+      "correct": false,
+      "feedback": "Esa fuerza también actúa sobre la manzana, y las dos fuerzas de un par actúan sobre cuerpos distintos."
+    },
+    {
+      "id": "b",
+      "text": "La manzana atrae a la Tierra con una fuerza mucho menor, porque su masa es menor.",
+      "correct": false,
+      "feedback": "Las dos fuerzas de un par tienen el mismo módulo. Lo que cambia es la aceleración de cada cuerpo."
+    },
+    {
+      "id": "c",
+      "text": "La manzana atrae a la Tierra con $1{,}5\\,\\text{N}$.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "No hay otra fuerza: la Tierra tiene demasiada masa para notarla.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

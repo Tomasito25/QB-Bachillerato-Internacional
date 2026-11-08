@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "9cb0b1a3-1d77-5e37-88b1-48d88a1b5368",
+  "rev": 1,
+  "statement": "Una muestra de $0{,}20\\,\\text{kg}$ de una sustancia pura se calienta con un calentador de $40\\,\\text{W}$. La gráfica muestra su temperatura frente al tiempo. Supón que no hay pérdidas.\n\n![Gráfica de temperatura frente a tiempo: sube de 20 a 50 °C en 150 s (punto A), sigue a 50 °C hasta los 650 s (punto B) y sube hasta 90 °C a los 1050 s.](qbimg:eb32bfabf3fcd26c38263f3627a73ab726fc52c6a8e1d4ae727bea3926d801a6)",
+  "images": [
+    {
+      "hash": "eb32bfabf3fcd26c38263f3627a73ab726fc52c6a8e1d4ae727bea3926d801a6",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 3626,
+      "alt": "Gráfica de temperatura frente a tiempo: sube de 20 a 50 °C en 150 s (punto A), sigue a 50 °C hasta los 650 s (punto B) y sube hasta 90 °C a los 1050 s."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "cambios de estado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica, en términos de las partículas, por qué la temperatura no cambia entre A y B.",
+      "modelAnswer": "La sustancia se está fundiendo. La energía aportada aumenta la energía potencial de las partículas, que se separan y rompen enlaces, pero no su energía cinética media, que es la que determina la temperatura.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el calor latente específico de fusión.",
+      "modelAnswer": "La fusión dura $500\\,\\text{s}$: $L = \\frac{Pt}{m} = \\frac{40 \\cdot 500}{0{,}20} = 1{,}0\\times10^{5}\\,\\text{J kg}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el calor específico de la sustancia sólida.",
+      "modelAnswer": "$c = \\frac{Pt}{m\\Delta T} = \\frac{40 \\cdot 150}{0{,}20 \\cdot 30} = 1{,}0\\times10^{3}\\,\\text{J kg}^{-1}\\,\\text{K}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Usa la gráfica para comparar el calor específico del líquido con el del sólido.",
+      "modelAnswer": "Con la misma potencia y la misma masa, la recta del líquido tiene menos pendiente (40 °C en 400 s, frente a 30 °C en 150 s), así que su calor específico es mayor: $c = \\frac{40 \\cdot 400}{0{,}20 \\cdot 40} = 2{,}0\\times10^{3}\\,\\text{J kg}^{-1}\\,\\text{K}^{-1}$.",
+      "marks": 2
+    }
+  ]
+}
