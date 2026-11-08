@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "d7a6d63d-fdc4-53fc-85b5-87b016fe5815",
+  "rev": 1,
+  "statement": "¿Cuál es la energía cinética media de traslación de una molécula de un gas ideal a $27\\,^{\\circ}\\text{C}$? Usa $k_B = 1{,}38\\times10^{-23}\\,\\text{J K}^{-1}$.",
+  "explanation": "$\\bar{E}_k = \\frac{3}{2}k_B T = \\frac{3}{2}\\cdot 1{,}38\\times10^{-23}\\cdot 300 = 6{,}2\\times10^{-21}\\,\\text{J}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "teoría cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$5{,}6\\times10^{-22}\\,\\text{J}$",
+      "correct": false,
+      "feedback": "La temperatura tiene que estar en kelvin."
+    },
+    {
+      "id": "b",
+      "text": "$4{,}1\\times10^{-21}\\,\\text{J}$",
+      "correct": false,
+      "feedback": "Falta el factor 3/2."
+    },
+    {
+      "id": "c",
+      "text": "$6{,}2\\times10^{-21}\\,\\text{J}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$9{,}3\\times10^{-21}\\,\\text{J}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

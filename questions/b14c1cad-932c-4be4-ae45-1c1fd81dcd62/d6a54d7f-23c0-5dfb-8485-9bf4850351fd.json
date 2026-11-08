@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "d6a54d7f-23c0-5dfb-8485-9bf4850351fd",
+  "rev": 1,
+  "statement": "Las masas del protón y del neutrón son $1{,}007276\\,\\text{u}$ y $1{,}008665\\,\\text{u}$, y la del núcleo de deuterio, $^{2}_{1}\\text{H}$, es $2{,}013553\\,\\text{u}$. ¿Cuál es su energía de enlace por nucleón? Usa $1\\,\\text{u} = 931{,}5\\,\\text{MeV}\\,c^{-2}$.",
+  "explanation": "El defecto de masa es $\\Delta m = 1{,}007276 + 1{,}008665 - 2{,}013553 = 0{,}002388\\,\\text{u}$. La energía de enlace es $0{,}002388 \\cdot 931{,}5 = 2{,}2\\,\\text{MeV}$, y entre 2 nucleones, $1{,}1\\,\\text{MeV}$ por nucleón.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "91f60b07-f5c5-5049-8c46-4bb347d63c02"
+  ],
+  "tags": [
+    "energía de enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}2\\,\\text{MeV}$",
+      "correct": false,
+      "feedback": "Ésa es la energía de enlace total: hay que dividir entre los 2 nucleones."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}0024\\,\\text{MeV}$",
+      "correct": false,
+      "feedback": "Eso es el defecto de masa en u, sin convertir en energía."
+    },
+    {
+      "id": "c",
+      "text": "$1{,}1\\,\\text{MeV}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$930\\,\\text{MeV}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

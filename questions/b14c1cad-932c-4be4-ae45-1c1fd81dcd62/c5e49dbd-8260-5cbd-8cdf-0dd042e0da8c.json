@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c5e49dbd-8260-5cbd-8cdf-0dd042e0da8c",
+  "rev": 1,
+  "statement": "¿Cuál es el ángulo crítico para la luz que va del agua ($n = 1{,}33$) al aire?",
+  "explanation": "El ángulo crítico es aquel con el que el rayo refractado sale a $90^{\\circ}$: $\\sin\\theta_c = \\frac{1}{1{,}33}$, de donde $\\theta_c = 49^{\\circ}$. La reflexión total sólo se da al pasar a un medio de menor índice.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$37^{\\circ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$42^{\\circ}$",
+      "correct": false,
+      "feedback": "Ése sería el de un vidrio con n = 1,5."
+    },
+    {
+      "id": "c",
+      "text": "$49^{\\circ}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$53^{\\circ}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

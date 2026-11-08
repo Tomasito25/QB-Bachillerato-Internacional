@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "dffdd709-87bc-566e-8659-cb28558c02c9",
+  "rev": 1,
+  "statement": "¿Cuántos protones y neutrones tiene un núcleo de $^{14}_{6}\\text{C}$?",
+  "explanation": "El número atómico (6) indica los protones, y el número másico (14) es la suma de protones y neutrones: $14 - 6 = 8$ neutrones.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "01ac8135-642b-5b3c-8138-5c9c57a2afb1"
+  ],
+  "tags": [
+    "notación nuclear"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:33.000Z",
+  "updatedAt": "2026-11-08T08:34:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "6 protones y 8 neutrones",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "8 protones y 6 neutrones",
+      "correct": false,
+      "feedback": "El número de abajo es el de protones."
+    },
+    {
+      "id": "c",
+      "text": "6 protones y 14 neutrones",
+      "correct": false,
+      "feedback": "El número de arriba cuenta protones y neutrones juntos."
+    },
+    {
+      "id": "d",
+      "text": "14 protones y 6 neutrones",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
