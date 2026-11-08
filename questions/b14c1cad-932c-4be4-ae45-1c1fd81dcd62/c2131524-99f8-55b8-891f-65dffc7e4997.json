@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "c2131524-99f8-55b8-891f-65dffc7e4997",
+  "rev": 1,
+  "statement": "El núcleo $^{226}_{88}\\text{Ra}$ emite una partícula alfa. ¿Qué núcleo resulta?",
+  "explanation": "Una partícula alfa es un núcleo de helio, $^{4}_{2}\\text{He}$. El número másico baja en 4 y el atómico en 2: $^{226}_{88}\\text{Ra} \\rightarrow {}^{222}_{86}\\text{Rn} + {}^{4}_{2}\\text{He}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "91f60b07-f5c5-5049-8c46-4bb347d63c02"
+  ],
+  "tags": [
+    "desintegración alfa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$^{226}_{86}\\text{Rn}$",
+      "correct": false,
+      "feedback": "La partícula alfa también se lleva cuatro unidades de número másico."
+    },
+    {
+      "id": "b",
+      "text": "$^{222}_{86}\\text{Rn}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$^{222}_{90}\\text{Th}$",
+      "correct": false,
+      "feedback": "Al perder dos protones, el número atómico baja en lugar de subir."
+    },
+    {
+      "id": "d",
+      "text": "$^{224}_{87}\\text{Fr}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

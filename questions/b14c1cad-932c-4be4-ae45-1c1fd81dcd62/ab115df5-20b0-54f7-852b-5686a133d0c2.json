@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "ab115df5-20b0-54f7-852b-5686a133d0c2",
+  "rev": 1,
+  "statement": "La gráfica muestra la actividad de una muestra radiactiva frente al tiempo, una vez descontada la radiación de fondo.\n\n![Curva de actividad frente a tiempo que parte de 800 Bq y decae de forma exponencial hasta casi 25 Bq a las 30 h.](qbimg:aa1bbe7648693cac8341c507d85a58999f42cff720d7059f5fde825b338525ab)",
+  "images": [
+    {
+      "hash": "aa1bbe7648693cac8341c507d85a58999f42cff720d7059f5fde825b338525ab",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 3903,
+      "alt": "Curva de actividad frente a tiempo que parte de 800 Bq y decae de forma exponencial hasta casi 25 Bq a las 30 h."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "91f60b07-f5c5-5049-8c46-4bb347d63c02"
+  ],
+  "tags": [
+    "semivida"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la semivida (periodo de semidesintegración) de la muestra.",
+      "modelAnswer": "La actividad pasa de $800\\,\\text{Bq}$ a $400\\,\\text{Bq}$ en $6{,}0\\,\\text{h}$: ésa es la semivida.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la actividad a las 18 h.",
+      "modelAnswer": "Son 3 semividas: $\\frac{800}{2^3} = 100\\,\\text{Bq}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la fracción de núcleos sin desintegrar al cabo de 24 h.",
+      "modelAnswer": "Son 4 semividas: $\\left(\\frac{1}{2}\\right)^4 = \\frac{1}{16}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica por qué hay que descontar la radiación de fondo al medir la actividad.",
+      "modelAnswer": "El detector también registra la radiación ambiental (rocas, rayos cósmicos…), que no procede de la muestra. Sin descontarla, la curva no reflejaría la actividad real y la semivida saldría mal, sobre todo cuando la actividad es baja.",
+      "marks": 2
+    }
+  ]
+}

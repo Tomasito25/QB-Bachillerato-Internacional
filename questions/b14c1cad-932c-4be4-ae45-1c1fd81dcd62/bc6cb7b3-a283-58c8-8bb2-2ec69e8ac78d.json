@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "bc6cb7b3-a283-58c8-8bb2-2ec69e8ac78d",
+  "rev": 1,
+  "statement": "La gráfica muestra el desplazamiento $x$ de un oscilador que realiza un movimiento armónico simple.\n\n![Gráfica sinusoidal de desplazamiento frente a tiempo: amplitud 4 cm y periodo 0,8 s; empieza en 0 subiendo.](qbimg:aa167d1f11c0eacf60f8d74accd474b5cf928d63bb460a3c4da454d6467a1f99)",
+  "images": [
+    {
+      "hash": "aa167d1f11c0eacf60f8d74accd474b5cf928d63bb460a3c4da454d6467a1f99",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 6104,
+      "alt": "Gráfica sinusoidal de desplazamiento frente a tiempo: amplitud 4 cm y periodo 0,8 s; empieza en 0 subiendo."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica el periodo y la amplitud.",
+      "modelAnswer": "$T = 0{,}80\\,\\text{s}$ y $x_0 = 4{,}0\\,\\text{cm}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la frecuencia y la frecuencia angular.",
+      "modelAnswer": "$f = \\frac{1}{T} = 1{,}25\\,\\text{Hz}$ y $\\omega = 2\\pi f = 7{,}9\\,\\text{rad s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la aceleración máxima.",
+      "modelAnswer": "$a_{\\text{máx}} = \\omega^2 x_0 = 7{,}85^2 \\cdot 0{,}040 = 2{,}5\\,\\text{m s}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica un instante en el que la rapidez sea máxima, y justifícalo con la gráfica.",
+      "modelAnswer": "Por ejemplo, $t = 0{,}40\\,\\text{s}$: la gráfica corta el eje ($x = 0$) con la pendiente más pronunciada, y la pendiente es la velocidad. También vale $t = 0$ o $t = 0{,}80\\,\\text{s}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Si el oscilador fuera un péndulo simple en la Tierra, calcula su longitud. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+      "modelAnswer": "$l = \\frac{gT^2}{4\\pi^2} = \\frac{9{,}8 \\cdot 0{,}80^2}{4\\pi^2} = 0{,}16\\,\\text{m}$.",
+      "marks": 2
+    }
+  ]
+}

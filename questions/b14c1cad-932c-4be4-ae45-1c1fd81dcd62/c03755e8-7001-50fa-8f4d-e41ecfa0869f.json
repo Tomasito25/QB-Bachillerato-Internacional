@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c03755e8-7001-50fa-8f4d-e41ecfa0869f",
+  "rev": 1,
+  "statement": "Un reactor nuclear tiene una potencia térmica de $1{,}0\\,\\text{GW}$. Cada fisión de un núcleo de uranio-235 libera unos $200\\,\\text{MeV}$. Usa $1\\,\\text{eV} = 1{,}60\\times10^{-19}\\,\\text{J}$ y $N_A = 6{,}02\\times10^{23}\\,\\text{mol}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "ddcb3fae-96f8-5c9f-8194-065c1a9cdc11"
+  ],
+  "tags": [
+    "reactores"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula cuántas fisiones se producen cada segundo.",
+      "modelAnswer": "$\\frac{1{,}0\\times10^{9}}{200\\times10^{6}\\cdot 1{,}60\\times10^{-19}} = 3{,}1\\times10^{19}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la masa de uranio-235 que se consume en un día.",
+      "modelAnswer": "$3{,}1\\times10^{19}\\cdot 86\\,400 = 2{,}7\\times10^{24}$ núcleos, que son $\\frac{2{,}7\\times10^{24}}{6{,}02\\times10^{23}} = 4{,}5\\,\\text{mol}$. Masa: $4{,}5 \\cdot 235\\,\\text{g} \\approx 1{,}1\\,\\text{kg}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Explica la función de las barras de control.",
+      "modelAnswer": "Absorben neutrones. Al introducirlas o sacarlas se ajusta el número de neutrones disponibles para que, en promedio, cada fisión provoque exactamente otra, y la reacción se mantenga estable.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica un problema de los residuos que produce el reactor.",
+      "modelAnswer": "Contienen isótopos muy radiactivos y de semivida larga: hay que aislarlos durante miles de años.",
+      "marks": 1
+    }
+  ]
+}

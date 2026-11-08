@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b08fd583-fcdb-5895-8996-f0b46d479ee9",
+  "rev": 1,
+  "statement": "Una ambulancia con la sirena encendida se acerca a una persona parada. Comparado con lo que oye el conductor, ¿qué percibe esa persona?",
+  "explanation": "Al moverse hacia la persona, la fuente acorta la distancia entre frentes de onda consecutivos delante de ella. La rapidez del sonido no cambia, así que llegan más frentes por segundo.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una frecuencia mayor, porque el sonido viaja más deprisa.",
+      "correct": false,
+      "feedback": "La rapidez del sonido depende del aire, no del movimiento de la fuente."
+    },
+    {
+      "id": "b",
+      "text": "Una frecuencia menor, porque la ambulancia se mueve hacia ella.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La misma frecuencia, pero con más intensidad.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una frecuencia mayor, porque los frentes de onda le llegan más juntos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

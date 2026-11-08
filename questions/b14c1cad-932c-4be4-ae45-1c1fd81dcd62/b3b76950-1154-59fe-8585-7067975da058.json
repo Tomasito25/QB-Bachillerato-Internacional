@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "b3b76950-1154-59fe-8585-7067975da058",
+  "rev": 1,
+  "statement": "Un carro de montaña rusa parte del reposo a $18\\,\\text{m}$ de altura y baja sin rozamiento. ¿Qué rapidez tiene cuando pasa por un punto a $5{,}0\\,\\text{m}$ de altura? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "La energía potencial perdida se convierte en cinética: $mg\\Delta h = \\frac{1}{2}mv^2$, así que $v = \\sqrt{2g\\Delta h} = \\sqrt{2 \\cdot 9{,}8 \\cdot 13} = 16\\,\\text{m s}^{-1}$. La masa no influye.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "conservación de la energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T08:34:41.000Z",
+  "updatedAt": "2026-11-08T08:34:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$16\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$9{,}9\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Has usado la altura del punto (5 m), y lo que cuenta es la altura que ha bajado (13 m)."
+    },
+    {
+      "id": "c",
+      "text": "$19\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Ésa sería la rapidez a nivel del suelo."
+    },
+    {
+      "id": "d",
+      "text": "$255\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta la raíz cuadrada."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
