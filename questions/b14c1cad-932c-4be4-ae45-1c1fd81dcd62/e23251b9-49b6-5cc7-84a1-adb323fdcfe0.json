@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "e23251b9-49b6-5cc7-84a1-adb323fdcfe0",
+  "rev": 1,
+  "statement": "Al fundirse el hielo polar, el agua oscura queda al descubierto. ¿Qué efecto tiene?",
+  "explanation": "Es una realimentación positiva: el calentamiento reduce el hielo, y eso aumenta la absorción.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "albedo",
+    "realimentación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sube el albedo y se enfría la zona",
+      "correct": false,
+      "feedback": "El agua refleja menos luz que el hielo."
+    },
+    {
+      "id": "b",
+      "text": "No afecta al balance de energía",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Baja el albedo, se absorbe más radiación y aumenta el calentamiento",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Baja la emisividad de la atmósfera",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "f1cd572a-70d7-5263-8f35-829413977842",
+  "rev": 1,
+  "statement": "La gráfica es una instantánea, en $t = 0$, de una onda que se propaga por una cuerda hacia la derecha, con una frecuencia de $5{,}0\\,\\text{Hz}$.\n\n![Instantánea de una onda: amplitud 2 cm y longitud de onda 0,8 m. El punto P está en x = 0,6 m en un mínimo y el punto Q en x = 0,8 m con desplazamiento cero.](qbimg:fd7bbfa111a95a5f8c5e2badd38a52fe262f62f1b8dfd39abf07cdb0c8fe88f2)",
+  "images": [
+    {
+      "hash": "fd7bbfa111a95a5f8c5e2badd38a52fe262f62f1b8dfd39abf07cdb0c8fe88f2",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 6076,
+      "alt": "Instantánea de una onda: amplitud 2 cm y longitud de onda 0,8 m. El punto P está en x = 0,6 m en un mínimo y el punto Q en x = 0,8 m con desplazamiento cero."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "gráficas",
+    "ondas transversales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "diferencia de fase"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la longitud de onda y la velocidad de propagación.",
+      "modelAnswer": "$\\lambda = 0{,}80\\,\\text{m}$. $v = f\\lambda = 5{,}0\\cdot 0{,}80 = 4{,}0\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica el sentido del movimiento de P y el de Q en ese instante.",
+      "modelAnswer": "P está en un mínimo: su velocidad es cero. Como la onda avanza hacia la derecha, Q va a seguir el perfil que tiene a su izquierda, donde la cuerda está por debajo: se mueve hacia abajo.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la diferencia de fase entre P y Q, en radianes.",
+      "modelAnswer": "Están separados $0{,}20\\,\\text{m}$: una cuarta parte de la longitud de onda, $\\frac{\\pi}{2}\\,\\text{rad}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la rapidez máxima de un punto de la cuerda.",
+      "modelAnswer": "$v_\\text{máx} = \\omega A = 2\\pi\\cdot 5{,}0\\cdot 0{,}020 = 0{,}63\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Compara esa rapidez con la de propagación, y explica la diferencia.",
+      "modelAnswer": "Es mucho menor: la velocidad de propagación es la del avance de la perturbación, y la otra, la de oscilación de cada punto en torno a su posición.",
+      "marks": 2
+    }
+  ]
+}

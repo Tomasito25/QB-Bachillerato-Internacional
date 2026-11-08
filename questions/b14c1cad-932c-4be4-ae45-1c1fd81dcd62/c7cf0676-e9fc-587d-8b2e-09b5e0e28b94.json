@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c7cf0676-e9fc-587d-8b2e-09b5e0e28b94",
+  "rev": 1,
+  "statement": "Dos recipientes iguales, a la misma temperatura, contienen helio y argón a la misma presión. ¿Cómo es la energía cinética media de las moléculas?",
+  "explanation": "$\\bar{E}_k = \\frac{3}{2}k_BT$: sólo depende de la temperatura.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "teoría cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mayor en el helio, porque es más ligero",
+      "correct": false,
+      "feedback": "El helio es más rápido, pero su energía cinética media es la misma."
+    },
+    {
+      "id": "b",
+      "text": "Mayor en el argón, porque es más pesado",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Depende del volumen",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Igual en los dos recipientes",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

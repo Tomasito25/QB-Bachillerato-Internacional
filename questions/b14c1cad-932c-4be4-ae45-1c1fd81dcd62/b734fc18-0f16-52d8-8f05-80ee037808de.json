@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b734fc18-0f16-52d8-8f05-80ee037808de",
+  "rev": 1,
+  "statement": "Un objeto cae desde el reposo sin resistencia del aire. ¿Cuántas veces mayor es la distancia recorrida durante el tercer segundo que la recorrida durante el primero?",
+  "explanation": "Las distancias en segundos sucesivos van como $1 : 3 : 5$. La del tercer segundo es $\\frac{1}{2}g(3^2 - 2^2) = 5\\cdot\\frac{1}{2}g$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "caída libre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$9$",
+      "correct": false,
+      "feedback": "Ésa es la distancia total tras 3 s comparada con la del primer segundo, no la del tercer segundo."
+    },
+    {
+      "id": "b",
+      "text": "$3$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$4$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$5$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

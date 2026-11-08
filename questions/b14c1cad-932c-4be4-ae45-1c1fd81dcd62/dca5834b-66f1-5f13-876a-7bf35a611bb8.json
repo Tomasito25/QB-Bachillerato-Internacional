@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "dca5834b-66f1-5f13-876a-7bf35a611bb8",
+  "rev": 1,
+  "statement": "Una central hidroeléctrica aprovecha un salto de $120\\,\\text{m}$, con un caudal de $40\\,\\text{m}^{3}\\,\\text{s}^{-1}$ de agua, de densidad $1000\\,\\text{kg}\\,\\text{m}^{-3}$. El rendimiento total es del $85\\,\\%$. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "potencia",
+    "rendimiento",
+    "fuentes de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la potencia eléctrica que produce.",
+      "modelAnswer": "Cada segundo caen $40\\,000\\,\\text{kg}$: $P_\\text{agua} = 40\\,000\\cdot 9{,}8\\cdot 120 = 4{,}7\\times10^{7}\\,\\text{W}$. Eléctrica: $0{,}85\\cdot 4{,}7\\times10^{7} = 4{,}0\\times10^{7}\\,\\text{W}$.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la velocidad con la que llegaría el agua a las turbinas si no hubiera pérdidas.",
+      "modelAnswer": "$v = \\sqrt{2gh} = \\sqrt{2\\cdot 9{,}8\\cdot 120} = 48\\,\\text{m}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Dibuja un diagrama de Sankey del proceso, de forma aproximada, indicando los porcentajes.",
+      "modelAnswer": "Una flecha de entrada del $100\\,\\%$ (energía potencial gravitatoria), una salida del $85\\,\\%$ (energía eléctrica) y una derivación del $15\\,\\%$ (energía térmica por rozamiento y en el generador).",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Si se quiere producir la misma potencia en un salto de sólo $30\\,\\text{m}$, calcula el caudal necesario.",
+      "modelAnswer": "La potencia es proporcional a caudal por altura. El salto se reduce a la cuarta parte, así que hace falta cuatro veces más caudal: $160\\,\\text{m}^{3}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    }
+  ]
+}

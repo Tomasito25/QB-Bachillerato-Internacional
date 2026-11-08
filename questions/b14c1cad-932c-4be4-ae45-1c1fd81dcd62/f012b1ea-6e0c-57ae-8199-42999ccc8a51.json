@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f012b1ea-6e0c-57ae-8199-42999ccc8a51",
+  "rev": 1,
+  "statement": "Un tubo abierto por los dos extremos, de $0{,}85\\,\\text{m}$, está en el aire, con el sonido a $340\\,\\text{m}\\,\\text{s}^{-1}$. ¿Cuál es su frecuencia fundamental?",
+  "explanation": "$f = \\frac{v}{2L} = \\frac{340}{1{,}7} = 200\\,\\text{Hz}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "tubos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$100\\,\\text{Hz}$",
+      "correct": false,
+      "feedback": "Esa sería la del tubo cerrado por un extremo."
+    },
+    {
+      "id": "b",
+      "text": "$400\\,\\text{Hz}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$289\\,\\text{Hz}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$200\\,\\text{Hz}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

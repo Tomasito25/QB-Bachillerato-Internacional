@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "d52896bb-02de-5080-83bd-e97b23ccf675",
+  "rev": 1,
+  "statement": "Un tubo de órgano de $1{,}70\\,\\text{m}$ se puede usar abierto por los dos extremos o cerrado por uno. El sonido viaja a $340\\,\\text{m}\\,\\text{s}^{-1}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "tubos",
+    "armónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "nodo",
+    "vientre"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la frecuencia fundamental en cada caso.",
+      "modelAnswer": "Abierto: $\\frac{340}{2\\cdot 1{,}70} = 100\\,\\text{Hz}$. Cerrado: $\\frac{340}{4\\cdot 1{,}70} = 50\\,\\text{Hz}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica qué armónicos existen en cada caso y calcula los tres primeros de cada uno.",
+      "modelAnswer": "Abierto: 100, 200 y 300 Hz (todos los armónicos). Cerrado: 50, 150 y 250 Hz (sólo los impares).",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué un tubo cerrado sólo produce armónicos impares.",
+      "modelAnswer": "Tiene que haber un nodo de desplazamiento en el extremo cerrado y un vientre en el abierto, de modo que caben sólo $\\frac{1}{4}$, $\\frac{3}{4}$, $\\frac{5}{4}$... de longitud de onda.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El aire se calienta y la velocidad del sonido sube a $350\\,\\text{m}\\,\\text{s}^{-1}$. Calcula el cambio de la frecuencia fundamental del tubo abierto, y razona cómo deberían compensarlo los músicos.",
+      "modelAnswer": "$f = \\frac{350}{3{,}40} = 103\\,\\text{Hz}$: sube $3\\,\\text{Hz}$. Para volver a la nota, habría que alargar el tubo.",
+      "marks": 3
+    }
+  ]
+}

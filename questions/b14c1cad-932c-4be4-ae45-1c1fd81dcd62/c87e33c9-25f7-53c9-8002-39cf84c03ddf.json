@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "c87e33c9-25f7-53c9-8002-39cf84c03ddf",
+  "rev": 1,
+  "statement": "La gráfica muestra la característica $I$–$V$ de una bombilla de filamento. ¿Cómo cambia su resistencia al aumentar la tensión?\n\n![Curva corriente-tensión de una bombilla de filamento: la corriente crece con la tensión, cada vez con menos pendiente.](qbimg:073a1394d0466471d0022ce52c65fbad7c6ffa2a5078a7ef61540154c40da9f1)",
+  "explanation": "Al calentarse, los iones vibran más y dificultan el paso de los electrones. El cociente V/I aumenta a lo largo de la curva.",
+  "images": [
+    {
+      "hash": "073a1394d0466471d0022ce52c65fbad7c6ffa2a5078a7ef61540154c40da9f1",
+      "ext": "png",
+      "width": 520,
+      "height": 300,
+      "bytes": 2715,
+      "alt": "Curva corriente-tensión de una bombilla de filamento: la corriente crece con la tensión, cada vez con menos pendiente."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "gráficas",
+    "resistencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Disminuye, porque aumenta la corriente",
+      "correct": false,
+      "feedback": "La resistencia es V/I, y ese cociente crece a lo largo de la curva."
+    },
+    {
+      "id": "b",
+      "text": "Permanece constante",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Aumenta, porque el filamento se calienta",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Primero aumenta y luego disminuye",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

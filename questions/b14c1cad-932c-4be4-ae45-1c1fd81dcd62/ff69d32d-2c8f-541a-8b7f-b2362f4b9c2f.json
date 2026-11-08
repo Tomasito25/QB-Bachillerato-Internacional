@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ff69d32d-2c8f-541a-8b7f-b2362f4b9c2f",
+  "rev": 1,
+  "statement": "¿Cómo es la gráfica de velocidad frente a tiempo de un paracaidista desde que salta hasta justo antes de abrir el paracaídas?",
+  "explanation": "La pendiente es la aceleración: vale $g$ al principio y tiende a cero al acercarse a la velocidad límite.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "velocidad límite",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una recta de pendiente $g$ durante toda la caída",
+      "correct": false,
+      "feedback": "Sería así sin aire, y el aire frena cada vez más al ganar velocidad."
+    },
+    {
+      "id": "b",
+      "text": "Una curva que empieza con pendiente $g$ y se aplana hasta un valor constante",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Una recta horizontal desde el primer instante",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una curva cada vez más empinada",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

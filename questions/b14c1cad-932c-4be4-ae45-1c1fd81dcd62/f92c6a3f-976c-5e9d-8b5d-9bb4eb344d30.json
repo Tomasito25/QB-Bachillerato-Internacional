@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "f92c6a3f-976c-5e9d-8b5d-9bb4eb344d30",
+  "rev": 1,
+  "statement": "Para medir el calor latente de vaporización del agua, se hierve agua con un calentador sumergido y se anota la masa $m$ del recipiente, sobre una balanza, cada minuto.\n\n| $t$ / min | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| $m$ / g | 512,0 | 509,6 | 507,1 | 504,7 | 502,2 | 499,8 |\n\nLa potencia eléctrica es de $92 \\pm 2\\,\\text{W}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "datos",
+    "calor latente",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "pérdidas de calor",
+    "incertidumbre porcentual"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa de agua que se evapora por segundo, usando todo el intervalo.",
+      "modelAnswer": "$\\frac{512{,}0 - 499{,}8}{300} = 4{,}07\\times10^{-2}\\,\\text{g}\\,\\text{s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina el calor latente de vaporización.",
+      "modelAnswer": "$L = \\frac{P}{\\Delta m/\\Delta t} = \\frac{92}{4{,}07\\times10^{-5}} = 2{,}3\\times10^{6}\\,\\text{J}\\,\\text{kg}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la incertidumbre porcentual en la potencia y en la masa evaporada, si la balanza tiene una incertidumbre de $\\pm 0{,}1\\,\\text{g}$. Da el resultado con su incertidumbre absoluta.",
+      "modelAnswer": "Potencia: $\\frac{2}{92} = 2{,}2\\,\\%$. Masa: dos lecturas, $\\frac{0{,}2}{12{,}2} = 1{,}6\\,\\%$. Total: $3{,}8\\,\\%$. $L = (2{,}3 \\pm 0{,}1)\\times10^{6}\\,\\text{J}\\,\\text{kg}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "El valor aceptado es $2{,}26\\times10^{6}\\,\\text{J}\\,\\text{kg}^{-1}$. Propón una fuente de error sistemático y explica cómo afecta al resultado.",
+      "modelAnswer": "El recipiente pierde calor al entorno, de modo que parte de la potencia no evapora agua. Con menos agua evaporada de la esperada, el resultado sale mayor que el aceptado. Se reduce aislando el recipiente.",
+      "marks": 2
+    }
+  ]
+}

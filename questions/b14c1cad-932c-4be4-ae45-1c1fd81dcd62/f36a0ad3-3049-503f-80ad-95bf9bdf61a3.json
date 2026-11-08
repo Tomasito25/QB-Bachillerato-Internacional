@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f36a0ad3-3049-503f-80ad-95bf9bdf61a3",
+  "rev": 1,
+  "statement": "¿Por qué el efecto invernadero hace que la superficie esté más caliente sin que cambie la energía total que llega del Sol?",
+  "explanation": "En equilibrio el planeta sigue emitiendo al espacio lo que absorbe. La superficie, además, recibe la radiación de la atmósfera, así que su temperatura de equilibrio es mayor.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La atmósfera genera energía nueva",
+      "correct": false,
+      "feedback": "La atmósfera sólo redistribuye energía: no produce más."
+    },
+    {
+      "id": "b",
+      "text": "Parte de la radiación infrarroja emitida vuelve a la superficie, que debe calentarse para radiar más",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Los gases reflejan la luz solar hacia la superficie",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La atmósfera bloquea toda la radiación saliente",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

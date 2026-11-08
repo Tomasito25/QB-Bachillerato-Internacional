@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fd547d75-a600-58b2-839b-1ed3737d5fc6",
+  "rev": 1,
+  "statement": "¿Bajo qué condiciones se parece más un gas real a un gas ideal?",
+  "explanation": "A baja presión y alta temperatura las partículas están muy separadas y son rápidas: el volumen propio y las fuerzas intermoleculares son despreciables.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "A alta presión y baja temperatura",
+      "correct": false,
+      "feedback": "En esas condiciones las fuerzas entre partículas y su volumen importan más."
+    },
+    {
+      "id": "b",
+      "text": "A baja presión y alta temperatura",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "A alta presión y alta temperatura",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "A baja presión y baja temperatura",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

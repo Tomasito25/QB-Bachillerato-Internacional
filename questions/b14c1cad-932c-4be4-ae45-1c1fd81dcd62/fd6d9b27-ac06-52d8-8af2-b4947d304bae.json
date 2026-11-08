@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "fd6d9b27-ac06-52d8-8af2-b4947d304bae",
+  "rev": 1,
+  "statement": "En el diagrama de frentes de onda de una fuente sonora que se mueve hacia la derecha, los frentes están:",
+  "explanation": "La fuente persigue a los frentes que emite hacia delante: se apiñan delante y se separan detrás.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "frentes de onda"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "más separados por la derecha y más juntos por la izquierda",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "igualmente espaciados en todas direcciones",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "más juntos por la derecha y más separados por la izquierda",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "más juntos por arriba y por abajo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

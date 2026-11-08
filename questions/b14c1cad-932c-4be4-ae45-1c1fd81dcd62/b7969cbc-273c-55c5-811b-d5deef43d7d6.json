@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "b7969cbc-273c-55c5-811b-d5deef43d7d6",
+  "rev": 1,
+  "statement": "Se dejan caer esferas de acero de radio $r$ en una columna de glicerina y se mide su velocidad límite $v$. La densidad del acero es $7800\\,\\text{kg}\\,\\text{m}^{-3}$ y la de la glicerina, $1260\\,\\text{kg}\\,\\text{m}^{-3}$.\n\n| $r$ / mm | 1,0 | 1,5 | 2,0 | 2,5 |\n|---|---|---|---|---|\n| $v$ / cm s⁻¹ | 1,1 | 2,6 | 4,6 | 7,2 |\n\nToma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "datos",
+    "arrastre viscoso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "velocidad límite",
+    "Stokes",
+    "linealizar"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "A velocidad límite actúan el peso, el empuje y el arrastre de Stokes. Muestra que $v = \\frac{2 g (\\rho_a - \\rho_g)}{9\\eta}\\,r^2$.",
+      "modelAnswer": "Equilibrio: $\\frac{4}{3}\\pi r^3\\rho_a g = \\frac{4}{3}\\pi r^3\\rho_g g + 6\\pi\\eta r v$. Despejando $v$ queda la expresión pedida.",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula los valores de $r^2$ para el primer y el último punto, en $\\text{m}^2$, y la pendiente de $v$ frente a $r^2$.",
+      "modelAnswer": "$r^2$: $1{,}0\\times10^{-6}$ y $6{,}25\\times10^{-6}\\,\\text{m}^{2}$. Pendiente: $\\frac{0{,}072 - 0{,}011}{5{,}25\\times10^{-6}} = 1{,}16\\times10^{4}\\,\\text{m}^{-1}\\,\\text{s}^{-1}$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Determina la viscosidad $\\eta$ de la glicerina.",
+      "modelAnswer": "$\\eta = \\frac{2 g\\,(7800 - 1260)}{9\\cdot 1{,}16\\times10^{4}} = 1{,}2\\,\\text{Pa}\\,\\text{s}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica por qué la columna debe ser ancha y por qué hay que empezar a cronometrar tras una cierta distancia.",
+      "modelAnswer": "Con una columna estrecha, las paredes alteran el flujo y la fórmula deja de valer. Hay que esperar a que la esfera alcance la velocidad límite, que no adquiere nada más entrar.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "La viscosidad de la glicerina cambia mucho con la temperatura. Indica cómo debe controlarse eso.",
+      "modelAnswer": "Midiendo la temperatura y manteniendo la glicerina a temperatura constante durante todas las medidas, por ejemplo evitando que las manos o una lámpara la calienten.",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "c1037a12-9c29-5a51-8429-3ed2eba39f88",
+  "rev": 1,
+  "statement": "Una masa de $0{,}50\\,\\text{kg}$ cuelga en reposo de un muelle de $50\\,\\text{N}\\,\\text{m}^{-1}$. Se tira de ella $4{,}0\\,\\text{cm}$ más hacia abajo y se suelta.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "masa-muelle"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "posición de equilibrio",
+    "fuerza neta"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el alargamiento en la posición de equilibrio. Toma $g = 9{,}8\\,\\text{m}\\,\\text{s}^{-2}$.",
+      "modelAnswer": "$x = \\frac{mg}{k} = \\frac{0{,}50\\cdot 9{,}8}{50} = 9{,}8\\,\\text{cm}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Muestra que la masa describe un movimiento armónico simple respecto al equilibrio.",
+      "modelAnswer": "A una distancia $y$ del equilibrio, la fuerza neta es $-ky$, porque el peso se cancela con la fuerza a la que el muelle está sometido en el equilibrio. Por tanto $a = -\\frac{k}{m}y$.",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el periodo de oscilación.",
+      "modelAnswer": "$T = 2\\pi\\sqrt{\\frac{0{,}50}{50}} = 0{,}63\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Determina la fuerza máxima y la fuerza mínima que el muelle ejerce sobre la masa.",
+      "modelAnswer": "Máxima: alargamiento $13{,}8\\,\\text{cm}$, $F = 6{,}9\\,\\text{N}$. Mínima: alargamiento $5{,}8\\,\\text{cm}$, $F = 2{,}9\\,\\text{N}$.",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Razona si la masa dejaría de estar en contacto con un pequeño objeto apoyado sobre ella al llegar arriba.",
+      "modelAnswer": "No: la aceleración máxima es $\\omega^2 A = 100\\cdot 0{,}040 = 4{,}0\\,\\text{m}\\,\\text{s}^{-2}$, menor que $g$. Para perder el contacto haría falta una aceleración hacia abajo mayor que $g$.",
+      "marks": 2
+    }
+  ]
+}

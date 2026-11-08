@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "d67aeac5-ee6b-5889-8fd4-6c9cca83616f",
+  "rev": 1,
+  "statement": "Un calefactor de $2{,}0\\,\\text{kW}$, para $230\\,\\text{V}$, se alimenta con un alargador de $20\\,\\text{m}$ de hilo de cobre, con $2{,}5\\,\\text{mm}^{2}$ de sección por conductor y una resistividad de $1{,}7\\times10^{-8}\\,\\Omega\\,\\text{m}$. La corriente recorre ida y vuelta.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistividad",
+    "potencia eléctrica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-08T20:34:19.000Z",
+  "updatedAt": "2026-11-08T20:34:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [
+    "pérdidas por efecto Joule"
+  ],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la resistencia total del alargador.",
+      "modelAnswer": "Longitud recorrida: $40\\,\\text{m}$. $R = \\frac{1{,}7\\times10^{-8}\\cdot 40}{2{,}5\\times10^{-6}} = 0{,}27\\,\\Omega$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la corriente aproximada del calefactor, y la tensión que cae en el alargador.",
+      "modelAnswer": "$I \\approx \\frac{2000}{230} = 8{,}7\\,\\text{A}$. Caída: $8{,}7\\cdot 0{,}27 = 2{,}4\\,\\text{V}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la potencia que se disipa en el alargador.",
+      "modelAnswer": "$P = I^2R = 8{,}7^2\\cdot 0{,}27 = 21\\,\\text{W}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué un alargador enrollado puede calentarse peligrosamente, aunque disipe la misma potencia que desenrollado.",
+      "modelAnswer": "Al estar enrollado, la superficie por la que puede ceder calor es mucho menor y el hilo interior no puede enfriarse. La temperatura sube hasta dañar el aislamiento.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Razona por qué la electricidad se transporta a alta tensión en lugar de a baja tensión.",
+      "modelAnswer": "Para una potencia dada, a mayor tensión menor corriente. Las pérdidas son $I^2R$, así que se reducen con el cuadrado de la corriente.",
+      "marks": 2
+    }
+  ]
+}
