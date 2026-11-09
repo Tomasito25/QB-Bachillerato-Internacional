@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "9babe675-7d1c-4df9-8850-5351371b2fdd",
+  "rev": 1,
+  "statement": "Una onda longitudinal se desplaza en un medio de izquierda a derecha. El diagrama a continuación es una instantánea de los frentes de ondas planas de mostrar la posición de las partículas $X$ (centro de compresión) y $Y$ (centro de rarefacción) en el medio en $T=0 s$\n![figura](qbimg:8eb6d7e8c5652c8cc09e846fb5dd55af3d4d2321e099d4253d8b8251ca06728b)",
+  "images": [
+    {
+      "hash": "8eb6d7e8c5652c8cc09e846fb5dd55af3d4d2321e099d4253d8b8251ca06728b",
+      "ext": "webp",
+      "width": 616,
+      "height": 295,
+      "bytes": 3680,
+      "alt": ""
+    },
+    {
+      "hash": "6454209ebd2c3c49bb5e94184b9aa8196c66b0b305250cb65781955b0b173abc",
+      "ext": "webp",
+      "width": 452,
+      "height": 295,
+      "bytes": 14066,
+      "alt": ""
+    },
+    {
+      "hash": "78b55c23065d227f73bdaa27cda732a65f7cccdc8266b9ec927c7949f7eaac66",
+      "ext": "webp",
+      "width": 461,
+      "height": 85,
+      "bytes": 5496,
+      "alt": ""
+    },
+    {
+      "hash": "8cc5613b3a1bc9e9fd3e9a5cc8f93f814907f4fca598f26017117fe3d929bb35",
+      "ext": "webp",
+      "width": 1436,
+      "height": 238,
+      "bytes": 19330,
+      "alt": ""
+    },
+    {
+      "hash": "322c26b6015414490f008f6c09c2a1c041c51ee244765b832322de78963b0686",
+      "ext": "webp",
+      "width": 535,
+      "height": 461,
+      "bytes": 22672,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501",
+    "a1680f92-caeb-5b6b-8617-d29935280334",
+    "b7e29757-f91f-55ca-8574-80697030774a",
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-09T10:44:44.000Z",
+  "updatedAt": "2026-11-09T10:44:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Cual es la diferencia entre una onda transversal y una onda longitudinal.",
+      "modelAnswer": "Para la onda transversal; el desplazamiento de partículas / movimiento de partículas / oscilaciones de partículas es perpendicular a la dirección de la transferencia de energía / movimiento de la onda / viaje de la onda. ✓\n\nPara la onda longitudinal; el desplazamiento de partículas / movimiento de partículas / oscilaciones de partículas es paralela a la dirección de la transferencia de energía / movimiento de la onda / viaje de la onda. ✓✓",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "En el siguiente gráfico la línea continua muestra la variación del desplazamiento $s$ de la partícula $X$ con el tiempo, y la línea de puntos muestra la variación del desplazamiento de la partícula $Y$ con el tiempo.\n\n![figura](qbimg:6454209ebd2c3c49bb5e94184b9aa8196c66b0b305250cb65781955b0b173abc)",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Muestra que la frecuencia angular $ω$ de las partículas oscilantes en el medio es de $ 3,9 rad · s⁻¹$",
+          "modelAnswer": "![figura](qbimg:78b55c23065d227f73bdaa27cda732a65f7cccdc8266b9ec927c7949f7eaac66)",
+          "marks": 1
+        },
+        {
+          "id": "b",
+          "statement": "Calcula la velocidad de la onda en el medio.",
+          "modelAnswer": "![figura](qbimg:8cc5613b3a1bc9e9fd3e9a5cc8f93f814907f4fca598f26017117fe3d929bb35)",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "statement": "",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Indica la diferencia de fase entre las partículas $X$ y $Y$",
+          "modelAnswer": "Media oscilación / $pi$ / 0,5",
+          "marks": 1
+        },
+        {
+          "id": "b",
+          "statement": "Determina la velocidad de la partícula $Y$ Cuando $T=2.3 s.$",
+          "modelAnswer": "![figura](qbimg:322c26b6015414490f008f6c09c2a1c041c51ee244765b832322de78963b0686)",
+          "marks": 3
+        }
+      ]
+    }
+  ]
+}
