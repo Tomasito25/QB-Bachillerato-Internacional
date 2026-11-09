@@ -176,6 +176,11 @@ export async function validateContribution(input: ContributionInput, view: DataV
     validImages.set(image.hash, image);
   }
 
+  const imageBytes = [...validImages.values()].reduce((sum, image) => sum + image.bytes.length, 0);
+  if (imageBytes > POLICY.maxImageBytesPerSubmission) {
+    findings.push({ level: 'error', code: 'image-invalid', message: `Las imágenes suman ${Math.round(imageBytes / 1048576)} MB; el máximo por envío es ${Math.round(POLICY.maxImageBytesPerSubmission / 1048576)} MB.` });
+  }
+
   // Preguntas
   const known = view.duplicateEntries();
   const questions: Question[] = [];

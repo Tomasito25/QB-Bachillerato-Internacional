@@ -4,7 +4,11 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import type { AnswerEvent } from '@core/schema/events';
+import { LIMITS } from '@core/schema/question';
 import type { Submission } from '@core/schema/submission';
+import { partNonce } from '@core/submissions/envelope';
+import { validateContribution } from '@core/validation/contribution';
+import { POLICY } from '@core/validation/policy';
 import { sha256Hex, bytesToBase64, bytesToBase64Url, gzip } from '@core/util/encoding';
 import { LABELS, runIntake } from '../../tools/actions/intake';
 import { DataStore } from '../../tools/lib/data-store';
@@ -599,5 +603,89 @@ describe('intake: identidad y seguridad', () => {
     expect(store.subjects()[0]?.id).toBe(SUBJECT_ID);
     expect(store.subjects()[0]?.units[0]?.topics.map((t) => t.name)).toEqual(['Huesos', 'Articulaciones']);
     expect([...store.questions.values()].every((q) => q.subjectId === SUBJECT_ID)).toBe(true);
+  });
+});
+
+describe('intake: envíos en varias partes', () => {
+  const images = async (n: number) =>
+    Promise.all(
+      Array.from({ length: n }, async (_, i) => {
+        const bytes = new Uint8Array([...PNG, i]);
+        const hash = await sha256Hex(bytes);
+        return { hash, ext: 'png' as const, bytes, base64: bytesToBase64(bytes) };
+      }),
+    );
+
+  async function partsOf(group: string, n: number, author = ANA) {
+    const all = await images(n);
+    const inlined = all.map(({ hash, ext, base64 }) => ({ hash, ext, base64 }));
+    const question = makeMcq({ id: uuid(), author: null, statement: `Con muchas figuras ${group}: ${all.map((image) => `![x](qbimg:${image.hash})`).join(' ')}`, images: all.map((image) => ({ hash: image.hash, ext: 'png', width: 1, height: 1, bytes: image.bytes.length, alt: '' })) });
+    const out = [];
+    for (const [index, image] of inlined.entries()) out.push(await send(questionsSubmission({ nonce: partNonce(group, index, n + 1), questions: [], subjects: [], images: [image] }), author));
+    out.push(await send(questionsSubmission({ nonce: partNonce(group, n, n + 1), questions: [question], images: [] }), author));
+    return { issues: out, images: all };
+  }
+
+  it('junta las partes, publica la pregunta entera y cierra todas', async () => {
+    const { issues, images: all } = await partsOf('grupoAB12', 12);
+    await run();
+    const store = await loadRemote();
+    expect(store.questions.size).toBe(1);
+    expect(all.every((image) => store.imageExists(image.hash, 'png'))).toBe(true);
+    expect(api.pulls).toHaveLength(1);
+    for (const issue of issues) {
+      expect(api.labels.get(issue.number)).toContain(LABELS.accepted);
+      expect(api.closed.get(issue.number)).toBe('completed');
+    }
+    // Un solo comentario: con muchas partes se pasaría del límite de creaciones por minuto.
+    expect([...api.comments.keys()]).toEqual([issues[issues.length - 1]?.number]);
+  });
+
+  it('espera a que lleguen todas sin tocar nada', async () => {
+    const { issues } = await partsOf('grupoCD34', 2);
+    api.issues = api.issues.filter((issue) => issue !== issues[1]);
+    await run();
+    expect(api.pulls).toEqual([]);
+    expect(api.closed.size).toBe(0);
+    expect(api.comments.size).toBe(0);
+  });
+
+  it('no mezcla las partes de dos cuentas aunque usen el mismo identificador', async () => {
+    const mine = await partsOf('grupoEF56', 1);
+    api.issues = api.issues.filter((issue) => issue !== mine.issues[1]);
+    await partsOf('grupoEF56', 1, LUIS);
+    api.issues = api.issues.filter((issue) => issue.user.login === 'ana' || issue.title.includes('p2of2'));
+    await run();
+    expect(api.pulls).toEqual([]);
+    expect(api.closed.size).toBe(0);
+  });
+
+  it('lo incompleto no tapa la cola', async () => {
+    for (let i = 0; i < POLICY.maxSubmissionsPerRun + 3; i++) await send(questionsSubmission({ nonce: partNonce(`grupoEspera${i}`, 0, 2), questions: [], subjects: [], images: [] }), ANA, NOW - 120_000);
+    const normal = await send(questionsSubmission());
+    await run();
+    expect(api.labels.get(normal.number)).toContain(LABELS.accepted);
+  });
+
+  it('si no llegan todas a tiempo, avisa y no publica nada', async () => {
+    const issue = await send(questionsSubmission({ nonce: partNonce('grupoViejo', 0, 2), questions: [], subjects: [], images: [] }), ANA, NOW - POLICY.maxPartWaitMs - 60_000);
+    await run();
+    expect(api.labels.get(issue.number)).toContain(LABELS.rejected);
+    expect(api.comments.get(issue.number)?.[0]).toMatch(/partes/);
+    expect(api.pulls).toEqual([]);
+  });
+});
+
+describe('intake: límites de imágenes', () => {
+  it('una pregunta admite muchas más imágenes que antes', async () => {
+    expect(LIMITS.images).toBeGreaterThanOrEqual(50);
+  });
+
+  it('rechaza un envío que supera el peso máximo de imágenes', async () => {
+    const big = new Uint8Array(POLICY.maxImageBytesPerSubmission + 1);
+    big.set(PNG);
+    const hash = await sha256Hex(big);
+    const result = await validateContribution({ actor: { login: 'ana', id: 11, isMaintainer: false }, questions: [], subjects: [], images: [{ hash, ext: 'png', bytes: big }], now: NOW, mode: 'issue' }, await new DataStore(repo.work).load());
+    expect(result.findings.map((f) => f.code)).toContain('image-invalid');
   });
 });

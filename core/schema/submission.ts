@@ -14,7 +14,7 @@ export const SUBMISSION_VERSION = 1;
 /** Topes de seguridad: lo que manda en la práctica es que el envío quepa en el cuerpo de un issue. */
 export const MAX_QUESTIONS_PER_SUBMISSION = 500;
 export const MAX_ANSWERS_PER_SUBMISSION = 2000;
-export const MAX_IMAGES_PER_SUBMISSION = 40;
+export const MAX_IMAGES_PER_SUBMISSION = 300;
 
 const head = {
   v: z.literal(SUBMISSION_VERSION),
@@ -42,7 +42,7 @@ export const QuestionsSubmission = z.strictObject({
   ...head,
   kind: z.literal('questions'),
   /** Se validan después con su propio esquema, para dar errores por pregunta. */
-  questions: z.array(z.unknown()).min(1).max(MAX_QUESTIONS_PER_SUBMISSION),
+  questions: z.array(z.unknown()).max(MAX_QUESTIONS_PER_SUBMISSION),
   subjects: z.array(z.unknown()).max(MAX_QUESTIONS_PER_SUBMISSION),
   images: z.array(InlineImage).max(MAX_IMAGES_PER_SUBMISSION),
   /** Licencia aceptada y procedencia declarada por quien publica. */

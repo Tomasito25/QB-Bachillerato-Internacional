@@ -19,7 +19,27 @@ export const MAX_ISSUE_URL_LENGTH = 6000;
 /** Límite del cuerpo de un issue en la API de GitHub, con margen para el resumen. */
 export const MAX_ISSUE_BODY_LENGTH = 65000;
 
+/** Da para una pregunta con el máximo de imágenes, cada una en su issue. */
+export const MAX_PARTS_PER_SUBMISSION = 60;
+
 const TITLE_PATTERN = /^\[QB:([a-z-]+)\]/;
+const PART_PATTERN = /^\[QB:questions\].* · ([A-Za-z0-9_-]+)-p(\d+)of(\d+)$/;
+
+/** Lo que no cabe en un issue viaja en varios. El nonce dice de qué envío es parte cada uno. */
+export const partNonce = (group: string, index: number, total: number): string => `${group}-p${index + 1}of${total}`;
+
+export interface SubmissionPart {
+  group: string;
+  index: number;
+  total: number;
+}
+
+export function partOfTitle(title: string): SubmissionPart | null {
+  const match = PART_PATTERN.exec(title);
+  if (!match) return null;
+  const [index, total] = [Number(match[2]) - 1, Number(match[3])];
+  return index >= 0 && index < total && total <= MAX_PARTS_PER_SUBMISSION ? { group: match[1] as string, index, total } : null;
+}
 const PAYLOAD_PATTERN = /```qb1\s*\n?([A-Za-z0-9_-]+)\s*\n?```/;
 
 export function isSubmissionTitle(title: string): boolean {
@@ -56,6 +76,7 @@ function titleFor(submission: Submission): string {
     case 'profile':
       return 'Actualizar perfil';
     case 'questions':
+      if (submission.questions.length === 0) return `${submission.images.length} ${submission.images.length === 1 ? 'imagen' : 'imágenes'}`;
       return `${submission.questions.length} ${submission.questions.length === 1 ? 'pregunta' : 'preguntas'}`;
     case 'results':
       return `${submission.answers.length} respuestas`;

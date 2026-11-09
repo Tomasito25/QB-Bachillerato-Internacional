@@ -736,8 +736,10 @@ function ImagesCard({ form, setForm, uploadImage, error }: { form: QuestionForm;
           onChange={(e) => {
             const files = Array.from(e.target.files ?? []);
             e.target.value = '';
+            const room = LIMITS.images - form.images.length;
+            if (files.length > room) toast.error(`Sólo caben ${room} imágenes más: el máximo por pregunta es ${LIMITS.images}.`);
             void (async () => {
-              for (const file of files) await uploadImage(file);
+              for (const file of files.slice(0, room)) await uploadImage(file);
             })();
           }}
         />

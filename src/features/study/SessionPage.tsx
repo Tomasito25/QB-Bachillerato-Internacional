@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Clock, Flag, LogOut, Sigma, Star } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Bookmark, Clock, Flag, LogOut, Sigma, Star } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useLiveQuery } from 'dexie-react-hooks';
@@ -12,15 +12,16 @@ import { FormulaSheet } from '@/features/formulas/FormulaSheet';
 import { hasFormulaSheet } from '@/features/formulas/physics';
 import { preferences } from '@/features/settings/preferences';
 import { useTaxonomy } from '@/features/taxonomy/taxonomyRepo';
-import type { SessionRow } from '@/infra/db/types';
+import type { SessionAnswer, SessionRow } from '@/infra/db/types';
 import { Button, ButtonLink } from '@/ui/Button';
 import { Dialog } from '@/ui/Dialog';
 import { Band } from '@/ui/Band';
 import { Card, EmptyState, PageHeader, Spinner } from '@/ui/Surface';
 import { cn } from '@/ui/cn';
-import { McqPlayer, McqResultBanner, OpenPlayer } from './players';
+import { toast } from '@/ui/toast';
+import { McqPlayer, McqResultBanner, OpenExamAnswer, OpenPlayer } from './players';
 import { toggleFavorite, toggleHard, useProgress } from './progressRepo';
-import { abandonSession, commitAnswer, commitSelfGrade, finishSession, formatDuration, isDeferredMode, MODE_LABELS, saveDeferredAnswer, setCursor, useSession } from './sessions';
+import { abandonSession, commitAnswer, commitSelfGrade, finishSession, formatDuration, isDeferredMode, MODE_LABELS, saveDeferredAnswer, saveWritten, setCursor, toggleMarked, useSession } from './sessions';
 
 function useSessionQuestions(session: SessionRow | null | undefined): Map<string, Question> | undefined {
   const ids = session?.questionIds;
@@ -71,24 +72,42 @@ function QuestionFlags({ questionId }: { questionId: string }) {
   );
 }
 
-function QuestionGrid({ session, questions, onJump }: { session: SessionRow; questions: Map<string, Question>; onJump: (index: number) => void }) {
+const hasAnswer = (answer: SessionAnswer | undefined) => Boolean(answer?.committed || answer?.selected?.length || Object.values(answer?.written ?? {}).some((text) => text.trim()));
+
+type Result = 'right' | 'half' | 'wrong';
+
+/** En práctica se corrige al momento: esto es lo que se pinta en la tira de preguntas. */
+function resultOf(question: Question | undefined, answer: SessionAnswer | undefined): Result | null {
+  if (!question || !answer?.committed) return null;
+  if (question.type === 'mcq') return isCorrectSelection(question, answer.selected ?? []) ? 'right' : 'wrong';
+  return answer.selfGrade === 2 ? 'right' : answer.selfGrade === 1 ? 'half' : 'wrong';
+}
+
+const RESULT_LABEL: Record<Result, string> = { right: 'bien', half: 'a medias', wrong: 'mal' };
+const RESULT_CELL: Record<Result, string> = { right: 'bg-success text-canvas', half: 'bg-warning text-canvas', wrong: 'bg-danger text-canvas' };
+
+function QuestionGrid({ session, questions, deferred, onJump }: { session: SessionRow; questions: Map<string, Question>; deferred: boolean; onJump: (index: number) => void }) {
+  const marked = new Set(session.marked ?? []);
   return (
-    <nav aria-label="Preguntas del examen" className="flex flex-wrap gap-1">
+    <nav aria-label="Preguntas de la sesión" className="flex flex-wrap gap-1">
       {session.questionIds.map((id, index) => {
         const answer = session.answers[id];
-        const question = questions.get(id);
-        const done = question?.type === 'open' ? answer !== undefined : (answer?.selected?.length ?? 0) > 0;
+        const result = deferred ? null : resultOf(questions.get(id), answer);
+        const done = hasAnswer(answer);
         const current = index === session.cursor;
+        const isMarked = marked.has(id);
+        const state = result ? RESULT_LABEL[result] : done ? 'respondida' : 'sin responder';
         return (
           <button
             key={id}
             type="button"
             aria-current={current ? 'true' : undefined}
-            aria-label={`Pregunta ${index + 1}${done ? ', respondida' : ', sin responder'}`}
+            aria-label={`Pregunta ${index + 1}, ${state}${isMarked ? ', marcada para revisar' : ''}`}
             onClick={() => onJump(index)}
             className={cn(
-              'size-7 rounded-none text-xs font-medium tabular-nums transition-colors',
-              current ? 'bg-accent text-accent-ink' : done ? 'bg-accent-soft text-accent-text' : 'border border-border text-muted hover:border-border-strong',
+              'size-9 text-xs font-bold tabular-nums transition-colors sm:size-8',
+              current && 'outline outline-2 outline-offset-1 outline-accent',
+              isMarked ? 'bg-signal text-signal-ink' : result ? RESULT_CELL[result] : done ? 'bg-accent-soft text-accent-text' : 'border border-border text-muted hover:border-border-strong',
             )}
           >
             {index + 1}
@@ -98,6 +117,24 @@ function QuestionGrid({ session, questions, onJump }: { session: SessionRow; que
     </nav>
   );
 }
+
+function JumpList({ label, indexes, onJump }: { label: string; indexes: readonly number[]; onJump: (index: number) => void }) {
+  if (indexes.length === 0) return null;
+  return (
+    <div className="mt-3">
+      <p className="mb-1 text-[0.8125rem] font-bold">{label}</p>
+      <div className="flex flex-wrap gap-1">
+        {indexes.map((index) => (
+          <button key={index} type="button" onClick={() => onJump(index)} aria-label={`Ir a la pregunta ${index + 1}`} className="size-9 border border-border text-xs font-bold tabular-nums hover:border-border-strong">
+            {index + 1}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const TIME_WARNINGS = [10 * 60_000, 5 * 60_000, 60_000];
 
 function Runner({ session, questions }: { session: SessionRow; questions: Map<string, Question> }) {
   const navigate = useNavigate();
@@ -130,6 +167,18 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
   }, [navigate, session.id]);
 
   const remaining = useCountdown(session, () => void finish());
+
+  const warned = useRef(new Set<number>());
+  useEffect(() => {
+    if (remaining === null) return;
+    for (const limit of TIME_WARNINGS) {
+      // Sólo al cruzar el aviso: en un examen más corto no debe saltar nada al empezar.
+      if (remaining <= limit && remaining > limit - 5000 && !warned.current.has(limit)) {
+        warned.current.add(limit);
+        toast.info(`Quedan ${limit / 60_000} ${limit === 60_000 ? 'minuto' : 'minutos'}.`);
+      }
+    }
+  }, [remaining]);
 
   const go = useCallback(
     (cursor: number) => {
@@ -191,11 +240,13 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
         setOpenRevealed(true);
       } else if (event.key === 'f' && question) {
         void toggleFavorite(question.id);
+      } else if (event.key === 'm' && deferred) {
+        void toggleMarked(session.id, questionId);
       }
     };
     document.addEventListener('keydown', handler);
     return () => document.removeEventListener('keydown', handler);
-  }, [check, committed, deferred, next, openRevealed, question]);
+  }, [check, committed, deferred, next, openRevealed, question, questionId, session.id]);
 
   if (!question) {
     // La pregunta se retiró después de crear la sesión: se salta en lugar de romperla.
@@ -206,12 +257,19 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
     );
   }
 
-  const answeredCount = session.questionIds.filter((id) => {
-    const answer = session.answers[id];
-    return answer?.committed || (answer?.selected?.length ?? 0) > 0;
-  }).length;
-  const unanswered = session.questionIds.length - answeredCount;
-  const low = remaining !== null && remaining < 60_000;
+  const answeredCount = session.questionIds.filter((id) => hasAnswer(session.answers[id])).length;
+  const unanswered = session.questionIds.flatMap((id, index) => (hasAnswer(session.answers[id]) ? [] : [index]));
+  const markedIndexes = session.questionIds.flatMap((id, index) => (session.marked?.includes(id) ? [index] : []));
+  const isMarked = session.marked?.includes(questionId) ?? false;
+  const low = remaining !== null && remaining < 5 * 60_000;
+  const results = deferred ? [] : session.questionIds.map((id) => resultOf(questions.get(id), session.answers[id]));
+  const right = results.filter((r) => r === 'right').length;
+  const graded = results.filter(Boolean).length;
+  const topicName = taxonomy?.index.topics.get(question.topicIds[0] ?? '')?.topic.name;
+  const jump = (index: number) => {
+    setConfirmFinish(false);
+    go(index);
+  };
   const subjectHasFormulas = hasFormulaSheet(taxonomy?.subjects.find((s) => s.id === question.subjectId)?.name ?? '');
 
   return (
@@ -224,7 +282,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
         value={answeredCount / session.questionIds.length}
         label="Progreso de la sesión"
         title={`Pregunta ${session.cursor + 1} de ${session.questionIds.length}`}
-        subtitle={`${MODE_LABELS[session.mode]}${session.title ? ` · ${session.title}` : ''}`}
+        subtitle={`${MODE_LABELS[session.mode]}${session.title ? ` · ${session.title}` : ''}${graded > 0 ? ` · ${right} de ${graded} bien` : ''}`}
         actions={
           <>
             {remaining !== null ? (
@@ -244,16 +302,26 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
           </>
         }
       />
-      {deferred ? (
+      {session.questionIds.length > 1 ? (
         <div className="mb-4">
-          <QuestionGrid session={session} questions={questions} onJump={go} />
+          <QuestionGrid session={session} questions={questions} deferred={deferred} onJump={go} />
         </div>
       ) : null}
 
       <Card className="mb-5 p-4 sm:p-5">
         <div className="mb-3 flex items-center justify-between gap-2">
-          {prefs.showDifficulty ? <DifficultyBadge value={question.difficulty} /> : <span />}
-          <QuestionFlags questionId={question.id} />
+          <div className="flex min-w-0 flex-wrap items-center gap-x-3 gap-y-1">
+            {prefs.showDifficulty ? <DifficultyBadge value={question.difficulty} /> : null}
+            {!deferred && topicName ? <span className="truncate text-xs font-medium text-muted">{topicName}</span> : null}
+          </div>
+          <div className="flex shrink-0 items-center gap-1">
+            {deferred ? (
+              <Button variant={isMarked ? 'signal' : 'ghost'} size="sm" icon={<Bookmark size={14} aria-hidden />} aria-pressed={isMarked} title="Revisar antes de entregar (M)" onClick={() => void toggleMarked(session.id, questionId)}>
+                Revisar luego
+              </Button>
+            ) : null}
+            <QuestionFlags questionId={question.id} />
+          </div>
         </div>
         <QuestionStatement question={question} />
         <div className="mt-4 flex flex-col gap-3">
@@ -268,7 +336,7 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
               ) : null}
             </>
           ) : deferred ? (
-            <p className="rounded-md bg-subtle p-3 text-[0.8125rem] text-muted">Es de desarrollo: al terminar verás la solución y te autoevaluarás. Mientras tanto, resuélvela en papel o en tu cabeza.</p>
+            <OpenExamAnswer key={question.id} question={question} initial={saved?.written} onChange={(written) => void saveWritten(session.id, question.id, written)} />
           ) : (
             <>
               <OpenPlayer key={question.id} question={question} revealed={openRevealed} committed={committed} initialGrade={saved?.selfGrade} initialCriteria={saved?.metCriteria} onGrade={(grade, met) => void onSelfGrade(grade, met)} />
@@ -283,6 +351,11 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
           Anterior
         </Button>
         <div className="flex gap-2">
+          {!deferred && !committed ? (
+            <Button variant="ghost" onClick={next}>
+              {isLast ? 'Terminar' : 'Saltar'}
+            </Button>
+          ) : null}
           {deferred ? (
             <>
               <Button onClick={() => setConfirmFinish(true)}>Entregar</Button>
@@ -324,7 +397,9 @@ function Runner({ session, questions }: { session: SessionRow; questions: Map<st
           </>
         }
       >
-        {unanswered > 0 ? `${unanswered === 1 ? 'Queda 1 pregunta' : `Quedan ${unanswered} preguntas`} sin responder. Las de test contarán como falladas.` : 'Has respondido todas las preguntas.'}
+        {unanswered.length > 0 ? `${unanswered.length === 1 ? 'Queda 1 pregunta' : `Quedan ${unanswered.length} preguntas`} sin responder. Las de test contarán como falladas.` : 'Has respondido todas las preguntas.'}
+        <JumpList label="Sin responder" indexes={unanswered} onJump={jump} />
+        <JumpList label="Marcadas para revisar" indexes={markedIndexes} onJump={jump} />
       </Dialog>
 
       <Dialog open={showFormulas} onClose={() => setShowFormulas(false)} title="Formulario" size="lg">

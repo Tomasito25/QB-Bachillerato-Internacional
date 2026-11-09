@@ -21,7 +21,7 @@ copia local con el mismo id, que tapa a la comunitaria hasta que se publica.
 | `User` | Comunitaria | `UserDoc` (`users/<login>.json`) | `login` y `githubId` salen de GitHub |
 | `Profile` | Comunitaria + derivada | `DerivedProfile` | El usuario sólo decide `displayName` y `bio`. `nameChangedAt` (hora del issue) marca la espera de 30 días entre cambios de nombre |
 | `Subject`, `Unit`, `Topic` | Las dos | `SubjectDoc` (`taxonomy/<id>.json`) | Un documento por asignatura, con su árbol |
-| `Question` | Las dos | `McqQuestion`, `OpenQuestion` | UUID estable, `rev` incremental. Hasta 10 imágenes. Una de desarrollo puede llevar `parts` (apartados con su enunciado, su solución y sus puntos), y cada apartado `subparts` (subapartados i), ii)…); sin ellos, esos campos no aparecen |
+| `Question` | Las dos | `McqQuestion`, `OpenQuestion` | UUID estable, `rev` incremental. Hasta 50 imágenes. Una de desarrollo puede llevar `parts` (apartados con su enunciado, su solución y sus puntos), y cada apartado `subparts` (subapartados i), ii)…); sin ellos, esos campos no aparecen |
 | `Answer` | Dentro de `Question` | `Answer` | Id estable: corregir una errata no invalida resultados |
 | `QuestionImage` | Dentro de `Question` | `QuestionImage` | El fichero se llama `<sha256>.<ext>` |
 | `StudySession` | Local | tabla `sessions` | Se guarda en cada respuesta: se reanuda tras cerrar |
@@ -86,6 +86,8 @@ Un fichero por usuario y mes de recepción, sólo de añadir: `events/2026/11/an
 No hay `correct` ni `points`, y el esquema rechaza cualquier campo desconocido.
 
 ## Sobre de un envío
+
+Lo que no cabe en un issue viaja en varios: el nonce termina en `-p<i>of<n>`, y Actions valida las partes juntas cuando han llegado todas las de la misma cuenta. Si en 14 días no han llegado, las rechaza.
 
 Un issue con este título y este cuerpo:
 

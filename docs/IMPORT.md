@@ -74,7 +74,7 @@ Campos comunes a los dos tipos:
 | `rev` | `1` |
 | `statement` | Enunciado. Hasta 8 000 caracteres |
 | `explanation` | Opcional. Hasta 8 000 |
-| `images` | Las imágenes que usa la pregunta (sin el `base64`). Hasta 10. Si no usa, `[]` |
+| `images` | Las imágenes que usa la pregunta (sin el `base64`). Hasta 50. Si no usa, `[]` |
 | `difficulty` | 1 muy fácil, 2 fácil, 3 intermedio, 4 difícil, 5 muy difícil |
 | `subjectId` | La asignatura del fichero (o una que ya exista) |
 | `topicIds` | De 1 a 8 temas, de la asignatura de la pregunta |

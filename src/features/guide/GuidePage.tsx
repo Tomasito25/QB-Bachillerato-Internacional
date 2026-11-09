@@ -41,13 +41,14 @@ const TUTORIALS: Tutorial[] = [
   {
     id: 'estudiar',
     title: 'Estudiar',
-    summary: 'Cuatro formas de estudiar y los atajos de teclado.',
+    summary: 'Práctica, examen, repaso, simulacros y atajos de teclado.',
     icon: GraduationCap,
     steps: [
-      'Práctica: una tanda corta con corrección y explicación al momento. Cuántas preguntas, lo eliges en Configuración.',
-      'Examen: tú pones el número de preguntas y los minutos. Las soluciones se ven al entregar.',
+      'En «Nueva sesión» eliges el modo, el tema, cuántas preguntas y de qué tipo.',
+      'Práctica: corrección y explicación al momento. Puedes saltarte una pregunta, y la tira de arriba te dice cómo vas.',
+      'Examen: tú pones cuántas de test y de desarrollo, y el tiempo se calcula solo. Puedes escribir en cada apartado, marcar preguntas para revisarlas con M, y las soluciones se ven al entregar.',
       'Repaso: repetición espaciada. «Toca repasar» trae lo que estás a punto de olvidar; también puedes repasar falladas, difíciles o favoritas.',
-      'Personalizado: filtra por asignatura, unidad, tema, tipo o dificultad, y elige el modo.',
+      'Por temas: cada fila tiene su botón para practicar sólo eso.',
       '«Temario que entra» te deja estudiar sólo unos temas o bloquear los que no te entren. Vale para práctica, examen y repaso, hasta que lo cambies.',
       'El objetivo diario se fija por separado para tipo test y desarrollo. En Inicio, «Hacer lo que falta» te prepara justo eso.',
       'En las de desarrollo con apartados respondes cada uno, ves su solución y dices qué tal te ha salido: la nota se sugiere sola, según los puntos de cada apartado.',
@@ -60,6 +61,7 @@ const TUTORIALS: Tutorial[] = [
       ['Intro', 'Comprobar, o pasar a la siguiente'],
       ['Espacio', 'Ver la solución de una pregunta de desarrollo'],
       ['F', 'Marcar como favorita'],
+      ['M', 'Marcar para revisar, en un examen'],
     ],
     links: [
       { to: '/study', label: 'Estudiar' },

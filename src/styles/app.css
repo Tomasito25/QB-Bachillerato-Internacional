@@ -441,6 +441,12 @@
       padding-block: 1.75rem;
     }
   }
+  /* El reloj y el avance siguen a la vista aunque la pregunta sea larga. */
+  .qb-band-compact {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
   .qb-band-compact .qb-band-layer {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;

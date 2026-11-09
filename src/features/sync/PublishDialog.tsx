@@ -97,9 +97,7 @@ export function PublishDialog({ questionIds, open, onClose, onPublished }: { que
             ? 'Se abrirá un pull request desde tu fork. Una Action lo valida y, si todo está bien, lo publica.'
             : hasToken
               ? 'Se enviará por lotes, sin que tengas que hacer nada. Una Action los valida y, si todo está bien, los publica.'
-              : count > 1
-                ? 'Se reparte en los menos envíos posibles. En Sincronización los confirmas en GitHub, uno tras otro. Una Action los valida y los publica.'
-                : 'Se abrirá GitHub con el envío ya escrito: sólo tendrás que pulsar «Create». Una Action lo valida y, si todo está bien, lo publica.'}
+              : 'Se reparte en los menos envíos posibles; una pregunta con muchas imágenes puede necesitar varios. En Sincronización los confirmas en GitHub, uno tras otro, y una Action lo valida y lo publica. Con un token, se envía todo de una vez.'}
         </p>
       </div>
     </Dialog>

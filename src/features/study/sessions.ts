@@ -94,7 +94,16 @@ export async function pickQuestionIds(mode: StudyMode, config: SessionConfig): P
     if (config.source === 'due' || !config.source) return selectDue(eligible, config.count, await progressMap(), now).map((q) => q.id);
     return selectPractice(eligible, config.count, await progressMap(), now).map((q) => q.id);
   }
-  if (mode === 'exam') return selectBalanced(pool, config.count).map((q) => q.id);
+  if (mode === 'exam') {
+    if (!config.mix) return selectBalanced(pool, config.count).map((q) => q.id);
+    const ofType = (type: Question['type'], count: number) => selectBalanced(pool.filter((q) => q.type === type), count);
+    // El test primero, como en una prueba real.
+    return [...ofType('mcq', config.mix.mcq), ...ofType('open', config.mix.open)].map((q) => q.id);
+  }
+  if (config.source === 'new') {
+    const progress = await progressMap();
+    return selectPractice(pool.filter((q) => !progress.get(q.id)?.attempts), config.count, progress, now).map((q) => q.id);
+  }
   if (config.mix) {
     const { mcq, open } = config.mix;
     const progress = await progressMap();
@@ -157,6 +166,25 @@ export async function saveDeferredAnswer(sessionId: string, questionId: string, 
     if (!session || session.state !== 'active') return;
     session.answers[questionId] = { ...answer, committed: false };
     await db.sessions.put(session);
+  });
+}
+
+/** Lo escrito en un examen. No corrige nada: se enseña junto a la solución al autoevaluarse. */
+export async function saveWritten(sessionId: string, questionId: string, written: Record<string, string>): Promise<void> {
+  await db.transaction('rw', db.sessions, async () => {
+    const session = await db.sessions.get(sessionId);
+    if (!session || session.state !== 'active') return;
+    const previous = session.answers[questionId];
+    session.answers[questionId] = { durationMs: previous?.durationMs ?? 0, answeredAt: previous?.answeredAt ?? Date.now(), ...previous, written, committed: false };
+    await db.sessions.put(session);
+  });
+}
+
+export async function toggleMarked(sessionId: string, questionId: string): Promise<void> {
+  await db.sessions.where('id').equals(sessionId).modify((session) => {
+    const marked = new Set(session.marked ?? []);
+    if (!marked.delete(questionId)) marked.add(questionId);
+    session.marked = [...marked];
   });
 }
 
@@ -233,7 +261,8 @@ export async function commitSelfGrade(sessionId: string, question: Question, sel
   const previous = session.answers[question.id];
   const now = Date.now();
   const average = ((session.finishedAt ?? now) - session.startedAt) / session.questionIds.length;
-  await commitAnswer(sessionId, question, { durationMs: elapsedMs ?? previous?.durationMs ?? average, answeredAt: previous?.answeredAt ?? now, selfGrade, metCriteria });
+  // Lo escrito sin cronometrar deja la duración en 0: también ahí vale la media.
+  await commitAnswer(sessionId, question, { durationMs: elapsedMs ?? (previous?.durationMs || average), answeredAt: previous?.answeredAt ?? now, selfGrade, metCriteria, ...(previous?.written ? { written: previous.written } : {}) });
 }
 
 export async function abandonSession(sessionId: string): Promise<void> {
@@ -288,20 +317,44 @@ export interface SessionMarks {
   pending: number;
 }
 
-/** Puntos de un simulacro. En desarrollo salen de tu autoevaluación: son una estimación. */
+const earnedMarks = (question: Question, attempt: AttemptRow) => (question.type === 'mcq' ? (attempt.correct ? questionMarks(question) : 0) : Math.round(attempt.score * questionMarks(question)));
+
+/** Puntos de una sesión. En desarrollo salen de tu autoevaluación: son una estimación. */
 export function sessionMarks(session: SessionRow, questions: ReadonlyMap<string, Question>, attempts: readonly AttemptRow[]): SessionMarks {
   const byQuestion = new Map(attempts.map((a) => [a.questionId, a]));
   const marks: SessionMarks = { earned: 0, total: 0, pending: 0 };
   for (const id of session.questionIds) {
     const question = questions.get(id);
     if (!question) continue;
-    const value = questionMarks(question);
     const attempt = byQuestion.get(id);
-    marks.total += value;
-    if (attempt) marks.earned += question.type === 'mcq' ? (attempt.correct ? value : 0) : Math.round(attempt.score * value);
+    marks.total += questionMarks(question);
+    if (attempt) marks.earned += earnedMarks(question, attempt);
     else if (question.type === 'open') marks.pending += 1;
   }
   return marks;
+}
+
+export interface TopicMarks {
+  topicId: string;
+  earned: number;
+  total: number;
+}
+
+/** Puntos por tema, de peor a mejor. Lo que aún no tiene nota no cuenta: no es un fallo. */
+export function marksByTopic(session: SessionRow, questions: ReadonlyMap<string, Question>, attempts: readonly AttemptRow[]): TopicMarks[] {
+  const byQuestion = new Map(attempts.map((a) => [a.questionId, a]));
+  const topics = new Map<string, TopicMarks>();
+  for (const id of session.questionIds) {
+    const question = questions.get(id);
+    const attempt = byQuestion.get(id);
+    const topicId = question?.topicIds[0];
+    if (!question || !attempt || !topicId) continue;
+    const row = topics.get(topicId) ?? { topicId, earned: 0, total: 0 };
+    row.earned += earnedMarks(question, attempt);
+    row.total += questionMarks(question);
+    topics.set(topicId, row);
+  }
+  return [...topics.values()].sort((a, b) => a.earned / a.total - b.earned / b.total);
 }
 
 export function formatDuration(ms: number): string {

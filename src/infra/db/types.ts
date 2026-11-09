@@ -86,7 +86,7 @@ export interface SessionConfig {
   count: number;
   order?: 'random' | 'selected';
   /** Sólo repaso. */
-  source?: 'due' | 'failed' | 'hard' | 'favorites';
+  source?: 'due' | 'failed' | 'hard' | 'favorites' | 'new';
   /** Cuántas de cada tipo: para hacer justo lo que falta del objetivo diario. */
   mix?: { mcq: number; open: number };
   /** Lo que estudias para un examen concreto no depende del temario elegido en Estudiar. */
@@ -99,6 +99,8 @@ export interface SessionAnswer {
   selected?: string[];
   selfGrade?: SelfGrade;
   metCriteria?: string[];
+  /** Lo escrito en un examen, por apartado, para compararlo con la solución al corregir. */
+  written?: Record<string, string>;
   /** Ya corregida y registrada como intento. En examen ocurre al terminar. */
   committed: boolean;
   durationMs: number;
@@ -120,6 +122,8 @@ export interface SessionRow {
   timeLimitSec: number | null;
   /** Permite reanudar el cálculo del tiempo por pregunta. */
   questionShownAt: number | null;
+  /** Preguntas marcadas para revisarlas antes de entregar. */
+  marked?: string[];
   competitionId: string | null;
   competitionRound: number | null;
 }

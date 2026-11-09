@@ -11,6 +11,10 @@ export const POLICY = {
   maxNewTaxonomyNodes: 500,
   /** Competiciones creadas por usuario y día. */
   maxCompetitionsPerDay: 10,
+  /** Imágenes nuevas por envío. Sin esto, una cuenta podría llenar el repositorio de una vez. */
+  maxImageBytesPerSubmission: 40 * 1024 * 1024,
+  /** Lo que se espera a que lleguen todas las partes de un envío antes de darlo por perdido. */
+  maxPartWaitMs: 14 * 24 * 60 * 60 * 1000,
   /** Envíos que procesa cada ejecución de Actions. Respeta el límite de 80 creaciones/minuto. */
   maxSubmissionsPerRun: 25,
   /** Margen de reloj para fechas declaradas. */

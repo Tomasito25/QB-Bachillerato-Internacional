@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { Question } from '@core/schema/question';
 import { Submission } from '@core/schema/submission';
 import { SubjectDoc } from '@core/schema/taxonomy';
-import { decodeIssueBody, MAX_ISSUE_BODY_LENGTH } from '@core/submissions/envelope';
+import { decodeIssueBody, MAX_ISSUE_BODY_LENGTH, partOfTitle } from '@core/submissions/envelope';
 import { connectWithToken, disconnect, identity, TokenScopeError } from '@/features/account/identity';
 import { saveLocalQuestion } from '@/features/bank/questionsRepo';
 import { discardItem, enqueue, flushWithToken, isOpen, LABEL_TO_STATUS, manualTransport, markAwaitingUser, markSent, refreshStatuses } from '@/features/sync/outbox';
@@ -135,7 +135,7 @@ describe('publicar preguntas por issue', () => {
   it('parte el envío si lleva más imágenes de las que admite uno', async () => {
     await db.cSubjects.put(makeSubject());
     const questions = [];
-    for (let q = 0; q < 5; q++) {
+    for (let q = 0; q < 35; q++) {
       const images = Array.from({ length: 9 }, (_, i) => ({ hash: `${q}${i}`.padEnd(64, 'f'), ext: 'webp' as const, width: 10, height: 10, bytes: 100, alt: '' }));
       for (const image of images) await db.localImages.put({ ...image, blob: new NodeBlob([new Uint8Array(100)], { type: 'image/webp' }) as unknown as Blob, createdAt: 1 });
       questions.push(makeMcq({ id: uuid(), author: null, images, statement: images.map((image) => `![x](qbimg:${image.hash})`).join(' ') }));
@@ -161,6 +161,30 @@ describe('publicar preguntas por issue', () => {
     expect(rows.length).toBeGreaterThanOrEqual(2);
     const sent = (await Promise.all(rows.map(async (row) => Submission.parse(await decodeIssueBody(row.issueBody))))).flatMap((s) => (s.kind === 'questions' ? s.images : []));
     expect(sent.map((i) => i.hash).sort()).toEqual(questions.map((q) => (q.images[0] as { hash: string }).hash).sort());
+  });
+
+  it('una pregunta con más imágenes de las que caben en un issue viaja en partes, sin reducirlas', async () => {
+    await db.cSubjects.put(makeSubject());
+    const images = Array.from({ length: 12 }, (_, i) => ({ hash: `${i}b`.padEnd(64, 'd'), ext: 'webp' as const, width: 10, height: 10, bytes: 30_000, alt: '' }));
+    for (const image of images) await db.localImages.put({ ...image, blob: new NodeBlob([crypto.getRandomValues(new Uint8Array(30_000))], { type: 'image/webp' }) as unknown as Blob, createdAt: 1 });
+    const question = makeMcq({ id: uuid(), author: null, images, statement: images.map((image) => `![x](qbimg:${image.hash})`).join(' ') });
+    await saveLocalQuestion(question, null);
+
+    const rows = await publishViaIssue([question.id], 'own');
+    const parts = await Promise.all(rows.map(async (row) => ({ row, part: partOfTitle(row.issueTitle), submission: Submission.parse(await decodeIssueBody(row.issueBody)) })));
+    expect(rows.length).toBeGreaterThan(1);
+    expect(new Set(parts.map(({ part }) => part?.group)).size).toBe(1);
+    expect(parts.map(({ part }) => part?.index)).toEqual(rows.map((_, i) => i));
+    for (const { row, part } of parts) {
+      expect(part?.total).toBe(rows.length);
+      expect(row.issueBody.length).toBeLessThanOrEqual(MAX_ISSUE_BODY_LENGTH);
+    }
+    const sent = parts.flatMap(({ submission }) => (submission.kind === 'questions' ? submission.images : []));
+    expect(sent.map((i) => i.hash).sort()).toEqual(images.map((i) => i.hash).sort());
+    // La pregunta va en la última parte: sus imágenes ya han llegado cuando se valida.
+    const last = parts[parts.length - 1]?.submission;
+    expect(last?.kind === 'questions' && last.questions).toHaveLength(1);
+    expect(rows[rows.length - 1]?.related.questions).toEqual([question.id]);
   });
 
   it('no publica lo que no existe', async () => {

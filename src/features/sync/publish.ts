@@ -3,7 +3,7 @@ import type { AnswerEvent } from '@core/schema/events';
 import type { UserRef } from '@core/schema/common';
 import type { Question, QuestionImage } from '@core/schema/question';
 import type { SubjectDoc } from '@core/schema/taxonomy';
-import { encodeSubmission, MAX_ISSUE_BODY_LENGTH } from '@core/submissions/envelope';
+import { encodeSubmission, MAX_ISSUE_BODY_LENGTH, partNonce } from '@core/submissions/envelope';
 import { mergeSubject } from '@core/taxonomy/merge';
 import { bytesToBase64 } from '@core/util/encoding';
 import { toIso } from '@core/util/time';
@@ -30,13 +30,8 @@ export class PublishError extends Error {
   }
 }
 
-/** Imágenes por issue: el cuerpo admite 65 000 caracteres y lleva JSON, gzip y base64url. */
-const INLINE_BUDGET_BYTES = 38 * 1024;
-const INLINE_ATTEMPTS = [
-  { maxDimension: 1024, maxBytes: 34 * 1024 },
-  { maxDimension: 768, maxBytes: 24 * 1024 },
-  { maxDimension: 512, maxBytes: 14 * 1024 },
-];
+/** Imágenes en un issue que no lleva otra cosa: el cuerpo admite 65 000 caracteres, con JSON, gzip y base64url. */
+const PART_BUDGET_BYTES = 44 * 1024;
 
 /** Cambia una imagen por otra en todos los textos de la pregunta: enunciado, opciones, apartados… */
 function swapImage(question: Question, from: QuestionImage, to: QuestionImage): Question {
@@ -85,31 +80,21 @@ async function communityImageHashes(): Promise<Set<string>> {
 }
 
 /**
- * Sin token, las imágenes viajan dentro del issue. El tope es por issue, no por publicación:
- * sólo se reduce una imagen si las de su pregunta no caben ni en un issue para ellas solas.
+ * Sin token, las imágenes viajan dentro de issues. Sólo se reduce la que no cabría ni en uno
+ * para ella sola: las demás se reparten en los envíos que hagan falta.
  */
 async function fitImagesForIssue(prepared: Prepared): Promise<{ questions: Question[]; images: { hash: string; ext: QuestionImage['ext']; base64: string }[] }> {
   const known = await communityImageHashes();
   let questions = prepared.questions;
   const pendingOf = (question: Question) => question.images.filter((image) => !known.has(image.hash));
-  const totalOf = (question: Question) => pendingOf(question).reduce((sum, image) => sum + image.bytes, 0);
 
-  for (const id of prepared.questions.map((q) => q.id)) {
-    const current = () => questions.find((q) => q.id === id) as Question;
-    for (const options of INLINE_ATTEMPTS) {
-      if (totalOf(current()) <= INLINE_BUDGET_BYTES) break;
-      for (const image of pendingOf(current())) {
-        if (image.bytes <= options.maxBytes) continue;
-        const stored = await db.localImages.get(image.hash);
-        if (!stored) continue;
-        const smaller = await saveLocalImage(await processImage(stored.blob, options), image.alt);
-        const replacement: QuestionImage = { hash: smaller.hash, ext: smaller.ext, width: smaller.width, height: smaller.height, bytes: smaller.bytes, alt: image.alt };
-        questions = questions.map((q) => (q.images.some((i) => i.hash === image.hash) ? swapImage(q, image, replacement) : q));
-      }
-    }
-    if (totalOf(current()) > INLINE_BUDGET_BYTES) {
-      throw new PublishError(`Las imágenes de «${current().statement.slice(0, 60)}…» no caben en un issue ni reducidas. Quita alguna imagen o conecta un token.`);
-    }
+  for (const image of new Map(questions.flatMap(pendingOf).map((i) => [i.hash, i])).values()) {
+    if (image.bytes <= PART_BUDGET_BYTES) continue;
+    const stored = await db.localImages.get(image.hash);
+    if (!stored) continue;
+    const smaller = await saveLocalImage(await processImage(stored.blob, { maxDimension: 1280, maxBytes: PART_BUDGET_BYTES }), image.alt);
+    const replacement: QuestionImage = { hash: smaller.hash, ext: smaller.ext, width: smaller.width, height: smaller.height, bytes: smaller.bytes, alt: image.alt };
+    questions = questions.map((q) => (q.images.some((i) => i.hash === image.hash) ? swapImage(q, image, replacement) : q));
   }
 
   const seen = new Map<string, QuestionImage>();
@@ -142,7 +127,8 @@ function subjectsFor(batch: readonly Question[], subjects: readonly SubjectDoc[]
 /**
  * Reparte las preguntas en el menor número razonable de issues, midiendo lo que ocupa cada uno
  * ya comprimido. Cada envío lleva su temario y sus imágenes: si uno falla, los demás no dependen
- * de él, y da igual en qué orden lleguen.
+ * de él, y da igual en qué orden lleguen. La pregunta que no cabe en uno va en varias partes,
+ * que Actions junta cuando han llegado todas.
  */
 export async function buildIssueSubmissions(questions: readonly Question[], subjects: readonly SubjectDoc[], images: Extract<Submission, { kind: 'questions' }>['images'], origin: ContentOrigin): Promise<Extract<Submission, { kind: 'questions' }>[]> {
   const build = (batch: readonly Question[]): Extract<Submission, { kind: 'questions' }> => {
@@ -153,6 +139,27 @@ export async function buildIssueSubmissions(questions: readonly Question[], subj
     const submission = build(batch);
     if (submission.images.length > MAX_IMAGES_PER_SUBMISSION) return false;
     return (await encodeSubmission(submission, summaryFor(batch.length))).body.length <= MAX_ISSUE_BODY_LENGTH;
+  };
+
+  const inParts = async (question: Question): Promise<Extract<Submission, { kind: 'questions' }>[]> => {
+    const group = newNonce();
+    const hashes = new Set(question.images.map((i) => i.hash));
+    const bins: (typeof images)[number][][] = [];
+    let size = 0;
+    for (const image of images.filter((i) => hashes.has(i.hash))) {
+      const bytes = (image.base64.length * 3) / 4;
+      if (bins.length === 0 || size + bytes > PART_BUDGET_BYTES) {
+        bins.push([]);
+        size = 0;
+      }
+      (bins[bins.length - 1] as (typeof images)[number][]).push(image);
+      size += bytes;
+    }
+    const total = bins.length + 1;
+    const head = { v: 1, kind: 'questions', licenseAccepted: true, origin } as const;
+    const parts = [...bins.map((part, index) => ({ ...head, nonce: partNonce(group, index, total), questions: [], subjects: [], images: part })), { ...head, nonce: partNonce(group, total - 1, total), questions: [question], subjects: subjectsFor([question], subjects), images: [] }];
+    if ((await encodeSubmission(parts[parts.length - 1] as Submission, summaryFor(1))).body.length > MAX_ISSUE_BODY_LENGTH) throw new PublishError(`«${question.statement.slice(0, 60)}…» es demasiado larga para un issue. Acórtala o conecta un token.`);
+    return parts;
   };
 
   const out: Extract<Submission, { kind: 'questions' }>[] = [];
@@ -167,8 +174,8 @@ export async function buildIssueSubmissions(questions: readonly Question[], subj
       else high = middle - 1;
     }
     const batch = questions.slice(start, start + low);
-    if (!(await fits(batch))) throw new PublishError(`«${(batch[0] as Question).statement.slice(0, 60)}…» no cabe en un issue. Acórtala, quita alguna imagen o conecta un token.`);
-    out.push(build(batch));
+    if (await fits(batch)) out.push(build(batch));
+    else out.push(...(await inParts(batch[0] as Question)));
     start += low;
   }
   return out;
@@ -183,7 +190,8 @@ export async function publishViaIssue(questionIds: readonly string[], origin: Co
   const rows: OutboxRow[] = [];
   for (const submission of submissions) {
     const ids = (submission.questions as Question[]).map((q) => q.id);
-    const row = await enqueue(submission, summaryFor(ids.length), { questions: ids, subjects: submission.subjects.map((s) => (s as SubjectDoc).id) });
+    const summary = ids.length > 0 ? summaryFor(ids.length) : `Imágenes de una pregunta que se publica en varias partes (${submission.images.length}).`;
+    const row = await enqueue(submission, summary, { questions: ids, subjects: submission.subjects.map((s) => (s as SubjectDoc).id) });
     await db.lQuestions.where('id').anyOf(ids).modify((q) => {
       q.local = { ...q.local, syncState: 'queued', outboxId: row.id, note: null };
     });
@@ -199,6 +207,7 @@ const utf8 = (value: unknown): PullFileWrite['content'] => `${JSON.stringify(val
  * peticiones por hora: los volúmenes grandes van mejor por issues, que cuestan unas pocas.
  */
 export const MAX_QUESTIONS_PER_PULL = 200;
+const MAX_FILES_PER_PULL = 500;
 
 /** Vía con token: fork, commit y PR, sin clics y con las imágenes a tamaño completo. */
 export async function publishViaPull(questionIds: readonly string[], origin: ContentOrigin): Promise<OutboxRow> {
@@ -231,6 +240,8 @@ export async function publishViaPull(questionIds: readonly string[], origin: Con
       written.add(image.hash);
     }
   }
+
+  if (files.length > MAX_FILES_PER_PULL) throw new PublishError(`Son ${files.length} ficheros y un pull request admite ${MAX_FILES_PER_PULL}: publica menos preguntas de golpe.`);
 
   const nonce = newNonce();
   const count = prepared.questions.length;

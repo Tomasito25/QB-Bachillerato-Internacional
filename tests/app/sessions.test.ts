@@ -2,11 +2,11 @@ import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { RULES } from '@core/scoring/rules';
 import { discardLocalQuestion, loadQuestions, saveLocalQuestion } from '@/features/bank/questionsRepo';
 import { db } from '@/infra/db/db';
-import { commitAnswer, commitSelfGrade, finishSession, saveDeferredAnswer, startSession, summarizeSession } from '@/features/study/sessions';
+import { commitAnswer, commitSelfGrade, finishSession, marksByTopic, saveDeferredAnswer, saveWritten, startSession, summarizeSession, toggleMarked } from '@/features/study/sessions';
 import { computeLocalStats, computeStreak, localDay } from '@/features/study/localStats';
-import { toggleFavorite, toggleHard } from '@/features/study/progressRepo';
+import { emptyProgress, toggleFavorite, toggleHard } from '@/features/study/progressRepo';
 import { DEFAULT_PREFERENCES, migratePreferences, preferences } from '@/features/settings/preferences';
-import type { ProgressRow } from '@/infra/db/types';
+import type { AttemptRow, ProgressRow, SessionRow } from '@/infra/db/types';
 import { makeMcq, makeOpen, makeSubject, uuid } from '../fixtures';
 
 async function reset() {
@@ -271,5 +271,69 @@ describe('estadísticas locales', () => {
     const card = {} as ProgressRow['card'];
     const row = (questionId: string) => ({ questionId, card, due: now - 1000, attempts: 1, correct: 1, lastCorrect: true, lastAt: now, favorite: 0, hard: 0 }) as ProgressRow;
     expect(computeLocalStats([], [row('a'), row('b')], now, 28, (id) => id === 'a').due).toBe(1);
+  });
+});
+
+describe('sesiones a medida y examen mejorado', () => {
+  beforeEach(async () => {
+    await Promise.all(db.tables.map((table) => table.clear()));
+  });
+
+  const seedTypes = async () => {
+    const mcqs = Array.from({ length: 6 }, (_, i) => makeMcq({ id: uuid(), statement: `Pregunta de test número ${i} sobre el tema` }));
+    const opens = Array.from({ length: 3 }, (_, i) => makeOpen({ id: uuid(), statement: `Desarrolla el apartado número ${i}`, parts: [{ id: 'a', statement: 'x', modelAnswer: 'y', marks: 5 }] }));
+    for (const q of [...mcqs, ...opens]) await saveLocalQuestion(q, null);
+    return { mcqs, opens };
+  };
+
+  it('un examen con reparto pone justo las de cada tipo, el test primero', async () => {
+    const { mcqs, opens } = await seedTypes();
+    const id = await startSession({ mode: 'exam', title: '', config: { count: 5, mix: { mcq: 3, open: 2 } } });
+    const session = await db.sessions.get(id);
+    expect(session?.questionIds.slice(0, 3).every((q) => mcqs.some((m) => m.id === q))).toBe(true);
+    expect(session?.questionIds.slice(3).every((q) => opens.some((m) => m.id === q))).toBe(true);
+  });
+
+  it('«sólo nuevas» no repite lo ya respondido', async () => {
+    const { mcqs } = await seedTypes();
+    const seen = mcqs[0];
+    if (!seen) throw new Error('sin datos');
+    await db.progress.put({ ...emptyProgress(seen.id, 1), attempts: 1, lastAt: 1 });
+    const id = await startSession({ mode: 'practice', title: '', config: { count: 50, source: 'new' } });
+    expect((await db.sessions.get(id))?.questionIds).not.toContain(seen.id);
+  });
+
+  it('lo escrito en el examen se guarda y sobrevive a la autoevaluación', async () => {
+    const { opens } = await seedTypes();
+    const open = opens[0];
+    if (!open) throw new Error('sin datos');
+    const id = await startSession({ mode: 'exam', title: '', config: { count: 1 }, questionIds: [open.id] });
+    await saveWritten(id, open.id, { a: 'Mi respuesta' });
+    await finishSession(id);
+    await commitSelfGrade(id, open, 1, []);
+    const session = await db.sessions.get(id);
+    expect(session?.answers[open.id]).toMatchObject({ written: { a: 'Mi respuesta' }, committed: true, selfGrade: 1 });
+    // Sin cronometrar, la duración no puede quedar en 0: el servidor la descartaría.
+    expect((await db.attempts.toArray())[0]?.durationMs).toBeGreaterThan(0);
+  });
+
+  it('marcar para revisar se puede quitar', async () => {
+    const { mcqs } = await seedTypes();
+    const id = await startSession({ mode: 'exam', title: '', config: { count: 1 }, questionIds: [mcqs[0]?.id as string] });
+    await toggleMarked(id, mcqs[0]?.id as string);
+    expect((await db.sessions.get(id))?.marked).toEqual([mcqs[0]?.id]);
+    await toggleMarked(id, mcqs[0]?.id as string);
+    expect((await db.sessions.get(id))?.marked).toEqual([]);
+  });
+
+  it('reparte los puntos por tema, de peor a mejor, y lo pendiente no cuenta', async () => {
+    const good = makeMcq({ id: uuid(), topicIds: [uuid(101)] });
+    const bad = makeMcq({ id: uuid(), topicIds: [uuid(102)] });
+    const pending = makeOpen({ id: uuid(), topicIds: [uuid(103)], parts: [{ id: 'a', statement: 'x', modelAnswer: 'y', marks: 5 }] });
+    const row: SessionRow = { id: 's', mode: 'exam', title: '', config: { count: 3 }, questionIds: [good.id, bad.id, pending.id], cursor: 0, answers: {}, state: 'finished', startedAt: 0, finishedAt: 1, timeLimitSec: null, questionShownAt: null, competitionId: null, competitionRound: null };
+    const attempt = (questionId: string, correct: boolean): AttemptRow => ({ id: questionId, questionId, questionRev: 1, sessionId: 's', mode: 'exam', selected: ['a'], selfGrade: null, correct, score: correct ? 1 : 0, durationMs: 1, at: 1, subjectId: 's', difficulty: 2, published: 0 });
+    const rows = marksByTopic(row, new Map([good, bad, pending].map((q) => [q.id, q])), [attempt(good.id, true), attempt(bad.id, false)]);
+    expect(rows.map((r) => r.topicId)).toEqual([uuid(102), uuid(101)]);
+    expect(rows[1]).toMatchObject({ earned: 1, total: 1 });
   });
 });

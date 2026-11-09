@@ -7,7 +7,7 @@ import { Question } from '../../core/schema/question.ts';
 import type { Competition } from '../../core/schema/competition.ts';
 import type { StoredAnswerEvent } from '../../core/schema/events.ts';
 import { Submission, type InlineImage } from '../../core/schema/submission.ts';
-import { decodeIssueBody, EnvelopeError, isSubmissionTitle } from '../../core/submissions/envelope.ts';
+import { decodeIssueBody, EnvelopeError, isSubmissionTitle, partOfTitle } from '../../core/submissions/envelope.ts';
 import { buildTaxonomyIndex } from '../../core/taxonomy/merge.ts';
 import { base64ToBytes, sha256Hex } from '../../core/util/encoding.ts';
 import { dayKey, monthKey, toIso } from '../../core/util/time.ts';
@@ -81,9 +81,38 @@ function clean(text: string | undefined): string | undefined {
   return value || undefined;
 }
 
+/**
+ * Agrupa las partes de cada envío. Sólo se procesa uno cuando están todas, y sólo se juntan las de
+ * una misma cuenta: el autor lo pone GitHub. Las incompletas no ocupan sitio en la cola.
+ */
+export function groupParts(issues: readonly IssueData[], now: number): { units: IssueData[][]; expired: IssueData[] } {
+  const groups = new Map<string, IssueData[]>();
+  const units: IssueData[][] = [];
+  for (const issue of issues) {
+    const part = partOfTitle(issue.title);
+    if (!part) {
+      units.push([issue]);
+      continue;
+    }
+    const key = `${issue.user.id}:${part.group}:${part.total}`;
+    groups.set(key, [...(groups.get(key) ?? []), issue]);
+  }
+  const expired: IssueData[] = [];
+  for (const parts of groups.values()) {
+    // Un reenvío tras un 5xx deja dos issues de la misma parte: vale con uno.
+    const byIndex = new Map(parts.map((issue) => [partOfTitle(issue.title)?.index as number, issue]));
+    const total = partOfTitle((parts[0] as IssueData).title)?.total as number;
+    if (byIndex.size === total) units.push([...byIndex.entries()].sort(([a], [b]) => a - b).map(([, issue]) => issue));
+    else if (now - Date.parse((parts[0] as IssueData).created_at) > POLICY.maxPartWaitMs) expired.push(...parts);
+  }
+  return { units: units.sort((a, b) => (a[0] as IssueData).created_at.localeCompare((b[0] as IssueData).created_at)), expired };
+}
+
 class Intake {
   private readonly deps: IntakeDeps;
   private readonly outcomes: Outcome[] = [];
+  /** Issues que forman un envío con el que da nombre al resultado: se cierran con él. */
+  private readonly otherParts = new Map<number, IssueData[]>();
   /** Hay commits locales en `data` que aún no se han subido. */
   private pendingPush = false;
   private dataChanged = false;
@@ -445,17 +474,47 @@ class Intake {
     }
   }
 
+  /** Las partes se validan juntas, como un solo envío. Da nombre al resultado la última: la que lleva las preguntas. */
+  private joinParts(decoded: readonly { issue: IssueData; submission: Submission }[]): { issue: IssueData; submission: Submission }[] {
+    const out: { issue: IssueData; submission: Submission }[] = [];
+    const groups = new Map<string, { issue: IssueData; submission: Extract<Submission, { kind: 'questions' }> }[]>();
+    for (const entry of decoded) {
+      const part = partOfTitle(entry.issue.title);
+      if (!part || entry.submission.kind !== 'questions') {
+        out.push(entry);
+        continue;
+      }
+      const key = `${entry.issue.user.id}:${part.group}`;
+      groups.set(key, [...(groups.get(key) ?? []), entry as { issue: IssueData; submission: Extract<Submission, { kind: 'questions' }> }]);
+    }
+    for (const entries of groups.values()) {
+      const total = partOfTitle((entries[0] as (typeof entries)[number]).issue.title)?.total;
+      // shortcut: si una parte llega ilegible se rechaza sola y las demás caducan; es un issue manipulado a mano.
+      if (entries.length !== total) continue;
+      const last = entries[entries.length - 1] as (typeof entries)[number];
+      this.otherParts.set(last.issue.number, entries.slice(0, -1).map((entry) => entry.issue));
+      out.push({ issue: last.issue, submission: { ...last.submission, questions: entries.flatMap((e) => e.submission.questions), subjects: entries.flatMap((e) => e.submission.subjects), images: entries.flatMap((e) => e.submission.images) } });
+    }
+    return out;
+  }
+
   async run(): Promise<{ processed: number; published: boolean }> {
     const { api, store, git, log } = this.deps;
     // Un envío con cualquiera de estas etiquetas ya se resolvió: reabrirlo no lo reprocesa.
     // Para reintentarlo, un mantenedor le quita la etiqueta.
     const excluded: string[] = Object.values(LABELS);
-    const pending = (await api.listOpenIssues())
+    const open = (await api.listOpenIssues())
       .filter((issue) => !issue.is_pull_request && isSubmissionTitle(issue.title) && !issue.labels.some((label) => excluded.includes(label)))
-      .sort((a, b) => a.created_at.localeCompare(b.created_at))
-      .slice(0, POLICY.maxSubmissionsPerRun);
+      .sort((a, b) => a.created_at.localeCompare(b.created_at));
+    const { units, expired } = groupParts(open, this.deps.now());
+    const pending: IssueData[] = [];
+    for (const unit of units) {
+      if (pending.length >= POLICY.maxSubmissionsPerRun) break;
+      pending.push(...unit);
+    }
+    for (const issue of expired) this.done(issue, 'rejected', 'Este envío venía en varias partes y no han llegado todas a tiempo. Vuelve a publicarlo desde la app.');
 
-    if (pending.length === 0) {
+    if (pending.length === 0 && expired.length === 0) {
       log('No hay envíos pendientes.');
       return { processed: 0, published: false };
     }
@@ -495,11 +554,12 @@ class Intake {
         this.done(issue, 'rejected', reason);
       }
     }
-    decoded.sort((a, b) => Number(b.submission.kind === 'questions') - Number(a.submission.kind === 'questions'));
+    const joined = this.joinParts(decoded);
+    joined.sort((a, b) => Number(b.submission.kind === 'questions') - Number(a.submission.kind === 'questions'));
 
     const crashed: IssueData[] = [];
     let deferred = 0;
-    for (const { issue, submission } of decoded) {
+    for (const { issue, submission } of joined) {
       try {
         await this.dispatch(issue, submission);
         // Cada envío, en su commit. Si otro falla después, sólo se deshace el suyo.
@@ -528,6 +588,11 @@ class Intake {
         await api.comment(outcome.issue.number, outcome.message);
         await api.addLabels(outcome.issue.number, [label]);
         if (outcome.status !== 'report') await api.closeIssue(outcome.issue.number, outcome.status === 'rejected' ? 'not_planned' : 'completed');
+        // El comentario va sólo en el principal: con muchas partes se pasaría del límite de creaciones por minuto.
+        for (const part of this.otherParts.get(outcome.issue.number) ?? []) {
+          await api.addLabels(part.number, [label]);
+          await api.closeIssue(part.number, outcome.status === 'rejected' ? 'not_planned' : 'completed');
+        }
       } catch (error) {
         log(`No se ha podido avisar en #${outcome.issue.number}: ${(error as Error).message}`);
       }

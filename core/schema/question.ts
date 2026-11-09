@@ -16,8 +16,8 @@ export const LIMITS = {
   criterion: 500,
   keyword: 60,
   tag: 40,
-  /** Diez: una pregunta de examen con varios apartados lleva a menudo una figura en cada uno. */
-  images: 10,
+  /** Una pregunta larga de examen puede llevar figuras en el enunciado, en cada apartado y en la solución. */
+  images: 50,
   imageBytes: 512 * 1024,
   minAnswers: 4,
   maxAnswers: 12,

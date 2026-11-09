@@ -1,5 +1,5 @@
 import { Check, CheckCircle2, Circle, Square, SquareCheck, X, XCircle } from 'lucide-react';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { correctAnswerIds, isCorrectSelection, SELF_GRADE_LABELS, suggestFromParts, suggestSelfGrade, type SelfGrade } from '@core/questions/grading';
 import { gradedItems, partLabel, subpartLabel, type McqQuestion, type OpenQuestion } from '@core/schema/question';
 import { shuffledOptions } from '@core/study/select';
@@ -127,6 +127,60 @@ export function McqResultBanner({ question, selected }: { question: McqQuestion;
   );
 }
 
+const WRITTEN_MAIN = 'main';
+
+/** Desarrollo durante un examen: se ven los apartados, y lo escrito se guarda para compararlo al corregir. */
+export function OpenExamAnswer({ question, initial, onChange }: { question: OpenQuestion; initial?: Record<string, string>; onChange: (written: Record<string, string>) => void }) {
+  const [texts, setTexts] = useState<Record<string, string>>(initial ?? {});
+  const unsaved = useRef<Record<string, string> | null>(null);
+  const timer = useRef(0);
+  const save = useRef(onChange);
+  save.current = onChange;
+
+  useEffect(
+    () => () => {
+      window.clearTimeout(timer.current);
+      if (unsaved.current) save.current(unsaved.current);
+    },
+    [],
+  );
+
+  const update = (id: string, value: string) => {
+    const next = { ...texts, [id]: value };
+    setTexts(next);
+    unsaved.current = next;
+    window.clearTimeout(timer.current);
+    timer.current = window.setTimeout(() => {
+      save.current(next);
+      unsaved.current = null;
+    }, 500);
+  };
+
+  const field = (id: string, label: string) => <Textarea rows={3} value={texts[id] ?? ''} onChange={(e) => update(id, e.target.value)} placeholder="Escribe aquí, o resuélvelo en papel." aria-label={`Tu respuesta al apartado ${label}`} />;
+
+  const parts = question.parts ?? [];
+  if (parts.length === 0) return <Textarea rows={6} value={texts[WRITTEN_MAIN] ?? ''} onChange={(e) => update(WRITTEN_MAIN, e.target.value)} placeholder="Escribe aquí, o resuélvelo en papel." aria-label="Tu respuesta" />;
+  return (
+    <ol className="flex flex-col gap-5">
+      {parts.map((part, index) => (
+        <PartBlock key={part.id} question={question} label={partLabel(index)} statement={part.statement} marks={part.marks}>
+          {part.subparts ? (
+            <ol className="flex flex-col gap-4">
+              {part.subparts.map((sub, subIndex) => (
+                <PartBlock key={sub.id} question={question} label={subpartLabel(subIndex)} statement={sub.statement} marks={sub.marks}>
+                  {field(`${part.id}.${sub.id}`, `${partLabel(index)} ${subpartLabel(subIndex)}`)}
+                </PartBlock>
+              ))}
+            </ol>
+          ) : (
+            field(part.id, partLabel(index))
+          )}
+        </PartBlock>
+      ))}
+    </ol>
+  );
+}
+
 interface OpenPlayerProps {
   question: OpenQuestion;
   /** La solución ya está visible. */
@@ -134,6 +188,8 @@ interface OpenPlayerProps {
   committed: boolean;
   initialGrade?: SelfGrade;
   initialCriteria?: readonly string[];
+  /** Lo que se escribió en el examen. */
+  written?: Readonly<Record<string, string>>;
   onGrade: (grade: SelfGrade, metCriteria: string[]) => void;
 }
 
@@ -154,9 +210,9 @@ function PartGrade({ label, value, onChange }: { label: string; value: SelfGrade
   );
 }
 
-export function OpenPlayer({ question, revealed, committed, initialGrade, initialCriteria, onGrade }: OpenPlayerProps) {
-  const [draft, setDraft] = useState('');
-  const [drafts, setDrafts] = useState<Record<string, string>>({});
+export function OpenPlayer({ question, revealed, committed, initialGrade, initialCriteria, written, onGrade }: OpenPlayerProps) {
+  const [draft, setDraft] = useState(written?.[WRITTEN_MAIN] ?? '');
+  const [drafts, setDrafts] = useState<Record<string, string>>({ ...written });
   const [partGrades, setPartGrades] = useState<Record<string, SelfGrade>>({});
   const [met, setMet] = useState<string[]>([...(initialCriteria ?? [])]);
   const parts = question.parts ?? [];
@@ -175,8 +231,8 @@ export function OpenPlayer({ question, revealed, committed, initialGrade, initia
     );
 
   useEffect(() => {
-    setDraft('');
-    setDrafts({});
+    setDraft(written?.[WRITTEN_MAIN] ?? '');
+    setDrafts({ ...written });
     setPartGrades({});
     setMet([...(initialCriteria ?? [])]);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- sólo al cambiar de pregunta.

@@ -38,7 +38,7 @@ de autor: por eso se pide declarar el origen y aceptar la licencia.
 |---|---|---|
 | **Sin «Iniciar sesión con GitHub»** | Los endpoints de OAuth no permiten CORS (comprobado), y tanto el Device Flow como el flujo web necesitan pasar por un servidor | Conexión por issue. Más rara que un botón, pero sin secretos |
 | **Un clic en GitHub por envío** sin token | Sin token, sólo GitHub puede crear el issue | La app mete en cada issue todo lo que quepa (hasta unas 65 000 letras ya comprimidas) y en Envíos los deja en cola, uno tras otro. Con un token no hace falta ningún clic, con el riesgo que implica |
-| **Las imágenes pesan** sin token | Cada issue admite unos 38 KB de imágenes | Un lote con muchas figuras se reparte en más envíos. Sólo se reduce una imagen si las de su pregunta no caben ni en un issue para ellas solas |
+| **Las imágenes pesan** sin token | Cada issue admite unos 44 KB de imágenes | Una pregunta con muchas figuras viaja en varias partes, que Actions junta cuando han llegado todas. Cada parte es un clic en GitHub, así que con muchas imágenes compensa un token. Sólo se reduce la imagen que no cabría ni en un issue para ella sola |
 | **Los envíos grandes hay que pegarlos** sin token | No caben en la dirección prellenada de 6 000 caracteres, sobre todo con imágenes | La app los copia en un paso aparte y el formulario de GitHub dice dónde pegarlos. En el uso real, tres envíos llegaron vacíos antes de este cambio |
 | **El token da demasiado permiso** | Los tokens de grano fino no pueden contribuir a repos públicos ajenos (documentado por GitHub) | `public_repo` da escritura en todos tus repos públicos. Es opcional y se avisa |
 | **Publicar tarda de 1 a 3 minutos**, y a veces hasta 10 más | Action + despliegue, más la caché del CDN de Pages, de 10 minutos. No se puede saltar: ignora los parámetros de la URL (comprobado) | La app muestra el estado intermedio y, tras un envío, mira cada minuto durante 15 minutos |
@@ -73,7 +73,7 @@ aprender. Los torneos pueden fijar rondas cortas para reducirlo.
   la otra persona no se entera ni tiene que aceptar. Hacerlo mutuo obligaría a publicar quién sigue
   a quién en el repositorio, que es público.
 - **Una versión antigua de la app no ve lo nuevo hasta actualizarse.** Las preguntas de desarrollo con
-  apartados o subapartados, las de más de 6 imágenes y los perfiles con nombre cambiado tienen campos que esa versión
+  apartados o subapartados, las de más de 10 imágenes y los perfiles con nombre cambiado tienen campos que esa versión
   no conoce: los aparta como inválidos en vez de enseñarlos a medias. Al actualizar, aparecen.
 - **El nombre visible no impide los parecidos.** Actions rechaza el de otra cuenta aunque cambien
   mayúsculas, tildes, signos o caracteres invisibles, pero no letras de otros alfabetos que se parecen
