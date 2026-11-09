@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "0f62c6b0-6ee3-4ac3-b25b-7bc078ad7366",
+  "rev": 1,
+  "statement": "Un péndulo cónico se hace girar a velocidad constante de tal manera que describe un círculo horizontal de diámetro $15 cm$. Una lámpara se coloca de manera que la sombra del pendulo proyectada en una pantalla describe un simple movimiento armónico. ¿Cuál es el desplazamiento de la sombra después de que el bob ha recorrido una distancia total de $30  π $?",
+  "explanation": "Para un círculo de diámetro $D$, la circunferencia es $πD$. Así, la circunferencia en este caso es $15π$. En este caso, la distancia recorrida por el pendulo es exactamente igual a dos veces su circunferencia. La sombra, por lo tanto, ha recorrido dos oscilaciones completas y está exactamente en el mismo punto en el que comenzó. El desplazamiento, por tanto, es cero.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-09T10:09:38.000Z",
+  "updatedAt": "2026-11-09T10:09:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "0 cm",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "15 cm",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "30 cm",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "30 π cm",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

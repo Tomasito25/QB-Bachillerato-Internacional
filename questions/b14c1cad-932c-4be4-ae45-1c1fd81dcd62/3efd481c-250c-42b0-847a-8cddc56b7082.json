@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "3efd481c-250c-42b0-847a-8cddc56b7082",
+  "rev": 1,
+  "statement": "Dos objetos idénticos $P$ y $Q$ están conectados a muelles idénticos. Ambos $P$ y $Q$ Se realizan un movimiento armónico simple (SHM) alrededor del nivel de equilibrio $O$.\n\n\n![figura](qbimg:a28c18e0260441ac1614715bf905fccc388f389366a8361e030b542f6a2a2de0)\n\nEl diagrama muestra las posiciones de $P$ y $Q$ A tiempo $T=0$. ¿Qué gráfico muestra cómo la energía cinética de $P$ y $Q$ Varía con el tiempo $T$?",
+  "explanation": "La energía potencial está en su valor máximo en los límites (puntos extremos), la energía cinética a un valor máximo en el punto de equilibrio. Así que en $T=0$, por $P$ La energía cinética es un máximo, porque $Q$ La energía potencial es una energía máxima pero la cinética es cero. Para ambas masas, la energía cinética maximizará cada medio ciclo.\n\nEn $t=T/2$​ De nuevo para $P$ La energía cinética es un máximo, porque $Q$ La energía potencial es un máximo.",
+  "images": [
+    {
+      "hash": "a28c18e0260441ac1614715bf905fccc388f389366a8361e030b542f6a2a2de0",
+      "ext": "webp",
+      "width": 302,
+      "height": 182,
+      "bytes": 2526,
+      "alt": ""
+    },
+    {
+      "hash": "a6c3d92e5ea8a299a4e459d8ffb74cf3b679ed348ef6e6ab6b60c188f2842ca7",
+      "ext": "webp",
+      "width": 244,
+      "height": 266,
+      "bytes": 3534,
+      "alt": ""
+    },
+    {
+      "hash": "b6c843078ad2523cfa518c9827bf8abb25d741613f450eaa6c22443928133c8d",
+      "ext": "webp",
+      "width": 252,
+      "height": 276,
+      "bytes": 3330,
+      "alt": ""
+    },
+    {
+      "hash": "84c8ff2e85e61dbb8f9af08085d680d4eebb48b64e03a4380fd0057a203281ba",
+      "ext": "webp",
+      "width": 247,
+      "height": 276,
+      "bytes": 3520,
+      "alt": ""
+    },
+    {
+      "hash": "1d063a2e7af09168674545c64b79cbbb22e6d4abd422a0762a9620182bcc6c29",
+      "ext": "webp",
+      "width": 250,
+      "height": 276,
+      "bytes": 3514,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-09T10:09:38.000Z",
+  "updatedAt": "2026-11-09T10:09:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "![figura](qbimg:a6c3d92e5ea8a299a4e459d8ffb74cf3b679ed348ef6e6ab6b60c188f2842ca7)",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "![figura](qbimg:b6c843078ad2523cfa518c9827bf8abb25d741613f450eaa6c22443928133c8d)",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "![figura](qbimg:84c8ff2e85e61dbb8f9af08085d680d4eebb48b64e03a4380fd0057a203281ba)",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "![figura](qbimg:1d063a2e7af09168674545c64b79cbbb22e6d4abd422a0762a9620182bcc6c29)",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
