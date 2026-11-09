@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "c-6c7c8281f8586d7e",
+  "code": "QB-EJG9HP",
+  "type": "duel",
+  "title": "Duelo de Fisica SL IB",
+  "createdBy": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-09T09:13:24.000Z",
+  "filters": {
+    "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62"
+  },
+  "durationSec": 600,
+  "seed": "6c7c8281f8586d7ed726f98d7f5f5cf333e72dd117c987ac5d4305b0af707f69",
+  "invited": [
+    "beltgg80-cmyk"
+  ],
+  "issue": 75,
+  "questionCount": 30,
+  "questionIds": [
+    "951b3d93-0852-5548-89d1-300acd0c89c1",
+    "7a8c50f3-47a9-5d69-845a-fb0d3e57c634",
+    "76a4d511-7c33-55f7-8eb9-6884cda5d5a9",
+    "379f928c-6f34-5a56-8d7e-1c9f0f01f3e6",
+    "a6c18d5c-e7e5-51ec-8f9e-d240c05353d9",
+    "66af4f23-fe0e-5a2d-8d93-e6509e063189",
+    "d6a54d7f-23c0-5dfb-8485-9bf4850351fd",
+    "7df80124-15f7-5f0f-84cf-75731c0cce17",
+    "ae4ed7e2-5496-5f57-8add-14063107f142",
+    "f012b1ea-6e0c-57ae-8199-42999ccc8a51",
+    "508975a1-74a8-5c6a-83fb-d13f8e2b188c",
+    "68dfa172-84a5-5b53-886f-a46877135659",
+    "2921667a-d669-51cf-83e0-00acbde87d0b",
+    "fa5d80eb-55db-591d-8eb0-a2ca92e03049",
+    "21aa3b8b-d198-554a-8e23-63136800cc7d",
+    "293d3e5e-db31-5f3e-8ab1-10b3a0abbb68",
+    "b08fd583-fcdb-5895-8996-f0b46d479ee9",
+    "edef02a8-07de-563c-859e-f4f7d3213a15",
+    "09615e59-fca2-5180-809c-3bead6366aef",
+    "6a3d8002-adcf-5f61-817f-e082c814b51d",
+    "b3b76950-1154-59fe-8585-7067975da058",
+    "28eb66f9-4626-5da5-8727-3e2ebb39ebe9",
+    "adcaa132-4a6a-549c-81e1-583870bd77a9",
+    "b8def4ec-6803-5994-8825-1f1140a04f61",
+    "02e3e50f-5723-5e51-8aa3-acd438e82d17",
+    "abac8c53-2dd8-4f3a-9724-153b605335ec",
+    "3391897f-9904-5612-88b0-abe697a8ad88",
+    "7d26bcb2-5b69-53e9-8153-c1021dc463b4",
+    "2a6ded80-1c01-5221-8af5-275992b5c89c",
+    "18dd5bf8-4f12-500b-82e7-12e68e078ff0"
+  ],
+  "opensAt": "2026-11-09T09:13:24.000Z",
+  "closesAt": "2026-11-10T09:13:24.000Z",
+  "maxParticipants": 2
+}
