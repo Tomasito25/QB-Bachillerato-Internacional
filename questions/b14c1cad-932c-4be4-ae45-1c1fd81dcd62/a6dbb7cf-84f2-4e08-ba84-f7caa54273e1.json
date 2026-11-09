@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "a6dbb7cf-84f2-4e08-ba84-f7caa54273e1",
+  "rev": 1,
+  "statement": "Una masa de $2.0 kg$  está unido a un muelle y vibra verticalmente.\n\n![figura](qbimg:b8de75169b0cca86a83a0da6f48ffa77eeca970b7cca2c5160de3803acf05a24)\n\nEl siguiente gráfico muestra la variación de la aceleración del objeto con el desplazamiento $x$\n\n![figura](qbimg:d3575dbb278d6594a2da7c4fc1e5cabea481e1a9501c6e3b75d9a04e40a54ec0)",
+  "images": [
+    {
+      "hash": "b8de75169b0cca86a83a0da6f48ffa77eeca970b7cca2c5160de3803acf05a24",
+      "ext": "webp",
+      "width": 299,
+      "height": 316,
+      "bytes": 7374,
+      "alt": ""
+    },
+    {
+      "hash": "d3575dbb278d6594a2da7c4fc1e5cabea481e1a9501c6e3b75d9a04e40a54ec0",
+      "ext": "webp",
+      "width": 509,
+      "height": 339,
+      "bytes": 8758,
+      "alt": ""
+    },
+    {
+      "hash": "51ef37017e276d9f30e0b985bbecdc190b1ad716a73be8d67956d7cfcc452040",
+      "ext": "webp",
+      "width": 202,
+      "height": 231,
+      "bytes": 2458,
+      "alt": ""
+    },
+    {
+      "hash": "253cee9a146fcaa379d49ed64d09aaea5df720bcec8c4c273393be61a031572d",
+      "ext": "webp",
+      "width": 677,
+      "height": 201,
+      "bytes": 8156,
+      "alt": ""
+    },
+    {
+      "hash": "cf422fe13cf04fad8ab5595f8dead9879b3741ca74e4c667251b177de20eec70",
+      "ext": "webp",
+      "width": 687,
+      "height": 266,
+      "bytes": 14888,
+      "alt": ""
+    },
+    {
+      "hash": "142e2a69174304105d3ccaae74a5b3ba1a9dfc1727484fd86c2d483818ffec38",
+      "ext": "webp",
+      "width": 517,
+      "height": 157,
+      "bytes": 6798,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501",
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-09T10:45:15.000Z",
+  "updatedAt": "2026-11-09T10:45:15.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Explica si la oscilación de la masa es o no un simple movimiento armónico.",
+          "modelAnswer": "Está haciendo SHM; ✓✓\n\nEl gráfico muestra la relación $a=−kx$, la aceleración es proporcional al desplazamiento ✓\n\nEl gráfico es una línea recta a través del origen con una pendiente negativa. ✓",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "statement": "En la figura anterior, dibuje una flecha para mostrar la dirección de la aceleración de la masa que es desplazada por $x$.",
+          "modelAnswer": "Una flecha que se dirige hacia arriba.\n\n![figura](qbimg:51ef37017e276d9f30e0b985bbecdc190b1ad716a73be8d67956d7cfcc452040)",
+          "marks": 1
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "statement": "",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Demuestre que la pendiente del gráfico es igual a $-k/M$",
+          "modelAnswer": "![figura](qbimg:253cee9a146fcaa379d49ed64d09aaea5df720bcec8c4c273393be61a031572d)",
+          "marks": 3
+        },
+        {
+          "id": "b",
+          "statement": "Usando el gráfico calcula la constante  $k$ del muelle",
+          "modelAnswer": "![figura](qbimg:cf422fe13cf04fad8ab5595f8dead9879b3741ca74e4c667251b177de20eec70)",
+          "marks": 2
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "statement": "Para el mismo sistema de masa de resorte, mostrar que la aceleración del objeto es $10 cm s⁻² $ Cuando la masa es desplazada por $ 0.12 cm$",
+      "modelAnswer": "![figura](qbimg:142e2a69174304105d3ccaae74a5b3ba1a9dfc1727484fd86c2d483818ffec38)",
+      "marks": 2
+    }
+  ]
+}
