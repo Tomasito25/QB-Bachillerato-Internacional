@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "461754fc-b93c-58d6-8fba-08962a93f376",
+  "rev": 1,
+  "statement": "Un bloque de $2{,}0\\,\\text{kg}$ parte del reposo y baja $5{,}0\\,\\text{m}$ por un plano inclinado $30°$, con una fuerza de rozamiento constante de $6{,}0\\,\\text{N}$. ¿Con qué rapidez llega abajo? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "$mgh - F_f d = \\frac{1}{2}mv^2$. Con $h = 2{,}5\\,\\text{m}$: $49 - 30 = 19\\,\\text{J}$. Así, $v = \\sqrt{19} = 4{,}4\\,\\text{m s}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "conservación de la energía",
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:44.000Z",
+  "updatedAt": "2026-11-10T07:21:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}1\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta el 2 al despejar v² de ½mv²."
+    },
+    {
+      "id": "b",
+      "text": "$4{,}4\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$5{,}5\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "El trabajo del rozamiento es F·d, con toda la distancia."
+    },
+    {
+      "id": "d",
+      "text": "$7{,}0\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta restar el trabajo del rozamiento."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
