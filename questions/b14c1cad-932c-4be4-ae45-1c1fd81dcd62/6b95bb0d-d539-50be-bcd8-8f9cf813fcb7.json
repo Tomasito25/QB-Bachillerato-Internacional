@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "6b95bb0d-d539-50be-bcd8-8f9cf813fcb7",
+  "rev": 1,
+  "statement": "Un electrón del viento solar llega al campo magnético terrestre, de $5{,}0\\times 10^{-5}\\,\\text{T}$ y uniforme en esa región, con una rapidez de $1{,}0\\times 10^{7}\\,\\text{m s}^{-1}$ y formando $60°$ con las líneas de campo. Usa $e = 1{,}6\\times 10^{-19}\\,\\text{C}$ y $m_e = 9{,}11\\times 10^{-31}\\,\\text{kg}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético",
+    "trayectorias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el módulo de la fuerza magnética sobre el electrón.",
+      "modelAnswer": "$F = qvB\\sin\\theta = 1{,}6\\times 10^{-19}\\cdot 1{,}0\\times 10^{7}\\cdot 5{,}0\\times 10^{-5}\\cdot\\sin 60° = 6{,}9\\times 10^{-17}\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula las componentes de la velocidad paralela y perpendicular al campo.",
+      "modelAnswer": "Paralela: $v\\cos 60° = 5{,}0\\times 10^{6}\\,\\text{m s}^{-1}$. (1) Perpendicular: $v\\sin 60° = 8{,}7\\times 10^{6}\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el radio de la circunferencia que describe la proyección del movimiento en el plano perpendicular al campo.",
+      "modelAnswer": "$r = \\dfrac{mv_\\perp}{eB} = 0{,}99\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la distancia que avanza el electrón, a lo largo del campo, en cada vuelta.",
+      "modelAnswer": "$T = \\dfrac{2\\pi r}{v_\\perp} = 7{,}2\\times 10^{-7}\\,\\text{s}$. (1) Avance: $v_\\parallel T = 3{,}6\\,\\text{m}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué la energía cinética del electrón no cambia en este movimiento.",
+      "modelAnswer": "La fuerza magnética es en todo momento perpendicular a la velocidad. (1) Por tanto, no realiza trabajo. (1)",
+      "marks": 2
+    }
+  ]
+}

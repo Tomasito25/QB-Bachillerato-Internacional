@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "4dfea2b5-6a41-5277-9957-f13061cd8169",
+  "rev": 1,
+  "statement": "Una esfera cae con velocidad límite por un líquido viscoso. Sean $mg$ su peso, $F_b$ el empuje y $F_d$ el arrastre viscoso. ¿Qué relación se cumple?",
+  "explanation": "A velocidad límite la aceleración es cero. El peso actúa hacia abajo, y empuje y arrastre, hacia arriba.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "velocidad límite",
+    "fuerzas de arrastre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$mg + F_b = F_d$",
+      "correct": false,
+      "feedback": "El empuje no apunta hacia abajo."
+    },
+    {
+      "id": "b",
+      "text": "$F_d = F_b + mg$",
+      "correct": false,
+      "feedback": "El arrastre y el empuje apuntan hacia arriba; el peso, hacia abajo."
+    },
+    {
+      "id": "c",
+      "text": "$mg = F_d$",
+      "correct": false,
+      "feedback": "Falta el empuje del líquido."
+    },
+    {
+      "id": "d",
+      "text": "$mg = F_b + F_d$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

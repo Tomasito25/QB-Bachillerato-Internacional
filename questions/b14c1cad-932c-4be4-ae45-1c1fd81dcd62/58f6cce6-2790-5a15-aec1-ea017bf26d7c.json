@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "58f6cce6-2790-5a15-aec1-ea017bf26d7c",
+  "rev": 1,
+  "statement": "Fuera de un planeta esférico de masa $M$, ¿cómo es la gráfica de la intensidad del campo gravitatorio $g$ frente a $\\dfrac{1}{r^2}$?",
+  "explanation": "$g = \\dfrac{GM}{r^2}$ es proporcional a $\\dfrac{1}{r^2}$, con constante de proporcionalidad $GM$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "gráficas",
+    "campo gravitatorio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una recta que pasa por el origen, de pendiente $GM$.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Una recta de pendiente $-GM$.",
+      "correct": false,
+      "feedback": "La pendiente es positiva: g aumenta con 1/r²."
+    },
+    {
+      "id": "c",
+      "text": "Una curva decreciente.",
+      "correct": false,
+      "feedback": "Al representar frente a 1/r², la relación es lineal."
+    },
+    {
+      "id": "d",
+      "text": "Una recta horizontal.",
+      "correct": false,
+      "feedback": "g varía con la distancia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

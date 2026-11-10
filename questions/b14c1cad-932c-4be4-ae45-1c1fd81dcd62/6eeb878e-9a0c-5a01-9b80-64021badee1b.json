@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "6eeb878e-9a0c-5a01-9b80-64021badee1b",
+  "rev": 1,
+  "statement": "Una persona lleva una maleta colgada de la mano y camina en horizontal a velocidad constante. ¿Cuánto trabajo realiza sobre la maleta la fuerza vertical de su mano?",
+  "explanation": "$W = Fs\\cos\\theta$, y con $\\theta = 90°$ el trabajo es cero.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "trabajo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Negativo, porque la maleta pesa.",
+      "correct": false,
+      "feedback": "La fuerza y el desplazamiento son perpendiculares."
+    },
+    {
+      "id": "b",
+      "text": "Igual al peso por la distancia recorrida.",
+      "correct": false,
+      "feedback": "Sólo cuenta la componente de la fuerza en la dirección del desplazamiento."
+    },
+    {
+      "id": "c",
+      "text": "Positivo, porque la persona se cansa.",
+      "correct": false,
+      "feedback": "El cansancio no indica trabajo sobre la maleta."
+    },
+    {
+      "id": "d",
+      "text": "Cero, porque la fuerza es perpendicular al desplazamiento.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

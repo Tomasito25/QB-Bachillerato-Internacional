@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "6e058a09-a491-5b69-b2ea-e9b58ce7c130",
+  "rev": 1,
+  "statement": "¿Qué diferencia una onda estacionaria de una onda viajera?",
+  "explanation": "Una onda estacionaria resulta de la superposición de dos ondas iguales que viajan en sentidos opuestos. Los nodos no se mueven, y la energía no avanza.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "ondas estacionarias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En la estacionaria todos los puntos tienen la misma amplitud.",
+      "correct": false,
+      "feedback": "Esa es una característica de la viajera ideal."
+    },
+    {
+      "id": "b",
+      "text": "En la estacionaria no hay longitud de onda.",
+      "correct": false,
+      "feedback": "Sí la hay: es el doble de la distancia entre nodos."
+    },
+    {
+      "id": "c",
+      "text": "En la estacionaria los puntos no oscilan.",
+      "correct": false,
+      "feedback": "Sólo están siempre en reposo los nodos."
+    },
+    {
+      "id": "d",
+      "text": "En la estacionaria la amplitud depende de la posición, y no hay transporte neto de energía.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

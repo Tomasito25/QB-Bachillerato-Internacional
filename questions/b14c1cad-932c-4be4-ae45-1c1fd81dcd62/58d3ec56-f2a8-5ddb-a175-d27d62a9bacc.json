@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "58d3ec56-f2a8-5ddb-a175-d27d62a9bacc",
+  "rev": 1,
+  "statement": "Dos fuentes coherentes, en fase, emiten ondas de $2{,}0\\,\\text{cm}$ de longitud de onda. Un punto P está a $15\\,\\text{cm}$ de una y a $20\\,\\text{cm}$ de la otra. ¿Qué tipo de interferencia se da en P?",
+  "explanation": "Diferencia de camino: $20 - 15 = 5{,}0\\,\\text{cm} = 2{,}5\\lambda$. Un número semientero de longitudes de onda da interferencia destructiva.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "interferencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Constructiva, porque la diferencia de camino es de $5{,}0\\,\\text{cm}$.",
+      "correct": false,
+      "feedback": "Compara la diferencia de camino con λ."
+    },
+    {
+      "id": "b",
+      "text": "Constructiva, porque la diferencia de camino es $2{,}5\\lambda$.",
+      "correct": false,
+      "feedback": "Para interferencia constructiva, la diferencia debe ser un múltiplo entero de λ."
+    },
+    {
+      "id": "c",
+      "text": "Destructiva, porque la diferencia de camino es $2{,}5\\lambda$.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Destructiva, porque la diferencia de camino es $2\\lambda$.",
+      "correct": false,
+      "feedback": "La diferencia de camino es 2,5λ."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

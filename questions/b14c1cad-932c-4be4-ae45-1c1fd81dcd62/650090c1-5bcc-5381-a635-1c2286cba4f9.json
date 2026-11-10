@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "650090c1-5bcc-5381-a635-1c2286cba4f9",
+  "rev": 1,
+  "statement": "Una nevera portátil tiene paredes de espuma, con conductividad térmica de $0{,}030\\,\\text{W m}^{-1}\\,\\text{K}^{-1}$, espesor de $3{,}0\\,\\text{cm}$ y un área total de $1{,}2\\,\\text{m}^{2}$. El interior se mantiene a $5{,}0\\,°\\text{C}$ gracias a hielo fundente, y el exterior está a $30\\,°\\text{C}$. Usa $L_f = 3{,}34\\times 10^{5}\\,\\text{J kg}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "conducción",
+    "calor latente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la potencia que entra por conducción a través de las paredes.",
+      "modelAnswer": "$\\dfrac{\\Delta Q}{\\Delta t} = kA\\dfrac{\\Delta T}{\\Delta x} = 0{,}030\\cdot 1{,}2\\cdot\\dfrac{25}{0{,}030} = 30\\,\\text{W}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la masa de hielo que se funde en 6,0 horas.",
+      "modelAnswer": "$Q = 30\\cdot 6{,}0\\cdot 3600 = 6{,}5\\times 10^{5}\\,\\text{J}$. (1) $m = \\dfrac{Q}{L_f} = 1{,}9\\,\\text{kg}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica cuál sería la masa fundida si el espesor de la espuma se duplicara.",
+      "modelAnswer": "La potencia se reduciría a la mitad, así que se fundiría la mitad: $0{,}97\\,\\text{kg}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué la espuma, que contiene burbujas de aire, es buen aislante.",
+      "modelAnswer": "El aire es mal conductor porque sus moléculas están muy separadas. (1) Al estar atrapado en burbujas pequeñas no puede moverse, lo que impide la convección. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere una razón por la que convendría que la nevera fuera de color claro si se deja al sol.",
+      "modelAnswer": "Una superficie clara refleja más radiación solar (tiene mayor albedo), de modo que absorbe menos energía. (1)",
+      "marks": 1
+    }
+  ]
+}

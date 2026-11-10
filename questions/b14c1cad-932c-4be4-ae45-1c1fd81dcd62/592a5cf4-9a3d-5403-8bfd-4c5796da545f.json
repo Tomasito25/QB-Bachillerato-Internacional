@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "592a5cf4-9a3d-5403-8bfd-4c5796da545f",
+  "rev": 1,
+  "statement": "¿Cuáles son las unidades de la constante de gravitación $G$ en unidades fundamentales del SI?",
+  "explanation": "$G = \\dfrac{Fr^2}{m_1m_2}$: $\\dfrac{\\text{kg m s}^{-2}\\cdot\\text{m}^2}{\\text{kg}^2} = \\text{m}^3\\,\\text{kg}^{-1}\\,\\text{s}^{-2}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "unidades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\text{m}^2\\,\\text{kg}^{-1}\\,\\text{s}^{-2}$",
+      "correct": false,
+      "feedback": "Desarrolla N = kg m s⁻²."
+    },
+    {
+      "id": "b",
+      "text": "$\\text{N m}^2\\,\\text{kg}^{-2}$",
+      "correct": false,
+      "feedback": "Es correcta, pero el newton no es una unidad fundamental."
+    },
+    {
+      "id": "c",
+      "text": "$\\text{kg}\\,\\text{m}^3\\,\\text{s}^{-2}$",
+      "correct": false,
+      "feedback": "La masa aparece en el denominador."
+    },
+    {
+      "id": "d",
+      "text": "$\\text{m}^3\\,\\text{kg}^{-1}\\,\\text{s}^{-2}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

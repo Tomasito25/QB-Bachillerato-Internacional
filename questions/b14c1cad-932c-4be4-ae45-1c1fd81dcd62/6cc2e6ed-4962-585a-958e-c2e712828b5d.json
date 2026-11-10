@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6cc2e6ed-4962-585a-958e-c2e712828b5d",
+  "rev": 1,
+  "statement": "En una balanza de torsión, una esfera de plomo de $158\\,\\text{kg}$ atrae a una bolita de $0{,}73\\,\\text{kg}$, con una separación entre sus centros de $0{,}23\\,\\text{m}$. Usa $G = 6{,}67\\times 10^{-11}\\,\\text{N m}^2\\,\\text{kg}^{-2}$, $g = 9{,}8\\,\\text{m s}^{-2}$ y un radio terrestre de $6{,}37\\times 10^{6}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "ley de la gravitación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la fuerza gravitatoria entre las esferas.",
+      "modelAnswer": "$F = \\dfrac{Gm_1m_2}{r^2} = 1{,}5\\times 10^{-7}\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Compara esta fuerza con el peso de la bolita, y comenta qué dificultad experimental supone.",
+      "modelAnswer": "Peso: $0{,}73\\cdot 9{,}8 = 7{,}2\\,\\text{N}$. (1) La razón es de unos $2\\times 10^{-8}$, es decir, la fuerza es unas 50 millones de veces menor, así que hay que usar un sistema muy sensible y aislado de perturbaciones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica cómo permite el valor de $G$ determinar la masa de la Tierra, y calcula esa masa.",
+      "modelAnswer": "En la superficie, $g = \\dfrac{GM}{R^2}$, de donde $M = \\dfrac{gR^2}{G}$. (1) $M = 6{,}0\\times 10^{24}\\,\\text{kg}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la densidad media de la Tierra, y sugiere qué indica sobre su interior, sabiendo que la densidad de las rocas superficiales es de unos $2700\\,\\text{kg m}^{-3}$.",
+      "modelAnswer": "$\\rho = \\dfrac{M}{\\frac{4}{3}\\pi R^3} = 5{,}5\\times 10^{3}\\,\\text{kg m}^{-3}$. (1) Es mucho mayor que la de las rocas de la superficie, de modo que el interior debe ser mucho más denso. (1)",
+      "marks": 2
+    }
+  ]
+}

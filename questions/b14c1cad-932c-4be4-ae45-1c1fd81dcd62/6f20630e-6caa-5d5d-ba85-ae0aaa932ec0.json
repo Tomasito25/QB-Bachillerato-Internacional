@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "6f20630e-6caa-5d5d-ba85-ae0aaa932ec0",
+  "rev": 1,
+  "statement": "Una línea espectral con una frecuencia de laboratorio de $5{,}0\\times 10^{14}\\,\\text{Hz}$ se observa a $4{,}9\\times 10^{14}\\,\\text{Hz}$ en la luz de una galaxia. ¿Cuál es la velocidad de la galaxia respecto a la Tierra? Usa $c = 3{,}0\\times 10^{8}\\,\\text{m s}^{-1}$.",
+  "explanation": "$\\dfrac{\\Delta f}{f} = \\dfrac{0{,}1\\times 10^{14}}{5{,}0\\times 10^{14}} = 0{,}020 \\approx \\dfrac{v}{c}$. Por tanto, $v = 6{,}0\\times 10^{6}\\,\\text{m s}^{-1}$. La frecuencia observada es menor, así que se aleja.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "corrimiento al rojo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}0\\times 10^{4}\\,\\text{m s}^{-1}$, alejándose",
+      "correct": false,
+      "feedback": "Revisa Δf/f = 0,020."
+    },
+    {
+      "id": "b",
+      "text": "$6{,}0\\times 10^{6}\\,\\text{m s}^{-1}$, alejándose",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$6{,}0\\times 10^{6}\\,\\text{m s}^{-1}$, acercándose",
+      "correct": false,
+      "feedback": "Una menor frecuencia indica alejamiento."
+    },
+    {
+      "id": "d",
+      "text": "$1{,}5\\times 10^{7}\\,\\text{m s}^{-1}$, alejándose",
+      "correct": false,
+      "feedback": "Revisa Δf/f = 0,020."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

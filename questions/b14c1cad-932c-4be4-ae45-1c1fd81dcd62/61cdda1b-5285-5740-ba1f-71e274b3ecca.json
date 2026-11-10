@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "61cdda1b-5285-5740-ba1f-71e274b3ecca",
+  "rev": 1,
+  "statement": "Se quiere medir el grosor de una hoja de papel con dos métodos.\n\n**Método 1.** Con una regla, se mide el grosor de un taco de 500 hojas: $(52 \\pm 1)\\,\\text{mm}$.\n\n**Método 2.** Con un micrómetro, se mide una sola hoja: $(0{,}10 \\pm 0{,}01)\\,\\text{mm}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "818c5352-d9aa-5c8c-9c20-dc85fac93f60"
+  ],
+  "tags": [
+    "datos",
+    "incertidumbres",
+    "instrumentos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula, con el método 1, el grosor de una hoja y su incertidumbre absoluta.",
+      "modelAnswer": "$\\dfrac{52}{500} = 0{,}104\\,\\text{mm}$. (1) $\\dfrac{1}{500} = 0{,}002\\,\\text{mm}$, luego el grosor es de $(0{,}104 \\pm 0{,}002)\\,\\text{mm}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Compara las incertidumbres porcentuales de los dos métodos.",
+      "modelAnswer": "Método 1: $\\dfrac{1}{52} = 1{,}9\\,\\%$. Método 2: $\\dfrac{0{,}01}{0{,}10} = 10\\,\\%$. (1) El método 1 es unas cinco veces más preciso, aunque use un instrumento de peor resolución, porque reparte la incertidumbre entre muchas hojas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica si los dos resultados son compatibles.",
+      "modelAnswer": "Sí: los intervalos se solapan, porque $0{,}104\\,\\text{mm}$ está entre $0{,}09\\,\\text{mm}$ y $0{,}11\\,\\text{mm}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere un error sistemático del método 1 e indica en qué sentido afecta al resultado.",
+      "modelAnswer": "El aire que queda entre las hojas si el taco no se comprime: el grosor medido es mayor que el real.",
+      "marks": 1
+    }
+  ]
+}
