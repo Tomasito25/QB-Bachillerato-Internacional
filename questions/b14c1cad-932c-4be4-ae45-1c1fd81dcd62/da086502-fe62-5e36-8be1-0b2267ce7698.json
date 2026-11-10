@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "da086502-fe62-5e36-8be1-0b2267ce7698",
+  "rev": 1,
+  "statement": "Un proyectil de $2{,}0\\,\\text{kg}$ avanza en horizontal a $30\\,\\text{m s}^{-1}$ cuando alcanza su altura máxima, a $80\\,\\text{m}$ del suelo. En ese punto explota en dos fragmentos de $1{,}0\\,\\text{kg}$. Justo después de la explosión, uno de ellos tiene velocidad nula. Ignora la resistencia del aire y toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "explosiones",
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad del otro fragmento justo después de la explosión.",
+      "modelAnswer": "$2{,}0\\cdot 30 = 1{,}0\\cdot v$. (1) $v = 60\\,\\text{m s}^{-1}$ en horizontal, en el sentido inicial. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el tiempo que tardan los fragmentos en llegar al suelo.",
+      "modelAnswer": "$t = \\sqrt{\\dfrac{2\\cdot 80}{9{,}8}} = 4{,}0\\,\\text{s}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la distancia horizontal entre los puntos en los que caen.",
+      "modelAnswer": "El primer fragmento cae en vertical y el segundo avanza $60\\cdot 4{,}04 = 240\\,\\text{m}$, así que esa es la separación. (2)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la energía liberada por la explosión, y explica por qué la energía cinética no se conserva, mientras que la cantidad de movimiento sí.",
+      "modelAnswer": "Antes: $\\frac{1}{2}\\cdot 2{,}0\\cdot 30^2 = 900\\,\\text{J}$. Después: $\\frac{1}{2}\\cdot 1{,}0\\cdot 60^2 = 1800\\,\\text{J}$. (1) Se liberan $900\\,\\text{J}$. (1) La energía química del explosivo pasa a cinética. (1) Las fuerzas de la explosión son internas: no cambian la cantidad de movimiento total. (1)",
+      "marks": 4
+    },
+    {
+      "id": "e",
+      "statement": "Determina dónde cae el centro de masas del sistema respecto al punto de la explosión, y comenta el resultado.",
+      "modelAnswer": "Punto medio entre los dos impactos: $\\dfrac{240}{2} = 120\\,\\text{m}$. (1) Coincide con el alcance sin explosión, $30\\cdot 4{,}04$: las fuerzas internas no alteran el movimiento del centro de masas. (1)",
+      "marks": 2
+    }
+  ]
+}

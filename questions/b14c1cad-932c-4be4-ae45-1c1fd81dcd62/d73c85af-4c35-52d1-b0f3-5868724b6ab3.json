@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "d73c85af-4c35-52d1-b0f3-5868724b6ab3",
+  "rev": 1,
+  "statement": "Dos hilos paralelos separados $5{,}0\\,\\text{cm}$ llevan corrientes de $10\\,\\text{A}$ cada uno. ¿Cuál es la fuerza por unidad de longitud entre ellos? Usa $\\mu_0 = 4\\pi\\times 10^{-7}\\,\\text{T m A}^{-1}$.",
+  "explanation": "$\\dfrac{F}{L} = \\dfrac{\\mu_0I_1I_2}{2\\pi r} = \\dfrac{4\\pi\\times 10^{-7}\\cdot 100}{2\\pi\\cdot 0{,}050} = 4{,}0\\times 10^{-4}\\,\\text{N m}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "hilos paralelos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4{,}0\\times 10^{-5}\\,\\text{N m}^{-1}$",
+      "correct": false,
+      "feedback": "Hay un error de potencia de diez."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0\\times 10^{-4}\\,\\text{N m}^{-1}$",
+      "correct": false,
+      "feedback": "Revisa el denominador: es 2πr, no 4πr."
+    },
+    {
+      "id": "c",
+      "text": "$4{,}0\\times 10^{-4}\\,\\text{N m}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$1{,}3\\times 10^{-3}\\,\\text{N m}^{-1}$",
+      "correct": false,
+      "feedback": "Se ha cancelado mal el factor π."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

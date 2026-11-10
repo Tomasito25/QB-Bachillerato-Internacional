@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "e26a613d-f4ee-51bc-b5da-3bd678b3e1e1",
+  "rev": 1,
+  "statement": "Un emisor de microondas de $3{,}0\\,\\text{cm}$ de longitud de onda se coloca frente a una placa metálica con dos rendijas, cuyos centros distan $6{,}0\\,\\text{cm}$. Un detector se mueve a $1{,}0\\,\\text{m}$ de la placa, en una línea paralela a ella.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "interferencia",
+    "doble rendija",
+    "datos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué las dos rendijas se comportan como fuentes coherentes.",
+      "modelAnswer": "Las dos reciben la onda del mismo emisor. (1) Por tanto, tienen la misma frecuencia y una diferencia de fase constante. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica la diferencia de camino en el centro de la línea y en el primer máximo lateral.",
+      "modelAnswer": "Cero en el centro. (1) Una longitud de onda, $3{,}0\\,\\text{cm}$, en el primer máximo lateral. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el ángulo del primer máximo lateral, sabiendo que la diferencia de camino es $d\\sin\\theta$.",
+      "modelAnswer": "$\\sin\\theta = \\dfrac{\\lambda}{d} = \\dfrac{3{,}0}{6{,}0} = 0{,}50$. (1) $\\theta = 30°$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la distancia entre el centro de la línea y el primer máximo.",
+      "modelAnswer": "$y = 1{,}0\\tan 30° = 0{,}58\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Compara este valor con el que da $s = \\dfrac{\\lambda D}{d}$, y explica la diferencia.",
+      "modelAnswer": "$s = \\dfrac{0{,}030\\cdot 1{,}0}{0{,}060} = 0{,}50\\,\\text{m}$. (1) Esa fórmula supone ángulos pequeños, de modo que $\\sin\\theta \\approx \\tan\\theta$, y aquí el ángulo es grande. (2)",
+      "marks": 3
+    }
+  ]
+}

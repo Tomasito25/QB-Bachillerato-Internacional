@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "e2ea9aeb-5a28-5827-8036-9748811920f7",
+  "rev": 1,
+  "statement": "¿Por qué un airbag reduce la fuerza media sobre un pasajero durante un choque?",
+  "explanation": "$F = \\dfrac{\\Delta p}{\\Delta t}$. Con el mismo $\\Delta p$ y mayor $\\Delta t$, la fuerza media es menor.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "impulso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta el tiempo durante el que cambia su cantidad de movimiento.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Aumenta la masa del pasajero.",
+      "correct": false,
+      "feedback": "La masa no cambia."
+    },
+    {
+      "id": "c",
+      "text": "Reduce el cambio total de la cantidad de movimiento.",
+      "correct": false,
+      "feedback": "El cambio es el mismo: el pasajero pasa de la misma velocidad a cero."
+    },
+    {
+      "id": "d",
+      "text": "Absorbe la cantidad de movimiento sin ejercer fuerza.",
+      "correct": false,
+      "feedback": "Sin fuerza no cambiaría la cantidad de movimiento."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

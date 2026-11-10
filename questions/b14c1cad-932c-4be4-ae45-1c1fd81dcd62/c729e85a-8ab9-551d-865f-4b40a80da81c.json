@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "c729e85a-8ab9-551d-865f-4b40a80da81c",
+  "rev": 1,
+  "statement": "La gráfica muestra la amplitud de un sistema forzado frente a la frecuencia impulsora, para dos niveles de amortiguamiento.\n\n![Curvas de amplitud frente a frecuencia impulsora. La curva X tiene un pico alto y estrecho, y la curva Y un pico bajo y ancho. Ambos máximos están cerca de la frecuencia natural.](qbimg:f87e06b09ae086feb59f6ea17e1f805a20e9ca5fec230a17d56cb62b5caa69b2)\n\n¿Qué afirmación es correcta?",
+  "explanation": "Al disminuir el amortiguamiento, el pico de resonancia es más alto y más estrecho, y se acerca a la frecuencia natural.",
+  "images": [
+    {
+      "hash": "f87e06b09ae086feb59f6ea17e1f805a20e9ca5fec230a17d56cb62b5caa69b2",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 15775,
+      "alt": "Curvas de amplitud frente a frecuencia impulsora. La curva X tiene un pico alto y estrecho, y la curva Y un pico bajo y ancho. Ambos máximos están cerca de la frecuencia natural."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "resonancia",
+    "amortiguamiento",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La curva X corresponde al menor amortiguamiento.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La curva Y corresponde al menor amortiguamiento.",
+      "correct": false,
+      "feedback": "Con más amortiguamiento, el pico es más bajo y más ancho."
+    },
+    {
+      "id": "c",
+      "text": "El sistema resuena a frecuencias muy distintas en cada caso.",
+      "correct": false,
+      "feedback": "El pico aparece casi a la misma frecuencia, la natural."
+    },
+    {
+      "id": "d",
+      "text": "Las dos curvas tendrían la misma amplitud máxima con una fuerza impulsora mayor.",
+      "correct": false,
+      "feedback": "A igual fuerza, la amplitud máxima depende del amortiguamiento."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

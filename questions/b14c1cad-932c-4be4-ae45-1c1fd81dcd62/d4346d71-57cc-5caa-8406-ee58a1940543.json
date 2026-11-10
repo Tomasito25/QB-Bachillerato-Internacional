@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "d4346d71-57cc-5caa-8406-ee58a1940543",
+  "rev": 1,
+  "statement": "En el filtro electrostático de una chimenea, unas partículas de hollín se cargan y entran entre dos placas paralelas verticales, separadas $10\\,\\text{cm}$, con una diferencia de potencial de $8{,}0\\,\\text{kV}$. Cada partícula tiene una carga de $1{,}6\\times 10^{-16}\\,\\text{C}$, una masa de $2{,}0\\times 10^{-12}\\,\\text{kg}$ y un radio de $1{,}0\\times 10^{-5}\\,\\text{m}$. La viscosidad del aire es de $1{,}8\\times 10^{-5}\\,\\text{Pa s}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo uniforme",
+    "fuerzas de arrastre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el campo eléctrico entre las placas.",
+      "modelAnswer": "$E = \\dfrac{V}{d} = \\dfrac{8000}{0{,}10} = 8{,}0\\times 10^{4}\\,\\text{V m}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza eléctrica sobre una partícula y compárala con su peso.",
+      "modelAnswer": "$F = qE = 1{,}3\\times 10^{-11}\\,\\text{N}$. (1) Peso: $mg = 2{,}0\\times 10^{-11}\\,\\text{N}$, del mismo orden que la fuerza eléctrica. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Una partícula parte del centro. Si no hubiera aire, calcula el tiempo que tardaría en llegar a una placa, considerando sólo la fuerza eléctrica.",
+      "modelAnswer": "$a = \\dfrac{F}{m} = 6{,}4\\,\\text{m s}^{-2}$. (1) $t = \\sqrt{\\dfrac{2\\cdot 0{,}050}{6{,}4}} = 0{,}13\\,\\text{s}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Con aire, las partículas alcanzan rápidamente una velocidad límite horizontal. Calcula esta velocidad, usando la ley de Stokes.",
+      "modelAnswer": "$qE = 6\\pi\\eta rv$. (1) $6\\pi\\eta r = 6\\pi\\cdot 1{,}8\\times 10^{-5}\\cdot 1{,}0\\times 10^{-5} = 3{,}39\\times 10^{-9}\\,\\text{kg s}^{-1}$, de modo que $v = \\dfrac{1{,}28\\times 10^{-11}}{3{,}39\\times 10^{-9}} = 3{,}8\\times 10^{-3}\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Determina el tiempo real necesario para llegar a la placa, y comenta una consecuencia para el diseño del filtro.",
+      "modelAnswer": "$t = \\dfrac{0{,}050}{3{,}8\\times 10^{-3}} = 13\\,\\text{s}$. (1) El gas debe permanecer entre las placas unos segundos, así que las placas deben ser largas o el flujo, lento. (1)",
+      "marks": 2
+    }
+  ]
+}

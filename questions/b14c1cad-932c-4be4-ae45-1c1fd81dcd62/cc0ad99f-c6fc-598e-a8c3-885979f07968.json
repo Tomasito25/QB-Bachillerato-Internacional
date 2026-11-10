@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "cc0ad99f-c6fc-598e-a8c3-885979f07968",
+  "rev": 1,
+  "statement": "Dos muelles, X e Y, se estiran con la misma fuerza. La constante de Y es el doble que la de X. ¿Cuánto vale la razón entre las energías elásticas $\\dfrac{E_Y}{E_X}$?",
+  "explanation": "$x = F/k$, así que $E = \\frac{1}{2}kx^2 = \\dfrac{F^2}{2k}$. Si la constante se duplica, la energía se reduce a la mitad.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "energía elástica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0$",
+      "correct": false,
+      "feedback": "Sería cierto con el mismo alargamiento, no con la misma fuerza."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}0$",
+      "correct": false,
+      "feedback": "Con la misma fuerza, los alargamientos son diferentes."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}50$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}25$",
+      "correct": false,
+      "feedback": "Sólo el alargamiento se reduce a la mitad, y la constante se duplica."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

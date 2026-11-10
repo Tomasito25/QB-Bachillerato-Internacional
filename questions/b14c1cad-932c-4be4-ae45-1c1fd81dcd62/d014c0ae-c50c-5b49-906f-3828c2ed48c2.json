@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "d014c0ae-c50c-5b49-906f-3828c2ed48c2",
+  "rev": 1,
+  "statement": "La gráfica muestra la tensión en bornes $V$ de una pila frente a la corriente $I$ que entrega.\n\n![Gráfica de tensión en bornes frente a corriente: recta decreciente de 9,0 V con 0 A a 6,0 V con 3,0 A y 5,0 V con 4,0 A.](qbimg:3b64085ca3eb43a94dfb4c5356e5a12ebd8afde747a401b7d76b7c4865fada8e)\n\n¿Cuáles son su f. e. m. y su resistencia interna?",
+  "explanation": "$V = \\varepsilon - Ir$: la ordenada en el origen es $\\varepsilon$, y la pendiente es $-r = -\\dfrac{9{,}0 - 6{,}0}{3{,}0}$.",
+  "images": [
+    {
+      "hash": "3b64085ca3eb43a94dfb4c5356e5a12ebd8afde747a401b7d76b7c4865fada8e",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 9978,
+      "alt": "Gráfica de tensión en bornes frente a corriente: recta decreciente de 9,0 V con 0 A a 6,0 V con 3,0 A y 5,0 V con 4,0 A."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistencia interna",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\varepsilon = 9{,}0\\,\\text{V}$ y $r = 2{,}0\\,\\Omega$",
+      "correct": false,
+      "feedback": "La pendiente es 3,0 V entre 3,0 A."
+    },
+    {
+      "id": "b",
+      "text": "$\\varepsilon = 6{,}0\\,\\text{V}$ y $r = 1{,}0\\,\\Omega$",
+      "correct": false,
+      "feedback": "La f. e. m. se lee cuando la corriente es cero."
+    },
+    {
+      "id": "c",
+      "text": "$\\varepsilon = 9{,}0\\,\\text{V}$ y $r = 3{,}0\\,\\Omega$",
+      "correct": false,
+      "feedback": "3,0 es el descenso de tensión, no la pendiente."
+    },
+    {
+      "id": "d",
+      "text": "$\\varepsilon = 9{,}0\\,\\text{V}$ y $r = 1{,}0\\,\\Omega$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

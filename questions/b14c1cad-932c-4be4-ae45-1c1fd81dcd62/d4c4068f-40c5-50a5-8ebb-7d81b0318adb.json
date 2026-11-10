@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "d4c4068f-40c5-50a5-8ebb-7d81b0318adb",
+  "rev": 1,
+  "statement": "Una bola parte del reposo y recorre $s = (1{,}20 \\pm 0{,}01)\\,\\text{m}$ en $t = (0{,}50 \\pm 0{,}02)\\,\\text{s}$. Su aceleración se calcula con $a = \\dfrac{2s}{t^2}$. ¿Cuál es, aproximadamente, la incertidumbre porcentual de $a$?",
+  "explanation": "$\\dfrac{\\Delta a}{a} = \\dfrac{\\Delta s}{s} + 2\\dfrac{\\Delta t}{t} = 0{,}8\\,\\% + 2(4{,}0\\,\\%) \\approx 9\\,\\%$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "incertidumbres",
+    "MRUA"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "3 %",
+      "correct": false,
+      "feedback": "Las incertidumbres porcentuales se suman, no se restan."
+    },
+    {
+      "id": "b",
+      "text": "5 %",
+      "correct": false,
+      "feedback": "El tiempo está al cuadrado: su incertidumbre porcentual cuenta dos veces."
+    },
+    {
+      "id": "c",
+      "text": "9 %",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "17 %",
+      "correct": false,
+      "feedback": "El factor 2 de la fórmula no tiene incertidumbre, y no se duplica la de s."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
