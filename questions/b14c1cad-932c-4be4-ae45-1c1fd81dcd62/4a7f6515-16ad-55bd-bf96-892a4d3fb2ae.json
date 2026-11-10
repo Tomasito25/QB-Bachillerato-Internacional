@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "4a7f6515-16ad-55bd-bf96-892a4d3fb2ae",
+  "rev": 1,
+  "statement": "Para medir la rapidez del sonido, se colocan dos micrófonos separados $(1{,}50 \\pm 0{,}01)\\,\\text{m}$ y conectados a un cronómetro electrónico. Una palmada junto al primer micrófono pone en marcha el cronómetro, y su llegada al segundo lo detiene.\n\n| Ensayo | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $t$ / ms | 4,41 | 4,35 | 4,39 | 4,33 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "818c5352-d9aa-5c8c-9c20-dc85fac93f60",
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "datos",
+    "incertidumbres",
+    "sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:44.000Z",
+  "updatedAt": "2026-11-10T07:21:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el tiempo medio y su incertidumbre absoluta.",
+      "modelAnswer": "$\\bar{t} = 4{,}37\\,\\text{ms}$. (1) $\\Delta t = \\dfrac{4{,}41 - 4{,}33}{2} = 0{,}04\\,\\text{ms}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la rapidez del sonido.",
+      "modelAnswer": "$v = \\dfrac{d}{t} = \\dfrac{1{,}50}{4{,}37\\times 10^{-3}} = 343\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la incertidumbre absoluta de $v$ y escribe el resultado completo.",
+      "modelAnswer": "$\\dfrac{\\Delta v}{v} = \\dfrac{0{,}01}{1{,}50} + \\dfrac{0{,}04}{4{,}37} = 0{,}67\\,\\% + 0{,}92\\,\\% = 1{,}6\\,\\%$. (1) $\\Delta v = 0{,}016\\cdot 343 \\approx 5\\,\\text{m s}^{-1}$, luego $v = (343 \\pm 5)\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El cronómetro tiene una resolución de $0{,}01\\,\\text{ms}$. Explica por qué la incertidumbre del tiempo es mayor que esa resolución.",
+      "modelAnswer": "Las repeticiones se dispersan más que la resolución: domina el error aleatorio, por ejemplo porque la palmada no se da siempre en el mismo punto o porque los micrófonos no se disparan siempre en el mismo instante de la señal.",
+      "marks": 1
+    }
+  ]
+}

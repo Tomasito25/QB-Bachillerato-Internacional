@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "4b4a40b3-eafa-5cd1-85ce-784f8709784e",
+  "rev": 1,
+  "statement": "Una placa de vidrio de $4{,}0\\,\\text{mm}$ de espesor y $0{,}040\\,\\text{m}^{2}$ de área separa dos recintos. Se mide la potencia $P$ que la atraviesa por conducción para distintas diferencias de temperatura $\\Delta T$ entre sus caras. La recta continua es la de ajuste. Las rectas discontinuas, de pendiente máxima y mínima, pasan por los extremos de las barras de error del primer y del último punto.\n\n![Gráfica de la potencia, en W, frente a la diferencia de temperatura, en K, con cinco puntos entre 5 y 25 K. Los puntos llevan barras de error verticales. Hay una recta de ajuste continua y dos rectas discontinuas, de pendiente máxima y mínima.](qbimg:6054175d4c6e74335fa6ee0b43cca6504e534e14cd6aabfcace990e177030305)",
+  "images": [
+    {
+      "hash": "6054175d4c6e74335fa6ee0b43cca6504e534e14cd6aabfcace990e177030305",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 18045,
+      "alt": "Gráfica de la potencia, en W, frente a la diferencia de temperatura, en K, con cinco puntos entre 5 y 25 K. Los puntos llevan barras de error verticales. Hay una recta de ajuste continua y dos rectas discontinuas, de pendiente máxima y mínima."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b6748547-3168-5ee0-bf68-69344d13836f",
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "datos",
+    "gráficas",
+    "incertidumbres",
+    "conducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:44.000Z",
+  "updatedAt": "2026-11-10T07:21:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la pendiente de la recta de ajuste, con su unidad.",
+      "modelAnswer": "Con los puntos $(0;\\,0)$ y $(25;\\,200)$: $\\dfrac{200}{25} = 8{,}0$ (1) $\\text{W K}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la conductividad térmica del vidrio.",
+      "modelAnswer": "$P = \\dfrac{kA}{L}\\,\\Delta T$, de modo que la pendiente es $\\dfrac{kA}{L}$. (1) $k = \\dfrac{8{,}0\\cdot 4{,}0\\times 10^{-3}}{0{,}040} = 0{,}80\\,\\text{W m}^{-1}\\,\\text{K}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la incertidumbre absoluta de la conductividad a partir de las rectas de pendiente máxima y mínima.",
+      "modelAnswer": "Pendiente máxima: $\\dfrac{210 - 30}{25 - 5} = 9{,}0\\,\\text{W K}^{-1}$. Pendiente mínima: $\\dfrac{190 - 50}{25 - 5} = 7{,}0\\,\\text{W K}^{-1}$. La incertidumbre de la pendiente es $\\dfrac{9{,}0 - 7{,}0}{2} = 1{,}0\\,\\text{W K}^{-1}$, un 12,5 %. (1) $\\Delta k = 0{,}125\\cdot 0{,}80 = 0{,}1$, luego $k = (0{,}8 \\pm 0{,}1)\\,\\text{W m}^{-1}\\,\\text{K}^{-1}$. (1)",
+      "marks": 2
+    }
+  ]
+}

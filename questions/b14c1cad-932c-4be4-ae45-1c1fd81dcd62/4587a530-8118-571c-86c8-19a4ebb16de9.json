@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "4587a530-8118-571c-86c8-19a4ebb16de9",
+  "rev": 1,
+  "statement": "Se dejan caer bolas de acero sobre arena seca y se mide el diámetro $D$ del cráter que forman. La energía cinética $E$ de cada bola en el impacto se calcula a partir de su masa y de la altura de caída. Se propone que $D = kE^{\\,n}$, donde $k$ y $n$ son constantes. La gráfica muestra $\\lg D$ frente a $\\lg E$, con su recta de ajuste.\n\n![Gráfica del logaritmo decimal del diámetro del cráter, en mm, frente al logaritmo decimal de la energía, en mJ. Cinco puntos con barras de error verticales y una recta de ajuste creciente.](qbimg:aba015d4d87215b65e599811f833e75bbd78cd14897d5a785de4d15e341d097e)",
+  "images": [
+    {
+      "hash": "aba015d4d87215b65e599811f833e75bbd78cd14897d5a785de4d15e341d097e",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 15011,
+      "alt": "Gráfica del logaritmo decimal del diámetro del cráter, en mm, frente al logaritmo decimal de la energía, en mJ. Cinco puntos con barras de error verticales y una recta de ajuste creciente."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "datos",
+    "linealización",
+    "logaritmos",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:44.000Z",
+  "updatedAt": "2026-11-10T07:21:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que, si la propuesta es correcta, la gráfica debe ser una recta de pendiente $n$.",
+      "modelAnswer": "Tomando logaritmos: $\\lg D = \\lg k + n\\lg E$. (1) Tiene la forma $y = c + mx$, con $y = \\lg D$ y $x = \\lg E$: una recta de pendiente $n$ y ordenada en el origen $\\lg k$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina $n$.",
+      "modelAnswer": "Con los puntos $(2{,}0;\\,1{,}40)$ y $(4{,}0;\\,1{,}90)$ de la recta: (1) $n = \\dfrac{1{,}90 - 1{,}40}{4{,}0 - 2{,}0} = 0{,}25$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Una hipótesis sostiene que la energía de la bola se emplea en levantar la arena desalojada: la masa de esa arena es proporcional a $D^3$, y la altura a la que sube, proporcional a $D$. Deduce el valor de $n$ que predice.",
+      "modelAnswer": "La energía necesaria es $mgh$, proporcional a $D^3\\cdot D = D^4$. (1) Entonces $D$ es proporcional a $E^{1/4}$, es decir, $n = 0{,}25$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Comenta si los datos apoyan esa hipótesis.",
+      "modelAnswer": "Sí: la pendiente medida coincide con el valor previsto, y la recta pasa por todas las barras de error.",
+      "marks": 1
+    }
+  ]
+}

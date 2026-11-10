@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "4a4b9bf8-181f-5a16-9c81-eac9c6c02804",
+  "rev": 1,
+  "statement": "Un balón de $0{,}45\\,\\text{kg}$ llega a una pared a $12\\,\\text{m s}^{-1}$, perpendicularmente a ella, y rebota a $8{,}0\\,\\text{m s}^{-1}$ en la misma línea. La gráfica muestra, de forma aproximada, la fuerza $F$ de la pared sobre el balón durante el contacto, que dura $0{,}050\\,\\text{s}$.\n\n![Gráfica de fuerza frente a tiempo con forma de triángulo: sube de 0 a un valor máximo en t = 0,025 s y baja hasta 0 en t = 0,050 s.](qbimg:23038f0ca5e96be705dd7eb2096163480ab07642e50ec7bb5a29a794fd2ceef8)",
+  "images": [
+    {
+      "hash": "23038f0ca5e96be705dd7eb2096163480ab07642e50ec7bb5a29a794fd2ceef8",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 10352,
+      "alt": "Gráfica de fuerza frente a tiempo con forma de triángulo: sube de 0 a un valor máximo en t = 0,025 s y baja hasta 0 en t = 0,050 s."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "impulso",
+    "cantidad de movimiento",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:44.000Z",
+  "updatedAt": "2026-11-10T07:21:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el cambio de la cantidad de movimiento del balón.",
+      "modelAnswer": "Tomando como positivo el sentido del rebote: $\\Delta p = 0{,}45\\,(8{,}0 + 12) = 9{,}0\\,\\text{kg m s}^{-1}$. (1) Dirigido hacia fuera de la pared. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza media que ejerce la pared.",
+      "modelAnswer": "$F_{\\text{media}} = \\dfrac{\\Delta p}{\\Delta t} = \\dfrac{9{,}0}{0{,}050} = 180\\,\\text{N}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina el valor máximo de la fuerza durante el contacto.",
+      "modelAnswer": "El impulso es el área bajo la gráfica: $\\frac{1}{2}F_{\\text{máx}}\\cdot 0{,}050 = 9{,}0$. (1) $F_{\\text{máx}} = 360\\,\\text{N}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la energía cinética que pierde el balón y sugiere qué ocurre con ella.",
+      "modelAnswer": "$\\Delta E_k = \\frac{1}{2}\\cdot 0{,}45\\,(12^2 - 8{,}0^2) = 18\\,\\text{J}$. (1) Se transforma en energía interna del balón y de la pared, y en sonido. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica, con la tercera ley de Newton, si la pared adquiere una cantidad de movimiento apreciable.",
+      "modelAnswer": "El balón ejerce sobre la pared una fuerza igual y opuesta, así que el conjunto pared-Tierra recibe $9{,}0\\,\\text{kg m s}^{-1}$ en sentido contrario. (1) Su masa es enorme, y por eso su cambio de velocidad es inapreciable. (1)",
+      "marks": 2
+    }
+  ]
+}
