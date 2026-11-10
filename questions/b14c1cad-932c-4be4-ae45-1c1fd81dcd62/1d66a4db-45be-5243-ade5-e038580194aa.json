@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "1d66a4db-45be-5243-ade5-e038580194aa",
+  "rev": 1,
+  "statement": "Un vaso de agua caliente se enfría en una habitación a temperatura constante. Se registra la diferencia $\\Delta\\theta$ entre la temperatura del agua y la de la habitación. Se propone que $\\Delta\\theta = \\Delta\\theta_0\\,e^{-kt}$, donde $\\Delta\\theta_0$ y $k$ son constantes. La gráfica muestra $\\ln\\Delta\\theta$ frente al tiempo $t$, con su recta de ajuste.\n\n![Gráfica del logaritmo neperiano de la diferencia de temperatura, en K, frente al tiempo, en minutos. Cinco puntos con barras de error verticales, entre 2 y 18 min, y una recta de ajuste decreciente.](qbimg:15fc0bad7ba442ea4b7369a0694773785aa68babd10c653c220242075ccd253e)",
+  "images": [
+    {
+      "hash": "15fc0bad7ba442ea4b7369a0694773785aa68babd10c653c220242075ccd253e",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 15102,
+      "alt": "Gráfica del logaritmo neperiano de la diferencia de temperatura, en K, frente al tiempo, en minutos. Cinco puntos con barras de error verticales, entre 2 y 18 min, y una recta de ajuste decreciente."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "datos",
+    "linealización",
+    "logaritmos",
+    "enfriamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:19.000Z",
+  "updatedAt": "2026-11-10T07:21:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que la gráfica debe ser una recta, e indica qué representan su pendiente y su ordenada en el origen.",
+      "modelAnswer": "Tomando logaritmos neperianos: $\\ln\\Delta\\theta = \\ln\\Delta\\theta_0 - kt$. (1) Es una recta de pendiente $-k$ y ordenada en el origen $\\ln\\Delta\\theta_0$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina $k$.",
+      "modelAnswer": "Con los puntos $(0;\\,4{,}00)$ y $(20;\\,3{,}00)$, la pendiente es $\\dfrac{3{,}00 - 4{,}00}{20 - 0} = -0{,}050\\,\\text{min}^{-1}$. (1) Por tanto, $k = 0{,}050\\,\\text{min}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la diferencia de temperatura inicial.",
+      "modelAnswer": "$\\Delta\\theta_0 = e^{4{,}00} = 55\\,\\text{K}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Determina el tiempo que tarda la diferencia de temperatura en reducirse a la mitad.",
+      "modelAnswer": "$e^{-kt} = \\dfrac{1}{2}$, de modo que $t = \\dfrac{\\ln 2}{k} = \\dfrac{0{,}693}{0{,}050} = 14\\,\\text{min}$.",
+      "marks": 1
+    }
+  ]
+}
