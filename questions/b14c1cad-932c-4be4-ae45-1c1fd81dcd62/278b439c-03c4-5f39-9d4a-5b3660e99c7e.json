@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "278b439c-03c4-5f39-9d4a-5b3660e99c7e",
+  "rev": 1,
+  "statement": "Dos pulsos viajan en sentidos opuestos por una cuerda: uno con un desplazamiento máximo de $+3{,}0\\,\\text{cm}$ y otro de $-1{,}0\\,\\text{cm}$. ¿Qué ocurre cuando coinciden exactamente sus centros, y después?",
+  "explanation": "Por el principio de superposición, los desplazamientos se suman algebraicamente en cada punto. Los pulsos atraviesan la zona sin alterarse.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "superposición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El desplazamiento es cero, y luego los dos pulsos desaparecen.",
+      "correct": false,
+      "feedback": "Las amplitudes no son iguales ni se destruyen."
+    },
+    {
+      "id": "b",
+      "text": "El desplazamiento máximo es de $+4{,}0\\,\\text{cm}$, y luego cada pulso sigue con su forma original.",
+      "correct": false,
+      "feedback": "Los desplazamientos se suman con su signo."
+    },
+    {
+      "id": "c",
+      "text": "El desplazamiento máximo es de $+2{,}0\\,\\text{cm}$, y luego queda un solo pulso.",
+      "correct": false,
+      "feedback": "Los pulsos no se afectan al superponerse."
+    },
+    {
+      "id": "d",
+      "text": "El desplazamiento máximo es de $+2{,}0\\,\\text{cm}$, y luego cada pulso sigue con su forma original.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

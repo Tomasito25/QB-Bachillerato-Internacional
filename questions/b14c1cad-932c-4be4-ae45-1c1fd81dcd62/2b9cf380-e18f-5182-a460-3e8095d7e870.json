@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "2b9cf380-e18f-5182-a460-3e8095d7e870",
+  "rev": 1,
+  "statement": "Una pila de f. e. m. $6{,}0\\,\\text{V}$ y resistencia interna $0{,}50\\,\\Omega$ entrega una corriente de $2{,}0\\,\\text{A}$. ¿Qué fracción de la energía que proporciona se disipa dentro de la pila?",
+  "explanation": "La caída interna es de $Ir = 1{,}0\\,\\text{V}$. La fracción disipada es $\\dfrac{Ir}{\\varepsilon} = \\dfrac{1{,}0}{6{,}0} = 0{,}17$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistencia interna"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}17$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$0{,}20$",
+      "correct": false,
+      "feedback": "Divide entre la f. e. m., no entre la tensión en bornes."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}50$",
+      "correct": false,
+      "feedback": "Ese es el valor de r, no la fracción."
+    },
+    {
+      "id": "d",
+      "text": "$0{,}83$",
+      "correct": false,
+      "feedback": "Esa es la fracción que llega al circuito exterior."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

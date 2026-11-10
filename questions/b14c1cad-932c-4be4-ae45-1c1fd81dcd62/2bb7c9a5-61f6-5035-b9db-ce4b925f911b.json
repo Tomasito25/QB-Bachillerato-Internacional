@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "2bb7c9a5-61f6-5035-b9db-ce4b925f911b",
+  "rev": 1,
+  "statement": "Una manguera lanza agua en horizontal contra una pared. El chorro tiene una sección de $2{,}0\\,\\text{cm}^{2}$ y una velocidad de $15\\,\\text{m s}^{-1}$. Al chocar, el agua pierde toda su velocidad horizontal. La densidad del agua es de $1000\\,\\text{kg m}^{-3}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "cantidad de movimiento",
+    "caudal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa de agua que llega a la pared cada segundo.",
+      "modelAnswer": "$\\dfrac{\\Delta m}{\\Delta t} = \\rho A v = 1000\\cdot 2{,}0\\times 10^{-4}\\cdot 15 = 3{,}0\\,\\text{kg s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza que ejerce el chorro sobre la pared.",
+      "modelAnswer": "$F = \\dfrac{\\Delta m}{\\Delta t}\\,v = 3{,}0\\cdot 15 = 45\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Si el agua rebotara con la misma rapidez, indica cuál sería la fuerza. Justifica tu respuesta.",
+      "modelAnswer": "El cambio de velocidad sería de $2v$, en vez de $v$. (1) La fuerza sería de $90\\,\\text{N}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Demuestra que $F = \\rho A v^2$ en la situación inicial, y deduce la fuerza si la velocidad del chorro se duplica sin cambiar su sección.",
+      "modelAnswer": "$F = \\dfrac{\\Delta m}{\\Delta t}\\,v = (\\rho A v)\\,v = \\rho A v^2$. (1) La fuerza se multiplica por 4 porque tanto el caudal como el cambio de velocidad se duplican. (1) $F = 180\\,\\text{N}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué quien sujeta la manguera nota una fuerza hacia atrás.",
+      "modelAnswer": "La manguera ejerce sobre el agua una fuerza que la acelera hacia delante. (1) Por la tercera ley, el agua ejerce sobre la manguera una fuerza igual y opuesta. (1)",
+      "marks": 2
+    }
+  ]
+}

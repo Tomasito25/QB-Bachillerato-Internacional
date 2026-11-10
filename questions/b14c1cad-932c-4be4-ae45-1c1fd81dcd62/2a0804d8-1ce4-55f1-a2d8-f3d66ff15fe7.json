@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "2a0804d8-1ce4-55f1-a2d8-f3d66ff15fe7",
+  "rev": 1,
+  "statement": "Tres pilas idénticas, de f. e. m. $1{,}5\\,\\text{V}$ y resistencia interna $0{,}20\\,\\Omega$, se conectan en serie a una resistencia de $2{,}4\\,\\Omega$. ¿Qué corriente circula?",
+  "explanation": "$\\varepsilon_T = 4{,}5\\,\\text{V}$, y $r_T = 0{,}60\\,\\Omega$. $I = \\dfrac{4{,}5}{2{,}4 + 0{,}60} = 1{,}5\\,\\text{A}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistencia interna"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}50\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Esa sería la corriente con una sola pila."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}5\\,\\text{A}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1{,}9\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Falta sumar las resistencias internas."
+    },
+    {
+      "id": "d",
+      "text": "$7{,}5\\,\\text{A}$",
+      "correct": false,
+      "feedback": "En serie se suman las resistencias internas."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

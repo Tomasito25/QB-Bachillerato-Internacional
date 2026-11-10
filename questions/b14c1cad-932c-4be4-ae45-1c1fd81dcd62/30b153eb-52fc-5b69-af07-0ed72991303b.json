@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "30b153eb-52fc-5b69-af07-0ed72991303b",
+  "rev": 1,
+  "statement": "Un hilo horizontal de masa por unidad de longitud $0{,}010\\,\\text{kg m}^{-1}$ se mantiene en equilibrio, sin apoyo, gracias a un campo magnético horizontal de $0{,}20\\,\\text{T}$ perpendicular a él. ¿Qué corriente circula? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "$BIL = mg$, así que $I = \\dfrac{(m/L)g}{B} = \\dfrac{0{,}010\\cdot 9{,}8}{0{,}20} = 0{,}49\\,\\text{A}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "fuerza sobre un conductor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4{,}9\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Hay un error de un factor 10."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Revisa el cociente: I = (m/L)g/B."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}49\\,\\text{A}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}020\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Es el producto del campo por la masa lineal, no el cociente necesario."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

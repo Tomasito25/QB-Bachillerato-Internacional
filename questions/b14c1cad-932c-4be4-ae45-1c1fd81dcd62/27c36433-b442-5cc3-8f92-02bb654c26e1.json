@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "27c36433-b442-5cc3-8f92-02bb654c26e1",
+  "rev": 1,
+  "statement": "Un sonido de $170\\,\\text{Hz}$ viaja por el aire a $340\\,\\text{m s}^{-1}$. ¿Cuál es la distancia entre una compresión y la rarefacción contigua?",
+  "explanation": "$\\lambda = \\dfrac{v}{f} = 2{,}0\\,\\text{m}$. Una compresión y la rarefacción siguiente están separadas por media longitud de onda.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas longitudinales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4{,}0\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Ese valor sería el doble de la longitud de onda."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Esa es la distancia entre dos compresiones consecutivas."
+    },
+    {
+      "id": "c",
+      "text": "$1{,}0\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}50\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Eso es la cuarta parte de la longitud de onda."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

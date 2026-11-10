@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "24442f64-621a-58f6-88b4-d4ae7e957d70",
+  "rev": 1,
+  "statement": "Una carga de $6{,}0\\,\\text{kg}$ cuelga, repartida por igual, de dos muelles idénticos en paralelo, de constante $150\\,\\text{N m}^{-1}$ cada uno. ¿Cuánto se alarga cada muelle? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "Cada muelle soporta $\\dfrac{58{,}8}{2} = 29{,}4\\,\\text{N}$, así que $x = \\dfrac{F}{k} = \\dfrac{29{,}4}{150} = 0{,}20\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "muelles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}78\\,\\text{m}$",
+      "correct": false,
+      "feedback": "En paralelo el alargamiento es menor, no mayor."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}39\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Con un solo muelle se alargaría eso; aquí cada uno soporta la mitad."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}20\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}10\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Es la mitad de la solución."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "2cea6cd2-815d-5486-8d42-7bf92f38dedc",
+  "rev": 1,
+  "statement": "Una bola rueda por una mesa horizontal y sale por el borde, a $0{,}80\\,\\text{m}$ sobre el suelo. Se suelta cinco veces desde el mismo punto de una rampa y se marca dónde cae en un papel de calco. Las distancias horizontales $x$, medidas desde el pie de la mesa, son:\n\n| Ensayo | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $x$ / cm | 61,2 | 62,0 | 61,5 | 63,0 | 61,7 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "datos",
+    "evaluación",
+    "repeticiones",
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el alcance medio y su incertidumbre absoluta.",
+      "modelAnswer": "$\\bar{x} = 61{,}9\\,\\text{cm}$. (1) $\\Delta x = \\dfrac{63{,}0 - 61{,}2}{2} = 0{,}9\\,\\text{cm}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la rapidez con que la bola sale de la mesa.",
+      "modelAnswer": "Tiempo de caída: $t = \\sqrt{\\dfrac{2h}{g}} = \\sqrt{\\dfrac{2\\cdot 0{,}80}{9{,}81}} = 0{,}404\\,\\text{s}$. (1) $v = \\dfrac{x}{t} = \\dfrac{0{,}619}{0{,}404} = 1{,}53\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué repetir el lanzamiento reduce el efecto de los errores aleatorios, pero no el de los sistemáticos.",
+      "modelAnswer": "Los aleatorios desvían cada medida en un sentido distinto, y al promediar se compensan en parte. (1) Los sistemáticos desvían todas las medidas en el mismo sentido, de modo que la media queda igual de desviada. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere un error sistemático de este experimento y cómo evitarlo.",
+      "modelAnswer": "Que el punto desde el que se mide no esté justo debajo del borde de la mesa. Se localiza con una plomada.",
+      "marks": 1
+    }
+  ]
+}

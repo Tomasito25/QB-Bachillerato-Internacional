@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "2d5146e6-b5a2-5ec8-a5c3-1605ae7e4aeb",
+  "rev": 1,
+  "statement": "Una partícula cargada entra en un campo magnético uniforme, con una velocidad que forma $30°$ con las líneas de campo. ¿Qué trayectoria sigue?",
+  "explanation": "La componente paralela al campo no experimenta fuerza y se mantiene. La perpendicular da lugar a un movimiento circular. La combinación es una hélice.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético",
+    "trayectorias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una recta paralela al campo.",
+      "correct": false,
+      "feedback": "Hay una componente perpendicular, y por tanto una fuerza."
+    },
+    {
+      "id": "b",
+      "text": "Una parábola.",
+      "correct": false,
+      "feedback": "La fuerza magnética es siempre perpendicular a la velocidad."
+    },
+    {
+      "id": "c",
+      "text": "Una circunferencia en un plano perpendicular al campo.",
+      "correct": false,
+      "feedback": "La componente paralela de la velocidad no cambia."
+    },
+    {
+      "id": "d",
+      "text": "Una hélice cuyo eje es paralelo al campo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
