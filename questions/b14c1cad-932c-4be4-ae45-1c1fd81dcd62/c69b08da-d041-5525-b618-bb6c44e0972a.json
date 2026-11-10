@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "c69b08da-d041-5525-b618-bb6c44e0972a",
+  "rev": 1,
+  "statement": "Un coche eléctrico tiene una batería de $60\\,\\text{kWh}$, un sistema de propulsión con un rendimiento del 85 % y una masa de baterías de $400\\,\\text{kg}$. A una velocidad constante de $30\\,\\text{m s}^{-1}$, las fuerzas resistivas suman $450\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "densidad energética",
+    "rendimiento",
+    "potencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:13.000Z",
+  "updatedAt": "2026-11-10T07:22:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la potencia que el motor debe entregar a las ruedas.",
+      "modelAnswer": "$P = Fv = 450\\cdot 30 = 13{,}5\\,\\text{kW}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la energía de la batería en julios.",
+      "modelAnswer": "$60\\cdot 1000\\cdot 3600 = 2{,}16\\times 10^{8}\\,\\text{J}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la autonomía del coche a esa velocidad.",
+      "modelAnswer": "Energía útil: $0{,}85\\cdot 2{,}16\\times 10^{8} = 1{,}84\\times 10^{8}\\,\\text{J}$. (1) $s = \\dfrac{1{,}84\\times 10^{8}}{450} = 4{,}1\\times 10^{5}\\,\\text{m}$, unos $410\\,\\text{km}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Un motor de gasolina tiene un rendimiento del 25 % y la gasolina, una densidad energética de $44\\,\\text{MJ kg}^{-1}$. Calcula la masa de gasolina que proporciona la misma energía útil.",
+      "modelAnswer": "$m = \\dfrac{1{,}84\\times 10^{8}}{0{,}25\\cdot 44\\times 10^{6}} = 17\\,\\text{kg}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Compara la densidad energética de la batería con la de la gasolina y comenta una consecuencia para el diseño de vehículos.",
+      "modelAnswer": "Batería: $\\dfrac{2{,}16\\times 10^{8}}{400} = 0{,}54\\,\\text{MJ kg}^{-1}$, unas 80 veces menor que la gasolina. (1) Los vehículos eléctricos deben llevar una masa mucho mayor para la misma autonomía. (1)",
+      "marks": 2
+    }
+  ]
+}
