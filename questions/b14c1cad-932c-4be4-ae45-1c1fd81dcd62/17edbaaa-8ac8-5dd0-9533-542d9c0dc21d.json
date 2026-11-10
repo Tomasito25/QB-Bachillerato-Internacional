@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "17edbaaa-8ac8-5dd0-9533-542d9c0dc21d",
+  "rev": 1,
+  "statement": "Un altavoz que emite un tono de $4000\\,\\text{Hz}$ se mueve sobre un carril hacia un micrófono fijo. Para rapideces $v$ mucho menores que la rapidez $c$ del sonido, el cambio de frecuencia que registra el micrófono cumple $\\dfrac{\\Delta f}{f} = \\dfrac{v}{c}$. Se mide $\\Delta f$ para cinco valores de $v$. La recta continua es la de ajuste. Las rectas discontinuas, de pendiente máxima y mínima, pasan por los extremos de las barras de error del primer y del último punto.\n\n![Gráfica del cambio de frecuencia, en Hz, frente a la rapidez del altavoz, en m/s, con cinco puntos entre 1 y 5 m/s. Los puntos llevan barras de error verticales. Hay una recta de ajuste continua y dos rectas discontinuas, de pendiente máxima y mínima.](qbimg:8335e74891b378ad947076a28230db21336b670bc50e4f99e2e9682497d86861)",
+  "images": [
+    {
+      "hash": "8335e74891b378ad947076a28230db21336b670bc50e4f99e2e9682497d86861",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 17082,
+      "alt": "Gráfica del cambio de frecuencia, en Hz, frente a la rapidez del altavoz, en m/s, con cinco puntos entre 1 y 5 m/s. Los puntos llevan barras de error verticales. Hay una recta de ajuste continua y dos rectas discontinuas, de pendiente máxima y mínima."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b6748547-3168-5ee0-bf68-69344d13836f",
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "datos",
+    "gráficas",
+    "incertidumbres",
+    "efecto Doppler"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:14.000Z",
+  "updatedAt": "2026-11-10T07:21:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la pendiente de la recta de ajuste, con su unidad.",
+      "modelAnswer": "Con los puntos $(0;\\,0)$ y $(5;\\,60)$: $\\dfrac{60}{5} = 12{,}0$ (1) $\\text{Hz s m}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la rapidez del sonido.",
+      "modelAnswer": "$\\Delta f = \\dfrac{f}{c}\\,v$, de modo que la pendiente es $\\dfrac{f}{c}$. (1) $c = \\dfrac{4000}{12{,}0} = 333\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la incertidumbre absoluta de $c$ a partir de las rectas de pendiente máxima y mínima.",
+      "modelAnswer": "Pendiente máxima: $\\dfrac{62 - 10}{5 - 1} = 13{,}0\\,\\text{Hz s m}^{-1}$. Pendiente mínima: $\\dfrac{58 - 14}{5 - 1} = 11{,}0\\,\\text{Hz s m}^{-1}$. La incertidumbre de la pendiente es $\\dfrac{13{,}0 - 11{,}0}{2} = 1{,}0\\,\\text{Hz s m}^{-1}$, un $8{,}3\\,\\%$. (1) $c$ tiene la misma incertidumbre porcentual: $\\Delta c = 0{,}083\\cdot 333 = 28\\,\\text{m s}^{-1}$, que con una cifra significativa da $c = (3{,}3 \\pm 0{,}3)\\times 10^{2}\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El valor aceptado a la temperatura del laboratorio es de $343\\,\\text{m s}^{-1}$. Comenta el resultado.",
+      "modelAnswer": "Es compatible: $343\\,\\text{m s}^{-1}$ queda dentro del intervalo de la medida, entre $300\\,\\text{m s}^{-1}$ y $360\\,\\text{m s}^{-1}$. El resultado es exacto, pero poco preciso, con una incertidumbre del 8 %.",
+      "marks": 1
+    }
+  ]
+}
