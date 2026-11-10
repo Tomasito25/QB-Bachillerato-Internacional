@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "4486c709-8649-5879-ad71-d2d36af5f962",
+  "rev": 1,
+  "statement": "Un hilo horizontal transporta corriente hacia el norte, en un campo magnético vertical dirigido hacia arriba. ¿En qué dirección actúa la fuerza sobre el hilo?",
+  "explanation": "Con la regla de la mano derecha, la corriente hacia el norte y el campo hacia arriba dan una fuerza hacia el este.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "fuerza sobre un conductor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:38.000Z",
+  "updatedAt": "2026-11-10T07:21:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hacia el oeste",
+      "correct": false,
+      "feedback": "Aplica la regla de la mano derecha al producto corriente × campo."
+    },
+    {
+      "id": "b",
+      "text": "Hacia el este",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Hacia el sur",
+      "correct": false,
+      "feedback": "La fuerza es perpendicular a la corriente."
+    },
+    {
+      "id": "d",
+      "text": "Hacia arriba",
+      "correct": false,
+      "feedback": "La fuerza es perpendicular al campo."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

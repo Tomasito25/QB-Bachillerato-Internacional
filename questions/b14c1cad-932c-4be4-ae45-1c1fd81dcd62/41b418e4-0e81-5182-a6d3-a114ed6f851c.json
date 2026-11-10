@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "41b418e4-0e81-5182-a6d3-a114ed6f851c",
+  "rev": 1,
+  "statement": "Un ciclista circula en llano, sobre una bicicleta con un medidor de potencia. La fuerza de resistencia del aire es $F = kv^2$, donde $k$ es una constante. Las demás resistencias son despreciables. Se mide la potencia $P$ a varias rapideces constantes $v$.\n\n| $v$ / m s⁻¹ | 4,0 | 6,0 | 8,0 | 10 | 12 |\n|---|---|---|---|---|---|\n| $P$ / W | 19 | 66 | 152 | 303 | 515 |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "datos",
+    "potencia",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:38.000Z",
+  "updatedAt": "2026-11-10T07:21:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Demuestra que $P = kv^3$.",
+      "modelAnswer": "A velocidad constante, la fuerza motriz iguala a la resistencia, $F = kv^2$. (1) $P = Fv = kv^3$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica qué magnitudes hay que representar para obtener una recta, y qué representa su pendiente.",
+      "modelAnswer": "$P$ frente a $v^3$. (1) La pendiente es $k$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina $k$ utilizando los puntos primero y último de la tabla.",
+      "modelAnswer": "$v^3$ vale $64\\,\\text{m}^{3}\\,\\text{s}^{-3}$ y $1728\\,\\text{m}^{3}\\,\\text{s}^{-3}$. (1) $k = \\dfrac{515 - 19}{1728 - 64} = 0{,}30$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina las unidades de $k$ en unidades fundamentales del SI.",
+      "modelAnswer": "$k = \\dfrac{F}{v^2}$: $\\dfrac{\\text{kg m s}^{-2}}{\\text{m}^2\\,\\text{s}^{-2}}$. (1) Es decir, $kg m-1$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Calcula la potencia necesaria para circular a $15\\,\\text{m s}^{-1}$.",
+      "modelAnswer": "$P = 0{,}30\\cdot 15^3 = 1{,}0\\times 10^{3}\\,\\text{W}$.",
+      "marks": 1
+    },
+    {
+      "id": "f",
+      "statement": "Calcula en qué porcentaje debe aumentar la potencia para ir un 10 % más rápido.",
+      "modelAnswer": "$1{,}10^3 = 1{,}33$, así que debe aumentar un 33 %.",
+      "marks": 1
+    }
+  ]
+}

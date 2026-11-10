@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "402c57fe-e1ab-50f7-b19b-ef3cc7d5f930",
+  "rev": 1,
+  "statement": "Un cilindro cuelga de un dinamómetro y se va sumergiendo poco a poco en un líquido. La gráfica muestra la lectura del dinamómetro frente al volumen sumergido, con su recta de ajuste.\n\n![Gráfica de la lectura del dinamómetro, en N, frente al volumen sumergido, en cm³. Seis puntos con barras de error verticales descienden de forma lineal; hay una recta de ajuste.](qbimg:9019092bf2b45a3921a911fa87c174f0dda974ea655f7bd474b59bbde159c149)",
+  "images": [
+    {
+      "hash": "9019092bf2b45a3921a911fa87c174f0dda974ea655f7bd474b59bbde159c149",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 18380,
+      "alt": "Gráfica de la lectura del dinamómetro, en N, frente al volumen sumergido, en cm³. Seis puntos con barras de error verticales descienden de forma lineal; hay una recta de ajuste."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b6748547-3168-5ee0-bf68-69344d13836f",
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "datos",
+    "gráficas",
+    "empuje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:38.000Z",
+  "updatedAt": "2026-11-10T07:21:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que se espera una recta de pendiente $-\\rho g$, donde $\\rho$ es la densidad del líquido.",
+      "modelAnswer": "La lectura es el peso menos el empuje. (1) $F = W - \\rho g V$: es lineal en $V$, con pendiente $-\\rho g$ y ordenada en el origen igual al peso $W$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la pendiente de la recta, en $\\text{N m}^{-3}$.",
+      "modelAnswer": "Con los puntos $(0;\\,2{,}40)$ y $(100;\\,1{,}20)$: $\\dfrac{1{,}20 - 2{,}40}{100 - 0} = -0{,}012\\,\\text{N cm}^{-3}$. (1) Como $1\\,\\text{cm}^3 = 10^{-6}\\,\\text{m}^3$, la pendiente es de $-1{,}2\\times 10^{4}\\,\\text{N m}^{-3}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la densidad del líquido.",
+      "modelAnswer": "$\\rho = \\dfrac{1{,}2\\times 10^{4}}{9{,}81} = 1{,}2\\times 10^{3}\\,\\text{kg m}^{-3}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Describe cómo continuaría la gráfica una vez que el cilindro quede sumergido por completo.",
+      "modelAnswer": "Se haría horizontal: el volumen de líquido desalojado ya no aumenta, y el empuje y la lectura se mantienen constantes.",
+      "marks": 1
+    }
+  ]
+}

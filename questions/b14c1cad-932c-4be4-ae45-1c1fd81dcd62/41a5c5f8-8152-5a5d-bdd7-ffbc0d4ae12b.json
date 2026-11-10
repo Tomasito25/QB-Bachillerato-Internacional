@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "41a5c5f8-8152-5a5d-bdd7-ffbc0d4ae12b",
+  "rev": 1,
+  "statement": "Un planeta que orbita una estrella hace que esta se mueva alrededor del centro de masas común. Una línea espectral de la estrella, de $500{,}0000\\,\\text{nm}$ en el laboratorio, varía periódicamente entre $499{,}9998\\,\\text{nm}$ y $500{,}0002\\,\\text{nm}$, con un periodo de 10,0 días. La órbita se ve de canto. Usa $c = 3{,}00\\times 10^{8}\\,\\text{m s}^{-1}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "exoplanetas",
+    "corrimiento al rojo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:38.000Z",
+  "updatedAt": "2026-11-10T07:21:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué la línea espectral se desplaza periódicamente.",
+      "modelAnswer": "Al orbitar, la estrella se acerca y se aleja de la Tierra alternativamente. (1) Su velocidad a lo largo de la línea de visión cambia, lo que causa un efecto Doppler variable. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la velocidad orbital de la estrella.",
+      "modelAnswer": "$v = c\\dfrac{\\Delta\\lambda}{\\lambda} = 3{,}00\\times 10^{8}\\cdot\\dfrac{2\\times 10^{-4}}{500} = 120\\,\\text{m s}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el radio de la órbita de la estrella alrededor del centro de masas.",
+      "modelAnswer": "$r_e = \\dfrac{vT}{2\\pi} = \\dfrac{120\\cdot 8{,}64\\times 10^{5}}{2\\pi} = 1{,}7\\times 10^{7}\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "La estrella tiene una masa de $2{,}0\\times 10^{30}\\,\\text{kg}$ y el planeta orbita a $1{,}4\\times 10^{10}\\,\\text{m}$ del centro de masas. Sabiendo que $M r_e = m r_p$, determina la masa del planeta.",
+      "modelAnswer": "$m = \\dfrac{2{,}0\\times 10^{30}\\cdot 1{,}65\\times 10^{7}}{1{,}4\\times 10^{10}} = 2{,}4\\times 10^{27}\\,\\text{kg}$.",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Describe la gráfica de la velocidad radial de la estrella frente al tiempo, para una órbita circular.",
+      "modelAnswer": "Una sinusoide centrada en cero, de amplitud $120\\,\\text{m s}^{-1}$ y periodo de 10,0 días.",
+      "marks": 2
+    }
+  ]
+}
