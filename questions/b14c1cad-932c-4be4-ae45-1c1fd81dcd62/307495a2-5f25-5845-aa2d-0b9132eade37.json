@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "307495a2-5f25-5845-aa2d-0b9132eade37",
+  "rev": 1,
+  "statement": "Un tren con la bocina encendida pasa a velocidad constante muy cerca de una persona parada. ¿Cómo cambia la frecuencia que oye esa persona?",
+  "explanation": "Mientras se acerca, los frentes llegan más seguidos; mientras se aleja, más espaciados. El cambio entre los dos valores se produce al pasar por delante de la persona.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "sonido",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Es mayor que la emitida al acercarse el tren y cae a un valor menor que la emitida al alejarse.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Siempre es igual a la emitida, y sólo cambia la intensidad.",
+      "correct": false,
+      "feedback": "El movimiento relativo cambia la frecuencia percibida."
+    },
+    {
+      "id": "c",
+      "text": "Aumenta continuamente mientras el tren se acerca, y disminuye al alejarse.",
+      "correct": false,
+      "feedback": "Con velocidad constante, la frecuencia percibida es casi constante mientras se acerca."
+    },
+    {
+      "id": "d",
+      "text": "Es igual a la emitida al acercarse, y menor al alejarse.",
+      "correct": false,
+      "feedback": "Al acercarse, la frecuencia percibida es mayor."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

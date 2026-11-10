@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "27f27471-67cc-5509-9ef7-2c594c4d057f",
+  "rev": 1,
+  "statement": "Una masa fija de gas ideal se calienta a volumen constante. ¿Cómo es la gráfica de la presión frente a la temperatura en grados Celsius?",
+  "explanation": "$p \\propto T_K = T_C + 273$. La recta tiene ordenada en el origen positiva y se anularía a $-273\\,°\\text{C}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gráficas",
+    "cero absoluto"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una recta que pasa por el origen.",
+      "correct": false,
+      "feedback": "Eso ocurre sólo si la temperatura está en kelvin."
+    },
+    {
+      "id": "b",
+      "text": "Una hipérbola decreciente.",
+      "correct": false,
+      "feedback": "Esa es la forma de p frente a V a temperatura constante."
+    },
+    {
+      "id": "c",
+      "text": "Una recta que, prolongada, corta el eje de temperaturas en $-273\\,°\\text{C}$.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Una recta horizontal.",
+      "correct": false,
+      "feedback": "A volumen constante, la presión aumenta con la temperatura."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

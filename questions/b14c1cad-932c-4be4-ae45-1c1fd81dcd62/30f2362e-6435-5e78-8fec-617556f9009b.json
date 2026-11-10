@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "30f2362e-6435-5e78-8fec-617556f9009b",
+  "rev": 1,
+  "statement": "Una esfera metálica de un generador de Van de Graaff tiene un radio de $0{,}15\\,\\text{m}$. El aire se ioniza cuando el campo eléctrico alcanza los $3{,}0\\times 10^{6}\\,\\text{N C}^{-1}$. Fuera de la esfera, el campo es el de una carga puntual en su centro. Usa $k = 8{,}99\\times 10^{9}\\,\\text{N m}^2\\,\\text{C}^{-2}$ y $e = 1{,}6\\times 10^{-19}\\,\\text{C}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo eléctrico",
+    "carga eléctrica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la carga máxima que puede almacenar la esfera.",
+      "modelAnswer": "$E = \\dfrac{kQ}{r^2}$, de modo que $Q = \\dfrac{3{,}0\\times 10^{6}\\cdot 0{,}15^2}{8{,}99\\times 10^{9}} = 7{,}5\\times 10^{-6}\\,\\text{C}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Si la carga es positiva, determina cuántos electrones ha perdido la esfera.",
+      "modelAnswer": "$N = \\dfrac{Q}{e} = 4{,}7\\times 10^{13}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el campo a $1{,}0\\,\\text{m}$ del centro y la fuerza sobre una carga de prueba de $1{,}0\\,\\text{nC}$ en ese punto.",
+      "modelAnswer": "$E = 6{,}7\\times 10^{4}\\,\\text{N C}^{-1}$. (1) $F = qE = 6{,}7\\times 10^{-5}\\,\\text{N}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Describe las líneas de campo fuera de la esfera y explica por qué la carga se reparte por su superficie.",
+      "modelAnswer": "Son radiales y salen hacia fuera, perpendiculares a la superficie. (1) Las cargas iguales se repelen y se alejan tanto como pueden, de modo que se quedan en la superficie del conductor. (1)",
+      "marks": 2
+    }
+  ]
+}

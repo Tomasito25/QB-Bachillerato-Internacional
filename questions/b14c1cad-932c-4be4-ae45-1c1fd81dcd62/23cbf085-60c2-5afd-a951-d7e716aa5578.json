@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "23cbf085-60c2-5afd-a951-d7e716aa5578",
+  "rev": 1,
+  "statement": "La figura muestra los frentes de onda emitidos por una fuente sonora en movimiento uniforme.\n\n![Frentes de onda circulares no concéntricos: están más juntos en el lado izquierdo, hacia el punto A, y más separados en el lado derecho, hacia el punto B.](qbimg:127b3b34c5d449382d057fce23141e54af630e2682095acb13b707dd2c755bd8)\n\n¿Hacia dónde se mueve la fuente, y dónde se percibe mayor frecuencia?",
+  "explanation": "Los frentes están más próximos en el lado izquierdo, que es hacia donde avanza la fuente. Allí la longitud de onda es menor y, como la rapidez no cambia, la frecuencia observada es mayor.",
+  "images": [
+    {
+      "hash": "127b3b34c5d449382d057fce23141e54af630e2682095acb13b707dd2c755bd8",
+      "ext": "png",
+      "width": 1120,
+      "height": 600,
+      "bytes": 30966,
+      "alt": "Frentes de onda circulares no concéntricos: están más juntos en el lado izquierdo, hacia el punto A, y más separados en el lado derecho, hacia el punto B."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "frentes de onda"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:27.000Z",
+  "updatedAt": "2026-11-10T07:21:27.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hacia la izquierda; se percibe mayor frecuencia en A.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Hacia la izquierda; se percibe mayor frecuencia en B.",
+      "correct": false,
+      "feedback": "La frecuencia es mayor donde los frentes están más próximos."
+    },
+    {
+      "id": "c",
+      "text": "Hacia la derecha; se percibe mayor frecuencia en B.",
+      "correct": false,
+      "feedback": "Los frentes se apiñan en el lado hacia el que avanza la fuente."
+    },
+    {
+      "id": "d",
+      "text": "Hacia la derecha; se percibe mayor frecuencia en A.",
+      "correct": false,
+      "feedback": "Los frentes están más apretados por delante de la fuente."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
