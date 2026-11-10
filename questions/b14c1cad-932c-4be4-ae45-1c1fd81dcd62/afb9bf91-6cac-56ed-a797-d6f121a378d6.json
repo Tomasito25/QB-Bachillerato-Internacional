@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "afb9bf91-6cac-56ed-a797-d6f121a378d6",
+  "rev": 1,
+  "statement": "El volumen de una muestra de gas ideal se duplica, y su temperatura absoluta se triplica. ¿Por qué factor se multiplica la presión?",
+  "explanation": "$p = \\dfrac{nRT}{V}$, así que el factor es $\\dfrac{3}{2} = 1{,}5$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}0$",
+      "correct": false,
+      "feedback": "El volumen está en el denominador."
+    },
+    {
+      "id": "b",
+      "text": "$5{,}0$",
+      "correct": false,
+      "feedback": "Los factores no se suman."
+    },
+    {
+      "id": "c",
+      "text": "$1{,}5$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}67$",
+      "correct": false,
+      "feedback": "Está invertido: la presión es proporcional a T y a 1/V."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "b112020e-eb3f-59d1-bf0c-d5b3b462ad9a",
+  "rev": 1,
+  "statement": "Un cilindro vertical contiene gas cerrado por un émbolo sin rozamiento de $20\\,\\text{cm}^{2}$ de área. Sobre el émbolo hay una pesa que, junto con él, pesa $50\\,\\text{N}$. La presión atmosférica es de $1{,}0\\times 10^{5}\\,\\text{Pa}$. ¿Cuál es la presión del gas?",
+  "explanation": "$p = p_{\\text{atm}} + \\dfrac{F}{A} = 1{,}0\\times 10^{5} + \\dfrac{50}{2{,}0\\times 10^{-3}} = 1{,}25\\times 10^{5}\\,\\text{Pa}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "presión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}25\\times 10^{5}\\,\\text{Pa}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$1{,}1\\times 10^{5}\\,\\text{Pa}$",
+      "correct": false,
+      "feedback": "Pasa los cm² a m² correctamente: 20 cm² = 2,0 × 10⁻³ m²."
+    },
+    {
+      "id": "c",
+      "text": "$1{,}0\\times 10^{5}\\,\\text{Pa}$",
+      "correct": false,
+      "feedback": "Falta la presión debida a la pesa."
+    },
+    {
+      "id": "d",
+      "text": "$2{,}5\\times 10^{4}\\,\\text{Pa}$",
+      "correct": false,
+      "feedback": "Falta sumar la presión atmosférica."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

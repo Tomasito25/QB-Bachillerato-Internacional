@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "ac157b86-2a0b-5878-84cb-0c777564590e",
+  "rev": 1,
+  "statement": "Dos masas puntuales iguales, $M$, están en una misma línea. Un punto P de esa línea queda a una distancia $d$ de una y $3d$ de la otra, por fuera de las dos. ¿Cuál es el módulo del campo gravitatorio en P?",
+  "explanation": "Ambos campos apuntan hacia las masas, en el mismo sentido: $g = \\dfrac{GM}{d^2} + \\dfrac{GM}{9d^2} = \\dfrac{10}{9}\\dfrac{GM}{d^2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "campo gravitatorio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\dfrac{8}{9}\\dfrac{GM}{d^2}$",
+      "correct": false,
+      "feedback": "Por fuera de las dos masas, los campos tienen el mismo sentido y se suman."
+    },
+    {
+      "id": "b",
+      "text": "$\\dfrac{4}{3}\\dfrac{GM}{d^2}$",
+      "correct": false,
+      "feedback": "El campo depende de 1/r², no de 1/r."
+    },
+    {
+      "id": "c",
+      "text": "$\\dfrac{GM}{d^2}$",
+      "correct": false,
+      "feedback": "Falta la contribución de la masa más lejana."
+    },
+    {
+      "id": "d",
+      "text": "$\\dfrac{10}{9}\\dfrac{GM}{d^2}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "a7d378f7-0fba-55fa-83fa-0c3dde4fcdc9",
+  "rev": 1,
+  "statement": "Se sumerge una bobina de hilo de cobre en un baño de aceite y se mide su resistencia $R$ a distintas temperaturas $\\theta$. En ese intervalo se espera que $R = R_0(1 + \\alpha\\theta)$, donde $R_0$ es la resistencia a $0\\,°\\text{C}$ y $\\alpha$ es una constante del metal. La gráfica muestra los datos y su recta de ajuste.\n\n![Gráfica de la resistencia, en Ω, frente a la temperatura, en °C. Cinco puntos con barras de error verticales, entre 20 y 100 °C, y una recta de ajuste que corta el eje vertical.](qbimg:0ed501dfad1b7119c748f058ac7013caada13888cd0965641903738dbfe5f928)",
+  "images": [
+    {
+      "hash": "0ed501dfad1b7119c748f058ac7013caada13888cd0965641903738dbfe5f928",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 14769,
+      "alt": "Gráfica de la resistencia, en Ω, frente a la temperatura, en °C. Cinco puntos con barras de error verticales, entre 20 y 100 °C, y una recta de ajuste que corta el eje vertical."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b6748547-3168-5ee0-bf68-69344d13836f",
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "datos",
+    "gráficas",
+    "incertidumbres",
+    "resistencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la ordenada en el origen y la pendiente de la recta.",
+      "modelAnswer": "Ordenada en el origen: $10{,}0\\,\\Omega$. (1) Con los puntos $(0;\\,10{,}0)$ y $(100;\\,14{,}0)$: $\\dfrac{14{,}0 - 10{,}0}{100 - 0} = 0{,}040\\,\\Omega\\,°\\text{C}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina $\\alpha$.",
+      "modelAnswer": "$R = R_0 + R_0\\alpha\\,\\theta$: la ordenada en el origen es $R_0$ y la pendiente, $R_0\\alpha$. (1) $\\alpha = \\dfrac{0{,}040}{10{,}0} = 4{,}0\\times 10^{-3}\\,°\\text{C}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "La incertidumbre de la ordenada en el origen es del 1 % y la de la pendiente, del 5 %. Determina la incertidumbre absoluta de $\\alpha$.",
+      "modelAnswer": "$\\alpha$ es un cociente, así que se suman las incertidumbres porcentuales: 6 %. (1) $\\Delta\\alpha = 0{,}06\\cdot 4{,}0\\times 10^{-3} = 2{,}4\\times 10^{-4}\\,°\\text{C}^{-1}$, que se redondea a una cifra significativa: $\\alpha = (4{,}0 \\pm 0{,}2)\\times 10^{-3}\\,°\\text{C}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué la corriente que se usa para medir la resistencia debe ser pequeña.",
+      "modelAnswer": "Para que la bobina no se caliente al disipar energía: su temperatura sería mayor que la del baño, que es la que marca el termómetro, y la resistencia medida saldría demasiado alta.",
+      "marks": 1
+    }
+  ]
+}

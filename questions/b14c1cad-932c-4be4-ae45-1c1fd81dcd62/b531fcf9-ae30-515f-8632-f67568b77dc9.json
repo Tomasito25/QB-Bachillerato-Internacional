@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "b531fcf9-ae30-515f-8632-f67568b77dc9",
+  "rev": 1,
+  "statement": "Un globo aerostático tiene $2000\\,\\text{m}^{3}$ de volumen y está abierto por abajo, de modo que la presión dentro y fuera es la misma. Fuera, el aire está a $15\\,°\\text{C}$ y tiene una densidad de $1{,}22\\,\\text{kg m}^{-3}$. Dentro, el aire se calienta hasta $90\\,°\\text{C}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal",
+    "flotabilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Demuestra que, a presión constante, la densidad de un gas ideal es inversamente proporcional a su temperatura absoluta.",
+      "modelAnswer": "$pV = nRT$, y $m = nM$, de modo que $\\rho = \\dfrac{m}{V} = \\dfrac{pM}{RT}$. (1) Con $p$ y $M$ constantes, $\\rho \\propto \\dfrac{1}{T}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la densidad del aire interior.",
+      "modelAnswer": "$\\rho = 1{,}22\\cdot\\dfrac{288}{363} = 0{,}97\\,\\text{kg m}^{-3}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la masa del aire desplazado por el globo y la del aire que hay en su interior.",
+      "modelAnswer": "Desplazado: $1{,}22\\cdot 2000 = 2440\\,\\text{kg}$. (1) Interior: $0{,}968\\cdot 2000 = 1940\\,\\text{kg}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la masa máxima de la envoltura, la cesta y los pasajeros para que el globo flote en equilibrio.",
+      "modelAnswer": "Empuje = peso total: $2440 = 1940 + m$. (1) $m = 5{,}0\\times 10^{2}\\,\\text{kg}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué sale aire del globo al calentarlo.",
+      "modelAnswer": "Al aumentar la temperatura aumenta la energía cinética media de las moléculas, y con la presión constante el gas tiene que expandirse. (1) Como el globo no aumenta de volumen, parte del aire sale por la abertura. (1)",
+      "marks": 2
+    }
+  ]
+}
