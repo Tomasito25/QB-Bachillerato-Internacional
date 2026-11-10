@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "76b3e914-ad45-5035-bd16-2302d8b000f7",
+  "rev": 1,
+  "statement": "La gráfica es una instantánea de una onda que avanza por una cuerda a $10\\,\\text{m s}^{-1}$.\n\n![Instantánea de una onda: sinusoide de amplitud 3 cm cuyo desplazamiento se repite cada 4,0 m, desde x = 0 hasta x = 8,0 m.](qbimg:7faff4259b1709442de6a8afcafe81324c98c5a1f27c67c4dcdd9d19eb447d37)\n\n¿Cuál es la frecuencia de la onda?",
+  "explanation": "En la gráfica, $\\lambda = 4{,}0\\,\\text{m}$. Así, $f = \\dfrac{v}{\\lambda} = \\dfrac{10}{4{,}0} = 2{,}5\\,\\text{Hz}$.",
+  "images": [
+    {
+      "hash": "7faff4259b1709442de6a8afcafe81324c98c5a1f27c67c4dcdd9d19eb447d37",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 17362,
+      "alt": "Instantánea de una onda: sinusoide de amplitud 3 cm cuyo desplazamiento se repite cada 4,0 m, desde x = 0 hasta x = 8,0 m."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "gráficas",
+    "velocidad de onda"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}40\\,\\text{Hz}$",
+      "correct": false,
+      "feedback": "Ese es el periodo."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}5\\,\\text{Hz}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$3{,}3\\,\\text{Hz}$",
+      "correct": false,
+      "feedback": "La longitud de onda es 4,0 m, no 3,0 m."
+    },
+    {
+      "id": "d",
+      "text": "$40\\,\\text{Hz}$",
+      "correct": false,
+      "feedback": "Hay que dividir la velocidad entre la longitud de onda."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
