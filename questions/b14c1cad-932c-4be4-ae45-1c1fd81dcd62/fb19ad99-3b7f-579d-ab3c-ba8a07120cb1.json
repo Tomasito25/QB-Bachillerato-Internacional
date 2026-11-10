@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "fb19ad99-3b7f-579d-ab3c-ba8a07120cb1",
+  "rev": 1,
+  "statement": "Dos resistencias de $10\\,\\text{k}\\Omega$ se conectan en serie a una fuente de $12\\,\\text{V}$. Se mide la tensión en una de ellas con un voltímetro de $10\\,\\text{k}\\Omega$ de resistencia interna. ¿Qué marca el voltímetro?",
+  "explanation": "El voltímetro y la resistencia en paralelo forman $5{,}0\\,\\text{k}\\Omega$. El divisor da $12\\cdot\\dfrac{5{,}0}{5{,}0 + 10} = 4{,}0\\,\\text{V}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "divisor de tensión",
+    "voltímetro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}0\\,\\text{V}$",
+      "correct": false,
+      "feedback": "La combinación en paralelo vale 5 kΩ."
+    },
+    {
+      "id": "b",
+      "text": "$4{,}0\\,\\text{V}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$6{,}0\\,\\text{V}$",
+      "correct": false,
+      "feedback": "Eso sería con un voltímetro ideal."
+    },
+    {
+      "id": "d",
+      "text": "$8{,}0\\,\\text{V}$",
+      "correct": false,
+      "feedback": "Esa es la tensión en la otra resistencia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

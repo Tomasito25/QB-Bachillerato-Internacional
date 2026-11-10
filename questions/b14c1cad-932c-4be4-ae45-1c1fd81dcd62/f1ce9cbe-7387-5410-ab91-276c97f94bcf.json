@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "f1ce9cbe-7387-5410-ab91-276c97f94bcf",
+  "rev": 1,
+  "statement": "Una estrella se acerca a la Tierra a $30\\,\\text{km s}^{-1}$. ¿En qué longitud de onda se observa una línea cuyo valor de laboratorio es de $500{,}00\\,\\text{nm}$? Usa $c = 3{,}0\\times 10^{8}\\,\\text{m s}^{-1}$.",
+  "explanation": "$\\Delta\\lambda = \\lambda\\dfrac{v}{c} = 500\\cdot\\dfrac{3{,}0\\times 10^{4}}{3{,}0\\times 10^{8}} = 0{,}050\\,\\text{nm}$. Se acerca, así que el valor observado es menor.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "corrimiento al azul"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$505{,}00\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "Al acercarse, la longitud de onda disminuye, y el cambio relativo es 10⁻⁴."
+    },
+    {
+      "id": "b",
+      "text": "$500{,}05\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "Al acercarse, la longitud de onda disminuye."
+    },
+    {
+      "id": "c",
+      "text": "$499{,}95\\,\\text{nm}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$495{,}00\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "El cambio relativo es 10⁻⁴, no 10⁻²."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "fa474a23-b306-514d-96e5-d023def5a1d4",
+  "rev": 1,
+  "statement": "Dos patinadores en reposo sobre hielo, de $40\\,\\text{kg}$ y $60\\,\\text{kg}$, se empujan. El de $40\\,\\text{kg}$ sale a $3{,}0\\,\\text{m s}^{-1}$. ¿Cuánta energía cinética total ganan entre los dos?",
+  "explanation": "La cantidad de movimiento total sigue siendo cero, así que el segundo sale a $2{,}0\\,\\text{m s}^{-1}$. $E_k = \\frac{1}{2}\\cdot 40\\cdot 9{,}0 + \\frac{1}{2}\\cdot 60\\cdot 4{,}0 = 300\\,\\text{J}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "explosiones",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$450\\,\\text{J}$",
+      "correct": false,
+      "feedback": "El de 60 kg sale a 2,0 m/s, no a 3,0 m/s."
+    },
+    {
+      "id": "b",
+      "text": "$300\\,\\text{J}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$180\\,\\text{J}$",
+      "correct": false,
+      "feedback": "Esa es sólo la del patinador de 40 kg."
+    },
+    {
+      "id": "d",
+      "text": "$120\\,\\text{J}$",
+      "correct": false,
+      "feedback": "Esa es sólo la del patinador de 60 kg."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

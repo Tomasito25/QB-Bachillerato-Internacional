@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "ffe75d48-0023-5e15-95c9-355ac4e8565c",
+  "rev": 1,
+  "statement": "Con un sensor de luz se mide la intensidad $I$ de la radiación de una lámpara pequeña a distintas distancias $d$ de ella, en una habitación a oscuras.\n\n| $d$ / m | 0,20 | 0,25 | 0,40 | 0,50 | 1,00 |\n|---|---|---|---|---|---|\n| $I$ / $\\text{W m}^{-2}$ | 20,2 | 12,6 | 5,2 | 3,0 | 1,0 |\n\nLa gráfica muestra $I$ frente a $\\dfrac{1}{d^2}$, con su recta de ajuste.\n\n![Gráfica de la intensidad, en W/m², frente al inverso del cuadrado de la distancia, en m⁻². Cinco puntos con barras de error verticales, entre 1 y 25 m⁻², y una recta de ajuste que pasa por el origen.](qbimg:dd2d1cfc4b54cb13fd0fb2cc713d7a795ca5fc2122dca0fe4b92f27473d758b6)",
+  "images": [
+    {
+      "hash": "dd2d1cfc4b54cb13fd0fb2cc713d7a795ca5fc2122dca0fe4b92f27473d758b6",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 14155,
+      "alt": "Gráfica de la intensidad, en W/m², frente al inverso del cuadrado de la distancia, en m⁻². Cinco puntos con barras de error verticales, entre 1 y 25 m⁻², y una recta de ajuste que pasa por el origen."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "datos",
+    "linealización",
+    "intensidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué conviene representar $I$ frente a $\\dfrac{1}{d^2}$, y no frente a $d$, para comprobar que $I = \\dfrac{P}{4\\pi d^2}$.",
+      "modelAnswer": "Frente a $d$ sale una curva, y a simple vista no se distingue una dependencia con $\\dfrac{1}{d^2}$ de otra parecida, como $\\dfrac{1}{d}$. (1) Frente a $\\dfrac{1}{d^2}$ debe salir una recta que pase por el origen: es fácil de comprobar y su pendiente se puede medir. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el valor de $\\dfrac{1}{d^2}$ que corresponde a la distancia de $0{,}40\\,\\text{m}$.",
+      "modelAnswer": "$\\dfrac{1}{0{,}40^2} = 6{,}25\\,\\text{m}^{-2}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la pendiente de la recta, con su unidad.",
+      "modelAnswer": "Con los puntos $(0;\\,0)$ y $(25;\\,20)$: $\\dfrac{20}{25} = 0{,}80$ (1) $\\text{W}$, porque $\\text{W m}^{-2}$ entre $\\text{m}^{-2}$ da vatios. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la potencia que emite la lámpara, suponiendo que radia por igual en todas las direcciones.",
+      "modelAnswer": "La pendiente es $\\dfrac{P}{4\\pi}$, de modo que $P = 4\\pi\\cdot 0{,}80 = 10\\,\\text{W}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Indica cómo se notaría en la gráfica que la habitación no estaba del todo a oscuras.",
+      "modelAnswer": "La recta no pasaría por el origen: cortaría el eje vertical en un valor positivo, igual a la intensidad de la luz ambiente.",
+      "marks": 1
+    }
+  ]
+}

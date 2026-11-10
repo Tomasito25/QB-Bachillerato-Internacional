@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "ef6be787-9aad-5684-9958-c9c5f6dd1ac6",
+  "rev": 1,
+  "statement": "La figura es una instantánea de una onda transversal que avanza hacia la derecha por una cuerda.\n\n![Instantánea de una onda que avanza hacia la derecha. P está en una cresta, Q en el equilibrio tras la cresta, R en un valle y S de nuevo en el equilibrio tras el valle.](qbimg:4b182993a281c00f5888e7599ebe6fadbbfa243e21758e9c8c720072bd10fc56)\n\n¿Qué punto de la cuerda se mueve hacia arriba con la mayor rapidez en ese instante?",
+  "explanation": "Si la onda avanza hacia la derecha, en un instante posterior cada punto toma el desplazamiento de su vecino de la izquierda. Q está en el equilibrio, con cresta a su izquierda: sube a rapidez máxima. S también está en el equilibrio, pero baja. P y R están en los extremos, con velocidad cero.",
+  "images": [
+    {
+      "hash": "4b182993a281c00f5888e7599ebe6fadbbfa243e21758e9c8c720072bd10fc56",
+      "ext": "png",
+      "width": 1120,
+      "height": 520,
+      "bytes": 10436,
+      "alt": "Instantánea de una onda que avanza hacia la derecha. P está en una cresta, Q en el equilibrio tras la cresta, R en un valle y S de nuevo en el equilibrio tras el valle."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "gráficas",
+    "movimiento de las partículas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "P",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Q",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "R",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "S",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
