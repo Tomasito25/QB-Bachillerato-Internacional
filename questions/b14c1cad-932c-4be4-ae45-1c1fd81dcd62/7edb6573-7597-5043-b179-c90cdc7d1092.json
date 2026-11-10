@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "7edb6573-7597-5043-b179-c90cdc7d1092",
+  "rev": 1,
+  "statement": "Una flauta afinada en una sala fría suena más aguda en una sala caliente. ¿Por qué?",
+  "explanation": "$f = \\dfrac{v}{\\lambda}$, y $\\lambda$ queda determinada por la geometría del tubo. Al calentarse el aire, $v$ aumenta y, con ella, $f$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "tubos",
+    "velocidad del sonido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La flauta se contrae con el calor.",
+      "correct": false,
+      "feedback": "Con el calor se dilataría, y este efecto es pequeño."
+    },
+    {
+      "id": "b",
+      "text": "La presión del aire aumenta.",
+      "correct": false,
+      "feedback": "La rapidez del sonido depende de la temperatura, no de la presión."
+    },
+    {
+      "id": "c",
+      "text": "Disminuye la longitud de onda de las ondas estacionarias.",
+      "correct": false,
+      "feedback": "La longitud de onda depende de la longitud del tubo, que apenas cambia."
+    },
+    {
+      "id": "d",
+      "text": "Aumenta la rapidez del sonido en el aire, mientras que la longitud de onda la fija la longitud del tubo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

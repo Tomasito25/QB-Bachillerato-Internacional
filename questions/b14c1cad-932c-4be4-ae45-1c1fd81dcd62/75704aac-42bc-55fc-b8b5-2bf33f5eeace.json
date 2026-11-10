@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "75704aac-42bc-55fc-b8b5-2bf33f5eeace",
+  "rev": 1,
+  "statement": "Un trineo de $20\\,\\text{kg}$ se arrastra por nieve horizontal con una cuerda que forma $30°$ con la horizontal y tira con una fuerza de $80\\,\\text{N}$. El coeficiente de rozamiento dinámico es $0{,}15$. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "rozamiento",
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Identifica las cuatro fuerzas que actúan sobre el trineo, indicando su dirección y sentido.",
+      "modelAnswer": "Peso, vertical hacia abajo. (1) Fuerza normal, vertical hacia arriba. (1) Tensión, a $30°$ sobre la horizontal, hacia delante. (1) Rozamiento, horizontal y opuesto al movimiento. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza normal sobre el trineo.",
+      "modelAnswer": "$F_N = mg - T\\sin 30° = 196 - 40 = 156\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la aceleración del trineo.",
+      "modelAnswer": "$F_f = 0{,}15\\cdot 156 = 23{,}4\\,\\text{N}$. (1) Componente horizontal de la tensión: $80\\cos 30° = 69{,}3\\,\\text{N}$. (1) $a = \\dfrac{69{,}3 - 23{,}4}{20} = 2{,}3\\,\\text{m s}^{-2}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "El trineo se empuja ahora con la misma fuerza, con una barra que forma $30°$ por debajo de la horizontal. Determina la nueva aceleración y explica por qué es menor.",
+      "modelAnswer": "$F_N = 196 + 40 = 236\\,\\text{N}$, así que $F_f = 35{,}4\\,\\text{N}$. (1) $a = \\dfrac{69{,}3 - 35{,}4}{20} = 1{,}7\\,\\text{m s}^{-2}$. (1) Al empujar hacia abajo aumenta la fuerza normal y, con ella, el rozamiento. (1)",
+      "marks": 3
+    }
+  ]
+}

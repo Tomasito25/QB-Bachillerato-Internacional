@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "7c2b3752-a453-5ba4-bf83-6b0c93f9f0ea",
+  "rev": 1,
+  "statement": "Una buceadora está a $2{,}0\\,\\text{m}$ de profundidad, en una piscina de agua en calma ($n = 1{,}33$), y mira hacia arriba. Sólo ve el exterior a través de un círculo brillante de la superficie, situado justo encima de ella.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el ángulo crítico entre el agua y el aire.",
+      "modelAnswer": "$\\sin\\theta_c = \\dfrac{1}{1{,}33}$, luego $\\theta_c = 49°$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina el radio del círculo brillante.",
+      "modelAnswer": "$r = 2{,}0\\tan 48{,}8° = 2{,}3\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el área del círculo.",
+      "modelAnswer": "$A = \\pi r^2 = 16\\,\\text{m}^2$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Describe qué ve la buceadora al mirar hacia una zona de la superficie fuera del círculo. Justifica tu respuesta.",
+      "modelAnswer": "Ve una imagen reflejada del fondo de la piscina, como en un espejo. (1) Los rayos que llegan a esos puntos inciden con ángulos mayores que el crítico, y sufren reflexión total. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica cómo cambia el círculo si la buceadora baja hasta $4{,}0\\,\\text{m}$ de profundidad.",
+      "modelAnswer": "El ángulo crítico no cambia, así que el radio es proporcional a la profundidad: se duplica, y el área se multiplica por 4.",
+      "marks": 2
+    }
+  ]
+}

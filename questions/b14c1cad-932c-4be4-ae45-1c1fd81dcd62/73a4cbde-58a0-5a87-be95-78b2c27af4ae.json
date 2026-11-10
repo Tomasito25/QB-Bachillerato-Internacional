@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "73a4cbde-58a0-5a87-be95-78b2c27af4ae",
+  "rev": 1,
+  "statement": "Un rayo de luz incide con un ángulo de $50°$ sobre la cara de un bloque de vidrio de caras paralelas, de $6{,}0\\,\\text{cm}$ de espesor y de índice de refracción $1{,}5$. Usa $c = 3{,}00\\times 10^{8}\\,\\text{m s}^{-1}$.\n\n![Rayo que incide con 50° sobre un bloque de vidrio de caras paralelas y 6,0 cm de espesor. Dentro se acerca a la normal y sale paralelo al rayo incidente, desplazado lateralmente.](qbimg:a2f8b5e767f61f8f2494305ee4b0fae46ab1d61798a5b6fc9e6a98eea1d1cfe6)",
+  "images": [
+    {
+      "hash": "a2f8b5e767f61f8f2494305ee4b0fae46ab1d61798a5b6fc9e6a98eea1d1cfe6",
+      "ext": "png",
+      "width": 1040,
+      "height": 680,
+      "bytes": 12629,
+      "alt": "Rayo que incide con 50° sobre un bloque de vidrio de caras paralelas y 6,0 cm de espesor. Dentro se acerca a la normal y sale paralelo al rayo incidente, desplazado lateralmente."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "refracción",
+    "ley de Snell"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el ángulo de refracción dentro del vidrio.",
+      "modelAnswer": "$\\sin r = \\dfrac{\\sin 50°}{1{,}5} = 0{,}51$. (1) $r = 31°$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la distancia que recorre el rayo dentro del bloque.",
+      "modelAnswer": "$\\dfrac{6{,}0}{\\cos 30{,}7°} = 7{,}0\\,\\text{cm}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el tiempo que tarda el rayo en atravesar el bloque.",
+      "modelAnswer": "$v = \\dfrac{c}{n} = 2{,}0\\times 10^{8}\\,\\text{m s}^{-1}$. (1) $t = \\dfrac{0{,}070}{2{,}0\\times 10^{8}} = 3{,}5\\times 10^{-10}\\,\\text{s}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué el rayo sale paralelo al rayo incidente.",
+      "modelAnswer": "Al ser paralelas las caras, el ángulo de incidencia en la segunda cara es igual al de refracción en la primera. (1) Por la ley de Snell, el ángulo de salida es de $50°$, igual que el de entrada. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Determina el desplazamiento lateral del rayo.",
+      "modelAnswer": "$x = 7{,}0\\cdot\\sin(50° - 30{,}7°) = 2{,}3\\,\\text{cm}$. (2)",
+      "marks": 2
+    }
+  ]
+}

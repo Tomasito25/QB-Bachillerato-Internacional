@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "7aecdcac-c373-5268-b791-678b43545bd7",
+  "rev": 1,
+  "statement": "El diagrama de Sankey representa las transferencias de energía de un dispositivo cada segundo.\n\n![Diagrama de Sankey: una entrada de 1000 J se divide en 250 J de energía útil, 600 J de energía térmica y 150 J de sonido.](qbimg:c9de8f89659e9c9c7495a329712b126ecb527bd61b4488b0ba274e256e534434)\n\n¿Cuál es su rendimiento?",
+  "explanation": "$\\text{rendimiento} = \\dfrac{\\text{útil}}{\\text{total}} = \\dfrac{250}{1000} = 25\\,\\%$.",
+  "images": [
+    {
+      "hash": "c9de8f89659e9c9c7495a329712b126ecb527bd61b4488b0ba274e256e534434",
+      "ext": "png",
+      "width": 1120,
+      "height": 640,
+      "bytes": 10517,
+      "alt": "Diagrama de Sankey: una entrada de 1000 J se divide en 250 J de energía útil, 600 J de energía térmica y 150 J de sonido."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "Sankey",
+    "rendimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "25 %",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "33 %",
+      "correct": false,
+      "feedback": "Se ha dividido lo útil entre lo disipado."
+    },
+    {
+      "id": "c",
+      "text": "60 %",
+      "correct": false,
+      "feedback": "Esa es la fracción de energía térmica."
+    },
+    {
+      "id": "d",
+      "text": "75 %",
+      "correct": false,
+      "feedback": "Esa es la fracción disipada."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

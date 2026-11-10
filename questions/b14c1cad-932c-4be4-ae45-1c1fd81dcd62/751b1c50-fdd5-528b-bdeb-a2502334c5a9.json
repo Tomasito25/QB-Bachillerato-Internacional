@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "751b1c50-fdd5-528b-bdeb-a2502334c5a9",
+  "rev": 1,
+  "statement": "Una masa fija de gas ideal se calienta a volumen constante. Según el modelo cinético:\n\nI. aumenta el número de choques con las paredes por segundo.\n\nII. aumenta el cambio medio de cantidad de movimiento por choque.\n\nIII. aumenta la separación media entre las moléculas.\n\n¿Cuáles son correctas?",
+  "explanation": "Las moléculas son más rápidas, así que chocan más a menudo y con más cantidad de movimiento. El volumen no cambia, de modo que tampoco lo hace la separación media.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "teoría cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sólo I y II",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Sólo I y III",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Sólo II y III",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "I, II y III",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

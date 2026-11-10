@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "7467b25f-6a3e-50a5-bcd8-82ba208950fb",
+  "rev": 1,
+  "statement": "Un bloque de $5{,}0\\,\\text{kg}$ reposa sobre una superficie horizontal, con $\\mu_s = 0{,}40$ y $\\mu_d = 0{,}30$. Se empuja con una fuerza horizontal de $10\\,\\text{N}$. ¿Cuánto vale la fuerza de rozamiento? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "El máximo del rozamiento estático es $\\mu_s F_N = 0{,}40\\cdot 49 = 20\\,\\text{N}$. Como $10\\,\\text{N}$ es menor, el bloque no se mueve, y el rozamiento iguala a la fuerza aplicada.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Si no hubiera rozamiento, el bloque aceleraría."
+    },
+    {
+      "id": "b",
+      "text": "$10\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$15\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Ese sería el rozamiento dinámico, pero el bloque no desliza."
+    },
+    {
+      "id": "d",
+      "text": "$20\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Ese es el valor máximo posible, no el valor real."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

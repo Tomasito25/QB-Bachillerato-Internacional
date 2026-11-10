@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "757cb672-5685-507b-a922-6b1a2e7be838",
+  "rev": 1,
+  "statement": "En un modelo sencillo, un átomo de hidrógeno ($m = 1{,}67\\times 10^{-27}\\,\\text{kg}$) de una molécula oscila como una masa unida a un muelle de constante efectiva $500\\,\\text{N m}^{-1}$, mientras el resto de la molécula permanece casi quieto.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "masa-muelle",
+    "efecto invernadero"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica las dos condiciones que debe cumplir la fuerza sobre el átomo para que el movimiento sea armónico simple.",
+      "modelAnswer": "Es proporcional al desplazamiento respecto al equilibrio. (1) Está siempre dirigida hacia la posición de equilibrio. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la frecuencia de oscilación.",
+      "modelAnswer": "$T = 2\\pi\\sqrt{\\dfrac{m}{k}} = 1{,}1\\times 10^{-14}\\,\\text{s}$. (1) $f = \\dfrac{1}{T} = 8{,}7\\times 10^{13}\\,\\text{Hz}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la longitud de onda de la radiación electromagnética con esa frecuencia, e identifica la región del espectro.",
+      "modelAnswer": "$\\lambda = \\dfrac{c}{f} = 3{,}4\\times 10^{-6}\\,\\text{m}$. (1) Es radiación infrarroja. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Usa este resultado para explicar por qué las moléculas con enlaces de este tipo pueden contribuir al efecto invernadero.",
+      "modelAnswer": "La radiación infrarroja emitida por la Tierra tiene frecuencias próximas a la natural de vibración. (1) Las moléculas absorben esa energía por resonancia y luego la reemiten en todas las direcciones, también hacia la superficie. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Se sustituye el hidrógeno por deuterio, de doble masa, sin cambiar $k$. Indica por qué factor se multiplica la frecuencia.",
+      "modelAnswer": "$f \\propto \\dfrac{1}{\\sqrt{m}}$, así que el factor es $\\dfrac{1}{\\sqrt{2}} = 0{,}71$.",
+      "marks": 1
+    }
+  ]
+}

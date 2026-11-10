@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "77324d96-6e71-519d-a3d9-285f278e45cd",
+  "rev": 1,
+  "statement": "Un experimento de doble rendija con luz monocromática se realiza primero en el aire y después sumergido por completo en agua ($n = 1{,}33$). ¿Por qué factor se multiplica la separación entre franjas?",
+  "explanation": "En el agua, $\\lambda$ se divide entre $n$, y $s = \\dfrac{\\lambda D}{d}$. El factor es $\\dfrac{1}{1{,}33} = 0{,}75$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "doble rendija",
+    "refracción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:54.000Z",
+  "updatedAt": "2026-11-10T07:21:54.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}56$",
+      "correct": false,
+      "feedback": "s es proporcional a λ, no a λ²."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}75$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1{,}0$",
+      "correct": false,
+      "feedback": "La longitud de onda cambia en el agua."
+    },
+    {
+      "id": "d",
+      "text": "$1{,}3$",
+      "correct": false,
+      "feedback": "En el agua, la longitud de onda disminuye."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
