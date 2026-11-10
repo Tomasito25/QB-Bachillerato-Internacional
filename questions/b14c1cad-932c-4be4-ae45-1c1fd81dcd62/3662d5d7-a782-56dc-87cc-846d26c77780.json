@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "3662d5d7-a782-56dc-87cc-846d26c77780",
+  "rev": 1,
+  "statement": "Con tres resistencias iguales y una fuente de tensión fija de resistencia interna despreciable, ¿qué conexión disipa la mayor potencia total?",
+  "explanation": "$P = \\dfrac{V^2}{R}$: con $V$ fija, la potencia es máxima con la resistencia total mínima, $R/3$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "asociación de resistencias",
+    "potencia eléctrica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las tres en serie.",
+      "correct": false,
+      "feedback": "Esa es la de mayor resistencia total y menor potencia."
+    },
+    {
+      "id": "b",
+      "text": "Dos en paralelo, en serie con la tercera.",
+      "correct": false,
+      "feedback": "Su resistencia es 1,5R, mayor que R/3."
+    },
+    {
+      "id": "c",
+      "text": "Dos en serie, en paralelo con la tercera.",
+      "correct": false,
+      "feedback": "Su resistencia es 2R/3, mayor que R/3."
+    },
+    {
+      "id": "d",
+      "text": "Las tres en paralelo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

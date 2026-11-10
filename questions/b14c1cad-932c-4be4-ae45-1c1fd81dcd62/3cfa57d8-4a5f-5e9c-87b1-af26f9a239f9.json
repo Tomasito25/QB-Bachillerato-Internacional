@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "3cfa57d8-4a5f-5e9c-87b1-af26f9a239f9",
+  "rev": 1,
+  "statement": "Una sonda en Marte, a $2{,}25\\times 10^{11}\\,\\text{m}$ de la Tierra, envía señales de radio con una frecuencia de $8{,}4\\,\\text{GHz}$. Usa $c = 3{,}00\\times 10^{8}\\,\\text{m s}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas electromagnéticas",
+    "velocidad de onda"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el tiempo que tarda la señal en llegar a la Tierra.",
+      "modelAnswer": "$t = \\dfrac{2{,}25\\times 10^{11}}{3{,}00\\times 10^{8}} = 750\\,\\text{s}$, unos 12,5 minutos.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la longitud de onda de la señal.",
+      "modelAnswer": "$\\lambda = \\dfrac{c}{f} = \\dfrac{3{,}00\\times 10^{8}}{8{,}4\\times 10^{9}} = 3{,}6\\times 10^{-2}\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica por qué no se podría usar el sonido para esta comunicación.",
+      "modelAnswer": "El sonido es una onda mecánica y necesita un medio; entre los planetas prácticamente hay vacío.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "La señal se reparte por igual en todas direcciones. Indica cómo cambia su intensidad si la sonda se aleja hasta el doble de distancia.",
+      "modelAnswer": "La intensidad es inversamente proporcional al cuadrado de la distancia. (1) Se reduce a la cuarta parte. (1)",
+      "marks": 2
+    }
+  ]
+}

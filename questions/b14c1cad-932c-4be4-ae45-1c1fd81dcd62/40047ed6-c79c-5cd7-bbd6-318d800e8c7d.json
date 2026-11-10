@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "40047ed6-c79c-5cd7-bbd6-318d800e8c7d",
+  "rev": 1,
+  "statement": "Un asteroide orbita el Sol a una distancia media de 4,0 veces la de la Tierra. ¿Cuál es su periodo orbital?",
+  "explanation": "$T^2 \\propto r^3$, de modo que $T = 4{,}0^{3/2} = 8{,}0$ años.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "leyes de Kepler"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0$ años",
+      "correct": false,
+      "feedback": "Esa es la raíz cuadrada del radio."
+    },
+    {
+      "id": "b",
+      "text": "$4{,}0$ años",
+      "correct": false,
+      "feedback": "T no es proporcional a r."
+    },
+    {
+      "id": "c",
+      "text": "$8{,}0$ años",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$16$ años",
+      "correct": false,
+      "feedback": "T² es proporcional a r³; no T a r²."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

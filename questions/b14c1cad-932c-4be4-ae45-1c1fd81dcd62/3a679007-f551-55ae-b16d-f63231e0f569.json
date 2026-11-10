@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "3a679007-f551-55ae-b16d-f63231e0f569",
+  "rev": 1,
+  "statement": "Un rayo de luz viaja por agua ($n = 1{,}33$) y llega a la superficie con el aire con un ángulo de incidencia de $55°$. ¿Qué le ocurre?",
+  "explanation": "$\\sin\\theta_c = \\dfrac{1}{1{,}33}$, de modo que $\\theta_c = 49°$. Como $55° > 49°$, el rayo sufre reflexión total interna.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se refleja totalmente, porque $55°$ es mayor que el ángulo crítico, de unos $49°$.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Se refracta y sale rozando la superficie.",
+      "correct": false,
+      "feedback": "Eso ocurre sólo con el ángulo crítico."
+    },
+    {
+      "id": "c",
+      "text": "Se refleja totalmente, porque el agua es más densa que el aire a cualquier ángulo.",
+      "correct": false,
+      "feedback": "Sólo ocurre por encima del ángulo crítico."
+    },
+    {
+      "id": "d",
+      "text": "Se refracta alejándose de la normal, con un ángulo de unos $33°$.",
+      "correct": false,
+      "feedback": "Ese cálculo correspondería a la luz que entra en el agua."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

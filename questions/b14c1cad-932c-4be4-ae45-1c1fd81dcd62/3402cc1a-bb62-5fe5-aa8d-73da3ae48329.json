@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "3402cc1a-bb62-5fe5-aa8d-73da3ae48329",
+  "rev": 1,
+  "statement": "Para medir el calor específico de un metal, se calienta una muestra de $0{,}150\\,\\text{kg}$ en agua hirviendo a $100{,}0\\,°\\text{C}$ y se pasa rápidamente a un calorímetro de cobre de $0{,}100\\,\\text{kg}$, que contiene $0{,}200\\,\\text{kg}$ de agua a $20{,}0\\,°\\text{C}$. La temperatura final es de $25{,}0\\,°\\text{C}$. Datos: $c_{\\text{agua}} = 4180\\,\\text{J kg}^{-1}\\,\\text{K}^{-1}$ y $c_{\\text{Cu}} = 385\\,\\text{J kg}^{-1}\\,\\text{K}^{-1}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "calor específico",
+    "incertidumbres",
+    "datos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía que reciben el agua y el calorímetro.",
+      "modelAnswer": "Agua: $0{,}200\\cdot 4180\\cdot 5{,}0 = 4180\\,\\text{J}$. (1) Calorímetro: $0{,}100\\cdot 385\\cdot 5{,}0 = 193\\,\\text{J}$. (1) Total: $4{,}4\\times 10^{3}\\,\\text{J}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Determina el calor específico del metal.",
+      "modelAnswer": "$c = \\dfrac{4373}{0{,}150\\cdot 75} = 390\\,\\text{J kg}^{-1}\\,\\text{K}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Cada lectura del termómetro tiene una incertidumbre de $0{,}1\\,°\\text{C}$. Calcula la incertidumbre porcentual de la subida de temperatura del agua.",
+      "modelAnswer": "$\\Delta T = (5{,}0 \\pm 0{,}2)\\,\\text{K}$, porque se suman las incertidumbres de las dos lecturas. (1) $\\dfrac{0{,}2}{5{,}0} = 4\\,\\%$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El metal se enfría un poco en el aire durante el traslado. Indica cómo afecta esto al valor de $c$ obtenido. Justifica tu respuesta.",
+      "modelAnswer": "El metal entra a menos de $100\\,°\\text{C}$, así que el $\\Delta T$ real del metal es menor que el usado. (1) El valor obtenido de $c$ es menor que el real. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere una mejora que reduzca la incertidumbre relativa de la temperatura sin cambiar de termómetro.",
+      "modelAnswer": "Usar menos agua en el calorímetro o una muestra mayor, para que la subida de temperatura sea mayor. (1)",
+      "marks": 1
+    }
+  ]
+}
