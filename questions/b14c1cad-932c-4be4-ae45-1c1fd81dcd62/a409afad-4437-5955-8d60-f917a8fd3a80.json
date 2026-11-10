@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "a409afad-4437-5955-8d60-f917a8fd3a80",
+  "rev": 1,
+  "statement": "¿Qué lista ordena estas radiaciones de menor a mayor longitud de onda?",
+  "explanation": "A mayor frecuencia, menor longitud de onda. Las radiaciones están en este orden en el espectro: rayos X, ultravioleta, infrarrojo y microondas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "espectro electromagnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Rayos X, ultravioleta, infrarrojo, microondas",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Microondas, infrarrojo, ultravioleta, rayos X",
+      "correct": false,
+      "feedback": "Este orden va de mayor a menor longitud de onda."
+    },
+    {
+      "id": "c",
+      "text": "Rayos X, infrarrojo, ultravioleta, microondas",
+      "correct": false,
+      "feedback": "El ultravioleta tiene menor longitud de onda que el infrarrojo."
+    },
+    {
+      "id": "d",
+      "text": "Ultravioleta, rayos X, infrarrojo, microondas",
+      "correct": false,
+      "feedback": "Los rayos X tienen menor longitud de onda que el ultravioleta."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

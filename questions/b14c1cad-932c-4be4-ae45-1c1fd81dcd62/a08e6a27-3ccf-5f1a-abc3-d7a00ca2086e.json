@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a08e6a27-3ccf-5f1a-abc3-d7a00ca2086e",
+  "rev": 1,
+  "statement": "Para hallar la resistividad de una aleación, se toma un hilo con estos valores:\n\n| Magnitud | Valor |\n|---|---|\n| Longitud $L$ | $(1{,}000 \\pm 0{,}001)\\,\\text{m}$ |\n| Diámetro $d$ | $(0{,}40 \\pm 0{,}01)\\,\\text{mm}$ |\n| Tensión $V$ | $(1{,}20 \\pm 0{,}01)\\,\\text{V}$ |\n| Corriente $I$ | $(0{,}50 \\pm 0{,}01)\\,\\text{A}$ |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistividad",
+    "incertidumbres",
+    "datos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la resistencia del hilo y su área de sección.",
+      "modelAnswer": "$R = \\dfrac{V}{I} = 2{,}4\\,\\Omega$. (1) $A = \\pi\\left(\\dfrac{d}{2}\\right)^2 = 1{,}26\\times 10^{-7}\\,\\text{m}^2$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la resistividad de la aleación.",
+      "modelAnswer": "$\\rho = \\dfrac{RA}{L} = 3{,}0\\times 10^{-7}\\,\\Omega\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la incertidumbre absoluta de la resistividad.",
+      "modelAnswer": "$\\dfrac{\\Delta\\rho}{\\rho} = 0{,}8\\,\\% + 2{,}0\\,\\% + 0{,}1\\,\\% + 2\\cdot 2{,}5\\,\\% = 7{,}9\\,\\%$. (2) $\\Delta\\rho = 0{,}079\\cdot 3{,}0\\times 10^{-7} = 2\\times 10^{-8}\\,\\Omega\\,\\text{m}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Escribe el resultado con su incertidumbre.",
+      "modelAnswer": "$\\rho = (3{,}0 \\pm 0{,}2)\\times 10^{-7}\\,\\Omega\\,\\text{m}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Identifica la medida que más contribuye a la incertidumbre y sugiere una mejora para reducirla.",
+      "modelAnswer": "El diámetro, porque va al cuadrado y aporta un 5 %. (1) Medirlo con un micrómetro más preciso y en varios puntos del hilo, y calcular la media. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "a37dac50-13c4-5ba4-a8d9-2a34294591a5",
+  "rev": 1,
+  "statement": "En el circuito, la batería tiene una f. e. m. de $24\\,\\text{V}$ y una resistencia interna de $4{,}0\\,\\Omega$. Las resistencias son $R_1 = 10\\,\\Omega$, $R_2 = 30\\,\\Omega$ y $R_3 = 15\\,\\Omega$.\n\n![Circuito: batería de 24 V con resistencia interna de 4,0 Ω, en serie con R1 = 10 Ω y con R2 = 30 Ω y R3 = 15 Ω en paralelo.](qbimg:e0773eb20c604557772d1a18ed2f9d02833b52804c04ed6aadc06e8191e43028)",
+  "images": [
+    {
+      "hash": "e0773eb20c604557772d1a18ed2f9d02833b52804c04ed6aadc06e8191e43028",
+      "ext": "png",
+      "width": 1260,
+      "height": 680,
+      "bytes": 8956,
+      "alt": "Circuito: batería de 24 V con resistencia interna de 4,0 Ω, en serie con R1 = 10 Ω y con R2 = 30 Ω y R3 = 15 Ω en paralelo."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "circuitos",
+    "resistencia interna"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Demuestra que la resistencia externa total es de $20\\,\\Omega$.",
+      "modelAnswer": "Paralelo: $\\left(\\dfrac{1}{30} + \\dfrac{1}{15}\\right)^{-1} = 10\\,\\Omega$. (1) Con $R_1$ en serie: $10 + 10 = 20\\,\\Omega$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la corriente que entrega la batería y la tensión en sus bornes.",
+      "modelAnswer": "$I = \\dfrac{24}{20 + 4{,}0} = 1{,}0\\,\\text{A}$. (1) $V = 24 - 1{,}0\\cdot 4{,}0 = 20\\,\\text{V}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la corriente que circula por $R_3$.",
+      "modelAnswer": "Tensión en el paralelo: $20 - 10 = 10\\,\\text{V}$. (1) $I_3 = \\dfrac{10}{15} = 0{,}67\\,\\text{A}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la potencia disipada dentro de la batería y qué fracción supone de la potencia total.",
+      "modelAnswer": "$P_r = I^2r = 4{,}0\\,\\text{W}$. (1) Total: $\\varepsilon I = 24\\,\\text{W}$; fracción $= 0{,}17$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "$R_3$ se desconecta. Calcula la nueva tensión en bornes y explica por qué ha cambiado.",
+      "modelAnswer": "$R_{\\text{ext}} = 10 + 30 = 40\\,\\Omega$; $I = \\dfrac{24}{44} = 0{,}55\\,\\text{A}$. (1) $V = 24 - 0{,}55\\cdot 4{,}0 = 22\\,\\text{V}$. (1) Disminuye la corriente, así que cae menos tensión en la resistencia interna. (1)",
+      "marks": 3
+    }
+  ]
+}

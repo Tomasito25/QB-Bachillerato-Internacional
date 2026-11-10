@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "a472f5e0-3f77-58b2-b1bb-6b03227c8583",
+  "rev": 1,
+  "statement": "Se mide la corriente $I$ en una resistencia de valor fijo para distintos valores de la tensión $V$ entre sus extremos. La gráfica muestra los datos y su recta de ajuste.\n\n![Gráfica de la corriente, en A, frente a la tensión, en V. Cinco puntos con barras de error verticales, entre 1 y 5 V, y una recta de ajuste que corta el eje vertical por encima del origen.](qbimg:039ced146ae00a5b5526c2da6ba3e7cde8b02efd819647303763ce17c014dd6f)",
+  "images": [
+    {
+      "hash": "039ced146ae00a5b5526c2da6ba3e7cde8b02efd819647303763ce17c014dd6f",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 14737,
+      "alt": "Gráfica de la corriente, en A, frente a la tensión, en V. Cinco puntos con barras de error verticales, entre 1 y 5 V, y una recta de ajuste que corta el eje vertical por encima del origen."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "datos",
+    "evaluación",
+    "error de cero",
+    "resistencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica qué rasgo de la gráfica revela un error sistemático.",
+      "modelAnswer": "La recta no pasa por el origen: corta el eje vertical en $0{,}04\\,\\text{A}$, aunque sin tensión no debería haber corriente.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Sugiere una causa de ese error.",
+      "modelAnswer": "Un error de cero del amperímetro: marca $0{,}04\\,\\text{A}$ cuando no pasa corriente.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Un estudiante calcula la resistencia con un solo punto de la recta, $(2{,}0\\,\\text{V};\\,0{,}24\\,\\text{A})$, y obtiene $8{,}3\\,\\Omega$. Determina la resistencia a partir de la pendiente y explica por qué este valor es mejor.",
+      "modelAnswer": "Con los puntos $(0;\\,0{,}04)$ y $(6{,}0;\\,0{,}64)$, la pendiente es $\\dfrac{0{,}64 - 0{,}04}{6{,}0 - 0} = 0{,}10\\,\\text{A V}^{-1}$. (1) $R = \\dfrac{1}{0{,}10} = 10\\,\\Omega$. (1) La pendiente usa todos los datos y no cambia si todas las lecturas están desplazadas la misma cantidad; el cociente de un solo punto, sí. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Indica qué debería hacerse antes de repetir el experimento.",
+      "modelAnswer": "Comprobar la lectura del amperímetro sin corriente y ajustarlo a cero. Si no se puede, restar $0{,}04\\,\\text{A}$ a todas las lecturas.",
+      "marks": 1
+    }
+  ]
+}

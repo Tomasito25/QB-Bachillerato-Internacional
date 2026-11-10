@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "a2fcbfc5-4ecf-550d-b248-146ebffa2e98",
+  "rev": 1,
+  "statement": "Una esquiadora de $60\\,\\text{kg}$ parte del reposo en lo alto de una pista, a $40\\,\\text{m}$ de altura sobre su base, y llega abajo a $24\\,\\text{m s}^{-1}$ tras recorrer $200\\,\\text{m}$. Después continúa por una zona horizontal de nieve, con coeficiente de rozamiento dinámico $0{,}20$. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "conservación de la energía",
+    "rozamiento",
+    "potencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía disipada durante la bajada.",
+      "modelAnswer": "$E_p = 60\\cdot 9{,}8\\cdot 40 = 23\\,520\\,\\text{J}$ y $E_k = \\frac{1}{2}\\cdot 60\\cdot 24^2 = 17\\,280\\,\\text{J}$. (1) Se disipan $6{,}2\\times 10^{3}\\,\\text{J}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la fuerza resistiva media durante la bajada.",
+      "modelAnswer": "$F = \\dfrac{6240}{200} = 31\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la distancia que recorre en la zona horizontal antes de pararse.",
+      "modelAnswer": "$\\mu m g d = \\frac{1}{2}mv^2$. (1) $d = \\dfrac{24^2}{2\\cdot 0{,}20\\cdot 9{,}8} = 147\\,\\text{m}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la potencia a la que se disipa energía justo al entrar en la zona horizontal.",
+      "modelAnswer": "$F = 0{,}20\\cdot 60\\cdot 9{,}8 = 118\\,\\text{N}$. (1) $P = Fv = 118\\cdot 24 = 2{,}8\\,\\text{kW}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Indica si la potencia disipada aumenta, disminuye o no cambia durante la frenada. Justifica tu respuesta.",
+      "modelAnswer": "Disminuye: la fuerza de rozamiento es constante y la rapidez se reduce, y $P = Fv$.",
+      "marks": 2
+    }
+  ]
+}

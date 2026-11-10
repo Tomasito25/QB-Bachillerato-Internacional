@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "a0cc6f97-d9c6-5c92-ab14-a866fbb92fd2",
+  "rev": 1,
+  "statement": "¿Por qué la intensidad solar media sobre toda la superficie de la Tierra es $S/4$?",
+  "explanation": "La potencia captada es $S\\pi R^2$. Al dividir entre el área total $4\\pi R^2$ queda $S/4$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "constante solar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una cuarta parte de la radiación se refleja.",
+      "correct": false,
+      "feedback": "La reflexión la describe el albedo, de forma independiente."
+    },
+    {
+      "id": "b",
+      "text": "La Tierra intercepta la radiación con un círculo de área $\\pi R^2$, y la reparte sobre una esfera de área $4\\pi R^2$.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La atmósfera absorbe tres cuartas partes de la radiación.",
+      "correct": false,
+      "feedback": "Esta geometría no depende de la atmósfera."
+    },
+    {
+      "id": "d",
+      "text": "Sólo una cuarta parte de la superficie está iluminada en cada instante.",
+      "correct": false,
+      "feedback": "Está iluminada la mitad de la superficie, y no perpendicularmente."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a7c951d7-af65-5476-ad6d-198e27ff730e",
+  "rev": 1,
+  "statement": "El albedo de una región de la Tierra depende de:\n\nI. el tipo de superficie (hielo, océano, bosque…).\n\nII. la cobertura de nubes.\n\nIII. el ángulo de incidencia de la luz solar.\n\n¿Cuáles son correctas?",
+  "explanation": "Los tres influyen. Por ejemplo, el agua refleja mucho más cuando la luz solar llega rasante.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "albedo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sólo I y II",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sólo I y III",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Sólo II y III",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "I, II y III",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

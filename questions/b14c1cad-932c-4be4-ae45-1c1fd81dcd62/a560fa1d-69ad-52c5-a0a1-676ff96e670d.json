@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "a560fa1d-69ad-52c5-a0a1-676ff96e670d",
+  "rev": 1,
+  "statement": "Una luz de $600\\,\\text{nm}$ en el aire entra en un vidrio de índice de refracción $1{,}5$. ¿Cuál es su longitud de onda en el vidrio?",
+  "explanation": "La frecuencia no cambia y la rapidez se divide entre $n$, de modo que $\\lambda_{\\text{vidrio}} = \\dfrac{600}{1{,}5} = 400\\,\\text{nm}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "refracción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$900\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "En el vidrio la luz va más despacio, así que λ disminuye."
+    },
+    {
+      "id": "b",
+      "text": "$600\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "La frecuencia no cambia, pero la longitud de onda sí."
+    },
+    {
+      "id": "c",
+      "text": "$400\\,\\text{nm}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$300\\,\\text{nm}$",
+      "correct": false,
+      "feedback": "Se divide entre 1,5, no entre 2."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

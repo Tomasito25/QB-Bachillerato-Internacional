@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "9d9ddc97-0c14-5874-9366-0155faba3a2a",
+  "rev": 1,
+  "statement": "El hilo de un calefactor conectado a una tensión fija se corta por la mitad, y sólo se usa una de las mitades. ¿Por qué factor se multiplica la potencia?",
+  "explanation": "La resistencia se reduce a la mitad. Con $V$ fija, $P = \\dfrac{V^2}{R}$, de modo que se duplica.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "potencia eléctrica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}25$",
+      "correct": false,
+      "feedback": "Con menos resistencia, la potencia aumenta."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}50$",
+      "correct": false,
+      "feedback": "La potencia aumenta al reducirse R, si V es fija."
+    },
+    {
+      "id": "c",
+      "text": "$2{,}0$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$4{,}0$",
+      "correct": false,
+      "feedback": "P es proporcional a 1/R, no a 1/R²."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
