@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "1e9ae5b4-b58b-56bb-911b-a802905aa5b1",
+  "rev": 1,
+  "statement": "Una pila de f. e. m. $\\varepsilon$ y resistencia interna $r$ se conecta a una resistencia variable $R$, y se mide la corriente $I$ para cinco valores de $R$. La gráfica muestra $\\dfrac{1}{I}$ frente a $R$, con su recta de ajuste.\n\n![Gráfica del inverso de la corriente, en A⁻¹, frente a la resistencia, en Ω. Cinco puntos con barras de error verticales, entre 2 y 10 Ω, y una recta de ajuste que corta el eje vertical por encima del origen.](qbimg:172966f1dbe32335a5aff3599c3cae8f2689db25770110693ab87fd656650b30)",
+  "images": [
+    {
+      "hash": "172966f1dbe32335a5aff3599c3cae8f2689db25770110693ab87fd656650b30",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 14588,
+      "alt": "Gráfica del inverso de la corriente, en A⁻¹, frente a la resistencia, en Ω. Cinco puntos con barras de error verticales, entre 2 y 10 Ω, y una recta de ajuste que corta el eje vertical por encima del origen."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "datos",
+    "linealización",
+    "resistencia interna"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:19.000Z",
+  "updatedAt": "2026-11-10T07:21:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que $\\dfrac{1}{I} = \\dfrac{R}{\\varepsilon} + \\dfrac{r}{\\varepsilon}$.",
+      "modelAnswer": "$\\varepsilon = I(R + r)$. (1) Dividiendo entre $I\\varepsilon$: $\\dfrac{1}{I} = \\dfrac{R + r}{\\varepsilon} = \\dfrac{R}{\\varepsilon} + \\dfrac{r}{\\varepsilon}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la f. e. m. de la pila.",
+      "modelAnswer": "La pendiente es $\\dfrac{1}{\\varepsilon}$. Con los puntos $(0;\\,0{,}40)$ y $(10;\\,2{,}40)$: $\\dfrac{2{,}40 - 0{,}40}{10 - 0} = 0{,}20\\,\\text{A}^{-1}\\,\\Omega^{-1}$. (1) $\\varepsilon = \\dfrac{1}{0{,}20} = 5{,}0\\,\\text{V}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la resistencia interna.",
+      "modelAnswer": "La ordenada en el origen es $\\dfrac{r}{\\varepsilon} = 0{,}40\\,\\text{A}^{-1}$. (1) $r = 0{,}40\\cdot 5{,}0 = 2{,}0\\,\\Omega$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica en qué valor cortaría el eje horizontal la recta, si se prolongara.",
+      "modelAnswer": "Donde $\\dfrac{1}{I} = 0$, es decir, en $R = -r = -2{,}0\\,\\Omega$.",
+      "marks": 1
+    }
+  ]
+}

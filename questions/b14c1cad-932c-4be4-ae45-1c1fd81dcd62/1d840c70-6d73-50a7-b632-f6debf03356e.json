@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "1d840c70-6d73-50a7-b632-f6debf03356e",
+  "rev": 1,
+  "statement": "Un objeto de masa $m$ tiene una energía cinética $E_k$. ¿Cuál es el módulo de su cantidad de movimiento?",
+  "explanation": "$E_k = \\dfrac{p^2}{2m}$, así que $p = \\sqrt{2mE_k}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "energía cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:19.000Z",
+  "updatedAt": "2026-11-10T07:21:19.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\dfrac{E_k}{2m}$",
+      "correct": false,
+      "feedback": "La energía cinética es p²/(2m): de ahí se despeja p, no se divide."
+    },
+    {
+      "id": "b",
+      "text": "$\\sqrt{\\dfrac{2E_k}{m}}$",
+      "correct": false,
+      "feedback": "Esta expresión da la rapidez."
+    },
+    {
+      "id": "c",
+      "text": "$2mE_k$",
+      "correct": false,
+      "feedback": "Falta la raíz cuadrada."
+    },
+    {
+      "id": "d",
+      "text": "$\\sqrt{2mE_k}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
