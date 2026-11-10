@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "0dff483d-1123-5883-8834-2ce99f38c9c1",
+  "rev": 1,
+  "statement": "Dos bloques en contacto, de $1{,}0\\,\\text{kg}$ y $3{,}0\\,\\text{kg}$, están sobre una superficie lisa. Una fuerza horizontal de $12\\,\\text{N}$ empuja al de $1{,}0\\,\\text{kg}$ contra el otro. ¿Qué fuerza ejerce el bloque de $1{,}0\\,\\text{kg}$ sobre el de $3{,}0\\,\\text{kg}$?",
+  "explanation": "La aceleración común es $a = \\dfrac{12}{4{,}0} = 3{,}0\\,\\text{m s}^{-2}$. Sobre el bloque de $3{,}0\\,\\text{kg}$ sólo actúa la fuerza de contacto: $F = 3{,}0\\cdot 3{,}0 = 9{,}0\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}0\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Esa es la aceleración numéricamente, o la fuerza neta sobre el bloque ligero."
+    },
+    {
+      "id": "b",
+      "text": "$4{,}0\\,\\text{N}$",
+      "correct": false,
+      "feedback": "No se reparte por igual ni dividiendo entre 3."
+    },
+    {
+      "id": "c",
+      "text": "$9{,}0\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$12\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Esa fuerza acelera a los dos; sobre el segundo actúa sólo lo necesario para acelerarlo a él."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

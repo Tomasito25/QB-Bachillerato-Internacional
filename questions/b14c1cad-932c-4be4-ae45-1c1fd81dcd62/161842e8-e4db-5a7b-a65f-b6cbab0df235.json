@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "161842e8-e4db-5a7b-a65f-b6cbab0df235",
+  "rev": 1,
+  "statement": "¿A qué altura sobre la superficie de la Tierra es el campo gravitatorio el 64 % de su valor en la superficie? El radio terrestre es de $6{,}4\\times 10^{6}\\,\\text{m}$.",
+  "explanation": "$\\dfrac{g}{g_0} = \\left(\\dfrac{R}{r}\\right)^2 = 0{,}64$, así que $r = 1{,}25R = 8{,}0\\times 10^{6}\\,\\text{m}$. La altura es $r - R = 1{,}6\\times 10^{6}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "campo gravitatorio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}6\\times 10^{6}\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$2{,}3\\times 10^{6}\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Usa g proporcional a 1/r², y mide r desde el centro."
+    },
+    {
+      "id": "c",
+      "text": "$3{,}6\\times 10^{6}\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Revisa: r = R/0,8."
+    },
+    {
+      "id": "d",
+      "text": "$8{,}0\\times 10^{6}\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Ese es el radio orbital, no la altura."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

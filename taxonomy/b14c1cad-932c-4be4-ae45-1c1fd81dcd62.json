@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "id": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
   "name": "Fisica SL IB",
-  "rev": 5,
+  "rev": 6,
   "createdBy": {
     "login": "tomasito25",
     "id": 179742599
   },
   "createdAt": "2026-11-05T18:28:35.000Z",
-  "updatedAt": "2026-11-08T08:34:21.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
   "units": [
     {
       "id": "48b3aac0-61bd-46fb-ac94-499d133bf1f4",
@@ -136,6 +136,33 @@
         {
           "id": "2da2fe0e-743f-5d38-81d7-c319e6711c96",
           "name": "Fusión y estrellas",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "9c16a631-0f9d-5e9e-bcb2-16d3085fd74c",
+      "name": "Paper 1B. Preguntas basadas en datos",
+      "order": 5,
+      "topics": [
+        {
+          "id": "818c5352-d9aa-5c8c-9c20-dc85fac93f60",
+          "name": "Incertidumbres y cifras significativas",
+          "order": 0
+        },
+        {
+          "id": "b6748547-3168-5ee0-bf68-69344d13836f",
+          "name": "Gráficas lineales: pendiente y ordenada",
+          "order": 1
+        },
+        {
+          "id": "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+          "name": "Linealización y escalas logarítmicas",
+          "order": 2
+        },
+        {
+          "id": "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+          "name": "Evaluación del método experimental",
           "order": 3
         }
       ]

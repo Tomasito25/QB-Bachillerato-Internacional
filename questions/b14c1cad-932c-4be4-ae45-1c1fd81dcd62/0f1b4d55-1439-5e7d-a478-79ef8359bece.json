@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "0f1b4d55-1439-5e7d-a478-79ef8359bece",
+  "rev": 1,
+  "statement": "La electricidad de una central con un rendimiento del 40 % llega a un motor por una línea que entrega el 90 % de la energía que recibe. El motor tiene un rendimiento del 80 %. ¿Cuál es el rendimiento global?",
+  "explanation": "$0{,}40\\cdot 0{,}90\\cdot 0{,}80 = 0{,}29$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "rendimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "70 %",
+      "correct": false,
+      "feedback": "Los rendimientos no se promedian: se multiplican."
+    },
+    {
+      "id": "b",
+      "text": "40 %",
+      "correct": false,
+      "feedback": "Es sólo el de la central."
+    },
+    {
+      "id": "c",
+      "text": "29 %",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "10 %",
+      "correct": false,
+      "feedback": "Los rendimientos no se restan."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

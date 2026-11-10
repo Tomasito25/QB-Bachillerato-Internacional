@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "05911302-9642-5a4b-9ba9-4998879b88fd",
+  "rev": 1,
+  "statement": "Un protón y una partícula alfa (doble carga y cuádruple masa que el protón) entran con la misma rapidez, perpendicularmente, en un campo magnético uniforme. ¿Cuánto vale la razón $\\dfrac{r_\\alpha}{r_p}$ entre los radios de sus trayectorias?",
+  "explanation": "$r = \\dfrac{mv}{qB}$, así que $\\dfrac{r_\\alpha}{r_p} = \\dfrac{4}{2} = 2{,}0$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4{,}0$",
+      "correct": false,
+      "feedback": "La carga doble compensa parte del efecto de la masa."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1{,}0$",
+      "correct": false,
+      "feedback": "m/q no es igual en las dos partículas."
+    },
+    {
+      "id": "d",
+      "text": "$0{,}50$",
+      "correct": false,
+      "feedback": "Está invertida: la alfa tiene más inercia por unidad de carga."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

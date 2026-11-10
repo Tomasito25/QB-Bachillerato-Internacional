@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "10d0aea7-0dcc-54bb-b2cb-376a1bf13659",
+  "rev": 1,
+  "statement": "Sobre una cinta transportadora que se mueve a una velocidad constante de $2{,}0\\,\\text{m s}^{-1}$ cae arena en vertical, a razón de $5{,}0\\,\\text{kg s}^{-1}$. ¿Qué fuerza horizontal adicional hace falta para mantener la velocidad de la cinta?",
+  "explanation": "$F = \\dfrac{\\Delta p}{\\Delta t} = \\dfrac{\\Delta m}{\\Delta t}\\,v = 5{,}0\\cdot 2{,}0 = 10\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "cantidad de movimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}5\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Debe multiplicarse el caudal por la velocidad, no dividirse."
+    },
+    {
+      "id": "b",
+      "text": "$5{,}0\\,\\text{N}$",
+      "correct": false,
+      "feedback": "El caudal por sí solo no es una fuerza."
+    },
+    {
+      "id": "c",
+      "text": "$10\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$20\\,\\text{N}$",
+      "correct": false,
+      "feedback": "No hay factor 2: la arena no llega con velocidad horizontal ni rebota."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

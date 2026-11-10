@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "0f7aac57-5f2c-529c-8bbb-3994b950ca7c",
+  "rev": 1,
+  "statement": "La gráfica muestra la velocidad $v$ de un objeto que se mueve en línea recta frente al tiempo $t$.\n\n![Gráfica de velocidad frente a tiempo: recta desde 6 m/s en t = 0 hasta −6 m/s en t = 6 s, que cruza el cero en t = 3 s; después constante en −6 m/s hasta t = 8 s.](qbimg:5cb73c96b9af421e0e3f9cbcb4358c6b1a8ea96a08ee8445003ffc2081952e09)\n\n¿Qué distancia total recorre el objeto entre $t = 0$ y $t = 6\\,\\text{s}$?",
+  "explanation": "La distancia es la suma de las áreas sin signo: dos triángulos de base $3{,}0\\,\\text{s}$ y altura $6{,}0\\,\\text{m s}^{-1}$. $s = 2\\cdot\\frac{1}{2}\\cdot 3{,}0\\cdot 6{,}0 = 18\\,\\text{m}$. El desplazamiento sería cero.",
+  "images": [
+    {
+      "hash": "5cb73c96b9af421e0e3f9cbcb4358c6b1a8ea96a08ee8445003ffc2081952e09",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 12288,
+      "alt": "Gráfica de velocidad frente a tiempo: recta desde 6 m/s en t = 0 hasta −6 m/s en t = 6 s, que cruza el cero en t = 3 s; después constante en −6 m/s hasta t = 8 s."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Eso es el desplazamiento: la distancia no se cancela."
+    },
+    {
+      "id": "b",
+      "text": "$9{,}0\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Sólo has contado uno de los dos triángulos."
+    },
+    {
+      "id": "c",
+      "text": "$18\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$36\\,\\text{m}$",
+      "correct": false,
+      "feedback": "El área de un triángulo lleva el factor ½."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

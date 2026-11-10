@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "071ebd5c-677d-5695-ab2e-c20f7a8033df",
+  "rev": 1,
+  "statement": "En un movimiento armónico simple, ¿cómo son la velocidad y la aceleración cuando el objeto está en su desplazamiento máximo?",
+  "explanation": "$a = -\\omega^2x$: la aceleración es máxima en módulo donde $|x|$ es máximo, y su sentido es opuesto al desplazamiento. El objeto se detiene un instante en ese punto.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "conceptos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La velocidad es cero y la aceleración es máxima, dirigida hacia el equilibrio.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Las dos son cero.",
+      "correct": false,
+      "feedback": "Allí hay una fuerza recuperadora máxima."
+    },
+    {
+      "id": "c",
+      "text": "La velocidad es máxima y la aceleración es cero.",
+      "correct": false,
+      "feedback": "Eso ocurre en la posición de equilibrio."
+    },
+    {
+      "id": "d",
+      "text": "La velocidad es cero y la aceleración es máxima, alejándose del equilibrio.",
+      "correct": false,
+      "feedback": "La aceleración siempre apunta hacia el equilibrio."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "05daa2cb-68cb-5730-a922-19b7a4349ae9",
+  "rev": 1,
+  "statement": "En una cubeta de ondas se mide la rapidez $v$ de las ondas para distintas profundidades $h$ del agua. Para agua poco profunda, se espera que $v = \\sqrt{gh}$.\n\n| $h$ / cm | 1,0 | 2,0 | 3,0 | 4,0 | 5,0 |\n|---|---|---|---|---|---|\n| $v$ / $\\text{m s}^{-1}$ | 0,31 | 0,44 | 0,55 | 0,64 | 0,70 |\n| $v^2/h$ / $\\text{m s}^{-2}$ | 9,6 | 9,7 | ? | 10,2 | 9,8 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "datos",
+    "linealización",
+    "ondas en el agua"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica qué habría que representar para obtener una recta que pase por el origen, y qué representaría su pendiente.",
+      "modelAnswer": "$v^2$ frente a $h$, porque $v^2 = gh$. (1) La pendiente sería $g$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el valor que falta en la tabla.",
+      "modelAnswer": "Con $h$ en metros: $\\dfrac{v^2}{h} = \\dfrac{0{,}55^2}{0{,}030} = 10{,}1\\,\\text{m s}^{-2}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina el valor medio de $\\dfrac{v^2}{h}$ y su incertidumbre absoluta, a partir del rango de los cinco valores.",
+      "modelAnswer": "Suma de los cinco valores: $9{,}6 + 9{,}7 + 10{,}1 + 10{,}2 + 9{,}8 = 49{,}4\\,\\text{m s}^{-2}$. Media: $\\dfrac{49{,}4}{5} = 9{,}88\\,\\text{m s}^{-2}$. (1) Incertidumbre: $\\dfrac{10{,}2 - 9{,}6}{2} = 0{,}3\\,\\text{m s}^{-2}$, luego el resultado es $(9{,}9 \\pm 0{,}3)\\,\\text{m s}^{-2}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Razona si los datos apoyan la relación propuesta.",
+      "modelAnswer": "Sí. El cociente $\\dfrac{v^2}{h}$ se mantiene constante dentro de la dispersión de las medidas, sin una tendencia sostenida al aumentar $h$. (1) Además, su valor es compatible con $g = 9{,}81\\,\\text{m s}^{-2}$, que queda dentro del intervalo. (1)",
+      "marks": 2
+    }
+  ]
+}

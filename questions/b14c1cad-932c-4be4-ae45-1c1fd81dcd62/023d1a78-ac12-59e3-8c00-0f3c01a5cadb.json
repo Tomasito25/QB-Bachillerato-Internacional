@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "023d1a78-ac12-59e3-8c00-0f3c01a5cadb",
+  "rev": 1,
+  "statement": "La figura muestra un rayo que pasa del medio 1 al medio 2.\n\n![Rayo que pasa del medio 1 al medio 2. Con la normal, forma 40° en el medio 1 y 25° en el medio 2.](qbimg:f21656cf1cc82a5c8768d950eca8dada8f8c49aaa0a6cba7b3e09313bff6f9b5)\n\n¿Cuánto vale la razón $\\dfrac{v_1}{v_2}$ entre las rapideces de la onda?",
+  "explanation": "$\\dfrac{v_1}{v_2} = \\dfrac{\\sin\\theta_1}{\\sin\\theta_2} = \\dfrac{\\sin 40°}{\\sin 25°} = 1{,}5$. Los ángulos se miden respecto a la normal.",
+  "images": [
+    {
+      "hash": "f21656cf1cc82a5c8768d950eca8dada8f8c49aaa0a6cba7b3e09313bff6f9b5",
+      "ext": "png",
+      "width": 920,
+      "height": 680,
+      "bytes": 9694,
+      "alt": "Rayo que pasa del medio 1 al medio 2. Con la normal, forma 40° en el medio 1 y 25° en el medio 2."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "refracción",
+    "ley de Snell"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}66$",
+      "correct": false,
+      "feedback": "Está invertida: el rayo se acerca a la normal, así que v₁ > v₂."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}5$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1{,}6$",
+      "correct": false,
+      "feedback": "Se han dividido los ángulos en lugar de sus senos."
+    },
+    {
+      "id": "d",
+      "text": "$2{,}0$",
+      "correct": false,
+      "feedback": "Usa los senos de 40° y 25°."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
