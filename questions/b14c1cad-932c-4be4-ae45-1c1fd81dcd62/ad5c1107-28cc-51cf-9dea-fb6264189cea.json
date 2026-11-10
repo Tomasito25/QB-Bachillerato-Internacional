@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "ad5c1107-28cc-51cf-9dea-fb6264189cea",
+  "rev": 1,
+  "statement": "Una persona oye a alguien que habla al otro lado de una puerta abierta, sin verlo. ¿Por qué el sonido rodea el marco y la luz, de forma apreciable, no?",
+  "explanation": "La difracción es apreciable cuando la longitud de onda es del orden del tamaño de la abertura. El sonido tiene longitudes de onda de centímetros a metros; la luz, de cientos de nanómetros.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "difracción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La longitud de onda del sonido es comparable al ancho de la puerta; la de la luz es muchísimo menor.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La luz es transversal y el sonido, longitudinal.",
+      "correct": false,
+      "feedback": "La difracción no depende de esto."
+    },
+    {
+      "id": "c",
+      "text": "El sonido tiene más energía que la luz.",
+      "correct": false,
+      "feedback": "La difracción depende de la relación entre λ y la abertura."
+    },
+    {
+      "id": "d",
+      "text": "El sonido se propaga más rápido que la luz.",
+      "correct": false,
+      "feedback": "El sonido es muchísimo más lento."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

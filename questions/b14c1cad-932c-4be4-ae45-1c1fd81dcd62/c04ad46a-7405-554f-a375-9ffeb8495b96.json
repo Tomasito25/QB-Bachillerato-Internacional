@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "c04ad46a-7405-554f-a375-9ffeb8495b96",
+  "rev": 1,
+  "statement": "Una partícula cargada está entre dos placas paralelas muy grandes con una diferencia de potencial fija. ¿Cómo cambia la fuerza eléctrica cuando se acerca a una de las placas, lejos de los bordes?",
+  "explanation": "Entre placas paralelas, lejos de los bordes, el campo es uniforme: $E = \\dfrac{V}{d}$, y la fuerza vale $qE$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo uniforme"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta con el cuadrado de la proximidad a la placa.",
+      "correct": false,
+      "feedback": "Esa dependencia corresponde a una carga puntual."
+    },
+    {
+      "id": "b",
+      "text": "Se anula en la zona central.",
+      "correct": false,
+      "feedback": "El campo entre placas no se anula."
+    },
+    {
+      "id": "c",
+      "text": "No cambia, porque el campo es uniforme.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Disminuye, porque la placa atrae menos.",
+      "correct": false,
+      "feedback": "El campo es el mismo en toda la región central."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

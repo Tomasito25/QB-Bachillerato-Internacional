@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "b1b6acd7-6d9f-5093-ade0-8dc41b7b9236",
+  "rev": 1,
+  "statement": "La figura muestra una onda estacionaria en una cuerda de $1{,}5\\,\\text{m}$, fija por los dos extremos, que vibra a $120\\,\\text{Hz}$.\n\n![Onda estacionaria en una cuerda de 1,5 m fija por los dos extremos, con tres vientres y cuatro nodos contando los extremos.](qbimg:5a74cb33da88913cc1e11d0463a4965f890b893670bcf3ec001a13d101107d06)\n\n¿Cuál es la rapidez de las ondas en la cuerda?",
+  "explanation": "Hay tres vientres, de modo que $\\frac{3}{2}\\lambda = 1{,}5\\,\\text{m}$ y $\\lambda = 1{,}0\\,\\text{m}$. Entonces $v = f\\lambda = 120\\,\\text{m s}^{-1}$.",
+  "images": [
+    {
+      "hash": "5a74cb33da88913cc1e11d0463a4965f890b893670bcf3ec001a13d101107d06",
+      "ext": "png",
+      "width": 1120,
+      "height": 420,
+      "bytes": 12471,
+      "alt": "Onda estacionaria en una cuerda de 1,5 m fija por los dos extremos, con tres vientres y cuatro nodos contando los extremos."
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "cuerdas",
+    "armónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$360\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Hay tres vientres, pero λ = 2L/3."
+    },
+    {
+      "id": "b",
+      "text": "$180\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "La longitud de la cuerda no es λ."
+    },
+    {
+      "id": "c",
+      "text": "$120\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$60\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Cada vientre mide media longitud de onda; aquí λ = 1,0 m."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

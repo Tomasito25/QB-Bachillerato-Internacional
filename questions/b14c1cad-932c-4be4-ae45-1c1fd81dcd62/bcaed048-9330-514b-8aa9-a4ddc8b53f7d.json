@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "bcaed048-9330-514b-8aa9-a4ddc8b53f7d",
+  "rev": 1,
+  "statement": "Un terremoto produce ondas P, longitudinales, que viajan a $6{,}0\\,\\text{km s}^{-1}$, y ondas S, transversales, que viajan a $3{,}5\\,\\text{km s}^{-1}$. Una estación sísmica registra las ondas P $40\\,\\text{s}$ antes que las S.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas sísmicas",
+    "velocidad de onda"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la diferencia entre una onda longitudinal y una transversal.",
+      "modelAnswer": "En una onda longitudinal, las partículas oscilan en la dirección de propagación. (1) En una transversal, lo hacen perpendicularmente a ella. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la distancia entre la estación y el epicentro.",
+      "modelAnswer": "$\\dfrac{d}{3{,}5} - \\dfrac{d}{6{,}0} = 40$. (1) $d\\cdot 0{,}119 = 40$, de donde $d = 3{,}4\\times 10^{2}\\,\\text{km}$. (2)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula cuánto tardan las ondas P en llegar.",
+      "modelAnswer": "$t = \\dfrac{336}{6{,}0} = 56\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Las ondas P tienen una frecuencia de $2{,}0\\,\\text{Hz}$. Calcula su longitud de onda.",
+      "modelAnswer": "$\\lambda = \\dfrac{v}{f} = \\dfrac{6{,}0\\times 10^{3}}{2{,}0} = 3{,}0\\times 10^{3}\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Las ondas S no atraviesan el núcleo externo de la Tierra. Sugiere qué indica esto sobre su estado físico.",
+      "modelAnswer": "Es líquido, porque los líquidos no transmiten las fuerzas de cizalla que necesitan las ondas transversales.",
+      "marks": 2
+    }
+  ]
+}

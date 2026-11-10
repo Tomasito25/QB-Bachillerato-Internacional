@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "aea4afb6-184d-58ba-97f6-6057418436df",
+  "rev": 1,
+  "statement": "Una bola de $1{,}0\\,\\text{kg}$ a $4{,}0\\,\\text{m s}^{-1}$ choca de frente con otra de $3{,}0\\,\\text{kg}$ en reposo. Tras el choque, la primera rebota a $2{,}0\\,\\text{m s}^{-1}$ y la segunda avanza a $2{,}0\\,\\text{m s}^{-1}$. ¿Cómo es este choque?",
+  "explanation": "Cantidad de movimiento: $4{,}0 = -2{,}0 + 6{,}0$. Energía cinética: antes, $8{,}0\\,\\text{J}$; después, $\\frac{1}{2}\\cdot 1{,}0\\cdot 4{,}0 + \\frac{1}{2}\\cdot 3{,}0\\cdot 4{,}0 = 8{,}0\\,\\text{J}$. Como no cambia, es elástico.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "choques"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Elástico: la energía cinética vale $8{,}0\\,\\text{J}$ antes y después.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Inelástico: se pierden $4{,}0\\,\\text{J}$.",
+      "correct": false,
+      "feedback": "Suma las energías de las dos bolas después del choque."
+    },
+    {
+      "id": "c",
+      "text": "Inelástico: la cantidad de movimiento no se conserva.",
+      "correct": false,
+      "feedback": "Se conserva: 4,0 = −2,0 + 6,0."
+    },
+    {
+      "id": "d",
+      "text": "Explosivo: la energía cinética aumenta.",
+      "correct": false,
+      "feedback": "La energía cinética total no cambia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

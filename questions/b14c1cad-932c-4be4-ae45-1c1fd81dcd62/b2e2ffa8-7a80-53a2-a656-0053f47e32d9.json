@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "b2e2ffa8-7a80-53a2-a656-0053f47e32d9",
+  "rev": 1,
+  "statement": "El helio ($M = 4\\,\\text{g mol}^{-1}$) y el oxígeno ($M = 32\\,\\text{g mol}^{-1}$) están a la misma temperatura. ¿Cuánto vale la razón entre las rapideces cuadráticas medias de sus moléculas, $\\dfrac{v_{\\text{He}}}{v_{\\text{O}_2}}$?",
+  "explanation": "Con la misma $T$, $E_k$ media es igual: $\\frac{1}{2}mv^2 = \\frac{3}{2}k_BT$. Así $v \\propto \\sqrt{1/m}$, y la razón es $\\sqrt{8} = 2{,}8$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "teoría cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}35$",
+      "correct": false,
+      "feedback": "Las moléculas ligeras son más rápidas."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}0$",
+      "correct": false,
+      "feedback": "Tienen igual energía cinética media, no igual rapidez."
+    },
+    {
+      "id": "c",
+      "text": "$2{,}8$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$8{,}0$",
+      "correct": false,
+      "feedback": "Falta sacar la raíz cuadrada."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "acf6b6a6-d144-5c56-9f07-7262239b6069",
+  "rev": 1,
+  "statement": "Una superficie a $290\\,\\text{K}$ tiene una emisividad de $0{,}95$. ¿Qué potencia radia por unidad de área? Usa $\\sigma = 5{,}67\\times 10^{-8}\\,\\text{W m}^{-2}\\,\\text{K}^{-4}$.",
+  "explanation": "$\\dfrac{P}{A} = e\\sigma T^4 = 0{,}95\\cdot 5{,}67\\times 10^{-8}\\cdot 290^4 = 380\\,\\text{W m}^{-2}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "emisividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$16\\,\\text{W m}^{-2}$",
+      "correct": false,
+      "feedback": "La temperatura va elevada a la cuarta potencia."
+    },
+    {
+      "id": "b",
+      "text": "$20\\,\\text{W m}^{-2}$",
+      "correct": false,
+      "feedback": "Esa es la diferencia entre el cuerpo negro y la superficie."
+    },
+    {
+      "id": "c",
+      "text": "$380\\,\\text{W m}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$400\\,\\text{W m}^{-2}$",
+      "correct": false,
+      "feedback": "Falta multiplicar por la emisividad."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

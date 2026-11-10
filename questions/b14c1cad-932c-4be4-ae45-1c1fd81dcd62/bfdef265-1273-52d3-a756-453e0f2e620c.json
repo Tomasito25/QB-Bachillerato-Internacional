@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "bfdef265-1273-52d3-a756-453e0f2e620c",
+  "rev": 1,
+  "statement": "Una estrella se mueve, a poca velocidad respecto a la de la luz, en una dirección perpendicular a la línea que la une con la Tierra. ¿Qué desplazamiento Doppler se observa en sus líneas espectrales?",
+  "explanation": "La expresión $\\dfrac{\\Delta\\lambda}{\\lambda} \\approx \\dfrac{v}{c}$ usa la velocidad relativa a lo largo de la línea de visión, que aquí es nula.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "403ffb2e-0145-5591-8d3b-d6aa5fadb8c6"
+  ],
+  "tags": [
+    "conceptos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un corrimiento al azul, porque la estrella se acerca.",
+      "correct": false,
+      "feedback": "Su distancia casi no cambia."
+    },
+    {
+      "id": "b",
+      "text": "Un corrimiento al rojo, porque la estrella se está moviendo.",
+      "correct": false,
+      "feedback": "Sólo cuenta la componente en la línea de visión."
+    },
+    {
+      "id": "c",
+      "text": "Un desplazamiento igual al de una estrella que se aleja con esa velocidad.",
+      "correct": false,
+      "feedback": "Sólo cuenta la componente en la línea de visión."
+    },
+    {
+      "id": "d",
+      "text": "Ninguno apreciable, porque no hay componente de velocidad a lo largo de la línea de visión.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

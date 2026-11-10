@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "c1a0ef1e-e3a2-5ce2-a204-d6b4a84e8a97",
+  "rev": 1,
+  "statement": "Una masa fija de gas ideal se mantiene a temperatura constante. ¿Cómo es la gráfica del producto $pV$ frente a $p$?",
+  "explanation": "$pV = nRT$ es constante si lo es $T$. La altura de la recta es $nRT$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gráficas",
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una recta horizontal, a la misma altura para cualquier temperatura.",
+      "correct": false,
+      "feedback": "pV = nRT aumenta con la temperatura."
+    },
+    {
+      "id": "b",
+      "text": "Una hipérbola decreciente.",
+      "correct": false,
+      "feedback": "Esa es la gráfica de p frente a V."
+    },
+    {
+      "id": "c",
+      "text": "Una recta que pasa por el origen.",
+      "correct": false,
+      "feedback": "pV no cambia con p a temperatura constante."
+    },
+    {
+      "id": "d",
+      "text": "Una recta horizontal, que sería más alta si la temperatura fuese mayor.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

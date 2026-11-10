@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "b8a4f1ac-4a5a-57a7-9fbb-4ed124e09027",
+  "rev": 1,
+  "statement": "Dos esferas pequeñas tienen la misma carga $q$. Con una balanza se mide la fuerza $F$ con que se repelen para distintas separaciones $r$ entre sus centros.\n\n| $r$ / cm | 4,0 | 5,0 | 8,0 | 10,0 |\n|---|---|---|---|---|\n| $F$ / mN | 18,0 | 11,5 | 4,5 | 2,9 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "datos",
+    "linealización",
+    "ley de Coulomb"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Comprueba, con todos los datos, si $F$ es inversamente proporcional a $r^2$.",
+      "modelAnswer": "Si lo es, $Fr^2$ debe ser constante. En $\\text{mN cm}^2$: $18{,}0\\cdot 4{,}0^2 = 288$; $11{,}5\\cdot 5{,}0^2 = 288$; $4{,}5\\cdot 8{,}0^2 = 288$; $2{,}9\\cdot 10{,}0^2 = 290$. (1) El producto es constante dentro del 1 %, así que los datos apoyan la relación. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Un estudiante propone que $F$ es inversamente proporcional a $r$. Muestra que los datos no lo apoyan.",
+      "modelAnswer": "Entonces $Fr$ sería constante, pero vale $72$, $58$, $36$ y $29\\,\\text{mN cm}$: se reduce a menos de la mitad.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Indica qué habría que representar para obtener una recta que pase por el origen, y qué representaría su pendiente.",
+      "modelAnswer": "$F$ frente a $\\dfrac{1}{r^2}$. (1) La pendiente sería $kq^2$, donde $k$ es la constante de Coulomb. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la carga de cada esfera.",
+      "modelAnswer": "$kq^2 = Fr^2 = 288\\,\\text{mN cm}^2 = 2{,}88\\times 10^{-5}\\,\\text{N m}^2$. (1) $q = \\sqrt{\\dfrac{2{,}88\\times 10^{-5}}{8{,}99\\times 10^{9}}} = 5{,}7\\times 10^{-8}\\,\\text{C}$. (1)",
+      "marks": 2
+    }
+  ]
+}

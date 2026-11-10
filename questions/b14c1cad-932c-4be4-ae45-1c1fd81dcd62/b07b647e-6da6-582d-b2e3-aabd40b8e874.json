@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "b07b647e-6da6-582d-b2e3-aabd40b8e874",
+  "rev": 1,
+  "statement": "Dos pelotas salen en horizontal desde la misma altura, una con rapidez $v$ y la otra con rapidez $2v$. Sin resistencia del aire, ¿cómo son el tiempo de vuelo y el alcance de la segunda respecto a los de la primera?",
+  "explanation": "Las componentes son independientes. El tiempo depende sólo de la altura, $t = \\sqrt{2h/g}$, y el alcance vale $vt$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:08.000Z",
+  "updatedAt": "2026-11-10T07:22:08.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mismo tiempo de vuelo y cuádruple alcance.",
+      "correct": false,
+      "feedback": "El alcance horizontal es proporcional a v, no a v²."
+    },
+    {
+      "id": "b",
+      "text": "La mitad de tiempo de vuelo y el mismo alcance.",
+      "correct": false,
+      "feedback": "El movimiento vertical no depende de la velocidad horizontal."
+    },
+    {
+      "id": "c",
+      "text": "Doble tiempo de vuelo y doble alcance.",
+      "correct": false,
+      "feedback": "El tiempo depende sólo de la altura de caída."
+    },
+    {
+      "id": "d",
+      "text": "Mismo tiempo de vuelo y doble alcance.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
