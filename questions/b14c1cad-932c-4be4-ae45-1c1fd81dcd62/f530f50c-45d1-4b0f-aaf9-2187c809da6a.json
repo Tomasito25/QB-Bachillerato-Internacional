@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "f530f50c-45d1-4b0f-aaf9-2187c809da6a",
+  "rev": 1,
+  "statement": "Un péndulo simple que ejecuta un movimiento armónico simple se libera de un extremo y alcanza la posición de equilibrio en $2s$. Justo después de la posición de equilibrio, la longitud del péndulo se reduce a una cuarta parte de su valor inicial debido a la envoltura alrededor de un clavo.\n\n\n![figura](qbimg:b4e4efe344ab812d2f88cc02addd172e15eac69cdd6b72559a4ef24f4f0ccfe5)\n\n¿Cuál es el período del péndulo simple?",
+  "explanation": "![figura](qbimg:56e591e14137e382b2fa738379205689e2aa1831a5b22f22b9f033990739861b)",
+  "images": [
+    {
+      "hash": "b4e4efe344ab812d2f88cc02addd172e15eac69cdd6b72559a4ef24f4f0ccfe5",
+      "ext": "webp",
+      "width": 333,
+      "height": 195,
+      "bytes": 3418,
+      "alt": ""
+    },
+    {
+      "hash": "56e591e14137e382b2fa738379205689e2aa1831a5b22f22b9f033990739861b",
+      "ext": "webp",
+      "width": 1600,
+      "height": 379,
+      "bytes": 43086,
+      "alt": ""
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T09:36:43.000Z",
+  "updatedAt": "2026-11-10T09:36:43.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "8 s",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "6 s",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "4 s",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "2 s",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
