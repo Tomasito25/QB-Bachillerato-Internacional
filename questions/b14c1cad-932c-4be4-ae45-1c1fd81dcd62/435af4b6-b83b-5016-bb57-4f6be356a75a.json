@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "435af4b6-b83b-5016-bb57-4f6be356a75a",
+  "rev": 1,
+  "statement": "La gráfica muestra las curvas características de una resistencia fija R y de una lámpara L.\n\n![Curvas características. R: recta desde el origen hasta 0,30 A a 6,0 V. L: curva que pasa por 0,10 A a 1,0 V, 0,15 A a 2,0 V, 0,25 A a 4,0 V y 0,30 A a 6,0 V.](qbimg:019ead6d8ac678869ff88a2814c59b013c7c6f5b81ad10cab38f15220594e2d6)\n\nSi se conectan en paralelo a una fuente de $2{,}0\\,\\text{V}$ de resistencia interna despreciable, ¿cuál es la corriente total que entrega la fuente?",
+  "explanation": "En paralelo, cada uno tiene $2{,}0\\,\\text{V}$. De la gráfica se lee $0{,}10\\,\\text{A}$ para R y $0{,}15\\,\\text{A}$ para L. Las corrientes se suman.",
+  "images": [
+    {
+      "hash": "019ead6d8ac678869ff88a2814c59b013c7c6f5b81ad10cab38f15220594e2d6",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 19115,
+      "alt": "Curvas características. R: recta desde el origen hasta 0,30 A a 6,0 V. L: curva que pasa por 0,10 A a 1,0 V, 0,15 A a 2,0 V, 0,25 A a 4,0 V y 0,30 A a 6,0 V."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "gráficas",
+    "características I-V"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:38.000Z",
+  "updatedAt": "2026-11-10T07:21:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}10\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Esa es sólo la corriente de R."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}15\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Esa es sólo la corriente de la lámpara."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}25\\,\\text{A}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}30\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Esa corriente corresponde a 6,0 V."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
