@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "8834926d-5fa1-57e6-99b0-a73c3069458b",
+  "rev": 1,
+  "statement": "¿Cuál de estos procesos es una retroalimentación **positiva** del calentamiento global?",
+  "explanation": "Una retroalimentación positiva amplifica el cambio inicial. El vapor de agua es un gas de efecto invernadero, de modo que más calentamiento produce aún más calentamiento.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "retroalimentación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Más cobertura de nubes bajas refleja más radiación solar.",
+      "correct": false,
+      "feedback": "Eso enfría: sería una retroalimentación negativa."
+    },
+    {
+      "id": "b",
+      "text": "La Tierra más caliente radia más energía al espacio.",
+      "correct": false,
+      "feedback": "Eso tiende a devolver el equilibrio: es negativa."
+    },
+    {
+      "id": "c",
+      "text": "Las plantas crecen más y absorben más CO₂.",
+      "correct": false,
+      "feedback": "Eso reduce el CO₂: es negativa."
+    },
+    {
+      "id": "d",
+      "text": "Una atmósfera más cálida contiene más vapor de agua, que absorbe más radiación infrarroja.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

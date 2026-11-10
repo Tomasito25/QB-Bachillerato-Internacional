@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "912163fd-38cd-59c6-9ed1-48c04181e323",
+  "rev": 1,
+  "statement": "Se lanza una piedra en vertical hacia arriba y se recoge a la misma altura. Sin resistencia del aire y tomando hacia arriba como positivo, ¿cómo es la gráfica de velocidad frente a tiempo?",
+  "explanation": "La aceleración es constante e igual a $-g$, y la pendiente de $v$–$t$ es la aceleración. La velocidad pasa de positiva a negativa, y es cero en el punto más alto.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas",
+    "caída libre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una recta horizontal por debajo del eje.",
+      "correct": false,
+      "feedback": "Esa sería la gráfica de la aceleración."
+    },
+    {
+      "id": "b",
+      "text": "Una recta de pendiente negativa constante que cruza el eje de tiempos a mitad del vuelo.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Dos rectas en forma de V, con mínimo en el punto más alto.",
+      "correct": false,
+      "feedback": "Eso describe la rapidez, no la velocidad, y además con el signo contrario."
+    },
+    {
+      "id": "d",
+      "text": "Una parábola con el máximo en el punto más alto.",
+      "correct": false,
+      "feedback": "Esa forma corresponde a la altura frente al tiempo."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

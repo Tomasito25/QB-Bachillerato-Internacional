@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "8cb5044f-3c2c-5a04-a81e-beeafd126506",
+  "rev": 1,
+  "statement": "Un avión describe un viraje horizontal de $2{,}0\\,\\text{km}$ de radio a $120\\,\\text{m s}^{-1}$. La sustentación es perpendicular a las alas. ¿Qué ángulo forman las alas con la horizontal? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "La componente vertical de la sustentación equilibra el peso y la horizontal es la fuerza centrípeta. Por tanto, $\\tan\\theta = \\dfrac{v^2}{rg} = \\dfrac{120^2}{2000\\cdot 9{,}8} = 0{,}73$, y $\\theta = 36°$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$23°$",
+      "correct": false,
+      "feedback": "Revisa el cociente: tan θ = v²/(rg)."
+    },
+    {
+      "id": "b",
+      "text": "$36°$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$47°$",
+      "correct": false,
+      "feedback": "Se ha usado la función inversa del seno."
+    },
+    {
+      "id": "d",
+      "text": "$54°$",
+      "correct": false,
+      "feedback": "Es el ángulo complementario."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

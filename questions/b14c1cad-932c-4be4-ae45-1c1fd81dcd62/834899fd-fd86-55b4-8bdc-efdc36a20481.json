@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "834899fd-fd86-55b4-8bdc-efdc36a20481",
+  "rev": 1,
+  "statement": "Se calientan por separado dos muestras de igual masa, P y Q, inicialmente a la misma temperatura. La gráfica muestra su temperatura $T$ frente a la energía suministrada $Q_s$.\n\n![Gráfica de temperatura frente a energía: dos rectas parten de 20 °C. La recta P llega a 60 °C con 10 kJ, y la recta Q llega a 40 °C con 10 kJ.](qbimg:7546342fb77f943baebff0d465a0ae27ff1bd556d896e0eebc2625807f483efb)\n\n¿Cuánto vale la razón $\\dfrac{c_P}{c_Q}$ entre sus calores específicos?",
+  "explanation": "La pendiente es $\\dfrac{1}{mc}$. P tiene el doble de pendiente que Q, así que su calor específico es la mitad.",
+  "images": [
+    {
+      "hash": "7546342fb77f943baebff0d465a0ae27ff1bd556d896e0eebc2625807f483efb",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 13749,
+      "alt": "Gráfica de temperatura frente a energía: dos rectas parten de 20 °C. La recta P llega a 60 °C con 10 kJ, y la recta Q llega a 40 °C con 10 kJ."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "gráficas",
+    "calor específico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}25$",
+      "correct": false,
+      "feedback": "La razón de pendientes es 2, no 4."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}50$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$2{,}0$",
+      "correct": false,
+      "feedback": "Mayor pendiente significa menor calor específico."
+    },
+    {
+      "id": "d",
+      "text": "$4{,}0$",
+      "correct": false,
+      "feedback": "La razón de pendientes es 2, y va invertida."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

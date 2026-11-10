@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "8379c322-dc6e-5c6a-adce-a718b747f5b4",
+  "rev": 1,
+  "statement": "El conjunto móvil de una lavadora tiene una masa de $80\\,\\text{kg}$ y descansa sobre soportes elásticos con una constante total de $3{,}2\\times 10^{5}\\,\\text{N m}^{-1}$. Su tambor gira con la ropa mal repartida, lo que aplica una fuerza periódica sobre el conjunto, con la frecuencia de giro.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "resonancia",
+    "amortiguamiento",
+    "masa-muelle"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la frecuencia natural de oscilación del conjunto.",
+      "modelAnswer": "$T = 2\\pi\\sqrt{\\dfrac{80}{3{,}2\\times 10^{5}}} = 0{,}099\\,\\text{s}$. (1) $f = 10\\,\\text{Hz}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina a cuántas revoluciones por minuto vibrará la lavadora con la máxima amplitud.",
+      "modelAnswer": "Hay resonancia cuando la frecuencia de giro iguala a la natural: $10{,}07\\cdot 60 = 6{,}0\\times 10^{2}\\,\\text{rpm}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la vibración disminuye cuando el tambor llega a $1200\\,\\text{rpm}$.",
+      "modelAnswer": "La frecuencia impulsora se aleja mucho de la natural. (1) El sistema ya no está en resonancia, y la amplitud de la oscilación forzada es pequeña. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "La lavadora tiene también amortiguadores. Indica su efecto en la amplitud de resonancia y en la curva de amplitud frente a frecuencia.",
+      "modelAnswer": "Reducen la amplitud máxima. (1) La curva se hace más baja y más ancha. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere cómo cambiaría la frecuencia natural con una carga de ropa de $5{,}0\\,\\text{kg}$ más, y explica si este cambio sería importante.",
+      "modelAnswer": "Con más masa disminuye un poco: $f \\propto \\dfrac{1}{\\sqrt{m}}$. (1) El cambio relativo de masa es pequeño, así que la frecuencia baja sólo alrededor de un 3 %. (1)",
+      "marks": 2
+    }
+  ]
+}

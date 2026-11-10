@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "8e45eb84-ce84-5d68-abe8-0ca379b16977",
+  "rev": 1,
+  "statement": "En el circuito, la fuente de $12\\,\\text{V}$ tiene resistencia interna despreciable.\n\n![Circuito: fuente de 12 V en serie con una resistencia de 4,0 Ω y con dos resistencias en paralelo, de 6,0 Ω y 12 Ω.](qbimg:777466dd98a24990ad82c1a0edae105ea3813b469bd21ea2075a485ce1dc6b1c)\n\n¿Qué corriente circula por la resistencia de $12\\,\\Omega$?",
+  "explanation": "El paralelo de $6{,}0\\,\\Omega$ y $12\\,\\Omega$ equivale a $4{,}0\\,\\Omega$, y la resistencia total es de $8{,}0\\,\\Omega$. $I = 1{,}5\\,\\text{A}$, y la tensión en el paralelo es de $6{,}0\\,\\text{V}$. Por tanto, $I_{12} = \\dfrac{6{,}0}{12} = 0{,}50\\,\\text{A}$.",
+  "images": [
+    {
+      "hash": "777466dd98a24990ad82c1a0edae105ea3813b469bd21ea2075a485ce1dc6b1c",
+      "ext": "png",
+      "width": 1200,
+      "height": 680,
+      "bytes": 6588,
+      "alt": "Circuito: fuente de 12 V en serie con una resistencia de 4,0 Ω y con dos resistencias en paralelo, de 6,0 Ω y 12 Ω."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "circuitos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}50\\,\\text{A}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$0{,}75\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Esa corriente daría 9,0 V en la rama, y no llega a tanto."
+    },
+    {
+      "id": "c",
+      "text": "$1{,}0\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Esa es la corriente de la rama de 6 Ω."
+    },
+    {
+      "id": "d",
+      "text": "$1{,}5\\,\\text{A}$",
+      "correct": false,
+      "feedback": "Esa es la corriente total."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
