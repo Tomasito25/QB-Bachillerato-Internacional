@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "33324c65-e481-580f-b869-a52266570600",
+  "rev": 1,
+  "statement": "Considera estas afirmaciones.\n\nI. Las ondas electromagnéticas se pueden propagar en el vacío.\n\nII. El sonido viaja más rápido en el aire que en un sólido.\n\nIII. En el vacío, todas las ondas electromagnéticas tienen la misma rapidez.\n\n¿Cuáles son correctas?",
+  "explanation": "II es falsa: el sonido se propaga más rápido en sólidos, porque sus partículas están ligadas con más fuerza. I y III son correctas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas mecánicas",
+    "ondas electromagnéticas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sólo I y II",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sólo I y III",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Sólo II y III",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "I, II y III",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

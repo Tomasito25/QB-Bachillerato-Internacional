@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "3f9af1ef-07b4-577a-85b3-7c87dd1e239e",
+  "rev": 1,
+  "statement": "Dos placas paralelas están separadas $5{,}0\\,\\text{mm}$ y el campo eléctrico entre ellas es de $4{,}0\\times 10^{4}\\,\\text{V m}^{-1}$. ¿Cuál es la diferencia de potencial entre las placas?",
+  "explanation": "$V = Ed = 4{,}0\\times 10^{4}\\cdot 5{,}0\\times 10^{-3} = 200\\,\\text{V}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo uniforme"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$20\\,\\text{V}$",
+      "correct": false,
+      "feedback": "Pasa los milímetros a metros correctamente."
+    },
+    {
+      "id": "b",
+      "text": "$200\\,\\text{V}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$2{,}0\\times 10^{4}\\,\\text{V}$",
+      "correct": false,
+      "feedback": "Pasa los milímetros a metros."
+    },
+    {
+      "id": "d",
+      "text": "$8{,}0\\times 10^{6}\\,\\text{V}$",
+      "correct": false,
+      "feedback": "Hay que multiplicar el campo por la distancia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

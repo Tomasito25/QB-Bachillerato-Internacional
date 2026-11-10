@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "321e9d9e-8ebd-53bc-8114-5f16b7208005",
+  "rev": 1,
+  "statement": "La gráfica muestra la aceleración de un objeto en función del tiempo. En $t = 0$ su velocidad es $2{,}0\\,\\text{m s}^{-1}$.\n\n![Gráfica de aceleración frente a tiempo: constante en 4,0 m/s² de 0 a 3,0 s, y después baja en línea recta hasta 0 en t = 5,0 s.](qbimg:69a4f09cc0b881a3e734bcbadaf1c818e41150ccc9f60abb3d58b923714ce40c)\n\n¿Cuál es su velocidad en $t = 5{,}0\\,\\text{s}$?",
+  "explanation": "El área bajo $a$–$t$ es el cambio de velocidad: $4{,}0\\cdot 3{,}0 + \\frac{1}{2}\\cdot 2{,}0\\cdot 4{,}0 = 16\\,\\text{m s}^{-1}$. Por tanto, $v = 2{,}0 + 16 = 18\\,\\text{m s}^{-1}$.",
+  "images": [
+    {
+      "hash": "69a4f09cc0b881a3e734bcbadaf1c818e41150ccc9f60abb3d58b923714ce40c",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 10430,
+      "alt": "Gráfica de aceleración frente a tiempo: constante en 4,0 m/s² de 0 a 3,0 s, y después baja en línea recta hasta 0 en t = 5,0 s."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$14\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta el triángulo final."
+    },
+    {
+      "id": "b",
+      "text": "$16\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta sumar la velocidad inicial."
+    },
+    {
+      "id": "c",
+      "text": "$18\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$20\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Has tomado todo como un rectángulo de 4,0 × 5,0 y no has sumado la velocidad inicial."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

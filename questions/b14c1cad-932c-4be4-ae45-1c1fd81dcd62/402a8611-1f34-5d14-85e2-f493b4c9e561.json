@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "402a8611-1f34-5d14-85e2-f493b4c9e561",
+  "rev": 1,
+  "statement": "Para estudiar el rebote de una pelota, se deja caer desde distintas alturas $h_1$ sobre un suelo duro y se mide la altura $h_2$ que alcanza tras el primer rebote. Las dos alturas se leen en una regla vertical.\n\n| $h_1$ / cm | 40 | 60 | 80 | 100 |\n|---|---|---|---|---|\n| $h_2$ / cm | 32 | 46 | 60 | 74 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "datos",
+    "evaluación",
+    "error sistemático",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el cociente $\\dfrac{h_2}{h_1}$ para la primera y la última medida.",
+      "modelAnswer": "$\\dfrac{32}{40} = 0{,}80$ y $\\dfrac{74}{100} = 0{,}74$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Se espera que la pelota conserve siempre la misma fracción de su energía, de modo que $h_2 = c\\,h_1$, con $c$ constante. Determina la pendiente y la ordenada en el origen de la recta de $h_2$ frente a $h_1$ que pasa por la primera y la última medida.",
+      "modelAnswer": "Pendiente: $\\dfrac{74 - 32}{100 - 40} = 0{,}70$. (1) Ordenada en el origen: $32 - 0{,}70\\cdot 40 = 4{,}0\\,\\text{cm}$. Los cuatro puntos están sobre esa recta. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica qué tipo de error revelan estos resultados y sugiere una causa.",
+      "modelAnswer": "Un error sistemático: todas las alturas de rebote están desplazadas la misma cantidad, $4{,}0\\,\\text{cm}$, y por eso la recta no pasa por el origen y el cociente no sale constante. (1) Por ejemplo, $h_1$ se midió hasta la parte inferior de la pelota y $h_2$ hasta la superior, y la pelota tiene $4{,}0\\,\\text{cm}$ de diámetro. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica cuál es la mejor estimación de $c$, y justifícalo.",
+      "modelAnswer": "La pendiente, $0{,}70$: un desplazamiento constante de las lecturas cambia la ordenada en el origen, pero no la pendiente.",
+      "marks": 1
+    }
+  ]
+}

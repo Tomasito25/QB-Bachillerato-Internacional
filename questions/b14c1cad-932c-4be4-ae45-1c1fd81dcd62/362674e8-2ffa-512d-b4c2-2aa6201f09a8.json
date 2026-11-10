@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "362674e8-2ffa-512d-b4c2-2aa6201f09a8",
+  "rev": 1,
+  "statement": "En un tubo de haz fino, unos electrones parten del reposo, se aceleran con una diferencia de potencial $V$ y entran en un campo magnético uniforme de $1{,}2\\,\\text{mT}$, perpendicular a su velocidad, donde describen una circunferencia de radio $r$. La gráfica muestra $r^2$ frente a $V$, con su recta de ajuste.\n\n![Gráfica del cuadrado del radio de la trayectoria, en cm², frente a la diferencia de potencial aceleradora, en V. Cinco puntos con barras de error verticales, entre 100 y 300 V, y una recta de ajuste que pasa por el origen.](qbimg:2efe88cec11ba6f943cb36e545734597ed4d1e4c9de9ae3e870b3f6a2cd25876)",
+  "images": [
+    {
+      "hash": "2efe88cec11ba6f943cb36e545734597ed4d1e4c9de9ae3e870b3f6a2cd25876",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 18572,
+      "alt": "Gráfica del cuadrado del radio de la trayectoria, en cm², frente a la diferencia de potencial aceleradora, en V. Cinco puntos con barras de error verticales, entre 100 y 300 V, y una recta de ajuste que pasa por el origen."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c615bd5e-7863-5d9d-b0bf-bb1aa1665649",
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "datos",
+    "linealización",
+    "carga específica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Muestra que $r^2 = \\dfrac{2m}{eB^2}\\,V$, donde $m$ es la masa del electrón y $e$, el valor de su carga.",
+      "modelAnswer": "Al acelerarse: $eV = \\dfrac{1}{2}mv^2$. En el campo, la fuerza magnética es la centrípeta: $evB = \\dfrac{mv^2}{r}$, de modo que $r = \\dfrac{mv}{eB}$. (1) $r^2 = \\dfrac{m^2v^2}{e^2B^2} = \\dfrac{m^2}{e^2B^2}\\cdot\\dfrac{2eV}{m} = \\dfrac{2m}{eB^2}\\,V$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la pendiente de la recta, en $\\text{m}^2\\,\\text{V}^{-1}$.",
+      "modelAnswer": "Con los puntos $(0;\\,0)$ y $(300;\\,24{,}0)$: $\\dfrac{24{,}0}{300} = 0{,}080\\,\\text{cm}^2\\,\\text{V}^{-1}$. (1) Como $1\\,\\text{cm}^2 = 10^{-4}\\,\\text{m}^2$, la pendiente es de $8{,}0\\times 10^{-6}\\,\\text{m}^2\\,\\text{V}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la carga específica del electrón, $\\dfrac{e}{m}$.",
+      "modelAnswer": "$\\dfrac{e}{m} = \\dfrac{2}{\\text{pendiente}\\cdot B^2} = \\dfrac{2}{8{,}0\\times 10^{-6}\\cdot (1{,}2\\times 10^{-3})^2}$ (1) $= 1{,}7\\times 10^{11}\\,\\text{C kg}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "La incertidumbre de la pendiente es del 4 % y la del campo magnético, del 3 %. Determina la incertidumbre porcentual de $\\dfrac{e}{m}$.",
+      "modelAnswer": "$4\\,\\% + 2\\cdot 3\\,\\% = 10\\,\\%$: la del campo cuenta doble porque $B$ está al cuadrado.",
+      "marks": 1
+    }
+  ]
+}

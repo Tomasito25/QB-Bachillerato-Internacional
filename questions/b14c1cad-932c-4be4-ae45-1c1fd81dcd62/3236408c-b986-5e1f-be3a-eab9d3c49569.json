@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "3236408c-b986-5e1f-be3a-eab9d3c49569",
+  "rev": 1,
+  "statement": "Un exoplaneta orbita a $1{,}2\\times 10^{11}\\,\\text{m}$ de una estrella con una luminosidad de $3{,}0\\times 10^{26}\\,\\text{W}$. Su albedo es de $0{,}35$ y la temperatura media de su superficie, medida por una sonda, es de $320\\,\\text{K}$. Usa $\\sigma = 5{,}67\\times 10^{-8}\\,\\text{W m}^{-2}\\,\\text{K}^{-4}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía",
+    "emisividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:33.000Z",
+  "updatedAt": "2026-11-10T07:21:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la intensidad de la radiación de la estrella a esa distancia.",
+      "modelAnswer": "$S = \\dfrac{L}{4\\pi d^2} = 1{,}7\\times 10^{3}\\,\\text{W m}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la potencia media absorbida por metro cuadrado de planeta.",
+      "modelAnswer": "$\\dfrac{S}{4}(1 - \\alpha) = \\dfrac{1658}{4}\\cdot 0{,}65 = 269\\,\\text{W m}^{-2}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la temperatura de equilibrio que tendría si radiara como un cuerpo negro.",
+      "modelAnswer": "$T = \\left(\\dfrac{269}{\\sigma}\\right)^{1/4} = 263\\,\\text{K}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la emisividad efectiva del planeta, y explica por qué es menor que 1 en función de su atmósfera.",
+      "modelAnswer": "$e = \\dfrac{269}{\\sigma\\cdot 320^4} = 0{,}45$. (2) La atmósfera absorbe gran parte de la radiación infrarroja de la superficie y la reemite también hacia abajo, de forma que al espacio llega menos potencia de la que emite la superficie. (2)",
+      "marks": 4
+    }
+  ]
+}
