@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "cef38d9c-ff41-5f8d-b34c-06eba8e430d8",
+  "rev": 1,
+  "statement": "Considera estas afirmaciones sobre un objeto en movimiento rectilíneo.\n\nI. Su velocidad media en un intervalo puede ser cero aunque su rapidez media no lo sea.\n\nII. Su aceleración puede ser distinta de cero en un instante en que su velocidad es cero.\n\nIII. Su rapidez puede estar disminuyendo mientras el módulo de su aceleración aumenta.\n\n¿Cuáles son correctas?",
+  "explanation": "I: basta con volver al punto de partida. II: ocurre en el punto más alto de un lanzamiento vertical. III: pasa al frenar cada vez con más fuerza.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "conceptos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sólo I y II",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sólo I y III",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Sólo II y III",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "I, II y III",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

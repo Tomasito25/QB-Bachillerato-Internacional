@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "e5efb897-3c33-586f-a172-924b9204c330",
+  "rev": 1,
+  "statement": "Dos cuerpos negros esféricos, A y B, tienen el mismo radio. El máximo del espectro de A está en una longitud de onda que es la mitad de la de B. ¿Cuáles son las razones $\\dfrac{T_A}{T_B}$ y $\\dfrac{L_A}{L_B}$?",
+  "explanation": "$\\lambda_{\\text{máx}}T$ es constante, así que $T_A = 2T_B$. Con el mismo radio, $L \\propto T^4$, luego la razón es $2^4 = 16$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "ley de Wien",
+    "Stefan-Boltzmann"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\dfrac{T_A}{T_B} = 2$ y $\\dfrac{L_A}{L_B} = 4$",
+      "correct": false,
+      "feedback": "La luminosidad depende de T⁴."
+    },
+    {
+      "id": "b",
+      "text": "$\\dfrac{T_A}{T_B} = \\dfrac{1}{2}$ y $\\dfrac{L_A}{L_B} = \\dfrac{1}{16}$",
+      "correct": false,
+      "feedback": "Menor longitud de onda significa mayor temperatura."
+    },
+    {
+      "id": "c",
+      "text": "$\\dfrac{T_A}{T_B} = 4$ y $\\dfrac{L_A}{L_B} = 16$",
+      "correct": false,
+      "feedback": "La temperatura es inversamente proporcional a la longitud de onda del máximo."
+    },
+    {
+      "id": "d",
+      "text": "$\\dfrac{T_A}{T_B} = 2$ y $\\dfrac{L_A}{L_B} = 16$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

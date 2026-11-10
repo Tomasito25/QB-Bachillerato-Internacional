@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "d9263a12-7125-55ab-94ad-46ced8a779c7",
+  "rev": 1,
+  "statement": "Un péndulo oscila sin amortiguamiento. En el punto más bajo de su trayectoria:",
+  "explanation": "La energía mecánica total se conserva. En el punto más bajo toda ella es cinética, tomando ese punto como referencia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "la energía total es máxima.",
+      "correct": false,
+      "feedback": "La energía total es constante."
+    },
+    {
+      "id": "b",
+      "text": "la energía cinética y la potencial son iguales.",
+      "correct": false,
+      "feedback": "Son iguales en un punto intermedio."
+    },
+    {
+      "id": "c",
+      "text": "la energía cinética es mínima y la potencial es máxima.",
+      "correct": false,
+      "feedback": "Eso ocurre en los extremos."
+    },
+    {
+      "id": "d",
+      "text": "la energía cinética es máxima y la energía potencial gravitatoria es mínima.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

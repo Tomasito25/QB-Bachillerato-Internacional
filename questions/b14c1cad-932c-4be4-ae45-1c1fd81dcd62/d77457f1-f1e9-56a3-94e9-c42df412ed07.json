@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "d77457f1-f1e9-56a3-94e9-c42df412ed07",
+  "rev": 1,
+  "statement": "¿Cuál es la densidad del aire ($M = 0{,}029\\,\\text{kg mol}^{-1}$), considerado un gas ideal, a $100\\,\\text{kPa}$ y $300\\,\\text{K}$? Usa $R = 8{,}31\\,\\text{J K}^{-1}\\,\\text{mol}^{-1}$.",
+  "explanation": "$\\rho = \\dfrac{pM}{RT} = \\dfrac{1{,}0\\times 10^{5}\\cdot 0{,}029}{8{,}31\\cdot 300} = 1{,}2\\,\\text{kg m}^{-3}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal",
+    "densidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}0012\\,\\text{kg m}^{-3}$",
+      "correct": false,
+      "feedback": "La masa molar ya está en kg/mol y la presión debe ir en pascales."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}2\\,\\text{kg m}^{-3}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$12\\,\\text{kg m}^{-3}$",
+      "correct": false,
+      "feedback": "Hay un error de un factor 10."
+    },
+    {
+      "id": "d",
+      "text": "$1200\\,\\text{kg m}^{-3}$",
+      "correct": false,
+      "feedback": "Esa sería una densidad típica de un líquido."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

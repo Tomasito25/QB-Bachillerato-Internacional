@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "d06ea8b7-a514-5f6e-8be4-89a5d327ec1f",
+  "rev": 1,
+  "statement": "Un reloj de péndulo se atrasa. ¿Qué ajuste corrige el problema?",
+  "explanation": "Un reloj que atrasa tiene un periodo demasiado largo. Como $T = 2\\pi\\sqrt{\\dfrac{l}{g}}$, hay que reducir $l$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "péndulo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumentar un poco la amplitud.",
+      "correct": false,
+      "feedback": "Para ángulos pequeños, el periodo no depende de la amplitud."
+    },
+    {
+      "id": "b",
+      "text": "Alargar el péndulo.",
+      "correct": false,
+      "feedback": "Eso aumentaría el periodo y atrasaría aún más."
+    },
+    {
+      "id": "c",
+      "text": "Poner una masa mayor.",
+      "correct": false,
+      "feedback": "El periodo de un péndulo simple no depende de la masa."
+    },
+    {
+      "id": "d",
+      "text": "Acortar el péndulo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

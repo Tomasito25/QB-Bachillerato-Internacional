@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "d9b3a553-4dbf-5af1-bd9a-150e8a616fd6",
+  "rev": 1,
+  "statement": "Tres fuerzas coplanarias actúan sobre un objeto. ¿Con qué módulos es **imposible** que el objeto esté en equilibrio?",
+  "explanation": "Tres fuerzas en equilibrio forman un triángulo cerrado, de modo que la mayor no puede superar a la suma de las otras dos. $2 + 3 < 6$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "equilibrio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2\\,\\text{N}$, $3\\,\\text{N}$ y $6\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$5\\,\\text{N}$, $5\\,\\text{N}$ y $5\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Forman un triángulo equilátero."
+    },
+    {
+      "id": "c",
+      "text": "$6\\,\\text{N}$, $8\\,\\text{N}$ y $10\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Forman un triángulo rectángulo."
+    },
+    {
+      "id": "d",
+      "text": "$3\\,\\text{N}$, $4\\,\\text{N}$ y $5\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Forman un triángulo rectángulo, así que pueden sumar cero."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

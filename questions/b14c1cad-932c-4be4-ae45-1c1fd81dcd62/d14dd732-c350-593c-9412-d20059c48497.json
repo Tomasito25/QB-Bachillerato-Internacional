@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "d14dd732-c350-593c-9412-d20059c48497",
+  "rev": 1,
+  "statement": "¿Qué masa tienen $3{,}0\\times 10^{23}$ moléculas de $\\text{CO}_2$? Su masa molar es $44\\,\\text{g mol}^{-1}$ y $N_A = 6{,}0\\times 10^{23}\\,\\text{mol}^{-1}$.",
+  "explanation": "$n = \\dfrac{N}{N_A} = 0{,}50\\,\\text{mol}$, y $m = 0{,}50\\cdot 44 = 22\\,\\text{g}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "cantidad de sustancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$11\\,\\text{g}$",
+      "correct": false,
+      "feedback": "Son 0,50 mol, no 0,25 mol."
+    },
+    {
+      "id": "b",
+      "text": "$22\\,\\text{g}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$44\\,\\text{g}$",
+      "correct": false,
+      "feedback": "Es la masa de 1 mol completo."
+    },
+    {
+      "id": "d",
+      "text": "$88\\,\\text{g}$",
+      "correct": false,
+      "feedback": "Se ha multiplicado por 2 en vez de dividir."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

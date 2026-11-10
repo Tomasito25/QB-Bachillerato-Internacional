@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "cb4a0177-8732-5f65-a261-9a0290c74d49",
+  "rev": 1,
+  "statement": "Una jeringa sellada contiene aire. Se miden su volumen, $V = (60 \\pm 1)\\,\\text{cm}^3$, su presión, $p = (101 \\pm 1)\\,\\text{kPa}$, y su temperatura, $\\theta = (22{,}0 \\pm 0{,}5)\\,°\\text{C}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "818c5352-d9aa-5c8c-9c20-dc85fac93f60",
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "datos",
+    "incertidumbres",
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Expresa la temperatura en kelvin con su incertidumbre absoluta, y calcula su incertidumbre porcentual.",
+      "modelAnswer": "$T = (295{,}2 \\pm 0{,}5)\\,\\text{K}$: al sumar una constante, la incertidumbre absoluta no cambia. (1) $\\dfrac{0{,}5}{295{,}2} = 0{,}17\\,\\%$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Un estudiante calcula esa incertidumbre porcentual como $\\dfrac{0{,}5}{22{,}0} = 2{,}3\\,\\%$. Explica su error.",
+      "modelAnswer": "En $pV = nRT$ interviene la temperatura absoluta, así que el porcentaje debe referirse al valor en kelvin. El cero de la escala Celsius es arbitrario.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la cantidad de aire que hay en la jeringa.",
+      "modelAnswer": "$n = \\dfrac{pV}{RT} = \\dfrac{1{,}01\\times 10^{5}\\cdot 6{,}0\\times 10^{-5}}{8{,}31\\cdot 295{,}2} = 2{,}47\\times 10^{-3}\\,\\text{mol}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Determina la incertidumbre absoluta de $n$ e indica qué medida la domina.",
+      "modelAnswer": "$\\dfrac{\\Delta n}{n} = 1{,}0\\,\\% + 1{,}7\\,\\% + 0{,}17\\,\\% = 2{,}8\\,\\%$, de modo que $\\Delta n = 7\\times 10^{-5}\\,\\text{mol}$. (1) Domina el volumen, con un 1,7 %. (1)",
+      "marks": 2
+    }
+  ]
+}

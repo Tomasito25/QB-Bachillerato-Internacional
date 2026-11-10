@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "d7c597c5-8807-507e-af07-eaa9513329e1",
+  "rev": 1,
+  "statement": "Una maceta cae desde una azotea y tarda $0{,}20\\,\\text{s}$ en pasar por delante de una ventana de $2{,}0\\,\\text{m}$ de altura. Sin resistencia del aire, ¿qué rapidez lleva al llegar al borde superior de la ventana?",
+  "explanation": "$s = ut + \\frac{1}{2}gt^2$, así que $u = \\dfrac{2{,}0 - 0{,}5\\cdot 9{,}8\\cdot 0{,}20^2}{0{,}20} = 9{,}0\\,\\text{m s}^{-1}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "caída libre",
+    "MRUA"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Es el cambio de velocidad durante los 0,20 s."
+    },
+    {
+      "id": "b",
+      "text": "$9{,}0\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$10\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Esa es la rapidez media mientras cruza la ventana."
+    },
+    {
+      "id": "d",
+      "text": "$11\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Esa es la rapidez en el borde inferior."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

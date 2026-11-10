@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "e35d20f3-d907-554e-a2a8-762a3e15fa4d",
+  "rev": 1,
+  "statement": "En un modelo sencillo, cada metro cuadrado de suelo recibe $240\\,\\text{W}$ del Sol y $150\\,\\text{W}$ de la radiación infrarroja de la atmósfera. Si el suelo radia como un cuerpo negro, ¿a qué temperatura se estabiliza? Usa $\\sigma = 5{,}67\\times 10^{-8}\\,\\text{W m}^{-2}\\,\\text{K}^{-4}$.",
+  "explanation": "En equilibrio, $\\sigma T^4 = 240 + 150 = 390\\,\\text{W m}^{-2}$, de modo que $T = 288\\,\\text{K}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$220\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Sumamos, no restamos, la radiación de la atmósfera."
+    },
+    {
+      "id": "b",
+      "text": "$255\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Falta la energía que llega de la atmósfera."
+    },
+    {
+      "id": "c",
+      "text": "$288\\,\\text{K}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$390\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Esa cifra es la intensidad, no la temperatura."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

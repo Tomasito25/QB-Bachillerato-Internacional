@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "c9c0c544-a2d5-59f6-9e32-949c116edbcc",
+  "rev": 1,
+  "statement": "Una esfera de vidrio de radio $2{,}0\\times 10^{-5}\\,\\text{m}$ y densidad $2500\\,\\text{kg m}^{-3}$ sedimenta en agua, de densidad $1000\\,\\text{kg m}^{-3}$ y viscosidad $1{,}0\\times 10^{-3}\\,\\text{Pa s}$. Se aplica la ley de Stokes. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "fuerzas de arrastre",
+    "velocidad límite"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el peso de la esfera y el empuje que recibe.",
+      "modelAnswer": "$V = \\frac{4}{3}\\pi r^3 = 3{,}4\\times 10^{-14}\\,\\text{m}^3$. (1) Peso: $\\rho Vg = 8{,}2\\times 10^{-10}\\,\\text{N}$. (1) Empuje: $3{,}3\\times 10^{-10}\\,\\text{N}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Demuestra que la velocidad límite es $v = \\dfrac{2(\\rho_e - \\rho_a)gr^2}{9\\eta}$.",
+      "modelAnswer": "A velocidad límite la resultante es nula: $\\rho_e V g = \\rho_a V g + 6\\pi\\eta r v$. (1) Sustituyendo $V = \\frac{4}{3}\\pi r^3$: $\\frac{4}{3}\\pi r^3(\\rho_e - \\rho_a)g = 6\\pi\\eta r v$. (1) Al despejar $v$ se llega a la expresión. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la velocidad límite.",
+      "modelAnswer": "Con $r^2 = 4{,}0\\times 10^{-10}\\,\\text{m}^2$: $v = \\dfrac{2\\cdot 1500\\cdot 9{,}8\\cdot 4{,}0\\times 10^{-10}}{9\\cdot 1{,}0\\times 10^{-3}} = 1{,}3\\times 10^{-3}\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Estima cuánto tarda en sedimentar en un vaso de $10\\,\\text{cm}$ de profundidad, e indica una hipótesis de tu estimación.",
+      "modelAnswer": "$t = \\dfrac{0{,}10}{1{,}3\\times 10^{-3}} \\approx 77\\,\\text{s}$. (1) Se supone que alcanza la velocidad límite casi de inmediato, o que el agua está quieta. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Otra esfera igual tiene el doble de radio. Indica cómo cambia su velocidad límite.",
+      "modelAnswer": "Como $v \\propto r^2$, la velocidad límite se multiplica por 4.",
+      "marks": 1
+    }
+  ]
+}

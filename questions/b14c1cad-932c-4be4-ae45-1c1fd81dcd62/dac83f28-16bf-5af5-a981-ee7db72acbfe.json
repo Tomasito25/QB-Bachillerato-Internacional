@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "dac83f28-16bf-5af5-a981-ee7db72acbfe",
+  "rev": 1,
+  "statement": "Un tapón de goma de $16\\,\\text{g}$ está atado a un hilo que pasa por un tubo de vidrio vertical; del otro extremo del hilo cuelga una masa de $100\\,\\text{g}$. Se hace girar el tapón en una circunferencia horizontal, de modo que la masa colgada ni sube ni baja. El hilo, que queda prácticamente horizontal, mide $0{,}40\\,\\text{m}$ entre el tubo y el tapón. El tapón tarda $5{,}0\\,\\text{s}$ en dar 10 vueltas, medidos con un cronómetro manual.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "datos",
+    "evaluación",
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué se mide el tiempo de 10 vueltas, y no el de una sola.",
+      "modelAnswer": "La incertidumbre al cronometrar a mano, debida al tiempo de reacción, es la misma para 1 vuelta que para 10. Repartida entre 10 vueltas, la incertidumbre del periodo es diez veces menor.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la rapidez del tapón.",
+      "modelAnswer": "Periodo: $T = \\dfrac{5{,}0}{10} = 0{,}50\\,\\text{s}$. $v = \\dfrac{2\\pi r}{T} = \\dfrac{2\\pi\\cdot 0{,}40}{0{,}50} = 5{,}0\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "La tensión del hilo proporciona la fuerza centrípeta, y se espera que sea igual al peso de la masa colgada. Compara los dos valores.",
+      "modelAnswer": "Fuerza centrípeta, con la rapidez sin redondear: $F = \\dfrac{mv^2}{r} = \\dfrac{0{,}016\\cdot 5{,}03^2}{0{,}40} = 1{,}01\\,\\text{N}$. (1) Peso de la masa colgada: $0{,}100\\cdot 9{,}81 = 0{,}98\\,\\text{N}$. La fuerza centrípeta calculada es un 3 % mayor. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "La incertidumbre del tiempo de las 10 vueltas es de $\\pm0{,}2\\,\\text{s}$, y las demás son despreciables. Determina si los dos valores son compatibles.",
+      "modelAnswer": "Incertidumbre porcentual del tiempo y, por tanto, del periodo: $\\dfrac{0{,}2}{5{,}0} = 4{,}0\\,\\%$. Como $v$ es proporcional a $\\dfrac{1}{T}$, la fuerza lo es a $\\dfrac{1}{T^2}$, y su incertidumbre es el doble: $8{,}0\\,\\%$. (1) Los dos valores difieren en un 3 %, menos que esa incertidumbre: son compatibles. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere un error sistemático de este experimento.",
+      "modelAnswer": "El rozamiento entre el hilo y el borde del tubo: la tensión del hilo en el lado del tapón puede no ser igual al peso de la masa colgada.",
+      "marks": 1
+    }
+  ]
+}

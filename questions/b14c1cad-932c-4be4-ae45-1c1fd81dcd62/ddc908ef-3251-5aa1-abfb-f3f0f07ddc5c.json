@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "ddc908ef-3251-5aa1-abfb-f3f0f07ddc5c",
+  "rev": 1,
+  "statement": "Un electrón entra perpendicularmente al campo eléctrico uniforme entre dos placas horizontales, como muestra la figura.\n\n![Un electrón entra con velocidad horizontal entre dos placas paralelas horizontales. La placa superior es positiva y la inferior, negativa.](qbimg:33c9f183cfd152c5c9baf9c512df23aebd2d4eb617bef42b4c74cbaf854f0732)\n\n¿Qué trayectoria sigue entre las placas?",
+  "explanation": "La fuerza es constante y perpendicular a la velocidad inicial. Igual que en un tiro horizontal, la trayectoria es parabólica, y el electrón se desvía hacia la placa positiva.",
+  "images": [
+    {
+      "hash": "33c9f183cfd152c5c9baf9c512df23aebd2d4eb617bef42b4c74cbaf854f0732",
+      "ext": "png",
+      "width": 1080,
+      "height": 480,
+      "bytes": 3002,
+      "alt": "Un electrón entra con velocidad horizontal entre dos placas paralelas horizontales. La placa superior es positiva y la inferior, negativa."
+    }
+  ],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "campo uniforme",
+    "trayectorias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una parábola que se curva hacia la placa positiva.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Un arco de circunferencia.",
+      "correct": false,
+      "feedback": "La fuerza es constante, como la gravedad en un proyectil."
+    },
+    {
+      "id": "c",
+      "text": "Una parábola que se curva hacia la placa negativa.",
+      "correct": false,
+      "feedback": "El electrón es atraído por la placa positiva."
+    },
+    {
+      "id": "d",
+      "text": "Una línea recta.",
+      "correct": false,
+      "feedback": "Hay una fuerza constante perpendicular a la velocidad inicial."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

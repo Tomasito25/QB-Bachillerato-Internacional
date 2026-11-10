@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "d678e6e5-c778-59e2-8291-85d2b47a28cb",
+  "rev": 1,
+  "statement": "Dos tubos tienen la misma longitud. Uno está abierto por los dos extremos y el otro, cerrado por uno. ¿Cuánto vale la razón entre sus frecuencias fundamentales $\\dfrac{f_{\\text{cerrado}}}{f_{\\text{abierto}}}$?",
+  "explanation": "El abierto tiene $\\lambda = 2L$, y el cerrado, $\\lambda = 4L$. Con la misma $v$, la frecuencia del cerrado es la mitad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "tubos",
+    "armónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0$",
+      "correct": false,
+      "feedback": "Está invertida: el cerrado tiene λ mayor."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}0$",
+      "correct": false,
+      "feedback": "Las condiciones en los extremos cambian λ."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}50$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}25$",
+      "correct": false,
+      "feedback": "λ es 4L en el cerrado y 2L en el abierto."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

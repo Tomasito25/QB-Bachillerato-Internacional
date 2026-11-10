@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "e9f6f944-4d5b-58f0-b942-e4095f2b8d9f",
+  "rev": 1,
+  "statement": "Un coche toma una curva horizontal gracias sólo al rozamiento. Si el firme mojado reduce el coeficiente de rozamiento a la mitad, ¿por qué factor se multiplica la rapidez máxima con la que puede tomar la curva?",
+  "explanation": "$\\mu mg = \\dfrac{mv^2}{r}$, así que $v = \\sqrt{\\mu g r}$. El factor es $\\sqrt{0{,}5} = 0{,}71$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular",
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}25$",
+      "correct": false,
+      "feedback": "La rapidez depende de la raíz del coeficiente, no de su cuadrado."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}50$",
+      "correct": false,
+      "feedback": "v no es proporcional a μ, sino a √μ."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}71$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$1{,}0$",
+      "correct": false,
+      "feedback": "El coeficiente sí influye; la que no influye es la masa."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

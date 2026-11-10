@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "cfac5f5b-9933-5f42-b9d9-7fe173d3cefc",
+  "rev": 1,
+  "statement": "Un bloque de $5{,}0\\,\\text{kg}$ desliza sobre una superficie horizontal con $\\mu_d = 0{,}30$ mientras se empuja con una fuerza horizontal de $30\\,\\text{N}$. ¿Cuál es su aceleración? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "$F_f = 0{,}30\\cdot 5{,}0\\cdot 9{,}8 = 14{,}7\\,\\text{N}$, así que $a = \\dfrac{30 - 14{,}7}{5{,}0} = 3{,}1\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}1\\,\\text{m s}^{-2}$",
+      "correct": false,
+      "feedback": "Se ha usado un coeficiente mayor que el dado."
+    },
+    {
+      "id": "b",
+      "text": "$3{,}1\\,\\text{m s}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$6{,}0\\,\\text{m s}^{-2}$",
+      "correct": false,
+      "feedback": "Falta restar el rozamiento."
+    },
+    {
+      "id": "d",
+      "text": "$8{,}9\\,\\text{m s}^{-2}$",
+      "correct": false,
+      "feedback": "El rozamiento se opone al movimiento: se resta."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

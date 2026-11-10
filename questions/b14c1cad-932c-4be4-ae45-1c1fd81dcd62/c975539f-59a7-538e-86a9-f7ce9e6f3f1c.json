@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "c975539f-59a7-538e-86a9-f7ce9e6f3f1c",
+  "rev": 1,
+  "statement": "Para estimar el albedo de varios materiales, se ilumina cada uno con una lámpara y se mide con un sensor la intensidad que incide sobre la superficie y la que esta devuelve. Cada lectura tiene una incertidumbre de $\\pm10\\,\\text{W m}^{-2}$.\n\n| Material | Intensidad incidente / $\\text{W m}^{-2}$ | Intensidad devuelta / $\\text{W m}^{-2}$ |\n|---|---|---|\n| Papel blanco | 400 | 320 |\n| Arena | 400 | 140 |\n| Tierra oscura | 400 | 40 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "datos",
+    "evaluación",
+    "incertidumbres",
+    "albedo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el albedo de la arena.",
+      "modelAnswer": "$\\dfrac{140}{400} = 0{,}35$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Determina la incertidumbre absoluta de ese albedo.",
+      "modelAnswer": "Incertidumbres porcentuales de las dos lecturas: $\\dfrac{10}{140} = 7{,}1\\,\\%$ y $\\dfrac{10}{400} = 2{,}5\\,\\%$. En un cociente se suman: $9{,}6\\,\\%$. (1) $0{,}096\\cdot 0{,}35 = 0{,}03$, de modo que el albedo es $0{,}35 \\pm 0{,}03$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica, sin hacer más cálculos, de cuál de los tres materiales se obtiene el albedo con mayor incertidumbre porcentual, y justifícalo.",
+      "modelAnswer": "De la tierra oscura: su intensidad devuelta es la lectura más pequeña, y la incertidumbre de $\\pm10\\,\\text{W m}^{-2}$ es el 25 % de ella.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué el albedo medido así puede no coincidir con el del mismo material a la luz del Sol.",
+      "modelAnswer": "El albedo depende de la longitud de onda de la radiación y del ángulo con que incide, y el espectro de la lámpara no es el del Sol. También vale: el sensor sólo recoge la radiación devuelta en una dirección, y el albedo cuenta la que se dispersa en todas.",
+      "marks": 1
+    }
+  ]
+}

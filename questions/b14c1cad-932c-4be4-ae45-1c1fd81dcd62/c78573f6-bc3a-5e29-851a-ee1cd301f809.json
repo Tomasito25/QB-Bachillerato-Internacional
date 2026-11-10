@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "c78573f6-bc3a-5e29-851a-ee1cd301f809",
+  "rev": 1,
+  "statement": "Una pelota bota verticalmente, de forma perfectamente elástica, sobre un suelo horizontal. Su movimiento es periódico. ¿Por qué **no** es un movimiento armónico simple?",
+  "explanation": "Un movimiento armónico simple exige $a = -\\omega^2x$. En el aire, la aceleración es $g$, sea cual sea la altura.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "conceptos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:18.000Z",
+  "updatedAt": "2026-11-10T07:22:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mientras está en el aire, su aceleración es constante y no proporcional a su desplazamiento.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque se pierde energía en cada bote.",
+      "correct": false,
+      "feedback": "Se ha dicho que los botes son perfectamente elásticos."
+    },
+    {
+      "id": "c",
+      "text": "Porque su periodo no es constante.",
+      "correct": false,
+      "feedback": "En un bote perfectamente elástico, el periodo sí es constante."
+    },
+    {
+      "id": "d",
+      "text": "Porque la masa de la pelota es demasiado pequeña.",
+      "correct": false,
+      "feedback": "La masa no determina si un movimiento es armónico."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
