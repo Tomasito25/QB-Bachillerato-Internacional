@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "1851fed8-bd48-51ee-a7f8-ac58c1016c21",
+  "rev": 1,
+  "statement": "Se mide la frecuencia fundamental $f$ de una cuerda tensa para distintas longitudes $L$ de la parte que vibra, entre $0{,}40\\,\\text{m}$ y $1{,}0\\,\\text{m}$, sin cambiar la tensión. La gráfica muestra $f$ frente a $\\dfrac{1}{L}$, con su recta de ajuste.\n\n![Gráfica de la frecuencia fundamental, en Hz, frente al inverso de la longitud, en m⁻¹. Cinco puntos con barras de error verticales, entre 1,0 y 2,5 m⁻¹, y una recta de ajuste.](qbimg:ad430ea451aecb66c99857e7bb8a66ac650e44d5195ece88a6cd354a2d69dc84)",
+  "images": [
+    {
+      "hash": "ad430ea451aecb66c99857e7bb8a66ac650e44d5195ece88a6cd354a2d69dc84",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 14460,
+      "alt": "Gráfica de la frecuencia fundamental, en Hz, frente al inverso de la longitud, en m⁻¹. Cinco puntos con barras de error verticales, entre 1,0 y 2,5 m⁻¹, y una recta de ajuste."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b6748547-3168-5ee0-bf68-69344d13836f",
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "datos",
+    "gráficas",
+    "ondas estacionarias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:14.000Z",
+  "updatedAt": "2026-11-10T07:21:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué se espera una recta que pase por el origen.",
+      "modelAnswer": "En el modo fundamental hay un nodo en cada extremo, así que $\\lambda = 2L$. (1) $f = \\dfrac{v}{\\lambda} = \\dfrac{v}{2}\\cdot\\dfrac{1}{L}$: como la rapidez $v$ de la onda no cambia, $f$ es proporcional a $\\dfrac{1}{L}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la pendiente de la recta, con su unidad.",
+      "modelAnswer": "Con los puntos $(0;\\,0)$ y $(2{,}5;\\,150)$: $\\dfrac{150}{2{,}5} = 60$ (1) $\\text{Hz m}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la rapidez de las ondas en la cuerda.",
+      "modelAnswer": "La pendiente es $\\dfrac{v}{2}$, de modo que $v = 2\\cdot 60 = 120\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Se quiere usar la recta para predecir la frecuencia cuando la longitud es de $0{,}20\\,\\text{m}$. Indica por qué esa predicción es menos fiable que las del intervalo medido.",
+      "modelAnswer": "Es una extrapolación: le corresponde $\\dfrac{1}{L} = 5{,}0\\,\\text{m}^{-1}$, muy lejos del último dato, que está en $2{,}5\\,\\text{m}^{-1}$. Nada garantiza que la relación siga siendo lineal fuera del intervalo medido.",
+      "marks": 1
+    }
+  ]
+}
