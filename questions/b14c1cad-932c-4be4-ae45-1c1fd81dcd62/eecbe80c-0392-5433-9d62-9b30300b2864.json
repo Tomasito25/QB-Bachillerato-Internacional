@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "eecbe80c-0392-5433-9d62-9b30300b2864",
+  "rev": 1,
+  "statement": "La gráfica muestra la aceleración $a$ de un objeto con movimiento armónico simple frente a su desplazamiento $x$.\n\n![Gráfica de aceleración frente a desplazamiento: recta de pendiente negativa que pasa por el origen, de 8,0 m/s² en x = −0,020 m a −8,0 m/s² en x = 0,020 m.](qbimg:a043aae82ffa549ef985a78d473efb347126755f8b0592f19d585abe9d635599)\n\n¿Cuál es el periodo del movimiento?",
+  "explanation": "La pendiente tiene módulo $\\omega^2 = \\dfrac{8{,}0}{0{,}020} = 400\\,\\text{s}^{-2}$, luego $\\omega = 20\\,\\text{rad s}^{-1}$ y $T = \\dfrac{2\\pi}{\\omega} = 0{,}31\\,\\text{s}$.",
+  "images": [
+    {
+      "hash": "a043aae82ffa549ef985a78d473efb347126755f8b0592f19d585abe9d635599",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 12329,
+      "alt": "Gráfica de aceleración frente a desplazamiento: recta de pendiente negativa que pasa por el origen, de 8,0 m/s² en x = −0,020 m a −8,0 m/s² en x = 0,020 m."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "gráficas",
+    "periodo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$16\\,\\text{s}$",
+      "correct": false,
+      "feedback": "Has multiplicado a por x en lugar de dividir: ω² es a/x = 400 s⁻², no a·x."
+    },
+    {
+      "id": "b",
+      "text": "$3{,}2\\,\\text{s}$",
+      "correct": false,
+      "feedback": "Comprueba ω: la pendiente es ω² = 400 s⁻²."
+    },
+    {
+      "id": "c",
+      "text": "$0{,}31\\,\\text{s}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}050\\,\\text{s}$",
+      "correct": false,
+      "feedback": "Es 1/ω. Falta el factor 2π."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

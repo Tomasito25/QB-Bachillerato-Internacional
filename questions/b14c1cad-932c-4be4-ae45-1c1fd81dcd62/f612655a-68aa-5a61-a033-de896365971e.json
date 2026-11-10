@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "f612655a-68aa-5a61-a033-de896365971e",
+  "rev": 1,
+  "statement": "El ángulo crítico de un material transparente respecto al aire es de $42°$. ¿Cuál es la rapidez de la luz en ese material? Usa $c = 3{,}00\\times 10^{8}\\,\\text{m s}^{-1}$.",
+  "explanation": "$\\sin\\theta_c = \\dfrac{1}{n} = \\dfrac{v}{c}$, así que $v = c\\sin 42° = 2{,}0\\times 10^{8}\\,\\text{m s}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "reflexión total",
+    "rapidez de la luz"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}3\\times 10^{8}\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Usa el seno de 42°, no el ángulo directamente."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0\\times 10^{8}\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$2{,}2\\times 10^{8}\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Se ha usado el coseno de 42°."
+    },
+    {
+      "id": "d",
+      "text": "$4{,}5\\times 10^{8}\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Nada puede superar la rapidez de la luz en el vacío."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

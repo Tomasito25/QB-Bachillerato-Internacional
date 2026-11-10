@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "f63830c1-c1a0-5d38-a4f8-65d2ff539740",
+  "rev": 1,
+  "statement": "Un gas se condensa a temperatura constante. ¿Qué les ocurre a la energía cinética media y a la energía potencial de sus partículas?",
+  "explanation": "La temperatura mide la energía cinética media. La energía liberada al condensar procede de la disminución de la energía potencial de las partículas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "cambio de fase",
+    "energía interna"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las dos disminuyen.",
+      "correct": false,
+      "feedback": "Sólo cambia la potencial."
+    },
+    {
+      "id": "b",
+      "text": "La cinética media no cambia y la potencial aumenta.",
+      "correct": false,
+      "feedback": "Las partículas se acercan y se ligan: la potencial disminuye."
+    },
+    {
+      "id": "c",
+      "text": "La cinética media disminuye y la potencial no cambia.",
+      "correct": false,
+      "feedback": "La temperatura es constante, así que la cinética media no cambia."
+    },
+    {
+      "id": "d",
+      "text": "La cinética media no cambia y la potencial disminuye.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "f56ad657-00ab-50ec-b5e0-ef2f7ae7a61c",
+  "rev": 1,
+  "statement": "Un libro está en reposo sobre una mesa. ¿Por qué su peso y la fuerza normal de la mesa sobre él **no** son un par de fuerzas de la tercera ley de Newton?",
+  "explanation": "Las dos fuerzas de un par de la tercera ley actúan sobre cuerpos distintos y son del mismo tipo. El par del peso es la atracción del libro sobre la Tierra.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque actúan sobre el mismo cuerpo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque tienen módulos diferentes.",
+      "correct": false,
+      "feedback": "Tienen el mismo módulo; ese no es el motivo."
+    },
+    {
+      "id": "c",
+      "text": "Porque el libro está en reposo.",
+      "correct": false,
+      "feedback": "La tercera ley se cumple también en reposo."
+    },
+    {
+      "id": "d",
+      "text": "Porque tienen el mismo sentido.",
+      "correct": false,
+      "feedback": "Tienen sentidos opuestos."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

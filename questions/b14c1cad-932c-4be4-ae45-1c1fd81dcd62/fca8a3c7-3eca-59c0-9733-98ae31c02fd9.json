@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "fca8a3c7-3eca-59c0-9733-98ae31c02fd9",
+  "rev": 1,
+  "statement": "Un termómetro de gas a volumen constante, de $1{,}0\\,\\text{L}$, contiene una masa fija de aire. Se mide su presión $p$ a distintas temperaturas $\\theta$.\n\n| $\\theta$ / °C | 0 | 20 | 40 | 60 | 80 | 100 |\n|---|---|---|---|---|---|---|\n| $p$ / kPa | 100,0 | 107,3 | 114,6 | 122,0 | 129,3 | 136,6 |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "datos",
+    "cero absoluto",
+    "gas ideal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la pendiente de la recta de $p$ frente a $\\theta$, usando los puntos extremos.",
+      "modelAnswer": "$\\dfrac{136{,}6 - 100{,}0}{100} = 0{,}366\\,\\text{kPa K}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina un valor del cero absoluto a partir de estos datos.",
+      "modelAnswer": "$p = 0$ cuando $\\theta = -\\dfrac{100{,}0}{0{,}366}$. (1) $\\theta = -273\\,°\\text{C}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "La pendiente tiene una incertidumbre del 2 %. Determina la incertidumbre absoluta del valor obtenido para el cero absoluto.",
+      "modelAnswer": "Como $\\theta_0 = -p_0/\\text{pendiente}$, su incertidumbre porcentual es del 2 % (la de $p_0$ es despreciable). (1) $\\Delta\\theta_0 = 0{,}02\\cdot 273 \\approx 5\\,°\\text{C}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la cantidad de aire que hay en el termómetro.",
+      "modelAnswer": "$n = \\dfrac{pV}{RT} = \\dfrac{1{,}000\\times 10^{5}\\cdot 1{,}0\\times 10^{-3}}{8{,}31\\cdot 273}$ (1) $= 0{,}044\\,\\text{mol}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere por qué la extrapolación deja de ser fiable a temperaturas muy bajas.",
+      "modelAnswer": "El aire se licúa antes de llegar al cero absoluto, de modo que deja de comportarse como un gas ideal: las fuerzas intermoleculares dejan de ser despreciables.",
+      "marks": 2
+    }
+  ]
+}

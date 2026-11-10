@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "f812e1e1-8907-5d84-9fcc-59920ca4abed",
+  "rev": 1,
+  "statement": "Dos cargas fijas se colocan en un medio cuya permitividad es 80 veces mayor que la del vacío. ¿Cómo cambia la fuerza entre ellas?",
+  "explanation": "$F = \\dfrac{1}{4\\pi\\varepsilon}\\dfrac{q_1q_2}{r^2}$, así que al multiplicar $\\varepsilon$ por 80 la fuerza se divide entre 80.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "ley de Coulomb"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se divide entre 6400.",
+      "correct": false,
+      "feedback": "La permitividad no va al cuadrado."
+    },
+    {
+      "id": "b",
+      "text": "Se multiplica por 80.",
+      "correct": false,
+      "feedback": "La permitividad está en el denominador."
+    },
+    {
+      "id": "c",
+      "text": "No cambia.",
+      "correct": false,
+      "feedback": "La constante de Coulomb depende del medio."
+    },
+    {
+      "id": "d",
+      "text": "Se divide entre 80.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

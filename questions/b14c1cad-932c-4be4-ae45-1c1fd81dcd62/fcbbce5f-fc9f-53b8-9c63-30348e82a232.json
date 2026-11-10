@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "fcbbce5f-fc9f-53b8-9c63-30348e82a232",
+  "rev": 1,
+  "statement": "Un rayo de luz pasa del aire a un bloque de plástico. Con un transportador se miden el ángulo de incidencia $i$ y el de refracción $r$, cada uno con una incertidumbre de $\\pm 1°$.\n\n| $i$ / ° | 10 | 20 | 30 | 40 | 50 | 60 |\n|---|---|---|---|---|---|---|\n| $r$ / ° | 7 | 13 | 19 | 25 | 31 | 35 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "datos",
+    "evaluación",
+    "refracción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el índice de refracción del plástico con la primera medida y con la última.",
+      "modelAnswer": "$n = \\dfrac{\\sin 10°}{\\sin 7°} = 1{,}42$ (1) y $n = \\dfrac{\\sin 60°}{\\sin 35°} = 1{,}51$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica cuál de los dos valores es más fiable, y justifícalo.",
+      "modelAnswer": "El de la última medida. (1) La incertidumbre de $\\pm 1°$ es el 10 % de $10°$ y el 14 % de $7°$, pero menos del 3 % de $60°$ y de $35°$: con ángulos pequeños, la incertidumbre porcentual es mucho mayor. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué es mejor obtener $n$ de la pendiente de una gráfica de $\\sin i$ frente a $\\sin r$ que de la media de los seis cocientes.",
+      "modelAnswer": "La recta de ajuste usa todos los datos a la vez y da menos peso a los puntos de ángulos pequeños, que son los menos fiables. Además, deja ver si hay algún valor anómalo o un error sistemático, que haría que la recta no pasara por el origen.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una mejora del método que reduzca la incertidumbre de los ángulos.",
+      "modelAnswer": "Usar un haz más estrecho y marcar cada rayo con dos puntos muy separados antes de trazarlo. También vale un transportador de mayor radio, con divisiones más finas.",
+      "marks": 1
+    }
+  ]
+}

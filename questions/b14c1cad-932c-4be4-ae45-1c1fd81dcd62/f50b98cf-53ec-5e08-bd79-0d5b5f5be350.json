@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "f50b98cf-53ec-5e08-bd79-0d5b5f5be350",
+  "rev": 1,
+  "statement": "Dos objetos de distinto material y masa están en contacto térmico y aislados del exterior. ¿Qué condición determina que deje de haber una transferencia neta de energía entre ellos?",
+  "explanation": "La energía térmica fluye desde la temperatura mayor hacia la menor. Cuando las temperaturas se igualan, la energía cinética media de las partículas es la misma y cesa el flujo neto.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que tengan la misma temperatura.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Que hayan intercambiado la misma cantidad de partículas.",
+      "correct": false,
+      "feedback": "No hace falta intercambiar partículas."
+    },
+    {
+      "id": "c",
+      "text": "Que tengan la misma energía interna.",
+      "correct": false,
+      "feedback": "Pueden tener energías internas muy distintas en equilibrio."
+    },
+    {
+      "id": "d",
+      "text": "Que tengan el mismo calor específico.",
+      "correct": false,
+      "feedback": "El calor específico no cambia con el contacto."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

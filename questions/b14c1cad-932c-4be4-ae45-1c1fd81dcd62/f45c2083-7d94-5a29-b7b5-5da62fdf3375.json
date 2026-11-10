@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "f45c2083-7d94-5a29-b7b5-5da62fdf3375",
+  "rev": 1,
+  "statement": "Una corredora recorre media vuelta de una pista circular de $50\\,\\text{m}$ de radio en $20\\,\\text{s}$. ¿Cuáles son su rapidez media y el módulo de su velocidad media?",
+  "explanation": "Distancia: $\\pi r = 157\\,\\text{m}$, así que la rapidez media es $157/20 = 7{,}9\\,\\text{m s}^{-1}$. Desplazamiento: $2r = 100\\,\\text{m}$, luego la velocidad media es $100/20 = 5{,}0\\,\\text{m s}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "velocidad media"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:22.000Z",
+  "updatedAt": "2026-11-10T07:22:22.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Rapidez media $7{,}9\\,\\text{m s}^{-1}$; velocidad media $5{,}0\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Rapidez media $5{,}0\\,\\text{m s}^{-1}$; velocidad media $7{,}9\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Están cambiadas: la rapidez usa la distancia, y la velocidad, el desplazamiento."
+    },
+    {
+      "id": "c",
+      "text": "Rapidez media $16\\,\\text{m s}^{-1}$; velocidad media $5{,}0\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Media vuelta es πr, no 2πr."
+    },
+    {
+      "id": "d",
+      "text": "Rapidez media $7{,}9\\,\\text{m s}^{-1}$; velocidad media $7{,}9\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "El desplazamiento es el diámetro, no el arco."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
