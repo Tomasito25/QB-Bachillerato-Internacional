@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "0e0e47b3-00cf-524b-9b52-be7a61d6b4f0",
+  "rev": 1,
+  "statement": "Dos masas de $3{,}0\\,\\text{kg}$ y $5{,}0\\,\\text{kg}$ cuelgan de los extremos de un hilo ligero que pasa por una polea sin rozamiento. ¿Cuál es la tensión del hilo? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "$a = \\dfrac{(5{,}0 - 3{,}0)g}{8{,}0} = 2{,}45\\,\\text{m s}^{-2}$. Para la masa pequeña: $T = 3{,}0(g + a) = 37\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "poleas",
+    "leyes de Newton"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$29\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Es el peso de la masa pequeña; si la tensión valiera eso, no aceleraría."
+    },
+    {
+      "id": "b",
+      "text": "$37\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$39\\,\\text{N}$",
+      "correct": false,
+      "feedback": "La tensión no es la media de los dos pesos."
+    },
+    {
+      "id": "d",
+      "text": "$49\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Es el peso de la masa grande; la tensión es menor porque esta baja acelerando."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

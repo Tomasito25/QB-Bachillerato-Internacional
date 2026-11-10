@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "0dfa24d9-127b-5661-8414-1a8877e402df",
+  "rev": 1,
+  "statement": "En una atracción de feria, las personas se apoyan en la pared interior de un cilindro vertical de $2{,}5\\,\\text{m}$ de radio. El cilindro gira y, cuando va suficientemente rápido, se retira el suelo y las personas quedan pegadas a la pared. El coeficiente de rozamiento estático entre persona y pared es $0{,}40$. Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular",
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica qué fuerza proporciona la fuerza centrípeta y qué fuerza equilibra el peso de la persona.",
+      "modelAnswer": "La fuerza normal de la pared es la fuerza centrípeta. (1) El rozamiento estático, hacia arriba, equilibra el peso. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Demuestra que la velocidad angular mínima es $\\omega = \\sqrt{\\dfrac{g}{\\mu_s r}}$.",
+      "modelAnswer": "$F_N = m\\omega^2 r$. (1) En el límite, $\\mu_s F_N = mg$. (1) Luego $\\mu_s m\\omega^2 r = mg$, de donde se obtiene la expresión. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula esta velocidad angular y el periodo correspondiente.",
+      "modelAnswer": "$\\omega = \\sqrt{\\dfrac{9{,}8}{0{,}40\\cdot 2{,}5}} = 3{,}1\\,\\text{rad s}^{-1}$. (1) $T = \\dfrac{2\\pi}{\\omega} = 2{,}0\\,\\text{s}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la rapidez de la persona con esa velocidad angular.",
+      "modelAnswer": "$v = \\omega r = 3{,}13\\cdot 2{,}5 = 7{,}8\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué dos personas de masas muy diferentes pueden quedarse pegadas a la pared con la misma velocidad angular.",
+      "modelAnswer": "Tanto el peso como la fuerza normal, y con ella el rozamiento máximo, son proporcionales a la masa. (1) La masa se cancela y $\\omega$ no depende de ella. (1)",
+      "marks": 2
+    }
+  ]
+}

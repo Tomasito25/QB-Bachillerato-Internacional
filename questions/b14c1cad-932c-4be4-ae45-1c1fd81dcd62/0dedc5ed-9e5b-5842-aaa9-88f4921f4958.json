@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "0dedc5ed-9e5b-5842-aaa9-88f4921f4958",
+  "rev": 1,
+  "statement": "En un experimento de doble rendija, con luz de $650\\,\\text{nm}$, las rendijas están separadas $0{,}50\\,\\text{mm}$ y la pantalla está a $2{,}0\\,\\text{m}$. ¿Cuál es la separación entre franjas brillantes consecutivas?",
+  "explanation": "$s = \\dfrac{\\lambda D}{d} = \\dfrac{650\\times 10^{-9}\\cdot 2{,}0}{0{,}50\\times 10^{-3}} = 2{,}6\\times 10^{-3}\\,\\text{m}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b7e29757-f91f-55ca-8574-80697030774a"
+  ],
+  "tags": [
+    "doble rendija"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}26\\,\\text{mm}$",
+      "correct": false,
+      "feedback": "Hay un error de potencia de diez."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}3\\,\\text{mm}$",
+      "correct": false,
+      "feedback": "No se divide la separación entre 2."
+    },
+    {
+      "id": "c",
+      "text": "$2{,}6\\,\\text{mm}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$5{,}2\\,\\text{mm}$",
+      "correct": false,
+      "feedback": "No hay factor 2 en la fórmula."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "03855f70-f76f-54aa-974d-7db05f07d138",
+  "rev": 1,
+  "statement": "Un avión vuela en horizontal a velocidad constante y suelta un paquete. Sin resistencia del aire, ¿qué trayectoria ve un pasajero del avión y dónde está el paquete respecto al avión?",
+  "explanation": "Paquete y avión tienen la misma velocidad horizontal, que no cambia, así que respecto al avión sólo hay caída vertical.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles",
+    "sistemas de referencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una recta vertical: el paquete permanece siempre justo debajo del avión.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Una parábola: el paquete se queda atrás respecto al avión.",
+      "correct": false,
+      "feedback": "La parábola la ve quien está en tierra, y no se queda atrás porque conserva la velocidad horizontal."
+    },
+    {
+      "id": "c",
+      "text": "Una recta inclinada hacia atrás.",
+      "correct": false,
+      "feedback": "Sin aire no hay nada que reduzca la componente horizontal."
+    },
+    {
+      "id": "d",
+      "text": "Una parábola hacia delante del avión.",
+      "correct": false,
+      "feedback": "Avión y paquete tienen la misma velocidad horizontal."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

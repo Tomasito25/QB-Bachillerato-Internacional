@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "09065b69-8300-5ad9-87da-650fedce4530",
+  "rev": 1,
+  "statement": "Para medir el calor latente específico de fusión del hielo, se llenan dos embudos iguales con hielo picado que ya está fundiéndose. En uno se entierra un calentador de inmersión de $48\\,\\text{W}$; el otro no tiene calentador. Durante $300\\,\\text{s}$ se recoge el agua que gotea de cada embudo: $52{,}0\\,\\text{g}$ en el del calentador y $9{,}0\\,\\text{g}$ en el otro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "0dbcfe71-f7aa-5988-97de-52734e1dadb9",
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "datos",
+    "evaluación",
+    "control",
+    "calor latente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica para qué sirve el embudo sin calentador.",
+      "modelAnswer": "Es un control: mide la masa de hielo que funde la energía que llega del ambiente, que hay que restar de la masa recogida en el otro embudo.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el calor latente específico de fusión del hielo.",
+      "modelAnswer": "Energía: $E = Pt = 48\\cdot 300 = 1{,}44\\times 10^{4}\\,\\text{J}$. Masa fundida por el calentador: $52{,}0 - 9{,}0 = 43{,}0\\,\\text{g}$. (1) $L = \\dfrac{1{,}44\\times 10^{4}}{0{,}0430} = 3{,}35\\times 10^{5}\\,\\text{J kg}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina el valor que se habría obtenido sin el control e indica qué tipo de error se habría cometido.",
+      "modelAnswer": "$\\dfrac{1{,}44\\times 10^{4}}{0{,}0520} = 2{,}77\\times 10^{5}\\,\\text{J kg}^{-1}$. (1) Un error sistemático: el resultado saldría siempre demasiado bajo, y repetir el experimento no lo corregiría. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Se usa hielo que ya está fundiéndose, y no hielo recién sacado del congelador. Explica por qué.",
+      "modelAnswer": "Así el hielo está a $0\\,°\\text{C}$ y toda la energía se emplea en fundirlo. Con hielo más frío, parte de la energía lo calentaría primero: se fundiría menos masa y el resultado saldría demasiado alto.",
+      "marks": 1
+    }
+  ]
+}

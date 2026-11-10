@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "0db3988a-452a-560a-bf58-531bc30fbde7",
+  "rev": 1,
+  "statement": "Una persona corre a una velocidad constante de $6{,}0\\,\\text{m s}^{-1}$ hacia un autobús parado. Cuando está a $20\\,\\text{m}$ de la puerta, el autobús arranca, alejándose de ella con una aceleración constante de $1{,}0\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "MRUA",
+    "persecución"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Sea $t$ el tiempo desde que arranca el autobús. Demuestra que, si la persona alcanzara el autobús, se cumpliría $t^2 - 12t + 40 = 0$.",
+      "modelAnswer": "Posición de la persona: $6{,}0t$. (1) Posición del autobús respecto al mismo origen: $20 + \\frac{1}{2}\\cdot 1{,}0\\cdot t^2$. (1) Igualando y reordenando: $t^2 - 12t + 40 = 0$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Deduce si la persona alcanza el autobús.",
+      "modelAnswer": "El discriminante es $12^2 - 4\\cdot 40 = -16 < 0$. (1) La ecuación no tiene soluciones reales, así que no lo alcanza. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la distancia mínima entre la persona y el autobús y el instante en que se da.",
+      "modelAnswer": "La distancia es mínima cuando las velocidades son iguales: $t = \\dfrac{6{,}0}{1{,}0} = 6{,}0\\,\\text{s}$. (1) Separación: $20 + \\frac{1}{2}\\cdot 6{,}0^2 - 6{,}0\\cdot 6{,}0 = 2{,}0\\,\\text{m}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Calcula la velocidad mínima con la que tendría que correr para alcanzarlo.",
+      "modelAnswer": "Hace falta que el discriminante de $\\frac{1}{2}t^2 - vt + 20 = 0$ sea cero: $v^2 = 2\\cdot 20\\cdot 1{,}0$. (1) $v = \\sqrt{40} = 6{,}3\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "03e2bc12-1385-524e-9f0a-9270f26a9b9e",
+  "rev": 1,
+  "statement": "Un cometa describe una órbita elíptica alrededor del Sol, cuya masa es de $2{,}0\\times 10^{30}\\,\\text{kg}$. Su distancia mínima al Sol es de $8{,}8\\times 10^{10}\\,\\text{m}$, donde su rapidez es de $5{,}4\\times 10^{4}\\,\\text{m s}^{-1}$, y su distancia máxima es de $5{,}3\\times 10^{12}\\,\\text{m}$. Usa $G = 6{,}67\\times 10^{-11}\\,\\text{N m}^2\\,\\text{kg}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "leyes de Kepler",
+    "campo gravitatorio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Enuncia la segunda ley de Kepler.",
+      "modelAnswer": "El segmento que une el planeta o cometa con el Sol barre áreas iguales en tiempos iguales.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "En el perihelio y en el afelio, la velocidad es perpendicular al radio. Usa la segunda ley de Kepler para determinar la rapidez del cometa en el afelio.",
+      "modelAnswer": "En un tiempo corto el área barrida es $\\frac{1}{2}rv\\,\\Delta t$. (1) Así, $r_pv_p = r_av_a$. (1) $v_a = \\dfrac{8{,}8\\times 10^{10}\\cdot 5{,}4\\times 10^{4}}{5{,}3\\times 10^{12}} = 9{,}0\\times 10^{2}\\,\\text{m s}^{-1}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la intensidad del campo gravitatorio del Sol en el perihelio.",
+      "modelAnswer": "$g = \\dfrac{GM}{r^2} = \\dfrac{6{,}67\\times 10^{-11}\\cdot 2{,}0\\times 10^{30}}{(8{,}8\\times 10^{10})^2} = 1{,}7\\times 10^{-2}\\,\\text{N kg}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El semieje mayor de la elipse es la media de las distancias mínima y máxima. Usa la tercera ley de Kepler, con ese semieje como radio, para estimar el periodo del cometa en años ($1\\ \\text{año} = 3{,}16\\times 10^{7}\\,\\text{s}$).",
+      "modelAnswer": "$a = 2{,}7\\times 10^{12}\\,\\text{m}$. (1) $T = 2\\pi\\sqrt{\\dfrac{a^3}{GM}} = 2{,}4\\times 10^{9}\\,\\text{s}$. (1) Son unos 76 años. (1)",
+      "marks": 3
+    }
+  ]
+}

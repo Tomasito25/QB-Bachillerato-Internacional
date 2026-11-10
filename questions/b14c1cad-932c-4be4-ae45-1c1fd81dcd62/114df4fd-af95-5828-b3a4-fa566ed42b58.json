@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "114df4fd-af95-5828-b3a4-fa566ed42b58",
+  "rev": 1,
+  "statement": "Una batería de coche tiene una f. e. m. de $12{,}6\\,\\text{V}$ y una resistencia interna de $0{,}020\\,\\Omega$. Al arrancar, el motor de arranque toma una corriente de $150\\,\\text{A}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistencia interna",
+    "resistividad",
+    "potencia eléctrica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la tensión en bornes de la batería durante el arranque.",
+      "modelAnswer": "$V = \\varepsilon - Ir = 12{,}6 - 150\\cdot 0{,}020 = 9{,}6\\,\\text{V}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la potencia que recibe el circuito exterior y la que se disipa en la batería.",
+      "modelAnswer": "Exterior: $VI = 9{,}6\\cdot 150 = 1{,}4\\,\\text{kW}$. (1) Interior: $I^2r = 150^2\\cdot 0{,}020 = 450\\,\\text{W}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El cable que va al motor es de cobre, de $1{,}0\\,\\text{m}$ de longitud y $25\\,\\text{mm}^{2}$ de sección. La resistividad del cobre es de $1{,}7\\times 10^{-8}\\,\\Omega\\,\\text{m}$. Calcula la caída de tensión en el cable.",
+      "modelAnswer": "$R = \\dfrac{\\rho L}{A} = \\dfrac{1{,}7\\times 10^{-8}\\cdot 1{,}0}{25\\times 10^{-6}} = 6{,}8\\times 10^{-4}\\,\\Omega$. (1) $V = IR = 0{,}10\\,\\text{V}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué estos cables son tan gruesos.",
+      "modelAnswer": "Corrientes tan altas producirían una gran caída de tensión y un gran calentamiento. (1) Un área grande reduce la resistencia. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué los faros, conectados a la misma batería, se atenúan durante el arranque.",
+      "modelAnswer": "La gran corriente hace caer la tensión en bornes por la resistencia interna. (1) Los faros reciben menos tensión, así que disipan menos potencia. (1)",
+      "marks": 2
+    }
+  ]
+}

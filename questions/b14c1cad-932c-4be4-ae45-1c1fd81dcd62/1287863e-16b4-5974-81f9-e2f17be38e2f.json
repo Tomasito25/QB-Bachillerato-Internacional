@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "1287863e-16b4-5974-81f9-e2f17be38e2f",
+  "rev": 1,
+  "statement": "Un protón, inicialmente en reposo, se acelera con una diferencia de potencial de $5{,}0\\,\\text{kV}$. ¿Cuál es su rapidez final? Usa $e = 1{,}6\\times 10^{-19}\\,\\text{C}$ y $m_p = 1{,}67\\times 10^{-27}\\,\\text{kg}$.",
+  "explanation": "$qV = \\frac{1}{2}mv^2$ da $v = \\sqrt{\\dfrac{2\\cdot 1{,}6\\times 10^{-19}\\cdot 5000}{1{,}67\\times 10^{-27}}} = 9{,}8\\times 10^{5}\\,\\text{m s}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "aceleración de partículas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}9\\times 10^{5}\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta el factor 2 de la energía cinética."
+    },
+    {
+      "id": "b",
+      "text": "$9{,}8\\times 10^{5}\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$4{,}2\\times 10^{7}\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Esa sería la rapidez de un electrón."
+    },
+    {
+      "id": "d",
+      "text": "$9{,}6\\times 10^{11}\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta sacar la raíz cuadrada."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

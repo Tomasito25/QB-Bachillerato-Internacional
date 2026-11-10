@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "00b8610a-0777-5992-bce1-7b7343a14aa3",
+  "rev": 1,
+  "statement": "El tambor de una lavadora, de $0{,}25\\,\\text{m}$ de radio, centrifuga a 1200 vueltas por minuto. ¿Cuántas veces mayor que $g$ es, aproximadamente, la aceleración de la ropa pegada a la pared?",
+  "explanation": "$\\omega = \\dfrac{2\\pi\\cdot 1200}{60} = 126\\,\\text{rad s}^{-1}$. $a = \\omega^2 r = 126^2\\cdot 0{,}25 = 3{,}9\\times 10^{3}\\,\\text{m s}^{-2}$, unas 400 veces $g$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$13$",
+      "correct": false,
+      "feedback": "Esa es, aproximadamente, la velocidad angular dividida entre 10."
+    },
+    {
+      "id": "b",
+      "text": "$40$",
+      "correct": false,
+      "feedback": "Pasa las vueltas a rad/s y eleva ω al cuadrado."
+    },
+    {
+      "id": "c",
+      "text": "$400$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$4000$",
+      "correct": false,
+      "feedback": "Es la aceleración en m s⁻², sin dividir entre g."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

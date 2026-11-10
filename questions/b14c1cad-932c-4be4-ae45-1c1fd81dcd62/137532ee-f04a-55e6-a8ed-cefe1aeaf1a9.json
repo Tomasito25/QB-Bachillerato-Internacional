@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "137532ee-f04a-55e6-a8ed-cefe1aeaf1a9",
+  "rev": 1,
+  "statement": "Una onda de amplitud $2{,}0\\,\\text{cm}$ y frecuencia $5{,}0\\,\\text{Hz}$ avanza por una cuerda. ¿Qué distancia total recorre un punto de la cuerda en $3{,}0\\,\\text{s}$?",
+  "explanation": "En $3{,}0\\,\\text{s}$ hay 15 oscilaciones, y en cada una el punto recorre $4A = 8{,}0\\,\\text{cm}$. Total: $15\\cdot 8{,}0 = 120\\,\\text{cm}$. El punto no avanza con la onda.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "movimiento de las partículas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:07.000Z",
+  "updatedAt": "2026-11-10T07:21:07.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}30\\,\\text{m}$",
+      "correct": false,
+      "feedback": "En cada oscilación, el punto recorre 4 amplitudes, no 1."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}60\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Una oscilación son 4 amplitudes, no 2."
+    },
+    {
+      "id": "c",
+      "text": "$1{,}2\\,\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$2{,}4\\,\\text{m}$",
+      "correct": false,
+      "feedback": "Una oscilación son 4 amplitudes, no 8."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
