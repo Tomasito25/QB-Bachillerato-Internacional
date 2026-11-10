@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "692527e3-1acf-5c49-a758-3822d1db9e7d",
+  "rev": 1,
+  "statement": "¿Qué oscila en una onda electromagnética, y en qué dirección respecto a la propagación?",
+  "explanation": "Son ondas transversales: los campos eléctrico y magnético son perpendiculares entre sí y a la dirección de propagación.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "61f14426-0f92-54a9-85b1-6412395a306c"
+  ],
+  "tags": [
+    "ondas electromagnéticas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Partículas cargadas del medio, en la dirección de propagación.",
+      "correct": false,
+      "feedback": "Una onda electromagnética no necesita un medio."
+    },
+    {
+      "id": "b",
+      "text": "Partículas del aire, perpendiculares a la dirección de propagación.",
+      "correct": false,
+      "feedback": "Las ondas electromagnéticas se propagan por el vacío."
+    },
+    {
+      "id": "c",
+      "text": "Campos eléctricos y magnéticos, paralelos a la dirección de propagación.",
+      "correct": false,
+      "feedback": "Las ondas electromagnéticas son transversales."
+    },
+    {
+      "id": "d",
+      "text": "Campos eléctricos y magnéticos, perpendiculares a la dirección de propagación.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

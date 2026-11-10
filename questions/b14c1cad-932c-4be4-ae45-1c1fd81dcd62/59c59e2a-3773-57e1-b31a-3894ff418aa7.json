@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "59c59e2a-3773-57e1-b31a-3894ff418aa7",
+  "rev": 1,
+  "statement": "Un martinete deja caer un martillo de $500\\,\\text{kg}$ desde $5{,}0\\,\\text{m}$ de altura sobre un pilote de $200\\,\\text{kg}$. Tras el impacto, martillo y pilote se mueven juntos y se hunden $0{,}20\\,\\text{m}$ en el terreno. Ignora la resistencia del aire y toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "choques",
+    "conservación de la energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la rapidez del martillo justo antes del impacto.",
+      "modelAnswer": "$v = \\sqrt{2\\cdot 9{,}8\\cdot 5{,}0} = 9{,}9\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la rapidez común justo después del impacto.",
+      "modelAnswer": "La cantidad de movimiento se conserva: $500\\cdot 9{,}9 = 700\\,v$. (1) $v = 7{,}1\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la energía transferida a otras formas durante el impacto.",
+      "modelAnswer": "Antes: $\\frac{1}{2}\\cdot 500\\cdot 98 = 2{,}45\\times 10^{4}\\,\\text{J}$. Después: $\\frac{1}{2}\\cdot 700\\cdot 7{,}07^2 = 1{,}75\\times 10^{4}\\,\\text{J}$. (1) Se transfieren $7000\\,\\text{J}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la fuerza resistiva media del terreno.",
+      "modelAnswer": "$Fd = E_k + (M + m)gd = 1{,}75\\times 10^{4} + 700\\cdot 9{,}8\\cdot 0{,}20$. (1) $F\\cdot 0{,}20 = 1{,}89\\times 10^{4}\\,\\text{J}$. (1) $F = 9{,}4\\times 10^{4}\\,\\text{N}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere por qué compensa usar un martillo mucho más pesado que el pilote.",
+      "modelAnswer": "La fracción de energía que queda tras el impacto es $\\dfrac{M}{M + m}$. (1) Cuanto mayor es $M$ respecto a $m$, menos energía se pierde en el choque. (1)",
+      "marks": 2
+    }
+  ]
+}

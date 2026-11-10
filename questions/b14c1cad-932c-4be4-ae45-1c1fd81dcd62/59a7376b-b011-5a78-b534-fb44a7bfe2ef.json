@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "59a7376b-b011-5a78-b534-fb44a7bfe2ef",
+  "rev": 1,
+  "statement": "Un carrito de masa $(0{,}250 \\pm 0{,}001)\\,\\text{kg}$ lleva una tarjeta de anchura $(5{,}0 \\pm 0{,}1)\\,\\text{cm}$, que corta el haz de una puerta fotoeléctrica durante $(0{,}0625 \\pm 0{,}0005)\\,\\text{s}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "818c5352-d9aa-5c8c-9c20-dc85fac93f60",
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "datos",
+    "incertidumbres",
+    "energía cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la rapidez del carrito y su incertidumbre porcentual.",
+      "modelAnswer": "$v = \\dfrac{0{,}050}{0{,}0625} = 0{,}800\\,\\text{m s}^{-1}$. (1) $\\dfrac{\\Delta v}{v} = 2{,}0\\,\\% + 0{,}8\\,\\% = 2{,}8\\,\\%$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la energía cinética del carrito con su incertidumbre absoluta.",
+      "modelAnswer": "$E_c = \\dfrac{1}{2}mv^2 = 0{,}0800\\,\\text{J}$, con $\\dfrac{\\Delta E_c}{E_c} = 0{,}4\\,\\% + 2\\cdot 2{,}8\\,\\% = 6{,}0\\,\\%$. (1) $\\Delta E_c = 0{,}005\\,\\text{J}$, luego $E_c = (0{,}080 \\pm 0{,}005)\\,\\text{J}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica qué medida conviene mejorar, y cómo.",
+      "modelAnswer": "La anchura de la tarjeta: aporta un 2 % que, además, cuenta doble. Se puede medir con un calibre o usar una tarjeta más ancha.",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "4e3fe355-4725-5563-bc71-dfe9ce5abadd",
+  "rev": 1,
+  "statement": "Una bombona de $20\\,\\text{L}$ contiene oxígeno ($M = 32\\,\\text{g mol}^{-1}$) a $15\\,\\text{MPa}$ y $290\\,\\text{K}$. Considéralo un gas ideal. Usa $R = 8{,}31\\,\\text{J K}^{-1}\\,\\text{mol}^{-1}$, $N_A = 6{,}02\\times 10^{23}\\,\\text{mol}^{-1}$ y $k_B = 1{,}38\\times 10^{-23}\\,\\text{J K}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "68669a52-78ab-5156-8906-c652664c8fc0"
+  ],
+  "tags": [
+    "gas ideal",
+    "teoría cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la cantidad de oxígeno, en moles.",
+      "modelAnswer": "$n = \\dfrac{15\\times 10^{6}\\cdot 0{,}020}{8{,}31\\cdot 290} = 1{,}2\\times 10^{2}\\,\\text{mol}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la masa de oxígeno y el número de moléculas.",
+      "modelAnswer": "$m = 124\\cdot 0{,}032 = 4{,}0\\,\\text{kg}$. (1) $N = nN_A = 7{,}5\\times 10^{25}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la energía cinética media de traslación de una molécula.",
+      "modelAnswer": "$\\overline{E_k} = \\frac{3}{2}k_BT = 1{,}5\\cdot 1{,}38\\times 10^{-23}\\cdot 290 = 6{,}0\\times 10^{-21}\\,\\text{J}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Se usa la mitad del oxígeno y la temperatura no cambia. Indica la presión final.",
+      "modelAnswer": "Con $V$ y $T$ constantes, $p \\propto n$, así que $p = 7{,}5\\,\\text{MPa}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere por qué el modelo de gas ideal puede dar resultados poco precisos en esta bombona.",
+      "modelAnswer": "A presiones tan altas las moléculas están más próximas: las fuerzas intermoleculares y su volumen propio dejan de ser despreciables.",
+      "marks": 2
+    }
+  ]
+}

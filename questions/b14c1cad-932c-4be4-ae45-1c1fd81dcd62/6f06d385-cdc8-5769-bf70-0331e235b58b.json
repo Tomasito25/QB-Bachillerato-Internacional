@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "6f06d385-cdc8-5769-bf70-0331e235b58b",
+  "rev": 1,
+  "statement": "Una bomba eleva $50\\,\\text{kg}$ de agua por minuto hasta $12\\,\\text{m}$ de altura. Si su rendimiento es del 70 %, ¿qué potencia eléctrica consume? Toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "explanation": "$P_{\\text{útil}} = \\dfrac{50\\cdot 9{,}8\\cdot 12}{60} = 98\\,\\text{W}$. $P = \\dfrac{98}{0{,}70} = 140\\,\\text{W}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "potencia",
+    "rendimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$69\\,\\text{W}$",
+      "correct": false,
+      "feedback": "El rendimiento no se multiplica: la potencia consumida es mayor que la útil."
+    },
+    {
+      "id": "b",
+      "text": "$98\\,\\text{W}$",
+      "correct": false,
+      "feedback": "Esa es la potencia útil."
+    },
+    {
+      "id": "c",
+      "text": "$140\\,\\text{W}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$8400\\,\\text{W}$",
+      "correct": false,
+      "feedback": "Hay que dividir entre 60 segundos."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

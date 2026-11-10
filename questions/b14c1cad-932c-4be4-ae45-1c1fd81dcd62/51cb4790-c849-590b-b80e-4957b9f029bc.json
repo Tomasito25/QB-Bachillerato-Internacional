@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "51cb4790-c849-590b-b80e-4957b9f029bc",
+  "rev": 1,
+  "statement": "La suspensión de un coche suele diseñarse cerca del amortiguamiento crítico. ¿Cuál es la razón?",
+  "explanation": "Con amortiguamiento crítico, el sistema regresa al equilibrio sin oscilaciones y más deprisa que con sobreamortiguamiento.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "amortiguamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La suspensión deja de ejercer fuerza sobre el coche.",
+      "correct": false,
+      "feedback": "Sigue ejerciendo fuerza recuperadora y disipativa."
+    },
+    {
+      "id": "b",
+      "text": "El sistema oscila con la máxima amplitud posible.",
+      "correct": false,
+      "feedback": "Se busca justo lo contrario."
+    },
+    {
+      "id": "c",
+      "text": "El sistema no vuelve nunca al equilibrio.",
+      "correct": false,
+      "feedback": "Vuelve, y además en el menor tiempo."
+    },
+    {
+      "id": "d",
+      "text": "El sistema vuelve al equilibrio en el menor tiempo posible, sin oscilar.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

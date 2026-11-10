@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "6fd7c597-83d2-53a8-9cf1-0672707ca45f",
+  "rev": 1,
+  "statement": "Un objeto pesa $98\\,\\text{N}$ en la Tierra, donde $g = 9{,}8\\,\\text{m s}^{-2}$. ¿Cuánto pesa en un planeta con $g = 3{,}7\\,\\text{m s}^{-2}$?",
+  "explanation": "Su masa es de $10\\,\\text{kg}$ en cualquier lugar. $W = mg = 10\\cdot 3{,}7 = 37\\,\\text{N}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "96b161cf-8adb-50a0-8907-8854eb18f13b"
+  ],
+  "tags": [
+    "peso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$360\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Se ha multiplicado por 3,7 el peso terrestre."
+    },
+    {
+      "id": "b",
+      "text": "$37\\,\\text{N}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$26\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Revisa el cálculo: la masa no cambia."
+    },
+    {
+      "id": "d",
+      "text": "$10\\,\\text{N}$",
+      "correct": false,
+      "feedback": "Esa es su masa, en kilogramos."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

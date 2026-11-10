@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "4efdcbc8-c613-5bdb-a446-66336b7cf595",
+  "rev": 1,
+  "statement": "¿Cómo son las líneas de campo magnético de un imán de barra?",
+  "explanation": "Las líneas salen del polo norte, entran por el polo sur y se cierran por el interior del imán, ya que no existen polos magnéticos aislados.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "campo magnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Curvas cerradas que, por fuera del imán, van del polo norte al polo sur.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Curvas que empiezan en el polo sur y terminan en el polo norte, por fuera del imán.",
+      "correct": false,
+      "feedback": "Por fuera, van de norte a sur."
+    },
+    {
+      "id": "c",
+      "text": "Circunferencias alrededor del eje del imán.",
+      "correct": false,
+      "feedback": "Ese es el campo de un hilo recto."
+    },
+    {
+      "id": "d",
+      "text": "Rectas que salen del polo norte y terminan en el infinito.",
+      "correct": false,
+      "feedback": "Las líneas magnéticas son cerradas."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

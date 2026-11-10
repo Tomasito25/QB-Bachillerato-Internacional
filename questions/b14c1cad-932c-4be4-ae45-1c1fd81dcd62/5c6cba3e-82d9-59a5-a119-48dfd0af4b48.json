@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5c6cba3e-82d9-59a5-a119-48dfd0af4b48",
+  "rev": 1,
+  "statement": "Dos barras conductoras paralelas de una subestación, separadas $10\\,\\text{cm}$, llevan corrientes de $2000\\,\\text{A}$ en sentidos opuestos. Usa $\\mu_0 = 4\\pi\\times 10^{-7}\\,\\text{T m A}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "hilos paralelos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica si las barras se atraen o se repelen, y justifícalo.",
+      "modelAnswer": "Se repelen. (1) El campo de una barra ejerce sobre la otra, con corriente opuesta, una fuerza que la aleja. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la fuerza por unidad de longitud entre las barras.",
+      "modelAnswer": "$\\dfrac{F}{L} = \\dfrac{\\mu_0I^2}{2\\pi r} = \\dfrac{4\\pi\\times 10^{-7}\\cdot 2000^2}{2\\pi\\cdot 0{,}10} = 8{,}0\\,\\text{N m}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la fuerza total sobre un tramo de $5{,}0\\,\\text{m}$.",
+      "modelAnswer": "$F = 8{,}0\\cdot 5{,}0 = 40\\,\\text{N}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "En un cortocircuito, la corriente se multiplica por 10. Determina la nueva fuerza por unidad de longitud, y sugiere una consecuencia para el diseño de la instalación.",
+      "modelAnswer": "La fuerza es proporcional a $I^2$, de modo que se multiplica por 100 y pasa a ser de $800\\,\\text{N m}^{-1}$. (1) Los soportes deben aguantar esas fuerzas, mucho mayores que las de funcionamiento normal. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "633b0a70-717c-599c-8cbd-a2b61e8cbcd0",
+  "rev": 1,
+  "statement": "Un objeto colgado de un dinamómetro marca $8{,}0\\,\\text{N}$ en el aire y $6{,}0\\,\\text{N}$ totalmente sumergido en agua, de densidad $1000\\,\\text{kg m}^{-3}$. ¿Cuál es la densidad del objeto?",
+  "explanation": "El empuje vale $8{,}0 - 6{,}0 = 2{,}0\\,\\text{N}$. Como peso y empuje se relacionan por $\\dfrac{\\rho}{\\rho_{\\text{agua}}} = \\dfrac{8{,}0}{2{,}0} = 4{,}0$, resulta $\\rho = 4000\\,\\text{kg m}^{-3}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "flotabilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1300\\,\\text{kg m}^{-3}$",
+      "correct": false,
+      "feedback": "Se ha dividido 8,0 entre 6,0 en lugar de usar el empuje."
+    },
+    {
+      "id": "b",
+      "text": "$2000\\,\\text{kg m}^{-3}$",
+      "correct": false,
+      "feedback": "El cociente correcto es peso/empuje = 4."
+    },
+    {
+      "id": "c",
+      "text": "$3000\\,\\text{kg m}^{-3}$",
+      "correct": false,
+      "feedback": "Se ha usado la lectura en el agua en lugar del peso."
+    },
+    {
+      "id": "d",
+      "text": "$4000\\,\\text{kg m}^{-3}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

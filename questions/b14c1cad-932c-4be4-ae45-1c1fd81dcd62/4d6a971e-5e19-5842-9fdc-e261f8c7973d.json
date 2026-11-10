@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "4d6a971e-5e19-5842-9fdc-e261f8c7973d",
+  "rev": 1,
+  "statement": "La gráfica muestra la fuerza resultante $F$ sobre un objeto de $5{,}0\\,\\text{kg}$, inicialmente en reposo, en función de su desplazamiento $x$.\n\n![Gráfica de fuerza frente a desplazamiento: constante en 20 N de 0 a 2,0 m, y después baja en línea recta hasta 0 en x = 6,0 m.](qbimg:ff915b920e3ce8f3f54b367993d7c1aacbe6b94789a9c0ac746cddf639f5e716)\n\n¿Cuál es su rapidez en $x = 6{,}0\\,\\text{m}$?",
+  "explanation": "El área es $20\\cdot 2{,}0 + \\frac{1}{2}\\cdot 4{,}0\\cdot 20 = 80\\,\\text{J}$. Con $\\frac{1}{2}mv^2 = 80$, $v = 5{,}7\\,\\text{m s}^{-1}$.",
+  "images": [
+    {
+      "hash": "ff915b920e3ce8f3f54b367993d7c1aacbe6b94789a9c0ac746cddf639f5e716",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 11723,
+      "alt": "Gráfica de fuerza frente a desplazamiento: constante en 20 N de 0 a 2,0 m, y después baja en línea recta hasta 0 en x = 6,0 m."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a87c9cf6-152d-4064-9a64-ddc322160ccd"
+  ],
+  "tags": [
+    "gráficas",
+    "trabajo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4{,}0\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Faltaría el factor ½ de la energía cinética, o el tramo triangular."
+    },
+    {
+      "id": "b",
+      "text": "$5{,}7\\,\\text{m s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$6{,}9\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "El último tramo es un triángulo, no un rectángulo."
+    },
+    {
+      "id": "d",
+      "text": "$32\\,\\text{m s}^{-1}$",
+      "correct": false,
+      "feedback": "Falta sacar la raíz cuadrada."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

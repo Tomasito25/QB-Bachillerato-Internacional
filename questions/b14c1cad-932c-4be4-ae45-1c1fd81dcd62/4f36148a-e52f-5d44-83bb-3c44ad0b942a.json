@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "4f36148a-e52f-5d44-83bb-3c44ad0b942a",
+  "rev": 1,
+  "statement": "Se da un empujón a un carrito para que suba por una rampa. Un sensor de movimiento registra su velocidad mientras sube. La gráfica muestra los datos y su recta de ajuste.\n\n![Gráfica de la velocidad, en m/s, frente al tiempo, en s. Siete puntos entre 0 y 0,6 s descienden de forma lineal; hay una recta de ajuste.](qbimg:c1a5b1470e58128bef5c2e67f72d78369edb41eecb99bdd552be7044464a0c95)",
+  "images": [
+    {
+      "hash": "c1a5b1470e58128bef5c2e67f72d78369edb41eecb99bdd552be7044464a0c95",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 15728,
+      "alt": "Gráfica de la velocidad, en m/s, frente al tiempo, en s. Siete puntos entre 0 y 0,6 s descienden de forma lineal; hay una recta de ajuste."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b6748547-3168-5ee0-bf68-69344d13836f",
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "datos",
+    "gráficas",
+    "sensor de movimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina la aceleración del carrito.",
+      "modelAnswer": "Es la pendiente de la recta. Con los puntos $(0;\\,1{,}60)$ y $(0{,}60;\\,0{,}40)$: (1) $a = \\dfrac{0{,}40 - 1{,}60}{0{,}60 - 0} = -2{,}0\\,\\text{m s}^{-2}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina, por extrapolación, el instante en que el carrito se detiene.",
+      "modelAnswer": "$v = 1{,}60 - 2{,}0\\,t = 0$, de modo que $t = 0{,}80\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la distancia que recorre el carrito hasta detenerse.",
+      "modelAnswer": "Es el área bajo la recta: $\\dfrac{1}{2}\\cdot 1{,}60\\cdot 0{,}80 = 0{,}64\\,\\text{m}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "La rampa forma $10°$ con la horizontal. Compara la aceleración medida con la que tendría el carrito sin rozamiento, y explica la diferencia.",
+      "modelAnswer": "Sin rozamiento, $a = g\\sin 10° = 1{,}7\\,\\text{m s}^{-2}$. (1) El valor medido es mayor: mientras el carrito sube, el rozamiento también va en contra del movimiento y se suma a la componente del peso. (1)",
+      "marks": 2
+    }
+  ]
+}

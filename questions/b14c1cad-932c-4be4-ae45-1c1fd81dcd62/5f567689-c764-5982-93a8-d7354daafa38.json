@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "5f567689-c764-5982-93a8-d7354daafa38",
+  "rev": 1,
+  "statement": "Un carrito parte del reposo y recorre $(1{,}500 \\pm 0{,}002)\\,\\text{m}$ por una rampa. El tiempo de bajada se cronometra a mano cinco veces:\n\n| Ensayo | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $t$ / s | 2,37 | 2,45 | 2,41 | 2,97 | 2,37 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "818c5352-d9aa-5c8c-9c20-dc85fac93f60",
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "datos",
+    "incertidumbres",
+    "valores anómalos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Identifica el valor anómalo e indica qué debe hacerse con él.",
+      "modelAnswer": "Es el del ensayo 4, $2{,}97\\,\\text{s}$: se aparta de los demás mucho más que la dispersión del resto. (1) Se descarta, o se repite el ensayo, y no entra en la media. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el tiempo medio y su incertidumbre absoluta a partir del rango de los valores.",
+      "modelAnswer": "$\\bar{t} = \\dfrac{2{,}37 + 2{,}45 + 2{,}41 + 2{,}37}{4} = 2{,}40\\,\\text{s}$. (1) $\\Delta t = \\dfrac{2{,}45 - 2{,}37}{2} = 0{,}04\\,\\text{s}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la aceleración del carrito.",
+      "modelAnswer": "$a = \\dfrac{2s}{t^2} = \\dfrac{2\\cdot 1{,}500}{2{,}40^2} = 0{,}521\\,\\text{m s}^{-2}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Determina la incertidumbre absoluta de la aceleración.",
+      "modelAnswer": "$\\dfrac{\\Delta a}{a} = \\dfrac{\\Delta s}{s} + 2\\,\\dfrac{\\Delta t}{t} = 0{,}1\\,\\% + 2\\cdot 1{,}7\\,\\% = 3{,}5\\,\\%$. (1) $\\Delta a = 0{,}035\\cdot 0{,}521 = 0{,}02\\,\\text{m s}^{-2}$. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "60b0b5b7-bb19-5c3d-b166-9877b4c04811",
+  "rev": 1,
+  "statement": "Un planeta recibe de su estrella una intensidad de $2600\\,\\text{W m}^{-2}$ y tiene un albedo de $0{,}75$. Suponiendo que radia como un cuerpo negro, ¿cuál es su temperatura de equilibrio? Usa $\\sigma = 5{,}67\\times 10^{-8}\\,\\text{W m}^{-2}\\,\\text{K}^{-4}$.",
+  "explanation": "$\\dfrac{2600}{4}(1 - 0{,}75) = 163\\,\\text{W m}^{-2}$. Entonces $T = \\left(\\dfrac{163}{\\sigma}\\right)^{1/4} = 2{,}3\\times 10^{2}\\,\\text{K}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "balance de energía",
+    "albedo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$230\\,\\text{K}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$290\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Comprueba el cálculo: la potencia absorbida media es de 163 W m⁻²."
+    },
+    {
+      "id": "c",
+      "text": "$330\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Falta dividir entre 4, o aplicar el albedo."
+    },
+    {
+      "id": "d",
+      "text": "$460\\,\\text{K}$",
+      "correct": false,
+      "feedback": "Faltan el factor ¼ y el albedo."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

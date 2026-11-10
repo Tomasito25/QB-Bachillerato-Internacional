@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "6d2192b2-8af8-5f1f-bedf-f47045c0ad90",
+  "rev": 1,
+  "statement": "Por un componente circula una corriente de $3{,}2\\,\\text{mA}$ durante $10\\,\\text{s}$. ¿Cuántos electrones pasan por él? Usa $e = 1{,}6\\times 10^{-19}\\,\\text{C}$.",
+  "explanation": "$q = It = 3{,}2\\times 10^{-3}\\cdot 10 = 3{,}2\\times 10^{-2}\\,\\text{C}$, y $N = \\dfrac{q}{e} = 2{,}0\\times 10^{17}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "corriente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$5{,}1\\times 10^{-21}$",
+      "correct": false,
+      "feedback": "Hay que dividir la carga entre e, no multiplicar."
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0\\times 10^{14}$",
+      "correct": false,
+      "feedback": "Convierte bien los miliamperios: 3,2 mA = 3,2 × 10⁻³ A."
+    },
+    {
+      "id": "c",
+      "text": "$2{,}0\\times 10^{17}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$2{,}0\\times 10^{20}$",
+      "correct": false,
+      "feedback": "Convierte bien los miliamperios."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "6925fcf4-0486-5cbe-8517-2de64f90bae0",
+  "rev": 1,
+  "statement": "Se retira el plato giratorio de un microondas y se calienta una tableta de chocolate durante unos segundos. Dentro del horno se forman ondas estacionarias, y el chocolate se funde sólo en ciertas zonas, separadas $6{,}0\\,\\text{cm}$. La frecuencia del horno es de $2{,}45\\,\\text{GHz}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "a1680f92-caeb-5b6b-8617-d29935280334"
+  ],
+  "tags": [
+    "ondas estacionarias",
+    "incertidumbres",
+    "datos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo se forma una onda estacionaria dentro del horno.",
+      "modelAnswer": "Las microondas se reflejan en las paredes metálicas. (1) Las ondas reflejadas se superponen con las que llegan, en sentidos opuestos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica a qué parte de la onda estacionaria corresponden las zonas fundidas.",
+      "modelAnswer": "A los vientres (antinodos), donde la amplitud es máxima.",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la longitud de onda de las microondas.",
+      "modelAnswer": "Los vientres contiguos están separados $\\dfrac{\\lambda}{2}$. (1) $\\lambda = 12\\,\\text{cm}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina un valor para la rapidez de la luz a partir de estos datos.",
+      "modelAnswer": "$c = f\\lambda = 2{,}45\\times 10^{9}\\cdot 0{,}12 = 2{,}9\\times 10^{8}\\,\\text{m s}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "La separación se mide con una incertidumbre de $0{,}5\\,\\text{cm}$. Determina el resultado con su incertidumbre absoluta.",
+      "modelAnswer": "Incertidumbre porcentual: $\\dfrac{0{,}5}{6{,}0} = 8\\,\\%$. (1) $\\Delta c = 0{,}08\\cdot 2{,}9\\times 10^{8} = 0{,}2\\times 10^{8}$. (1) $c = (2{,}9 \\pm 0{,}2)\\times 10^{8}\\,\\text{m s}^{-1}$. (1)",
+      "marks": 3
+    }
+  ]
+}

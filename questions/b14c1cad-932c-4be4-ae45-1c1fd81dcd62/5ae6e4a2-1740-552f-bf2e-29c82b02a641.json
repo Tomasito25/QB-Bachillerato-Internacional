@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "5ae6e4a2-1740-552f-bf2e-29c82b02a641",
+  "rev": 1,
+  "statement": "Para determinar la constante de un muelle se cuelgan masas $m$ y se mide el tiempo de 20 oscilaciones. El periodo $T$ que se obtiene es:\n\n| $m$ / kg | 0,10 | 0,20 | 0,30 | 0,40 | 0,50 |\n|---|---|---|---|---|---|\n| $T$ / s | 0,45 | 0,63 | 0,77 | 0,89 | 0,99 |",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "datos",
+    "masa-muelle",
+    "incertidumbres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:48.000Z",
+  "updatedAt": "2026-11-10T07:21:48.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué se representa $T^2$ frente a $m$.",
+      "modelAnswer": "$T = 2\\pi\\sqrt{\\dfrac{m}{k}}$ implica $T^2 = \\dfrac{4\\pi^2}{k}\\,m$. (1) Así se obtiene una recta de pendiente $\\dfrac{4\\pi^2}{k}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la pendiente usando los puntos extremos.",
+      "modelAnswer": "$T^2$ vale $0{,}2025\\,\\text{s}^{2}$ y $0{,}9801\\,\\text{s}^{2}$. (1) $\\text{pendiente} = \\dfrac{0{,}9801 - 0{,}2025}{0{,}40} = 1{,}9\\,\\text{s}^2\\,\\text{kg}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la constante del muelle.",
+      "modelAnswer": "$k = \\dfrac{4\\pi^2}{1{,}94} = 20\\,\\text{N m}^{-1}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "El cronómetro tiene una incertidumbre de $0{,}2\\,\\text{s}$ debida a la reacción. Calcula la incertidumbre porcentual de $T^2$ para $m = 0{,}30\\,\\text{kg}$.",
+      "modelAnswer": "Tiempo total: $20\\cdot 0{,}77 = 15{,}4\\,\\text{s}$. (1) $\\dfrac{0{,}2}{15{,}4} = 1{,}3\\,\\%$ para $T$. (1) El doble, $2{,}6\\,\\%$, para $T^2$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué se miden 20 oscilaciones en lugar de una.",
+      "modelAnswer": "La incertidumbre del tiempo es la misma, pero al dividir el tiempo total entre 20 la incertidumbre porcentual es 20 veces menor.",
+      "marks": 2
+    }
+  ]
+}
