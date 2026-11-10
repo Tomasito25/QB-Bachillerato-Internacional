@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "a3cda86b-f432-5d69-97ad-eeb32dba1234",
+  "rev": 1,
+  "statement": "En un selector de velocidades, con campos eléctrico y magnético perpendiculares, una partícula pasa sin desviarse. Si otra partícula igual entra con mayor rapidez, ¿qué le ocurre?",
+  "explanation": "Sin desviación se cumple $qE = qvB$. Con una $v$ mayor, $qvB > qE$, y domina la fuerza magnética.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "selector de velocidades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se desvía en el sentido de la fuerza magnética, que ahora es mayor que la eléctrica.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Se desvía en el sentido de la fuerza eléctrica, que ahora es mayor.",
+      "correct": false,
+      "feedback": "La fuerza eléctrica no depende de la rapidez."
+    },
+    {
+      "id": "c",
+      "text": "Se detiene dentro del selector.",
+      "correct": false,
+      "feedback": "Las fuerzas son perpendiculares a la trayectoria inicial."
+    },
+    {
+      "id": "d",
+      "text": "Pasa sin desviarse, porque las fuerzas no dependen de la rapidez.",
+      "correct": false,
+      "feedback": "La fuerza magnética es proporcional a v."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

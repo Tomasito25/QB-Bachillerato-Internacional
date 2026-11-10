@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "96a469ff-c934-5e53-9fd8-871d0a171fcd",
+  "rev": 1,
+  "statement": "Tres cargas puntuales se sitúan en los vértices de un triángulo equilátero de $0{,}10\\,\\text{m}$ de lado: $+2{,}0\\,\\mu\\text{C}$ en A, $+2{,}0\\,\\mu\\text{C}$ en B y $-2{,}0\\,\\mu\\text{C}$ en C. Usa $k = 8{,}99\\times 10^{9}\\,\\text{N m}^2\\,\\text{C}^{-2}$.\n\n![Triángulo equilátero de 0,10 m de lado con +2,0 μC en A, +2,0 μC en B y −2,0 μC en C. M es el punto medio del lado AB.](qbimg:b22edc4e24088cd05dc8115e6e67eb599b50f1e27f61f21445ff817052907a83)",
+  "images": [
+    {
+      "hash": "b22edc4e24088cd05dc8115e6e67eb599b50f1e27f61f21445ff817052907a83",
+      "ext": "png",
+      "width": 960,
+      "height": 680,
+      "bytes": 12481,
+      "alt": "Triángulo equilátero de 0,10 m de lado con +2,0 μC en A, +2,0 μC en B y −2,0 μC en C. M es el punto medio del lado AB."
+    }
+  ],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "ley de Coulomb",
+    "campo eléctrico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el módulo de la fuerza que ejerce A sobre C.",
+      "modelAnswer": "$F = \\dfrac{kq^2}{r^2} = \\dfrac{8{,}99\\times 10^{9}\\cdot(2{,}0\\times 10^{-6})^2}{0{,}10^2} = 3{,}6\\,\\text{N}$.",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la fuerza resultante sobre C, indicando su dirección.",
+      "modelAnswer": "Las componentes paralelas a AB se cancelan por simetría. (1) $F = 2\\cdot 3{,}6\\cos 30° = 6{,}2\\,\\text{N}$. (1) Dirigida hacia el punto medio de AB. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el módulo del campo eléctrico en C debido a las cargas A y B.",
+      "modelAnswer": "$E = \\dfrac{F}{q} = \\dfrac{6{,}2}{2{,}0\\times 10^{-6}} = 3{,}1\\times 10^{6}\\,\\text{N C}^{-1}$.",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Determina el campo eléctrico en el punto medio M del lado AB.",
+      "modelAnswer": "Los campos de A y de B se cancelan en M. (1) Altura del triángulo: $0{,}0866\\,\\text{m}$. (1) $E = \\dfrac{k\\cdot 2{,}0\\times 10^{-6}}{0{,}0866^2} = 2{,}4\\times 10^{6}\\,\\text{N C}^{-1}$, hacia C. (1)",
+      "marks": 3
+    }
+  ]
+}

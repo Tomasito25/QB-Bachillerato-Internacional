@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "9f1ad29c-2ea7-53d9-9702-c573da352018",
+  "rev": 1,
+  "statement": "Un coche toma una curva circular con rapidez constante.\n\nI. La fuerza resultante no realiza trabajo sobre el coche.\n\nII. La cantidad de movimiento del coche es constante.\n\nIII. La energía cinética del coche es constante.\n\n¿Cuáles son correctas?",
+  "explanation": "La fuerza resultante es perpendicular a la velocidad, de modo que no hace trabajo y la energía cinética no cambia. La cantidad de movimiento es un vector, y su dirección sí cambia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "movimiento circular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sólo I y II",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sólo I y III",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Sólo II y III",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "I, II y III",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

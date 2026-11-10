@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "96fb96e4-7171-58b9-98cb-e8fa515f9de4",
+  "rev": 1,
+  "statement": "En un tubo, unos electrones parten del reposo y se aceleran con una diferencia de potencial $V = 2{,}0\\,\\text{kV}$. Después entran perpendicularmente en un campo magnético uniforme, $B = 1{,}0\\,\\text{mT}$, donde describen una circunferencia. Usa $e = 1{,}6\\times 10^{-19}\\,\\text{C}$ y $m_e = 9{,}11\\times 10^{-31}\\,\\text{kg}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e"
+  ],
+  "tags": [
+    "carga en campo magnético",
+    "relación carga-masa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la rapidez de los electrones al entrar en el campo.",
+      "modelAnswer": "$eV = \\frac{1}{2}mv^2$. (1) $v = 2{,}7\\times 10^{7}\\,\\text{m s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la trayectoria en el campo magnético es circular.",
+      "modelAnswer": "La fuerza magnética tiene módulo constante y es perpendicular a la velocidad en todo momento. (1) Actúa como fuerza centrípeta, y la rapidez no cambia. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el radio de la trayectoria.",
+      "modelAnswer": "$r = \\dfrac{mv}{eB} = \\dfrac{9{,}11\\times 10^{-31}\\cdot 2{,}65\\times 10^{7}}{1{,}6\\times 10^{-19}\\cdot 1{,}0\\times 10^{-3}} = 0{,}15\\,\\text{m}$.",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Demuestra que $\\dfrac{e}{m} = \\dfrac{2V}{B^2r^2}$.",
+      "modelAnswer": "De $r = \\dfrac{mv}{eB}$ se obtiene $v = \\dfrac{eBr}{m}$. (1) Al sustituir en $eV = \\frac{1}{2}mv^2$: $eV = \\dfrac{e^2B^2r^2}{2m}$. (1) Reordenando se llega a la expresión. (1)",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "En un experimento, $V$ se mide con una incertidumbre del 1 %, $B$ con una del 2 % y $r$ con una del 1 %. Determina la incertidumbre porcentual de $\\dfrac{e}{m}$.",
+      "modelAnswer": "$1\\,\\% + 2\\cdot 2\\,\\% + 2\\cdot 1\\,\\% = 7\\,\\%$. (2)",
+      "marks": 2
+    }
+  ]
+}

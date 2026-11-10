@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "9b6861ce-2d1f-57a1-bd30-4605663e0b89",
+  "rev": 1,
+  "statement": "La lámpara A tiene las indicaciones $12\\,\\text{V}$ y $24\\,\\text{W}$, y la lámpara B, $12\\,\\text{V}$ y $6{,}0\\,\\text{W}$. Se dispone de una fuente de $12\\,\\text{V}$ sin resistencia interna. Considera que sus resistencias no cambian, salvo en el último apartado.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "potencia eléctrica",
+    "lámparas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:03.000Z",
+  "updatedAt": "2026-11-10T07:22:03.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la resistencia de cada lámpara en funcionamiento normal.",
+      "modelAnswer": "$R_A = \\dfrac{12^2}{24} = 6{,}0\\,\\Omega$. (1) $R_B = \\dfrac{12^2}{6{,}0} = 24\\,\\Omega$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Las lámparas se conectan en paralelo a la fuente. Calcula la corriente total e indica cuál brilla más.",
+      "modelAnswer": "$I = 2{,}0 + 0{,}50 = 2{,}5\\,\\text{A}$. (1) Brilla más la A, que disipa $24\\,\\text{W}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Las lámparas se conectan en serie a la fuente. Calcula la corriente y la potencia de cada una.",
+      "modelAnswer": "$I = \\dfrac{12}{30} = 0{,}40\\,\\text{A}$. (1) $P_A = 0{,}40^2\\cdot 6{,}0 = 0{,}96\\,\\text{W}$. (1) $P_B = 0{,}40^2\\cdot 24 = 3{,}8\\,\\text{W}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué, en serie, la lámpara de menor potencia nominal brilla más.",
+      "modelAnswer": "En serie pasa la misma corriente por las dos. (1) Según $P = I^2R$, disipa más la de mayor resistencia, que es B. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "En realidad, la resistencia de un filamento es menor cuando está más frío. Indica cómo afecta esto a la corriente real en serie.",
+      "modelAnswer": "Los filamentos están más fríos que en su funcionamiento normal, así que su resistencia es menor y la corriente es mayor que $0{,}40\\,\\text{A}$.",
+      "marks": 2
+    }
+  ]
+}
