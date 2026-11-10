@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "95a81c9d-2bba-5e15-895d-7e036d025902",
+  "rev": 1,
+  "statement": "¿Por qué aumenta la resistencia de un hilo metálico al subir su temperatura?",
+  "explanation": "Un aumento de la agitación térmica de los iones hace que los electrones libres se dispersen más, lo que reduce su velocidad de arrastre para la misma tensión.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "resistencia",
+    "modelo molecular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los iones de la red vibran más, y los electrones chocan con más frecuencia.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El hilo se contrae al calentarse.",
+      "correct": false,
+      "feedback": "Se dilata un poco, y este efecto es muy pequeño."
+    },
+    {
+      "id": "c",
+      "text": "Disminuye el número de electrones de conducción.",
+      "correct": false,
+      "feedback": "En un metal, ese número apenas cambia."
+    },
+    {
+      "id": "d",
+      "text": "Los electrones pierden su carga.",
+      "correct": false,
+      "feedback": "La carga del electrón no cambia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

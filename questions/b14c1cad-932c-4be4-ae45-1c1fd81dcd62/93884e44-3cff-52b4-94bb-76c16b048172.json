@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "93884e44-3cff-52b4-94bb-76c16b048172",
+  "rev": 1,
+  "statement": "Al frotar una varilla con un paño, la varilla pierde $5{,}0\\times 10^{10}$ electrones. ¿Qué carga adquiere? Usa $e = 1{,}6\\times 10^{-19}\\,\\text{C}$.",
+  "explanation": "$q = Ne = 5{,}0\\times 10^{10}\\cdot 1{,}6\\times 10^{-19} = 8{,}0\\times 10^{-9}\\,\\text{C}$. Perder electrones deja a la varilla con carga positiva.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "carga eléctrica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}1\\times 10^{29}\\,\\text{C}$, positiva",
+      "correct": false,
+      "feedback": "Hay que multiplicar, no dividir."
+    },
+    {
+      "id": "b",
+      "text": "$8{,}0\\times 10^{-9}\\,\\text{C}$, negativa",
+      "correct": false,
+      "feedback": "Al perder electrones, queda carga positiva en exceso."
+    },
+    {
+      "id": "c",
+      "text": "$8{,}0\\times 10^{-9}\\,\\text{C}$, positiva",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$3{,}2\\times 10^{-30}\\,\\text{C}$, positiva",
+      "correct": false,
+      "feedback": "Hay que multiplicar, no dividir."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "824783e2-1d37-5e2d-935a-d7d019b452b0",
+  "rev": 1,
+  "statement": "Una batería de $1{,}5\\,\\text{V}$ hace circular $20\\,\\text{C}$ de carga por un circuito. ¿Cuánta energía transfiere?",
+  "explanation": "$W = qV = 20\\cdot 1{,}5 = 30\\,\\text{J}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "diferencia de potencial"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}075\\,\\text{J}$",
+      "correct": false,
+      "feedback": "Se ha dividido en lugar de multiplicar."
+    },
+    {
+      "id": "b",
+      "text": "$13\\,\\text{J}$",
+      "correct": false,
+      "feedback": "El voltaje es energía por unidad de carga: se multiplica."
+    },
+    {
+      "id": "c",
+      "text": "$22\\,\\text{J}$",
+      "correct": false,
+      "feedback": "Los valores no se suman."
+    },
+    {
+      "id": "d",
+      "text": "$30\\,\\text{J}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

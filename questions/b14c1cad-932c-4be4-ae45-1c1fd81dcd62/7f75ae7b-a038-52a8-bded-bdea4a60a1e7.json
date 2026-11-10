@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "7f75ae7b-a038-52a8-bded-bdea4a60a1e7",
+  "rev": 1,
+  "statement": "Dos proyectiles se lanzan desde el suelo con la misma rapidez, uno a $30°$ y otro a $60°$ sobre la horizontal. Sin resistencia del aire, ¿cuánto vale la razón $\\dfrac{H_{60}}{H_{30}}$ entre sus alturas máximas?",
+  "explanation": "$H = \\dfrac{v^2\\sin^2\\theta}{2g}$, de modo que la razón es $\\dfrac{\\sin^2 60°}{\\sin^2 30°} = \\dfrac{0{,}75}{0{,}25} = 3$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$2$",
+      "correct": false,
+      "feedback": "La razón no es la de los ángulos."
+    },
+    {
+      "id": "c",
+      "text": "$1$",
+      "correct": false,
+      "feedback": "Son iguales los alcances, no las alturas."
+    },
+    {
+      "id": "d",
+      "text": "$\\sqrt{3}$",
+      "correct": false,
+      "feedback": "La altura depende del cuadrado de la componente vertical."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

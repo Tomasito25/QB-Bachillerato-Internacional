@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "8641d409-c0c4-52e1-b09e-c4944fa65fe8",
+  "rev": 1,
+  "statement": "Una lámpara con indicaciones $6{,}0\\,\\text{V}$ y $3{,}0\\,\\text{W}$ y otra con $6{,}0\\,\\text{V}$ y $12\\,\\text{W}$ se conectan en serie a una fuente de $12\\,\\text{V}$. Si sus resistencias son las de funcionamiento normal, ¿qué ocurre?",
+  "explanation": "$R = \\dfrac{V^2}{P}$ da $12\\,\\Omega$ y $3{,}0\\,\\Omega$. Con $I = \\dfrac{12}{15} = 0{,}80\\,\\text{A}$, la primera recibe $0{,}80\\cdot 12 = 9{,}6\\,\\text{V}$, muy por encima de su valor nominal.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [
+    "potencia eléctrica",
+    "circuitos en serie"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La de $3{,}0\\,\\text{W}$ recibe unos $9{,}6\\,\\text{V}$ y probablemente se funde.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La de $12\\,\\text{W}$ recibe unos $9{,}6\\,\\text{V}$ y se funde.",
+      "correct": false,
+      "feedback": "En serie, la mayor tensión cae en la mayor resistencia, y esa es la de 3,0 W."
+    },
+    {
+      "id": "c",
+      "text": "Ninguna se enciende porque la tensión se reparte.",
+      "correct": false,
+      "feedback": "Sí circula corriente; el problema es cómo se reparte la tensión."
+    },
+    {
+      "id": "d",
+      "text": "Las dos funcionan normalmente, con $6{,}0\\,\\text{V}$ cada una.",
+      "correct": false,
+      "feedback": "Eso sólo ocurriría si tuvieran la misma resistencia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "82889a83-b484-5446-afb8-235f78fcdeeb",
+  "rev": 1,
+  "statement": "El Sol tiene una luminosidad de $3{,}8\\times 10^{26}\\,\\text{W}$. ¿Cuál es su brillo aparente a una distancia de $1{,}5\\times 10^{11}\\,\\text{m}$?",
+  "explanation": "$b = \\dfrac{L}{4\\pi d^2} = \\dfrac{3{,}8\\times 10^{26}}{4\\pi(1{,}5\\times 10^{11})^2} = 1{,}3\\times 10^{3}\\,\\text{W m}^{-2}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "brillo aparente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0\\times 10^{14}\\,\\text{W m}^{-2}$",
+      "correct": false,
+      "feedback": "La distancia va al cuadrado."
+    },
+    {
+      "id": "b",
+      "text": "$1{,}7\\times 10^{4}\\,\\text{W m}^{-2}$",
+      "correct": false,
+      "feedback": "Falta el factor 4π."
+    },
+    {
+      "id": "c",
+      "text": "$5{,}4\\times 10^{3}\\,\\text{W m}^{-2}$",
+      "correct": false,
+      "feedback": "El área de una esfera es 4πd², no πd²."
+    },
+    {
+      "id": "d",
+      "text": "$1{,}3\\times 10^{3}\\,\\text{W m}^{-2}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

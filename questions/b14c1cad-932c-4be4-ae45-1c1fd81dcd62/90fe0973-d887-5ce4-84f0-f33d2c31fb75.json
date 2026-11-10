@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "90fe0973-d887-5ce4-84f0-f33d2c31fb75",
+  "rev": 1,
+  "statement": "La densidad del vapor de agua a $100\\,°\\text{C}$ es, aproximadamente, 1600 veces menor que la del agua líquida. ¿Por qué factor es mayor, aproximadamente, la separación media entre moléculas en el vapor?",
+  "explanation": "El volumen por molécula aumenta 1600 veces, y la separación varía con la raíz cúbica de ese volumen: $\\sqrt[3]{1600} \\approx 12$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "modelo molecular",
+    "densidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$12$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$40$",
+      "correct": false,
+      "feedback": "Esa es la raíz cuadrada; la separación depende de la raíz cúbica del volumen."
+    },
+    {
+      "id": "c",
+      "text": "$800$",
+      "correct": false,
+      "feedback": "El volumen por molécula crece 1600 veces, no la separación lineal."
+    },
+    {
+      "id": "d",
+      "text": "$1600$",
+      "correct": false,
+      "feedback": "Ese es el factor del volumen, no de la distancia."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

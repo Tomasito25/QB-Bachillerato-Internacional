@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "88475268-c0a6-566e-9be9-571ccaec0e74",
+  "rev": 1,
+  "statement": "¿Cuál de estos gases atmosféricos **no** contribuye de forma significativa al efecto invernadero?",
+  "explanation": "El nitrógeno molecular apenas absorbe radiación infrarroja, porque sus vibraciones no se excitan con ella.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "406b9b75-60cf-5737-8075-1995ce6d19c4"
+  ],
+  "tags": [
+    "gases de efecto invernadero"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\text{CH}_4$",
+      "correct": false,
+      "feedback": "El metano es un gas de efecto invernadero muy potente."
+    },
+    {
+      "id": "b",
+      "text": "$\\text{N}_2\\text{O}$",
+      "correct": false,
+      "feedback": "El óxido nitroso sí lo es; no lo confundas con el nitrógeno, N₂."
+    },
+    {
+      "id": "c",
+      "text": "$\\text{H}_2\\text{O}$",
+      "correct": false,
+      "feedback": "El vapor de agua es el principal gas de efecto invernadero."
+    },
+    {
+      "id": "d",
+      "text": "$\\text{N}_2$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

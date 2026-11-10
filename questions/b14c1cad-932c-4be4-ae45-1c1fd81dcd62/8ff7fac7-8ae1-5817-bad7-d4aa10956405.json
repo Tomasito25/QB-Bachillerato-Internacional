@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "8ff7fac7-8ae1-5817-bad7-d4aa10956405",
+  "rev": 1,
+  "statement": "Un muelle uniforme se corta por la mitad y se cuelga la misma masa de uno de los trozos. ¿Por qué factor se multiplica el periodo de oscilación?",
+  "explanation": "Cada mitad se alarga la mitad con la misma fuerza, así que $k$ se duplica. $T \\propto \\dfrac{1}{\\sqrt{k}}$ da un factor $\\dfrac{1}{\\sqrt{2}} = 0{,}71$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [
+    "masa-muelle"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}50$",
+      "correct": false,
+      "feedback": "El periodo depende de la raíz de 1/k."
+    },
+    {
+      "id": "b",
+      "text": "$0{,}71$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1{,}4$",
+      "correct": false,
+      "feedback": "Un muelle más corto es más rígido: el periodo disminuye."
+    },
+    {
+      "id": "d",
+      "text": "$2{,}0$",
+      "correct": false,
+      "feedback": "Un muelle más corto es más rígido: el periodo disminuye."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

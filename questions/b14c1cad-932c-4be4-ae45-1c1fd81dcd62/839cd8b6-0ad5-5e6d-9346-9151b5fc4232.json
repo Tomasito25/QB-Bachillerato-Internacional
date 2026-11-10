@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "839cd8b6-0ad5-5e6d-9346-9151b5fc4232",
+  "rev": 1,
+  "statement": "Una pelota se lanza en vertical hacia arriba y la resistencia del aire no es despreciable. ¿Cómo se comparan el tiempo de subida y el de bajada, y a qué se debe?",
+  "explanation": "Al subir, el módulo de la aceleración es mayor que $g$; al bajar, menor que $g$. Con la misma distancia y menor aceleración, la bajada tarda más.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "resistencia del aire"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La bajada dura menos: la gravedad ayuda al movimiento.",
+      "correct": false,
+      "feedback": "Al bajar la aceleración es menor que g, y la pelota llega con menos rapidez."
+    },
+    {
+      "id": "b",
+      "text": "Duran lo mismo: la altura recorrida es la misma.",
+      "correct": false,
+      "feedback": "Esto sólo es cierto sin resistencia del aire."
+    },
+    {
+      "id": "c",
+      "text": "La subida dura más: la resistencia frena a la pelota.",
+      "correct": false,
+      "feedback": "Frenar con más aceleración hace que se detenga antes."
+    },
+    {
+      "id": "d",
+      "text": "La subida dura menos: al subir, peso y resistencia apuntan hacia abajo, y al bajar se oponen.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

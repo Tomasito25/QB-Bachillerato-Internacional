@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "8f4fb982-4ad2-5281-b404-270ab13f3211",
+  "rev": 1,
+  "statement": "Una tenista golpea la pelota en horizontal a $40\\,\\text{m s}^{-1}$ desde una altura de $2{,}4\\,\\text{m}$. La red, de $0{,}90\\,\\text{m}$ de altura, está a $12\\,\\text{m}$ del punto de golpeo. Ignora la resistencia del aire salvo en el último apartado y toma $g = 9{,}8\\,\\text{m s}^{-2}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "c8c6262a-1994-4b13-8c99-1f90447cce50"
+  ],
+  "tags": [
+    "proyectiles",
+    "resistencia del aire"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el tiempo que tarda la pelota en llegar a la red.",
+      "modelAnswer": "$t = \\dfrac{12}{40} = 0{,}30\\,\\text{s}$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Determina a qué altura sobre la red pasa la pelota.",
+      "modelAnswer": "Cae $\\frac{1}{2}gt^2 = 0{,}5\\cdot 9{,}8\\cdot 0{,}30^2 = 0{,}44\\,\\text{m}$. (1) Altura sobre el suelo: $2{,}4 - 0{,}44 = 1{,}96\\,\\text{m}$. (1) Pasa $1{,}96 - 0{,}90 = 1{,}1\\,\\text{m}$ por encima de la red. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Calcula a qué distancia del punto de golpeo bota por primera vez.",
+      "modelAnswer": "$t = \\sqrt{\\dfrac{2\\cdot 2{,}4}{9{,}8}} = 0{,}70\\,\\text{s}$. (1) $x = 40\\cdot 0{,}70 = 28\\,\\text{m}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Determina la rapidez de la pelota justo antes de botar y el ángulo que forma su velocidad con la horizontal.",
+      "modelAnswer": "$v_y = gt = 6{,}9\\,\\text{m s}^{-1}$. (1) $v = \\sqrt{40^2 + 6{,}9^2} = 41\\,\\text{m s}^{-1}$. (1) $\\theta = \\arctan\\dfrac{6{,}9}{40} = 9{,}8°$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "e",
+      "statement": "En realidad, la resistencia del aire no es despreciable. Indica cómo cambian la distancia del bote y el ángulo con el que llega al suelo. Justifica tu respuesta.",
+      "modelAnswer": "La resistencia frena la componente horizontal, de modo que el bote se produce más cerca. (1) Al llegar, la componente horizontal es menor respecto a la vertical, así que el ángulo con la horizontal es mayor. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "91371a36-0524-5184-9ec5-bf7cb49a55f1",
+  "rev": 1,
+  "statement": "Una gota de aceite cargada está en equilibrio entre dos placas con una tensión $V$. La gota pierde la mitad de su carga sin perder masa. ¿Qué tensión mantiene ahora el equilibrio?",
+  "explanation": "En equilibrio, $\\dfrac{qV}{d} = mg$. Si $q$ se reduce a la mitad, $V$ debe duplicarse.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753"
+  ],
+  "tags": [
+    "experimento de Millikan"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:21:59.000Z",
+  "updatedAt": "2026-11-10T07:21:59.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2V$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$V$",
+      "correct": false,
+      "feedback": "La fuerza eléctrica se ha reducido a la mitad."
+    },
+    {
+      "id": "c",
+      "text": "$4V$",
+      "correct": false,
+      "feedback": "La fuerza eléctrica depende de q y de V linealmente."
+    },
+    {
+      "id": "d",
+      "text": "$\\dfrac{V}{2}$",
+      "correct": false,
+      "feedback": "Con menos carga hace falta un campo mayor."
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
