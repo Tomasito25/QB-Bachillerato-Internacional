@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "c4780055-640c-575c-8ef3-3ee0106b8add",
+  "rev": 1,
+  "statement": "Se meten en un congelador $0{,}50\\,\\text{kg}$ de agua a $20\\,°\\text{C}$, y se enfrían hasta convertirse en hielo a $-10\\,°\\text{C}$. El congelador extrae energía a un ritmo constante de $150\\,\\text{W}$. Datos: $c_{\\text{agua}} = 4180$, $c_{\\text{hielo}} = 2100\\,\\text{J kg}^{-1}\\,\\text{K}^{-1}$ y $L_f = 3{,}34\\times 10^{5}\\,\\text{J kg}^{-1}$.",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "6ca63617-0d8f-535b-8bba-75432263b872"
+  ],
+  "tags": [
+    "calor latente",
+    "cambio de fase",
+    "modelo molecular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:13.000Z",
+  "updatedAt": "2026-11-10T07:22:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía que hay que extraer en cada una de las tres etapas.",
+      "modelAnswer": "Enfriar el agua: $0{,}50\\cdot 4180\\cdot 20 = 4{,}18\\times 10^{4}\\,\\text{J}$. (1) Congelar: $0{,}50\\cdot 3{,}34\\times 10^{5} = 1{,}67\\times 10^{5}\\,\\text{J}$. (1) Enfriar el hielo: $0{,}50\\cdot 2100\\cdot 10 = 1{,}05\\times 10^{4}\\,\\text{J}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Determina el tiempo total del proceso.",
+      "modelAnswer": "Energía total: $2{,}19\\times 10^{5}\\,\\text{J}$. (1) $t = \\dfrac{2{,}19\\times 10^{5}}{150} = 1{,}5\\times 10^{3}\\,\\text{s}$, unos 24 minutos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Describe la forma de la gráfica de la temperatura frente al tiempo.",
+      "modelAnswer": "Primero una recta descendente de $20\\,°\\text{C}$ a $0\\,°\\text{C}$. (1) Después un tramo horizontal a $0\\,°\\text{C}$, el más largo. (1) Por último, otra recta descendente de mayor pendiente, porque el hielo tiene menor calor específico. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Explica, en términos de partículas, por qué la temperatura no cambia durante la congelación.",
+      "modelAnswer": "La energía cinética media de las moléculas no cambia. (1) La energía extraída procede de la disminución de la energía potencial de las moléculas, al formarse los enlaces de la estructura sólida. (1)",
+      "marks": 2
+    }
+  ]
+}

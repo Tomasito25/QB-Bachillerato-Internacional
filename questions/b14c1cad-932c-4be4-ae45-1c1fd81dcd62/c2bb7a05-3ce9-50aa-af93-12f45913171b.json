@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "c2bb7a05-3ce9-50aa-af93-12f45913171b",
+  "rev": 1,
+  "statement": "Se arrastra un bloque de madera a velocidad constante sobre un tablero horizontal, tirando de él con un dinamómetro. Se añaden masas al bloque para variar la fuerza normal y se mide en cada caso la fuerza de rozamiento. La recta continua es la de ajuste. Las rectas discontinuas, de pendiente máxima y mínima, pasan por los extremos de las barras de error del primer y del último punto.\n\n![Gráfica de la fuerza de rozamiento, en N, frente a la fuerza normal, en N, con cinco puntos entre 2 y 10 N. Los puntos llevan barras de error verticales. Hay una recta de ajuste continua y dos rectas discontinuas, de pendiente máxima y mínima.](qbimg:4259782da1097e499a06307dc52119bfe975a493964105b1bf04bae4624e80ae)",
+  "images": [
+    {
+      "hash": "4259782da1097e499a06307dc52119bfe975a493964105b1bf04bae4624e80ae",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 22468,
+      "alt": "Gráfica de la fuerza de rozamiento, en N, frente a la fuerza normal, en N, con cinco puntos entre 2 y 10 N. Los puntos llevan barras de error verticales. Hay una recta de ajuste continua y dos rectas discontinuas, de pendiente máxima y mínima."
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "b6748547-3168-5ee0-bf68-69344d13836f",
+    "b8e449b1-dfe4-45be-b3af-be4d258be407"
+  ],
+  "tags": [
+    "datos",
+    "gráficas",
+    "incertidumbres",
+    "rozamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T07:22:13.000Z",
+  "updatedAt": "2026-11-10T07:22:13.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica qué magnitud física representa la pendiente de la recta.",
+      "modelAnswer": "El coeficiente de rozamiento dinámico entre el bloque y el tablero, porque $F_r = \\mu_d N$.",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Determina la pendiente de la recta de ajuste.",
+      "modelAnswer": "Con los puntos $(0;\\,0)$ y $(10;\\,3{,}0)$ de la recta: (1) $\\mu_d = \\dfrac{3{,}0 - 0}{10 - 0} = 0{,}30$, sin unidades. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Determina la incertidumbre absoluta de la pendiente.",
+      "modelAnswer": "Pendiente máxima: $\\dfrac{3{,}25 - (-0{,}25)}{10} = 0{,}35$. Pendiente mínima: $\\dfrac{2{,}85 - 0{,}35}{10} = 0{,}25$. (1) $\\Delta\\mu_d = \\dfrac{0{,}35 - 0{,}25}{2} = 0{,}05$, luego $\\mu_d = 0{,}30 \\pm 0{,}05$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Razona si los datos apoyan que la fuerza de rozamiento es directamente proporcional a la fuerza normal.",
+      "modelAnswer": "Sí. Se puede trazar una recta que pasa por todas las barras de error. (1) Además, las rectas extremas cortan el eje vertical en $-0{,}25\\,\\text{N}$ y en $0{,}35\\,\\text{N}$: el origen queda dentro de ese intervalo, así que la recta puede pasar por él. (1)",
+      "marks": 2
+    }
+  ]
+}
