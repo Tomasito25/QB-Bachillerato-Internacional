@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "c50fdb03-5e09-415f-a2c3-07e51984ae80",
+  "rev": 1,
+  "statement": "Una partícula realiza un movimiento armónico simple con una frecuencia de $0.05 Hz$. La distancia recorrida por la partícula en una oscilación completa es $16 cm$. ¿Cuál de los siguientes gráficos muestra una variación correcta de su posición?",
+  "explanation": "![figura](qbimg:94cb7f9fcc1e3a9d725ce951da14f67628c46c1b40e24585c84251c5fd061711)",
+  "images": [
+    {
+      "hash": "d56e84c79875372def0b38fa929cfc90c2398785d03f2f9d3b5ce78a8db04cb1",
+      "ext": "webp",
+      "width": 378,
+      "height": 238,
+      "bytes": 7256,
+      "alt": ""
+    },
+    {
+      "hash": "ad3231f23a66d22becaf9575a880e37d6a054a4c0244f42a46e62b90a93da3a9",
+      "ext": "webp",
+      "width": 380,
+      "height": 235,
+      "bytes": 8058,
+      "alt": ""
+    },
+    {
+      "hash": "131bbf957f09e9be0519a145084c328546d419c9564230fa7644a748dc935cc8",
+      "ext": "webp",
+      "width": 391,
+      "height": 239,
+      "bytes": 8072,
+      "alt": ""
+    },
+    {
+      "hash": "40f3dac9c60ff514c48f7291f65e5fbdca21c0e4b00707695c1ab1c3136e883b",
+      "ext": "webp",
+      "width": 398,
+      "height": 244,
+      "bytes": 5030,
+      "alt": ""
+    },
+    {
+      "hash": "94cb7f9fcc1e3a9d725ce951da14f67628c46c1b40e24585c84251c5fd061711",
+      "ext": "webp",
+      "width": 1252,
+      "height": 105,
+      "bytes": 11064,
+      "alt": ""
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "7d8e6e1c-3d53-4f49-9e10-aad9c782b501"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-10T09:36:18.000Z",
+  "updatedAt": "2026-11-10T09:36:18.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "![figura](qbimg:d56e84c79875372def0b38fa929cfc90c2398785d03f2f9d3b5ce78a8db04cb1)",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "![figura](qbimg:ad3231f23a66d22becaf9575a880e37d6a054a4c0244f42a46e62b90a93da3a9)",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "![figura](qbimg:131bbf957f09e9be0519a145084c328546d419c9564230fa7644a748dc935cc8)",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "![figura](qbimg:40f3dac9c60ff514c48f7291f65e5fbdca21c0e4b00707695c1ab1c3136e883b)",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
