@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "cf4b15e3-e800-4c33-ad1e-e6ab1e2af3bb",
+  "rev": 1,
+  "statement": "Se conecta una batería de f. e. m. 12 V y resistencia interna despreciable a dos resistores y\na un termistor, como se muestra.\n\n\n![figura](qbimg:5a49193bd86f659f45c991e6422fc43ceb7b27a864f183a4a8df50f329f0e9be)",
+  "images": [
+    {
+      "hash": "5a49193bd86f659f45c991e6422fc43ceb7b27a864f183a4a8df50f329f0e9be",
+      "ext": "webp",
+      "width": 455,
+      "height": 446,
+      "bytes": 5576,
+      "alt": ""
+    },
+    {
+      "hash": "f8028b49dbacd2e8ef7306ef9a7f36918ac1ec84cdbe1a637110a952c0255f4a",
+      "ext": "webp",
+      "width": 683,
+      "height": 208,
+      "bytes": 8026,
+      "alt": ""
+    },
+    {
+      "hash": "c10345e6176d6cd6d16c9d57726bd116b6e9230c406f83c6d2168ce92670538c",
+      "ext": "webp",
+      "width": 1051,
+      "height": 543,
+      "bytes": 26240,
+      "alt": ""
+    },
+    {
+      "hash": "dec1720d38d5fadeba5d7c393550943fe79d31d9f72b0c6ea9696e655052bf11",
+      "ext": "webp",
+      "width": 481,
+      "height": 115,
+      "bytes": 7484,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "4f426f02-0601-5a02-8512-d36a958edf7d"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-11T12:25:17.000Z",
+  "updatedAt": "2026-11-11T12:25:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "A una temperatura concreta, la lectura del voltímetro es 3,0 V.",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Muestre que, a esta temperatura, la corriente en la batería será de 50 mA.",
+          "modelAnswer": "![figura](qbimg:f8028b49dbacd2e8ef7306ef9a7f36918ac1ec84cdbe1a637110a952c0255f4a)"
+        },
+        {
+          "id": "b",
+          "statement": "Calcule la resistencia del termistor.",
+          "modelAnswer": "![figura](qbimg:c10345e6176d6cd6d16c9d57726bd116b6e9230c406f83c6d2168ce92670538c)"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "statement": "La resistencia del termistor disminuye cuando la temperatura aumenta. Indique y\nexplique qué ocurrirá a la lectura del voltímetro al aumentar la temperatura.\b",
+      "modelAnswer": "![figura](qbimg:dec1720d38d5fadeba5d7c393550943fe79d31d9f72b0c6ea9696e655052bf11)"
+    }
+  ]
+}
