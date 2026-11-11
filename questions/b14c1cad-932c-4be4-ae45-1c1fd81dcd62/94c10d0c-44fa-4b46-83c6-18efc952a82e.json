@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "94c10d0c-44fa-4b46-83c6-18efc952a82e",
+  "rev": 1,
+  "statement": "-",
+  "images": [
+    {
+      "hash": "1658b012d72fa8c7ff0c0a9d8e7d7ccdba79d1f2c22e699ba41bee3d38b283d8",
+      "ext": "webp",
+      "width": 306,
+      "height": 50,
+      "bytes": 2298,
+      "alt": ""
+    },
+    {
+      "hash": "d554b7ddc4a908804fc9a8e3e0ccba73d9f11978f35b403b8858968899c9a904",
+      "ext": "webp",
+      "width": 713,
+      "height": 66,
+      "bytes": 4936,
+      "alt": ""
+    },
+    {
+      "hash": "61cc2cc8ce0d5482c98257e9edb0a305017ec9a447e55d2935855a9c80a6124c",
+      "ext": "webp",
+      "width": 756,
+      "height": 90,
+      "bytes": 10116,
+      "alt": ""
+    },
+    {
+      "hash": "1972a9e4b33b8af0eae88092d0a9f166382e8b757f65d39195ef3bbb1e59ef0e",
+      "ext": "webp",
+      "width": 756,
+      "height": 113,
+      "bytes": 8852,
+      "alt": ""
+    },
+    {
+      "hash": "5c32f72a5a960d8e025c4c6a5612637c0741233d1afc9293b5141bef89253074",
+      "ext": "webp",
+      "width": 1133,
+      "height": 136,
+      "bytes": 17912,
+      "alt": ""
+    },
+    {
+      "hash": "e90c7b27d89ec181c33490cb3ef4fbcf6a2bfbb5b723d9afa8cbe2769a5092b8",
+      "ext": "webp",
+      "width": 1148,
+      "height": 191,
+      "bytes": 21388,
+      "alt": ""
+    },
+    {
+      "hash": "182e9585040c449d072db47d49f838227ba98d3d7ca8a067445bc95cc69508de",
+      "ext": "webp",
+      "width": 881,
+      "height": 110,
+      "bytes": 10930,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "01ac8135-642b-5b3c-8138-5c9c57a2afb1",
+    "2da2fe0e-743f-5d38-81d7-c319e6711c96",
+    "91f60b07-f5c5-5049-8c46-4bb347d63c02",
+    "ddcb3fae-96f8-5c9f-8194-065c1a9cdc11"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-11T12:23:32.000Z",
+  "updatedAt": "2026-11-11T12:23:32.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Indique el principal elemento producido en las reacciones de fusión en las\nestrellas de la secuencia principal.",
+          "modelAnswer": "Helio"
+        },
+        {
+          "id": "b",
+          "statement": "Describa cómo mantienen el equilibrio las estrellas de la secuencia principal",
+          "modelAnswer": "![figura](qbimg:61cc2cc8ce0d5482c98257e9edb0a305017ec9a447e55d2935855a9c80a6124c)"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "statement": "La masa de la estrella Lambda Cephei (λ Cephei) equivale a 50 masas solares.\nUna reacción de fusión nuclear que se da en λ Cephei es:\n\n\n![figura](qbimg:1658b012d72fa8c7ff0c0a9d8e7d7ccdba79d1f2c22e699ba41bee3d38b283d8)",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Se dispone de los siguientes datos para las masas atómicas:\n\n![figura](qbimg:d554b7ddc4a908804fc9a8e3e0ccba73d9f11978f35b403b8858968899c9a904)\n\nCalcule, en MeV, la energía liberada en esta reacción.",
+          "modelAnswer": "![figura](qbimg:1972a9e4b33b8af0eae88092d0a9f166382e8b757f65d39195ef3bbb1e59ef0e)"
+        },
+        {
+          "id": "b",
+          "statement": "Explique por qué esta reacción solo puede ocurrir en estrellas muy masivas",
+          "modelAnswer": "![figura](qbimg:5c32f72a5a960d8e025c4c6a5612637c0741233d1afc9293b5141bef89253074)"
+        },
+        {
+          "id": "c",
+          "statement": "Sugiera por qué las reacciones nucleares de fusión no producen elementos más\npesados que el hierro.",
+          "modelAnswer": "![figura](qbimg:e90c7b27d89ec181c33490cb3ef4fbcf6a2bfbb5b723d9afa8cbe2769a5092b8)"
+        },
+        {
+          "id": "d",
+          "statement": "Resuma la evolución probable de λ Cephei",
+          "modelAnswer": "![figura](qbimg:182e9585040c449d072db47d49f838227ba98d3d7ca8a067445bc95cc69508de)"
+        }
+      ]
+    }
+  ]
+}
