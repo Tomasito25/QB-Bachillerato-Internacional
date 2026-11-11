@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "3354158a-cbaf-45ca-ba2d-7d315a272308",
+  "rev": 1,
+  "statement": "Dos placas paralelas horizontales con una longitud de 16 cm se encuentran separadas\n3,0 cm en el vacío. La diferencia de potencial entre las placas es de 14 V. Un protón penetra\nen la región a mitad de camino entre las placas con una velocidad inicial horizontal de\n2,0 × 105 m s⁻¹, tal como se muestra. Las fuerzas gravitatorias y los efectos de borde son\ndespreciables.\n\n\n![figura](qbimg:1bca02090117a1b61ca7cfbf4a788c9a9e6ddaf83e1efb77bd406a8b3cb7571e)",
+  "images": [
+    {
+      "hash": "1bca02090117a1b61ca7cfbf4a788c9a9e6ddaf83e1efb77bd406a8b3cb7571e",
+      "ext": "webp",
+      "width": 978,
+      "height": 301,
+      "bytes": 6440,
+      "alt": ""
+    },
+    {
+      "hash": "28060bfd850019cea2f2a7be497be32d1b5a0e7a28942252fbbfa5492e0890ae",
+      "ext": "webp",
+      "width": 343,
+      "height": 137,
+      "bytes": 3540,
+      "alt": ""
+    },
+    {
+      "hash": "08ceddfef3f966fca36ded2eaed8724171e4ecec708c5ee6ec08858b170c20af",
+      "ext": "webp",
+      "width": 507,
+      "height": 133,
+      "bytes": 6816,
+      "alt": ""
+    },
+    {
+      "hash": "defba2106001e81627466698e05a597d0eb226718e9f14317b8d19de0732c1ee",
+      "ext": "webp",
+      "width": 530,
+      "height": 620,
+      "bytes": 31692,
+      "alt": ""
+    },
+    {
+      "hash": "b73f6a459bbbf2121d0d8f66efb0b8a887bf26302c5574cebf894fb28c60e56b",
+      "ext": "webp",
+      "width": 671,
+      "height": 112,
+      "bytes": 6758,
+      "alt": ""
+    },
+    {
+      "hash": "a643b90b48ec501c865c7ae3dfb4fb94573e6193084b5d4e011fb45e93156b42",
+      "ext": "webp",
+      "width": 408,
+      "height": 108,
+      "bytes": 5134,
+      "alt": ""
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "b14c1cad-932c-4be4-ae45-1c1fd81dcd62",
+  "topicIds": [
+    "51318236-c420-5c4e-85b6-78c85928b753",
+    "8ed1bd7d-7f3e-5710-892c-35f4f682945e",
+    "01ac8135-642b-5b3c-8138-5c9c57a2afb1"
+  ],
+  "tags": [],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-11T12:20:53.000Z",
+  "updatedAt": "2026-11-11T12:20:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Calcule la magnitud de la intensidad del campo eléctrico entre las placas,\nincluyendo su unidad.",
+          "modelAnswer": "![figura](qbimg:28060bfd850019cea2f2a7be497be32d1b5a0e7a28942252fbbfa5492e0890ae)",
+          "marks": 2
+        },
+        {
+          "id": "b",
+          "statement": "Muestre que la aceleración del protón está en torno a 4,5 × 10¹⁰ m s⁻²",
+          "modelAnswer": "![figura](qbimg:08ceddfef3f966fca36ded2eaed8724171e4ecec708c5ee6ec08858b170c20af)",
+          "marks": 2
+        },
+        {
+          "id": "c",
+          "statement": "Determine si el protón colisionará con la placa inferior.",
+          "modelAnswer": "![figura](qbimg:defba2106001e81627466698e05a597d0eb226718e9f14317b8d19de0732c1ee)",
+          "marks": 3
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "statement": "Una partícula alfa penetra en el campo en el mismo punto y con la misma velocidad\ninicial que el protón.",
+      "modelAnswer": "",
+      "subparts": [
+        {
+          "id": "a",
+          "statement": "Indique y explique si la partícula alfa colisionará con la placa inferior.",
+          "modelAnswer": "![figura](qbimg:b73f6a459bbbf2121d0d8f66efb0b8a887bf26302c5574cebf894fb28c60e56b)"
+        },
+        {
+          "id": "b",
+          "statement": "Se establece un campo magnético entre las placas de modo que la partícula\nalfa no es desviada. Determine la magnitud dirección y sentido del campo\nmagnético.",
+          "modelAnswer": "![figura](qbimg:a643b90b48ec501c865c7ae3dfb4fb94573e6193084b5d4e011fb45e93156b42)"
+        }
+      ]
+    }
+  ]
+}
