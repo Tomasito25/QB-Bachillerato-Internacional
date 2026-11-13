@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "9537fa75-90bd-5607-8482-18b4c1ede138",
+  "rev": 1,
+  "statement": "¿Qué especie es la más grande?",
+  "explanation": "Cl⁻, Ar y K⁺ tienen 18 electrones, pero el Cl⁻ tiene la menor carga nuclear (17 protones). El Cl⁻ es mayor que el átomo de cloro porque tiene un electrón más que repele a los demás.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "radio iónico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ar",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "K⁺",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cl",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cl⁻",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

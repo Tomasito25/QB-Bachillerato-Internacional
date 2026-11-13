@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "97bee05b-4afc-511e-851d-20c15437966c",
+  "rev": 1,
+  "statement": "Los átomos de los grupos 1, 2, 16 y 17 forman iones con configuraciones de gas noble.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "iones",
+    "configuraciones",
+    "tabla periódica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la configuración electrónica del ion óxido, O²⁻, y la del ion magnesio, Mg²⁺.",
+      "modelAnswer": "Los dos: $1s^2\\,2s^2\\,2p^6$. (2)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué estos dos iones tienen distinto tamaño aunque tengan la misma configuración.",
+      "modelAnswer": "El magnesio tiene 12 protones y el oxígeno, 8. (1) La mayor carga nuclear del Mg²⁺ atrae más a los mismos electrones, y el ion es más pequeño. (1)",
+      "marks": 2
+    }
+  ]
+}

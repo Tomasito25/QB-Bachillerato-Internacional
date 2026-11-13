@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "993e3c57-96a8-5144-9168-18923daf2a7a",
+  "rev": 1,
+  "statement": "La tabla muestra el punto de fusión y la carga del ion de tres metales del periodo 3.\n\n| Metal | Ion | Radio iónico / pm | Punto de fusión / °C |\n|---|---|---|---|\n| Sodio | Na⁺ | 102 | 98 |\n| Magnesio | Mg²⁺ | 72 | 650 |\n| Aluminio | Al³⁺ | 54 | 660 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "puntos de fusión",
+    "enlace metálico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la relación entre la carga del ion y el punto de fusión.",
+      "modelAnswer": "El punto de fusión aumenta con la carga del ion, (1) mucho de sodio a magnesio y muy poco de magnesio a aluminio. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica la diferencia entre el sodio y el magnesio.",
+      "modelAnswer": "El Mg²⁺ tiene más carga y menor radio que el Na⁺, y cada átomo aporta dos electrones deslocalizados. (1) La atracción entre los cationes y los electrones es mayor y hace falta más energía para fundir el metal. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere por qué el punto de fusión del aluminio no es mucho mayor que el del magnesio, aunque su ion tiene más carga.",
+      "modelAnswer": "El punto de fusión también depende de la estructura del cristal, y fundir no exige romper por completo el enlace metálico. (1)",
+      "marks": 1
+    }
+  ]
+}

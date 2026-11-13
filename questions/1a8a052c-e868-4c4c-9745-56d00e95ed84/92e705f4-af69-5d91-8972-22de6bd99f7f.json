@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "92e705f4-af69-5d91-8972-22de6bd99f7f",
+  "rev": 1,
+  "statement": "¿Qué pareja son isómeros de grupo funcional?",
+  "explanation": "Ambos son C₃H₆O: uno es un aldehído y el otro una cetona. Etanol (C₂H₆O) y etanal (C₂H₄O) no tienen la misma fórmula.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "isómeros de grupo funcional"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Etanol y etanal",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Butano y metilpropano",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Propan-1-ol y propan-2-ol",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Propanal y propanona",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

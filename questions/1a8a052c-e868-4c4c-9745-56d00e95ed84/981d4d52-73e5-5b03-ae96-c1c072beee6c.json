@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "981d4d52-73e5-5b03-ae96-c1c072beee6c",
+  "rev": 1,
+  "statement": "El hidrogenocarbonato de sodio se descompone al calentarlo: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g).",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "ecuaciones",
+    "cálculos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la pérdida de masa esperada al calentar $8{,}40\\,\\text{g}$ de NaHCO₃ hasta descomposición completa.",
+      "modelAnswer": "$n = \\dfrac{8{,}40}{84{,}01} = 0{,}100\\,\\text{mol}$. (1) Se forman $0{,}0500\\,\\text{mol}$ de Na₂CO₃, es decir, $5{,}30\\,\\text{g}$, (1) así que la pérdida es $8{,}40 - 5{,}30 = 3{,}10\\,\\text{g}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica cómo se podría comprobar en el laboratorio que la descomposición es completa.",
+      "modelAnswer": "Calentando y pesando varias veces hasta que la masa no cambie (masa constante). (1)",
+      "marks": 1
+    }
+  ]
+}

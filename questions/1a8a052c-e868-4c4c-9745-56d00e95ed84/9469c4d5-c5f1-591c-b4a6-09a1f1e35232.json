@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9469c4d5-c5f1-591c-b4a6-09a1f1e35232",
+  "rev": 1,
+  "statement": "¿Qué masa tienen $0{,}0500\\,\\text{mol}$ de carbonato de calcio, CaCO₃?",
+  "explanation": "$m = nM = 0{,}0500 \\times 100{,}09 = 5{,}00\\,\\text{g}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "masa",
+    "cantidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$50{,}0\\,\\text{g}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$5{,}00\\,\\text{g}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$2{,}00\\,\\text{g}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$0{,}500\\,\\text{g}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

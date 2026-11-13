@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "90ef241a-84eb-5236-b8fb-86119a4a399d",
+  "rev": 1,
+  "statement": "Se añadió ácido clorhídrico en exceso a unos trozos de mármol y se midió el volumen de dióxido de carbono desprendido. La línea discontinua es la tangente a la curva en el origen.\n\nCaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)\n\n![Volumen de dióxido de carbono desprendido frente al tiempo al añadir ácido clorhídrico a trozos de mármol](qbimg:0003a792e9d3bcf24cd7b218b56d1e797643ea02f05d76eaf523ab41e00f89dd)",
+  "images": [
+    {
+      "hash": "0003a792e9d3bcf24cd7b218b56d1e797643ea02f05d76eaf523ab41e00f89dd",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 25783,
+      "alt": "Volumen de dióxido de carbono desprendido frente al tiempo al añadir ácido clorhídrico a trozos de mármol"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39",
+    "61f5bc65-5ff6-5252-9326-468fc937c57e"
+  ],
+  "tags": [
+    "datos",
+    "velocidad inicial",
+    "tangente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad inicial de la reacción con la tangente.",
+      "modelAnswer": "Pendiente: $\\dfrac{60}{50} = 1{,}2\\,\\text{cm}^3\\,\\text{s}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la velocidad media durante los primeros $100\\,\\text{s}$.",
+      "modelAnswer": "$\\dfrac{51{,}9}{100} = 0{,}52\\,\\text{cm}^3\\,\\text{s}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la velocidad disminuye con el tiempo.",
+      "modelAnswer": "El carbonato de calcio se consume y disminuye la superficie de mármol que queda. (1) Hay menos choques por segundo entre el ácido y el sólido. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Dibuja o describe la curva que se obtendría con la misma masa de mármol en polvo.",
+      "modelAnswer": "Con más pendiente al principio (más superficie), (1) que llega antes al mismo volumen final, porque la cantidad de carbonato es la misma. (1)",
+      "marks": 2
+    }
+  ]
+}
