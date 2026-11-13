@@ -75,6 +75,14 @@ jobs:
           mkdir -p .data
           npm run community:build -- --data .data --out dist/community
 
+      # El CDN de Pages sigue sirviendo el manifiesto anterior hasta 10 minutos tras desplegar.
+      # Si esta versión borrara los fragmentos que cita, esos clientes verían un 404 al sincronizar.
+      - name: Conservar los fragmentos de la versión publicada
+        continue-on-error: true
+        env:
+          SITE: ${{ steps.pages.outputs.base_url }}
+        run: npx tsx tools/keep-previous-shards.ts --site "$SITE" --out dist/community
+
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: dist

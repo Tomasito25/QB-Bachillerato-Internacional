@@ -174,6 +174,10 @@ sequenceDiagram
 - **Atómica:** el fragmento se aplica en una transacción y su hash se guarda en la misma;
   un corte de red nunca deja un estado a medias.
 - **Tolerante:** un documento inválido se descarta y se registra; no rompe el resto.
+- **Sin huecos entre versiones:** el CDN sirve el manifiesto anterior hasta 10 minutos después de
+  desplegar. Por eso el despliegue copia en la versión nueva los fragmentos de la publicada
+  (`tools/keep-previous-shards.ts`, comprobados contra su hash): quien recibe el manifiesto viejo
+  no encuentra ficheros borrados.
 - **Frecuencia:** al arrancar, al recuperar la conexión, al volver a la app y cada 10 minutos
   con ella a la vista. Durante 15 minutos tras un envío, cada minuto: leer de Pages no gasta
   cuota de la API, y así lo aceptado aparece en cuanto se publica. En ese rato también se pregunta
