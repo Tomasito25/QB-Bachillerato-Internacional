@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "365ab738-62ef-5985-87d7-711a530900ca",
+  "rev": 1,
+  "statement": "¿Entre qué átomos se forma un puente de hidrógeno entre dos moléculas de agua?",
+  "explanation": "El puente de hidrógeno es una atracción intermolecular entre un H con carga parcial positiva y el O con carga parcial negativa de otra molécula. El enlace O–H dentro de la molécula es covalente.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "puentes de hidrógeno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Entre los dos átomos de hidrógeno de una misma molécula.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Entre el hidrógeno, con carga parcial positiva, de una molécula y el oxígeno, con carga parcial negativa, de otra.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Entre el oxígeno y el hidrógeno de una misma molécula, al compartir un par de electrones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Entre el oxígeno de una molécula y el oxígeno de otra.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

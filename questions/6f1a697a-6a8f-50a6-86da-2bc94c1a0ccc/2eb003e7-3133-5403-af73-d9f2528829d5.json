@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2eb003e7-3133-5403-af73-d9f2528829d5",
+  "rev": 1,
+  "statement": "¿Qué determina el sexo de un bebé en la especie humana?",
+  "explanation": "Todos los óvulos llevan un X; la mitad de los espermatozoides llevan X y la otra mitad Y.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "determinación del sexo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El cromosoma sexual del óvulo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El cromosoma sexual del espermatozoide: X da una niña e Y da un niño.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El número de cromosomas autosómicos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La temperatura durante el embarazo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

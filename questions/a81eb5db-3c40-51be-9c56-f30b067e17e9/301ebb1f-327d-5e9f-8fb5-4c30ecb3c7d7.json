@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "301ebb1f-327d-5e9f-8fb5-4c30ecb3c7d7",
+  "rev": 1,
+  "statement": "Sala de espera tres, la de las sillas naranjas, las sillas naranjas son de las que no se puede uno recostar, se nota que alguien las ha diseñado para que nadie se duerma aquí, para que nadie se ponga cómodo esperando una noticia, y la máquina de café que lleva una semana estropeada con el cartel escrito a mano, «averiado», con dos erres, alguien lo ha corregido con un bolígrafo azul, qué gente, corregir faltas aquí, aunque bueno, yo también me he fijado.\n\nCuarenta minutos. Dijeron que sería una hora, como mucho una hora y media, que es una intervención sencilla, eso dijeron, sencilla, y la doctora tenía las uñas pintadas de un color que se llama algo, coral, creo, y me pareció bien, me pareció una buena señal que tuviera tiempo de pintarse las uñas, una persona que tiene tiempo de pintarse las uñas no está desbordada, no se equivoca.\n\nMamá decía que en los hospitales siempre hace frío para que no se pudran las cosas. Mamá decía muchas cosas que no eran verdad y que eran verdad a la vez. Tengo que llamar a Andrés. No, no tengo que llamar a Andrés hasta que sepa algo, si le llamo ahora me va a preguntar y no sé qué decirle, y él se pone nervioso por teléfono, se le nota en que habla más deprisa y dice cariño cada dos frases.\n\nSe abre la puerta. No es la doctora. Es un celador con una silla de ruedas vacía. Vacía. Por qué lleva una silla vacía. Las sillas vacías se llevan a buscar a alguien, no se llevan de vuelta. Eso es una buena señal. Creo que es una buena señal.\n\nCuarenta y un minutos.\n\n---\n\n**Pregunta guía:** ¿Cómo se expresa la ansiedad de la narradora a través del estilo del texto?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "monólogo interior",
+    "hospital",
+    "espera"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Monólogo interior de una mujer que espera en un hospital el resultado de la operación de un ser querido. El texto reproduce el fluir de su pensamiento, que salta de un detalle a otro para no pensar en lo que de verdad le preocupa.\n\n**Aspectos que conviene analizar**\n- La técnica del monólogo interior: frases largas, enlazadas por comas, sin orden lógico, que imitan el pensamiento.\n- La fijación en detalles triviales (las sillas naranjas, el cartel corregido, las uñas de la doctora) como forma de evitar la angustia.\n- La interpretación obsesiva de señales: las uñas pintadas o la silla de ruedas vacía como presagios buenos o malos.\n- Los recuerdos de la madre y la paradoja «cosas que no eran verdad y que eran verdad a la vez».\n- La duda sobre llamar a Andrés, con autocorrecciones («No, no tengo que…») que muestran la inseguridad.\n- El tiempo: el paso de «Cuarenta minutos» a «Cuarenta y un minutos» al final, que muestra lo lento que transcurre para ella.\n\n**Una estructura posible.** Analizar cómo cada párrafo gira en torno a un objeto o pensamiento distinto y cómo la ansiedad crece hasta el momento de la puerta.\n\n**Cuidado con…** contar lo que ocurre (casi nada ocurre). La pregunta pide analizar cómo el estilo expresa el estado de la narradora.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "2d94871d-be3d-527b-a795-b00d1d9aa852",
+  "rev": 1,
+  "statement": "Las disoluciones isotónicas tienen varias aplicaciones médicas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "isotónicas",
+    "medicina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué podría ocurrir si a un paciente se le inyectara agua destilada en la sangre.",
+      "modelAnswer": "El plasma se volvería hipotónico. (1) Entraría agua en los glóbulos rojos, que se hincharían y podrían estallar. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica otra aplicación médica de las disoluciones isotónicas.",
+      "modelAnswer": "Conservar órganos para trasplantes; lavar heridas o los ojos; las lentes de contacto. (1)",
+      "marks": 1
+    }
+  ]
+}

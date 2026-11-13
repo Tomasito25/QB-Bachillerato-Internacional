@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2fb26750-f863-5559-9980-16032caab5c6",
+  "rev": 1,
+  "statement": "¿Qué función tienen las neuronas?",
+  "explanation": "Las neuronas conducen impulsos nerviosos por sus fibras y los transmiten a otras células en las sinapsis.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "neuronas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Transportar oxígeno por la sangre.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Producir hormonas que viajan por la sangre.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Defender al organismo frente a los patógenos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Transmitir señales eléctricas rápidas de una parte del cuerpo a otra.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "345e5765-3dd9-561f-94c0-4808b3ec0b67",
+  "rev": 1,
+  "statement": "La gráfica muestra la cantidad de ADN por célula a lo largo de la interfase y de una meiosis.\n\n![Contenido relativo de ADN de una célula a lo largo de la interfase y la meiosis](qbimg:2ef964f6a44c434c6c3c07dbd3cba4ac82476573b640e5d79e29c6615d376d05)",
+  "images": [
+    {
+      "hash": "2ef964f6a44c434c6c3c07dbd3cba4ac82476573b640e5d79e29c6615d376d05",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 17052,
+      "alt": "Contenido relativo de ADN de una célula a lo largo de la interfase y la meiosis"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "meiosis",
+    "contenido de ADN"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica qué proceso ocurre entre P y Q.",
+      "modelAnswer": "La replicación del ADN (en la interfase). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica la caída del contenido de ADN entre Q y R.",
+      "modelAnswer": "En la meiosis I se separan los cromosomas homólogos, cada uno con sus dos cromátidas, (1) y se reparten entre dos células. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué en S cada célula tiene la mitad de ADN que en P.",
+      "modelAnswer": "En la meiosis II se separan las cromátidas hermanas. (1) Las células resultantes son haploides: tienen un juego de cromosomas, la mitad que la célula de partida. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Dibuja o describe cómo sería la gráfica en una mitosis.",
+      "modelAnswer": "Subiría de 2 a 4 en la replicación y bajaría una sola vez, de 4 a 2, al final de la división. (1)",
+      "marks": 1
+    }
+  ]
+}

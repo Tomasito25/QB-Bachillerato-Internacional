@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "321c15ef-0a42-5a3d-8c5e-dc862db79d27",
+  "rev": 1,
+  "statement": "**Compare la función de los epígrafes, las citas o las referencias a otros textos en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "287a6baa-b9c7-5f7d-93ed-adcd75ebb7bc"
+  ],
+  "tags": [
+    "epígrafes",
+    "citas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar los textos ajenos que aparecen en las obras (epígrafes, citas, títulos prestados) y su función: orientar la lectura, crear ironía, situar la obra en una tradición. **Obras adecuadas.** Obras con epígrafes o con referencias explícitas a otros textos. **Esquema posible.** Referencias presentes en cada obra; su relación con el contenido; efecto en la interpretación; comparación. **Cuidado con…** dar por sabido que el lector conoce las referencias. Explica lo necesario.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "38673b88-5ce8-57ff-8295-3fe079490752",
+  "rev": 1,
+  "statement": "¿Dónde se encuentra un nicho de células madre en una persona adulta?",
+  "explanation": "Los nichos son lugares que mantienen a las células madre y regulan su división. Otros ejemplos son los folículos pilosos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "nichos de células madre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En la médula ósea roja, donde se forman las células de la sangre.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "En los eritrocitos maduros.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "En las neuronas de la corteza cerebral.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En el esmalte de los dientes.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

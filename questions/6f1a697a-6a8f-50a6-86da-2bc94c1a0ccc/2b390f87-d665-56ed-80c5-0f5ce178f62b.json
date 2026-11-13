@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2b390f87-d665-56ed-80c5-0f5ce178f62b",
+  "rev": 1,
+  "statement": "¿Qué relación hay entre las mutaciones y el cáncer?",
+  "explanation": "Suelen hacer falta varias mutaciones acumuladas en la misma célula para que se forme un tumor.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "cáncer",
+    "mutaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El cáncer no tiene relación con el ADN.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El cáncer se debe siempre a una única mutación heredada.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las mutaciones en genes que controlan el ciclo celular pueden provocar una división celular descontrolada.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Las mutaciones impiden que las células se dividan, y eso causa el cáncer.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

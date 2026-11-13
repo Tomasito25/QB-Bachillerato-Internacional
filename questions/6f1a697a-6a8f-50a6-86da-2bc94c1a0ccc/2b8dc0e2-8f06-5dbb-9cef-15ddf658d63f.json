@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2b8dc0e2-8f06-5dbb-9cef-15ddf658d63f",
+  "rev": 1,
+  "statement": "El brazo humano, el ala del murciélago y la aleta de la ballena tienen el mismo patrón de huesos, pero funciones distintas. ¿Cómo se llaman estas estructuras?",
+  "explanation": "Son homólogas: comparten un plan pentadáctilo heredado de un antepasado común y se han adaptado a funciones diferentes.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "estructuras homólogas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Vestigiales",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Convergentes",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Homólogas",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Análogas",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

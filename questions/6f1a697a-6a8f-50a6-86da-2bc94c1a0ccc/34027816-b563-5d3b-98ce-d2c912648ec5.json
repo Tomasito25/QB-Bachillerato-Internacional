@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "34027816-b563-5d3b-98ce-d2c912648ec5",
+  "rev": 1,
+  "statement": "¿Por qué se teme que la deforestación de la Amazonía alcance un punto de inflexión?",
+  "explanation": "La selva genera buena parte de su propia lluvia. Con menos árboles, llueve menos y el bosque restante se seca.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "punto de inflexión",
+    "Amazonía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque los árboles talados vuelven a crecer en pocos meses.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque la selva crecería tan deprisa que invadiría las ciudades.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque, por debajo de cierta cubierta forestal, se reciclaría tan poca agua por transpiración que la selva podría convertirse en sabana de forma difícil de revertir.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque la deforestación aumentaría las lluvias de forma indefinida.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "31aa83d3-766f-56d5-bc04-dac1d0a6f50a",
+  "rev": 1,
+  "statement": "La PCR permite obtener millones de copias de un fragmento de ADN en pocas horas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "PCR"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe las tres fases de un ciclo de PCR.",
+      "modelAnswer": "Desnaturalización: a unos $95\\,°\\text{C}$ se separan las cadenas. (1) Hibridación: a unos $55\\,°\\text{C}$ los cebadores se unen a sus secuencias complementarias. (1) Extensión: a unos $72\\,°\\text{C}$ la ADN polimerasa añade nucleótidos a partir de los cebadores. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué se usa una ADN polimerasa de una bacteria termófila.",
+      "modelAnswer": "Resiste los $95\\,°\\text{C}$ de cada ciclo sin desnaturalizarse, (1) así que no hay que añadir enzima nueva en cada ciclo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el número de copias que se obtienen a partir de una sola molécula tras 20 ciclos.",
+      "modelAnswer": "$2^{20} = 1\\,048\\,576$, unos $1{,}0\\times 10^{6}$ copias. (1)",
+      "marks": 1
+    }
+  ]
+}

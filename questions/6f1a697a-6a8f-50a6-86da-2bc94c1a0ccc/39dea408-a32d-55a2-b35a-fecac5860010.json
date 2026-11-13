@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "39dea408-a32d-55a2-b35a-fecac5860010",
+  "rev": 1,
+  "statement": "En la costa del Pacífico norte, las nutrias marinas comen erizos de mar, que a su vez comen las grandes algas de los bosques de laminarias.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "especies clave",
+    "estabilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué la nutria marina es una especie clave.",
+      "modelAnswer": "Controla la población de erizos de mar. (1) Sin nutrias, los erizos se multiplican y destruyen los bosques de algas, que son el hábitat de muchas otras especies. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la diversidad genética contribuye a la estabilidad de un ecosistema.",
+      "modelAnswer": "Con más variación, es más probable que algunos individuos sobrevivan a cambios, como una enfermedad o un cambio de temperatura. (1) Las poblaciones no desaparecen y el ecosistema mantiene sus funciones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica un ejemplo de renaturalización.",
+      "modelAnswer": "Por ejemplo, la reintroducción de lobos en el parque de Yellowstone, o de castores en ríos europeos. (1)",
+      "marks": 1
+    }
+  ]
+}

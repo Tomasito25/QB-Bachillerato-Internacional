@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "2bd77674-85c9-507e-a380-0548f9cfa18b",
+  "rev": 1,
+  "statement": "**En muchas obras, un espacio cerrado se convierte en reflejo de un conflicto interior. Analice y compare la función de los espacios en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "db673074-0831-5e82-9577-da2dd25922a2"
+  ],
+  "tags": [
+    "espacio",
+    "conflicto interior"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Relacionar el espacio (casa, habitación, pueblo, isla, prisión) con la interioridad de los personajes: opresión, refugio, memoria o deseo de huida. También se puede discutir la premisa si en alguna obra el espacio cerrado tiene otra función.\n\n**Cómo elegir las obras.** En teatro, las acotaciones y la escenografía; en narrativa, las descripciones y los desplazamientos; en poesía, los lugares como imágenes.\n\n**Esquema posible**\n- Introducción: espacio físico y espacio simbólico; tesis comparativa.\n- Desarrollo: cómo se presenta el espacio (descripción, acotación, imagen); cómo cambia a lo largo de la obra; qué revela de los personajes; los momentos de salida o de ruptura.\n- Conclusión: el valor del espacio en la visión de cada obra.\n\n**Cuidado con…** describir lugares sin conectarlos con los personajes ni con las técnicas que los construyen.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
