@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "115b22ae-e786-5f79-95f0-a57cbbe284c2",
+  "rev": 1,
+  "statement": "El estado de oxidación es la carga que tendría un átomo si el compuesto estuviera formado solo por iones.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "estados de oxidación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce el estado de oxidación del nitrógeno en NH₃, en NO₂ y en HNO₃.",
+      "modelAnswer": "−3, (1) +4 (1) y +5. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Deduce el estado de oxidación del cromo en el ion dicromato, Cr₂O₇²⁻.",
+      "modelAnswer": "$2x + 7 \\times (-2) = -2$, así que $x = +6$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el estado de oxidación del oxígeno es −1 en el peróxido de hidrógeno, H₂O₂.",
+      "modelAnswer": "Cada H tiene +1 y la molécula es neutra: los dos oxígenos suman −2, (1) porque están unidos entre sí por un enlace O–O. (1)",
+      "marks": 2
+    }
+  ]
+}

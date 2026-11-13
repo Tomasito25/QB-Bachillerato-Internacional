@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2d9ce132-8e05-5bae-8195-00553e679496",
+  "rev": 1,
+  "statement": "¿Por qué el carbono-12 y el carbono-14 tienen las mismas propiedades químicas?",
+  "explanation": "Las propiedades químicas dependen de los electrones. Las físicas que dependen de la masa, como la densidad o la velocidad de difusión, sí cambian un poco.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "isótopos",
+    "propiedades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque tienen el mismo número de electrones y la misma configuración electrónica.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque tienen el mismo número de neutrones.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los dos son radiactivos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque tienen la misma masa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

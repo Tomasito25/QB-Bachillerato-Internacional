@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "10142f3c-66f6-597f-b1db-5bd9e5e517a0",
+  "rev": 1,
+  "statement": "¿Cuál es la fórmula del sulfato de amonio?",
+  "explanation": "El amonio es NH₄⁺ y el sulfato, SO₄²⁻: se necesitan dos amonios por cada sulfato.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "iones poliatómicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "NH₄SO₄",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "NH₄(SO₄)₂",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "(NH₃)₂SO₄",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "(NH₄)₂SO₄",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

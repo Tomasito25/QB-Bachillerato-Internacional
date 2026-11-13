@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2df8a0f2-1724-515e-9db7-f56b0ba648d0",
+  "rev": 1,
+  "statement": "Dos recipientes iguales, a la misma presión y temperatura, contienen helio y metano. ¿Qué es igual en ambos?",
+  "explanation": "Por la ley de Avogadro, contienen la misma cantidad de gas. El metano tiene más masa por molécula y 5 átomos por molécula.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "ley de Avogadro",
+    "moles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La masa de gas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El número de moléculas.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La densidad del gas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El número de átomos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

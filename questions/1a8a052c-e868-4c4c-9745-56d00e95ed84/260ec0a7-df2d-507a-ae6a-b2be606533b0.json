@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "260ec0a7-df2d-507a-ae6a-b2be606533b0",
+  "rev": 1,
+  "statement": "La tabla muestra la entalpía de red de algunos compuestos iónicos.\n\n| Compuesto | Entalpía de red / kJ mol⁻¹ |\n|---|---|\n| NaF | 930 |\n| NaCl | 790 |\n| NaBr | 754 |\n| MgO | 3791 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "entalpía de red",
+    "comparación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Define la entalpía de red.",
+      "modelAnswer": "La energía necesaria para separar un mol de un compuesto iónico sólido en sus iones gaseosos, (1) en condiciones estándar. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica la tendencia en los haluros de sodio.",
+      "modelAnswer": "Del fluoruro al bromuro aumenta el radio del anión. (1) La distancia entre los iones es mayor y la atracción, menor. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la entalpía de red del MgO es mucho mayor que la del NaF.",
+      "modelAnswer": "Los iones Mg²⁺ y O²⁻ tienen carga doble que Na⁺ y F⁻, (1) así que la atracción es mucho mayor, aunque los radios sean parecidos. (1)",
+      "marks": 2
+    }
+  ]
+}

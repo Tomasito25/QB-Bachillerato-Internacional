@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "1fd68e6f-32bc-5d1a-8737-34cc291f5c16",
+  "rev": 1,
+  "statement": "Una muestra de hidrógeno y otra de oxígeno están a la misma temperatura. ¿Qué afirmación es correcta?",
+  "explanation": "A la misma temperatura, la energía cinética media es la misma. Como $E_k = \\frac{1}{2}mv^2$, las moléculas de menor masa deben moverse más deprisa.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "energía cinética",
+    "masa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sus moléculas tienen la misma energía cinética media, pero las de hidrógeno se mueven más deprisa.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Las moléculas de oxígeno tienen mayor energía cinética media porque son más pesadas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las moléculas de hidrógeno tienen mayor energía cinética media porque son más ligeras.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las dos se mueven a la misma velocidad media.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

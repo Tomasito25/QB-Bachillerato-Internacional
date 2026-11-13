@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "17330533-2792-5938-9b8e-4f3b94d9d5a6",
+  "rev": 1,
+  "statement": "En un frasco cerrado hay agua y vapor de agua en equilibrio a temperatura constante.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "equilibrio dinámico",
+    "demostración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué se trata de un equilibrio dinámico.",
+      "modelAnswer": "Las moléculas siguen evaporándose y condensándose continuamente, (1) pero a la misma velocidad, de modo que las cantidades de líquido y de vapor no cambian. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica qué ocurriría si se abriera el frasco.",
+      "modelAnswer": "El vapor escaparía y el sistema dejaría de estar cerrado: (1) la condensación sería más lenta que la evaporación y el agua acabaría evaporándose. (1)",
+      "marks": 2
+    }
+  ]
+}

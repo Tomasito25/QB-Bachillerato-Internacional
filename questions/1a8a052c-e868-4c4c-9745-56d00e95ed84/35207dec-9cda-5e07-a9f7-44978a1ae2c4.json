@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "35207dec-9cda-5e07-a9f7-44978a1ae2c4",
+  "rev": 1,
+  "statement": "¿Por qué se llena el subnivel 4s antes que el 3d?",
+  "explanation": "Las energías de los subniveles de niveles distintos se solapan a partir de n = 3.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "subniveles",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el 3d solo existe en los iones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el principio de exclusión de Pauli lo exige.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque, en esos átomos, el 4s tiene menor energía que el 3d.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque el 4s puede contener más electrones que el 3d.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

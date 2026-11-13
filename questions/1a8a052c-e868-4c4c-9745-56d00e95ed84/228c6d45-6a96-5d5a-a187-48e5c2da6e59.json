@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "228c6d45-6a96-5d5a-a187-48e5c2da6e59",
+  "rev": 1,
+  "statement": "¿Qué diferencia un ácido fuerte de uno débil?",
+  "explanation": "Fuerte y débil se refieren al grado de ionización; concentrado y diluido, a la cantidad de soluto por volumen.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "ácidos fuertes",
+    "débiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El ácido fuerte se ioniza casi por completo en agua; el débil, solo en pequeña parte.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El ácido débil no reacciona con las bases.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El ácido fuerte siempre está más concentrado.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El ácido fuerte no tiene base conjugada.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "29da2cae-6644-55e3-8ad9-185cb7d573e8",
+  "rev": 1,
+  "statement": "¿Cuántos electrones aporta cada átomo de magnesio al mar de electrones deslocalizados?",
+  "explanation": "El magnesio (grupo 2) cede sus dos electrones de valencia y queda como Mg²⁺ en la red.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "electrones de valencia",
+    "metales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "2",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "3",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "12",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

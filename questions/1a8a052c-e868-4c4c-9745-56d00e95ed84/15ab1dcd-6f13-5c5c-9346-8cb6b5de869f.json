@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "15ab1dcd-6f13-5c5c-9346-8cb6b5de869f",
+  "rev": 1,
+  "statement": "En el equilibrio Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq), de color rojo sangre, ¿qué ocurre al añadir más iones SCN⁻?",
+  "explanation": "El sistema contrarresta el aumento de SCN⁻ consumiendo parte de él.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "Le Châtelier",
+    "concentración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El equilibrio se desplaza a la derecha y el color rojo se intensifica.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El equilibrio se desplaza a la izquierda y el color se aclara.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "No pasa nada, porque K no cambia.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se forma un precipitado.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

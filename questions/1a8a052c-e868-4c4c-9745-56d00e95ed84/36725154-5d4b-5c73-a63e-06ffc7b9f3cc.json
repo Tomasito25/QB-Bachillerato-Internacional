@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "36725154-5d4b-5c73-a63e-06ffc7b9f3cc",
+  "rev": 1,
+  "statement": "La oxidación y la reducción se pueden definir de varias maneras.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "definiciones de redox"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Define la oxidación en términos de oxígeno, de hidrógeno, de electrones y de estado de oxidación.",
+      "modelAnswer": "Ganancia de oxígeno; pérdida de hidrógeno. (1) Pérdida de electrones; aumento del estado de oxidación. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "En la reacción CuO + H₂ → Cu + H₂O, identifica la especie oxidada y la reducida usando dos definiciones distintas.",
+      "modelAnswer": "El CuO se reduce: pierde oxígeno y el cobre pasa de +2 a 0. (1) El H₂ se oxida: gana oxígeno y el hidrógeno pasa de 0 a +1. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la oxidación y la reducción siempre ocurren a la vez.",
+      "modelAnswer": "Los electrones que pierde una especie los tiene que ganar otra. (1)",
+      "marks": 1
+    }
+  ]
+}

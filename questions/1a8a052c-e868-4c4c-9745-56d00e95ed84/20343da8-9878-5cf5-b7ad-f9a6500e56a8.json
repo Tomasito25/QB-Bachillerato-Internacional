@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "20343da8-9878-5cf5-b7ad-f9a6500e56a8",
+  "rev": 1,
+  "statement": "¿Qué grupo funcional tiene la etanamina, CH₃CH₂NH₂?",
+  "explanation": "Las aminas tienen –NH₂ unido a un carbono; las amidas tienen –CONH₂.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "aminas",
+    "amidas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Amido",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Amino",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Hidroxilo",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Carbonilo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

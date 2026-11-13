@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1a026ec1-92ea-50ac-9c80-d81a53bc7c65",
+  "rev": 1,
+  "statement": "¿Cuál de estas sustancias es una mezcla?",
+  "explanation": "El agua de mar contiene agua y muchas sales disueltas en proporciones variables. Las demás son sustancias puras: dos compuestos y un elemento.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "mezclas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El agua de mar",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El cloruro de sodio",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El dióxido de carbono",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El cobre",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "3ae50a1b-d03c-5972-997a-70ce9995eafa",
+  "rev": 1,
+  "statement": "¿Qué es un radical?",
+  "explanation": "El electrón desapareado hace que los radicales sean muy reactivos. Se representan con un punto: Cl•.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "radicales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una molécula con un enlace doble.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un ion con carga negativa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una especie con un electrón desapareado.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Un átomo de un gas noble.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

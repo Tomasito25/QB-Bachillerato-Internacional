@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "0f2e15cc-3507-5729-9d22-af5a6bc27be9",
+  "rev": 1,
+  "statement": "La lluvia normal tiene un pH de 5,6 por el CO₂ disuelto. En una zona industrial se midió una lluvia de pH 4,1.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "pH",
+    "lluvia ácida"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la concentración de H⁺ de cada lluvia.",
+      "modelAnswer": "pH 5,6: $10^{-5{,}6} = 2{,}5\\times 10^{-6}\\,\\text{mol dm}^{-3}$. (1) pH 4,1: $10^{-4{,}1} = 7{,}9\\times 10^{-5}\\,\\text{mol dm}^{-3}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula cuántas veces más ácida es la lluvia de la zona industrial.",
+      "modelAnswer": "$\\dfrac{7{,}9\\times 10^{-5}}{2{,}5\\times 10^{-6}} = 32$ veces. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere qué gases pueden causar esta acidez.",
+      "modelAnswer": "Óxidos de azufre y de nitrógeno, que forman ácidos fuertes como el sulfúrico y el nítrico. (1)",
+      "marks": 1
+    }
+  ]
+}

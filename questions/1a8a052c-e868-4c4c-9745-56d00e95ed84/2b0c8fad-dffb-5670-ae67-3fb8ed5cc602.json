@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2b0c8fad-dffb-5670-ae67-3fb8ed5cc602",
+  "rev": 1,
+  "statement": "La concentración de un reactivo baja de $0{,}50$ a $0{,}30\\,\\text{mol dm}^{-3}$ en $40\\,\\text{s}$. ¿Cuál es la velocidad media?",
+  "explanation": "$\\dfrac{0{,}50 - 0{,}30}{40} = 5{,}0\\times 10^{-3}\\,\\text{mol dm}^{-3}\\,\\text{s}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "unidades de velocidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$5{,}0\\times 10^{-3}\\,\\text{mol dm}^{-3}\\,\\text{s}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$2{,}0\\times 10^{-2}\\,\\text{mol dm}^{-3}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$0{,}20\\,\\text{mol dm}^{-3}\\,\\text{s}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$8{,}0\\,\\text{mol dm}^{-3}\\,\\text{s}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

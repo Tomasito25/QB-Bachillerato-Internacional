@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1dc3764d-1a53-526c-8abc-b6c88f9c59fa",
+  "rev": 1,
+  "statement": "¿Por qué aumenta la velocidad al aumentar la concentración de un reactivo en disolución?",
+  "explanation": "La proporción de choques con éxito no cambia, pero hay más choques por segundo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "concentración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hay más partículas en el mismo volumen y los choques son más frecuentes.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Las partículas se hacen más grandes.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las partículas tienen más energía cinética.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Disminuye la energía de activación.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

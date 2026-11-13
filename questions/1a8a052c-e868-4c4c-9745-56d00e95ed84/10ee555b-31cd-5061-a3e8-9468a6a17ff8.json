@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "10ee555b-31cd-5061-a3e8-9468a6a17ff8",
+  "rev": 1,
+  "statement": "¿Qué es el grafeno?",
+  "explanation": "Es muy resistente, flexible y buen conductor. El fullereno C₆₀ es una molécula esférica, no una red.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "grafeno",
+    "fullereno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una sola capa de átomos de carbono unidos en hexágonos, como una lámina de grafito.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Una molécula esférica de 60 átomos de carbono.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un compuesto de carbono y silicio.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una red tridimensional en la que cada carbono forma cuatro enlaces.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

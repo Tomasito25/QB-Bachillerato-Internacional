@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1c26c990-7622-5062-af7f-16f96061265e",
+  "rev": 1,
+  "statement": "¿Cuántos electrones desapareados tiene un átomo de oxígeno en su estado fundamental?",
+  "explanation": "Configuración 2p⁴: un orbital con dos electrones y dos orbitales con uno cada uno.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "electrones desapareados"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "0",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "2",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "4",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "6",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

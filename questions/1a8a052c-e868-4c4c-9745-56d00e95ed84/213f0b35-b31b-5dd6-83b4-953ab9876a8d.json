@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "213f0b35-b31b-5dd6-83b4-953ab9876a8d",
+  "rev": 1,
+  "statement": "¿Qué información da la fórmula estructural condensada CH₃CH₂OH que no da la fórmula molecular C₂H₆O?",
+  "explanation": "Dos compuestos distintos pueden compartir fórmula molecular; la estructural muestra la conectividad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "tipos de fórmulas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La masa molar del compuesto.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El estado físico del compuesto.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cómo están unidos los átomos: distingue el etanol del metoximetano, CH₃OCH₃.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El número de átomos de cada elemento.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

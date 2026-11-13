@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0c2ff535-5d47-571f-b434-bbfea3277ef9",
+  "rev": 1,
+  "statement": "C(s) + O₂(g) → CO₂(g), $\\Delta H = -394\\,\\text{kJ}$.\n\nCO(g) + ½O₂(g) → CO₂(g), $\\Delta H = -283\\,\\text{kJ}$.\n\n¿Cuál es $\\Delta H$ de C(s) + ½O₂(g) → CO(g)?",
+  "explanation": "Se suma la primera ecuación y la inversa de la segunda: $-394 + 283 = -111\\,\\text{kJ}$. Es una reacción imposible de medir directamente, porque siempre se forma algo de CO₂.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "ley de Hess",
+    "monóxido de carbono"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−677 kJ$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$−111 kJ$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$+111\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$+677\\,\\text{kJ}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

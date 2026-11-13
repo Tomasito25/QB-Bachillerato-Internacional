@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "329b8559-8124-5d9f-9e45-c6021bb890af",
+  "rev": 1,
+  "statement": "¿Qué supone el modelo del gas ideal?",
+  "explanation": "Es un modelo: ningún gas real lo cumple del todo, pero muchos se acercan en condiciones habituales.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "gas ideal",
+    "modelo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Partículas que pierden energía en cada choque.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Partículas en reposo que no chocan entre sí.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Partículas grandes que se atraen con fuerza.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Partículas de volumen despreciable, sin fuerzas entre ellas, con choques elásticos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

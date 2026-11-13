@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1dc029c4-d292-5e5b-8616-2a3d83d3cb94",
+  "rev": 1,
+  "statement": "¿Qué monómero forma el polietileno (polieteno)?",
+  "explanation": "El eteno, CH₂=CH₂, tiene el doble enlace necesario para la polimerización por adición.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "polietileno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El etano",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El eteno",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El etanol",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El ácido etanoico",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

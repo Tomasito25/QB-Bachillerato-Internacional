@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1d4ef8a0-a6cf-54d9-bfc0-39b4a8ebc637",
+  "rev": 1,
+  "statement": "¿Qué caracteriza a una serie homóloga?",
+  "explanation": "Comparten fórmula general y propiedades químicas parecidas, mientras que sus propiedades físicas cambian de forma gradual.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "serie homóloga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Todos sus miembros son isómeros entre sí.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sus miembros tienen grupos funcionales distintos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Todos sus miembros tienen la misma masa molar.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Sus miembros tienen el mismo grupo funcional y cada uno se diferencia del siguiente en un grupo CH₂.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

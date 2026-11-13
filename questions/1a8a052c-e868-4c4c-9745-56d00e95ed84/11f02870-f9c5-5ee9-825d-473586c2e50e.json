@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "11f02870-f9c5-5ee9-825d-473586c2e50e",
+  "rev": 1,
+  "statement": "¿Qué condiciones se consideran estándar para $\\Delta H^{\\ominus}$?",
+  "explanation": "También se especifica que las disoluciones tienen concentración $1\\,\\text{mol dm}^{-3}$ y las sustancias están en su estado estándar.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "condiciones estándar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$273\\,\\text{K}$ y $101\\,\\text{kPa}$.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$100\\,\\text{kPa}$ y una temperatura dada, normalmente $298\\,\\text{K}$.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$0\\,\\text{K}$ y $100\\,\\text{kPa}$.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cualquier temperatura y presión.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

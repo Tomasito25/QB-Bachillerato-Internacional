@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "377b8a44-7360-50a0-8b1b-5ace71101d53",
+  "rev": 1,
+  "statement": "La tabla muestra el radio atómico y la primera energía de ionización de los metales del grupo 1.\n\n| Elemento | Radio atómico / pm | Primera energía de ionización / kJ mol⁻¹ |\n|---|---|---|\n| Li | 152 | 520 |\n| Na | 186 | 496 |\n| K | 231 | 419 |\n| Rb | 244 | 403 |\n| Cs | 262 | 376 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "periodicidad",
+    "grupo 1"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la relación entre el radio atómico y la primera energía de ionización.",
+      "modelAnswer": "Al aumentar el radio, disminuye la energía de ionización. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica esta relación.",
+      "modelAnswer": "Al bajar en el grupo, el electrón de valencia está en un nivel más externo, más lejos del núcleo. (1) Está más apantallado por los electrones internos, así que la atracción es menor y cuesta menos arrancarlo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el porcentaje de disminución de la energía de ionización del litio al cesio.",
+      "modelAnswer": "$\\dfrac{520 - 376}{520}\\times 100 = 28\\,\\%$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Predice cómo cambia la reactividad con el agua al bajar en el grupo, y justifica tu predicción.",
+      "modelAnswer": "Aumenta, (1) porque los metales alcalinos reaccionan perdiendo su electrón de valencia, que cuesta cada vez menos arrancar. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "262eeffa-c498-59a1-9d86-d6054220f873",
+  "rev": 1,
+  "statement": "¿Qué par de especies tiene el mismo número de electrones?",
+  "explanation": "Na⁺ tiene 11 − 1 = 10 electrones y F⁻, 9 + 1 = 10. Cl⁻ y S²⁻ tienen 18.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "iones",
+    "isoelectrónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mg²⁺ y S²⁻",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Na⁺ y Cl⁻",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Na y F",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Na⁺ y F⁻",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

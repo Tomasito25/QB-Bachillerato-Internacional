@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "2365b617-d221-5ea6-8377-ae036726b5ef",
+  "rev": 1,
+  "statement": "Se mezclan $1{,}00\\,\\text{mol}$ de ácido etanoico y $1{,}00\\,\\text{mol}$ de etanol con un poco de ácido sulfúrico como catalizador. En el equilibrio hay $0{,}67\\,\\text{mol}$ de etanoato de etilo.\n\nCH₃COOH(l) + C₂H₅OH(l) ⇌ CH₃COOC₂H₅(l) + H₂O(l)",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "esterificación",
+    "cálculo de K"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce las cantidades de las cuatro sustancias en el equilibrio.",
+      "modelAnswer": "Etanoato de etilo y agua: $0{,}67\\,\\text{mol}$ cada uno. (1) Ácido y alcohol: $1{,}00 - 0{,}67 = 0{,}33\\,\\text{mol}$ cada uno. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula K. Explica por qué el volumen total no influye en el resultado.",
+      "modelAnswer": "$K = \\dfrac{0{,}67 \\times 0{,}67}{0{,}33 \\times 0{,}33} = 4{,}1$. (1) Hay el mismo número de moléculas a cada lado, así que el volumen se cancela en la expresión. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica el papel del ácido sulfúrico.",
+      "modelAnswer": "Actúa como catalizador: el equilibrio se alcanza antes, pero su posición y K no cambian. (1)",
+      "marks": 1
+    }
+  ]
+}

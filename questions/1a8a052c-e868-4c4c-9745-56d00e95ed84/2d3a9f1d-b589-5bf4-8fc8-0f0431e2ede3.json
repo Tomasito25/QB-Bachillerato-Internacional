@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2d3a9f1d-b589-5bf4-8fc8-0f0431e2ede3",
+  "rev": 1,
+  "statement": "En el experimento de Rutherford, casi todas las partículas alfa atravesaron la lámina de oro, pero unas pocas rebotaron. ¿Qué conclusión se obtuvo?",
+  "explanation": "Si la carga positiva estuviera repartida, como en el modelo de Thomson, ninguna partícula habría rebotado.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "modelo nuclear",
+    "Rutherford"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los electrones están en órbitas fijas alrededor del núcleo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La carga positiva está repartida por todo el átomo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los átomos de oro no tienen electrones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El átomo es casi todo espacio vacío, con un núcleo muy pequeño, denso y con carga positiva.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

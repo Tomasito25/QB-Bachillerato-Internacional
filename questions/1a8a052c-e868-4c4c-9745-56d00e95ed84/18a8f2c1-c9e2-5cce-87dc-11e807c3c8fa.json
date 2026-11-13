@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "18a8f2c1-c9e2-5cce-87dc-11e807c3c8fa",
+  "rev": 1,
+  "statement": "El compuesto C₅H₁₂ tiene tres isómeros estructurales.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "isómeros estructurales",
+    "nomenclatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la fórmula estructural condensada y el nombre IUPAC de cada isómero.",
+      "modelAnswer": "CH₃CH₂CH₂CH₂CH₃, pentano. (1) CH₃CH(CH₃)CH₂CH₃, 2-metilbutano. (1) C(CH₃)₄, 2,2-dimetilpropano. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica qué tipo de isomería presentan.",
+      "modelAnswer": "Isomería de cadena: tienen la misma fórmula molecular, pero distinta estructura de la cadena de carbonos. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Predice cuál de los tres tiene el punto de ebullición más alto, y justifica tu predicción.",
+      "modelAnswer": "El pentano: (1) su cadena lineal tiene más superficie de contacto y fuerzas de London más fuertes. (1)",
+      "marks": 2
+    }
+  ]
+}

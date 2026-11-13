@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "375c45a6-e25f-5941-a35c-1d8ad3df0298",
+  "rev": 1,
+  "statement": "¿Qué es la primera afinidad electrónica?",
+  "explanation": "Para la mayoría de los no metales es exotérmica: el átomo libera energía al captar el electrón.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "afinidad electrónica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La variación de energía cuando un mol de átomos en estado gaseoso gana un mol de electrones.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La capacidad de un átomo para atraer los electrones de un enlace.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La energía que libera un mol de iones al formar una red.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La energía necesaria para arrancar un electrón a un átomo gaseoso.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

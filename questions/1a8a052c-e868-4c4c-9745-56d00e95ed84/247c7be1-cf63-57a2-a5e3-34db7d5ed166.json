@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "247c7be1-cf63-57a2-a5e3-34db7d5ed166",
+  "rev": 1,
+  "statement": "El cloro natural tiene un 75,8 % de $^{35}\\text{Cl}$ y un 24,2 % de $^{37}\\text{Cl}$. ¿Cuál es su masa atómica relativa?",
+  "explanation": "$A_r = \\dfrac{75{,}8 \\times 35 + 24{,}2 \\times 37}{100} = 35{,}5$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "masa atómica relativa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$35{,}0$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$35{,}5$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$36{,}0$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$36{,}5$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

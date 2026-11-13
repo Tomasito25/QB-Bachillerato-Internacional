@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2ce7a771-d714-5258-9faf-da0fb70c5abc",
+  "rev": 1,
+  "statement": "¿Qué productos pueden formarse en la combustión incompleta de un hidrocarburo?",
+  "explanation": "Ocurre cuando falta oxígeno, por ejemplo en una estufa mal ventilada.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "combustión incompleta"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Monóxido de carbono y carbono (hollín), además de agua.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Solo dióxido de carbono y agua.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Metano y dióxido de carbono.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Hidrógeno y oxígeno.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

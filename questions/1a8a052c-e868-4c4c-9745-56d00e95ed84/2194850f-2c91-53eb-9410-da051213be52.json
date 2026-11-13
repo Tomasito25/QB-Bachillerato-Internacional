@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2194850f-2c91-53eb-9410-da051213be52",
+  "rev": 1,
+  "statement": "¿Por qué aumenta el radio atómico al bajar en un grupo?",
+  "explanation": "Cada periodo añade un nivel, y los electrones internos apantallan el núcleo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "radio atómico",
+    "grupo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque aumenta la electronegatividad.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque disminuye la carga nuclear.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los electrones de valencia ocupan niveles de energía cada vez más alejados del núcleo.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque disminuye el número de electrones.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

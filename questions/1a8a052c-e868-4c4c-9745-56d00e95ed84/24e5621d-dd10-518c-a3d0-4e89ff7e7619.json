@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "24e5621d-dd10-518c-a3d0-4e89ff7e7619",
+  "rev": 1,
+  "statement": "¿Cuál de estas especies puede actuar como nucleófilo?",
+  "explanation": "El nitrógeno del amoníaco tiene un par solitario que puede donar.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "nucleófilos",
+    "ejemplos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "H⁺",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Na⁺",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "NH₃",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "CH₄",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

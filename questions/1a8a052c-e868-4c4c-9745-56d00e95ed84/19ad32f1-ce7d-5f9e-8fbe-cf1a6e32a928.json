@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "19ad32f1-ce7d-5f9e-8fbe-cf1a6e32a928",
+  "rev": 1,
+  "statement": "El pentano hierve a $36\\,°\\text{C}$ y el 2,2-dimetilpropano, de fórmula molecular C₅H₁₂, a $10\\,°\\text{C}$. ¿Por qué?",
+  "explanation": "Los dos tienen la misma masa molar; cambia la forma.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "ramificación",
+    "puntos de ebullición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La molécula ramificada es más compacta, tiene menos superficie de contacto y fuerzas de London más débiles.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El pentano forma puentes de hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El compuesto ramificado tiene enlaces C–C más fuertes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El compuesto ramificado tiene menos electrones.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2482554d-36fa-5de4-91f3-081292375c9c",
+  "rev": 1,
+  "statement": "¿Por qué la entalpía de red del NaF es mayor que la del NaI?",
+  "explanation": "Los dos aniones tienen carga −1; la diferencia está en el tamaño.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "entalpía de red",
+    "radio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El fluoruro tiene más electrones que el yoduro.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El ion fluoruro es más pequeño, así que los iones están más cerca y se atraen más.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El yoduro forma enlaces covalentes con el sodio.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El ion fluoruro tiene más carga que el yoduro.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "0f78f122-d013-5c9a-aa6f-d1a28a349115",
+  "rev": 1,
+  "statement": "Para hallar el agua de cristalización del sulfato de cobre(II) hidratado, CuSO₄·xH₂O, se calienta una muestra en un crisol hasta que su masa deja de cambiar.\n\n| | Masa / g |\n|---|---|\n| Crisol vacío | 20,312 |\n| Crisol con la sal hidratada | 22,809 |\n| Crisol tras calentar hasta masa constante | 21,909 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0",
+    "112174ae-9d35-554b-897e-b9f59cb3e376"
+  ],
+  "tags": [
+    "datos",
+    "sales hidratadas",
+    "fórmula empírica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa de agua que se ha eliminado y la masa de sal anhidra.",
+      "modelAnswer": "Agua: $22{,}809 - 21{,}909 = 0{,}900\\,\\text{g}$. (1) Sal anhidra: $21{,}909 - 20{,}312 = 1{,}597\\,\\text{g}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina el valor de $x$.",
+      "modelAnswer": "$n(\\mathrm{H_2O}) = \\dfrac{0{,}900}{18{,}02} = 0{,}0499\\,\\text{mol}$. (1) $n(\\mathrm{CuSO_4}) = \\dfrac{1{,}597}{159{,}62} = 0{,}01001\\,\\text{mol}$. (1) $x = \\dfrac{0{,}0499}{0{,}01001} = 4{,}99 \\approx 5$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué se calienta hasta masa constante.",
+      "modelAnswer": "Así se asegura que se ha eliminado toda el agua de cristalización. (1) Si quedara agua, la masa de agua medida sería menor y $x$ saldría demasiado bajo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una razón por la que el valor de $x$ obtenido podría salir mayor que el real.",
+      "modelAnswer": "Si se calienta demasiado, la sal anhidra se descompone y pierde masa, que se contaría como agua. También vale: salpicaduras de sólido fuera del crisol. (1)",
+      "marks": 1
+    }
+  ]
+}

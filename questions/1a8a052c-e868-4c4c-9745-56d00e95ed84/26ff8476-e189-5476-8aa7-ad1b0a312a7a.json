@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "26ff8476-e189-5476-8aa7-ad1b0a312a7a",
+  "rev": 1,
+  "statement": "¿Por qué el potasio se oxida con más facilidad que el sodio?",
+  "explanation": "En el grupo 17 ocurre lo contrario: el poder oxidante disminuye al bajar.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "grupo 1",
+    "facilidad de oxidación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque tiene menos niveles de energía.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Su electrón de valencia está más lejos del núcleo y más apantallado, así que se pierde con más facilidad.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque tiene más protones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque es más electronegativo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

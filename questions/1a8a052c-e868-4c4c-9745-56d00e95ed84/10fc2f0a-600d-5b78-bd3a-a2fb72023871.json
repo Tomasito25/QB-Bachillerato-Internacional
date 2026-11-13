@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "10fc2f0a-600d-5b78-bd3a-a2fb72023871",
+  "rev": 1,
+  "statement": "¿Qué tipo de reacción es CH₂=CHCH₃ + H₂O → CH₃CH(OH)CH₃?",
+  "explanation": "El agua se adiciona al doble enlace, con un catalizador ácido.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "tipo de reacción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Oxidación",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sustitución nucleófila",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Adición electrófila",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Sustitución por radicales",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

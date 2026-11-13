@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "2fe8c4e5-3c4b-5234-8ca6-6411dc0a3b8d",
+  "rev": 1,
+  "statement": "Los óxidos de los elementos del periodo 3 cambian de carácter a lo largo del periodo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "óxidos",
+    "ácido-base"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe una ecuación para la reacción del óxido de magnesio con el agua y otra para la del trióxido de azufre con el agua.",
+      "modelAnswer": "MgO + H₂O → Mg(OH)₂. (1) SO₃ + H₂O → H₂SO₄. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe la tendencia del carácter ácido-base de los óxidos a lo largo del periodo 3.",
+      "modelAnswer": "Los óxidos de los metales (Na, Mg) son básicos y los de los no metales (P, S, Cl), ácidos. (1) El carácter pasa de básico a ácido de izquierda a derecha. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica cómo contribuyen los óxidos de azufre a la lluvia ácida.",
+      "modelAnswer": "El SO₂ de la combustión de combustibles con azufre se oxida a SO₃ en la atmósfera, (1) que con el agua de lluvia forma ácido sulfúrico. (1)",
+      "marks": 2
+    }
+  ]
+}

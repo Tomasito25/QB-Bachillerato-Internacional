@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "378f16d5-be2b-5e14-9f41-14cfacd025fb",
+  "rev": 1,
+  "statement": "El fósforo tiene número atómico 15.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "configuraciones",
+    "diagramas de cajas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la configuración electrónica completa del fósforo.",
+      "modelAnswer": "$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^3$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Dibuja o describe el diagrama de orbitales (cajas) del nivel 3, e indica cuántos electrones desapareados tiene.",
+      "modelAnswer": "3s: una caja con dos electrones de espín opuesto; 3p: tres cajas con un electrón cada una, con el mismo espín. (1) Tiene 3 electrones desapareados. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica qué reglas has aplicado.",
+      "modelAnswer": "Principio de Aufbau: se llenan primero los subniveles de menor energía. (1) Regla de Hund: en orbitales de igual energía los electrones se colocan primero solos, con espines paralelos. (1) Principio de Pauli: como mucho dos electrones por orbital, con espines opuestos. (1)",
+      "marks": 3
+    }
+  ]
+}
