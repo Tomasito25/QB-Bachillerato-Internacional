@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "69a51b34-27e8-54f1-90f0-ce913514f464",
+  "rev": 1,
+  "statement": "**Compare la importancia del final en la construcción del sentido de dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "4ea85a42-efcc-5978-bf6c-164e09d44418"
+  ],
+  "tags": [
+    "finales",
+    "estructura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar el final (cerrado, abierto, circular, sorprendente) y explicar cómo cambia o completa el sentido de la obra entera, con su efecto en el lector.\n\n**Cómo elegir las obras.** Conviene que los finales sean distintos entre sí (uno cerrado y otro abierto, uno que confirma y otro que subvierte lo anterior): así la comparación se enriquece.\n\n**Esquema posible**\n- Introducción: tipos de final y tesis sobre su función en cada obra.\n- Desarrollo: cómo prepara cada obra su final (anticipaciones, símbolos, estructura); qué resuelve y qué deja abierto; cómo obliga a releer lo anterior.\n- Análisis de técnicas: última imagen, último diálogo o último verso; cambios de tono o de punto de vista; elipsis.\n- Conclusión: relación entre el tipo de final y la visión del mundo de cada obra.\n\n**Cuidado con…** contar el desenlace sin analizar cómo está construido ni por qué el autor eligió terminar así.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

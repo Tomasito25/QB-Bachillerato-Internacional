@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "6a410699-8385-5bfd-bb86-52a8d48afeae",
+  "rev": 1,
+  "statement": "**¿Cómo exploran dos de las obras que ha estudiado la búsqueda de la identidad?**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "93f068fc-d4a3-5e83-93bf-84d9300b44cc"
+  ],
+  "tags": [
+    "identidad",
+    "pertenencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar personajes o voces que buscan saber quiénes son (identidad personal, cultural, de género, de clase) y cómo se construye esa búsqueda. **Obras adecuadas.** Novelas de formación, obras sobre la emigración, poesía del yo. **Esquema posible.** Conflicto de identidad en cada obra; etapas o momentos clave; recursos (espejos, nombres, lenguas, espacios); resolución o apertura. **Cuidado con…** resumir el viaje vital del personaje. Analiza los recursos.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

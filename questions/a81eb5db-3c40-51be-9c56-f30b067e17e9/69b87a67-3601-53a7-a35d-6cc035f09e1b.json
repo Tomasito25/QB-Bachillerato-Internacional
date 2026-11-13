@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "69b87a67-3601-53a7-a35d-6cc035f09e1b",
+  "rev": 1,
+  "statement": "**Muchas obras enfrentan dos espacios opuestos, como el campo y la ciudad o el interior y el exterior. Compare el uso de este contraste en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "db673074-0831-5e82-9577-da2dd25922a2"
+  ],
+  "tags": [
+    "espacio",
+    "contraste entre lugares"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar la oposición entre espacios y su valor simbólico: libertad frente a opresión, tradición frente a modernidad, intimidad frente a vida pública. **Obras adecuadas.** Obras con desplazamientos entre lugares o con espacios claramente enfrentados. **Esquema posible.** Espacios opuestos en cada obra; valores asociados; personajes y su movimiento entre ellos; sentido del contraste. **Cuidado con…** reducir los espacios a símbolos fijos. Atiende a cómo cambian.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "6b7f9783-ae9a-5a15-983d-6c1f8c9f2e8f",
+  "rev": 1,
+  "statement": "**Oda al fregadero**\n\nOh, fregadero,\npequeño mar de acero de mi cocina,\nhumilde catedral de los platos,\nnadie te escribe versos.\n\nTe escriben a la luna,\nque no friega nada,\na la rosa, que se marchita\nsin haber lavado una sola taza.\n\nTú recibes la sartén de los domingos,\nel vaso de leche de los niños,\nla copa con el carmín\nde una visita que no volvió.\nTú lo aceptas todo\nsin preguntar de dónde viene.\n\nCuando alguien llora en esta casa\nllora sobre ti, de pie,\ncon el grifo abierto\npara que nadie lo oiga.\nTú guardas el secreto\ny lo dejas ir por el desagüe\ncon los restos de arroz.\n\nPor eso hoy, entre la espuma,\nte rindo homenaje, fregadero:\nno eres bello, no eres eterno,\npero en ti termina la fiesta\ny empieza, limpio, otra vez el día.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el poema el humor y la emoción al elevar un objeto cotidiano?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "oda",
+    "humor",
+    "objetos cotidianos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una oda, forma tradicionalmente reservada a temas elevados, dedicada a un fregadero. El tono empieza siendo humorístico y paródico, pero el objeto se convierte poco a poco en testigo silencioso de la vida familiar y de sus penas.\n\n**Aspectos que conviene analizar**\n- La forma de la oda: el apóstrofe («Oh, fregadero»), el tono solemne y la parodia que nace del contraste con un objeto humilde.\n- Las metáforas grandilocuentes («pequeño mar de acero», «humilde catedral de los platos») y su efecto cómico.\n- La comparación irónica con los temas poéticos clásicos (la luna, la rosa) que «no friegan nada»: una reflexión metapoética.\n- La enumeración de objetos que cuenta una historia familiar, con un detalle inquietante: la copa con carmín «de una visita que no volvió».\n- El giro emotivo de la cuarta estrofa: el fregadero como confidente del llanto escondido, con el grifo abierto «para que nadie lo oiga».\n- El cierre: un homenaje que reconoce los límites del objeto y su función de renovación diaria.\n\n**Una estructura posible.** Seguir la evolución del tono, de la parodia a la ternura, y analizar en cada estrofa los recursos que la producen.\n\n**Cuidado con…** leer el poema solo como un chiste o solo como un poema triste. Su interés está en la mezcla.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

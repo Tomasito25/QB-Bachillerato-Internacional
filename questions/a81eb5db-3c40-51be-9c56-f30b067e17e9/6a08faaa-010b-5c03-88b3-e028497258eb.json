@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "6a08faaa-010b-5c03-88b3-e028497258eb",
+  "rev": 1,
+  "statement": "La pregunta llega siempre con el postre. Este año la hace la tía Merche, mientras reparte el turrón con un cuchillo demasiado grande: «¿Y vosotros para cuándo?». Mira a Clara y luego a Jorge, y luego otra vez a Clara, porque todo el mundo sabe que esas preguntas, en realidad, se le hacen a ella.\n\nClara tiene cuarenta y un años y ha contestado de muchas maneras. A los veintiocho decía «más adelante». A los treinta y cinco decía «ya veremos», con una sonrisa que pedía que cambiaran de tema. A los treinta y ocho, una Nochebuena, dijo «no podemos», y se hizo un silencio tan espeso que nadie volvió a preguntar durante dos años. No era verdad. Pero era más fácil.\n\nEsta vez Clara deja el vaso en la mesa. Jorge le busca la mano por debajo del mantel; sabe lo que va a pasar.\n\n—Para nunca, tía —dice Clara—. No queremos.\n\nLa tía Merche se queda con el cuchillo en el aire. La abuela deja de masticar. El primo pequeño, que no entiende nada, sigue jugando con la consola.\n\n—Bueno —dice al fin la tía, con una sonrisa torcida—, eso dices ahora.\n\n—Eso digo ahora —contesta Clara— y lo decía hace diez años. Lo que pasa es que antes no me escuchabais.\n\nHay un silencio. La madre de Clara, desde la otra punta de la mesa, la mira de una manera que Clara no sabe descifrar: puede ser reproche, puede ser alivio, puede ser las dos cosas. Luego se levanta, va a la cocina y vuelve con más turrón, aunque todavía queda.\n\n—¿Alguien quiere café? —pregunta.\n\nY la cena sigue, como siguen las cenas familiares, como si no hubiera pasado nada. Pero Clara, mientras remueve el azúcar, siente algo nuevo, ligero, parecido a quitarse unos zapatos que le apretaban desde hacía muchos años.\n\n---\n\n**Pregunta guía:** ¿Cómo se construye en la escena la presión social sobre la protagonista y su manera de enfrentarse a ella?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "maternidad",
+    "presión social",
+    "voz"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** En una cena de Navidad, una tía pregunta, como cada año, cuándo tendrá hijos la protagonista. Esta vez Clara responde con la verdad: no quiere tenerlos. La escena muestra la presión familiar, el silencio que provoca su respuesta y la sensación de liberación final.\n\n**Aspectos que conviene analizar**\n- La repetición ritual de la pregunta «con el postre» y el detalle del cuchillo «demasiado grande», que añade tensión.\n- La observación de que la pregunta se le hace «en realidad» a ella: la desigualdad de la presión.\n- La evolución de las respuestas a lo largo de los años (resumen narrativo) y la mentira de los treinta y ocho, «más fácil» que la verdad.\n- El gesto de Jorge bajo el mantel, el diálogo directo y las reacciones físicas (el cuchillo en el aire, la abuela que deja de masticar, el primo ajeno).\n- La respuesta de la tía («eso dices ahora») y la réplica de Clara sobre no ser escuchada.\n- La reacción ambigua de la madre (el turrón innecesario, el café) y la comparación final de los zapatos que apretaban.\n\n**Una estructura posible.** Analizar la escena en tres tiempos (la pregunta, la respuesta, la reacción familiar) y mostrar cómo cada detalle revela la tensión.\n\n**Cuidado con…** opinar sobre la decisión de la protagonista. Analiza cómo el texto construye el conflicto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "69666bd3-f7d5-513d-85b8-b562fa22b07f",
+  "rev": 1,
+  "statement": "Se sumergieron cilindros de patata de masa conocida en disoluciones de sacarosa de distinta concentración durante dos horas y se midió el cambio porcentual de masa.\n\n![Cambio porcentual de masa de cilindros de patata frente a la concentración de sacarosa](qbimg:8e2362255edcf8ee1e5d23cb8da9734ad53f97681862a5bb7e35e6edf0d492fa)",
+  "images": [
+    {
+      "hash": "8e2362255edcf8ee1e5d23cb8da9734ad53f97681862a5bb7e35e6edf0d492fa",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 22367,
+      "alt": "Cambio porcentual de masa de cilindros de patata frente a la concentración de sacarosa"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced",
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "ósmosis",
+    "tonicidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la tendencia de los resultados.",
+      "modelAnswer": "Al aumentar la concentración de sacarosa, el cambio de masa disminuye de forma aproximadamente lineal: (1) los cilindros ganan masa en las disoluciones diluidas y la pierden en las concentradas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Estima la concentración de sacarosa que es isotónica respecto al tejido de la patata.",
+      "modelAnswer": "Donde el cambio de masa es cero: unos $0{,}23\\,\\text{mol dm}^{-3}$ (se acepta de $0{,}22$ a $0{,}25$). (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica la pérdida de masa en la disolución de $0{,}5\\,\\text{mol dm}^{-3}$.",
+      "modelAnswer": "La disolución tiene más concentración de solutos que el citoplasma de las células: es hipertónica. (1) Sale agua de las células por ósmosis a través de la membrana. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué se calcula el cambio porcentual de masa en lugar del cambio absoluto.",
+      "modelAnswer": "Los cilindros no tienen exactamente la misma masa inicial; el porcentaje permite compararlos. (1)",
+      "marks": 1
+    }
+  ]
+}

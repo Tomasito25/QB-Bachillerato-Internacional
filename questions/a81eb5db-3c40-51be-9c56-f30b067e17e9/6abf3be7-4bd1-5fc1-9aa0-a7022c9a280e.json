@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "6abf3be7-4bd1-5fc1-9aa0-a7022c9a280e",
+  "rev": 1,
+  "statement": "**Los personajes secundarios suelen revelar algo esencial del protagonista. Compare cómo utilizan los autores a los personajes secundarios en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "7c0d54dc-0c20-5faf-8f1e-2d7a893aa253"
+  ],
+  "tags": [
+    "personajes secundarios"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** No basta con describir a los secundarios: hay que mostrar qué revelan del protagonista (contraste, espejo, catalizador del conflicto, voz de la sociedad) y cómo lo consiguen los autores.\n\n**Cómo elegir las obras.** Funcionan bien obras con un protagonista claro y un reparto reducido, en el que cada secundario tenga una función visible. Sirven también el teatro y la novela breve.\n\n**Esquema posible**\n- Introducción: define «personaje secundario» y plantea una tesis comparativa (por ejemplo, en una obra el secundario es un espejo y en la otra un obstáculo).\n- Desarrollo: dos o tres párrafos por funciones, comparando las obras dentro de cada párrafo con ejemplos concretos (escenas, diálogos, citas breves).\n- Análisis de técnicas: caracterización directa e indirecta, diálogo, punto de vista, nombres y descripciones.\n- Conclusión: qué gana cada obra con ese uso de los secundarios.\n\n**Cuidado con…** contar el argumento personaje por personaje. La comparación debe estar presente en todo el ensayo, no solo en la conclusión.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
