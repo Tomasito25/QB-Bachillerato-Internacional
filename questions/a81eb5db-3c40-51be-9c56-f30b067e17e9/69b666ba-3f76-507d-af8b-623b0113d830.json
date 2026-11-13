@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "69b666ba-3f76-507d-af8b-623b0113d830",
+  "rev": 1,
+  "statement": "**«La literatura nos hace sentir lo que nunca hemos vivido.» Analice cómo consiguen dos de las obras que ha estudiado que el lector comparta experiencias ajenas.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c6557927-9caf-5c27-a734-d545a6d73f69"
+  ],
+  "tags": [
+    "experiencia del lector",
+    "emoción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar los recursos que generan empatía o identificación: punto de vista, detalles concretos, voz íntima, estructura, silencios. **Obras adecuadas.** Obras que tratan experiencias lejanas al lector (guerra, exilio, pobreza, otras épocas). **Esquema posible.** Experiencias que transmite cada obra; recursos que producen empatía; límites de la identificación; comparación. **Cuidado con…** hablar solo de tus emociones. Explica qué técnicas las producen.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

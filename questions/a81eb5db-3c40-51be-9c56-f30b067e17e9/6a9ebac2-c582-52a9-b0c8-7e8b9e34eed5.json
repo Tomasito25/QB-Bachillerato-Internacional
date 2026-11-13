@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "6a9ebac2-c582-52a9-b0c8-7e8b9e34eed5",
+  "rev": 1,
+  "statement": "**Nana para un hijo que no duerme**\n\nDuérmete, que la noche\nya ha cerrado la tienda,\nque el sol se fue a su casa\ny no deja la cuenta.\n\nDuérmete, que yo velo.\n\nDuérmete, que mañana\nte espera un mundo entero\ncon sus charcos, sus perros,\nsus gorriones de acero.\n\nDuérmete, que yo velo.\n\nNo me preguntes cuánto\ndura la oscuridad:\ndura lo que una nana,\nlo que tardo en cantar.\n\nDuérmete, que yo velo,\naunque nadie me vele,\naunque cante tan bajo\nque la noche no me oye.\n\nDuérmete. Que yo velo.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el poema los rasgos de la canción de cuna tradicional con una voz más íntima y personal?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "nana",
+    "estribillo",
+    "cuidado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una madre o un padre canta una nana a un hijo que no se duerme. El poema adopta los rasgos de la canción popular (heptasílabos, rima asonante, estribillo), pero en las últimas estrofas deja ver el cansancio y la soledad de quien cuida.\n\n**Aspectos que conviene analizar**\n- La forma tradicional: heptasílabos, rima asonante en los pares, repetición del imperativo «Duérmete» y estribillo «que yo velo».\n- Las imágenes infantiles y juguetonas: la noche que «ha cerrado la tienda», el sol que «no deja la cuenta», los «gorriones de acero».\n- La respuesta a la pregunta del niño sobre la oscuridad: el tiempo medido por la nana.\n- El cambio de la última estrofa larga: «aunque nadie me vele», que revela la necesidad de cuidado de quien cuida.\n- La variación final del estribillo («Duérmete. Que yo velo.»), con un punto que lo convierte en promesa y en cansancio.\n- El tono: ternura, humor suave y una melancolía creciente.\n\n**Una estructura posible.** Analizar primero los rasgos de la nana y después cómo el poema los transforma en la parte final.\n\n**Cuidado con…** contar sílabas sin explicar para qué sirven el ritmo y el estribillo.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

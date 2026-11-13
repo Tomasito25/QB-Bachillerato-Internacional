@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6ad1f64e-f89a-5df4-a4bf-f1a5d94ff397",
+  "rev": 1,
+  "statement": "En una cromatografía de pigmentos, el disolvente avanza $8{,}0\\,\\text{cm}$ y una mancha amarilla avanza $7{,}6\\,\\text{cm}$. ¿Cuál es su valor de $R_f$?",
+  "explanation": "$R_f = \\dfrac{\\text{distancia del pigmento}}{\\text{distancia del disolvente}} = \\dfrac{7{,}6}{8{,}0} = 0{,}95$. Siempre es menor que 1.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "cromatografía",
+    "Rf"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:26.000Z",
+  "updatedAt": "2026-11-13T05:53:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}40$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}95$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$1{,}05$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$7{,}6$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
