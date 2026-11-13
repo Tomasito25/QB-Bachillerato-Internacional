@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ec371b3e-3024-5d86-912e-8c3effb5c497",
+  "rev": 1,
+  "statement": "¿Por qué un solo radical cloro procedente de un CFC puede destruir muchas moléculas de ozono?",
+  "explanation": "Cl• + O₃ → ClO• + O₂ y ClO• + O → Cl• + O₂: el radical cloro se recupera al final.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "radicales",
+    "ozono"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque se regenera en el ciclo de reacciones y vuelve a reaccionar: actúa como en una reacción en cadena.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque absorbe la luz visible.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque reacciona con el nitrógeno del aire.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque se transforma en ozono.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

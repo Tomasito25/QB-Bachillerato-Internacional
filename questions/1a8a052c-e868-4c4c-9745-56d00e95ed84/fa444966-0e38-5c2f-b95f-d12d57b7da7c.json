@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fa444966-0e38-5c2f-b95f-d12d57b7da7c",
+  "rev": 1,
+  "statement": "¿Cómo se llama el alcano de cinco átomos de carbono en cadena lineal?",
+  "explanation": "Met-, et-, prop-, but-, pent- y hex- indican 1 a 6 carbonos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "nomenclatura",
+    "alcanos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Propano",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Butano",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hexano",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Pentano",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

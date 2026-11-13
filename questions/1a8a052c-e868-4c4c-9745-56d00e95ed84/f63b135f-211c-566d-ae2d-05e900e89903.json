@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f63b135f-211c-566d-ae2d-05e900e89903",
+  "rev": 1,
+  "statement": "¿Cómo se llama el paso directo de sólido a gas?",
+  "explanation": "El yodo y el dióxido de carbono sólido subliman. El proceso inverso, de gas a sólido, es la deposición.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "cambios de estado",
+    "sublimación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sublimación",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Fusión",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Condensación",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Deposición",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

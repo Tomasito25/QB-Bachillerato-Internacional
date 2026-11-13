@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "f3150551-1c58-5429-baa6-0ed7f6558e56",
+  "rev": 1,
+  "statement": "Se calentaron en un recipiente cerrado $0{,}50\\,\\text{mol dm}^{-3}$ de hidrógeno y $0{,}50\\,\\text{mol dm}^{-3}$ de yodo: H₂(g) + I₂(g) ⇌ 2HI(g). En el minuto 10 se añadió más hidrógeno. Antes del minuto 10, las curvas del hidrógeno y del yodo coinciden.\n\n![Concentraciones de hidrógeno, yodo y yoduro de hidrógeno frente al tiempo; en el minuto 10 se añade hidrógeno](qbimg:d7689a8ebf55c3d0671a7ceda63fc4ca9bb374502edfe67b494c13396878dcd3)",
+  "images": [
+    {
+      "hash": "d7689a8ebf55c3d0671a7ceda63fc4ca9bb374502edfe67b494c13396878dcd3",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 25817,
+      "alt": "Concentraciones de hidrógeno, yodo y yoduro de hidrógeno frente al tiempo; en el minuto 10 se añade hidrógeno"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68",
+    "61f5bc65-5ff6-5252-9326-468fc937c57e"
+  ],
+  "tags": [
+    "datos",
+    "equilibrio",
+    "Le Châtelier"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica cómo se reconoce en la gráfica que el sistema ha alcanzado el equilibrio antes del minuto 10.",
+      "modelAnswer": "Las concentraciones de las tres sustancias dejan de cambiar (las curvas se vuelven horizontales). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la concentración de HI aumenta el doble de deprisa de lo que disminuye la de H₂ antes del minuto 10.",
+      "modelAnswer": "Por cada mol de H₂ que reacciona se forman dos moles de HI, según la ecuación. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula K con las concentraciones de equilibrio antes del minuto 10, aproximadas a $0{,}11\\,\\text{mol dm}^{-3}$ de H₂ y de I₂ y $0{,}78\\,\\text{mol dm}^{-3}$ de HI.",
+      "modelAnswer": "$K = \\dfrac{0{,}78^2}{0{,}11 \\times 0{,}11} = 50$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica los cambios que se observan después del minuto 10.",
+      "modelAnswer": "Al aumentar la concentración de H₂, el equilibrio se desplaza a la derecha para contrarrestar el cambio. (1) Se consume parte del H₂ y del I₂ y aumenta la concentración de HI hasta alcanzar un nuevo equilibrio. (1)",
+      "marks": 2
+    }
+  ]
+}

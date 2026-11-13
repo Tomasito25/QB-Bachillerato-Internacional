@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "f7a37031-3613-5cf5-aa4e-72516d8d9b05",
+  "rev": 1,
+  "statement": "Para la combustión del etano en fase gaseosa: C₂H₆(g) + 3½O₂(g) → 2CO₂(g) + 3H₂O(g). Usa la tabla.\n\n| Enlace | Entalpía media de enlace / kJ mol⁻¹ |\n|---|---|\n| H–H | 436 |\n| C–H | 414 |\n| C–C | 346 |\n| C=C | 614 |\n| O=O | 498 |\n| O–H | 463 |\n| C=O | 804 |\n| N≡N | 945 |\n| N–H | 391 |\n| Cl–Cl | 242 |\n| H–Cl | 431 |\n| Br–Br | 193 |\n| C–Br | 285 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "entalpías de enlace",
+    "combustión del etano"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía necesaria para romper los enlaces de los reactivos.",
+      "modelAnswer": "$346 + 6 \\times 414 + 3{,}5 \\times 498 = 4573\\,\\text{kJ}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la energía liberada al formar los enlaces de los productos.",
+      "modelAnswer": "$4 \\times 804 + 6 \\times 463 = 5994\\,\\text{kJ}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la entalpía de combustión del etano.",
+      "modelAnswer": "$\\Delta H = 4573 - 5994 = -1421\\,\\text{kJ mol}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "El valor experimental, con agua líquida, es de $−1560 kJ mol-1$. Explica una razón de la diferencia.",
+      "modelAnswer": "En el valor experimental el agua es líquida y su condensación libera más energía; o bien las entalpías de enlace son valores medios. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "f72498e2-21e8-5525-b2c1-40a68bd7d0e9",
+  "rev": 1,
+  "statement": "Se separó una mezcla de dos aminoácidos por cromatografía en capa fina. El frente del disolvente recorrió $6{,}0\\,\\text{cm}$. El aminoácido P recorrió $4{,}5\\,\\text{cm}$ y el Q, $1{,}8\\,\\text{cm}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "cromatografía",
+    "Rf",
+    "polaridad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el valor de $R_f$ de P y de Q.",
+      "modelAnswer": "P: $\\dfrac{4{,}5}{6{,}0} = 0{,}75$. (1) Q: $\\dfrac{1{,}8}{6{,}0} = 0{,}30$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "La fase estacionaria es polar y el disolvente, poco polar. Deduce cuál de los dos aminoácidos es más polar.",
+      "modelAnswer": "Q, (1) porque es el que más retiene la fase estacionaria polar y menos avanza. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere cómo se puede ver la posición de manchas incoloras.",
+      "modelAnswer": "Revelándolas con un reactivo que forma manchas coloreadas (como la ninhidrina con los aminoácidos) o con luz ultravioleta. (1)",
+      "marks": 1
+    }
+  ]
+}

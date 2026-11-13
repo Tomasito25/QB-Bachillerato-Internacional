@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ed2b3150-636b-5735-b3ad-1479ea8e9f84",
+  "rev": 1,
+  "statement": "¿Qué método permite separar el etanol del agua en una mezcla de ambos?",
+  "explanation": "El etanol hierve a unos $78\\,°\\text{C}$ y el agua a $100\\,°\\text{C}$; el vapor más rico en etanol se condensa y se recoge aparte.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "separación",
+    "destilación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La filtración, porque el etanol no atraviesa el papel.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La cristalización, porque el etanol forma cristales.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La destilación fraccionada, porque tienen distinto punto de ebullición.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La decantación, porque el etanol es insoluble en agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

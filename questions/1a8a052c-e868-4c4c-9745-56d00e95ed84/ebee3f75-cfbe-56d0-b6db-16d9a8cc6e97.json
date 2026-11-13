@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ebee3f75-cfbe-56d0-b6db-16d9a8cc6e97",
+  "rev": 1,
+  "statement": "¿Cuál es la concentración de iones sodio en una disolución $0{,}15\\,\\text{mol dm}^{-3}$ de sulfato de sodio, Na₂SO₄?",
+  "explanation": "Cada unidad de Na₂SO₄ aporta dos iones Na⁺: $2 \\times 0{,}15 = 0{,}30\\,\\text{mol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "concentración",
+    "iones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}075\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}15\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$0{,}30\\,\\text{mol dm}^{-3}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}45\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "fcac12f5-5838-51df-9775-e9626404c4ee",
+  "rev": 1,
+  "statement": "Para determinar la masa molar de un líquido volátil, se vaporiza una muestra en una jeringa de gases. Se obtiene: masa del líquido evaporado, $0{,}350\\,\\text{g}$; volumen del vapor, $125\\,\\text{cm}^{3}$; temperatura, $373\\,\\text{K}$; presión, $101\\,\\text{kPa}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "ecuación de los gases ideales",
+    "masa molar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la cantidad de vapor.",
+      "modelAnswer": "$n = \\dfrac{pV}{RT} = \\dfrac{101\\,000 \\times 1{,}25\\times 10^{-4}}{8{,}31 \\times 373}$ (1) $= 4{,}07\\times 10^{-3}\\,\\text{mol}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la masa molar del líquido.",
+      "modelAnswer": "$M = \\dfrac{0{,}350}{4{,}07\\times 10^{-3}} \\approx 86\\,\\text{g mol}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere por qué el valor obtenido podría ser mayor que el real.",
+      "modelAnswer": "Parte del vapor se condensa en la jeringa o el volumen se lee antes de que se evapore todo, de modo que el volumen medido es menor. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "ee985ae1-a9da-5609-aec7-de24c89012bf",
+  "rev": 1,
+  "statement": "El politetrafluoroeteno (PTFE, teflón) se obtiene a partir del tetrafluoroeteno, CF₂=CF₂.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "polímeros de adición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja o describe la unidad repetitiva del PTFE.",
+      "modelAnswer": "–CF₂–CF₂–, con enlaces sencillos entre los carbonos y los extremos abiertos para unirse a las unidades vecinas. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué este tipo de polimerización se llama de adición.",
+      "modelAnswer": "Los monómeros se unen abriendo su doble enlace, (1) sin que se libere ninguna otra molécula: el polímero contiene todos los átomos de los monómeros. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere un problema ambiental de los polímeros como el PTFE.",
+      "modelAnswer": "No son biodegradables y persisten durante siglos; si se queman pueden liberar gases tóxicos. (1)",
+      "marks": 1
+    }
+  ]
+}

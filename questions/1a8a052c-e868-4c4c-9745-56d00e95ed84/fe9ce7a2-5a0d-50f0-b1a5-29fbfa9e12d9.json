@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "fe9ce7a2-5a0d-50f0-b1a5-29fbfa9e12d9",
+  "rev": 1,
+  "statement": "Los metales tienen propiedades características que se explican con el modelo del enlace metálico.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "enlace metálico",
+    "propiedades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe el modelo del enlace metálico.",
+      "modelAnswer": "Una red regular de cationes metálicos (1) rodeados de electrones de valencia deslocalizados que se mueven por toda la red; (1) el enlace es la atracción electrostática entre ambos. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los metales conducen la electricidad.",
+      "modelAnswer": "Los electrones deslocalizados pueden moverse por la red cuando se aplica una diferencia de potencial. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué los metales son maleables.",
+      "modelAnswer": "Las capas de cationes se deslizan unas sobre otras (1) y los electrones deslocalizados siguen uniéndolas: el enlace no se rompe. (1)",
+      "marks": 2
+    }
+  ]
+}

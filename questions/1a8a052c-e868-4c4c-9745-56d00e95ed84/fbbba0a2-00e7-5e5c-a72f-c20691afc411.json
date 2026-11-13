@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "fbbba0a2-00e7-5e5c-a72f-c20691afc411",
+  "rev": 1,
+  "statement": "El propan-1-ol se puede oxidar con dicromato de potasio acidificado.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "oxidación de alcoholes",
+    "destilación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica el cambio de color que se observa.",
+      "modelAnswer": "De anaranjado a verde. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Nombra el producto que se obtiene si se destila a medida que se forma, y el que se obtiene a reflujo.",
+      "modelAnswer": "Destilando: propanal. (1) A reflujo: ácido propanoico. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la destilación inmediata permite obtener el aldehído.",
+      "modelAnswer": "El aldehído tiene un punto de ebullición menor que el alcohol y que el ácido, (1) así que sale de la mezcla antes de que se oxide más. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Predice el producto de la oxidación del propan-2-ol.",
+      "modelAnswer": "Propanona, una cetona. (1)",
+      "marks": 1
+    }
+  ]
+}

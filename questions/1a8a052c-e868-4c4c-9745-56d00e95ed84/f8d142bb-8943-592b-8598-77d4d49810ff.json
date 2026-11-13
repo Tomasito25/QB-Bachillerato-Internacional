@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f8d142bb-8943-592b-8598-77d4d49810ff",
+  "rev": 1,
+  "statement": "¿Qué ocurre con la energía al romper y al formar enlaces?",
+  "explanation": "Para separar dos átomos unidos hay que vencer su atracción. Al formarse el enlace, se libera la misma energía.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "enlaces",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las dos cosas absorben energía.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las dos cosas liberan energía.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Romper enlaces libera energía y formarlos la absorbe.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Romper enlaces absorbe energía y formarlos la libera.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
