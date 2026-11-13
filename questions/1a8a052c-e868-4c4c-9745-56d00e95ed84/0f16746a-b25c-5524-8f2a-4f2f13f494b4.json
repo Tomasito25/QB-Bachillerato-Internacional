@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "0f16746a-b25c-5524-8f2a-4f2f13f494b4",
+  "rev": 1,
+  "statement": "Las bolsas de frío instantáneo y los calentadores de manos aprovechan procesos químicos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "exotérmicas",
+    "endotérmicas",
+    "aplicaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica si cada dispositivo usa un proceso exotérmico o endotérmico, y justifica tu respuesta.",
+      "modelAnswer": "Bolsa de frío: endotérmico, porque absorbe energía del entorno y lo enfría. (1) Calentador de manos: exotérmico, porque libera energía al entorno. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué en un proceso exotérmico la entalpía del sistema disminuye.",
+      "modelAnswer": "El sistema transfiere energía al entorno, (1) así que los productos quedan con menos entalpía que los reactivos. (1)",
+      "marks": 2
+    }
+  ]
+}

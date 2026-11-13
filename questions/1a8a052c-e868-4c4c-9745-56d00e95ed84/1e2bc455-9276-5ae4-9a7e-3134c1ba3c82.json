@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "1e2bc455-9276-5ae4-9a7e-3134c1ba3c82",
+  "rev": 1,
+  "statement": "¿Qué tipo de alcohol no se oxida con dicromato de potasio acidificado?",
+  "explanation": "El carbono que lleva el –OH no tiene ningún hidrógeno que perder. Los secundarios se oxidan a cetonas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "oxidación",
+    "alcoholes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El metanol",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un alcohol secundario",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un alcohol primario",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un alcohol terciario",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

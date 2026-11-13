@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0ba723c7-8b0e-5482-a8b5-b77c65b5559d",
+  "rev": 1,
+  "statement": "¿Cuál de estos elementos es un metaloide?",
+  "explanation": "Los metaloides, como el silicio o el germanio, tienen propiedades intermedias: por ejemplo, son semiconductores.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "metaloides"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El cloro",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El sodio",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El silicio",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El hierro",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

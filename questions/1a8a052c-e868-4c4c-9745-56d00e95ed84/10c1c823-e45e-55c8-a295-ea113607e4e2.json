@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "10c1c823-e45e-55c8-a295-ea113607e4e2",
+  "rev": 1,
+  "statement": "Si K de una reacción vale aproximadamente 1, ¿qué se puede decir del equilibrio?",
+  "explanation": "Valores muy grandes indican predominio de productos y valores muy pequeños, de reactivos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "K cercana a 1"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que la reacción es muy lenta.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que solo hay productos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que solo hay reactivos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que hay cantidades comparables de reactivos y de productos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

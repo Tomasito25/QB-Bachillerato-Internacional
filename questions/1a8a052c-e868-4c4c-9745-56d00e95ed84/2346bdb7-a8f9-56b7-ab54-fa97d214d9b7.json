@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "2346bdb7-a8f9-56b7-ab54-fa97d214d9b7",
+  "rev": 1,
+  "statement": "El magnesio reacciona con el ácido clorhídrico desprendiendo hidrógeno.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "factores",
+    "teoría de colisiones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica, con la teoría de colisiones, el efecto de usar ácido más concentrado.",
+      "modelAnswer": "Hay más partículas de ácido por unidad de volumen, (1) así que los choques con la superficie del magnesio son más frecuentes y la velocidad aumenta. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica el efecto de calentar el ácido.",
+      "modelAnswer": "Las partículas se mueven más deprisa y chocan con más frecuencia, (1) y sobre todo una fracción mucho mayor de los choques supera la energía de activación. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué una cinta de magnesio reacciona más despacio que la misma masa de magnesio en polvo.",
+      "modelAnswer": "El polvo tiene más superficie de contacto con el ácido, (1) así que hay más choques por segundo. (1)",
+      "marks": 2
+    }
+  ]
+}

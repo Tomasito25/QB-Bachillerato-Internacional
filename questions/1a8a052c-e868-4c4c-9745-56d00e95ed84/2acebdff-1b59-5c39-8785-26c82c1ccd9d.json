@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "2acebdff-1b59-5c39-8785-26c82c1ccd9d",
+  "rev": 1,
+  "statement": "El cobre natural tiene dos isótopos, $^{63}\\text{Cu}$ y $^{65}\\text{Cu}$. Su masa atómica relativa es 63,55.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "masa atómica relativa",
+    "cálculo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el porcentaje de cada isótopo, tomando como masa de cada isótopo su número másico.",
+      "modelAnswer": "$63x + 65(100 - x) = 6355$. (1) $x = 72{,}5$: un 72,5 % de $^{63}\\text{Cu}$ y un 27,5 % de $^{65}\\text{Cu}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la masa atómica relativa está más cerca de 63 que de 65.",
+      "modelAnswer": "Es una media ponderada y el $^{63}\\text{Cu}$ es el isótopo más abundante. (1)",
+      "marks": 1
+    }
+  ]
+}

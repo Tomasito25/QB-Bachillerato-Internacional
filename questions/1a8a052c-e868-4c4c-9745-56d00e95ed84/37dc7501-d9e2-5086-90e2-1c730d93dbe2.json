@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "37dc7501-d9e2-5086-90e2-1c730d93dbe2",
+  "rev": 1,
+  "statement": "¿Qué es la oxidación en términos de electrones?",
+  "explanation": "Oxidación: pérdida de electrones y aumento del estado de oxidación. Reducción: ganancia de electrones y disminución del estado de oxidación.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "oxidación",
+    "reducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La pérdida de electrones",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La ganancia de electrones",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La ganancia de protones",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La pérdida de neutrones",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

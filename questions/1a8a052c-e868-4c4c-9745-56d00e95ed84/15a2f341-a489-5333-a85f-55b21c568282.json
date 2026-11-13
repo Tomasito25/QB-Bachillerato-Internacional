@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "15a2f341-a489-5333-a85f-55b21c568282",
+  "rev": 1,
+  "statement": "¿Qué ocurre en una reacción exotérmica?",
+  "explanation": "En las exotérmicas, $\\Delta H$ es negativa; los productos tienen menos entalpía que los reactivos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "exotérmicas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La variación de entalpía es positiva.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El sistema absorbe energía del entorno y la temperatura del entorno baja.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Se transfiere energía del sistema al entorno y la temperatura del entorno sube.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "No hay ninguna transferencia de energía.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

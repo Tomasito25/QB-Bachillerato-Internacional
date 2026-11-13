@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "38fa5482-ab91-52f4-b408-9d1c54e701c2",
+  "rev": 1,
+  "statement": "En la cloración del metano se detectan pequeñas cantidades de etano. ¿Cómo se forma?",
+  "explanation": "CH₃• + CH₃• → C₂H₆. Su presencia apoya el mecanismo por radicales.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "terminación",
+    "etano"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por la descomposición del CH₃Cl.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Por la unión de dos radicales metilo en una etapa de terminación.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Por la unión de dos moléculas de metano.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Por la reacción del cloro con el etano.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

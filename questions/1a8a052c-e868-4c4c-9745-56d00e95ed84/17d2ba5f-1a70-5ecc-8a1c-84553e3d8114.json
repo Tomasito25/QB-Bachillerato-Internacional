@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "17d2ba5f-1a70-5ecc-8a1c-84553e3d8114",
+  "rev": 1,
+  "statement": "Un polímero tiene la unidad repetitiva –CH₂–CH(CH₃)–. ¿Cuál es su monómero?",
+  "explanation": "Se vuelve a formar el doble enlace entre los dos carbonos de la cadena principal de la unidad. El polímero es el polipropeno.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "polímeros de adición",
+    "monómero"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Propeno, CH₂=CHCH₃",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Propano, CH₃CH₂CH₃",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Eteno, CH₂=CH₂",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Buteno, CH₂=CHCH₂CH₃",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

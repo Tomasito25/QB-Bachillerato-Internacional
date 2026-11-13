@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "0b4d488b-bb32-54e6-a259-97481f4296b2",
+  "rev": 1,
+  "statement": "Se calienta a ritmo constante una muestra de hielo desde $−20 °C$.\n\n![Curva de calentamiento de una muestra de hielo calentada a ritmo constante](qbimg:93498493339d34ef783f029ea1c331c3329c632d4bb6cdac3ec43b963b6db501)",
+  "images": [
+    {
+      "hash": "93498493339d34ef783f029ea1c331c3329c632d4bb6cdac3ec43b963b6db501",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 21934,
+      "alt": "Curva de calentamiento de una muestra de hielo calentada a ritmo constante"
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "curva de calentamiento",
+    "cambios de estado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica el estado o los estados de la sustancia en los tramos B y D.",
+      "modelAnswer": "B: sólido y líquido a la vez (fusión). (1) D: líquido y gas a la vez (ebullición). (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica, según la teoría cinético-molecular, por qué la temperatura no cambia en el tramo B.",
+      "modelAnswer": "La energía se usa en vencer las fuerzas entre las moléculas, no en aumentar su energía cinética. (1) La energía cinética media, y por tanto la temperatura, no cambia mientras dura la fusión. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere por qué el tramo D dura más que el tramo B.",
+      "modelAnswer": "Para pasar a gas hay que separar por completo las moléculas, venciendo todas las fuerzas entre ellas; hace falta más energía que para fundir. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Describe el movimiento de las partículas en el tramo C.",
+      "modelAnswer": "Las moléculas están juntas, pero se desplazan unas sobre otras, y se mueven cada vez más deprisa al subir la temperatura. (1)",
+      "marks": 1
+    }
+  ]
+}

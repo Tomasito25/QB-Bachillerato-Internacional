@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "2059ba3f-816c-56b6-803b-a8302ca352ff",
+  "rev": 1,
+  "statement": "Se disuelven $5{,}85\\,\\text{g}$ de cloruro de sodio en agua hasta completar $500{,}0\\,\\text{cm}^{3}$ de disolución.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "concentración",
+    "disoluciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la concentración de la disolución en $\\text{mol dm}^{-3}$.",
+      "modelAnswer": "$n = \\dfrac{5{,}85}{58{,}44} = 0{,}100\\,\\text{mol}$. (1) $c = \\dfrac{0{,}100}{0{,}5000} = 0{,}200\\,\\text{mol dm}^{-3}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la concentración en $\\text{g dm}^{-3}$.",
+      "modelAnswer": "$\\dfrac{5{,}85}{0{,}5000} = 11{,}7\\,\\text{g dm}^{-3}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el volumen de esta disolución que contiene $0{,}0250\\,\\text{mol}$ de iones cloruro.",
+      "modelAnswer": "$V = \\dfrac{0{,}0250}{0{,}200} = 0{,}125\\,\\text{dm}^3 = 125\\,\\text{cm}^3$. (1)",
+      "marks": 1
+    }
+  ]
+}

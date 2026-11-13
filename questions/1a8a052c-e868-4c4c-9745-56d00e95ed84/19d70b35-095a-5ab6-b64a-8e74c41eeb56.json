@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "19d70b35-095a-5ab6-b64a-8e74c41eeb56",
+  "rev": 1,
+  "statement": "Al disolver $2{,}00\\,\\text{g}$ de cloruro de amonio en $50{,}0\\,\\text{g}$ de agua, la temperatura baja de $21{,}0\\,°\\text{C}$ a $18{,}6\\,°\\text{C}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "calorimetría",
+    "disolución"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía absorbida al disolverse la sal.",
+      "modelAnswer": "$q = 50{,}0 \\times 4{,}18 \\times 2{,}4 = 502\\,\\text{J}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la variación de entalpía de disolución, en $\\text{kJ mol}^{-1}$.",
+      "modelAnswer": "$n = \\dfrac{2{,}00}{53{,}50} = 0{,}0374\\,\\text{mol}$. (1) $\\Delta H = +\\dfrac{0{,}502}{0{,}0374} = +13{,}4\\,\\text{kJ mol}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica el signo del resultado.",
+      "modelAnswer": "Es positivo porque el proceso es endotérmico: el sistema toma energía del agua, que se enfría. (1)",
+      "marks": 1
+    }
+  ]
+}

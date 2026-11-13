@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1ee421f9-10b3-55dc-979d-b3386fb2df39",
+  "rev": 1,
+  "statement": "¿Por qué los metales conducen la electricidad en estado sólido?",
+  "explanation": "Al aplicar una diferencia de potencial, los electrones fluyen a través del metal. Los cationes no se desplazan.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "conductividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque tienen moléculas polares.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque sus núcleos se desplazan.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque sus electrones deslocalizados pueden moverse por la red.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque sus iones se mueven libremente.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

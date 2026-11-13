@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "301e7c42-dd07-57f3-ae10-94c0d26898fd",
+  "rev": 1,
+  "statement": "¿Cómo cambia la curva de Maxwell-Boltzmann al aumentar la temperatura?",
+  "explanation": "El área representa el número total de partículas, que no cambia.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "Maxwell-Boltzmann",
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El máximo sube y se desplaza a energías menores.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La curva se desplaza entera hacia arriba.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El máximo se desplaza a energías mayores y baja, y la curva se ensancha; el área total no cambia.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El área bajo la curva se duplica.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

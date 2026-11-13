@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "26a82c45-b668-599c-b859-5b3d0c158159",
+  "rev": 1,
+  "statement": "Se mide la entalpía de neutralización de dos ácidos con hidróxido de sodio: con ácido clorhídrico se obtiene $−57 kJ mol-1$ y con ácido etanoico, $−55 kJ mol-1$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "neutralización",
+    "ácido débil"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación iónica de la neutralización entre un ácido fuerte y una base fuerte.",
+      "modelAnswer": "H⁺(aq) + OH⁻(aq) → H₂O(l). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Sugiere por qué la entalpía de neutralización del ácido etanoico es menos negativa.",
+      "modelAnswer": "El ácido etanoico es débil y está poco disociado: (1) parte de la energía liberada se emplea en disociarlo durante la neutralización. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica una variable que debe mantenerse igual en los dos experimentos.",
+      "modelAnswer": "Las concentraciones y volúmenes de ácido y base, o la temperatura inicial, o el tipo de calorímetro. (1)",
+      "marks": 1
+    }
+  ]
+}

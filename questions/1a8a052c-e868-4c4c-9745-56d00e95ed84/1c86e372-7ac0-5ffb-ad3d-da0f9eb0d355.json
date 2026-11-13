@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1c86e372-7ac0-5ffb-ad3d-da0f9eb0d355",
+  "rev": 1,
+  "statement": "Se hacen reaccionar $2{,}0\\,\\text{mol}$ de H₂ con $2{,}0\\,\\text{mol}$ de O₂: 2H₂ + O₂ → 2H₂O. ¿Cuál es el reactivo limitante y cuánta agua se forma?",
+  "explanation": "Para $2{,}0\\,\\text{mol}$ de H₂ solo hace falta $1{,}0\\,\\text{mol}$ de O₂: sobra oxígeno y el hidrógeno limita.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "reactivo limitante"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El H₂; se forman $2{,}0\\,\\text{mol}$ de agua.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Ninguno; se forman $2{,}0\\,\\text{mol}$ de agua.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El O₂; se forman $4{,}0\\,\\text{mol}$ de agua.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El H₂; se forman $4{,}0\\,\\text{mol}$ de agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

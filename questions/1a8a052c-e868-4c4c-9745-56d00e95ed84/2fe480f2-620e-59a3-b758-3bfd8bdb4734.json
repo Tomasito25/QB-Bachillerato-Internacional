@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "2fe480f2-620e-59a3-b758-3bfd8bdb4734",
+  "rev": 1,
+  "statement": "Un neumático se infla a $150\\,\\text{kPa}$ a $15\\,°\\text{C}$. Tras un viaje, la presión es de $165\\,\\text{kPa}$ sin cambio de volumen. ¿Cuál es la temperatura del aire del neumático?",
+  "explanation": "$T_2 = 288 \\times \\dfrac{165}{150} = 317\\,\\text{K}$, es decir, $44\\,°\\text{C}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "presión",
+    "temperatura",
+    "neumático"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$16{,}5\\,°\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$29\\,°\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$44\\,°\\text{C}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$317\\,°\\text{C}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

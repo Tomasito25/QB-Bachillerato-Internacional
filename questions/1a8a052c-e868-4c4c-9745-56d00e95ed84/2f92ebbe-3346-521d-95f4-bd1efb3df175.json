@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2f92ebbe-3346-521d-95f4-bd1efb3df175",
+  "rev": 1,
+  "statement": "¿Por qué se usa el cobre en los cables eléctricos?",
+  "explanation": "Ambas propiedades se explican por el enlace metálico.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "usos",
+    "propiedades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque tiene un punto de fusión muy bajo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque es frágil y se rompe con facilidad.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque es muy buen conductor eléctrico y es dúctil, así que se puede estirar en hilos.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque es un aislante.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

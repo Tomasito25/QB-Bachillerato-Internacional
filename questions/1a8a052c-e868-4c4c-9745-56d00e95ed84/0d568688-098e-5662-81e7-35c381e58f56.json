@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0d568688-098e-5662-81e7-35c381e58f56",
+  "rev": 1,
+  "statement": "¿Por qué no se pueden usar directamente las entalpías de enlace para una reacción en la que se forma agua líquida?",
+  "explanation": "Habría que añadir al ciclo la variación de entalpía de condensación.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "estado físico",
+    "entalpía de enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el agua líquida no tiene enlaces O–H.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el agua líquida no se puede formar en una reacción química.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque las entalpías de enlace solo valen para compuestos iónicos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque se definen para sustancias gaseosas, y la condensación del agua libera energía adicional.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

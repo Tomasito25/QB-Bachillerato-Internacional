@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "0c16efac-a698-525f-858f-9e016b6f1cc3",
+  "rev": 1,
+  "statement": "El nitrato de plata reacciona con el cloruro de sodio y precipita cloruro de plata: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "masas",
+    "relación molar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa de precipitado que se forma con $50{,}0\\,\\text{cm}^{3}$ de AgNO₃ $0{,}200\\,\\text{mol dm}^{-3}$ y exceso de cloruro de sodio.",
+      "modelAnswer": "$n = 0{,}200 \\times 0{,}0500 = 0{,}0100\\,\\text{mol}$ de AgCl. (1) $m = 0{,}0100 \\times 143{,}32 = 1{,}43\\,\\text{g}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la ecuación iónica neta de la reacción.",
+      "modelAnswer": "Ag⁺(aq) + Cl⁻(aq) → AgCl(s). (1)",
+      "marks": 1
+    }
+  ]
+}

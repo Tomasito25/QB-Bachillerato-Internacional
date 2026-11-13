@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "19ed18bf-8029-52ad-a17e-3a9bd5cb3f24",
+  "rev": 1,
+  "statement": "El hidrógeno puede obtenerse por reformado del metano con vapor o por electrólisis del agua:\n\nRuta A: CH₄ + 2H₂O → CO₂ + 4H₂\n\nRuta B: 2H₂O → 2H₂ + O₂",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "economía atómica",
+    "comparación de rutas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la economía atómica de cada ruta para obtener hidrógeno.",
+      "modelAnswer": "A: $\\dfrac{4 \\times 2{,}02}{16{,}05 + 2 \\times 18{,}02}\\times 100 = 15{,}5\\,\\%$. (1) B: $\\dfrac{2 \\times 2{,}02}{2 \\times 18{,}02}\\times 100 = 11{,}2\\,\\%$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la ruta B podría considerarse más $verde$ aunque su economía atómica sea menor.",
+      "modelAnswer": "Su subproducto es oxígeno, inofensivo, mientras que la ruta A produce CO₂. (1) Si la electricidad procede de fuentes renovables, no hay emisiones de gases de efecto invernadero. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0f2ddfcd-deaa-5a9a-8da7-87832747f3bd",
+  "rev": 1,
+  "statement": "¿Por qué aumenta la presión de un gas en un recipiente rígido al calentarlo?",
+  "explanation": "La presión se debe a los choques de las partículas con las paredes del recipiente.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "presión",
+    "teoría cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta el número de partículas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las partículas aumentan de tamaño.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las partículas se mueven más deprisa y chocan con las paredes con más frecuencia y más fuerza.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Las partículas se atraen más entre sí.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

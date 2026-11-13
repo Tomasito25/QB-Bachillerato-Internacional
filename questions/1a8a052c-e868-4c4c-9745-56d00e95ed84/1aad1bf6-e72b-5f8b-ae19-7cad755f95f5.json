@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1aad1bf6-e72b-5f8b-ae19-7cad755f95f5",
+  "rev": 1,
+  "statement": "Al disolver nitrato de amonio en agua, la temperatura baja. ¿Qué signo tiene $\\Delta H$ de la disolución?",
+  "explanation": "La disolución toma energía del agua, que se enfría.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "signo de ΔH"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Negativo: el proceso es exotérmico.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Depende de la masa de agua.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cero.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Positivo: el proceso es endotérmico.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

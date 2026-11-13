@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "1c0f86e8-8205-5320-82d4-cbb4cda3de20",
+  "rev": 1,
+  "statement": "¿Qué tipo de compuesto es la propanona, CH₃COCH₃?",
+  "explanation": "El grupo carbonilo C=O está entre dos átomos de carbono. En los aldehídos está al final de la cadena.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "grupos funcionales",
+    "cetonas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un alcohol",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una cetona",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Un aldehído",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un éster",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

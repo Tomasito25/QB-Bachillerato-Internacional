@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "0c903623-69c6-5a17-ad73-4d78682b6a77",
+  "rev": 1,
+  "statement": "Se estudian tres sólidos, A, B y C.\n\n| Sólido | Punto de fusión / °C | Conduce sólido | Conduce fundido | Soluble en agua |\n|---|---|---|---|---|\n| A | 801 | No | Sí | Sí |\n| B | 1083 | Sí | Sí | No |\n| C | 114 | No | No | No |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "propiedades",
+    "identificación de enlaces"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce el tipo de estructura de cada sólido.",
+      "modelAnswer": "A: red iónica. (1) B: red metálica. (1) C: molecular sencilla (covalente con fuerzas intermoleculares débiles). (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué A conduce fundido pero no sólido.",
+      "modelAnswer": "Fundido, sus iones pueden moverse; en el sólido están fijos en la red. (1)",
+      "marks": 1
+    }
+  ]
+}

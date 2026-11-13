@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0ed67965-beab-57cf-a397-0725dba3aa05",
+  "rev": 1,
+  "statement": "¿Qué gráfica da una recta que pasa por el origen para un gas a temperatura constante?",
+  "explanation": "Como $p = \\dfrac{k}{V}$, al representar $p$ frente a $1/V$ se obtiene una recta por el origen.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "gráficas",
+    "Boyle"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Presión frente a temperatura en °C",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Presión frente a volumen",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Volumen frente a 1/temperatura",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Presión frente a 1/volumen",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

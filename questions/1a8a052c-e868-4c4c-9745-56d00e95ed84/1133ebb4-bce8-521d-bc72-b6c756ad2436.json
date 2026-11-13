@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "1133ebb4-bce8-521d-bc72-b6c756ad2436",
+  "rev": 1,
+  "statement": "El modelo nuclear del átomo describe su estructura interna.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "estructura atómica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Completa la información de las partículas subatómicas: masa relativa, carga relativa y localización.",
+      "modelAnswer": "Protón: masa 1, carga +1, en el núcleo. (1) Neutrón: masa 1, carga 0, en el núcleo. (1) Electrón: masa unas 5 × 10⁻⁴ (casi 0), carga −1, fuera del núcleo. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Deduce el número de protones, neutrones y electrones del ion $^{40}_{20}\\text{Ca}^{2+}$.",
+      "modelAnswer": "20 protones, 20 neutrones y 18 electrones. (2; 1 si hay un error)",
+      "marks": 2
+    }
+  ]
+}

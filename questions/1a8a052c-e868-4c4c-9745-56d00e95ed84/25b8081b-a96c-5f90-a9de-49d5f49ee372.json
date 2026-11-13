@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "25b8081b-a96c-5f90-a9de-49d5f49ee372",
+  "rev": 1,
+  "statement": "¿Por qué solo se alcanza el equilibrio en un sistema cerrado?",
+  "explanation": "Por ejemplo, si el CO₂ escapa de un vaso, el carbonato de calcio y el ácido reaccionan hasta agotarse.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "sistema cerrado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque los catalizadores solo funcionan en sistemas cerrados.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque en un sistema cerrado no hay choques.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los sistemas abiertos no tienen energía.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque si los productos o reactivos escapan, la reacción inversa no puede ocurrir al mismo ritmo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

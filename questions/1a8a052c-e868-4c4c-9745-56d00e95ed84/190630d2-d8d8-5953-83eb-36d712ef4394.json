@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "190630d2-d8d8-5953-83eb-36d712ef4394",
+  "rev": 1,
+  "statement": "¿Por qué un aumento pequeño de temperatura aumenta mucho la velocidad de reacción?",
+  "explanation": "También aumenta la frecuencia de los choques, pero el efecto principal es el desplazamiento de la distribución de energías.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "temperatura",
+    "Maxwell-Boltzmann"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta mucho la fracción de partículas con energía igual o superior a la de activación.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Disminuye la energía de activación.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Se duplica el número de partículas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las partículas chocan con mejor orientación.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

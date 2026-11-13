@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "13a81c6b-a769-57f7-a0c8-6b12480ab556",
+  "rev": 1,
+  "statement": "Los iones O²⁻, F⁻, Na⁺ y Mg²⁺ tienen la misma configuración electrónica.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "radio iónico",
+    "isoelectrónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica esa configuración y el número de electrones de cada ion.",
+      "modelAnswer": "$1s^2\\,2s^2\\,2p^6$, con 10 electrones. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Ordena los iones de mayor a menor radio y explica el orden.",
+      "modelAnswer": "O²⁻ > F⁻ > Na⁺ > Mg²⁺. (1) Todos tienen 10 electrones, pero el número de protones aumenta de 8 a 12. (1) Una carga nuclear mayor atrae más a los mismos electrones y el ion es más pequeño. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el ion sodio es más pequeño que el átomo de sodio.",
+      "modelAnswer": "Pierde el electrón 3s y con él todo el tercer nivel; (1) los electrones restantes están más cerca del núcleo, que los atrae con la misma carga. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "173c07f9-cfcf-5afc-a8ad-47936a8f1879",
+  "rev": 1,
+  "statement": "El estaño de soldar es una aleación de estaño con otros metales. ¿Qué propiedad lo hace útil para soldar componentes electrónicos?",
+  "explanation": "Las aleaciones pueden tener propiedades mejores para cada uso que los metales puros.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "aleaciones",
+    "soldadura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Es muy frágil y se rompe con facilidad.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Es un polímero flexible.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Funde a una temperatura más baja que los metales que une y conduce la electricidad.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "No conduce la electricidad.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

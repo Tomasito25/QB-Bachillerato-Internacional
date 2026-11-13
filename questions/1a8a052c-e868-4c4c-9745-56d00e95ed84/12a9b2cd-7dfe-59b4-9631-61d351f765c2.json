@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "12a9b2cd-7dfe-59b4-9631-61d351f765c2",
+  "rev": 1,
+  "statement": "El boro tiene dos isótopos, $^{10}\\text{B}$ y $^{11}\\text{B}$, y su masa atómica relativa es 10,81. ¿Qué porcentaje de los átomos es $^{10}\\text{B}$?",
+  "explanation": "Si $x$ es la fracción de $^{10}\\text{B}$: $10x + 11(1 - x) = 10{,}81$, luego $x = 0{,}19$, es decir, un 19 %.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "masa atómica relativa",
+    "abundancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "81 %",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "50 %",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "19 %",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "10 %",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

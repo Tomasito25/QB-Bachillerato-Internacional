@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "28e842a2-010f-5524-b1c9-fd5941bbf64f",
+  "rev": 1,
+  "statement": "¿Cómo varía la primera energía de ionización al bajar en el grupo 1?",
+  "explanation": "Por eso la reactividad de los metales alcalinos aumenta al bajar en el grupo: pierden su electrón con más facilidad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "energía de ionización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No cambia, porque todos tienen un electrón de valencia.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Aumenta, porque los átomos son más pequeños.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Aumenta, porque aumenta la carga nuclear.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Disminuye, porque el electrón de valencia está más lejos del núcleo y más apantallado.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "1b0c78a8-48ac-5c85-98b5-0b5526f01866",
+  "rev": 1,
+  "statement": "Se colocaron trozos de metal en disoluciones de sales y se anotó si había reacción (✓) o no (✗).\n\n| | Mg(NO₃)₂ | Zn(NO₃)₂ | Cu(NO₃)₂ | AgNO₃ |\n|---|---|---|---|---|\n| Mg | — | ✓ | ✓ | ✓ |\n| Zn | ✗ | — | ✓ | ✓ |\n| Cu | ✗ | ✗ | — | ✓ |\n| Ag | ✗ | ✗ | ✗ | — |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f",
+    "43c6acc6-d7e0-5012-87b6-4717d232c022"
+  ],
+  "tags": [
+    "datos",
+    "serie de actividad",
+    "desplazamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Ordena los cuatro metales de más a menos reactivo.",
+      "modelAnswer": "Mg > Zn > Cu > Ag. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Justifica el orden con los datos.",
+      "modelAnswer": "El magnesio desplaza a los otros tres; el cinc, a dos; el cobre, a uno; la plata, a ninguno. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Escribe la ecuación iónica de la reacción entre el cobre y el nitrato de plata, e indica qué especie se reduce.",
+      "modelAnswer": "Cu + 2Ag⁺ → Cu²⁺ + 2Ag. (1) Se reducen los iones plata. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Predice qué par de metales daría el mayor voltaje en una pila, y explica tu predicción.",
+      "modelAnswer": "Magnesio y plata, (1) porque son los que están más separados en la serie de actividad. (1)",
+      "marks": 2
+    }
+  ]
+}

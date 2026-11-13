@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "3b460a11-fe12-59d2-b826-0180fdf6ee8b",
+  "rev": 1,
+  "statement": "¿Cuál es el ángulo de enlace aproximado H–O–H en el agua?",
+  "explanation": "Cuatro dominios dan 109,5°, pero los dos pares solitarios repelen más que los pares de enlace y cierran el ángulo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "VSEPR",
+    "ángulos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "104,5°",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "109,5°",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "120°",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "180°",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

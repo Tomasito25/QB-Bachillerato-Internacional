@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "32217a08-ece6-51f6-9f06-4062af51b34c",
+  "rev": 1,
+  "statement": "¿Qué tienen en común los elementos de un mismo grupo?",
+  "explanation": "Los elementos del grupo 17 tienen siete electrones de valencia (ns² np⁵).",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "grupos",
+    "electrones de valencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El mismo número de niveles de energía ocupados.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La misma masa atómica.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El mismo número de neutrones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El mismo número de electrones de valencia, y por eso propiedades químicas parecidas.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "35cd3c16-f348-5735-a039-6f5c2f1c4dd6",
+  "rev": 1,
+  "statement": "¿Cuál es el pH de una disolución con $[\\mathrm{H^+}] = 1{,}0\\times 10^{-3}\\,\\text{mol dm}^{-3}$?",
+  "explanation": "$\\text{pH} = -\\log_{10}[\\mathrm{H^+}] = -\\log_{10}(1{,}0\\times 10^{-3}) = 3{,}00$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "pH",
+    "definición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−3{,}00$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}001$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$3{,}00$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$11{,}00$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2f48d3f1-c782-5f20-82d7-f4c002764df8",
+  "rev": 1,
+  "statement": "Al representar el volumen de un gas a presión constante frente a su temperatura en grados Celsius, se obtiene una recta. ¿Dónde corta el eje de temperaturas al extrapolarla?",
+  "explanation": "Ese punto es el cero absoluto, $0\\,\\text{K}$. En la práctica, el gas se licúa antes de llegar a él.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "cero absoluto"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:44.000Z",
+  "updatedAt": "2026-11-13T05:50:44.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hacia $−273 °C$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "En $0\\,°\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hacia $−100 °C$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "No lo corta nunca",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
