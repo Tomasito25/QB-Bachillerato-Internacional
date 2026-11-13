@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c18a221c-66ab-5291-a952-c01b67c5c8ed",
+  "rev": 1,
+  "statement": "¿Qué función tienen los neumocitos de tipo II de los alvéolos?",
+  "explanation": "Los de tipo I son muy planos y forman casi toda la superficie de intercambio; los de tipo II, cúbicos, secretan el surfactante.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "neumocitos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Formar la pared fina por la que difunden los gases.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Transportar oxígeno por la sangre.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Contraerse para expulsar el aire.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Secretar un líquido con surfactante que reduce la tensión superficial y evita que los alvéolos se colapsen.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c813b92d-86b6-53d9-833a-af73b5f58b21",
+  "rev": 1,
+  "statement": "¿Qué ocurre a medida que el ribosoma avanza por el ARNm?",
+  "explanation": "Cuando llega a un codón de terminación, el polipéptido se libera.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "ribosoma",
+    "enlace peptídico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Copia el ARNm en una molécula de ADN.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Avanza base a base y une nucleótidos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Avanza codón a codón y une cada aminoácido nuevo a la cadena mediante un enlace peptídico.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Retrocede y separa los aminoácidos ya unidos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

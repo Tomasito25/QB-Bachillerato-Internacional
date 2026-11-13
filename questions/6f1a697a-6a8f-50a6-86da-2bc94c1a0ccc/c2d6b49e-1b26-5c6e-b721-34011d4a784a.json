@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c2d6b49e-1b26-5c6e-b721-34011d4a784a",
+  "rev": 1,
+  "statement": "¿Qué diferencia hay entre el nicho fundamental y el realizado?",
+  "explanation": "La competencia con otras especies suele reducir el nicho realizado a una parte del fundamental.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "nicho fundamental",
+    "nicho realizado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El fundamental es el que ocupa de día y el realizado, de noche.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Son lo mismo; solo cambia el nombre según el autor.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El fundamental es el que podría ocupar la especie sin competidores; el realizado, el que ocupa realmente.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El realizado siempre es mayor que el fundamental.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

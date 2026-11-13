@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c4e131a2-a45c-5785-955e-990c389f4a60",
+  "rev": 1,
+  "statement": "¿Cómo vuelve la sangre al corazón por las venas de las piernas, si la presión allí es baja?",
+  "explanation": "Al contraerse, los músculos de alrededor aprietan las venas; las válvulas solo dejan pasar la sangre hacia el corazón.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "venas",
+    "válvulas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las venas tienen una capa muscular gruesa que bombea la sangre.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La gravedad empuja la sangre hacia el corazón.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La sangre sube por capilaridad.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los músculos esqueléticos comprimen las venas y las válvulas impiden que la sangre retroceda.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

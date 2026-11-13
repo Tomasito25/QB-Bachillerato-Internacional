@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c3e0fa44-5806-5ed0-a83d-7c71af1d6686",
+  "rev": 1,
+  "statement": "¿Qué ocurre en la fase de la PCR en la que la mezcla se calienta a unos $95\\,°\\text{C}$?",
+  "explanation": "A unos $55\\,°\\text{C}$ se unen los cebadores y a unos $72\\,°\\text{C}$ actúa la polimerasa termoestable (*Taq*), que no se desnaturaliza a $95\\,°\\text{C}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "PCR",
+    "temperaturas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se separan las dos cadenas de ADN al romperse los puentes de hidrógeno.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Los cebadores se unen a sus secuencias complementarias.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La polimerasa añade nucleótidos a los cebadores.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La polimerasa se desnaturaliza y se detiene la reacción.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c8fbf8a1-c918-5d64-b292-0c4337ca2fd9",
+  "rev": 1,
+  "statement": "¿Por qué el suero que se administra por vía intravenosa es isotónico con la sangre?",
+  "explanation": "Se usa una disolución de cloruro de sodio del 0,9 %, aproximadamente isotónica con el plasma.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "disoluciones isotónicas",
+    "medicina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para que la sangre se diluya lo máximo posible.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para que los glóbulos rojos se hinchen y transporten más oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Para que los glóbulos rojos y otras células no ganen ni pierdan agua por ósmosis.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Para que el agua salga de las células hacia la sangre.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

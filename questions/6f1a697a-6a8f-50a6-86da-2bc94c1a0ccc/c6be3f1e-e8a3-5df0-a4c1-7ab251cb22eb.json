@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c6be3f1e-e8a3-5df0-a4c1-7ab251cb22eb",
+  "rev": 1,
+  "statement": "¿Qué fuente aporta pruebas fiables de que existe una crisis de biodiversidad?",
+  "explanation": "Los informes del IPBES reúnen y revisan datos de seguimiento a largo plazo, incluidos los de ciencia ciudadana.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "crisis de biodiversidad",
+    "pruebas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La opinión de los visitantes de un parque natural.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las noticias sobre especies que aparecen en las redes sociales.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los informes de evaluación del IPBES, basados en datos de seguimiento de muchos científicos.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El número de especies que aparecen en los libros de texto.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

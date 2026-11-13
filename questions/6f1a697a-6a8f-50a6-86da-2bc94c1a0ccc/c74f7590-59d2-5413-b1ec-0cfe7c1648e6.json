@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "c74f7590-59d2-5413-b1ec-0cfe7c1648e6",
+  "rev": 1,
+  "statement": "La temperatura del cuerpo humano se mantiene cerca de $37\\,°\\text{C}$ por retroalimentación negativa.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "termorregulación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo responde el organismo cuando la temperatura corporal baja.",
+      "modelAnswer": "Los termorreceptores informan al hipotálamo. (1) Las arteriolas de la piel se contraen (vasoconstricción) y llega menos sangre a la superficie. (1) Se tirita: los músculos se contraen y liberan calor. (1) El tejido adiposo pardo produce calor y el vello se eriza. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué este control es un ejemplo de retroalimentación negativa.",
+      "modelAnswer": "La respuesta hace subir la temperatura, en sentido contrario al cambio detectado, (1) y se detiene cuando la temperatura vuelve a su valor normal. (1)",
+      "marks": 2
+    }
+  ]
+}

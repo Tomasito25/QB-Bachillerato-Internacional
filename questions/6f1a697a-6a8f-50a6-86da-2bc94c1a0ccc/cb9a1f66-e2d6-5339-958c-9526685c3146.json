@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "cb9a1f66-e2d6-5339-958c-9526685c3146",
+  "rev": 1,
+  "statement": "¿Qué es la capacidad de carga de un ambiente?",
+  "explanation": "La limitan recursos como el alimento, el agua o el espacio, y factores como los depredadores o las enfermedades.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "capacidad de carga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El tamaño máximo de población que el ambiente puede mantener de forma sostenida.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La cantidad de especies que hay en el ambiente.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La velocidad máxima de crecimiento de una población.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El número de individuos que nacen cada año.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

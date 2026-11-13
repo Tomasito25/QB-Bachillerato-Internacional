@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c8369ede-7ce4-5232-9570-0d9901ec5747",
+  "rev": 1,
+  "statement": "¿Qué es un cariograma?",
+  "explanation": "Se fotografían los cromosomas de una célula en división, se recortan y se ordenan en parejas de homólogos por tamaño, posición del centrómero y patrón de bandas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "cariograma"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una imagen de los cromosomas de una célula ordenados por parejas según su tamaño y la posición del centrómero.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La secuencia completa de bases del ADN de un organismo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un mapa de la posición de los genes en un cromosoma.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un diagrama del árbol genealógico de una familia.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
