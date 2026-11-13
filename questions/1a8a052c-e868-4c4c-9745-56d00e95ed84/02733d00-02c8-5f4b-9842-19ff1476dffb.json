@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "02733d00-02c8-5f4b-9842-19ff1476dffb",
+  "rev": 1,
+  "statement": "¿Por qué la masa de un átomo se concentra casi por completo en el núcleo?",
+  "explanation": "El núcleo es diminuto comparado con el átomo, pero contiene casi toda su masa: por eso es tan denso.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "masa del núcleo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque protones y neutrones tienen una masa unas 1800 veces mayor que la del electrón.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque el núcleo tiene más partículas que la corteza en todos los átomos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque el núcleo ocupa casi todo el volumen del átomo.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los electrones no tienen masa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

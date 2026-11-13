@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "name": "Quimica SL IB",
+  "rev": 1,
+  "createdBy": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "units": [
+    {
+      "id": "24696eba-0d89-544d-bcca-23a383cf8251",
+      "name": "Estructura 1. Modelos de la naturaleza corpuscular de la materia",
+      "order": 0,
+      "topics": [
+        {
+          "id": "7f4ccc4a-fa62-587e-aead-3c304735dd04",
+          "name": "S1.1 Introducción a la naturaleza corpuscular de la materia",
+          "order": 0
+        },
+        {
+          "id": "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2",
+          "name": "S1.2 El átomo nuclear",
+          "order": 1
+        },
+        {
+          "id": "77eb4e70-9a26-5c01-84ef-14c89352b9b3",
+          "name": "S1.3 Configuraciones electrónicas",
+          "order": 2
+        },
+        {
+          "id": "21f331d0-a85e-52e2-be46-594c6a57bad0",
+          "name": "S1.4 Contar partículas por su masa: el mol",
+          "order": 3
+        },
+        {
+          "id": "237e5cbb-4633-5fd4-9367-7d17d97c0a6e",
+          "name": "S1.5 Gases ideales",
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "a1e6653c-9be0-579e-9231-6eb85c4d52b6",
+      "name": "Estructura 2. Modelos de enlace y estructura",
+      "order": 1,
+      "topics": [
+        {
+          "id": "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05",
+          "name": "S2.1 El modelo iónico",
+          "order": 0
+        },
+        {
+          "id": "76ea2470-e367-5808-a934-290bc93cbad3",
+          "name": "S2.2 El modelo covalente",
+          "order": 1
+        },
+        {
+          "id": "f9cf63c2-481e-5fd5-8fba-6a92a777f64b",
+          "name": "S2.3 El modelo metálico",
+          "order": 2
+        },
+        {
+          "id": "2c4801dd-b4c4-5b5d-b037-bcdd83879689",
+          "name": "S2.4 De los modelos a los materiales",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "f1a1710a-625d-5555-98a8-acd167977a32",
+      "name": "Estructura 3. Clasificación de la materia",
+      "order": 2,
+      "topics": [
+        {
+          "id": "9a308362-d1c1-5399-96e8-a8123fa5a717",
+          "name": "S3.1 La tabla periódica: clasificación de los elementos",
+          "order": 0
+        },
+        {
+          "id": "1ddf6f09-6aa3-5e67-96e2-c71456d0b549",
+          "name": "S3.2 Grupos funcionales: clasificación de los compuestos orgánicos",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "4938dbcf-d84f-5169-ae34-56402066f145",
+      "name": "Reactividad 1. ¿Qué impulsa las reacciones químicas?",
+      "order": 3,
+      "topics": [
+        {
+          "id": "c989c9c6-85e7-590c-a422-499de288c644",
+          "name": "R1.1 Medida de variaciones de entalpía",
+          "order": 0
+        },
+        {
+          "id": "a32616a1-c875-5730-9a75-f101759213b8",
+          "name": "R1.2 Ciclos de energía en las reacciones",
+          "order": 1
+        },
+        {
+          "id": "da56f932-9bdf-50d2-98da-38a96eb735cd",
+          "name": "R1.3 Energía de los combustibles",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "222b0809-bccc-546f-8723-d9c5b9135dd2",
+      "name": "Reactividad 2. ¿Cuánto, a qué velocidad y hasta dónde?",
+      "order": 4,
+      "topics": [
+        {
+          "id": "edb916f9-6eb1-5a69-8ae2-5ce87adf7862",
+          "name": "R2.1 ¿Cuánto? La cantidad de cambio químico",
+          "order": 0
+        },
+        {
+          "id": "dc6218d8-56ad-520d-ba3a-afc0b1d30c39",
+          "name": "R2.2 ¿A qué velocidad? La velocidad del cambio químico",
+          "order": 1
+        },
+        {
+          "id": "5a92b7aa-152e-5fe3-acf8-2ead44908a68",
+          "name": "R2.3 ¿Hasta dónde? El grado de cambio químico",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "ec82eacf-42e0-510c-b820-c9d921fabb8e",
+      "name": "Reactividad 3. ¿Cuáles son los mecanismos del cambio químico?",
+      "order": 5,
+      "topics": [
+        {
+          "id": "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132",
+          "name": "R3.1 Reacciones de transferencia de protones",
+          "order": 0
+        },
+        {
+          "id": "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f",
+          "name": "R3.2 Reacciones de transferencia de electrones",
+          "order": 1
+        },
+        {
+          "id": "98467dd6-4368-5c14-b437-335208a19e7c",
+          "name": "R3.3 Reacciones de compartición de electrones",
+          "order": 2
+        },
+        {
+          "id": "4a5cce8b-ad2d-582b-8067-385d6571d5b8",
+          "name": "R3.4 Reacciones de compartición de pares de electrones",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "205e6789-6b2a-597a-98d1-e1569a11c2c3",
+      "name": "Paper 1B. Preguntas basadas en datos",
+      "order": 6,
+      "topics": [
+        {
+          "id": "61f5bc65-5ff6-5252-9326-468fc937c57e",
+          "name": "DB1 Incertidumbres y errores",
+          "order": 0
+        },
+        {
+          "id": "669898f3-909c-5a48-adb4-91d0732d4315",
+          "name": "DB2 Gráficas y tratamiento de datos",
+          "order": 1
+        },
+        {
+          "id": "43c6acc6-d7e0-5012-87b6-4717d232c022",
+          "name": "DB3 Diseño experimental y variables",
+          "order": 2
+        },
+        {
+          "id": "112174ae-9d35-554b-897e-b9f59cb3e376",
+          "name": "DB4 Evaluación de métodos",
+          "order": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "072f6600-c417-5e0a-bffe-27fc6fa45e61",
+  "rev": 1,
+  "statement": "En una curva de Maxwell-Boltzmann, ¿cómo se representa el efecto de un catalizador?",
+  "explanation": "El catalizador no cambia las energías de las partículas, sino la energía que necesitan.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "catalizador",
+    "Maxwell-Boltzmann"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumentando el área bajo la curva.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Moviendo la energía de activación hacia la derecha.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Desplazando la curva hacia la derecha.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Con una energía de activación menor, situada más a la izquierda; la curva no cambia.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

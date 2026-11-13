@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "08360a30-2b0c-57ab-9fdb-d0152d8a9d95",
+  "rev": 1,
+  "statement": "El carbonato de calcio se descompone al calentarlo: CaCO₃(s) → CaO(s) + CO₂(g).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "volumen molar",
+    "estequiometría de gases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el volumen de CO₂, a $273\\,\\text{K}$ y $100\\,\\text{kPa}$, que se forma al descomponer $2{,}50\\,\\text{g}$ de CaCO₃.",
+      "modelAnswer": "$n = \\dfrac{2{,}50}{100{,}09} = 0{,}0250\\,\\text{mol}$. (1) $V = 0{,}0250 \\times 22{,}7 = 0{,}567\\,\\text{dm}^3$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el volumen del mismo gas a $298\\,\\text{K}$ y a la misma presión.",
+      "modelAnswer": "$V_2 = 0{,}567 \\times \\dfrac{298}{273} = 0{,}619\\,\\text{dm}^3$. (1)",
+      "marks": 1
+    }
+  ]
+}

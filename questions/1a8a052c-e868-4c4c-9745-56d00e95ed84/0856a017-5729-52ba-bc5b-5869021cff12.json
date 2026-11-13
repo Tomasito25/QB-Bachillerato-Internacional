@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0856a017-5729-52ba-bc5b-5869021cff12",
+  "rev": 1,
+  "statement": "Cuatro recipientes iguales contienen, a la misma presión y temperatura, hidrógeno, nitrógeno, oxígeno y dióxido de carbono. ¿Cuál contiene más masa de gas?",
+  "explanation": "Por la ley de Avogadro, los cuatro contienen el mismo número de moléculas. La masa será mayor en el gas de mayor masa molar: CO₂, con $44{,}01\\,\\text{g mol}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "ley de Avogadro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El de hidrógeno",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Todos contienen la misma masa",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El de nitrógeno",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El de dióxido de carbono",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

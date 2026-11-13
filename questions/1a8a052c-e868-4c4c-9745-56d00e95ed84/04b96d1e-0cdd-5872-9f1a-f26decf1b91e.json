@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "04b96d1e-0cdd-5872-9f1a-f26decf1b91e",
+  "rev": 1,
+  "statement": "Se midió el volumen de una muestra de aire atrapada en un tubo capilar, a presión constante, a cuatro temperaturas. La línea discontinua es la recta de ajuste prolongada.\n\n![Volumen de una muestra de aire a presión constante frente a la temperatura](qbimg:b2317e871cc83253098b5eb3b526a4d53568d7c0aa1af2edd370120f20e75914)",
+  "images": [
+    {
+      "hash": "b2317e871cc83253098b5eb3b526a4d53568d7c0aa1af2edd370120f20e75914",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 20481,
+      "alt": "Volumen de una muestra de aire a presión constante frente a la temperatura"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "ley de Charles",
+    "cero absoluto"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Estima, a partir de la gráfica, la temperatura a la que el volumen del gas sería cero.",
+      "modelAnswer": "Unos $−270 °C$ (se aceptan valores entre $−260$ y $−280 °C$). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué es necesario extrapolar la recta para obtener este valor.",
+      "modelAnswer": "No se puede medir a temperaturas tan bajas: el aire se licuaría mucho antes de llegar a ellas. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el volumen que tendría el gas a $200\\,°\\text{C}$ según la recta.",
+      "modelAnswer": "La pendiente es de unos $0{,}223\\,\\text{cm}^{3}\\,\\text{K}^{-1}$: $V = 0{,}223 \\times (200 + 273) = 105\\,\\text{cm}^3$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica, con la teoría cinético-molecular, por qué el volumen aumenta con la temperatura a presión constante.",
+      "modelAnswer": "Las partículas se mueven más deprisa y chocan con más fuerza contra las paredes. (1) Para que la presión no aumente, el gas se expande y los choques se hacen menos frecuentes. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "07fb7bf0-41fa-54af-81d1-8365b5a6fa42",
+  "rev": 1,
+  "statement": "¿Por qué la cloración del metano con luz ultravioleta produce una mezcla de productos?",
+  "explanation": "Por ejemplo, CH₃Cl + Cl• → CH₂Cl• + HCl. Además, dos radicales metilo pueden formar etano.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "mezcla de productos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el metano se descompone en carbono e hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque los radicales cloro pueden sustituir más hidrógenos y formar CH₂Cl₂, CHCl₃ y CCl₄, y en la terminación se forman otros productos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque el cloro forma iones distintos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque la luz cambia la fórmula del cloro.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

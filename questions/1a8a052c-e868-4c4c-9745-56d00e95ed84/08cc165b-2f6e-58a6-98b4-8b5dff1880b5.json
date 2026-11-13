@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "08cc165b-2f6e-58a6-98b4-8b5dff1880b5",
+  "rev": 1,
+  "statement": "¿Qué combustible fósil emite menos CO₂ por unidad de energía obtenida?",
+  "explanation": "El metano tiene la mayor proporción de hidrógeno: parte de la energía procede de formar agua en lugar de CO₂.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "combustibles fósiles",
+    "ventajas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Todos emiten lo mismo",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El carbón",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El petróleo",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El gas natural",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
