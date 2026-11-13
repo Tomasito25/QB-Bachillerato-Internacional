@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f964baf3-f907-521d-b301-75c662a4f7ab",
+  "rev": 1,
+  "statement": "¿Qué propiedad de la glucosa la hace adecuada para transportarse por la sangre?",
+  "explanation": "Sus grupos –OH forman puentes de hidrógeno con el agua, así que se disuelve en el plasma. Además es estable y libera energía al oxidarse en la respiración.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "glucosa",
+    "propiedades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Es insoluble en agua y no altera la ósmosis.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Es químicamente inestable y libera energía espontáneamente.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Es soluble en agua, porque es polar.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Es un polímero de gran tamaño.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

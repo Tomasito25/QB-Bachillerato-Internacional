@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ffa76607-c517-529a-9f31-122f7522e433",
+  "rev": 1,
+  "statement": "¿Qué ocurre durante una inspiración en reposo?",
+  "explanation": "Al aumentar el volumen, la presión en los pulmones queda por debajo de la atmosférica y el aire entra.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "inspiración",
+    "ventilación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los pulmones se expanden por sí solos gracias a sus fibras musculares.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El diafragma y los intercostales externos se contraen, el volumen del tórax aumenta y la presión interior baja.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Los músculos abdominales se contraen y empujan el aire hacia los pulmones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El diafragma se relaja y sube, y el aire entra por la mayor presión del tórax.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

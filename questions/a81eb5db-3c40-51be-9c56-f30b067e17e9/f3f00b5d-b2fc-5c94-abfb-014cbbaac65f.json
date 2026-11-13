@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "f3f00b5d-b2fc-5c94-abfb-014cbbaac65f",
+  "rev": 1,
+  "statement": "**Lengua**\n\nTengo una lengua en la boca\ny otra en la boca de mis padres,\ny otra en los libros,\ny otra en el patio del recreo,\ny todas se llaman igual.\n\nCon la primera pruebo la sal,\nme quemo con la sopa,\nsaco la lengua a mi hermano\ncuando no me ve mi madre.\n\nCon la segunda digo sal,\ndigo sopa, digo hermano,\ny mi madre me ve\naunque no esté.\n\nLa de los libros es más larga,\ntiene palabras que no muerden,\ncomo «crepúsculo» o «acaso»,\nque se quedan en el papel\ncomo mariposas clavadas.\n\nLa del patio es rápida y sucia,\nse gasta enseguida,\ncambia cada año\ncomo los zapatos.\n\nA veces, de noche,\npienso que mi lengua de carne\ny mi lengua de palabras\nson la misma cosa:\nun músculo pequeño\nque se mueve en la oscuridad\nbuscando el sabor exacto\nde lo que quiere decir.\n\n---\n\n**Pregunta guía:** ¿Cómo explora el poema los distintos sentidos de la palabra «lengua»?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "lengua",
+    "juego de palabras",
+    "cuerpo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema juega con la polisemia de «lengua»: el órgano del cuerpo y el idioma, y dentro del idioma, sus registros (familiar, literario, juvenil). La voz, aparentemente infantil o adolescente, termina uniendo los dos sentidos en una imagen sobre el acto de hablar.\n\n**Aspectos que conviene analizar**\n- La primera estrofa y su enumeración de «lenguas» que «se llaman igual»: la polisemia como punto de partida.\n- La lengua del cuerpo (probar la sal, quemarse, sacar la lengua) frente a la del lenguaje (decir sal, sopa, hermano).\n- El juego de la segunda estrofa con la madre que «me ve / aunque no esté»: el lenguaje que nombra y hace presente.\n- La lengua de los libros y la comparación de las palabras con «mariposas clavadas»: belleza y falta de vida.\n- La lengua del patio, «rápida y sucia», que cambia «como los zapatos»: el registro juvenil y efímero.\n- La estrofa final, que une ambos sentidos en la imagen del músculo que busca «el sabor exacto / de lo que quiere decir».\n\n**Una estructura posible.** Analizar cada «lengua» por estrofas y después la síntesis final, mostrando cómo el juego de palabras se convierte en reflexión sobre el lenguaje.\n\n**Cuidado con…** tratar el poema como un simple juego. El final le da una dimensión reflexiva.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

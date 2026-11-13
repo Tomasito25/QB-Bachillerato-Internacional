@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fea63786-dc9c-558f-bffe-4c35e6df50c7",
+  "rev": 1,
+  "statement": "¿Qué estudia la fenología?",
+  "explanation": "El cambio climático puede desajustar fenómenos que antes coincidían, como la eclosión de los pollos y el máximo de orugas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "fenología",
+    "sincronía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La composición química de la atmósfera.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La forma de las hojas de las plantas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El momento en que ocurren fenómenos biológicos periódicos, como la floración, la migración o la puesta de huevos.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El número de cromosomas de las especies.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

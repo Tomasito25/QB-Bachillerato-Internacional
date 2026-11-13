@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "f9a58158-df13-5ceb-a310-b87e6b94d821",
+  "rev": 1,
+  "statement": "Muchos científicos consideran que la Tierra atraviesa una crisis de biodiversidad causada por las actividades humanas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "crisis de biodiversidad",
+    "causas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe tres causas de esta crisis.",
+      "modelAnswer": "Pérdida y fragmentación de hábitats por la agricultura o la urbanización. (1) Sobreexplotación, como la caza o la sobrepesca. (1) Especies invasoras, contaminación o cambio climático (una de ellas). (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica cómo puede contribuir la ciencia ciudadana a detectar la crisis.",
+      "modelAnswer": "Miles de voluntarios registran observaciones en muchos lugares y durante años. (1) Así se obtienen datos de seguimiento a una escala que los científicos no podrían cubrir solos, y se detectan las tendencias de las poblaciones. (1)",
+      "marks": 2
+    }
+  ]
+}

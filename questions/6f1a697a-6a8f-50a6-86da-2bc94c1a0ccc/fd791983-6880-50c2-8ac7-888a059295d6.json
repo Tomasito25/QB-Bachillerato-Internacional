@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "fd791983-6880-50c2-8ac7-888a059295d6",
+  "rev": 1,
+  "statement": "¿Cuál de estos factores limita el crecimiento de una población con más fuerza cuanto mayor es su densidad?",
+  "explanation": "Con más individuos juntos, los contagios son más fáciles. Los fenómenos meteorológicos afectan igual sea cual sea la densidad.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "factores dependientes de la densidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La transmisión de una enfermedad infecciosa.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Un incendio forestal.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una helada intensa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una inundación.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

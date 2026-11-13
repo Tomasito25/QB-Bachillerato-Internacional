@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "f66c54bc-b115-5836-aab7-97f56714ceca",
+  "rev": 1,
+  "statement": "¿Cómo se especializan las células de un embrión, si todas tienen los mismos genes?",
+  "explanation": "Todas las células del organismo conservan el genoma completo; lo que cambia es qué genes se activan en cada una.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "diferenciación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por mutaciones distintas en cada tipo de célula.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Recibiendo genes nuevos de las células vecinas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Por diferenciación: cada tipo celular expresa un conjunto distinto de genes.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Perdiendo los genes que no necesita.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

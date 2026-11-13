@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "fe70ce70-9650-52af-a40f-41f2b1da4532",
+  "rev": 1,
+  "statement": "**Elogio de los mapas de papel**\n\nEn la guantera del coche de mi padre siempre había un mapa de carreteras, doblado de tantas maneras distintas que ya no se podía doblar de ninguna. Tenía manchas de café, una ruta marcada a bolígrafo hacia una playa del sur y, en una esquina, el número de teléfono de alguien que nunca supimos quién era.\n\nMi padre no se perdía nunca. O se perdía mucho, según cómo se mire. Porque con un mapa de papel uno no sigue una línea azul que se recalcula sola: uno decide. Elige una carretera secundaria porque el nombre de un pueblo le hace gracia, se equivoca en un cruce y descubre un río que no estaba en el plan, para a preguntar en una gasolinera y acaba hablando media hora con un desconocido sobre la cosecha de ese año.\n\nHoy llevamos en el bolsillo un mapa que sabe dónde estamos en cada momento. Es una maravilla y no tengo intención de renunciar a él. Pero me pregunto qué hemos perdido al ganar esa precisión. El navegador nos dice adónde ir, pero no nos dice dónde estamos en un sentido más amplio: qué hay alrededor, qué montaña se ve a la izquierda, qué distancia real separa una ciudad de otra. Vamos de un punto a otro como quien viaja dentro de un túnel.\n\nEl mapa de papel, en cambio, obliga a mirar el conjunto. Para encontrar una carretera hay que ver primero la provincia entera, los ríos, las sierras, los pueblos que no vamos a visitar. Es una lección de humildad: el lugar al que vamos es solo un punto pequeño en un territorio mucho más grande.\n\nCuando murió mi padre, en su coche encontramos el mapa. No lo tiramos. Está ahora en mi guantera, igual de mal doblado. No lo uso nunca. Pero a veces, en un atasco, lo abro un poco y busco el número de teléfono de la esquina. Todavía no me he atrevido a llamar.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el texto el recuerdo familiar y la reflexión sobre la tecnología?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "ensayo",
+    "mapas",
+    "orientación",
+    "tecnología"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Ensayo personal que parte del mapa de carreteras del padre para comparar la orientación con mapas de papel y con navegadores. El autor no rechaza la tecnología, pero reivindica lo que el mapa enseñaba: decidir, perderse, mirar el conjunto. El final vuelve al recuerdo del padre fallecido.\n\n**Aspectos que conviene analizar**\n- La descripción del mapa como objeto con historia: los dobleces, las manchas, la ruta, el número de teléfono misterioso.\n- La paradoja del padre que «no se perdía nunca. O se perdía mucho» y la enumeración de lo que permite perderse.\n- La concesión («Es una maravilla y no tengo intención de renunciar a él»), que da equilibrio al argumento.\n- La metáfora del viaje «dentro de un túnel» frente a la visión del conjunto que exige el mapa de papel.\n- La «lección de humildad»: el destino como un punto pequeño en un territorio grande.\n- El final emotivo: el mapa heredado, nunca usado, y el número al que no se atreve a llamar, que deja abierto el misterio.\n\n**Una estructura posible.** Analizar el recuerdo inicial, la argumentación central y el final, mostrando cómo lo personal y lo general se refuerzan.\n\n**Cuidado con…** tratar el texto como una crítica de la tecnología. Su postura es matizada.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

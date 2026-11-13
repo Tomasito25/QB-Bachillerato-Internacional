@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ffe8c1aa-64d7-52c2-8c63-69a9a36c7a2f",
+  "rev": 1,
+  "statement": "La sirena de la fábrica sonó a las siete, como todos los días desde hacía cincuenta y tres años, pero esa mañana nadie entró. Los trescientos obreros se quedaron fuera, delante de la verja, con las manos en los bolsillos y el aliento convertido en vapor por el frío de febrero.\n\nNo hubo gritos. Eso es lo que más sorprendió a los periodistas que llegaron a media mañana, con sus cámaras y sus preguntas. Esperaban pancartas, consignas, alguna rueda quemada. Encontraron a un grupo de hombres y mujeres que hablaban en voz baja, compartían termos de café y se turnaban para ir a buscar a los niños al colegio.\n\nLa carta de la dirección había llegado el viernes: la empresa se trasladaba a otro país, donde los costes eran menores. Habría indemnizaciones, decía la carta, en un lenguaje tan correcto que costaba entender que estaba hablando de cerrar un pueblo.\n\nPorque el pueblo era la fábrica. La fábrica había construido el colegio, el campo de fútbol, las casas de la calle de arriba, donde todavía vivían los jubilados que habían entrado en ella con catorce años. Sin la fábrica, el pueblo era una carretera con un bar.\n\nAl mediodía apareció Eusebio, el más viejo de todos, el que había entrado el primer día de la fábrica y la había visto crecer. Tenía noventa años y llegó del brazo de su nieta. No dijo nada. Se acercó a la verja, puso la mano sobre el hierro frío, como quien toca el hombro de un amigo enfermo, y se quedó allí, quieto.\n\nLos periodistas lo fotografiaron. Esa foto salió al día siguiente en todos los periódicos. Pero ninguno explicó lo que todos los que estaban allí entendieron sin necesidad de palabras: que Eusebio no estaba protestando. Se estaba despidiendo.\n\n---\n\n**Pregunta guía:** ¿Cómo representa el fragmento el cierre de la fábrica como una pérdida colectiva?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "fábrica",
+    "huelga",
+    "comunidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una fábrica anuncia su traslado a otro país y los trabajadores se quedan ante la verja en una protesta silenciosa. El relato muestra que la fábrica era el centro de la vida del pueblo y culmina con el gesto de despedida de su trabajador más antiguo.\n\n**Aspectos que conviene analizar**\n- La sirena que suena como siempre y la ruptura de la rutina («esa mañana nadie entró»).\n- El contraste entre lo que esperaban los periodistas (pancartas, ruedas quemadas) y la protesta silenciosa y solidaria.\n- La crítica del lenguaje empresarial: la carta «tan correcta» que habla de «cerrar un pueblo».\n- La identificación del pueblo con la fábrica y la imagen final del pueblo como «una carretera con un bar».\n- El personaje de Eusebio y su gesto de tocar la verja «como quien toca el hombro de un amigo enfermo».\n- El final: la diferencia entre lo que muestran los medios y lo que entiende la comunidad; la despedida frente a la protesta.\n\n**Una estructura posible.** Analizar el texto en tres planos (la comunidad, la empresa y los medios) y mostrar cómo el gesto de Eusebio los resume.\n\n**Cuidado con…** convertir el análisis en un comentario económico. Analiza cómo el texto construye la emoción colectiva.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

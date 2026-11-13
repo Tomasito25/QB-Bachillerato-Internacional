@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "eafc338b-c9bc-5ede-b1de-fa5d5a3fa35f",
+  "rev": 1,
+  "statement": "¿Por qué es ventajoso que las enzimas digestivas de la célula estén dentro de los lisosomas?",
+  "explanation": "La membrana del lisosoma mantiene las enzimas y su pH ácido aislados del resto de la célula, que de otro modo sería digerida.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "bf2643fa-9f67-5534-af0a-ee6f0bfc7246"
+  ],
+  "tags": [
+    "lisosomas",
+    "compartimentación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque así pueden salir de la célula por difusión.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque así funcionan a un pH igual al del citosol.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque así se concentran y no dañan otras moléculas y estructuras del citoplasma.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque así se fabrican más deprisa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

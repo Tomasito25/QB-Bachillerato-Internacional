@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "ec7ae381-682e-5554-af50-eacbc4c88cd9",
+  "rev": 1,
+  "statement": "La concentración de glucosa en la sangre se mantiene entre unos $4$ y $8\\,\\text{mmol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "glucosa",
+    "insulina",
+    "glucagón"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se regula la glucosa en sangre después de una comida rica en glúcidos.",
+      "modelAnswer": "La glucosa absorbida aumenta su concentración en la sangre. (1) Las células beta de los islotes del páncreas secretan insulina. (1) Las células del hígado y de los músculos absorben glucosa y la convierten en glucógeno. (1) La glucosa en sangre baja hasta su valor normal. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica el papel del glucagón.",
+      "modelAnswer": "Cuando la glucosa baja, las células alfa del páncreas secretan glucagón, (1) que hace que el hígado degrade el glucógeno y libere glucosa a la sangre. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fd21e2db-9baa-580e-bb22-7c329ddabe13",
+  "rev": 1,
+  "statement": "Las alas de las aves y las de los insectos sirven para volar, pero tienen una estructura y un origen muy diferentes. ¿Qué explica su semejanza?",
+  "explanation": "Son estructuras análogas: tienen la misma función, pero un origen evolutivo independiente.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "evolución convergente",
+    "estructuras análogas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que heredaron las alas de un antepasado común que ya volaba.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La evolución convergente: presiones de selección parecidas producen soluciones parecidas en linajes no emparentados.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Que los insectos descienden de las aves.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que son estructuras homólogas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

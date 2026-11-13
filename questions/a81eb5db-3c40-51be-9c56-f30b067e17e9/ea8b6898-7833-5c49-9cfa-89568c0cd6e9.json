@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ea8b6898-7833-5c49-9cfa-89568c0cd6e9",
+  "rev": 1,
+  "statement": "Seiscientos kilómetros. Es lo que hay desde la ciudad hasta el pueblo donde enterraron al abuelo, y es la primera vez que Pedro y su padre los recorren juntos, solos, sin la madre que llenaba los silencios con preguntas y bocadillos.\n\nDurante la primera hora no hablan. El padre conduce con las dos manos en el volante, como le enseñaron en la autoescuela hace cuarenta años, y Pedro mira el móvil, que pierde la cobertura en cada túnel. La radio pone canciones que ninguno de los dos elegiría.\n\nEn la gasolinera de Medinaceli, el padre compra dos cafés y una bolsa de pipas. Pedro no come pipas desde que tenía diez años. Las come. El padre escupe las cáscaras por la ventanilla, con una puntería que Pedro no recordaba, y Pedro hace lo mismo, y fallan los dos, y las cáscaras vuelven a entrar con el aire. Se ríen. Es una risa corta, sorprendida, como si se hubieran encontrado por la calle sin esperarlo.\n\n—Tu abuelo hacía esto —dice el padre—. En el camión. Yo iba en medio, encima del motor, y me caían todas las cáscaras encima.\n\nEs la frase más larga que le ha oído sobre el abuelo en toda su vida.\n\nDespués vuelven a callarse, pero el silencio es otro. Más ancho. Pedro deja el móvil en la guantera. Mira el paisaje, que se va volviendo amarillo y llano, y piensa que quizá su padre es así porque el abuelo era así, y que quizá él también será así, un hombre que conduce con las dos manos y que dice las cosas importantes con una bolsa de pipas.\n\nAl llegar al pueblo, el padre aparca frente al cementerio y no apaga el motor. Se quedan un rato dentro del coche, escuchando la radio que nadie ha elegido.\n\n—¿Bajamos? —pregunta Pedro.\n\n—Bajamos —dice el padre. Y no se mueve.\n\nPedro tampoco.\n\n---\n\n**Pregunta guía:** ¿Cómo se construye en el fragmento la relación entre padre e hijo a través del silencio y los pequeños gestos?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "padre e hijo",
+    "viaje",
+    "silencio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un padre y su hijo viajan solos al pueblo donde enterraron al abuelo. Casi no hablan, pero una bolsa de pipas despierta un recuerdo compartido y cambia el silencio entre ellos. El relato muestra una forma masculina y contenida de expresar el afecto, transmitida de generación en generación.\n\n**Aspectos que conviene analizar**\n- La ausencia de la madre, que «llenaba los silencios», y el silencio inicial con la radio y el móvil como barreras.\n- Los gestos como caracterización: conducir «con las dos manos», la puntería con las cáscaras.\n- La escena de las pipas: el juego compartido, la risa «sorprendida» y la comparación con un encuentro inesperado por la calle.\n- El recuerdo del abuelo en el camión: tres generaciones unidas por un gesto, y la frase «la más larga» que ha oído sobre él.\n- El cambio del silencio («Más ancho») y la reflexión de Pedro sobre la herencia.\n- El final: el coche parado frente al cementerio, la repetición de «Bajamos» y la inmovilidad compartida, que expresa el duelo sin palabras.\n\n**Una estructura posible.** Seguir el viaje en tres momentos (silencio, pipas y recuerdo, llegada) y analizar cómo cambia la relación sin que apenas se hable.\n\n**Cuidado con…** rellenar con explicaciones lo que el texto deja en silencio. Analiza cómo lo sugiere.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

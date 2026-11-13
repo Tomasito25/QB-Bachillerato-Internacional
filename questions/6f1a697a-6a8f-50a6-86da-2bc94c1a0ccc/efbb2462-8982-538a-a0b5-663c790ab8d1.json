@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "efbb2462-8982-538a-a0b5-663c790ab8d1",
+  "rev": 1,
+  "statement": "¿Qué músculos se contraen en una espiración forzada?",
+  "explanation": "En reposo la espiración es pasiva. Al forzarla, los intercostales internos bajan las costillas y los abdominales empujan el diafragma hacia arriba.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "espiración forzada"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los intercostales internos y los músculos de la pared abdominal.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Solo el diafragma.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Ninguno: la espiración siempre es pasiva.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los intercostales externos y el diafragma.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ff90571e-17e9-5798-8752-54bc650ad8a0",
+  "rev": 1,
+  "statement": "¿Cuál de estas medidas es de conservación *ex situ*?",
+  "explanation": "*Ex situ* significa fuera del hábitat natural: bancos de semillas, jardines botánicos o zoológicos. Las otras medidas protegen las especies en su hábitat (*in situ*).",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "conservación ex situ"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Crear una reserva natural.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Prohibir la caza en un parque nacional.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Restaurar un humedal degradado.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Guardar semillas en un banco de germoplasma.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
