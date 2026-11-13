@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "20f3909d-6532-5826-9a9d-0b4a2b8e08a7",
+  "rev": 1,
+  "statement": "¿Por qué los fragmentos de ADN avanzan hacia el polo positivo en una electroforesis en gel?",
+  "explanation": "Los fragmentos más pequeños se mueven más deprisa entre los poros del gel y llegan más lejos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "electroforesis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el gel los empuja por presión.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque tienen carga positiva debida a sus bases.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque son atraídos por el colorante del gel.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque tienen carga negativa debida a sus grupos fosfato.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

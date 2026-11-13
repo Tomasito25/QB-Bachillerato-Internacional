@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "25ce6252-8623-5529-8b45-e3e71d0348d6",
+  "rev": 1,
+  "statement": "Los pulmones humanos tienen unos 300 millones de alvéolos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "pulmones",
+    "alvéolos",
+    "adaptaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo están adaptados los pulmones para el intercambio de gases.",
+      "modelAnswer": "Muchos alvéolos dan una superficie enorme. (1) La pared del alvéolo y la del capilar son muy delgadas: la distancia de difusión es corta. (1) Una densa red de capilares rodea cada alvéolo y la sangre circula de forma continua. (1) El surfactante mantiene la superficie húmeda y evita que los alvéolos se colapsen. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Indica por qué los bronquiolos están muy ramificados.",
+      "modelAnswer": "Para llevar el aire a todos los alvéolos repartidos por el pulmón. (1)",
+      "marks": 1
+    }
+  ]
+}

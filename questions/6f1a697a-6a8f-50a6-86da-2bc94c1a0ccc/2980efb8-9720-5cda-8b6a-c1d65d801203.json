@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2980efb8-9720-5cda-8b6a-c1d65d801203",
+  "rev": 1,
+  "statement": "En la inmunofluorescencia se usan anticuerpos unidos a moléculas fluorescentes. ¿Para qué sirve?",
+  "explanation": "Cada anticuerpo se une de forma específica a su antígeno. Al iluminar la muestra, la fluorescencia señala dónde está esa proteína.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "inmunofluorescencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para localizar en la célula una proteína concreta, a la que se une el anticuerpo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Para teñir por igual todas las estructuras de la célula.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Para aumentar la resolución del microscopio electrónico.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para congelar la muestra sin que se formen cristales de hielo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

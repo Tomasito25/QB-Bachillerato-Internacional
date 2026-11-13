@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "1ce47cab-094e-5c2f-b126-1edd7793852e",
+  "rev": 1,
+  "statement": "La pesca puede ser sostenible o agotar las poblaciones de peces.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "pesca sostenible"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué significa que la explotación de un recurso sea sostenible.",
+      "modelAnswer": "Que se extrae a un ritmo que no supera la capacidad de la población para reponerse, (1) de modo que se puede mantener indefinidamente. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe dos medidas para que la pesca sea sostenible.",
+      "modelAnswer": "Dos de: cuotas de captura basadas en estimaciones de la población; tamaño mínimo de captura y mallas mayores; vedas en la época de reproducción; reservas marinas. (2)",
+      "marks": 2
+    }
+  ]
+}

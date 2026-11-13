@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "227ff2c8-9adf-5a7c-aba4-5f2c3a505292",
+  "rev": 1,
+  "statement": "¿Qué ocurre cuando el ATP se hidroliza a ADP y fosfato?",
+  "explanation": "La hidrólisis del ATP libera energía; para regenerar ATP a partir de ADP y fosfato hace falta energía, que procede de la respiración.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "ATP",
+    "ADP"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se libera oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se libera energía que la célula puede usar.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Se forma glucosa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se absorbe energía, que queda almacenada en el ADP.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2111fcc2-b2f4-55ed-b118-7b01c1727962",
+  "rev": 1,
+  "statement": "Con la tabla de codones, ¿qué secuencia de aminoácidos codifica el ARNm AUGUUUGAGUGGUAA?\n\n| Codón | Aminoácido |\n|---|---|\n| AUG | Met (inicio) |\n| UUU, UUC | Phe |\n| GAA, GAG | Glu |\n| GUA, GUG | Val |\n| AAA, AAG | Lys |\n| UGG | Trp |\n| GGU, GGC | Gly |\n| CAU, CAC | His |\n| UAA, UAG, UGA | Fin |",
+  "explanation": "Se lee de tres en tres desde el codón de inicio: AUG (Met), UUU (Phe), GAG (Glu), UGG (Trp) y UAA, que indica el final.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "código genético",
+    "tabla"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Met–Phe–Glu–Trp–Fin–Lys",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Phe–Glu–Trp–Met",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Met–Lys–Glu–Trp",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Met–Phe–Glu–Trp",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

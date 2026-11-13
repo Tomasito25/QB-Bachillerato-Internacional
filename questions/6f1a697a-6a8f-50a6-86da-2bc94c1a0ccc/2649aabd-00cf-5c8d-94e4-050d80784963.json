@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "2649aabd-00cf-5c8d-94e4-050d80784963",
+  "rev": 1,
+  "statement": "¿Qué ventaja supone la compartimentación de las células eucariotas en orgánulos con membrana?",
+  "explanation": "Separar procesos en orgánulos permite concentrar enzimas y sustratos, mantener condiciones distintas (como el pH de los lisosomas) y aislar sustancias que dañarían el resto de la célula.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "compartimentación",
+    "eucariotas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hace que todas las reacciones ocurran en el mismo espacio y más deprisa.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Permite que la célula prescinda de ribosomas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Evita que la célula necesite membrana plasmática.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Permite mantener en cada compartimento las condiciones y enzimas adecuadas para procesos concretos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

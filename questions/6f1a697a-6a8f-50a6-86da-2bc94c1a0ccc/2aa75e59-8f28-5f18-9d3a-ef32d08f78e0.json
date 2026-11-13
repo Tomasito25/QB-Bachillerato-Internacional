@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2aa75e59-8f28-5f18-9d3a-ef32d08f78e0",
+  "rev": 1,
+  "statement": "¿Qué es la selección natural?",
+  "explanation": "Es el mecanismo principal del cambio evolutivo.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "selección natural"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La elección de los mejores animales por parte de los ganaderos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El proceso por el que los individuos mejor adaptados sobreviven y se reproducen más, de modo que sus alelos se hacen más frecuentes.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La aparición de mutaciones cuando el organismo las necesita.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El cambio de un individuo durante su vida para adaptarse al ambiente.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

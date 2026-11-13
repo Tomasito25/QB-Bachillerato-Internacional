@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "1c45b413-8339-5afb-a36f-500da2c25cab",
+  "rev": 1,
+  "statement": "**Se busca héroe**\n\n*Una oficina de recursos humanos, moderna y fría. La SELECCIONADORA, con una tableta. Frente a ella, el CANDIDATO, con mallas, capa y un antifaz que se recoloca constantemente.*\n\nSELECCIONADORA.—Bien. He leído su currículum. Vuela, tiene fuerza sobrehumana y visión de rayos X.\n\nCANDIDATO.—Y soy puntual.\n\nSELECCIONADORA.—Eso no lo pone.\n\nCANDIDATO.—Me pareció obvio. Llego volando.\n\nSELECCIONADORA.—*(Teclea.)* Experiencia previa.\n\nCANDIDATO.—Doce años salvando la ciudad. Incendios, atracos, un meteorito.\n\nSELECCIONADORA.—¿Con contrato?\n\nCANDIDATO.—*(Desconcertado.)* Con… ¿contrato?\n\nSELECCIONADORA.—Entonces no cuenta como experiencia laboral. *(Teclea.)* ¿Habla inglés?\n\nCANDIDATO.—Hablo con los pájaros.\n\nSELECCIONADORA.—No pregunto eso. *(Pausa.)* Mire, le voy a ser sincera. El perfil es muy completo, pero buscamos a alguien que encaje en un equipo. Usted parece muy… individual.\n\nCANDIDATO.—¡Salvo a la gente!\n\nSELECCIONADORA.—Sin coordinarse con nadie. Sin informes. Sin objetivos trimestrales. *(Lee.)* Aquí dice que el año pasado detuvo un tren con las manos. ¿Calculó el impacto en la puntualidad del resto de la línea?\n\nCANDIDATO.—Iba a descarrilar.\n\nSELECCIONADORA.—Eso dice usted. *(Cierra la tableta.)* Le llamaremos.\n\n*El CANDIDATO se levanta, abatido. Se dirige a la ventana para salir volando. Se detiene.*\n\nCANDIDATO.—¿Y usted? ¿Usted a quién ha salvado?\n\nSELECCIONADORA.—*(Tras una pausa larga, sin levantar la vista.)* A esta empresa. De gente como usted.\n\n*El CANDIDATO salta por la ventana. Se oye un viento fuerte. La SELECCIONADORA, sola, mira la ventana abierta un momento. Luego la cierra y anota algo en la tableta.*\n\n---\n\n**Pregunta guía:** ¿Cómo utiliza la escena el humor y el absurdo para criticar el mundo laboral?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "comedia",
+    "sátira",
+    "trabajo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un superhéroe acude a una entrevista de trabajo y fracasa porque sus hazañas no encajan en los criterios de una empresa: contratos, informes, objetivos. La comedia absurda revela la deshumanización de ciertos procesos de selección.\n\n**Aspectos que conviene analizar**\n- El contraste visual y verbal entre el disfraz del candidato y la oficina «moderna y fría».\n- Los malentendidos cómicos: la puntualidad «obvia» porque llega volando, hablar «con los pájaros» en lugar de inglés.\n- La lógica burocrática aplicada a lo heroico: la experiencia sin contrato no cuenta, el impacto del tren en la puntualidad.\n- El lenguaje empresarial («encaje en un equipo», «objetivos trimestrales», «Le llamaremos») convertido en parodia.\n- La pregunta final del candidato y la respuesta de la seleccionadora, que da un giro serio y amargo.\n- La última acotación: la ventana abierta que ella mira y cierra, un instante de duda que no cambia nada.\n\n**Una estructura posible.** Analizar la escena como una sucesión de choques entre dos lenguajes (el heroico y el empresarial) y terminar con el giro final.\n\n**Cuidado con…** explicar los chistes. Analiza qué critican y con qué técnicas.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

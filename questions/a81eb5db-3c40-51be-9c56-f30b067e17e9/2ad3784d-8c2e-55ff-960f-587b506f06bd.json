@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "2ad3784d-8c2e-55ff-960f-587b506f06bd",
+  "rev": 1,
+  "statement": "**Coplas de la espera**\n\nMe dijiste que volvías\ncon las flores del almendro;\nya ha florecido tres veces\ny aún te espero en el huerto.\n\nLa pena que yo me tengo\nno la sabe nadie, nadie:\nse la cuento a la almohada\ny la lloro por la calle.\n\nDicen que el tiempo lo cura\ntodo, como el agua al barro;\nel tiempo no cura nada:\nsolo te enseña a llevarlo.\n\nSi alguien un día pregunta\npor quien te esperaba en vano,\ndile que el almendro sabe\nlo que yo me fui callando.\n\n---\n\n**Pregunta guía:** ¿Cómo aprovecha el poema la forma popular de la copla para expresar la pena y el paso del tiempo?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "copla",
+    "tradición popular",
+    "espera"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Cuatro coplas, estrofas de la tradición oral (cuatro octosílabos con rima asonante en los pares), expresan la pena de una voz que espera a alguien que prometió volver. La sencillez de la forma contiene un dolor que se dice a medias.\n\n**Aspectos que conviene analizar**\n- La forma: octosílabos, asonancia, independencia de cada copla y tono sentencioso, propios de la lírica popular (como en el flamenco).\n- El almendro como reloj y como testigo: florece tres veces (el tiempo de la espera) y al final «sabe» lo que la voz calla.\n- La repetición enfática («nadie, nadie») y la pena escondida (la almohada, el llanto por la calle).\n- La refutación del tópico «el tiempo lo cura todo» y la comparación del agua con el barro: el tiempo no cura, enseña a cargar con el dolor.\n- El destinatario ambiguo de la última copla («dile»), que convierte el poema en mensaje para el ausente.\n- El verbo final «callando»: la espera como silencio prolongado.\n\n**Una estructura posible.** Analizar cada copla como una unidad con su propio giro y después la progresión del conjunto: la espera, la pena oculta, la sabiduría amarga y el mensaje final.\n\n**Cuidado con…** contar sílabas sin explicar cómo la forma popular contribuye a la emoción.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "1dc95243-7623-5b6f-8306-5bd8e231fdab",
+  "rev": 1,
+  "statement": "**El jilguero del vecino**\n\nEl vecino del tercero tiene un jilguero\nen una jaula colgada en la terraza.\nCanta por las mañanas, a las ocho,\ncuando salgo de casa,\ny yo me paro en la acera\ncomo si me hubieran llamado por mi nombre.\n\nDurante años pensé que cantaba\nporque era feliz.\nDespués leí que los jilgueros\ncantan para marcar su territorio,\npara buscar pareja,\npara decir aquí estoy\na otros jilgueros que no vienen.\n\nDesde entonces el canto me suena distinto.\nMe suena a teléfono que no contesta nadie,\na carta que se echa al buzón equivocado,\na mí, algunas noches,\nhablando sola en la cocina.\n\nEl vecino es un buen hombre.\nLe cambia el agua, le pone alpiste,\nle tapa la jaula cuando hace frío.\nLe quiere, a su manera.\n\nEl jilguero canta igual.\nYo me paro igual en la acera.\nLo único que ha cambiado\nes que ya no sé\nsi lo que oigo es una canción\no una pregunta.\n\n---\n\n**Pregunta guía:** ¿Cómo transforma el poema la imagen del pájaro enjaulado al cambiar la manera de entender su canto?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "libertad",
+    "jaula",
+    "pájaro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** La voz poética escucha cada mañana a un jilguero enjaulado. Al saber por qué cantan los jilgueros, su percepción cambia: el canto deja de sonar a alegría y pasa a sonar a soledad, la del pájaro y la suya propia.\n\n**Aspectos que conviene analizar**\n- La primera estrofa: el canto como llamada personal («como si me hubieran llamado por mi nombre»).\n- El cambio provocado por el conocimiento científico: el canto como señal a otros jilgueros «que no vienen».\n- La serie de comparaciones de la tercera estrofa (el teléfono, la carta, la voz hablando sola), que traslada la soledad del pájaro a la voz poética.\n- El retrato del vecino: cuidados, cariño «a su manera». El poema no culpa a nadie.\n- El paralelismo de la última estrofa («El jilguero canta igual. / Yo me paro igual…») y lo único que cambia: la interpretación.\n- El final ambiguo: «una canción / o una pregunta».\n\n**Una estructura posible.** Analizar el poema como un proceso de cambio en la mirada: antes, el descubrimiento, la identificación y la incertidumbre final.\n\n**Cuidado con…** reducir el poema a un mensaje sobre los animales en cautividad. Su centro es la soledad y la interpretación.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

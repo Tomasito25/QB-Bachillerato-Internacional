@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "1d7d0e41-cd12-51ac-b5b0-6033a3cae349",
+  "rev": 1,
+  "statement": "El vestido de mi primera comunión era de mi prima Mari Carmen, que lo había llevado dos años antes, y antes que ella lo había llevado su hermana mayor, y antes no se sabe quién, porque mi tía lo había comprado de segunda mano en un mercadillo de Valencia. Tenía el bajo descosido, una mancha de chocolate en la manga que mi madre tapó con una flor de tela y un olor a armario que no se iba con nada.\n\nMi madre lo lavó tres veces a mano, en la pila del patio, y lo planchó una noche entera, con un paño húmedo, mientras yo la miraba desde la cama sin poder dormir. Le preguntaba si estaría bonito. Ella decía que sí sin levantar la vista, con la boca llena de alfileres.\n\nEl día de la comunión, en la iglesia, me puse en la fila con las otras niñas. Ellas llevaban vestidos nuevos, con capas de tul y coronas de flores frescas, y sus madres se las colocaban con cuidado, como si fueran tartas. Yo llevaba la corona de plástico de Mari Carmen y el olor a armario.\n\nUna niña de la fila, Lourdes, me miró de arriba abajo y le dijo algo al oído a otra. Las dos se rieron. Yo me puse roja y quise salir corriendo. Entonces vi a mi madre, al fondo de la iglesia, de pie porque no había sitio, con su vestido negro de los domingos, que también era viejo. Me miraba como si yo fuera lo único que había en la iglesia. Tenía los ojos brillantes y las manos juntas, apretadas, todavía con las marcas de los alfileres.\n\nDejé de oír a Lourdes. Levanté la cabeza. Caminé hacia el altar con el vestido de otras tres niñas, y estoy segura, todavía hoy, de que era el vestido más bonito de toda la iglesia.\n\n---\n\n**Pregunta guía:** ¿Cómo convierte la narradora un recuerdo de humillación en un recuerdo de orgullo?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "infancia",
+    "pobreza",
+    "orgullo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una mujer recuerda su primera comunión, en la que llevaba un vestido heredado y remendado. Ante la burla de otra niña, la mirada de su madre transforma la vergüenza en orgullo. El relato contrapone la pobreza material y la riqueza del cariño.\n\n**Aspectos que conviene analizar**\n- La historia del vestido (heredado, con el bajo descosido, la mancha tapada con una flor, el olor a armario) como retrato de la familia y de su situación.\n- El trabajo de la madre: lavarlo tres veces, plancharlo de noche, la boca llena de alfileres; el cariño expresado con trabajo.\n- El contraste visual en la iglesia: vestidos nuevos y madres que colocan a sus hijas «como si fueran tartas» frente a la corona de plástico.\n- La burla de Lourdes y la reacción física de la narradora (el rubor, el deseo de huir).\n- El momento clave: la mirada de la madre «como si yo fuera lo único que había en la iglesia» y las marcas de los alfileres en sus manos.\n- El final, con la doble perspectiva (la niña y la adulta) y la afirmación del «vestido más bonito».\n\n**Una estructura posible.** Seguir la evolución emocional de la narradora (ilusión, vergüenza, orgullo) y analizar cómo los detalles concretos la sostienen.\n\n**Cuidado con…** contar la historia. Analiza las técnicas con que el texto construye el cambio.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

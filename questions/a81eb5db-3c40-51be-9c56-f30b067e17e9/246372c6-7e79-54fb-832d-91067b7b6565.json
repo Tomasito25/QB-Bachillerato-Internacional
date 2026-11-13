@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "246372c6-7e79-54fb-832d-91067b7b6565",
+  "rev": 1,
+  "statement": "**Canción para cuando ya no estemos**\n\nCuando ya no estemos\nlos pájaros seguirán sin saber nuestros nombres,\nque nunca les importaron.\nLas abejas, si quedan,\nno echarán de menos los semáforos.\n\nLas ciudades se llenarán de hierba\ncomo se llena de canas una cabeza:\nprimero en los bordes,\ndespués en el centro,\nsin pedir permiso.\n\nLos ríos volverán a sus cauces antiguos,\nlos que les quitamos con cemento,\ny en los museos vacíos\nla lluvia leerá los cuadros\ngota a gota.\n\nNadie recordará nuestras guerras\nni nuestras canciones,\nni esta, que ahora escribo\ncon la ventana abierta\nmientras un mirlo, en la antena del vecino,\ncanta como si no hubiera mañana.\n\nY quizá tenga razón.\nQuizá cantar así\nsea la única manera\nde que lo haya.\n\n---\n\n**Pregunta guía:** ¿Cómo imagina el poema un mundo sin seres humanos y qué reflexión propone?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "ecología",
+    "futuro",
+    "canción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema imagina el planeta cuando la humanidad haya desaparecido: la naturaleza recupera las ciudades y nada recuerda lo humano. En la última parte, el canto de un mirlo devuelve la mirada al presente y sugiere una esperanza frágil.\n\n**Aspectos que conviene analizar**\n- El futuro hipotético introducido por «Cuando ya no estemos» y el tono sereno, sin dramatismo.\n- La indiferencia de la naturaleza (los pájaros que no saben nuestros nombres, las abejas que no echan de menos los semáforos): una cura de humildad.\n- La comparación de la hierba que invade las ciudades «como se llena de canas una cabeza».\n- Las imágenes de restauración: los ríos que vuelven a sus cauces y la lluvia que «leerá los cuadros / gota a gota».\n- La autorreferencia metapoética («ni esta, que ahora escribo») y el paso al presente con el mirlo.\n- El final: el juego con la expresión «como si no hubiera mañana» y la idea de que cantar así es la manera «de que lo haya».\n\n**Una estructura posible.** Analizar la visión del futuro (estrofas 1 a 3) y el regreso al presente (estrofas 4 y 5), mostrando cómo el final reinterpreta todo el poema.\n\n**Cuidado con…** leer el poema solo como un aviso ecológico. Su tono es más complejo: aceptación, humildad y esperanza.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

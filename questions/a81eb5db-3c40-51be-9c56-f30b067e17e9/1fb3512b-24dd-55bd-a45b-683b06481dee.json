@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "1fb3512b-24dd-55bd-a45b-683b06481dee",
+  "rev": 1,
+  "statement": "**Turno de noche**\n\n*Una oficina diáfana a las once de la noche. Ordenadores apagados, sillas desordenadas. Entra LUISA, cincuenta años, con un carro de limpieza. Enciende solo una fila de luces.*\n\nLUISA.—Buenas noches a todos. *(Pausa. Mira las sillas vacías.)* Nadie contesta. Como siempre.\n\n*Empieza a vaciar papeleras.*\n\nLUISA.—A ver qué tenemos hoy. *(Saca un papel arrugado y lo lee.)* «Propuesta de mejora del clima laboral.» Muy bonito. La han tirado sin leer. *(Lo echa a la bolsa.)* El señor de la mesa doce come pipas. Todos los días. Y las cáscaras, al suelo, como si el suelo se limpiara solo. *(Se agacha.)* Se limpia sola, la gente. Eso es lo que creen: que por la noche viene un hada.\n\n*Se detiene ante una mesa con una foto enmarcada. La coge.*\n\nLUISA.—Esta es nueva. Dos niñas en la playa. La rubia ha salido con los ojos cerrados. *(Sonríe.)* Mi hija también salía así en todas las fotos. Ahora tiene treinta años y vive en Edimburgo y me llama los domingos. Bueno, los domingos que puede.\n\n*Deja la foto exactamente donde estaba. Limpia el cristal con la manga.*\n\nLUISA.—Yo sé de esta oficina más que el director. Sé quién está enamorado de quién por los pósits. Sé quién va a dejar el trabajo antes de que lo diga, porque empieza a vaciar los cajones poco a poco, una cosa cada noche, para que nadie se dé cuenta. Sé quién llora, porque los pañuelos dicen mucho. *(Pausa.)* Y ellos no saben ni cómo me llamo.\n\n*Se sienta un momento en la silla del director. Gira despacio.*\n\nLUISA.—Luisa. Me llamo Luisa. *(Pausa.)* Encantada.\n\n*Se levanta, endereza la silla y sigue empujando el carro. Las luces se apagan fila a fila mientras ella avanza hacia el fondo.*\n\n---\n\n**Pregunta guía:** ¿De qué manera presenta el monólogo la invisibilidad del personaje y su manera de enfrentarse a ella?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "monólogo",
+    "trabajo invisible",
+    "soledad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una limpiadora recorre de noche una oficina vacía y habla con las sillas, los objetos y las personas ausentes. Su monólogo revela que conoce íntimamente la vida de quienes trabajan allí, mientras ellos ignoran incluso su nombre. El humor y la ironía conviven con la soledad.\n\n**Aspectos que conviene analizar**\n- El monólogo dirigido a un público ausente («Buenas noches a todos»): la soledad hecha convención teatral.\n- Los objetos como fuentes de información y de ironía: la propuesta de «mejora del clima laboral» tirada sin leer, las cáscaras de pipas, los pósits, los pañuelos.\n- La foto de las niñas como espejo de su vida (la hija lejana) y el cuidado con que la devuelve a su sitio.\n- La gradación del parlamento «Yo sé…», que culmina en la frase «Y ellos no saben ni cómo me llamo».\n- El momento en la silla del director: un breve juego de poder y la presentación de sí misma ante nadie.\n- Las acotaciones finales: las luces que se apagan fila a fila mientras avanza, imagen de un trabajo que existe solo cuando nadie mira.\n\n**Una estructura posible.** Seguir los objetos que Luisa encuentra y mostrar cómo cada uno revela algo de los demás y de ella misma, hasta el clímax de su nombre.\n\n**Cuidado con…** olvidar la dimensión escénica: el carro, la luz y la silla giratoria también significan.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

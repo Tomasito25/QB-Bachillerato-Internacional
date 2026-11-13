@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "24404ed1-07f5-5826-9260-55f4248ea7a1",
+  "rev": 1,
+  "statement": "**Mar de plástico**\n\nDesde el avión parece un mar.\nUn mar blanco, quieto, brillante,\ndonde no se ahoga nadie.\n\nDesde dentro es otra cosa.\nDesde dentro son cuarenta y cinco grados\ny un olor a azufre que se pega a la ropa\ny a los sueños.\n\nAquí crecen los tomates de diciembre,\nlos pimientos que llegan a Berlín\ncon la piel tersa,\nsin una sola marca de las manos\nque los arrancaron.\n\nLas manos son de Malí, de Marruecos, de Rumanía.\nLas manos duermen en cortijos sin agua\ny se despiertan antes que el sol,\nque aquí también trabaja\nde sol a sol.\n\nEn los supermercados del norte\nalguien elige un tomate,\nlo aprieta un poco, lo huele,\nlo deja, coge otro.\n\nNadie le ha dicho\nque lo que está tocando\nes otra mano.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el poema el contraste entre la apariencia y la realidad del trabajo agrícola?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "trabajo agrícola",
+    "invernaderos",
+    "inmigración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema describe los invernaderos del sur de España, que desde el aire parecen un mar blanco. Por dentro, son lugares de trabajo duro y mal pagado, realizado sobre todo por inmigrantes. La última imagen une al consumidor con el trabajador invisible.\n\n**Aspectos que conviene analizar**\n- La metáfora del título y de la primera estrofa: el «mar» de plástico visto desde el avión, y la ironía de un mar «donde no se ahoga nadie».\n- El cambio de perspectiva («Desde dentro…») y los detalles sensoriales: el calor, el olor a azufre que se pega «a los sueños».\n- Los productos perfectos que llegan a Berlín «sin una sola marca de las manos»: la invisibilidad del trabajo.\n- La sinécdoque de las manos para nombrar a los trabajadores y la enumeración de sus países.\n- El juego con «de sol a sol»: el sol personificado que también trabaja.\n- El final: el gesto cotidiano del consumidor y la metáfora del tomate como «otra mano», que une los dos extremos de la cadena.\n\n**Una estructura posible.** Analizar el poema como una sucesión de puntos de vista (el avión, el invernadero, los trabajadores, el supermercado) y su efecto acumulativo.\n\n**Cuidado con…** escribir un texto de opinión sobre la agricultura intensiva. Analiza cómo el lenguaje poético construye la crítica.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "1b7e54e1-bcb8-56c2-a130-666e7951e4db",
+  "rev": 1,
+  "statement": "¿Qué es la capacidad vital?",
+  "explanation": "La capacidad vital suma el volumen corriente y los volúmenes de reserva inspiratoria y espiratoria.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "volúmenes pulmonares",
+    "capacidad vital"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El volumen de aire que queda en los pulmones tras una espiración máxima.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El número de respiraciones por minuto.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El volumen máximo de aire que se puede espirar después de una inspiración máxima.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El volumen de aire que entra y sale en cada respiración en reposo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
