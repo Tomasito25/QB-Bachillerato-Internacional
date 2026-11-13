@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "67e1e7f2-56e1-595a-860d-e629eaaf2075",
+  "rev": 1,
+  "statement": "¿Por qué es tan resistente la celulosa de la pared celular?",
+  "explanation": "En la beta-glucosa, cada monómero queda girado respecto al anterior y la cadena es recta. Las cadenas paralelas se unen por puentes de hidrógeno en microfibrillas de gran resistencia a la tensión.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "celulosa",
+    "estructura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sus cadenas rectas de beta-glucosa se disponen en paralelo y se unen por muchos puentes de hidrógeno, formando microfibrillas.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Está formada por alfa-glucosa unida por enlaces iónicos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Es un polímero de aminoácidos con enlaces disulfuro.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Sus cadenas están muy ramificadas y forman gránulos compactos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "655a75ef-dc7a-5aaf-8848-8e0688cfc931",
+  "rev": 1,
+  "statement": "¿Qué representa un espectro de acción de la fotosíntesis?",
+  "explanation": "Se parece al espectro de absorción de los pigmentos porque solo la luz absorbida impulsa la fotosíntesis. Los pigmentos accesorios amplían el intervalo útil.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "espectro de acción",
+    "espectro de absorción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La velocidad de la fotosíntesis con cada longitud de onda de la luz.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El número de pigmentos que contiene una hoja.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La cantidad de luz que absorbe cada pigmento.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La intensidad de la luz a lo largo del día.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "64cb8715-2ae0-5e17-a979-db9dfe94f31f",
+  "rev": 1,
+  "statement": "¿Qué es el fenotipo de un organismo?",
+  "explanation": "El genotipo es la combinación de alelos; el fenotipo, lo que se manifiesta.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "genotipo",
+    "fenotipo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los alelos que transmitirá a sus hijos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El número de cromosomas de sus células.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El conjunto de sus rasgos observables, que resultan del genotipo y de la influencia del ambiente.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La combinación de alelos que tiene para un gen.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

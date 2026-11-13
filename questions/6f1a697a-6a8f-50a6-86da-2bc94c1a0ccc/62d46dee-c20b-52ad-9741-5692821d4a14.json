@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "62d46dee-c20b-52ad-9741-5692821d4a14",
+  "rev": 1,
+  "statement": "¿Cómo funciona una clave dicotómica?",
+  "explanation": "Cada paso divide a los organismos en dos grupos por un rasgo visible. Siguiendo las elecciones se identifica la especie.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "clave dicotómica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Plantea en cada paso dos opciones excluyentes sobre rasgos observables, hasta llegar al nombre del organismo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Compara las secuencias de ADN de dos organismos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Agrupa a los organismos según el hábitat en el que viven.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Ordena a los organismos según su antigüedad evolutiva.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

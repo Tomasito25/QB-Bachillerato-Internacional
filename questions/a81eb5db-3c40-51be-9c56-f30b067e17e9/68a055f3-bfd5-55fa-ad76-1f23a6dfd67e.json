@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "68a055f3-bfd5-55fa-ad76-1f23a6dfd67e",
+  "rev": 1,
+  "statement": "**Videollamada**\n\n*Dos espacios separados en el escenario. A la izquierda, una cocina en un pueblo: LA MADRE, sesenta y cinco años, sentada frente a una tableta apoyada en un frutero. A la derecha, un piso pequeño en otra ciudad: LUCÍA, treinta, con el portátil sobre las rodillas. Entre ambas, una pantalla proyecta sus caras, con un ligero retraso.*\n\nLA MADRE.—¿Me oyes? ¿Lucía? Te veo la frente.\n\nLUCÍA.—Baja un poco la tableta, mamá. Ahí. Así.\n\nLA MADRE.—Ahora te veo entera. Estás más delgada.\n\nLUCÍA.—Estoy igual.\n\nLA MADRE.—Por la pantalla no se ve igual. *(Pausa.)* ¿Comes?\n\nLUCÍA.—Como, mamá.\n\n*La imagen de la madre se congela con la boca abierta. LUCÍA espera. Se mira las uñas.*\n\nLA MADRE.—… y la vecina dice que en tu ciudad está todo carísimo.\n\nLUCÍA.—Te has cortado. No he oído lo anterior.\n\nLA MADRE.—Nada. No era nada. *(Pausa.)* Tu padre te manda un beso. Está en el huerto. No quiere ponerse, dice que estas máquinas le marean.\n\nLUCÍA.—Dile que yo también le mando uno.\n\nLA MADRE.—Se lo digo. *(Pausa.)* Lucía, ¿tú estás bien?\n\n*LUCÍA tarda en contestar. Mira hacia algo que el público no ve, quizá una maleta sin deshacer, quizá nada.*\n\nLUCÍA.—Sí. Estoy bien. Es que hay mala conexión.\n\nLA MADRE.—Ya. *(Pausa.)* Aquí también.\n\n*Se miran a través de la pantalla. La imagen de LUCÍA se congela. LA MADRE acerca la mano a la tableta, como si fuera a tocarle la cara, y la retira.*\n\nLA MADRE.—Te has quedado quieta, hija. *(Pausa.)* Pues así te miro un rato.\n\n*Oscuro.*\n\n---\n\n**Pregunta guía:** ¿Cómo utiliza la escena la tecnología para representar la distancia entre madre e hija?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "tecnología",
+    "familia",
+    "incomunicación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una madre y su hija hablan por videollamada. Los fallos de conexión, los retrasos y las imágenes congeladas reflejan una distancia que no es solo geográfica: ninguna de las dos se atreve a decir lo que siente.\n\n**Aspectos que conviene analizar**\n- La escenografía dividida y la pantalla con retraso: el espacio escénico representa la separación.\n- Los diálogos cotidianos («¿Comes?», «Estás más delgada») como forma de expresar preocupación sin nombrarla.\n- Los fallos técnicos con valor dramático: la imagen congelada, la frase que no se oye («No era nada»), la «mala conexión» como excusa para no hablar.\n- El padre ausente que «no quiere ponerse»: otra forma de incomunicación.\n- La acotación de la mirada de Lucía hacia algo que el público no ve (la maleta sin deshacer): sugerencia en lugar de explicación.\n- El final: la mano que se acerca y se retira, y la imagen congelada que la madre aprovecha para mirar a su hija, momento de ternura y de impotencia.\n\n**Una estructura posible.** Analizar cómo la tecnología funciona en la escena primero como obstáculo, luego como excusa y al final como única forma posible de cercanía.\n\n**Cuidado con…** hacer un comentario general sobre la tecnología. Céntrate en su función dramática en esta escena.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

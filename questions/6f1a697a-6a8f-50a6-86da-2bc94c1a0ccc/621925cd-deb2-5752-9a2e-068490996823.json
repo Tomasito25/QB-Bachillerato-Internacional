@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "621925cd-deb2-5752-9a2e-068490996823",
+  "rev": 1,
+  "statement": "¿Por qué es necesario el movimiento de las moléculas para que una enzima actúe?",
+  "explanation": "En disolución, sustratos y enzimas se mueven al azar; la velocidad de la reacción depende de la frecuencia de las colisiones con éxito.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "colisiones",
+    "movimiento molecular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las enzimas solo funcionan si están fijas en una membrana.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El movimiento aporta los aminoácidos del sitio activo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El movimiento rompe los enlaces peptídicos de la enzima.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El sustrato solo se une al sitio activo cuando choca con él en la orientación adecuada.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
