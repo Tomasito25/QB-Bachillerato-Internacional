@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b3009086-8c95-5606-b830-dda191d88f2b",
+  "rev": 1,
+  "statement": "**Romance de la estación sin trenes**\n\nYa no paran trenes, pero\nla mujer sigue en la espera,\ncon su maleta de cuero\ny su abrigo de otra época.\nCada tarde, a la hora en punto,\nse sienta en la misma piedra.\nMira la vía por donde\npartió el hijo a Venezuela.\n\nHubo cartas al principio,\ncon sellos de otra bandera;\nluego, postales de Pascua;\nluego, nada: la frontera\ndel silencio, que no tiene\nni aduana, sello ni fecha.\n\nYa no pregunta el vecino;\nsolo el viento, cuando llega,\nle revuelve los cabellos\ncomo quien busca una seña.\nY a las siete, cuando el sol\nse acuesta sobre la sierra,\ncoge la maleta y vuelve\na casa, despacio, entera.\n\n---\n\n**Pregunta guía:** ¿Cómo contribuye la forma tradicional del romance a presentar la espera de la protagonista?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "romance",
+    "métrica",
+    "espera",
+    "emigración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una madre espera cada tarde en una estación abandonada el regreso de un hijo que emigró y dejó de escribir. El poema adopta la forma del romance (octosílabos con rima asonante é-a en los pares), propia de la tradición oral, y esa forma sostiene una historia de pérdida contada con sencillez y sin queja.\n\n**Aspectos que conviene analizar**\n- La forma: el octosílabo y la asonancia repetida (espera, piedra, Venezuela, frontera, fecha, entera) crean un ritmo monótono y circular, como la rutina de la protagonista.\n- El narrador externo y el tono contenido, propios del romance: no se juzga, se cuenta.\n- La gradación de la segunda estrofa (cartas, postales, nada) y la metáfora de «la frontera del silencio», sin aduana, sello ni fecha.\n- Los objetos (la maleta, el abrigo «de otra época») y la ambigüedad que abren: ¿espera al hijo o está dispuesta a ir a buscarlo?\n- La personificación del viento, el único que aún se acerca a ella, y la del sol, que «se acuesta».\n- El adjetivo final, «entera», en posición de rima: la espera no la ha destruido; la dignidad cierra el poema.\n\n**Una estructura posible.** Ir estrofa a estrofa (la rutina, la historia del hijo, el presente) y relacionar en cada una forma y sentido, en lugar de dejar la métrica para un párrafo aislado.\n\n**Cuidado con…** contar sílabas sin explicar para qué sirven. La métrica cuenta en tu análisis solo si la relacionas con el efecto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

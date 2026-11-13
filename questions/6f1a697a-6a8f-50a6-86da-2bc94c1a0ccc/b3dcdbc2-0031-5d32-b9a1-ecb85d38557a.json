@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b3dcdbc2-0031-5d32-b9a1-ecb85d38557a",
+  "rev": 1,
+  "statement": "Al aumentar la concentración de sustrato, la velocidad de una reacción catalizada por una enzima aumenta cada vez menos hasta estabilizarse. ¿Por qué deja de aumentar?",
+  "explanation": "A concentraciones altas, la cantidad de enzima pasa a ser el factor limitante.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "concentración de sustrato"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el sustrato inhibe la producción de enzimas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque todos los sitios activos están ocupados casi todo el tiempo: la enzima está saturada.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque la enzima se desnaturaliza con mucho sustrato.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque el producto se convierte de nuevo en sustrato.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "aef880f2-002a-59de-a79a-e43025fb50f0",
+  "rev": 1,
+  "statement": "¿Qué es la especiación?",
+  "explanation": "En la especiación, una población se separa y diverge hasta que ya no puede cruzarse con la original.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "especiación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La formación de especies nuevas, por ejemplo por la división de una especie en dos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La extinción de una especie.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La clasificación de los organismos en especies.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El cruce entre dos especies diferentes.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

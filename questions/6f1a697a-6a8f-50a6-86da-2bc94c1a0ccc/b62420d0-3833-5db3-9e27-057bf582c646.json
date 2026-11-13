@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "b62420d0-3833-5db3-9e27-057bf582c646",
+  "rev": 1,
+  "statement": "Para estudiar cómo afecta el tamaño al intercambio, se modelan células como cubos de distinto lado.\n\n| Lado / μm | Superficie / μm² | Volumen / μm³ | Superficie/volumen / μm⁻¹ |\n|---|---|---|---|\n| 1 | 6 | 1 | 6,0 |\n| 2 | 24 | 8 | 3,0 |\n| 4 | | 64 | |\n| 8 | 384 | 512 | 0,75 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609",
+    "939e4cff-3e45-56bc-b3d6-c41799790f98"
+  ],
+  "tags": [
+    "datos",
+    "superficie/volumen"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula los valores que faltan en la tabla para el cubo de $4\\,\\mu\\text{m}$ de lado.",
+      "modelAnswer": "Superficie: $6\\times 4^2 = 96\\,\\mu\\text{m}^2$. (1) Cociente: $\\dfrac{96}{64} = 1{,}5\\,\\mu\\text{m}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe la relación entre el tamaño del cubo y su cociente superficie/volumen.",
+      "modelAnswer": "Al aumentar el lado, el cociente disminuye: es inversamente proporcional al lado (al duplicarlo, se reduce a la mitad). (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué una célula grande tendría dificultades para obtener oxígeno.",
+      "modelAnswer": "Su consumo de oxígeno depende del volumen, que crece más deprisa que la superficie por la que entra. (1) El oxígeno que entra por unidad de volumen es menor, y además tarda más en llegar al centro. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica una adaptación de las células del túbulo contorneado proximal del riñón que aumenta su superficie.",
+      "modelAnswer": "Microvellosidades en la membrana que da a la luz del túbulo. (1)",
+      "marks": 1
+    }
+  ]
+}

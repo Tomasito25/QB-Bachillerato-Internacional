@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ae0114a8-698f-5a52-bbb0-90346461c47b",
+  "rev": 1,
+  "statement": "**Elogio de la traducción**\n\nSe dice que traducir es traicionar, y los italianos lo resumen en un juego de palabras intraducible, lo cual ya es bastante significativo. Pero yo, que me gano la vida traduciendo manuales de lavadoras y, algún año bueno, una novela, prefiero pensar que traducir es otra cosa: es acompañar a un texto en un viaje en el que, inevitablemente, perderá algo de equipaje.\n\nHay palabras que no viajan bien. En una novela que traduje hace años, una abuela llamaba a su nieta con un diminutivo que en su lengua significaba a la vez «pequeña», «pajarito» y «la que se queda en casa». En español tuve que elegir uno de los tres sentidos. Elegí «pajarito», porque me pareció el más tierno. Durante meses me persiguieron los otros dos, como perros abandonados en la carretera.\n\nPero la traducción no solo pierde. También encuentra. Al buscar la palabra exacta en mi lengua, a veces descubro cosas de ella que no sabía: que tenemos tres maneras distintas de decir que algo está a punto de romperse, o que nuestro idioma no tiene una palabra para la tristeza del domingo por la tarde, aunque todos la sintamos. Traducir es mirar la propia lengua desde fuera, como se mira la casa propia al volver de un largo viaje.\n\nY hay algo más. Gracias a la traducción, un niño de Albacete puede llorar con una historia escrita en Japón, y una mujer de Lagos puede reírse con un poema de Lima. Las lenguas nos separan, pero los traductores, esos invisibles, construyen puentes todos los días sin que nadie los vea. Nadie lee el nombre del traductor en la portada. Nadie se acuerda del ingeniero cuando cruza un puente.\n\nNo me importa. Prefiero que no me vean. Si alguien termina una novela que traduje sin pensar ni un momento en mí, es que hice bien mi trabajo.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el texto su defensa de la traducción?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "ensayo",
+    "traducción",
+    "lenguaje",
+    "cultura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un traductor reflexiona sobre su oficio y discute la idea de que traducir es traicionar. Con ejemplos personales y metáforas, defiende la traducción como un viaje con pérdidas y hallazgos, y como un puente invisible entre culturas.\n\n**Aspectos que conviene analizar**\n- El arranque con el tópico «traducir es traicionar» y la ironía de que el juego de palabras italiano sea intraducible.\n- La voz personal y humilde (manuales de lavadoras, «algún año bueno, una novela») que da credibilidad.\n- La metáfora del viaje con «equipaje» perdido y el ejemplo del diminutivo, con la comparación de los «perros abandonados en la carretera».\n- La idea de que traducir también encuentra y la comparación de mirar la propia lengua «como se mira la casa propia al volver de un largo viaje».\n- La dimensión universal: los ejemplos geográficos y la metáfora del puente y el ingeniero invisible.\n- El final paradójico: el éxito del traductor es pasar desapercibido.\n\n**Una estructura posible.** Analizar la refutación del tópico, los argumentos (lo que se pierde, lo que se gana, lo que se une) y la conclusión, con atención a las metáforas que sostienen cada parte.\n\n**Cuidado con…** limitarte a resumir los argumentos. Analiza cómo el estilo y la voz los hacen persuasivos.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

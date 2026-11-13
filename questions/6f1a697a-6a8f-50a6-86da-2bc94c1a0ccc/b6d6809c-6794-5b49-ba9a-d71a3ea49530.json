@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b6d6809c-6794-5b49-ba9a-d71a3ea49530",
+  "rev": 1,
+  "statement": "La ADN polimerasa de la bacteria *Thermus aquaticus*, que vive en fuentes termales, funciona a $72\\,°\\text{C}$. ¿Qué explica mejor esta propiedad?",
+  "explanation": "Las proteínas de los termófilos usan los mismos 20 aminoácidos, pero su secuencia da una estructura más estable frente al calor.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "termófilos",
+    "estabilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Está formada por aminoácidos distintos de los 20 habituales.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Su estructura se mantiene gracias a más enlaces que resisten la agitación térmica, así que no se desnaturaliza a esa temperatura.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Se desnaturaliza a $72\\,°\\text{C}$, pero sigue funcionando igual.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "No tiene grupos R, así que no se puede desnaturalizar.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

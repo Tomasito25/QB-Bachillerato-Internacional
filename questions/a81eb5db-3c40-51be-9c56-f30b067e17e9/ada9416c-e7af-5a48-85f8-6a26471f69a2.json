@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "ada9416c-e7af-5a48-85f8-6a26471f69a2",
+  "rev": 1,
+  "statement": "**Compare el uso de ciclos temporales (las estaciones, el día y la noche, las fiestas) en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "db673074-0831-5e82-9577-da2dd25922a2"
+  ],
+  "tags": [
+    "tiempo",
+    "estaciones",
+    "ciclos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar cómo los ciclos del tiempo estructuran la obra o tienen valor simbólico: renovación, decadencia, repetición, inevitabilidad. **Obras adecuadas.** Poemarios organizados por estaciones, obras rurales, teatro con tiempo festivo. **Esquema posible.** Ciclos presentes en cada obra; función estructural y simbólica; relación con los personajes; comparación. **Cuidado con…** quedarte en la descripción del tiempo. Explica su sentido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

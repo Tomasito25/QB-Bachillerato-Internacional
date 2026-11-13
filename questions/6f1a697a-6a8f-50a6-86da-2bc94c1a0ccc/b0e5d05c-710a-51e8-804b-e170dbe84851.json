@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b0e5d05c-710a-51e8-804b-e170dbe84851",
+  "rev": 1,
+  "statement": "Se capturan y marcan 40 caracoles. Una semana después se capturan 50, de los cuales 10 están marcados. Según el índice de Lincoln, ¿cuál es el tamaño estimado de la población?",
+  "explanation": "$N = \\dfrac{M \\times C}{R} = \\dfrac{40 \\times 50}{10} = 200$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "captura-recaptura",
+    "índice de Lincoln"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "100",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "200",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "500",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "2000",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

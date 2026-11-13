@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "b8b01ae7-d045-52b1-9982-769f10e1af92",
+  "rev": 1,
+  "statement": "Las presiones de selección pueden ser bióticas o abióticas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "competencia",
+    "presiones de selección"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre presiones de selección bióticas y abióticas, con un ejemplo de cada una.",
+      "modelAnswer": "Bióticas: las causan otros seres vivos, como depredadores, patógenos o competidores. (1) Abióticas: factores físicos o químicos, como la sequía, el frío o la salinidad. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la superproducción de descendientes favorece la selección natural.",
+      "modelAnswer": "Al haber más descendientes que recursos, compiten entre sí y no todos sobreviven. (1) Sobreviven sobre todo los que tienen rasgos ventajosos. (1)",
+      "marks": 2
+    }
+  ]
+}

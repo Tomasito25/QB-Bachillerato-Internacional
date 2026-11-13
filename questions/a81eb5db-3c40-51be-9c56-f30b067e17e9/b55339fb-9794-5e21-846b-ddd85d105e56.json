@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "b55339fb-9794-5e21-846b-ddd85d105e56",
+  "rev": 1,
+  "statement": "**Lo que se llevó el niño**\n\nCuando sonaron las sirenas\nel niño eligió:\nno la manta, no el pan,\nno la foto de la boda de sus padres,\nsino una caja de lata\ncon siete canicas,\nuna pluma de urraca\ny un soldado de plomo sin cabeza.\n\nSu madre le gritó que era tonto.\nDespués, en el refugio,\nmientras los mayores contaban los golpes\ncomo se cuentan los segundos entre el rayo y el trueno,\nel niño puso las canicas en fila\nsobre el suelo de tierra\ny jugó a que la guerra era un juego\ncon reglas.\n\nHan pasado sesenta años.\nEl niño tiene ahora el pelo blanco\ny la caja de lata sobre la mesilla.\nLas canicas siguen siendo siete.\nEl soldado sigue sin cabeza.\n\nA veces su nieto le pregunta\npor qué no la tira.\nÉl no sabe explicarle\nque hay cosas que no sirven para nada\nsalvo para seguir vivo.\n\n---\n\n**Pregunta guía:** ¿Cómo representa el poema la experiencia de la guerra desde la mirada de un niño?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "guerra",
+    "infancia",
+    "inventario"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un niño, al sonar las sirenas de un bombardeo, decide salvar una caja con sus juguetes en lugar de las cosas útiles. El poema salta sesenta años: aquella caja sigue en su mesilla, y la elección que parecía absurda se revela como una forma de supervivencia.\n\n**Aspectos que conviene analizar**\n- La enumeración contrastada: lo que no elige (manta, pan, foto) y lo que sí (canicas, pluma, soldado sin cabeza).\n- El soldado de plomo «sin cabeza» como imagen inquietante de la guerra dentro del juego.\n- La escena del refugio: la comparación del rayo y el trueno y el juego de las canicas en fila, intento de imponer orden («una guerra con reglas») al caos.\n- El salto temporal y la permanencia de los objetos («siguen siendo siete», «sigue sin cabeza»).\n- La pregunta del nieto y la respuesta no dicha: «cosas que no sirven para nada / salvo para seguir vivo».\n- El tono contenido y los versos sencillos, que dejan hablar a los objetos.\n\n**Una estructura posible.** Analizar la elección, la escena del refugio y el presente, mostrando cómo el salto temporal da sentido a la caja.\n\n**Cuidado con…** hacer una reflexión general sobre la guerra. Céntrate en cómo el poema la muestra a través de objetos y gestos.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

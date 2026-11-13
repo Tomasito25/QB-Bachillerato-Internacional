@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ad6cd6e4-2d9f-5391-98fc-2e843201a026",
+  "rev": 1,
+  "statement": "**Caligrafía**\n\nMi madre escribía las listas de la compra con una letra inclinada hacia delante, como si cada palabra tuviera prisa por alcanzar a la siguiente. «Leche», «pan», «algo para la cena». Lo último no era un producto, sino una preocupación, y yo aprendí a distinguir unas cosas de otras leyendo aquellas listas antes que ningún libro. Supe pronto que la letra de mi madre cambiaba con los días: redonda y holgada los domingos, apretada y casi ilegible a final de mes, cuando las palabras parecían encogerse para ocupar menos papel.\n\nHoy no conservo ninguna de esas listas. No se me ocurrió guardarlas, del mismo modo que a nadie se le ocurre guardar el aire. Lo que conservo es un mensaje en el teléfono, el último que me escribió: «Llámame cuando puedas». Tiene la misma tipografía que la factura de la luz, que el aviso del banco, que la publicidad de una pizzería. No hay en él nada de su mano. Podría haberlo escrito cualquiera, y eso es precisamente lo que me duele: que su última frase se parezca tanto a todas las demás.\n\nNo pretendo hacer aquí el elogio nostálgico de la pluma estilográfica. Escribo estas líneas en un ordenador, como escribo casi todo, y agradezco poder corregir sin tachones. Pero sospecho que, al dejar de escribir a mano, hemos perdido algo más que una destreza escolar. La letra era un pequeño retrato involuntario: decía si teníamos frío, si estábamos cansados, si nos temblaba algo por dentro. Un texto mecanografiado dice lo que dice; un texto manuscrito dice, además, cómo estábamos cuando lo dijimos.\n\nQuizá por eso, cuando encuentro en un libro de segunda mano una anotación a lápiz —un subrayado, un signo de interrogación, una fecha—, siento algo parecido a la compañía. Alguien estuvo aquí. Alguien dudó en esta página. La letra es la única huella que el cuerpo deja en el lenguaje, y la estamos borrando sin darnos cuenta, con la misma prisa con que mi madre escribía la palabra «pan».\n\n---\n\n**Pregunta guía:** ¿De qué manera combina el texto la experiencia personal y la reflexión general para defender su idea sobre la escritura a mano?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "ensayo",
+    "no ficción",
+    "memoria",
+    "escritura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Ensayo breve en primera persona que parte de un recuerdo íntimo (las listas de la compra de la madre, ya fallecida) para llegar a una tesis general: la letra manuscrita es una huella del cuerpo y de su estado de ánimo, y su desaparición empobrece la comunicación.\n\n**Aspectos que conviene analizar**\n- La estructura: anécdota (párrafo 1), contraste con el presente (2), concesión y tesis (3) y ampliación con un cierre circular (4).\n- La personificación de la letra («prisa por alcanzar a la siguiente», palabras que «parecían encogerse») y su relación con la situación económica de la familia.\n- El contraste entre la lista manuscrita y el último mensaje del teléfono, igualado tipográficamente a la factura o a la publicidad. El duelo aparece sin nombrarse.\n- La concesión del párrafo 3 («No pretendo hacer aquí el elogio nostálgico…»): da credibilidad a la voz y anticipa la objeción del lector.\n- El paralelismo y la antítesis de «Un texto mecanografiado dice lo que dice; un texto manuscrito dice, además, cómo estábamos…».\n- La metáfora final de la letra como «huella» y el regreso a la palabra «pan», que une lo general con lo íntimo.\n\n**Una estructura posible.** Seguir el avance del texto de lo personal a lo general y mostrar en cada fase cómo la experiencia sostiene la argumentación.\n\n**Cuidado con…** tratar el texto como un artículo de opinión sin más. Es no ficción literaria: el estilo, las imágenes y la emoción forman parte del argumento.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

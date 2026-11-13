@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "ae7216bf-09bf-5784-9f1b-2ff1c0de22a7",
+  "rev": 1,
+  "statement": "Un árbol puede perder cientos de litros de agua al día por transpiración.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "xilema",
+    "cohesión",
+    "tensión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo sube el agua desde las raíces hasta las hojas.",
+      "modelAnswer": "El agua se evapora de las paredes de las células del mesófilo y sale por los estomas. (1) Se repone desde el xilema y la columna queda bajo tensión. (1) La cohesión entre moléculas transmite el tirón hasta las raíces. (1) La adhesión a las paredes del xilema ayuda a mantener la columna. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica dos adaptaciones de los vasos del xilema a esta función.",
+      "modelAnswer": "Sin paredes transversales ni contenido celular: tubos continuos de poca resistencia. (1) Paredes reforzadas con lignina, que impiden que se colapsen bajo la tensión. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b23031c4-59e7-5fec-8a57-cbdb4e5bab6f",
+  "rev": 1,
+  "statement": "Las proteínas de canal y de bombeo son selectivas. ¿De qué depende sobre todo esa selectividad?",
+  "explanation": "Como en las enzimas, la forma y la distribución de cargas de la proteína solo encajan con ciertas partículas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "cotransporte",
+    "selectividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "De la cantidad de colesterol de la membrana.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Del grosor de la bicapa de fosfolípidos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "De la forma y la carga del canal o del sitio de unión de la proteína.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Del número de glicoproteínas de la cara externa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

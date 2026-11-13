@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b2124eaf-83b5-5071-93f4-57548e9dd072",
+  "rev": 1,
+  "statement": "El cruce de una yegua con un burro produce mulas, que son estériles. ¿Qué se deduce de este hecho?",
+  "explanation": "Pueden cruzarse, pero la descendencia no es fértil, así que no cumplen el concepto biológico de especie. Su parentesco cercano explica que el cruce sea posible.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "especie",
+    "híbridos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que el burro y el caballo no comparten ningún antepasado.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que el caballo y el burro son la misma especie.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que las mulas son una especie nueva.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que el caballo y el burro son especies distintas.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b3bf6e64-3fd1-5a66-946c-46371f5bed2b",
+  "rev": 1,
+  "statement": "Una planta de semilla lisa puede ser RR o Rr. ¿Qué cruce permite averiguarlo?",
+  "explanation": "Si es Rr, la mitad de la descendencia será rugosa; si es RR, toda será lisa.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "cruce prueba"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Observar el tamaño de sus semillas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cruzarla con una planta RR.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cruzarla consigo misma una sola vez y contar las semillas lisas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cruzarla con una planta rr y observar si aparece algún descendiente rugoso.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

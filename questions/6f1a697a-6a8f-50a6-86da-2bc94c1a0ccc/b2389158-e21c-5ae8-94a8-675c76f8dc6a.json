@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "b2389158-e21c-5ae8-94a8-675c76f8dc6a",
+  "rev": 1,
+  "statement": "¿Qué tipo de células madre pueden dar lugar a todos los tipos celulares del embrión y también a la placenta?",
+  "explanation": "El cigoto y las primeras células del embrión son totipotentes. Las pluripotentes forman cualquier célula del cuerpo, pero no la placenta; las multipotentes, solo unos pocos tipos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "totipotentes",
+    "pluripotentes",
+    "multipotentes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Multipotentes",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Unipotentes",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Totipotentes",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Pluripotentes",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
