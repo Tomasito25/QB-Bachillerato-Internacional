@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "9a06d1b1-213b-5857-97c1-787dd759a157",
+  "rev": 1,
+  "statement": "**Compare la manera en que dos de las obras que ha estudiado presentan a personajes femeninos que se enfrentan a las expectativas de su sociedad.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "7c0d54dc-0c20-5faf-8f1e-2d7a893aa253"
+  ],
+  "tags": [
+    "personajes femeninos",
+    "sociedad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Mostrar qué expectativas pesan sobre las mujeres en cada obra y cómo las desafían, aceptan o sufren los personajes, y con qué técnicas lo presenta el autor. **Obras adecuadas.** Teatro, novela o poesía con personajes o voces femeninas en conflicto con normas sociales. **Esquema posible.** Contexto y expectativas en cada obra; formas de resistencia o sumisión; recursos (diálogo, símbolos, espacio, voz poética); efecto en el lector y visión de cada autor. **Cuidado con…** hacer un ensayo sociológico. El contexto solo sirve si se relaciona con el texto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

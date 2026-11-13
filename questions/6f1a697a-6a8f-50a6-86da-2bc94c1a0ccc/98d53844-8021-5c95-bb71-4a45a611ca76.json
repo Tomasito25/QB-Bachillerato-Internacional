@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "98d53844-8021-5c95-bb71-4a45a611ca76",
+  "rev": 1,
+  "statement": "¿Qué es un anaerobio facultativo?",
+  "explanation": "Las levaduras son un ejemplo. Los anaerobios obligados no toleran el oxígeno y los aerobios obligados lo necesitan siempre.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "anaerobios",
+    "aerobios"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un organismo que muere en presencia de oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un organismo que no respira.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un organismo que solo puede vivir con oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un organismo que respira aeróbicamente si hay oxígeno y anaeróbicamente si no lo hay.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

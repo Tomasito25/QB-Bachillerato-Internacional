@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9a9a05d5-22b9-5b1f-92e3-90337b3aec16",
+  "rev": 1,
+  "statement": "¿Qué requisito es necesario para la estabilidad a largo plazo de un ecosistema?",
+  "explanation": "También ayudan la diversidad genética de sus poblaciones y que las variables climáticas se mantengan dentro de los límites de tolerancia.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "estabilidad",
+    "ecosistemas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que no tenga descomponedores.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que su clima cambie de forma brusca y frecuente.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que solo tenga una especie de productor.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un aporte continuo de energía y el reciclaje de los nutrientes.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

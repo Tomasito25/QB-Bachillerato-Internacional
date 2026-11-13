@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a6194f56-3dfd-50a6-ab25-ee8fd135098a",
+  "rev": 1,
+  "statement": "¿Qué papel tiene el ATP en las células?",
+  "explanation": "El ATP es una molécula de intercambio: se forma en la respiración y se hidroliza enseguida allí donde hace falta energía.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "ATP"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Distribuye dentro de la célula la energía liberada en la respiración, para los procesos que la necesitan.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Forma la estructura de las membranas celulares.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Almacena energía durante meses, como el glucógeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Transporta oxígeno desde las membranas a las mitocondrias.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

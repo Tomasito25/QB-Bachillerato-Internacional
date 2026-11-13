@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9e8175d4-dd35-514c-a521-bb2a97b45f41",
+  "rev": 1,
+  "statement": "Una mujer portadora de hemofilia ($X^HX^h$) tiene hijos con un hombre sano ($X^HY$). ¿Qué probabilidad tiene cada hijo varón de tener hemofilia?",
+  "explanation": "Los hijos varones reciben la Y del padre y una de las dos X de la madre: la mitad recibirá $X^h$ y tendrá hemofilia.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "hemofilia",
+    "herencia ligada al sexo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1/4",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "1",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "1/2",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "0",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

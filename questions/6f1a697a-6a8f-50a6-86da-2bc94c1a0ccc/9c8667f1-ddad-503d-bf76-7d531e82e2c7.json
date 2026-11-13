@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9c8667f1-ddad-503d-bf76-7d531e82e2c7",
+  "rev": 1,
+  "statement": "*Paranthropus robustus* tenía molares muy grandes y una cresta en el cráneo para la inserción de músculos masticadores potentes. ¿Qué dieta sugieren estos rasgos?",
+  "explanation": "Los molares grandes y planos y los músculos potentes indican que trituraba alimentos vegetales duros, como semillas y tubérculos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "homínidos",
+    "dentición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una dieta basada sobre todo en carne.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una dieta de alimentos vegetales duros que había que triturar.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Una dieta líquida.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una dieta de insectos blandos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

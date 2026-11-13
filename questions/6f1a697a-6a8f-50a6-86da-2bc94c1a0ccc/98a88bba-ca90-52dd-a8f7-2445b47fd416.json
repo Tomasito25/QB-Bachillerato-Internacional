@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "98a88bba-ca90-52dd-a8f7-2445b47fd416",
+  "rev": 1,
+  "statement": "¿Qué cambio aumentaría la velocidad de respiración de unas larvas de insecto en un respirómetro?",
+  "explanation": "La respiración depende de enzimas, cuya actividad aumenta con la temperatura (hasta su óptimo).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "factores",
+    "velocidad de respiración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Añadir más absorbente de CO₂.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Subir la temperatura de $15\\,°\\text{C}$ a $25\\,°\\text{C}$.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Reducir la cantidad de larvas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Bajar la temperatura de $25\\,°\\text{C}$ a $15\\,°\\text{C}$.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

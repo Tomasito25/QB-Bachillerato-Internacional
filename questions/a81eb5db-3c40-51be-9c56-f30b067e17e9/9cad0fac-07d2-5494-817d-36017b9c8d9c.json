@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "9cad0fac-07d2-5494-817d-36017b9c8d9c",
+  "rev": 1,
+  "statement": "**La bicicleta**\n\nMi madre me enseñó a montar en bicicleta en el aparcamiento de un supermercado, un domingo de abril, cuando yo tenía ya nueve años y todos mis amigos sabían desde hacía tiempo. No tenía ruedines, porque la bicicleta era de segunda mano y los ruedines se habían perdido con el dueño anterior, así que mi madre inventó un método propio: corría a mi lado sujetando el sillín con una mano y con la otra el bolso, que no se fiaba de dejar en el coche.\n\nRecuerdo el ruido de sus zapatos sobre el asfalto, un taconeo rápido y cada vez más torpe, y su respiración, y su voz diciéndome que mirara al frente, no a los pies, que los pies ya sabían lo que tenían que hacer. Recuerdo también que yo le pedía que no me soltara, y que ella me prometía que no, que no me iba a soltar.\n\nMe soltó, claro. No sé en qué vuelta ni en qué momento. Sé que de pronto la voz sonaba lejos, que me giré para buscarla y la vi parada junto a un carro de la compra, con el bolso colgando y una mano en el pecho, recuperando el aire, y que en ese instante, al darme cuenta de que iba solo, me caí.\n\nMe hice una herida en la rodilla que tardó semanas en cerrarse. Pero lo que me dolió fue el engaño. Estuve toda la tarde sin hablarle. Ella no se disculpó; se limitó a curarme con agua oxigenada y a decirme que la próxima vez no me girase.\n\nHe pensado muchas veces en aquella tarde, sobre todo desde que soy yo quien corre detrás de una bicicleta pequeña. He entendido que enseñar a alguien a montar consiste exactamente en eso: en prometerle que no le vas a soltar y elegir el momento de hacerlo. Y he entendido también, aunque me cueste admitirlo, que la próxima vez no hay que girarse.\n\n---\n\n**Pregunta guía:** ¿De qué manera transforma el texto un recuerdo de la infancia en una reflexión sobre la crianza?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "memoria",
+    "bicicleta",
+    "madre",
+    "aprendizaje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Texto autobiográfico en el que el narrador recuerda cómo su madre le enseñó a montar en bicicleta y le soltó sin avisar. Muchos años después, ya padre, comprende el sentido de aquel gesto: enseñar consiste en prometer que no soltarás y elegir cuándo hacerlo.\n\n**Aspectos que conviene analizar**\n- Los detalles concretos que dan verdad al recuerdo: el aparcamiento, la bicicleta sin ruedines, el bolso que la madre no suelta.\n- Las sensaciones auditivas (el taconeo, la respiración, la voz) y el consejo «mirar al frente», que cobra sentido simbólico.\n- La promesa y su ruptura: «Me soltó, claro», frase breve que contrasta con la tensión anterior.\n- La imagen de la madre agotada junto al carro y la caída en el momento exacto en que el niño se da cuenta de que está solo.\n- La reacción del niño (el enfado) y la de la madre (curar sin disculparse), que el narrador adulto reinterpreta.\n- El último párrafo: el cambio de papeles y la doble lectura de «no hay que girarse», a la vez consejo práctico y lección de vida.\n\n**Una estructura posible.** Analizar el texto en dos tiempos, el del niño que vive la escena y el del adulto que la comprende, y mostrar cómo se unen al final.\n\n**Cuidado con…** limitarte a la anécdota. Lo literario está en cómo el recuerdo se convierte en reflexión general.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

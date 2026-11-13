@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a3df473c-9c17-5e1e-b7d1-026159437611",
+  "rev": 1,
+  "statement": "¿Qué afirmación sobre el material genético es correcta?",
+  "explanation": "El ADN es el material genético de todos los seres vivos. Algunos virus, como el de la gripe, tienen un genoma de ARN; los virus no se consideran organismos vivos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "material genético",
+    "virus"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Todos los organismos vivos usan ADN, pero algunos virus usan ARN.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Todos los organismos y todos los virus usan ADN.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las bacterias usan ARN y los eucariotas, ADN.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las plantas almacenan su información genética en proteínas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

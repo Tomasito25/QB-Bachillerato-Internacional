@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "9f5e36eb-c0bb-5cd6-a08d-122b38ffa986",
+  "rev": 1,
+  "statement": "Se separaron los pigmentos de una hoja de espinaca por cromatografía en papel. El frente del disolvente recorrió $12{,}0\\,\\text{cm}$.\n\n| Mancha | Color | Distancia recorrida / cm |\n|---|---|---|\n| 1 | Amarillo anaranjado | 11,4 |\n| 2 | Gris amarillento | 6,6 |\n| 3 | Verde azulado | 4,2 |\n| 4 | Verde amarillento | 3,0 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79",
+    "939e4cff-3e45-56bc-b3d6-c41799790f98"
+  ],
+  "tags": [
+    "datos",
+    "cromatografía",
+    "pigmentos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el valor de $R_f$ de la mancha 3.",
+      "modelAnswer": "$R_f = \\dfrac{4{,}2}{12{,}0} = 0{,}35$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Sugiere por qué los pigmentos recorren distancias distintas.",
+      "modelAnswer": "Tienen distinta solubilidad en el disolvente y distinta atracción por el papel. (1) Los más solubles y menos retenidos avanzan más. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica la ventaja para la planta de tener varios pigmentos.",
+      "modelAnswer": "Cada pigmento absorbe longitudes de onda distintas. (1) Con varios, la planta aprovecha una parte mayor del espectro de la luz. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "97630844-77d2-5f31-a1d8-a23f935e68b7",
+  "rev": 1,
+  "statement": "En muchas poblaciones de depredadores y presas, los máximos de los depredadores llegan algo después de los de las presas. ¿Por qué?",
+  "explanation": "Más presas permiten criar más depredadores; luego, con muchos depredadores, las presas disminuyen, y después los depredadores. Es un control de arriba abajo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "depredador-presa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque las dos poblaciones son independientes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque los depredadores aumentan cuando abundan las presas, y su reproducción tarda en reflejarse en la población.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque las presas se alimentan de los depredadores.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los depredadores se reproducen más deprisa que las presas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

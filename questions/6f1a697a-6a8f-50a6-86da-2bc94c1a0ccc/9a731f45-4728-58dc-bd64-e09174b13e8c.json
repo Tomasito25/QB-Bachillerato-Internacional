@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9a731f45-4728-58dc-bd64-e09174b13e8c",
+  "rev": 1,
+  "statement": "La pepsina del estómago tiene un pH óptimo cercano a 2, y la amilasa de la saliva, cercano a 7. ¿Qué ocurre con la pepsina a pH 7?",
+  "explanation": "Cada enzima tiene su pH óptimo. Lejos de él cambian las cargas de los grupos R y la forma del sitio activo, y la enzima puede desnaturalizarse.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "pH",
+    "óptimo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Su actividad no cambia, porque el pH no afecta a las enzimas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Su actividad se duplica, porque el medio es neutro.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Se convierte en amilasa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Su actividad cae mucho, porque cambian las cargas de su sitio activo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

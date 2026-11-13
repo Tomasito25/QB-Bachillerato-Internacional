@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "99800990-6003-5ee4-a0cd-313607458d48",
+  "rev": 1,
+  "statement": "¿Qué dos procesos de la meiosis generan variación genética?",
+  "explanation": "Con 23 pares de cromosomas, la orientación aleatoria por sí sola permite $2^{23}$ combinaciones, unos 8 millones.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "meiosis",
+    "variación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La condensación de los cromosomas y la formación del huso.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La replicación del ADN y la citocinesis.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El sobrecruzamiento entre cromátidas de homólogos y la orientación aleatoria de los pares de homólogos en la metafase I.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La mutación de todos los genes y la fecundación.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

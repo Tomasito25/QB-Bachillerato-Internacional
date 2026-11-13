@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a5203a0e-f5fe-54af-bdff-bb7fd1613629",
+  "rev": 1,
+  "statement": "¿Qué propone el modelo del encaje inducido?",
+  "explanation": "El ajuste mutuo tensiona los enlaces del sustrato y facilita la reacción.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "encaje inducido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Al unirse el sustrato, el sitio activo cambia ligeramente de forma y se ajusta mejor a él.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El sustrato cambia de forma para encajar en un sitio activo que nunca cambia.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El sitio activo tiene una forma rígida, idéntica a la del sustrato.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La enzima se une a cualquier sustrato que choque con ella.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

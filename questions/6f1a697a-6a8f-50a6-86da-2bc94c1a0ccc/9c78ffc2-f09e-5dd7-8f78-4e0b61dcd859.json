@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "9c78ffc2-f09e-5dd7-8f78-4e0b61dcd859",
+  "rev": 1,
+  "statement": "¿Qué genera el potencial de reposo de una neurona, de unos −70 mV?",
+  "explanation": "La bomba de sodio-potasio saca 3 Na⁺ por cada 2 K⁺ que mete, con gasto de ATP. Junto con la salida de algo de K⁺, deja el interior negativo respecto al exterior.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "potencial de reposo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El bombeo de iones sodio hacia fuera y de potasio hacia dentro, que crea gradientes de concentración a ambos lados de la membrana.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La entrada masiva de iones sodio en el axón.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La liberación de neurotransmisores.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La mielina, que acumula cargas positivas en el interior.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

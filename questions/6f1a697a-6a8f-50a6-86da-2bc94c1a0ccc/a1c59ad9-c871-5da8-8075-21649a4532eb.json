@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a1c59ad9-c871-5da8-8075-21649a4532eb",
+  "rev": 1,
+  "statement": "¿Cómo se puede variar la intensidad luminosa en un experimento con una planta acuática?",
+  "explanation": "Al alejar la lámpara, la intensidad disminuye. Conviene usar un filtro de calor para no cambiar a la vez la temperatura.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "intensidad luminosa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Cambiando la temperatura del agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cambiando la cantidad de bicarbonato del agua.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cambiando la especie de planta.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cambiando la distancia entre la lámpara y la planta.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

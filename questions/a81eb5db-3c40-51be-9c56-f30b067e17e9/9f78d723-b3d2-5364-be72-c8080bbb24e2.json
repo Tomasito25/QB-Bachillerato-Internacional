@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "9f78d723-b3d2-5364-be72-c8080bbb24e2",
+  "rev": 1,
+  "statement": "**Compare cómo utilizan dos de las obras que ha estudiado la sátira para criticar a su sociedad.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c6557927-9caf-5c27-a734-d545a6d73f69"
+  ],
+  "tags": [
+    "crítica social",
+    "sátira"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar los recursos satíricos (exageración, caricatura, ironía, parodia) y el blanco de la crítica en cada obra. **Obras adecuadas.** Comedias, novelas satíricas, poesía burlesca o crítica. **Esquema posible.** Objeto de la sátira en cada obra; recursos; efecto en el lector (risa, incomodidad, reflexión); comparación. **Cuidado con…** explicar los chistes sin analizar su intención.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

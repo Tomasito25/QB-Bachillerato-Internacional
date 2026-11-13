@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a23da345-191a-5b42-94c7-1e8518400595",
+  "rev": 1,
+  "statement": "El ser humano tiene 46 cromosomas y el chimpancé, 48. ¿Qué explicación es la más aceptada?",
+  "explanation": "El cromosoma 2 humano conserva restos de dos centrómeros y de telómeros en su interior, señal de que procede de la fusión de dos cromosomas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "número de cromosomas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los chimpancés tienen más genes que los seres humanos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Los chimpancés tienen un cromosoma sexual más.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Dos cromosomas de un antepasado común se fusionaron en el linaje humano y formaron el cromosoma 2.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El ser humano perdió dos cromosomas por mutaciones letales.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

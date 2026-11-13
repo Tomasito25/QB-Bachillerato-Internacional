@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "99fe8420-8927-5030-b2e7-cdc6a58c3573",
+  "rev": 1,
+  "statement": "¿Qué es la renaturalización (*rewilding*)?",
+  "explanation": "La idea es que el ecosistema vuelva a regularse por sí mismo, con una intervención humana mínima una vez restaurado.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "renaturalización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Trasladar todas las especies de un ecosistema a un zoológico.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Plantar una sola especie de árbol de crecimiento rápido en una zona deforestada.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cazar las especies invasoras sin intervenir en el resto del ecosistema.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Restaurar los procesos naturales de un ecosistema, a veces reintroduciendo especies clave como grandes herbívoros o depredadores.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
