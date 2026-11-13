@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "054d3b0f-6b2a-56aa-a58d-fc58bd3e08c4",
+  "rev": 1,
+  "statement": "¿Qué compuesto tiene mayor carácter iónico?",
+  "explanation": "Cesio y flúor tienen la mayor diferencia de electronegatividad de las cuatro parejas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "triángulo de enlace",
+    "carácter iónico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "HCl",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "AlCl₃",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "CCl₄",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "CsF",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

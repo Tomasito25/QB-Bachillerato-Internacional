@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "06d38776-7444-50d9-9f9e-8c24b56e1ec0",
+  "rev": 1,
+  "statement": "Un compuesto contiene un 40,0 % de carbono, un 6,7 % de hidrógeno y un 53,3 % de oxígeno en masa. ¿Cuál es su fórmula empírica?",
+  "explanation": "En 100 g: $\\dfrac{40{,}0}{12{,}01} = 3{,}33$ mol de C, $\\dfrac{6{,}7}{1{,}01} = 6{,}6$ mol de H y $\\dfrac{53{,}3}{16{,}00} = 3{,}33$ mol de O. La proporción es 1 : 2 : 1. C₂H₄O₂ tiene la misma proporción, pero no es la más sencilla.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "fórmula empírica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "CH₂O",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "C₂H₄O₂",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "CHO",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "CH₄O",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

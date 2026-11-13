@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "034985fd-08b6-5887-8a4e-81ce02ec5dce",
+  "rev": 1,
+  "statement": "Los radicales intervienen en muchos procesos, de la combustión a la contaminación atmosférica.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "radicales",
+    "definiciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Define radical y explica por qué los radicales son reactivos.",
+      "modelAnswer": "Una especie con un electrón desapareado. (1) Ese electrón tiende a formar un par, así que reacciona con facilidad. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica la diferencia entre un átomo de cloro y un ion cloruro en cuanto a sus electrones.",
+      "modelAnswer": "El átomo (radical Cl•) tiene 7 electrones de valencia, uno desapareado; el ion Cl⁻ tiene 8, todos emparejados. (1)",
+      "marks": 1
+    }
+  ]
+}

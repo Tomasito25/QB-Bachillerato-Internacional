@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0260cca5-5744-5226-9dec-8f66cf106ab8",
+  "rev": 1,
+  "statement": "¿Por qué el carbono unido al halógeno en un halogenoalcano es atacado por los nucleófilos?",
+  "explanation": "El nucleófilo se siente atraído por el carbono con carga parcial positiva (δ+).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "polaridad C-X"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el carbono tiene un par solitario.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el carbono tiene un electrón desapareado.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque el halógeno, más electronegativo, deja al carbono con una carga parcial positiva.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque el halógeno tiene carga positiva.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

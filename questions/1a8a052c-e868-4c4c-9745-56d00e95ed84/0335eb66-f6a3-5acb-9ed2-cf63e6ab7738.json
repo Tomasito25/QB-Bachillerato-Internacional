@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0335eb66-f6a3-5acb-9ed2-cf63e6ab7738",
+  "rev": 1,
+  "statement": "¿Qué óxido forma una disolución ácida al reaccionar con el agua?",
+  "explanation": "Los óxidos de los no metales son ácidos: SO₃ + H₂O → H₂SO₄. Los de los metales son básicos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "óxidos",
+    "carácter ácido-base"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Na₂O",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "MgO",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "CaO",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "SO₃",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

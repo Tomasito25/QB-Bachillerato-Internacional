@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "04b60651-8823-5ad4-8e1c-6e2827f93907",
+  "rev": 1,
+  "statement": "En el laboratorio hay que preparar $250{,}0\\,\\text{cm}^{3}$ de una disolución patrón de carbonato de sodio, Na₂CO₃, de $0{,}500\\,\\text{mol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "concentración",
+    "disolución patrón",
+    "dilución"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa de carbonato de sodio necesaria.",
+      "modelAnswer": "$n = 0{,}500 \\times 0{,}2500 = 0{,}125\\,\\text{mol}$. (1) $M = 105{,}99\\,\\text{g mol}^{-1}$, así que $m = 0{,}125 \\times 105{,}99 = 13{,}2\\,\\text{g}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe cómo se prepara la disolución a partir del sólido pesado.",
+      "modelAnswer": "Se disuelve el sólido en un vaso con un poco de agua destilada. (1) Se pasa a un matraz aforado de $250\\,\\text{cm}^{3}$, arrastrando con agua los restos del vaso. (1) Se enrasa hasta la marca y se agita para homogeneizar. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Se toman $10{,}0\\,\\text{cm}^{3}$ de esta disolución y se diluyen hasta $100{,}0\\,\\text{cm}^{3}$. Calcula la nueva concentración.",
+      "modelAnswer": "$c = \\dfrac{0{,}500 \\times 10{,}0}{100{,}0} = 0{,}0500\\,\\text{mol dm}^{-3}$. (1)",
+      "marks": 1
+    }
+  ]
+}

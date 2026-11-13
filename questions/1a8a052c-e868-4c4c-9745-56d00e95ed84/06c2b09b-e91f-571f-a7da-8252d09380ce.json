@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "06c2b09b-e91f-571f-a7da-8252d09380ce",
+  "rev": 1,
+  "statement": "Una muestra de polietileno tiene una masa molar media de $28 000\\,\\text{g mol}^{-1}$. ¿Cuántos monómeros de eteno (C₂H₄, $28{,}06\\,\\text{g mol}^{-1}$) tiene de media cada cadena?",
+  "explanation": "$\\dfrac{28\\,000}{28{,}06} \\approx 1000$. Las cadenas reales tienen longitudes distintas, por eso se habla de valores medios.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "masa del polímero"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Unos 28",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Unos 100",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Unos 1000",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Unos 10 000",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

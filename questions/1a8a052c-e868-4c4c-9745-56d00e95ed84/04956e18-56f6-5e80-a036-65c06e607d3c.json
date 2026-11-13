@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "04956e18-56f6-5e80-a036-65c06e607d3c",
+  "rev": 1,
+  "statement": "¿En qué equilibrio no influye un cambio de presión?",
+  "explanation": "Hay 2 moles de gas a cada lado: el cambio de presión no favorece a ninguno.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "Le Châtelier",
+    "presión sin efecto"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "N₂O₄(g) ⇌ 2NO₂(g)",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "H₂(g) + I₂(g) ⇌ 2HI(g)",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "2SO₂(g) + O₂(g) ⇌ 2SO₃(g)",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

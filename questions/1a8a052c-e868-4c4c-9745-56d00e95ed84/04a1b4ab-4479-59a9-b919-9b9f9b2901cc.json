@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "04a1b4ab-4479-59a9-b919-9b9f9b2901cc",
+  "rev": 1,
+  "statement": "S(s) + O₂(g) → SO₂(g), $\\Delta H = -297\\,\\text{kJ}$.\n\n2SO₂(g) + O₂(g) → 2SO₃(g), $\\Delta H = -196\\,\\text{kJ}$.\n\n¿Cuál es $\\Delta H$ de S(s) + 1½O₂(g) → SO₃(g)?",
+  "explanation": "Primera ecuación más la mitad de la segunda: $-297 + \\dfrac{-196}{2} = -395\\,\\text{kJ}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "ley de Hess",
+    "trióxido de azufre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−101 kJ$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$−199 kJ$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$−395 kJ$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$−493 kJ$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

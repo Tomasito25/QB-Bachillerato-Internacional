@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "04435a07-9aef-55a0-a5cd-0f2126a65e6d",
+  "rev": 1,
+  "statement": "¿Qué productos se forman cuando el potasio reacciona con agua?",
+  "explanation": "2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g). La disolución es básica y la reacción, más violenta que con el sodio.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "metales alcalinos",
+    "agua"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Potasio y agua oxigenada",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Hidróxido de potasio y oxígeno",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hidróxido de potasio e hidrógeno",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Óxido de potasio e hidrógeno",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

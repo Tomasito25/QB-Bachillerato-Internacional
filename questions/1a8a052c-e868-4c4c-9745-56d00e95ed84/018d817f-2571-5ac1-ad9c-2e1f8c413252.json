@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "018d817f-2571-5ac1-ad9c-2e1f8c413252",
+  "rev": 1,
+  "statement": "¿Por qué los metales son maleables y dúctiles?",
+  "explanation": "En un cristal iónico, en cambio, el deslizamiento enfrenta iones de igual carga y el cristal se rompe.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "maleabilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las capas de cationes pueden deslizarse unas sobre otras sin que se rompa el enlace, porque los electrones deslocalizados las siguen uniendo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque sus iones se repelen al deslizarse.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque sus enlaces son muy débiles.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque sus átomos no tienen electrones.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

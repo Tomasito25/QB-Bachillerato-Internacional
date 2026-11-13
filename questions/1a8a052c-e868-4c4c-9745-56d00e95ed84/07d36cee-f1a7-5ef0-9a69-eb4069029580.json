@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "07d36cee-f1a7-5ef0-9a69-eb4069029580",
+  "rev": 1,
+  "statement": "¿Cuál de estas es una mezcla heterogénea?",
+  "explanation": "En una mezcla heterogénea se distinguen partes con distinta composición. Las disoluciones, el aire y las aleaciones como el latón son homogéneas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "mezclas homogéneas",
+    "heterogéneas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aire",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una disolución de azúcar en agua",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El latón (cobre y cinc)",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Arena y agua",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

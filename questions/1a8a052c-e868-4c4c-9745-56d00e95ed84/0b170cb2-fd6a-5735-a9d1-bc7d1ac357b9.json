@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "0b170cb2-fd6a-5735-a9d1-bc7d1ac357b9",
+  "rev": 1,
+  "statement": "La concentración de un reactivo se midió a lo largo del tiempo.\n\n| Tiempo / min | 0 | 2 | 4 | 6 | 8 |\n|---|---|---|---|---|---|\n| Concentración / mol dm⁻³ | 0,80 | 0,56 | 0,40 | 0,29 | 0,21 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "velocidad",
+    "gráficas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:35.000Z",
+  "updatedAt": "2026-11-13T05:50:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad media entre los minutos 0 y 2, y entre los minutos 6 y 8.",
+      "modelAnswer": "$\\dfrac{0{,}80 - 0{,}56}{2} = 0{,}12\\,\\text{mol dm}^{-3}\\,\\text{min}^{-1}$. (1) $\\dfrac{0{,}29 - 0{,}21}{2} = 0{,}040\\,\\text{mol dm}^{-3}\\,\\text{min}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica la diferencia entre los dos valores.",
+      "modelAnswer": "Al consumirse el reactivo baja su concentración, (1) los choques son menos frecuentes y la velocidad disminuye. (1)",
+      "marks": 2
+    }
+  ]
+}
