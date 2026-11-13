@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "a72fff4d-8dc0-588b-9cb8-7188fea70afa",
+  "rev": 1,
+  "statement": "El eteno es la materia prima de muchos productos químicos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "adición electrófila",
+    "eteno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué el eteno es mucho más reactivo que el etano.",
+      "modelAnswer": "Tiene un doble enlace C=C con alta densidad electrónica, (1) que atrae a los electrófilos y permite reacciones de adición. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe ecuaciones de la reacción del eteno con bromo, con bromuro de hidrógeno y con vapor de agua.",
+      "modelAnswer": "C₂H₄ + Br₂ → C₂H₄Br₂ (1,2-dibromoetano). (1) C₂H₄ + HBr → C₂H₅Br. (1) C₂H₄ + H₂O → C₂H₅OH. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué estas reacciones tienen una economía atómica del 100 %.",
+      "modelAnswer": "Son adiciones: todos los átomos de los reactivos forman el único producto. (1)",
+      "marks": 1
+    }
+  ]
+}

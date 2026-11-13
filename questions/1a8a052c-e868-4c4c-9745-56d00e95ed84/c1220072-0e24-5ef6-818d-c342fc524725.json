@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "c1220072-0e24-5ef6-818d-c342fc524725",
+  "rev": 1,
+  "statement": "El comportamiento de los gases reales se compara con el de un gas ideal.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "gases ideales",
+    "reales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica dos supuestos del modelo del gas ideal.",
+      "modelAnswer": "Dos de: el volumen de las partículas es despreciable; no hay fuerzas entre partículas; los choques son elásticos; las partículas se mueven al azar. (2)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los gases reales se desvían del comportamiento ideal a alta presión.",
+      "modelAnswer": "Las partículas están más juntas: su propio volumen deja de ser despreciable frente al del recipiente. (1) Además, las fuerzas intermoleculares pasan a ser significativas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la presión que ejercen $0{,}200\\,\\text{mol}$ de un gas ideal en $5{,}00\\,\\text{dm}^{3}$ a $300\\,\\text{K}$.",
+      "modelAnswer": "$p = \\dfrac{nRT}{V} = \\dfrac{0{,}200 \\times 8{,}31 \\times 300}{5{,}00\\times 10^{-3}} = 99\\,700\\,\\text{Pa} \\approx 99{,}7\\,\\text{kPa}$. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9b3ecab1-95f2-57d5-b73e-799b61ac475e",
+  "rev": 1,
+  "statement": "¿Cuántos iones hay en $1{,}00\\,\\text{mol}$ de cloruro de calcio, CaCl₂?",
+  "explanation": "Cada unidad fórmula tiene 3 iones (un Ca²⁺ y dos Cl⁻): $3 \\times 6{,}02\\times 10^{23} = 1{,}81\\times 10^{24}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "iones",
+    "constante de Avogadro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}02\\times 10^{23}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$1{,}20\\times 10^{24}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$1{,}81\\times 10^{24}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$2{,}41\\times 10^{24}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

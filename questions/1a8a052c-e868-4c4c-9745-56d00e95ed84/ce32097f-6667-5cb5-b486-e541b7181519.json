@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ce32097f-6667-5cb5-b486-e541b7181519",
+  "rev": 1,
+  "statement": "¿Qué grupo funcional tienen los ácidos carboxílicos?",
+  "explanation": "El grupo carboxilo combina un carbonilo y un hidroxilo en el mismo carbono.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "grupos funcionales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "–COOH (carboxilo)",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "–OH (hidroxilo)",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "–NH₂ (amino)",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "–CHO (aldehído)",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

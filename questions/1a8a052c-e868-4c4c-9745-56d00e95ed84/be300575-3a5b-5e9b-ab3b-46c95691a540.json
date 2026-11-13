@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "be300575-3a5b-5e9b-ab3b-46c95691a540",
+  "rev": 1,
+  "statement": "¿Por qué el hidrógeno tiene una energía específica muy alta pero es difícil de usar en vehículos?",
+  "explanation": "Su densidad energética (por volumen) es baja en condiciones normales.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "densidad energética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque es un gas de densidad muy baja: hay que comprimirlo o licuarlo para almacenar suficiente energía en poco volumen.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque su combustión produce mucho CO₂.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque su energía específica es negativa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque no arde en el aire.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

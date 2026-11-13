@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "b047f5cf-1454-53a3-9efc-ca1c3981a344",
+  "rev": 1,
+  "statement": "Los alcanos se usan sobre todo como combustibles.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "alcanos",
+    "reacciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué los alcanos no reaccionan con la mayoría de los reactivos iónicos.",
+      "modelAnswer": "Sus enlaces C–H y C–C son fuertes y casi apolares, (1) así que no tienen zonas con carga parcial que atraigan a nucleófilos o electrófilos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica los dos tipos de reacción que sí experimentan los alcanos.",
+      "modelAnswer": "La combustión (1) y la sustitución por radicales con halógenos. (1)",
+      "marks": 2
+    }
+  ]
+}

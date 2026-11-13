@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "99f95c8a-d96b-520f-8d50-a7589273a3f0",
+  "rev": 1,
+  "statement": "En la reacción entre el tiosulfato de sodio y un ácido se forma un precipitado de azufre. ¿Cómo se mide su velocidad?",
+  "explanation": "Cuanto menos tarda, mayor es la velocidad: la velocidad es proporcional a 1/tiempo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "tiosulfato",
+    "turbidez"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Midiendo la temperatura máxima.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Midiendo el tiempo que tarda en dejar de verse una cruz dibujada bajo el vaso.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Midiendo el volumen de hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Midiendo la masa del vaso.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

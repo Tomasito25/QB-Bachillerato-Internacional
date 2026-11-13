@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "c22ae622-ac3d-5553-9f93-85eb17fb13b1",
+  "rev": 1,
+  "statement": "El yodo es un sólido molecular de color oscuro que sublima con facilidad.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "fuerzas intermoleculares",
+    "propiedades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué el yodo tiene un punto de fusión bajo comparado con el cloruro de sodio.",
+      "modelAnswer": "El yodo es molecular: al fundirlo solo se vencen fuerzas de London entre moléculas, débiles. (1) No se rompen los enlaces covalentes I–I. (1) En el cloruro de sodio hay que vencer atracciones iónicas fuertes en toda la red. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Predice si el yodo se disolverá mejor en agua o en hexano, y explica tu respuesta.",
+      "modelAnswer": "En hexano. (1) El yodo y el hexano son apolares y se atraen por fuerzas de London; el agua forma puentes de hidrógeno entre sus moléculas, que el yodo no puede sustituir. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a6556826-6d2d-52d8-8e54-361ccd51ff93",
+  "rev": 1,
+  "statement": "¿Qué ocurre con la energía cinética media de las moléculas de un gas si su temperatura pasa de $200\\,\\text{K}$ a $400\\,\\text{K}$?",
+  "explanation": "La temperatura absoluta es proporcional a la energía cinética media de las partículas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "temperatura",
+    "energía cinética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No cambia.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se duplica.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Se multiplica por cuatro.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se reduce a la mitad.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

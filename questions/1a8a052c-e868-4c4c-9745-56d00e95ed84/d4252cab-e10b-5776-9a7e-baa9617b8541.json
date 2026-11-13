@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "d4252cab-e10b-5776-9a7e-baa9617b8541",
+  "rev": 1,
+  "statement": "Un estudiante quiere obtener clorometano a partir de metano y cloro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "sustitución radicalaria",
+    "condiciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Sugiere las condiciones de la reacción.",
+      "modelAnswer": "Mezcla de los gases expuesta a luz ultravioleta (o a temperatura alta). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué conviene un exceso de metano.",
+      "modelAnswer": "Así es más probable que los radicales cloro choquen con metano que con clorometano, (1) y se reduce la formación de productos con más cloro. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el producto se debe separar al final.",
+      "modelAnswer": "Siempre se forma una mezcla de compuestos clorados y otros productos de terminación, como el etano. (1)",
+      "marks": 1
+    }
+  ]
+}

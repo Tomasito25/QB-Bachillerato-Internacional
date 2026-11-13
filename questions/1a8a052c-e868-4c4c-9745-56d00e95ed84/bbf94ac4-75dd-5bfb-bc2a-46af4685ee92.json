@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "bbf94ac4-75dd-5bfb-bc2a-46af4685ee92",
+  "rev": 1,
+  "statement": "Se estudió el efecto de la temperatura en la reacción entre el tiosulfato de sodio y el ácido clorhídrico, midiendo el tiempo hasta que una cruz dejaba de verse.\n\n| Temperatura / °C | 20 | 30 | 40 | 50 |\n|---|---|---|---|---|\n| Tiempo / s | 120 | 62 | 33 | 18 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39",
+    "43c6acc6-d7e0-5012-87b6-4717d232c022"
+  ],
+  "tags": [
+    "datos",
+    "tiosulfato",
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad relativa ($1/t$) a $20\\,°\\text{C}$ y a $40\\,°\\text{C}$.",
+      "modelAnswer": "$\\dfrac{1}{120} = 8{,}3\\times 10^{-3}\\,\\text{s}^{-1}$ (1) y $\\dfrac{1}{33} = 3{,}0\\times 10^{-2}\\,\\text{s}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe el efecto de la temperatura.",
+      "modelAnswer": "La velocidad aumenta con la temperatura, (1) aproximadamente se duplica por cada $10\\,°\\text{C}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica la variable independiente, la dependiente y dos variables de control.",
+      "modelAnswer": "Independiente: la temperatura. Dependiente: el tiempo hasta que desaparece la cruz. (1) Control: dos de concentraciones y volúmenes de las disoluciones, la misma cruz y el mismo observador, el mismo vaso. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una mejora del método de medida.",
+      "modelAnswer": "Usar un sensor de luz (colorímetro) en lugar del ojo, que decide de forma subjetiva cuándo deja de verse la cruz. (1)",
+      "marks": 1
+    }
+  ]
+}

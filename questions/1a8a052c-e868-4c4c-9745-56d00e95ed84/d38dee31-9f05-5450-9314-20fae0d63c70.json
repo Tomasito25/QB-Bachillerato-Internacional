@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "d38dee31-9f05-5450-9314-20fae0d63c70",
+  "rev": 1,
+  "statement": "El metano reacciona con el cloro en presencia de luz ultravioleta.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "mecanismo",
+    "cloración del metano"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación de la etapa de iniciación e indica el tipo de fisión.",
+      "modelAnswer": "Cl₂ → 2Cl•. (1) Fisión homolítica. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe las dos ecuaciones de propagación que forman clorometano.",
+      "modelAnswer": "CH₄ + Cl• → CH₃• + HCl. (1) CH₃• + Cl₂ → CH₃Cl + Cl•. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Escribe una ecuación de terminación.",
+      "modelAnswer": "Por ejemplo, Cl• + Cl• → Cl₂, CH₃• + Cl• → CH₃Cl o CH₃• + CH₃• → C₂H₆. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué la reacción produce una mezcla de productos.",
+      "modelAnswer": "Los radicales cloro también sustituyen hidrógenos del clorometano y forman CH₂Cl₂, CHCl₃ y CCl₄; (1) y en la terminación se unen radicales distintos. (1)",
+      "marks": 2
+    }
+  ]
+}

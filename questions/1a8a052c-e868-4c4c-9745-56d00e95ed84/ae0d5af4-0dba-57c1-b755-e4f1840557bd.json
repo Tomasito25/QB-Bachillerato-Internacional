@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ae0d5af4-0dba-57c1-b755-e4f1840557bd",
+  "rev": 1,
+  "statement": "¿Cómo se obtiene la velocidad inicial a partir de una gráfica de concentración frente al tiempo?",
+  "explanation": "La pendiente de la tangente en un punto da la velocidad en ese instante.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "velocidad instantánea"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Trazando la tangente a la curva en t = 0 y calculando su pendiente.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Dividiendo la concentración final entre el tiempo total.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Calculando el área bajo la curva.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Leyendo el valor máximo de la curva.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

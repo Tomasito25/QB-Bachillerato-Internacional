@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "af7c4fbf-a907-5e07-9f72-5e54a649abf9",
+  "rev": 1,
+  "statement": "¿Cuál es la masa de un átomo de carbono-12?",
+  "explanation": "Un mol de átomos de carbono-12 tiene una masa de 12 g: $\\dfrac{12}{6{,}02\\times 10^{23}} = 1{,}99\\times 10^{-23}\\,\\text{g}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "masa de un átomo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}99\\times 10^{-23}\\,\\text{g}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$6{,}02\\times 10^{-23}\\,\\text{g}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$12\\,\\text{g}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$7{,}22\\times 10^{24}\\,\\text{g}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

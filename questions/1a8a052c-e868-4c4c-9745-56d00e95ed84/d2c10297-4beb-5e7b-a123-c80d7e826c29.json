@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "d2c10297-4beb-5e7b-a123-c80d7e826c29",
+  "rev": 1,
+  "statement": "La tabla compara varios combustibles.\n\n| Combustible | Energía específica / MJ kg⁻¹ | CO₂ emitido por MJ / g |\n|---|---|---|\n| Hidrógeno | 142 | 0 |\n| Metano | 55,5 | 49 |\n| Gasolina | 46 | 68 |\n| Etanol | 29,7 | 64 |\n| Carbón | 30 | 94 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "energía específica",
+    "combustibles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa de etanol necesaria para obtener $1000\\,\\text{MJ}$.",
+      "modelAnswer": "$\\dfrac{1000}{29{,}7} = 33{,}7\\,\\text{kg}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara el metano y el carbón como combustibles para producir electricidad.",
+      "modelAnswer": "El metano libera casi el doble de energía por kilogramo. (1) El carbón emite casi el doble de CO₂ por unidad de energía. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el hidrógeno no emite CO₂ al usarse, pero puede tener una huella de carbono importante.",
+      "modelAnswer": "Su combustión solo produce agua. (1) Pero si se fabrica a partir de gas natural o con electricidad de combustibles fósiles, su producción emite CO₂. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué el etanol emite menos CO₂ por MJ que la gasolina aunque contiene oxígeno.",
+      "modelAnswer": "Sus moléculas tienen más hidrógeno en proporción al carbono, y parte de la energía procede de formar agua. (1)",
+      "marks": 1
+    }
+  ]
+}

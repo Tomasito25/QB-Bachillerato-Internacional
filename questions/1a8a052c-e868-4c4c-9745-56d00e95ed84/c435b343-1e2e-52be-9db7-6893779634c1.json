@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c435b343-1e2e-52be-9db7-6893779634c1",
+  "rev": 1,
+  "statement": "2CrO₄²⁻(aq) + 2H⁺(aq) ⇌ Cr₂O₇²⁻(aq) + H₂O(l). El cromato es amarillo y el dicromato, anaranjado. ¿Qué ocurre al añadir una base?",
+  "explanation": "Al retirar H⁺, el sistema lo repone desplazándose hacia los reactivos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "cromato",
+    "dicromato"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La disolución se vuelve amarilla, porque la base consume H⁺ y el equilibrio se desplaza a la izquierda.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "No hay cambio de color.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Se forma un precipitado de dicromato.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La disolución se vuelve más anaranjada.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

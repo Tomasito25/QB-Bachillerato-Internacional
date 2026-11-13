@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b1e0cbb5-5f08-568b-877f-35b421c5ef12",
+  "rev": 1,
+  "statement": "¿Cómo afecta un catalizador a la variación de entalpía de una reacción?",
+  "explanation": "El catalizador no cambia la energía de reactivos ni productos, solo la altura de la barrera.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "catalizadores",
+    "ΔH"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La hace más negativa.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La anula.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "No la cambia.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La hace más positiva.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

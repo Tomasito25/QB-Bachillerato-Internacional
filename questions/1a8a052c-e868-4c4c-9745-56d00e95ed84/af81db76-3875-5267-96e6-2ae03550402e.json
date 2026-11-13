@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "af81db76-3875-5267-96e6-2ae03550402e",
+  "rev": 1,
+  "statement": "No se puede medir directamente la entalpía de la reacción C(grafito) → C(diamante). Se conocen las entalpías de combustión del grafito (−393,5 kJ mol⁻¹) y del diamante (−395,4 kJ mol⁻¹).",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "ley de Hess",
+    "ciclo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja o describe un ciclo de Hess que relacione las dos combustiones con la reacción buscada.",
+      "modelAnswer": "Grafito → diamante (reacción buscada); grafito + O₂ → CO₂; diamante + O₂ → CO₂. (1) Los dos caminos del grafito al CO₂ tienen la misma variación de entalpía. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula $\\Delta H$ de la transformación del grafito en diamante.",
+      "modelAnswer": "$\\Delta H = -393{,}5 - (-395{,}4) = +1{,}9\\,\\text{kJ mol}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué esta reacción no se puede medir directamente.",
+      "modelAnswer": "Es extremadamente lenta en condiciones normales y requiere presiones y temperaturas enormes. (1)",
+      "marks": 1
+    }
+  ]
+}

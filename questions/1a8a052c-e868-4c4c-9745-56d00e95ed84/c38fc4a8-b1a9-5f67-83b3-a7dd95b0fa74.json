@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c38fc4a8-b1a9-5f67-83b3-a7dd95b0fa74",
+  "rev": 1,
+  "statement": "¿Qué caracteriza a un equilibrio dinámico?",
+  "explanation": "A nivel macroscópico parece que no pasa nada, pero las partículas siguen reaccionando en los dos sentidos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "equilibrio dinámico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las concentraciones de reactivos y productos son iguales.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las reacciones directa e inversa continúan a la misma velocidad y las concentraciones no cambian.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Solo ocurre la reacción directa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las dos reacciones se detienen.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

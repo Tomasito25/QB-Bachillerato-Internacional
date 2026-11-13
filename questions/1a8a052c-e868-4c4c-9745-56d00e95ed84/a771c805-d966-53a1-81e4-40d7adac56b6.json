@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a771c805-d966-53a1-81e4-40d7adac56b6",
+  "rev": 1,
+  "statement": "¿Qué subproducto inorgánico se forma en la sustitución de un hidrógeno del metano por cloro?",
+  "explanation": "CH₄ + Cl₂ → CH₃Cl + HCl.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "sustitución",
+    "cloruro de hidrógeno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hidrógeno",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Agua",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Dióxido de carbono",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cloruro de hidrógeno",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

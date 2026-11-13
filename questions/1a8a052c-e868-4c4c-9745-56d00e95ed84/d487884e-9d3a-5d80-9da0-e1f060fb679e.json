@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "d487884e-9d3a-5d80-9da0-e1f060fb679e",
+  "rev": 1,
+  "statement": "¿Cuál de estas es una base débil?",
+  "explanation": "El amoníaco solo acepta protones del agua en pequeña proporción; los hidróxidos del grupo 1 y el de bario están totalmente disociados.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "bases débiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El amoníaco",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El hidróxido de potasio",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El hidróxido de bario",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El hidróxido de sodio",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

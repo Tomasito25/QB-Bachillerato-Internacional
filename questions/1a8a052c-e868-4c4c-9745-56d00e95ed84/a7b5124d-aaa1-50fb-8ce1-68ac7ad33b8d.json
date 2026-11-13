@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a7b5124d-aaa1-50fb-8ce1-68ac7ad33b8d",
+  "rev": 1,
+  "statement": "¿Cuál es la configuración electrónica del cromo (Z = 24)?",
+  "explanation": "El cromo y el cobre son excepciones: un subnivel 3d semilleno (o lleno, en el cobre) es especialmente estable.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "excepciones",
+    "cromo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$[\\text{Ar}]\\,4s^2\\,4p^4$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$[\\text{Ar}]\\,3d^6$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$[\\text{Ar}]\\,3d^4\\,4s^2$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$[\\text{Ar}]\\,3d^5\\,4s^1$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

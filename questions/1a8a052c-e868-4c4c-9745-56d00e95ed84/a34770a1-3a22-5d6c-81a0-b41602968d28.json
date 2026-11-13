@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a34770a1-3a22-5d6c-81a0-b41602968d28",
+  "rev": 1,
+  "statement": "¿Qué se observa al agitar un alqueno con agua de bromo?",
+  "explanation": "El bromo se consume al adicionarse al doble enlace. Con un alcano el color no cambia.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "prueba de alquenos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No se observa ningún cambio.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La disolución se vuelve azul.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El agua de bromo pasa de anaranjada a incolora.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Se forma un precipitado blanco.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

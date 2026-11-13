@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d8102cb6-2dd3-5897-9e67-9e44284845cb",
+  "rev": 1,
+  "statement": "Además de CO₂, ¿qué contaminante libera la combustión de carbón con azufre?",
+  "explanation": "S + O₂ → SO₂. Por eso se desulfura el combustible o se lavan los gases de las chimeneas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "carbón",
+    "contaminación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ozono",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Hidrógeno",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Metano",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Dióxido de azufre, que causa lluvia ácida",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

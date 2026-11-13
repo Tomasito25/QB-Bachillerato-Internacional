@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "9ea92fcf-5fff-5282-970c-5edbc06a7f10",
+  "rev": 1,
+  "statement": "El sodio reacciona con el cloro para formar cloruro de sodio.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "enlace iónico",
+    "formación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se forma el enlace iónico en el cloruro de sodio, en términos de electrones.",
+      "modelAnswer": "Cada átomo de sodio cede su electrón de valencia (3s¹) a un átomo de cloro. (1) Se forman Na⁺ y Cl⁻, ambos con configuración de gas noble. (1) Los iones de carga opuesta se atraen electrostáticamente en todas las direcciones y forman una red. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el cloruro de sodio sólido no conduce la electricidad, pero sí fundido.",
+      "modelAnswer": "En el sólido, los iones están fijos en la red y no pueden desplazarse. (1) Fundido, los iones se mueven libremente y transportan la carga. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el cloruro de sodio tiene un punto de fusión alto.",
+      "modelAnswer": "Hay que vencer muchas atracciones electrostáticas fuertes entre iones de carga opuesta en toda la red. (1)",
+      "marks": 1
+    }
+  ]
+}

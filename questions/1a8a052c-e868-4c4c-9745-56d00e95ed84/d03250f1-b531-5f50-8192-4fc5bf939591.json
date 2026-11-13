@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d03250f1-b531-5f50-8192-4fc5bf939591",
+  "rev": 1,
+  "statement": "¿Qué factor cambia el valor de la constante de equilibrio de una reacción dada?",
+  "explanation": "Los cambios de concentración o de presión desplazan el equilibrio, pero el nuevo equilibrio tiene la misma K.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "K",
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La presión",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La presencia de un catalizador",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La temperatura",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La concentración de un reactivo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

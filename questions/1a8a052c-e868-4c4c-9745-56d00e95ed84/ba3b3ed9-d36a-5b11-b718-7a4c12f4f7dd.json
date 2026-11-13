@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ba3b3ed9-d36a-5b11-b718-7a4c12f4f7dd",
+  "rev": 1,
+  "statement": "Durante la fusión de un sólido puro, la temperatura se mantiene constante aunque se siga calentando. ¿Por qué?",
+  "explanation": "Mientras coexisten sólido y líquido, la energía aumenta la energía potencial de las partículas al separarlas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "curva de calentamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La sustancia pierde energía al mismo ritmo que la recibe.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El termómetro deja de funcionar durante la fusión.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las partículas dejan de moverse durante la fusión.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La energía se emplea en vencer las fuerzas entre las partículas, no en aumentar su energía cinética media.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

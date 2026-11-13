@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "bf4ea6dc-a4f3-513c-b6ec-6801492d518a",
+  "rev": 1,
+  "statement": "En la electrólisis del bromuro de plomo(II) fundido, ¿qué se forma en el cátodo?",
+  "explanation": "En el cátodo (negativo) se reducen los cationes: Pb²⁺ + 2e⁻ → Pb. En el ánodo se oxidan los Br⁻ a Br₂.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "electrólisis de sales fundidas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Bromo",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Plomo",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Hidrógeno",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Oxígeno",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

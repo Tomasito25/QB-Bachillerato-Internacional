@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c6b9dc7a-74b1-55ae-aee3-6a5e3d225c56",
+  "rev": 1,
+  "statement": "¿Qué afirmación sobre un orbital es correcta?",
+  "explanation": "Un orbital es una región del espacio donde es muy probable encontrar el electrón; el principio de exclusión de Pauli limita su ocupación a dos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "orbitales",
+    "espín"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Puede contener hasta ocho electrones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Es una órbita circular fija en la que gira el electrón.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Solo existe en el primer nivel de energía.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Puede contener como máximo dos electrones, con espines opuestos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

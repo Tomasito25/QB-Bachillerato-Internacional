@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "b0b4a1c1-ab02-5197-b0e7-d37290b891c5",
+  "rev": 1,
+  "statement": "El producto iónico del agua a $298\\,\\text{K}$ es $K_w = [\\mathrm{H^+}][\\mathrm{OH^-}] = 1{,}0\\times 10^{-14}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "Kw",
+    "pH de bases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el pH de una disolución de hidróxido de potasio de $0{,}0020\\,\\text{mol dm}^{-3}$.",
+      "modelAnswer": "$[\\mathrm{H^+}] = \\dfrac{1{,}0\\times 10^{-14}}{0{,}0020} = 5{,}0\\times 10^{-12}\\,\\text{mol dm}^{-3}$. (1) $\\text{pH} = 11{,}30$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el agua pura es neutra aunque contenga iones H⁺.",
+      "modelAnswer": "La autoionización produce la misma cantidad de H⁺ que de OH⁻: $[\\mathrm{H^+}] = [\\mathrm{OH^-}]$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula $[\\mathrm{H^+}]$ en agua pura a $298\\,\\text{K}$.",
+      "modelAnswer": "$[\\mathrm{H^+}] = \\sqrt{1{,}0\\times 10^{-14}} = 1{,}0\\times 10^{-7}\\,\\text{mol dm}^{-3}$ (pH 7). (1)",
+      "marks": 1
+    }
+  ]
+}
