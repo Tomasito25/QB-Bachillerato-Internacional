@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4de520eb-54e0-5d64-9c62-4fbeffc7037e",
+  "rev": 1,
+  "statement": "Una disolución tiene pH 4,70. ¿Cuál es su concentración de iones H⁺?",
+  "explanation": "$[\\mathrm{H^+}] = 10^{-\\text{pH}} = 10^{-4{,}70} = 2{,}0\\times 10^{-5}\\,\\text{mol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "pH",
+    "concentración de H+"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0\\times 10^{-5}\\,\\text{mol dm}^{-3}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$4{,}7\\times 10^{-5}\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$2{,}0\\times 10^{-4}\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$5{,}0\\times 10^{-4}\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

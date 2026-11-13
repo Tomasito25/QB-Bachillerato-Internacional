@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "48d3bc4b-b660-5826-9658-e7bb489f3905",
+  "rev": 1,
+  "statement": "Una disolución de ácido sulfúrico contiene $4{,}90\\,\\text{g dm}^{-3}$ de H₂SO₄. ¿Cuál es su concentración en $\\text{mol dm}^{-3}$?",
+  "explanation": "$\\dfrac{4{,}90}{98{,}09} = 0{,}0500\\,\\text{mol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "concentración",
+    "g dm-3"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}0250$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}0500$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$0{,}100$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$4{,}90$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

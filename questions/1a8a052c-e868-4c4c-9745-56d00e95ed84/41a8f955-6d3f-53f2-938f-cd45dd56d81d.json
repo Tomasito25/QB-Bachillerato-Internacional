@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "41a8f955-6d3f-53f2-938f-cd45dd56d81d",
+  "rev": 1,
+  "statement": "¿Hacia dónde se desplaza el equilibrio N₂(g) + 3H₂(g) ⇌ 2NH₃(g) al aumentar la presión?",
+  "explanation": "Hay 4 moles de gas a la izquierda y 2 a la derecha; al formar amoníaco se reduce la presión.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "Le Châtelier",
+    "presión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No se desplaza.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Hacia la izquierda, donde hay más moles de gas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Depende del catalizador.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Hacia la derecha, donde hay menos moles de gas.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

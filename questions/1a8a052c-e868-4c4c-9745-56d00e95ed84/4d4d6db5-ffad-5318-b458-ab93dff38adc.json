@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "4d4d6db5-ffad-5318-b458-ab93dff38adc",
+  "rev": 1,
+  "statement": "En los tubos de escape de los coches, un convertidor catalítico transforma el monóxido de carbono y los óxidos de nitrógeno en gases menos dañinos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "energía de activación",
+    "catalizadores industriales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué el catalizador se usa en forma de capa fina sobre una estructura en panal de abeja.",
+      "modelAnswer": "Así tiene una superficie enorme expuesta a los gases, (1) lo que aumenta los choques y la velocidad, y además se ahorra metal caro. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el convertidor funciona mal en los primeros minutos tras arrancar el motor en frío.",
+      "modelAnswer": "A baja temperatura, pocas moléculas tienen la energía de activación necesaria, incluso con el catalizador. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Indica por qué el catalizador no se agota aunque funcione durante años.",
+      "modelAnswer": "Se regenera al final de cada ciclo de reacción: no se consume. (1)",
+      "marks": 1
+    }
+  ]
+}

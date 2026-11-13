@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "58466745-ae0c-5388-823a-3fa44e40b7f6",
+  "rev": 1,
+  "statement": "Para 2NO₂(g) ⇌ N₂O₄(g), $\\Delta H = -57\\,\\text{kJ}$. El NO₂ es pardo y el N₂O₄, incoloro. ¿Qué se observa al sumergir la mezcla en agua con hielo?",
+  "explanation": "Al enfriar se favorece la reacción exotérmica, la directa.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "NO2",
+    "N2O4",
+    "color"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El color pardo se oscurece.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El color pardo se aclara, porque se favorece la formación de N₂O₄.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "No cambia el color.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La mezcla se vuelve azul.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

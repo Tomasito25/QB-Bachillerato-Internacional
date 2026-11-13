@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4c71a94c-096c-5612-9948-4cc7c17190c3",
+  "rev": 1,
+  "statement": "¿Qué se forma en la fisión heterolítica de un enlace C–Br?",
+  "explanation": "El bromo, más electronegativo, se queda con el par de electrones.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "fisión heterolítica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Dos aniones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Dos moléculas neutras.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Dos radicales.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un catión con el carbono y un ion bromuro, que se queda con los dos electrones del enlace.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

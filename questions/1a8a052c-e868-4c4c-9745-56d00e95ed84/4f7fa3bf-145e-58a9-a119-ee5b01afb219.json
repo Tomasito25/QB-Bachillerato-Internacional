@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4f7fa3bf-145e-58a9-a119-ee5b01afb219",
+  "rev": 1,
+  "statement": "¿Qué es el enlace iónico?",
+  "explanation": "Se forma, sobre todo, entre metales y no metales con gran diferencia de electronegatividad.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "enlace iónico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La atracción entre moléculas polares.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La atracción entre cationes y un mar de electrones deslocalizados.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La compartición de un par de electrones entre dos átomos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La atracción electrostática entre iones de carga opuesta.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

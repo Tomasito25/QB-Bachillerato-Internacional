@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "3d258320-a9fa-5fed-afc4-1185c68d4878",
+  "rev": 1,
+  "statement": "La gráfica muestra la distribución de las energías de las partículas de un gas a dos temperaturas, T₁ y T₂. La línea de puntos señala la energía de activación de una reacción.\n\n![Distribución de Maxwell-Boltzmann de las energías de las partículas de un gas a dos temperaturas, T1 y T2](qbimg:1c71fef874cc220a31e84fc8088ac0ee014a3c43d3159c0135c93d749f518b8f)",
+  "images": [
+    {
+      "hash": "1c71fef874cc220a31e84fc8088ac0ee014a3c43d3159c0135c93d749f518b8f",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 21098,
+      "alt": "Distribución de Maxwell-Boltzmann de las energías de las partículas de un gas a dos temperaturas, T1 y T2"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "Maxwell-Boltzmann",
+    "temperatura",
+    "catalizador"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica cuál de las dos temperaturas es mayor y justifica tu respuesta.",
+      "modelAnswer": "T₂, (1) porque su máximo está a mayor energía y la curva es más ancha. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica, con la gráfica, por qué la reacción es más rápida a T₂.",
+      "modelAnswer": "El área bajo la curva a la derecha de la energía de activación es mucho mayor a T₂: (1) hay más partículas con energía suficiente y más choques con éxito por segundo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué las dos curvas tienen la misma área.",
+      "modelAnswer": "El área representa el número total de partículas, que es el mismo a las dos temperaturas. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Indica cómo se representaría el efecto de un catalizador en esta gráfica.",
+      "modelAnswer": "Con una energía de activación más a la izquierda (menor), sin cambiar las curvas. (1)",
+      "marks": 1
+    }
+  ]
+}

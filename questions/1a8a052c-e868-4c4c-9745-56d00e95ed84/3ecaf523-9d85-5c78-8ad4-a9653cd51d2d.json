@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "3ecaf523-9d85-5c78-8ad4-a9653cd51d2d",
+  "rev": 1,
+  "statement": "¿Qué establece el principio de Aufbau?",
+  "explanation": "Por eso el orden de llenado es 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p…",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "principio de Aufbau"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los electrones ocupan primero los orbitales de menor energía disponibles.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Los electrones ocupan orbitales vacíos antes de emparejarse.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cada orbital puede contener dos electrones de espines opuestos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La energía de los niveles disminuye al alejarse del núcleo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

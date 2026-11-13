@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "468273e4-8974-5766-a33d-90ca5e663686",
+  "rev": 1,
+  "statement": "¿Qué idea representa el triángulo de enlace (de van Arkel-Ketelaar)?",
+  "explanation": "Muchas sustancias tienen enlaces con carácter intermedio; su posición en el triángulo depende de las electronegatividades.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "continuo de enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que todas las sustancias tienen enlace iónico.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que el enlace depende solo de la masa de los átomos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que los tres tipos de enlace nunca se mezclan.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que el enlace es un continuo entre los modelos iónico, covalente y metálico.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

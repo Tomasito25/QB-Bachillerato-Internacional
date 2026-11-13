@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4f5b0d4c-97cd-578f-ae47-bfe3a619f12a",
+  "rev": 1,
+  "statement": "¿Cuál es el nombre de CH₃CH₂CH₂Br?",
+  "explanation": "Tres carbonos con el bromo en el carbono 1.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "halogenoalcanos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1-bromobutano",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "1-bromopropano",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "2-bromopropano",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Bromoetano",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

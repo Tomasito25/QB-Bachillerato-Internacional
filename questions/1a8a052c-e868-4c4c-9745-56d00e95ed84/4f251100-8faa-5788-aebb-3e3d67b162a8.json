@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4f251100-8faa-5788-aebb-3e3d67b162a8",
+  "rev": 1,
+  "statement": "Se mezclan $5{,}6\\,\\text{g}$ de hierro con $3{,}2\\,\\text{g}$ de azufre: Fe + S → FeS. ¿Qué afirmación es correcta?",
+  "explanation": "$\\dfrac{5{,}6}{55{,}85} = 0{,}10$ y $\\dfrac{3{,}2}{32{,}07} = 0{,}10\\,\\text{mol}$: están en la proporción 1 : 1 de la ecuación.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "reactivo limitante",
+    "masas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Reaccionan por completo los dos, porque hay $0{,}10\\,\\text{mol}$ de cada uno.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Se forman $0{,}20\\,\\text{mol}$ de FeS.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El azufre está en exceso.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El hierro está en exceso.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

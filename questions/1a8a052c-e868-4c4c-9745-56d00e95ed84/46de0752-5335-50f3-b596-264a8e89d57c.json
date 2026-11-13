@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "46de0752-5335-50f3-b596-264a8e89d57c",
+  "rev": 1,
+  "statement": "¿Qué se forma cuando se quema magnesio en el aire?",
+  "explanation": "2Mg + O₂ → 2MgO. Los metales reactivos y algunos no metales, como el azufre, también arden en oxígeno.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "combustión de metales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Carbonato de magnesio",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Óxido de magnesio, un sólido blanco",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Hidróxido de magnesio",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Dióxido de magnesio gaseoso",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

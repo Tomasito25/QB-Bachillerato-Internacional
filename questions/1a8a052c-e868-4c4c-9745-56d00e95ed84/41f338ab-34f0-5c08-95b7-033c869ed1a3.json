@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "41f338ab-34f0-5c08-95b7-033c869ed1a3",
+  "rev": 1,
+  "statement": "¿Qué es una aleación?",
+  "explanation": "El acero (hierro y carbono), el latón (cobre y cinc) y el bronce (cobre y estaño) son aleaciones.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "aleaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un metal puro muy refinado.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un polímero que conduce la electricidad.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una mezcla de un metal con otros metales o con no metales, como el carbono.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Un compuesto iónico de dos metales.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

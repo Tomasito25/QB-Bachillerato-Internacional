@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "56ad3d5a-a0a6-5ab4-853f-ff7ca61bb52c",
+  "rev": 1,
+  "statement": "¿Qué ocurre cuando un átomo de un metal forma un ion?",
+  "explanation": "Los metales tienen pocos electrones de valencia y tienden a perderlos; los no metales tienden a ganarlos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "cationes",
+    "aniones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Pierde neutrones y forma un anión.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Pierde electrones y forma un catión.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Gana protones y forma un catión.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Gana electrones y forma un anión.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

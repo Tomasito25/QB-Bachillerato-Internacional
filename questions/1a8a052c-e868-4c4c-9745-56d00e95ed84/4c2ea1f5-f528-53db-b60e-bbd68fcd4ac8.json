@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4c2ea1f5-f528-53db-b60e-bbd68fcd4ac8",
+  "rev": 1,
+  "statement": "La entalpía de combustión del metano es $−890 kJ mol-1$. ¿Cuál es su energía específica?",
+  "explanation": "$\\dfrac{890\\,\\text{kJ}}{16{,}05\\,\\text{g}} = 55{,}5\\,\\text{kJ g}^{-1} = 55\\,500\\,\\text{kJ kg}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "energía específica",
+    "cálculo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$55{,}5\\,\\text{kJ kg}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$890\\,\\text{kJ kg}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$14 300\\,\\text{kJ kg}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$55 500\\,\\text{kJ kg}^{-1}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

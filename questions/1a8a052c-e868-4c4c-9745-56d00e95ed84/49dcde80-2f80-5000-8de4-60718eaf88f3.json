@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "49dcde80-2f80-5000-8de4-60718eaf88f3",
+  "rev": 1,
+  "statement": "Un hidrocarburo contiene un 85,6 % de carbono en masa. Su masa molar es de $56{,}1\\,\\text{g mol}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "fórmula empírica",
+    "fórmula molecular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina su fórmula empírica.",
+      "modelAnswer": "En 100 g: $\\dfrac{85{,}6}{12{,}01} = 7{,}13$ mol de C y $\\dfrac{14{,}4}{1{,}01} = 14{,}3$ mol de H. (1) La proporción es 1 : 2, así que la fórmula empírica es CH₂. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina su fórmula molecular.",
+      "modelAnswer": "$M(\\mathrm{CH_2}) = 14{,}03$ y $\\dfrac{56{,}1}{14{,}03} = 4$: C₄H₈. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica la diferencia entre fórmula empírica y fórmula molecular.",
+      "modelAnswer": "La empírica da la proporción más sencilla de átomos de cada elemento; la molecular, el número real de átomos de cada elemento en una molécula. (1)",
+      "marks": 1
+    }
+  ]
+}

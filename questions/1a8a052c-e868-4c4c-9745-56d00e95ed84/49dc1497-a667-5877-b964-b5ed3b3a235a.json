@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "49dc1497-a667-5877-b964-b5ed3b3a235a",
+  "rev": 1,
+  "statement": "Identifica el grupo funcional y nombra cada uno de estos compuestos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "grupos funcionales",
+    "nomenclatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "CH₃CH₂CHO y CH₃CH₂COOH.",
+      "modelAnswer": "Propanal: aldehído. (1) Ácido propanoico: ácido carboxílico. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "CH₃COCH₂CH₃ y CH₃CH₂CH₂OH.",
+      "modelAnswer": "Butanona: cetona. (1) Propan-1-ol: alcohol (hidroxilo). (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "CH₃CH₂Cl y CH₃CH₂CH₂NH₂.",
+      "modelAnswer": "Cloroetano: halogenoalcano. (1) Propan-1-amina (propilamina): amina. (1)",
+      "marks": 2
+    }
+  ]
+}

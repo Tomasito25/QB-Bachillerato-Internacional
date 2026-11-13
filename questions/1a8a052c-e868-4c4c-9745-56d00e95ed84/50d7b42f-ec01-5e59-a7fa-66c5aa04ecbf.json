@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "50d7b42f-ec01-5e59-a7fa-66c5aa04ecbf",
+  "rev": 1,
+  "statement": "¿Qué forma tienen los orbitales s y p?",
+  "explanation": "Hay tres orbitales p en cada nivel a partir de n = 2: p_x, p_y y p_z.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "forma de los orbitales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los s son esféricos y los p tienen forma de lóbulos dobles orientados en los tres ejes.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Los s tienen forma de lóbulos y los p son esféricos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los dos son esféricos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los dos son anillos planos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

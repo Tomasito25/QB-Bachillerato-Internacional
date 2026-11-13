@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "55cbf21e-bd36-5beb-8b2f-9e0e8fa9cdb7",
+  "rev": 1,
+  "statement": "Se construye una pila con una lámina de cinc en una disolución de sulfato de cinc y una lámina de cobre en una disolución de sulfato de cobre(II), unidas por un puente salino y un cable con un voltímetro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "pila voltaica",
+    "Zn-Cu"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe las semirreacciones de cada electrodo e indica cuál es el ánodo.",
+      "modelAnswer": "Ánodo (cinc): Zn → Zn²⁺ + 2e⁻. (1) Cátodo (cobre): Cu²⁺ + 2e⁻ → Cu. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la ecuación global e identifica el agente reductor.",
+      "modelAnswer": "Zn + Cu²⁺ → Zn²⁺ + Cu. (1) El reductor es el cinc. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Describe dos cambios observables tras un tiempo de funcionamiento.",
+      "modelAnswer": "Dos de: la lámina de cinc pierde masa; se deposita cobre sobre la lámina de cobre; la disolución azul de sulfato de cobre se aclara. (2)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica la función del puente salino.",
+      "modelAnswer": "Permite el movimiento de iones entre las semiceldas, cierra el circuito y mantiene neutras las disoluciones. (1)",
+      "marks": 1
+    }
+  ]
+}

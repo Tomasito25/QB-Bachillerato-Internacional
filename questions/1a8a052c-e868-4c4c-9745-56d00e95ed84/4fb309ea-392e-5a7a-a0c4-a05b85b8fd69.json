@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4fb309ea-392e-5a7a-a0c4-a05b85b8fd69",
+  "rev": 1,
+  "statement": "¿Por qué los alcanos son poco reactivos?",
+  "explanation": "Sin zonas con carga parcial que atraigan a otros reactivos, solo reaccionan en condiciones energéticas, como la combustión o con radicales.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "alcanos",
+    "reactividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque son compuestos iónicos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque sus enlaces C–C y C–H son fuertes y casi no son polares.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque tienen electrones desapareados.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque tienen dobles enlaces.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

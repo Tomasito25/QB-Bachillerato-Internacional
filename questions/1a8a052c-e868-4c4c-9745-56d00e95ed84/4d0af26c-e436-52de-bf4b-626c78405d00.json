@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4d0af26c-e436-52de-bf4b-626c78405d00",
+  "rev": 1,
+  "statement": "Un gas ocupa $10{,}0\\,\\text{dm}^{3}$ a $100\\,\\text{kPa}$ y $300\\,\\text{K}$. ¿Qué volumen ocupará a $200\\,\\text{kPa}$ y $600\\,\\text{K}$?",
+  "explanation": "$V_2 = V_1 \\dfrac{p_1 T_2}{p_2 T_1} = 10{,}0 \\times \\dfrac{100 \\times 600}{200 \\times 300} = 10{,}0\\,\\text{dm}^3$. Los dos cambios se compensan.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "ley combinada"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$5{,}00\\,\\text{dm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$10{,}0\\,\\text{dm}^{3}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$20{,}0\\,\\text{dm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$40{,}0\\,\\text{dm}^{3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

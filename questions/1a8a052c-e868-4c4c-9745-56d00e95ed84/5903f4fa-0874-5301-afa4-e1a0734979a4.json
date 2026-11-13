@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5903f4fa-0874-5301-afa4-e1a0734979a4",
+  "rev": 1,
+  "statement": "Una muestra de $0{,}660\\,\\text{g}$ de un gas ocupa $500\\,\\text{cm}^{3}$ a $298\\,\\text{K}$ y $100\\,\\text{kPa}$. ¿Cuál es su masa molar aproximada?",
+  "explanation": "$n = \\dfrac{pV}{RT} = \\dfrac{100\\,000 \\times 5{,}00\\times 10^{-4}}{8{,}31 \\times 298} = 0{,}0202\\,\\text{mol}$; $M = \\dfrac{0{,}660}{0{,}0202} = 32{,}7\\,\\text{g mol}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "masa molar",
+    "gases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$65{,}4\\,\\text{g mol}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$32{,}7\\,\\text{g mol}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$16{,}4\\,\\text{g mol}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$3{,}27\\,\\text{g mol}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

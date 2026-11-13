@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "50bc2d52-e754-5b71-ab16-4c4c29240462",
+  "rev": 1,
+  "statement": "¿Qué compuesto es insaturado?",
+  "explanation": "Los compuestos insaturados tienen enlaces dobles o triples entre carbonos. El eteno tiene un C=C.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "saturados",
+    "insaturados"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El etanol",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El etano",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El eteno",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El cloroetano",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
