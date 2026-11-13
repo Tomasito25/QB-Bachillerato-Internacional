@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b632512f-1da4-5ffc-b43e-26d794109cc4",
+  "rev": 1,
+  "statement": "¿Qué secuencia describe la nutrición holozoica de los animales?",
+  "explanation": "El alimento se ingiere y se digiere dentro del cuerpo; los productos se absorben y se incorporan a las células, y lo no digerido se expulsa.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "nutrición",
+    "holozoica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ingestión, digestión, absorción, asimilación y egestión.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Absorción, ingestión, egestión, digestión y asimilación.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Fotosíntesis, absorción y egestión.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Secreción de enzimas al exterior y absorción.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

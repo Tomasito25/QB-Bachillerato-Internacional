@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "b4e9fb12-6dbf-565e-b75d-f41770ccc4a3",
+  "rev": 1,
+  "statement": "Aquel año llovió en Valdelosa desde la víspera de San Juan hasta bien entrado septiembre, sin una sola hora de tregua, y nadie en el pueblo recordaba nada parecido, ni siquiera don Eusebio, que recordaba todo y se lo inventaba casi todo. Al principio la gente lo tomó como una bendición, porque venían de tres años de sequía, y el cura organizó una misa de acción de gracias a la que hubo que ir con paraguas.\n\nEn julio empezaron a aparecer las setas. Crecían en los marcos de las puertas, en los zapatos que se dejaban junto a la cocina, en el sombrero del alguacil. En agosto apareció el musgo. Primero en las tejas y en los muros orientados al norte; después, en los lugares más insospechados: en el respaldo de los bancos de la iglesia, en el lomo de los perros, en la barba del alcalde, que dejó de afeitarse por miedo a hacerse daño y acabó teniendo la cara de una piedra de río.\n\nLos niños fueron los primeros en acostumbrarse. Jugaban a esconderse bajo las mantas de musgo que colgaban de los balcones y aprendieron a distinguir, por el olor, la lluvia de la mañana de la lluvia de la tarde. Los viejos, en cambio, empezaron a callarse. Decían que la humedad se les metía en las palabras y que, cuando intentaban contar algo, les salía verde.\n\nLa única que no cambió fue Remedios, la de la mercería, que siguió abriendo la tienda cada día a las nueve en punto y vendiendo botones a nadie. Cuando por fin dejó de llover, el pueblo entero salió a la plaza a mirar el cielo, incrédulo, y fue ella quien dijo lo que todos pensaban y nadie se atrevía a decir:\n\n—Ahora a ver qué hacemos con tanto sol.\n\nY fue entonces, dicen, cuando el alcalde se echó a llorar, y de sus ojos no salieron lágrimas, sino agua de lluvia.\n\n---\n\n**Pregunta guía:** ¿Cómo se combinan lo real y lo maravilloso en el relato, y con qué efecto?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "realismo mágico",
+    "pueblo",
+    "lluvia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un pueblo vive tres meses de lluvia continua y se va cubriendo de setas y musgo. El narrador cuenta los hechos más extraordinarios con el mismo tono que los cotidianos, rasgo del realismo mágico, y el resultado es a la vez humorístico y melancólico.\n\n**Aspectos que conviene analizar**\n- El tono del narrador: lo increíble se presenta como natural y con detalles precisos (fechas, oficios, la hora de la mercería).\n- La gradación de lo maravilloso: setas en las puertas, musgo en los perros, la barba del alcalde convertida en piedra de río.\n- El humor y la ironía (la misa con paraguas, don Eusebio que lo recordaba todo «y se lo inventaba casi todo»).\n- Las reacciones de los distintos grupos: niños que se adaptan, viejos a los que las palabras «les salían verdes».\n- Remedios como figura de la constancia y su frase final, que desmonta el alivio colectivo.\n- El final, con las lágrimas convertidas en agua de lluvia: la huella de lo extraordinario no desaparece.\n\n**Una estructura posible.** Seguir la progresión cronológica (inicio, transformación, adaptación, final) y analizar cómo crece lo maravilloso y qué revela de la comunidad.\n\n**Cuidado con…** limitarte a identificar el género. Explica qué efectos producen el tono y los detalles en la lectura.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

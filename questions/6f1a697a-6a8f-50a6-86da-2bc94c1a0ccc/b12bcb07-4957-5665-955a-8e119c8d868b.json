@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b12bcb07-4957-5665-955a-8e119c8d868b",
+  "rev": 1,
+  "statement": "¿Qué condiciones abióticas necesitan los arrecifes de coral formados por corales con algas simbiontes?",
+  "explanation": "Las algas simbiontes hacen la fotosíntesis, así que necesitan luz: agua clara y poco profunda. Además, el coral solo tolera un intervalo estrecho de temperaturas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "arrecifes de coral"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Agua cálida, poco profunda, clara y con salinidad marina estable.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Agua dulce con mucha materia en suspensión.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Agua fría y profunda, sin luz.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Agua cálida y turbia, con mucho sedimento.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

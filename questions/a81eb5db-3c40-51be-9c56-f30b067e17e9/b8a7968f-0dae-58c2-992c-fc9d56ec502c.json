@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "b8a7968f-0dae-58c2-992c-fc9d56ec502c",
+  "rev": 1,
+  "statement": "El profesor Aldana tenía dos maletas y tres mil libros. Las maletas estaban en el recibidor desde la mañana, cerradas con correas, y los libros seguían en las estanterías, ordenados como siempre, por lenguas y por siglos, como si nadie les hubiera dicho todavía lo que iba a pasar.\n\nLa frontera estaba a dos días de camino y el último camión salía de la plaza a medianoche. Cabía una maleta por persona. Aldana había metido en la suya dos camisas, un abrigo, la fotografía de su mujer y tres libros, después de una tarde entera eligiendo y descartando, como un padre al que le obligaran a decidir qué hijos se salvan.\n\nSe había llevado un diccionario, porque pensaba que en el país adonde iba lo necesitaría. Un libro de poemas que su mujer leía en voz alta los domingos. Y una gramática latina que no abría desde hacía veinte años y que se llevaba, no sabía muy bien por qué, quizá porque era el primer libro que le regaló su padre, o quizá porque el latín era una lengua que ya no tenía patria y le pareció que en eso se parecían.\n\nA las once se sentó en el sillón del despacho. No encendió la luz. Desde allí veía los lomos de los libros iluminados por la farola de la calle, y le pareció que lo miraban, como miran los perros que intuyen un viaje. Pensó en quién los leería. En los soldados que entrarían, en los vecinos que se los llevarían para encender estufas el invierno siguiente. Pensó que no era tan grave. Que los libros, como las personas, sobreviven a veces de las maneras más inesperadas.\n\nA las doce menos cuarto se levantó, acarició con la mano el estante de los poetas, como se acaricia la cabeza de un niño dormido, y salió sin cerrar con llave. No tenía sentido cerrar una casa que ya no era suya.\n\n---\n\n**Pregunta guía:** ¿Cómo se representan en el fragmento el exilio y la pérdida a través de la relación del protagonista con sus libros?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "exilio",
+    "libros",
+    "despedida"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un profesor debe huir de su país en guerra y solo puede llevarse una maleta. La elección de tres libros entre tres mil y la despedida silenciosa de su biblioteca condensan todo lo que el exilio le arrebata. El contexto histórico no se nombra, lo que universaliza la situación.\n\n**Aspectos que conviene analizar**\n- El contraste inicial entre «dos maletas y tres mil libros» y la personificación de los libros, que no saben lo que va a pasar.\n- La comparación del padre obligado a elegir qué hijos se salvan: la dimensión afectiva de los libros.\n- El sentido de cada libro elegido: el diccionario (el futuro en otra lengua), los poemas (la mujer ausente), la gramática latina (una lengua «que ya no tenía patria», como él).\n- La escena a oscuras: los lomos iluminados por la farola y la comparación con los perros que intuyen un viaje.\n- La resignación y la esperanza en la reflexión sobre el destino de los libros.\n- El final: la caricia al estante «como se acaricia la cabeza de un niño dormido» y la puerta sin cerrar, imagen de una pérdida aceptada.\n\n**Una estructura posible.** Analizar la elección de los libros y después la despedida, mostrando cómo la biblioteca representa la vida que se deja atrás.\n\n**Cuidado con…** dedicar demasiado espacio a identificar el contexto histórico, que el texto deja deliberadamente abierto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

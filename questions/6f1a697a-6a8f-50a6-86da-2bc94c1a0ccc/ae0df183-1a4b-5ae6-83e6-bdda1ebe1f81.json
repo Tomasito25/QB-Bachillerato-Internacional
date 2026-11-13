@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ae0df183-1a4b-5ae6-83e6-bdda1ebe1f81",
+  "rev": 1,
+  "statement": "¿Por qué cada enzima suele catalizar una sola reacción?",
+  "explanation": "La especificidad depende de la estructura del sitio activo; si esta cambia, por ejemplo al desnaturalizarse la enzima, se pierde la actividad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "especificidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque las enzimas se destruyen después de cada reacción.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque la forma y las propiedades químicas de su sitio activo solo son complementarias de un sustrato.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque cada célula solo fabrica una enzima.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque solo hay una molécula de sustrato en la célula.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "b1f1da21-493c-597f-8b20-49416c045d2b",
+  "rev": 1,
+  "statement": "Cada año, en las fiestas de San Roque, se celebra en el pueblo el concurso de la calabaza más grande, y cada año, desde hace quince, lo gana Teodoro el del molino, con unas calabazas que parecen planetas y que él cultiva en un huerto que nadie ha visto nunca por dentro.\n\nEste año, Concha la de la farmacia decidió que ya estaba bien. Compró semillas por internet, leyó tres libros en inglés con ayuda de un diccionario y le habló a su calabaza todas las mañanas, porque había leído que a las plantas les gusta la conversación. Su marido decía que le hablaba más a la calabaza que a él. Concha no lo negaba.\n\nEn agosto, la calabaza de Concha era tan grande que hubo que sacarla del huerto con el tractor de los Ortega y una cuerda de las fiestas. Medio pueblo salió a verla pasar por la calle mayor, como en una procesión. Los niños la tocaban para dar suerte. El cura, discretamente, la bendijo.\n\nEl día del concurso, en la plaza, las dos calabazas quedaron frente a frente. La de Teodoro era más redonda; la de Concha, más alta. El jurado, compuesto por el alcalde, el veterinario y la maestra jubilada, las midió tres veces. Hubo un empate de medio centímetro.\n\nSe hizo un silencio en la plaza. Teodoro, que no había hablado con Concha en veinte años por un asunto de lindes, se acercó a ella. Todos esperaban una discusión. Teodoro le tendió la mano.\n\n—¿Cuántas veces al día le hablabas? —preguntó.\n\n—Dos. Por la mañana y por la noche.\n\n—Yo, tres —dijo Teodoro—. Pero le canto. Prueba a cantarle.\n\nConcha se rio. Teodoro también. Ese año el premio, una cesta de embutidos, se partió por la mitad. Y desde entonces, dicen en el pueblo, si uno pasa de noche junto al molino, se oye a dos personas cantando a dos calabazas, desafinando muchísimo.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el relato el humor y qué visión ofrece de la vida en comunidad?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "humor",
+    "pueblo",
+    "rivalidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Relato humorístico sobre la rivalidad entre dos vecinos de un pueblo en un concurso de calabazas gigantes. La competición termina en empate y en una reconciliación inesperada, y ofrece una visión cálida e irónica de la vida en comunidad.\n\n**Aspectos que conviene analizar**\n- La hipérbole como fuente de humor: calabazas «que parecen planetas», el tractor, la procesión por la calle mayor.\n- La caracterización de Concha (los libros en inglés, la conversación diaria con la calabaza) y el comentario del marido.\n- La comunidad como coro: los niños que tocan la calabaza, el cura que la bendice «discretamente», el jurado compuesto por figuras del pueblo.\n- La tensión del empate y el silencio en la plaza, con la expectativa de una discusión (la vieja disputa por las lindes).\n- El giro: la pregunta de Teodoro y el consejo de cantar, que convierte la rivalidad en complicidad.\n- El final legendario («dicen en el pueblo»), con la imagen de los dos cantando y desafinando.\n\n**Una estructura posible.** Analizar la presentación de la rivalidad, la preparación de Concha, el concurso y la reconciliación, mostrando cómo el humor da paso a la ternura.\n\n**Cuidado con…** explicar los chistes. Analiza los recursos humorísticos y el sentido del final.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

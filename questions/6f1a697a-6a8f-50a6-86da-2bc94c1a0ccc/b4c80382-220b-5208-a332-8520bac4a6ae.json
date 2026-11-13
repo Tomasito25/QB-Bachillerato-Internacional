@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b4c80382-220b-5208-a332-8520bac4a6ae",
+  "rev": 1,
+  "statement": "El agua asciende por los poros finos del suelo y por las paredes celulares de las plantas aunque nada la bombee. ¿Qué lo explica?",
+  "explanation": "La celulosa de las paredes y las partículas del suelo son polares: el agua forma puentes de hidrógeno con ellas (adhesión) y avanza por capilaridad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "adhesión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La adhesión del agua a superficies polares o con carga, que produce capilaridad.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La baja viscosidad del agua, que le permite fluir hacia arriba.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La cohesión, que hace que el agua se repela de las superficies sólidas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La evaporación del agua en el suelo, que la empuja hacia los poros.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

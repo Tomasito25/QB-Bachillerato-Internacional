@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "af07ee64-3d32-5275-92f7-c9bbf9f88e36",
+  "rev": 1,
+  "statement": "¿Cuál es el resultado de la replicación del ADN?",
+  "explanation": "La replicación produce copias exactas, que se reparten entre las dos células hijas en la división celular.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "replicación",
+    "copias exactas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una molécula de ARN con la secuencia del gen.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Dos moléculas de ADN con la misma secuencia de bases que la original.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Una proteína con la secuencia de aminoácidos del gen.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Dos moléculas de ADN con secuencias complementarias entre sí.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

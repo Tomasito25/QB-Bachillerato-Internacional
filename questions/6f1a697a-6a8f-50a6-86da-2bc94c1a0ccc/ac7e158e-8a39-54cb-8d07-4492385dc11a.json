@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "ac7e158e-8a39-54cb-8d07-4492385dc11a",
+  "rev": 1,
+  "statement": "Se midió la velocidad de una reacción catalizada por una enzima a siete temperaturas, con la misma concentración de enzima y de sustrato.\n\n![Velocidad de una reacción catalizada por una enzima a distintas temperaturas](qbimg:0b39b8f075e671aec31a4929ee154268ecc8ce619f29e9e5754d2ce57413a3b3)",
+  "images": [
+    {
+      "hash": "0b39b8f075e671aec31a4929ee154268ecc8ce619f29e9e5754d2ce57413a3b3",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 22348,
+      "alt": "Velocidad de una reacción catalizada por una enzima a distintas temperaturas"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "temperatura",
+    "desnaturalización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica la temperatura óptima de la enzima según los datos.",
+      "modelAnswer": "Unos $40\\,°\\text{C}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula cuántas veces es mayor la velocidad a $40\\,°\\text{C}$ que a $20\\,°\\text{C}$.",
+      "modelAnswer": "$\\dfrac{4{,}6}{1{,}6} = 2{,}9$ veces. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica el aumento de la velocidad entre $10\\,°\\text{C}$ y $40\\,°\\text{C}$.",
+      "modelAnswer": "Las moléculas de enzima y de sustrato tienen más energía cinética. (1) Chocan con más frecuencia y una mayor proporción de los choques supera la energía de activación. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica la caída de la velocidad por encima de $40\\,°\\text{C}$.",
+      "modelAnswer": "La agitación térmica rompe los enlaces que mantienen la forma de la enzima: se desnaturaliza. (1) Cambia la forma del sitio activo y el sustrato ya no se une. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere cómo se podría determinar la temperatura óptima con más precisión.",
+      "modelAnswer": "Repitiendo las medidas a intervalos más pequeños, por ejemplo cada $2\\,°\\text{C}$, entre $30\\,°\\text{C}$ y $50\\,°\\text{C}$. (1)",
+      "marks": 1
+    }
+  ]
+}

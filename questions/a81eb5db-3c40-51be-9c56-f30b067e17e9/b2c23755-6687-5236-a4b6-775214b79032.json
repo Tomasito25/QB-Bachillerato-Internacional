@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "b2c23755-6687-5236-a4b6-775214b79032",
+  "rev": 1,
+  "statement": "**El partido**\n\nEn el pueblo de mi padre el campo de fútbol está detrás del cementerio, y los domingos de partido los vivos y los muertos comparten el mismo silencio de dos a cuatro. Después empieza el ruido. No hay gradas: la gente se acomoda en el talud, sobre sillas plegables traídas de casa, y los más viejos ven el partido desde el muro del camposanto, apoyados en él como en la barra de un bar.\n\nEl equipo local no ha ganado una liga en cuarenta años. Nadie lo espera ni lo exige. Lo que se espera es que el partido se juegue, que vengan los del pueblo de al lado para poder odiarlos con cariño durante noventa minutos, y que al final todos acaben en el mismo bar, discutiendo una jugada que cada uno vio de una manera.\n\nEn el equipo juegan un cartero, dos hermanos que tienen una granja de cerdos, el hijo del alcalde y un portero de cincuenta y dos años que se niega a retirarse porque, dice, todavía no le han metido el gol que le haga dejarlo. El árbitro es el mismo desde hace veinte años. Todos le gritan; nadie lo cambiaría.\n\nHe visto partidos en estadios de ochenta mil personas, y puedo decir que ninguno se parecía tanto a una misa como este. Hay ritos: la bota de vino que circula por el talud en el descanso, el aplauso al balón cuando cae en el huerto de la señora Fermina y ella lo devuelve, con una bronca, por encima de la tapia. Hay fieles que no faltan nunca. Y hay algo que en los estadios grandes se perdió hace tiempo: la sensación de que el partido es de todos, porque todos conocen a todos los que juegan.\n\nEste domingo perdimos tres a uno. A la salida, el portero me dijo que el tercer gol no contaba, que había sido mala suerte. Le pregunté si se retiraría por fin. Me miró como si le hubiera insultado.\n\n—¿Por ese gol? Ni hablar. Ese gol no era el bueno.\n\n---\n\n**Pregunta guía:** ¿Cómo convierte el texto un partido de fútbol local en un retrato de una comunidad?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "crónica",
+    "fútbol",
+    "pueblo",
+    "comunidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Crónica en primera persona de un partido de fútbol en un pueblo pequeño. El partido importa menos que lo que revela: una comunidad que se reúne, unos ritos compartidos y una forma de pertenencia que el fútbol profesional ha perdido.\n\n**Aspectos que conviene analizar**\n- El arranque: el campo junto al cementerio, la imagen de vivos y muertos que comparten el silencio y los viejos apoyados en el muro «como en la barra de un bar».\n- El humor y la ironía: el equipo que no gana desde hace cuarenta años, el rival al que se odia «con cariño», el árbitro al que todos gritan y nadie cambiaría.\n- La galería de personajes con un detalle cada uno, en especial el portero de cincuenta y dos años.\n- La comparación con la misa y la enumeración de «ritos» (la bota de vino, el balón en el huerto de la señora Fermina).\n- El contraste con los grandes estadios y la tesis: el partido es de todos porque todos se conocen.\n- El final dialogado, que devuelve el tono humorístico y cierra con la terquedad entrañable del portero.\n\n**Una estructura posible.** Analizar el espacio, los personajes y los ritos, y después la reflexión del cronista, mostrando cómo cada parte contribuye al retrato colectivo.\n\n**Cuidado con…** resumir el partido. La pregunta pide analizar cómo se construye el retrato de la comunidad.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "b38aad9d-a3e4-5a33-84b1-3c9c818bbaa5",
+  "rev": 1,
+  "statement": "¿Por qué la deleción de una sola base suele tener efectos más graves que una sustitución?",
+  "explanation": "A partir de la deleción, los tripletes se leen agrupando bases distintas: cambian muchos aminoácidos y suele aparecer pronto un codón de terminación.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "inserciones",
+    "deleciones",
+    "desplazamiento de lectura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque cambia el número de cromosomas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque impide que el gen se transcriba.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque elimina un aminoácido y deja el resto igual.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque desplaza el marco de lectura y cambia todos los codones siguientes.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

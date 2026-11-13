@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "afe9af47-082d-58df-beda-6bdd479c410b",
+  "rev": 1,
+  "statement": "La tabla muestra el tamaño aproximado del genoma de varios organismos, en millones de pares de bases (Mpb).\n\n| Organismo | Grupo | Tamaño del genoma / Mpb |\n|---|---|---|\n| *Escherichia coli* | Bacteria | 4,6 |\n| *Saccharomyces cerevisiae* (levadura) | Hongo | 12 |\n| *Drosophila melanogaster* (mosca del vinagre) | Animal | 140 |\n| *Zea mays* (maíz) | Planta | 2300 |\n| *Homo sapiens* | Animal | 3100 |\n| *Protopterus aethiopicus* (pez pulmonado) | Animal | 130 000 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39",
+    "d882c402-d0e9-5c72-a87d-68b5e38b52b5"
+  ],
+  "tags": [
+    "datos",
+    "tamaño del genoma"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula cuántas veces es mayor el genoma humano que el de *E. coli*.",
+      "modelAnswer": "$\\dfrac{3100}{4{,}6} \\approx 670$ veces. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara el tamaño del genoma del ser humano con el del pez pulmonado.",
+      "modelAnswer": "El del pez pulmonado es unas 42 veces mayor: $\\dfrac{130\\,000}{3100} \\approx 42$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Evalúa la hipótesis de que los organismos más complejos tienen genomas más grandes.",
+      "modelAnswer": "Los datos la apoyan en parte: la bacteria y la levadura, más sencillas, tienen los genomas más pequeños. (1) Pero no se cumple entre eucariotas: el pez pulmonado tiene un genoma mucho mayor que el humano, y el maíz uno parecido. (1) El tamaño depende sobre todo de la cantidad de ADN que no codifica proteínas. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una razón por la que los datos de la tabla se dan como valores aproximados.",
+      "modelAnswer": "El tamaño varía entre individuos o cepas de la misma especie y depende del método de secuenciación. (1)",
+      "marks": 1
+    }
+  ]
+}

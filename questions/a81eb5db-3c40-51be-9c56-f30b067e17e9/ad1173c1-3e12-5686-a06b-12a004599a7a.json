@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "ad1173c1-3e12-5686-a06b-12a004599a7a",
+  "rev": 1,
+  "statement": "La casa del final de la calle lleva cerrada desde antes de que yo naciera. Tiene las contraventanas verdes, desconchadas, y un jardín donde las ortigas han crecido hasta la altura de un hombre. En el pueblo la llaman la casa de la viuda, aunque nadie recuerda bien qué viuda ni de quién.\n\nLos niños tenemos prohibido acercarnos. Los mayores dicen que se puede caer el tejado, pero cuando lo dicen bajan la voz, y los niños sabemos que, cuando los mayores bajan la voz, no están hablando del tejado.\n\nUna noche de agosto, con mi primo Álvaro, saltamos la tapia. Llevábamos una linterna y la valentía que dan los once años y una apuesta de cinco duros. La puerta de atrás estaba abierta. Dentro olía a polvo, a humedad y a algo dulce, como a membrillo, que no tenía ningún sentido en una casa vacía.\n\nEn el salón había una mesa puesta para dos. Dos platos, dos copas, dos servilletas dobladas en triángulo. Todo cubierto por una capa de polvo tan gruesa que parecía nieve gris. Pero en uno de los platos, el de la cabecera, no había polvo. Estaba limpio. Brillaba a la luz de la linterna como si alguien acabara de fregarlo.\n\nÁlvaro me agarró del brazo. Ninguno de los dos dijo nada. Del piso de arriba llegó un ruido: no unos pasos, sino algo más suave, como una tela que se arrastra.\n\nSalimos corriendo. No paramos hasta la plaza. Álvaro perdió una zapatilla y nunca fue a buscarla.\n\nAl día siguiente le pregunté a mi abuela por la viuda. Estaba haciendo dulce de membrillo. Dejó la cuchara, me miró un rato largo y me dijo que la viuda no existía, que era un cuento para asustar a los niños. Luego siguió removiendo. Pero no volvió a mirarme en toda la tarde.\n\n---\n\n**Pregunta guía:** ¿Cómo crea el relato una atmósfera de misterio y qué papel tienen los detalles sin explicar?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "gótico",
+    "casa",
+    "misterio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Dos niños entran de noche en una casa abandonada sobre la que pesa una leyenda. Encuentran una mesa puesta para dos y un plato sin polvo, y huyen al oír un ruido. La reacción de la abuela, que hace dulce de membrillo, abre una conexión inquietante que el relato no explica.\n\n**Aspectos que conviene analizar**\n- La presentación de la casa con rasgos del relato gótico: contraventanas desconchadas, ortigas, una leyenda imprecisa.\n- La observación infantil sobre los adultos que «bajan la voz», que crea misterio desde el principio.\n- La gradación del suspense dentro de la casa: el olor a membrillo «que no tenía ningún sentido», la mesa puesta, la comparación del polvo con «nieve gris», el plato limpio.\n- El sonido del piso de arriba, descrito por lo que no es («no unos pasos»), y la huida.\n- El final: el membrillo de la abuela, su mirada larga y su silencio, que conectan el presente con el misterio sin resolverlo.\n- La narración retrospectiva de un adulto que todavía no tiene respuestas.\n\n**Una estructura posible.** Seguir la construcción del misterio (la leyenda, la entrada, los hallazgos, la huida) y analizar el final como clave abierta.\n\n**Cuidado con…** proponer una solución al misterio como si fuera segura. El efecto depende de la ambigüedad.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

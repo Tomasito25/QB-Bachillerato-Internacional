@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b259f710-09a5-5c67-ba06-c6a8d5deaa90",
+  "rev": 1,
+  "statement": "¿Qué es un factor abiótico?",
+  "explanation": "Los factores abióticos son los no vivos: luz, agua, temperatura, pH, salinidad, tipo de suelo... Los bióticos son los debidos a otros seres vivos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "factores abióticos",
+    "distribución"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:25.000Z",
+  "updatedAt": "2026-11-13T05:54:25.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una relación entre dos especies, como la depredación.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cualquier organismo descomponedor.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La cantidad de individuos de una población.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un componente físico o químico del ambiente, como la temperatura o la salinidad.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
