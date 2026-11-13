@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "aa34c7e9-3505-556b-a6ff-5fb7bf942394",
+  "rev": 1,
+  "statement": "¿Qué rasgo es propio de las arterias?",
+  "explanation": "Las arterias reciben la sangre a alta presión: las fibras elásticas se estiran con cada latido y luego recuperan su forma, lo que mantiene el flujo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "arterias",
+    "estructura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ausencia de fibras elásticas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Pared gruesa con fibras elásticas y musculares, y una luz estrecha.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Pared fina, luz ancha y válvulas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Pared de una sola capa de células.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

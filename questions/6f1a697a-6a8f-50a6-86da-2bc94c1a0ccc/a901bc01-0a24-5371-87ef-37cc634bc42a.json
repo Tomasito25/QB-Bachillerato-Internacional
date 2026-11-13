@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a901bc01-0a24-5371-87ef-37cc634bc42a",
+  "rev": 1,
+  "statement": "¿Qué es el genoma de un organismo?",
+  "explanation": "El genoma es toda la información genética: genes y secuencias que no codifican proteínas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "genoma"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La parte del ADN que codifica proteínas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Toda la información genética del organismo.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El número de cromosomas de sus gametos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El conjunto de genes que se expresan en una célula.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

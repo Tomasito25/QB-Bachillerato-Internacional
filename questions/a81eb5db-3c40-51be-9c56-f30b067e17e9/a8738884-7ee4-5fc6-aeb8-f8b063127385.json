@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "a8738884-7ee4-5fc6-aeb8-f8b063127385",
+  "rev": 1,
+  "statement": "**Muchas obras literarias muestran a un personaje que cambia profundamente. Compare cómo se presenta la transformación de un personaje en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "7c0d54dc-0c20-5faf-8f1e-2d7a893aa253"
+  ],
+  "tags": [
+    "personajes",
+    "transformación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Identificar el cambio (de qué a qué), sus causas y los recursos con que el autor lo muestra: acciones, diálogo, punto de vista, estructura. **Obras adecuadas.** Novelas de formación, tragedias o poemarios con una voz que evoluciona. **Esquema posible.** Situación inicial del personaje en cada obra; momentos de cambio y sus detonantes; técnicas que lo hacen visible (contraste entre escenas, cambio de lenguaje); sentido del cambio en la obra. **Cuidado con…** contar la vida del personaje. Compara cómo se construye el cambio, no solo qué ocurre.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

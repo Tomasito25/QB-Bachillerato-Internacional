@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a89d6c93-2328-5180-aeb9-a40a93f71e2f",
+  "rev": 1,
+  "statement": "¿Cuál de estos orgánulos no está rodeado por membrana?",
+  "explanation": "Los ribosomas están formados por ARN y proteínas y no tienen membrana. Por eso también aparecen en los procariotas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "bf2643fa-9f67-5534-af0a-ee6f0bfc7246"
+  ],
+  "tags": [
+    "ribosomas",
+    "orgánulos sin membrana"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El ribosoma",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El lisosoma",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El cloroplasto",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La mitocondria",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

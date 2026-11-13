@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "abba28ed-d820-5395-9748-0c9cdc9c66c1",
+  "rev": 1,
+  "statement": "¿Qué cambio aumenta la velocidad de difusión simple del oxígeno hacia una célula?",
+  "explanation": "En la difusión simple, el movimiento neto es mayor cuanto más pronunciado es el gradiente de concentración, sin gasto de energía.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "difusión simple",
+    "gradiente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una menor superficie de membrana.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un mayor número de bombas de membrana con ATP.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una mayor diferencia de concentración de oxígeno entre el exterior y el interior.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Una membrana más gruesa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

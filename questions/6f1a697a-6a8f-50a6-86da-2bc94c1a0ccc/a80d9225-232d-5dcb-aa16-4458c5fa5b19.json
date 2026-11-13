@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a80d9225-232d-5dcb-aa16-4458c5fa5b19",
+  "rev": 1,
+  "statement": "¿Por qué las hojas se ven verdes?",
+  "explanation": "Vemos el color de la luz que no se absorbe. La clorofila absorbe poco en el verde.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "pigmentos",
+    "absorción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la clorofila absorbe sobre todo la luz roja y azul, y refleja o transmite la verde.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque la clorofila absorbe sobre todo la luz verde.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los carotenoides absorben la luz roja.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque la luz verde es la que más energía aporta a la fotosíntesis.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

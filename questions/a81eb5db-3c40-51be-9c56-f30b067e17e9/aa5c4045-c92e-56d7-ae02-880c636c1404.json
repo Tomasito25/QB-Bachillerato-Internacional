@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "aa5c4045-c92e-56d7-ae02-880c636c1404",
+  "rev": 1,
+  "statement": "**¿En qué medida resulta autoritaria la voz que guía la lectura en dos de las obras que ha estudiado?**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8cbb01f-3344-51dd-b01f-07282802c397"
+  ],
+  "tags": [
+    "narrador",
+    "autoridad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Valorar si la voz impone una interpretación (juicios, explicaciones, moralejas) o deja al lector la tarea de interpretar (ambigüedad, distancia). «En qué medida» exige una respuesta graduada. **Obras adecuadas.** Contrastar una obra con narrador intrusivo y otra con narrador objetivo o elíptico da buen resultado. **Esquema posible.** Rasgos de la voz en cada obra; grado de intervención; efecto en la libertad del lector; conclusión matizada. **Cuidado con…** dar una respuesta de sí o no.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

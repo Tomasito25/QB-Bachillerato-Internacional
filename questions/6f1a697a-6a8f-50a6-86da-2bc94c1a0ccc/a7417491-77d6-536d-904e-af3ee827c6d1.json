@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a7417491-77d6-536d-904e-af3ee827c6d1",
+  "rev": 1,
+  "statement": "¿Qué función tienen las cadenas de glúcidos de las glicoproteínas y glicolípidos de la cara externa de la membrana?",
+  "explanation": "Forman el glucocáliz, que permite a las células reconocerse (por ejemplo, el sistema inmunitario distingue lo propio de lo ajeno) y unirse entre sí.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "glicoproteínas",
+    "glicolípidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La síntesis de ATP.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El reconocimiento celular y la adhesión entre células.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La formación de la bicapa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El transporte activo de iones.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
