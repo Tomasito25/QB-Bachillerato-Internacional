@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "e89b8ffc-ba70-5ed5-918d-5a4c65614175",
+  "rev": 1,
+  "statement": "**Discurso de graduación**\n\nQueridos compañeros, profesores, familias:\n\nMe han pedido que hable del futuro, que es lo que se hace en estos discursos, y he estado tres semanas pensando qué decir. He leído discursos famosos, de gente que fundó empresas o ganó premios, y todos decían más o menos lo mismo: persigue tus sueños, no tengas miedo a fracasar, sé tú mismo. Son buenos consejos. El problema es que nadie sabe exactamente quién es él mismo a los dieciocho años.\n\nAsí que no voy a hablar del futuro. Voy a hablar de lo que hemos aprendido aquí sin que viniera en ningún temario.\n\nHemos aprendido a esperar el autobús de las siete y diez bajo la lluvia, que es una forma de paciencia. Hemos aprendido a compartir los apuntes con quien faltó, aunque no nos cayera bien, que es una forma de justicia. Hemos aprendido a pedir perdón a un profesor, y a que un profesor nos lo pidiera a nosotros, que es una forma de respeto que no esperábamos. Hemos aprendido, sobre todo, a fracasar en un examen y volver al día siguiente, que es la única forma de valentía que conozco.\n\nNo sé qué nos espera. Nadie lo sabe. Dicen que muchos de los trabajos que tendremos todavía no se han inventado, y yo no sé si eso es una buena o una mala noticia. Pero sé que no empezamos de cero. Llevamos con nosotros seis años de autobuses, de apuntes compartidos, de perdones y de segundas oportunidades. Eso no lo sustituye ninguna máquina.\n\nPor eso, en lugar de pediros que persigáis vuestros sueños, os voy a pedir algo más modesto: que no os olvidéis de quién os prestó los apuntes. El futuro, sea el que sea, se construye con gente así.\n\nGracias.\n\n---\n\n**Pregunta guía:** ¿Qué recursos retóricos utiliza el discurso para captar al público y transmitir su mensaje?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "discurso",
+    "graduación",
+    "retórica",
+    "futuro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Discurso de graduación que rechaza los tópicos del género y propone una visión del futuro basada en lo aprendido en el día a día del instituto. Con humor y sencillez, defiende valores como la paciencia, la justicia, el respeto y la perseverancia.\n\n**Aspectos que conviene analizar**\n- La apelación inicial al público (compañeros, profesores, familias) y la complicidad con el humor («nadie sabe exactamente quién es él mismo a los dieciocho años»).\n- La crítica de los tópicos del género (los discursos famosos) como estrategia para ganar credibilidad.\n- El anuncio de un cambio de tema («no voy a hablar del futuro») que sorprende al oyente.\n- La anáfora de «Hemos aprendido» y la estructura paralela «que es una forma de…», que convierte experiencias cotidianas en valores.\n- La concesión ante la incertidumbre («No sé qué nos espera») y la afirmación de lo que sí se sabe.\n- El cierre con una petición «más modesta» y concreta, que resume el mensaje en una imagen recordable: los apuntes prestados.\n\n**Una estructura posible.** Analizar el discurso según su estructura retórica (exordio, giro, cuerpo con enumeración, concesión y conclusión) y los recursos de cada parte.\n\n**Cuidado con…** olvidar que es un texto oral. Comenta el ritmo, las repeticiones y la relación con el público.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

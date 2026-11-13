@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "deb3ce41-2314-5a63-a3a0-f4df999eac1a",
+  "rev": 1,
+  "statement": "**El ascensor**\n\n*Un ascensor detenido entre dos pisos. Luz de emergencia, amarillenta. DOÑA PILAR, setenta y tantos, con un carrito de la compra. RUBÉN, veinte, con auriculares al cuello y el móvil en la mano.*\n\nRUBÉN.—*(Pulsa el botón de alarma por tercera vez.)* Nada.\n\nDOÑA PILAR.—Hay que esperar. Siempre tardan.\n\nRUBÉN.—¿Siempre? ¿Esto le ha pasado más veces?\n\nDOÑA PILAR.—Dos. Una en el ochenta y nueve, con el del cuarto, que en paz descanse. La otra sola. *(Pausa.)* Sola es peor.\n\n*RUBÉN mira el móvil. Lo levanta, lo gira, busca cobertura.*\n\nRUBÉN.—No hay señal.\n\nDOÑA PILAR.—En los ascensores nunca hay. Lo dijeron en la televisión.\n\nRUBÉN.—*(Sin mirarla.)* Ya.\n\n*Silencio largo. DOÑA PILAR saca del carrito una bolsa de mandarinas y le ofrece una. Él duda; la coge.*\n\nDOÑA PILAR.—Tú eres el nieto de la del tercero. El que toca la batería.\n\nRUBÉN.—*(Avergonzado.)* Lo siento. Ya sé que se oye mucho.\n\nDOÑA PILAR.—Se oye. *(Pausa.)* Los martes tocas una canción más lenta. Esa me gusta. La pongo de fondo mientras plancho.\n\n*RUBÉN la mira por primera vez. Pela la mandarina despacio.*\n\nRUBÉN.—Es mía. La canción. La compuse yo.\n\nDOÑA PILAR.—Pues no se lo digas a nadie, que te la roban.\n\n*Ríen los dos. Se oye un golpe metálico y el ascensor se mueve. Los dos se quedan quietos, como si la risa hubiera sido un error.*\n\nDOÑA PILAR.—*(Recogiendo las cáscaras en un pañuelo.)* Ya está.\n\nRUBÉN.—*(Se pone los auriculares. Se los quita.)* Doña Pilar… el martes que viene la toco un poco más alto.\n\n*Se abren las puertas. Oscuro.*\n\n---\n\n**Pregunta guía:** ¿De qué manera se sirve la escena del espacio cerrado y de los silencios para revelar a los personajes?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "espacio cerrado",
+    "silencio",
+    "soledad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Dos vecinos que no se conocen, de generaciones distintas, quedan atrapados en un ascensor. El encierro les obliga a hablar, y en pocos minutos pasan de la desconfianza a una complicidad tierna que el final deja abierta.\n\n**Aspectos que conviene analizar**\n- El espacio: el ascensor «entre dos pisos», con luz de emergencia, como lugar suspendido que rompe la rutina y obliga al encuentro.\n- Los objetos como caracterización: el carrito y las mandarinas de ella; los auriculares y el móvil de él, que lo aíslan y que no sirven sin cobertura.\n- Los silencios y las acotaciones de mirada («Sin mirarla», «la mira por primera vez»), que marcan el cambio en la relación.\n- La revelación de la soledad de Doña Pilar («Sola es peor», la canción de fondo mientras plancha) y del orgullo de Rubén por su música.\n- El humor («que te la roban») y la acotación «como si la risa hubiera sido un error», que muestra la fragilidad del vínculo.\n- El final: el gesto ambiguo con los auriculares y la promesa de tocar «más alto», que convierte el ruido en regalo.\n\n**Una estructura posible.** Analizar la escena en tres momentos: aislamiento inicial, acercamiento (la mandarina y la canción) y salida, atendiendo en cada uno al espacio, los objetos y los silencios.\n\n**Cuidado con…** contar lo que pasa. En teatro hay que analizar cómo las acotaciones, las pausas y los objetos construyen el sentido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

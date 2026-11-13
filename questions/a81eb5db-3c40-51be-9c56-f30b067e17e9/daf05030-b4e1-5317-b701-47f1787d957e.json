@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "daf05030-b4e1-5317-b701-47f1787d957e",
+  "rev": 1,
+  "statement": "**«Conocemos a los personajes más por lo que hacen que por lo que se dice de ellos.» Discuta esta afirmación en relación con dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "7c0d54dc-0c20-5faf-8f1e-2d7a893aa253"
+  ],
+  "tags": [
+    "personajes",
+    "caracterización indirecta"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Valorar la afirmación comparando la caracterización directa (descripciones, juicios del narrador) y la indirecta (acciones, diálogo, gestos). Se puede matizar o discutir. **Obras adecuadas.** Cualquier género; en teatro la caracterización indirecta es casi la única posible, lo que da juego. **Esquema posible.** Definir los dos tipos de caracterización; analizar ejemplos de cada obra; valorar qué método predomina y por qué; tesis matizada sobre la afirmación. **Cuidado con…** limitarte a estar de acuerdo. «Discuta» invita a valorar límites y excepciones.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

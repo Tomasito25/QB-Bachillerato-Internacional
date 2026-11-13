@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e9c06817-2ff6-53c9-9a04-f9c7b2fb8f52",
+  "rev": 1,
+  "statement": "¿Qué información aporta la técnica de criofractura (*freeze fracture*) al estudio de las membranas?",
+  "explanation": "La fractura sigue el plano débil entre las dos capas de fosfolípidos. Las protuberancias que aparecen son proteínas incrustadas que atraviesan la bicapa.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "criofractura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Colorea de forma específica las proteínas de la superficie celular.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Permite ver el movimiento de las membranas en células vivas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Mide la diferencia de potencial a ambos lados de la membrana.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Al partir la muestra congelada por el centro de la bicapa, muestra proteínas que atraviesan la membrana.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

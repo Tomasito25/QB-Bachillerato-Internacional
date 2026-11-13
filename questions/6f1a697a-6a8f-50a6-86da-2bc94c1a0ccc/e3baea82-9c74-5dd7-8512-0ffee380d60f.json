@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e3baea82-9c74-5dd7-8512-0ffee380d60f",
+  "rev": 1,
+  "statement": "¿Qué es el hábitat de una especie?",
+  "explanation": "El hábitat es la $dirección$: el lugar y sus condiciones. El papel en el ecosistema es el nicho.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "hábitat"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El conjunto de todas las especies de una zona.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El lugar donde vive normalmente una comunidad, una especie, una población o un organismo.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El papel que desempeña la especie en el ecosistema.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La cantidad de alimento que necesita una especie.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

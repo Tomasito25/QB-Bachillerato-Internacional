@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "e5caa4b3-2b00-54d9-b13a-09161ae19baa",
+  "rev": 1,
+  "statement": "**Árbol genealógico**\n\nEn el colegio nos pidieron dibujar un árbol\ncon los nombres de la familia en las ramas.\nMis compañeros tenían robles enormes,\ncon bisabuelos y tías de Argentina.\n\nEl mío era un arbusto.\nUna madre, una abuela,\ny una rama cortada\ndonde tendría que haber estado un nombre\nque en mi casa no se decía.\n\nLa maestra me preguntó si faltaba alguien.\nLe dije que no.\nDibujé un pájaro en la rama cortada\npara que no se notara el hueco.\n\nAhora, treinta años después,\nsé que los árboles también crecen\ndesde las raíces que no se ven,\nque mi abuela cruzó una frontera a pie\ny mi madre trabajó en tres casas a la vez\npara que yo pudiera dibujar con lápices nuevos.\n\nMi árbol sigue siendo pequeño.\nPero tiene las raíces más hondas del bosque.\nY en la rama cortada, todavía,\ncanta el pájaro que inventé.\n\n---\n\n**Pregunta guía:** ¿Cómo transforma el poema la imagen del árbol genealógico para hablar de la identidad y la familia?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "familia",
+    "árbol genealógico",
+    "identidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una voz adulta recuerda la tarea escolar de dibujar su árbol genealógico: el suyo era pequeño y tenía una rama cortada, la del padre ausente. Con los años, reinterpreta ese árbol desde las raíces, las mujeres que la sostuvieron, y convierte la carencia en orgullo.\n\n**Aspectos que conviene analizar**\n- El contraste entre los «robles enormes» de los compañeros y el «arbusto» de la voz poética.\n- La «rama cortada» y el nombre «que en mi casa no se decía»: la ausencia del padre sugerida, nunca explicada.\n- La mentira infantil a la maestra y el pájaro dibujado para tapar el hueco: la imaginación como defensa.\n- El salto temporal y la nueva lectura del árbol desde las raíces: la abuela que cruzó una frontera, la madre que trabajó en tres casas.\n- La antítesis final entre un árbol pequeño y unas raíces «más hondas del bosque».\n- El último verso: el pájaro inventado que «todavía» canta, imagen de una herida que se ha vuelto parte de la identidad.\n\n**Una estructura posible.** Analizar el poema en dos tiempos, la infancia (vergüenza y ocultación) y la madurez (comprensión y orgullo), siguiendo la evolución de la metáfora del árbol.\n\n**Cuidado con…** contar la historia familiar. Analiza cómo la metáfora central organiza el sentido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

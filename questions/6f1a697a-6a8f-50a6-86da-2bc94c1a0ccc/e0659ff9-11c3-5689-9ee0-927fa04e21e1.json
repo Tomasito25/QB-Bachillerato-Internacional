@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e0659ff9-11c3-5689-9ee0-927fa04e21e1",
+  "rev": 1,
+  "statement": "¿Qué es el sitio activo de una enzima?",
+  "explanation": "Su forma y sus cargas son complementarias de las del sustrato. Lo forman unos pocos aminoácidos de la proteína globular.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "sitio activo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El lugar de la célula donde se fabrica la enzima.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El producto que forma la enzima.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La región de la enzima a la que se une el sustrato y donde ocurre la catálisis.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La parte de la enzima que se desnaturaliza primero.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

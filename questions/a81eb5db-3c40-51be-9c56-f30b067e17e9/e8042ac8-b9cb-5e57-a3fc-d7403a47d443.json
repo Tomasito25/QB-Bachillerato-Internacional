@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "e8042ac8-b9cb-5e57-a3fc-d7403a47d443",
+  "rev": 1,
+  "statement": "A las siete de la mañana, cuando el paseo marítimo todavía es de los perros y de los barrenderos, Amparo baja a la playa con una toalla vieja y un gorro de baño que fue blanco. Tiene ochenta y un años y una rodilla que cruje como una puerta, pero no se apoya en nadie. Deja la toalla doblada sobre la arena, siempre en el mismo sitio, a la altura de la tercera farola, y se mete en el agua sin probarla con el pie.\n\nEn enero el mar está a catorce grados. Los socorristas no han llegado y los pocos paseantes se detienen a mirarla con una mezcla de admiración y de miedo, como se mira a alguien que hace equilibrios en una cornisa. Ella no los ve. Nada hasta la boya amarilla, cuenta veinte brazadas, se da la vuelta y nada de regreso. Lo hace así desde que enviudó, hace once años, y antes lo hacía con él, que nadaba peor y se quejaba más.\n\nSu hija le ha dicho muchas veces que es una locura, que un día le va a dar algo. Amparo contesta que algo le va a dar de todos modos, y que prefiere que le dé en el agua. La hija no se ríe. Amparo sí.\n\nAl salir, el cuerpo le arde como si se lo hubieran frotado con ortigas. Se seca deprisa, con energía, frotándose los brazos hasta que la piel se pone roja, y durante unos minutos se queda de pie frente al mar, con la toalla sobre los hombros, mirando la boya. Es el único momento del día en que no le duele la rodilla. Es también el único en que se permite pensar en él sin que se le ponga la cara seria.\n\nDespués sube las escaleras del paseo, despacio, agarrada a la barandilla, y vuelve a ser una anciana. Pero eso ya no lo ve nadie.\n\n---\n\n**Pregunta guía:** ¿De qué manera se construye el personaje de la protagonista a través de sus acciones y del espacio?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "personaje",
+    "vejez",
+    "mar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El relato presenta a una mujer de ochenta y un años mediante una rutina: el baño diario en el mar de invierno. El narrador apenas la describe por dentro; la construye con gestos, objetos y lugares, y el mar se convierte en el espacio donde recupera la fuerza y el recuerdo del marido.\n\n**Aspectos que conviene analizar**\n- La precisión de la rutina (la tercera farola, la boya amarilla, las veinte brazadas): orden y voluntad frente a la fragilidad del cuerpo.\n- Los detalles concretos (la toalla vieja, el gorro que «fue blanco», la rodilla que cruje «como una puerta») y lo que dicen de su carácter.\n- La mirada de los otros (los paseantes, la hija), con la comparación de la cornisa, frente a la indiferencia de Amparo.\n- El diálogo indirecto con la hija y la ironía de la respuesta: el humor como forma de enfrentarse a la muerte.\n- El contraste espacial final: en el mar no le duele la rodilla y puede pensar en su marido; al subir las escaleras «vuelve a ser una anciana».\n\n**Una estructura posible.** Ir del espacio (la playa al amanecer) al ritual, luego a las relaciones (marido, hija, paseantes) y terminar con el contraste entre el agua y el paseo.\n\n**Cuidado con…** quedarte en el tema de la vejez. La pregunta pide analizar cómo las acciones y el espacio construyen al personaje.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

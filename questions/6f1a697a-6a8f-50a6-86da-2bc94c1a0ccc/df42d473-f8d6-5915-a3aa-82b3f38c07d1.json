@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "df42d473-f8d6-5915-a3aa-82b3f38c07d1",
+  "rev": 1,
+  "statement": "¿Qué función tiene la progesterona que secreta el cuerpo lúteo tras la ovulación?",
+  "explanation": "Si no hay embarazo, el cuerpo lúteo degenera, la progesterona baja y el endometrio se desprende: menstruación.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "ciclo menstrual",
+    "progesterona"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Mantener el endometrio engrosado e inhibir la secreción de FSH y LH.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Estimular el desarrollo de un nuevo folículo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Destruir el endometrio para que se produzca la menstruación.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Provocar la ovulación.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "dd296353-a738-5b6f-98cf-23406b126d3e",
+  "rev": 1,
+  "statement": "**Aeropuerto**\n\nEn los aeropuertos nadie dice adiós:\ndice «escribe cuando llegues»,\ndice «no te olvides el cargador»,\ndice «abrígate, que allí hace frío»,\ncomo si el frío fuera el problema.\n\nHay una línea amarilla en el suelo\nque separa a los que se van\nde los que se quedan,\ny los que se quedan\nsiempre la miran más tiempo.\n\nMi padre me abrazó con las dos manos\nen la espalda, fuerte, deprisa,\ncomo se cierra una maleta\ndemasiado llena.\n\nDespués crucé la línea.\nMe di la vuelta tres veces.\nLa tercera ya no estaba,\no estaba detrás de una columna,\no yo ya no sabía mirar\ndesde el otro lado.\n\nEn el avión, alguien lloraba bajito.\nTardé un rato en darme cuenta\nde que era yo.\n\n---\n\n**Pregunta guía:** ¿Cómo expresa el poema la emoción de la despedida sin nombrarla directamente?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "despedida",
+    "aeropuerto"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema recrea una despedida en un aeropuerto: las frases prácticas que sustituyen al adiós, el abrazo del padre, la línea que separa a los que se van de los que se quedan y el llanto final. La emoción se transmite por desplazamiento, sin nombrarla.\n\n**Aspectos que conviene analizar**\n- La anáfora de «dice» y la enumeración de frases cotidianas que esconden el adiós, con la ironía de «como si el frío fuera el problema».\n- La línea amarilla como frontera física y simbólica, y la observación sobre los que se quedan.\n- La comparación del abrazo con cerrar «una maleta / demasiado llena»: un gesto torpe, rápido y cargado de emoción.\n- Las tres vueltas y las hipótesis sobre la ausencia del padre, que terminan en un cambio de perspectiva («desde el otro lado»).\n- El final: el llanto atribuido a «alguien» y el reconocimiento tardío («era yo»), que revela la contención de toda la escena.\n- La sencillez del lenguaje y los versos breves, que contienen la emoción.\n\n**Una estructura posible.** Seguir la secuencia de la despedida (palabras, línea, abrazo, separación, avión) y analizar en cada momento cómo se esconde y se revela la emoción.\n\n**Cuidado con…** decir solo que el poema es «triste». Analiza los recursos con que expresa esa tristeza de forma indirecta.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

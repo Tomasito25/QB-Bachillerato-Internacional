@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "e5c68f2f-4c48-5579-ba76-4a408bfc2906",
+  "rev": 1,
+  "statement": "Los arrecifes de coral se encuentran sobre todo en aguas tropicales poco profundas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "arrecifes de coral",
+    "límites de tolerancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué los corales con algas simbiontes no viven en aguas profundas.",
+      "modelAnswer": "Las algas necesitan luz para la fotosíntesis. (1) La luz se atenúa rápidamente con la profundidad. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica el concepto de límite de tolerancia usando la temperatura del agua como ejemplo.",
+      "modelAnswer": "Cada especie solo sobrevive entre una temperatura mínima y una máxima. (1) Si el agua supera la máxima, como en las olas de calor marinas, el coral expulsa sus algas y puede morir (blanqueamiento). (1)",
+      "marks": 2
+    }
+  ]
+}

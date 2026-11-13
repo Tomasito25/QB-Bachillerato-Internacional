@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "e8b82a32-8cc1-53b1-9559-0a07515b6f8a",
+  "rev": 1,
+  "statement": "¿Cuál es una función de la mitosis?",
+  "explanation": "La mitosis también sirve para la reproducción asexual. La meiosis produce células haploides y variación genética.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "mitosis",
+    "meiosis",
+    "funciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La reducción del número de cromosomas a la mitad.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El crecimiento y la reparación de tejidos, con células hijas genéticamente idénticas.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La generación de variación genética por sobrecruzamiento.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La formación de gametos con la mitad de cromosomas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

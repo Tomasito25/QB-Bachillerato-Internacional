@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "d8f830d9-4dfd-5b47-b3d0-1b9796e1ed90",
+  "rev": 1,
+  "statement": "En el kilómetro 1 de un río desemboca un arroyo que recibe el agua de escorrentía de unos campos muy abonados. La gráfica muestra el oxígeno disuelto aguas abajo.\n\n![Oxígeno disuelto aguas abajo del punto donde entra el agua de una granja en un río](qbimg:61c9b733d7a19380d4b9e9747b916578e1a886ef4bbbf9e131b79f0c758af041)",
+  "images": [
+    {
+      "hash": "61c9b733d7a19380d4b9e9747b916578e1a886ef4bbbf9e131b79f0c758af041",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 22545,
+      "alt": "Oxígeno disuelto aguas abajo del punto donde entra el agua de una granja en un río"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "eutrofización",
+    "oxígeno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica la distancia a la que la concentración de oxígeno es mínima.",
+      "modelAnswer": "Hacia el kilómetro 4 (unos $2{,}8\\,\\text{mg dm}^{-3}$). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica la caída de oxígeno entre los kilómetros 1 y 4.",
+      "modelAnswer": "Los nitratos y fosfatos del agua de escorrentía favorecen una gran proliferación de algas. (1) Al morir las algas, las bacterias que las descomponen consumen mucho oxígeno. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica la recuperación del oxígeno a partir del kilómetro 5.",
+      "modelAnswer": "La materia orgánica se va agotando y los nutrientes se diluyen. (1) El oxígeno se repone por difusión desde el aire y por la fotosíntesis. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere dos medidas para reducir este problema.",
+      "modelAnswer": "Dos de: aplicar menos fertilizante o en el momento adecuado; dejar franjas de vegetación junto al río; no abonar antes de lluvias intensas; depurar el agua. (2)",
+      "marks": 2
+    }
+  ]
+}

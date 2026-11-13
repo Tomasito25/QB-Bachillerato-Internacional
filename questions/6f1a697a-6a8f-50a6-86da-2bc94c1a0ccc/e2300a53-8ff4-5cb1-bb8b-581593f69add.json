@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e2300a53-8ff4-5cb1-bb8b-581593f69add",
+  "rev": 1,
+  "statement": "En el dondiego de noche, el cruce de plantas de flor roja con plantas de flor blanca da descendientes de flor rosa. ¿Qué indica este resultado?",
+  "explanation": "En la codominancia, como en el grupo AB, se expresan los dos alelos por completo; aquí el resultado es una mezcla intermedia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "dominancia incompleta"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que el rojo es dominante sobre el blanco.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Codominancia: el heterocigoto muestra a la vez los dos colores.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Dominancia incompleta: el heterocigoto tiene un fenotipo intermedio.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Que el color depende solo del ambiente.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dc898180-55bd-5b3e-894c-f2f44e8a3f54",
+  "rev": 1,
+  "statement": "Según el concepto biológico de especie, ¿cuándo pertenecen dos organismos a la misma especie?",
+  "explanation": "El criterio es reproductivo: cruzamiento natural con descendencia fértil. El aspecto puede engañar, por ejemplo entre machos y hembras o entre razas de perro.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "especie",
+    "concepto biológico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Cuando viven en el mismo hábitat.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cuando tienen el mismo número de genes.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cuando tienen exactamente el mismo aspecto.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cuando pueden cruzarse en la naturaleza y tener descendencia fértil.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

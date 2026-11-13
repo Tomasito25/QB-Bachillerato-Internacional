@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e9ddd906-c126-54a4-a1d3-8ed8309dfaed",
+  "rev": 1,
+  "statement": "¿Qué hormona desencadena la ovulación al alcanzar un máximo hacia la mitad del ciclo?",
+  "explanation": "El aumento de estradiol producido por el folículo estimula un pico de LH, que provoca la liberación del ovocito.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "ciclo menstrual",
+    "LH"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La insulina",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La testosterona",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La LH",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La progesterona",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

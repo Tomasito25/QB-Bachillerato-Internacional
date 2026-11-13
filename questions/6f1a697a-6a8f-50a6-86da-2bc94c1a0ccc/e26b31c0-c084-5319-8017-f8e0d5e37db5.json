@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "e26b31c0-c084-5319-8017-f8e0d5e37db5",
+  "rev": 1,
+  "statement": "La fenilcetonuria (PKU) se debe a un alelo recesivo autosómico que impide fabricar la enzima que transforma el aminoácido fenilalanina.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "fenilcetonuria",
+    "recesivo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dos portadores tienen un hijo. Construye un cuadro de Punnett y deduce la probabilidad de que el hijo tenga PKU.",
+      "modelAnswer": "Padres Pp × Pp; gametos P y p de cada uno. (1) Descendencia: PP, Pp, Pp, pp. (1) Probabilidad de pp: 1/4 (25 %). (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué una dieta baja en fenilalanina evita los síntomas de la PKU.",
+      "modelAnswer": "Los síntomas se deben a la acumulación de fenilalanina, que la persona no puede transformar. (1) Si se ingiere poca, no se acumula, aunque el genotipo no cambie: el fenotipo depende también del ambiente. (1)",
+      "marks": 2
+    }
+  ]
+}

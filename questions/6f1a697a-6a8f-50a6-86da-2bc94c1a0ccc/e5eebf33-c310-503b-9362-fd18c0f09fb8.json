@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e5eebf33-c310-503b-9362-fd18c0f09fb8",
+  "rev": 1,
+  "statement": "La planta *Paris japonica* tiene un genoma unas 50 veces mayor que el humano. ¿Qué conclusión apoya este dato?",
+  "explanation": "Los genomas eucariotas varían muchísimo de tamaño, sobre todo por la cantidad de ADN repetitivo que no codifica proteínas, sin relación con la complejidad.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "tamaño del genoma"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El tamaño del genoma no indica la complejidad del organismo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Las plantas son más complejas que los animales.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un genoma grande tiene necesariamente más genes que codifican proteínas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los organismos con más ADN evolucionan más deprisa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

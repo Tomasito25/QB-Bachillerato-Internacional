@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "e801e3cc-0137-548a-a227-6aeac840503d",
+  "rev": 1,
+  "statement": "Las proteínas de la dieta se digieren en el estómago y en el intestino delgado.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "enlace peptídico",
+    "hidrólisis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se forma un dipéptido a partir de dos aminoácidos.",
+      "modelAnswer": "Reacción de condensación (1) entre el grupo carboxilo de un aminoácido y el grupo amino del otro, (1) con liberación de una molécula de agua y formación de un enlace peptídico. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Indica el tipo de reacción que rompe los enlaces peptídicos durante la digestión.",
+      "modelAnswer": "Hidrólisis. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el número de proteínas distintas que pueden existir es prácticamente ilimitado.",
+      "modelAnswer": "Hay 20 aminoácidos que pueden aparecer en cualquier orden. (1) Para una cadena de $n$ aminoácidos hay $20^n$ secuencias posibles, y las proteínas tienen cientos de aminoácidos. (1)",
+      "marks": 2
+    }
+  ]
+}

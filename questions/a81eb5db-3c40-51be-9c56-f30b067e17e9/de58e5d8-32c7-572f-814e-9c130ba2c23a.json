@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "de58e5d8-32c7-572f-814e-9c130ba2c23a",
+  "rev": 1,
+  "statement": "La casa de la abuela tenía tres habitaciones, un patio con un limonero y un aparador lleno de cosas que nadie había usado nunca. Mi hermana y yo llevábamos dos años sin hablarnos cuando el notario nos citó a las dos, el mismo día, a la misma hora, en la misma casa.\n\nLlegué yo primero. Ella llegó diez minutos tarde, como siempre, con gafas de sol aunque estaba nublado. Nos saludamos como se saludan los vecinos que no se caen bien: con la cabeza, sin nombres.\n\nEl notario leyó el testamento en la cocina. La abuela nos dejaba la casa a medias, con una condición escrita de su puño y letra: que la vaciáramos juntas, «sin abogados y sin prisa». El notario se fue enseguida, como quien deja a dos perros en una habitación y cierra la puerta.\n\nEmpezamos por el aparador. Platos de loza con un borde azul, copas de una boda que no conocíamos, una sopera con la tapa rota. Discutimos por la sopera. Ella la quería. Yo también, aunque no sabía por qué. Al final la dejamos en medio de la mesa, sin decidir.\n\nEn el último cajón encontramos una caja de galletas llena de cartas. Eran nuestras: las que le escribimos de niñas, cuando pasábamos los veranos fuera, con faltas de ortografía y dibujos de caballos. Había una mía que decía: «Abuela, mi hermana es tonta pero la quiero». Y debajo, otra suya, con la misma letra redonda: «Abuela, mi hermana es una pesada pero es mi mejor amiga».\n\nNos quedamos un rato calladas. Luego ella se quitó las gafas de sol.\n\nNo sé quién se rio primero. Sé que nos reímos hasta llorar, sentadas en el suelo de la cocina, con las cartas en el regazo. La sopera se la llevó ella. Yo me quedé el limonero, que no se puede llevar a ninguna parte, y que es, ahora lo sé, lo que la abuela quería.\n\n---\n\n**Pregunta guía:** ¿Cómo se produce la reconciliación entre las hermanas y qué papel tienen los objetos de la casa?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "hermanas",
+    "herencia",
+    "reconciliación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Dos hermanas enfrentadas deben vaciar juntas la casa de su abuela por una condición del testamento. Entre los objetos aparecen las cartas que escribieron de niñas, y el pasado compartido deshace el rencor. La abuela, ausente, dirige la reconciliación.\n\n**Aspectos que conviene analizar**\n- La narración en primera persona de una de las hermanas, con su mirada crítica inicial (el retraso, las gafas de sol «aunque estaba nublado»).\n- La comparación del saludo «como se saludan los vecinos que no se caen bien» y la del notario que deja «a dos perros en una habitación».\n- La condición del testamento («sin abogados y sin prisa») como plan de la abuela.\n- Los objetos del aparador y la discusión por la sopera rota: un conflicto desplazado a las cosas.\n- El hallazgo de las cartas infantiles, con su humor y su ternura, como momento de reconocimiento.\n- Las gafas de sol que se quita la hermana, la risa compartida y el final: la sopera y el limonero, «lo que la abuela quería».\n\n**Una estructura posible.** Seguir la progresión de la distancia a la reconciliación y analizar el papel simbólico de cada objeto (gafas, sopera, cartas, limonero).\n\n**Cuidado con…** contar la historia. Analiza cómo los objetos y el humor construyen el cambio.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

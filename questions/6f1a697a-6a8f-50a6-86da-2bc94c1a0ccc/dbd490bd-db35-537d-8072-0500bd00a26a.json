@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dbd490bd-db35-537d-8072-0500bd00a26a",
+  "rev": 1,
+  "statement": "¿Por qué algunos bosques boreales podrían pasar de acumular carbono a perderlo?",
+  "explanation": "Es un ejemplo de punto de inflexión: el ecosistema pasa de sumidero a fuente de carbono.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "bosque boreal",
+    "punto de inflexión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la nieve aumenta la fotosíntesis.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el frío intenso impide la descomposición.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque sus árboles dejan de respirar.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Con el calentamiento aumentan la sequía, los incendios y las plagas, y la pérdida de carbono supera a la fijación.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

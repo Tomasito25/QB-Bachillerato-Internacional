@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "e7ec5bd0-8625-5a4b-9c3c-ac9b4c1129f1",
+  "rev": 1,
+  "statement": "El paramecio vive en charcas de agua dulce y no tiene pared celular.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "agua dulce",
+    "vacuola contráctil"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué el agua entra continuamente en el paramecio.",
+      "modelAnswer": "Su citoplasma tiene más concentración de solutos que el agua de la charca, que es hipotónica. (1) El agua entra por ósmosis a través de la membrana. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el funcionamiento de la vacuola contráctil requiere energía.",
+      "modelAnswer": "Expulsa agua contra la tendencia de la ósmosis, que la hace entrar. (1) Para ello necesita ATP. (1)",
+      "marks": 2
+    }
+  ]
+}
