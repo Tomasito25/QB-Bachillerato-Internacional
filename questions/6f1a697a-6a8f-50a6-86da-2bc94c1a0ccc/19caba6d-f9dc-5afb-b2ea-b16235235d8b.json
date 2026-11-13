@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "19caba6d-f9dc-5afb-b2ea-b16235235d8b",
+  "rev": 1,
+  "statement": "¿Qué ecuación resume la fotosíntesis?",
+  "explanation": "Dióxido de carbono y agua forman glucosa y oxígeno con la energía de la luz. La segunda ecuación es la de la respiración aerobia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "fotosíntesis",
+    "ecuación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:01.000Z",
+  "updatedAt": "2026-11-13T05:52:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "6CO₂ + 6O₂ → C₆H₁₂O₆ + 6H₂O",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
