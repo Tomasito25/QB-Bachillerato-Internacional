@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9e510c33-ceeb-5392-8b80-9f9fa622adbe",
+  "rev": 1,
+  "statement": "¿Qué hacen las neuronas motoras?",
+  "explanation": "Las sensitivas llevan información de los receptores al sistema nervioso central; las motoras, órdenes desde él a los músculos y las glándulas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "36f0ee50-bb72-5765-a710-341b6d6f9e0d"
+  ],
+  "tags": [
+    "neuronas sensitivas",
+    "motoras"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Llevan impulsos desde el sistema nervioso central hasta los efectores, como los músculos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Llevan impulsos desde los receptores hasta el sistema nervioso central.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Producen hormonas que viajan por la sangre.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Conectan dos neuronas dentro del encéfalo y no salen de él.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

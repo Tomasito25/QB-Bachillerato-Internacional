@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a2c822a3-60b3-5ae0-a18b-97ef3fa006ad",
+  "rev": 1,
+  "statement": "La cadena molde de un fragmento de ADN tiene la secuencia TACGGA. ¿Qué secuencia tendrá el ARNm transcrito?",
+  "explanation": "En el ARN, el uracilo ocupa el lugar de la timina: A del molde se empareja con U, T con A, C con G y G con C.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "transcripción",
+    "complementariedad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "AUGCCU",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "ATGCCT",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "TACGGA",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "UACGGA",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

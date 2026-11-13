@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "a71d1e60-f395-5b93-97ba-bc47daaefee9",
+  "rev": 1,
+  "statement": "En una prueba de tolerancia a la glucosa, una persona en ayunas bebe una disolución con $75\\,\\text{g}$ de glucosa y se mide su glucosa en sangre durante tres horas.\n\n![Glucosa en sangre tras beber una disolución de glucosa, en una persona sana y en una persona con diabetes](qbimg:82e7595a5925aa43b658738136abe22ba0ebdcd691ad196853318f54420c78d7)",
+  "images": [
+    {
+      "hash": "82e7595a5925aa43b658738136abe22ba0ebdcd691ad196853318f54420c78d7",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 29979,
+      "alt": "Glucosa en sangre tras beber una disolución de glucosa, en una persona sana y en una persona con diabetes"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "glucosa",
+    "diabetes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el aumento de la glucosa en sangre de la persona sana durante los primeros $30\\,\\text{min}$.",
+      "modelAnswer": "$8{,}0 - 5{,}0 = 3{,}0\\,\\text{mmol dm}^{-3}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara las dos curvas.",
+      "modelAnswer": "En las dos sube la glucosa tras beber la disolución. (1) En la persona con diabetes parte de un valor más alto, sube más, alcanza el máximo más tarde (a los $60\\,\\text{min}$) y tras tres horas sigue alta; en la sana vuelve a su valor inicial en unos $120\\,\\text{min}$. (2)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Explica cómo vuelve a su valor normal la glucosa de la persona sana.",
+      "modelAnswer": "Las células beta del páncreas detectan el aumento y secretan insulina. (1) La insulina hace que el hígado y los músculos absorban glucosa y la almacenen como glucógeno. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué la persona con diabetes no consigue bajar su glucosa.",
+      "modelAnswer": "No produce insulina (tipo 1) o sus células no responden bien a ella (tipo 2). (1)",
+      "marks": 1
+    }
+  ]
+}

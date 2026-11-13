@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "9b34c0be-4bba-5c2e-ad73-b8ac09027196",
+  "rev": 1,
+  "statement": "**Compare el tratamiento de un tópico literario tradicional (por ejemplo, el *carpe diem*, el *tempus fugit* o el *locus amoenus*) en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "287a6baa-b9c7-5f7d-93ed-adcd75ebb7bc"
+  ],
+  "tags": [
+    "motivos literarios",
+    "carpe diem"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Identificar el tópico, explicar brevemente su tradición y analizar cómo lo recogen o transforman las obras. **Obras adecuadas.** Poesía amorosa o filosófica, novelas o teatro que retoman estos motivos. **Esquema posible.** Definición del tópico; presencia en cada obra; variaciones respecto a la tradición; efecto y sentido; comparación. **Cuidado con…** quedarte en la definición del tópico.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

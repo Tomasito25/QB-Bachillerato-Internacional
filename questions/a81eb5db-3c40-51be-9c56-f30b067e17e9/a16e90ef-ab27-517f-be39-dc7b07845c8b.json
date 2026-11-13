@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "a16e90ef-ab27-517f-be39-dc7b07845c8b",
+  "rev": 1,
+  "statement": "**¿En qué medida reflejan dos de las obras que ha estudiado los valores de la sociedad en que se escribieron?**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c6557927-9caf-5c27-a734-d545a6d73f69"
+  ],
+  "tags": [
+    "contexto de producción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Valorar la relación entre las obras y su contexto: si reflejan, critican o trascienden los valores de su época. «En qué medida» exige un análisis matizado. **Obras adecuadas.** Obras con un contexto social reconocible. **Esquema posible.** Valores de la época presentes en cada obra; actitud de la obra hacia ellos (aceptación, crítica, ambigüedad); recursos; conclusión matizada. **Cuidado con…** escribir sobre la sociedad en vez de sobre las obras.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

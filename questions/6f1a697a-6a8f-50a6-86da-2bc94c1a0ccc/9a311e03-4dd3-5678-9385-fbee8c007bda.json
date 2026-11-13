@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9a311e03-4dd3-5678-9385-fbee8c007bda",
+  "rev": 1,
+  "statement": "¿Por qué las paredes de los vasos del xilema están reforzadas con lignina?",
+  "explanation": "El agua está sometida a una presión menor que la atmosférica; sin el refuerzo de lignina, los vasos se aplastarían.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "xilema",
+    "lignina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para permitir que el agua se mueva por transporte activo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para resistir la tensión, que tiende a hacer que los vasos se colapsen hacia dentro.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Para impedir que el agua salga hacia las hojas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para que el xilema pueda realizar la fotosíntesis.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

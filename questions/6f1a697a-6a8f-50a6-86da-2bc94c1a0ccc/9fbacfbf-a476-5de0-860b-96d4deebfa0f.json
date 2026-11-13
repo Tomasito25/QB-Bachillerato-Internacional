@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "9fbacfbf-a476-5de0-860b-96d4deebfa0f",
+  "rev": 1,
+  "statement": "¿Qué hace la insulina?",
+  "explanation": "La secretan las células beta de los islotes del páncreas cuando la glucosa en sangre está alta.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "insulina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta la concentración de glucosa en la sangre.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Estimula a las células del hígado y de los músculos a absorber glucosa y almacenarla como glucógeno.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Aumenta la temperatura corporal.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Estimula la degradación del glucógeno a glucosa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

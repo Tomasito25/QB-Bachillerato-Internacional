@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "9c0b289d-7a30-5177-9d92-9e19d443911f",
+  "rev": 1,
+  "statement": "El agua es el disolvente de casi todas las sustancias de las células.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "solvatación",
+    "ósmosis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué el agua disuelve bien las sustancias iónicas y polares.",
+      "modelAnswer": "Las moléculas de agua son polares. (1) Rodean a los iones y a las moléculas polares, atraídas por sus cargas, y forman puentes de hidrógeno con ellas: solvatación. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué las sustancias disueltas influyen en el movimiento del agua.",
+      "modelAnswer": "Las moléculas de agua que rodean a los solutos quedan menos libres para moverse. (1) Por eso el agua se mueve por ósmosis hacia donde hay más concentración de solutos. (1)",
+      "marks": 2
+    }
+  ]
+}

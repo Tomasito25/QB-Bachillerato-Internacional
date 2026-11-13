@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a463352c-71ad-5726-b9a3-baa09d1f24be",
+  "rev": 1,
+  "statement": "¿Por qué la infección por VIH, sin tratamiento, acaba causando el sida?",
+  "explanation": "Con pocos linfocitos T colaboradores, la persona sufre infecciones oportunistas que un sistema inmunitario sano controlaría.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "VIH",
+    "sida"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El virus hace que se produzcan demasiados anticuerpos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El virus destruye los linfocitos T colaboradores, y sin ellos no se producen suficientes anticuerpos frente a otras infecciones.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El virus impide la coagulación de la sangre.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El virus destruye los glóbulos rojos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

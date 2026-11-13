@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9fa7b50d-af91-53d6-b367-07a86ee9a8c0",
+  "rev": 1,
+  "statement": "¿Qué consecuencia puede tener el calentamiento del agua superficial en las zonas de afloramiento?",
+  "explanation": "Una capa superficial cálida y menos densa dificulta la mezcla con el agua fría y rica en nutrientes de abajo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "afloramiento",
+    "corrientes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumentan los nutrientes en la superficie.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Desaparecen las corrientes marinas por completo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Se reduce la subida de aguas profundas ricas en nutrientes y disminuye la productividad del plancton y de la pesca.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El agua profunda se vuelve más cálida que la superficial.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

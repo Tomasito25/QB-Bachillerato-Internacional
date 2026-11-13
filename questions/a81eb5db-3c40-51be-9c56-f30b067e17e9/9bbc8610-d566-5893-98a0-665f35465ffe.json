@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "9bbc8610-d566-5893-98a0-665f35465ffe",
+  "rev": 1,
+  "statement": "La estación meteorológica de Punta Fría tiene un operador, tres generadores, una antena y un ordenador que se llama HÉCTOR porque así lo bautizó el primer técnico, hace cuarenta años, en homenaje a un perro que tuvo. El operador actual se llama Irene y lleva ochocientos doce días sin hablar con otro ser humano.\n\nNo es un castigo. Es un contrato. Cada mañana Irene mide la temperatura, la presión, la velocidad del viento y la altura de las olas, y se lo comunica a HÉCTOR, que lo transmite a un satélite, que lo transmite a un lugar que Irene imagina como una oficina con plantas y que probablemente no existe. Nadie ha contestado nunca. Las instrucciones dicen que no hace falta.\n\nAl principio hablaba con HÉCTOR. Le contaba lo que había soñado, le leía en voz alta los libros de la estación. HÉCTOR solo sabe decir «Datos recibidos» y «Error de transmisión», pero Irene aprendió a distinguir en ellos distintos estados de ánimo. Los días de tormenta, «Datos recibidos» sonaba más cansado.\n\nEn el día setecientos se dio cuenta de que ya no recordaba la voz de su madre. Recordaba lo que decía, pero no cómo. Esa noche grabó su propia voz leyendo un poema y la escuchó diez veces seguidas, para comprobar que todavía era una voz humana.\n\nHoy, día ochocientos doce, a las siete y cuarto de la mañana, HÉCTOR ha dicho algo que no había dicho nunca. Ha dicho: «Mensaje entrante». Irene se ha quedado quieta frente a la pantalla, con el café en la mano, sin atreverse a pulsar la tecla. Lleva dos años esperando una respuesta. Ahora que ha llegado, le da miedo que sea otra cosa: que no haya nadie al otro lado, o que haya alguien que ya no sepa qué decirle.\n\nFuera, el viento sopla a cuarenta y dos nudos. Irene apunta la cifra en la libreta, por costumbre. Luego pulsa la tecla.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el fragmento la soledad de la protagonista y la tensión del final?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "ciencia ficción",
+    "soledad",
+    "última persona"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Relato de ciencia ficción en el que una mujer vive sola en una estación meteorológica remota y envía datos que nadie responde. Tras más de dos años de aislamiento, un mensaje inesperado la enfrenta a su propio miedo a la respuesta.\n\n**Aspectos que conviene analizar**\n- Los datos precisos (ochocientos doce días, cuarenta años, cuarenta y dos nudos) que contrastan con la falta de sentido de la rutina.\n- La humanización del ordenador HÉCTOR (el nombre del perro, los «estados de ánimo» de sus dos frases) como síntoma de la soledad.\n- La cadena de transmisiones hacia una oficina «que probablemente no existe»: el trabajo sin destinatario.\n- El episodio de la voz de la madre y la grabación de la propia voz: la soledad que borra la memoria y la identidad.\n- La tensión final: el «Mensaje entrante», el café en la mano, los dos miedos opuestos.\n- El cierre: el gesto rutinario de apuntar el viento antes de pulsar la tecla y el final abierto.\n\n**Una estructura posible.** Analizar el aislamiento (espacio y rutina), sus efectos sobre Irene y la escena final, mostrando cómo el relato prepara la tensión.\n\n**Cuidado con…** intentar adivinar qué dice el mensaje. El final abierto es parte del sentido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

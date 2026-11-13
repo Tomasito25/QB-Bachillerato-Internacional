@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "9d6b07e6-f525-598e-8e95-bf345036c0a9",
+  "rev": 1,
+  "statement": "**Domingo.** Ella deja las llaves sobre la mesa de la cocina, junto al frutero, y no dice nada. Él está de espaldas, fregando una taza que ya está limpia. Cuando se da la vuelta, la puerta ya se ha cerrado. Las llaves tienen un llavero con forma de faro que compraron en un pueblo del norte.\n\n**Jueves.** Cenan en silencio frente al televisor. En las noticias hablan de una tormenta en el norte. Él dice que se acuerda de aquel pueblo, el del faro. Ella dice que no, que no se acuerda. Los dos saben que es mentira.\n\n**Seis meses antes.** Discuten por una tontería: quién tenía que haber pagado la factura de la luz. Ella grita y él no grita, que es peor. Después, en la cama, cada uno mira su lado del techo.\n\n**Tres años antes.** Pintan juntos el salón. Ella quiere un color que se llama «arena» y él uno que se llama «hueso», y al final mezclan los dos botes por accidente y sale un color que no se llama de ninguna manera. Se ríen tanto que tienen que sentarse en el suelo, manchados de pintura.\n\n**Cinco años antes.** En un pueblo del norte, durante una tormenta, se refugian en una tienda de recuerdos. Ella señala un llavero con forma de faro y dice que es horrible. Él lo compra. Le dice que así, cuando tengan una casa, tendrán también algo horrible con que abrirla. Ella se ríe y le da un beso con sabor a lluvia.\n\nTodavía no tienen casa. Todavía no tienen nada.\n\n---\n\n**Pregunta guía:** ¿Qué efectos produce la estructura en orden cronológico inverso en la historia de la pareja?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "cronología inversa",
+    "estructura",
+    "pareja"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:57.000Z",
+  "updatedAt": "2026-11-13T05:53:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El relato cuenta la historia de una pareja empezando por la ruptura y retrocediendo hasta el día en que compraron un llavero en forma de faro. El orden inverso cambia el sentido de cada escena: el lector ya sabe cómo termina todo y lee el comienzo feliz con melancolía.\n\n**Aspectos que conviene analizar**\n- La estructura en fragmentos fechados que retroceden, desde el final («Domingo») al principio («Cinco años antes»).\n- El llavero del faro como motivo recurrente que une todas las escenas y cambia de valor: objeto abandonado al principio, regalo cómico al final.\n- Los silencios y gestos de la ruptura (fregar una taza ya limpia, mirar «cada uno su lado del techo»).\n- La mentira compartida del jueves («Los dos saben que es mentira»): la memoria como lugar de dolor.\n- La escena de la pintura: el color que «no se llama de ninguna manera» como metáfora de la pareja.\n- El final, que es el principio: «Todavía no tienen casa. Todavía no tienen nada», frase que, leída al final, contiene todo lo que vendrá.\n\n**Una estructura posible.** Analizar cómo cada fragmento cobra un sentido nuevo gracias a lo que el lector ya sabe, y dedicar el último párrafo al efecto del cierre.\n\n**Cuidado con…** reordenar la historia y contarla cronológicamente. El análisis debe centrarse en el efecto del orden elegido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
