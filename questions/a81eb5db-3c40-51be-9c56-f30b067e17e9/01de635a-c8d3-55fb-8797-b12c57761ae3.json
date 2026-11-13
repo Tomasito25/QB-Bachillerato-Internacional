@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "01de635a-c8d3-55fb-8797-b12c57761ae3",
+  "rev": 1,
+  "statement": "**Biblioteca pública**\n\nAquí nadie te pregunta cuánto tienes.\nBasta un carné de cartón\ncon tu nombre escrito a máquina\npara que te presten un mar,\nuna guerra, un siglo, una ciudad entera.\n\nEn la mesa del fondo\nun hombre sin casa lee el periódico\nde principio a fin, despacio,\ncomo quien se toma la sopa.\nA su lado, una niña aprende\nque los dinosaurios no eran verdes\no que nadie lo sabe.\n\nLa bibliotecaria tiene gafas en la cabeza\ny otras en la cara,\ny pide silencio con un dedo\ncomo quien reza.\n\nAfuera llueve y la ciudad cobra por todo:\npor sentarse, por esperar, por el baño.\nAquí, en cambio, los libros se dejan abrir\npor cualquiera,\ncomo si fueran de todos.\n\nLo son.\nPor eso, cuando cierran a las ocho,\nsalimos despacio, mirando atrás,\ncomo se sale de una casa\nque no es nuestra\ny es más nuestra que ninguna.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el poema la biblioteca como un espacio distinto del resto de la ciudad?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "biblioteca",
+    "lectura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema celebra la biblioteca pública como un espacio gratuito y democrático, donde cualquiera puede acceder al conocimiento y al refugio, frente a una ciudad que «cobra por todo».\n\n**Aspectos que conviene analizar**\n- El verso inicial y la gradación hiperbólica de lo que se presta: «un mar, / una guerra, un siglo, una ciudad entera».\n- Los retratos de los usuarios: el hombre sin casa que lee «como quien se toma la sopa» y la niña que aprende que «nadie lo sabe».\n- La bibliotecaria con dos gafas y el silencio pedido «como quien reza»: el humor y la sacralización del espacio.\n- El contraste entre dentro y fuera: la lluvia, la ciudad que cobra por sentarse o esperar, y los libros que «se dejan abrir / por cualquiera».\n- El verso aislado «Lo son», respuesta rotunda al «como si» anterior.\n- La paradoja final de la casa «que no es nuestra / y es más nuestra que ninguna».\n\n**Una estructura posible.** Analizar el espacio de la biblioteca y sus habitantes y después el contraste con la ciudad, terminando con el sentido de la paradoja final.\n\n**Cuidado con…** escribir un elogio de las bibliotecas. Analiza los recursos del poema.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

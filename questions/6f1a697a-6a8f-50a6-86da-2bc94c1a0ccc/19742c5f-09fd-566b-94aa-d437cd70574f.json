@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "19742c5f-09fd-566b-94aa-d437cd70574f",
+  "rev": 1,
+  "statement": "¿Qué es una especie clave?",
+  "explanation": "Por ejemplo, la nutria marina controla a los erizos de mar; sin ella, los erizos destruyen los bosques de algas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "especies clave"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una especie que solo vive en un lugar.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una especie cuyo efecto en la estructura y la estabilidad del ecosistema es desproporcionado respecto a su abundancia.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La especie más abundante de un ecosistema.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cualquier especie en peligro de extinción.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

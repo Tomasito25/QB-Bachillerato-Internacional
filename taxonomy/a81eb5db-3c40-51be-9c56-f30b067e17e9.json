@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "name": "Lengua A: Literatura IB HL",
+  "description": "Textos y preguntas originales con el formato de la guía de Lengua A: Literatura (primera evaluación en 2021). Prueba 1: textos inéditos con pregunta guía. Prueba 2: preguntas generales para un ensayo comparativo sobre dos obras estudiadas.",
+  "rev": 1,
+  "createdBy": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "units": [
+    {
+      "id": "062e5aa5-da61-50cf-8e49-194f85ac4ec4",
+      "name": "Prueba 1. Análisis literario guiado",
+      "order": 0,
+      "topics": [
+        {
+          "id": "c8bed870-569d-5923-9af9-c6e0b2e4e01e",
+          "name": "Poesía",
+          "order": 0
+        },
+        {
+          "id": "f8c8808d-3da7-5ff7-934a-0e26c30652de",
+          "name": "Prosa narrativa",
+          "order": 1
+        },
+        {
+          "id": "e0182602-da23-5cd5-9654-7446f11baff7",
+          "name": "Teatro",
+          "order": 2
+        },
+        {
+          "id": "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02",
+          "name": "Prosa no ficcional",
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "cb410830-9a5d-5211-ad65-b9af8af24dd0",
+      "name": "Prueba 2. Ensayo comparativo",
+      "order": 1,
+      "topics": [
+        {
+          "id": "7c0d54dc-0c20-5faf-8f1e-2d7a893aa253",
+          "name": "Personajes y caracterización",
+          "order": 0
+        },
+        {
+          "id": "f8cbb01f-3344-51dd-b01f-07282802c397",
+          "name": "Narrador, voz y punto de vista",
+          "order": 1
+        },
+        {
+          "id": "4ea85a42-efcc-5978-bf6c-164e09d44418",
+          "name": "Estructura, forma y género",
+          "order": 2
+        },
+        {
+          "id": "db673074-0831-5e82-9577-da2dd25922a2",
+          "name": "Espacio y tiempo",
+          "order": 3
+        },
+        {
+          "id": "93f068fc-d4a3-5e83-93bf-84d9300b44cc",
+          "name": "Temas, conflictos e ideas",
+          "order": 4
+        },
+        {
+          "id": "de0f7458-1f0b-5993-831a-7530ba2c0a0f",
+          "name": "Lenguaje, estilo y símbolos",
+          "order": 5
+        },
+        {
+          "id": "c6557927-9caf-5c27-a734-d545a6d73f69",
+          "name": "Contexto, lectores y recepción",
+          "order": 6
+        },
+        {
+          "id": "287a6baa-b9c7-5f7d-93ed-adcd75ebb7bc",
+          "name": "Intertextualidad y tradición literaria",
+          "order": 7
+        }
+      ]
+    }
+  ]
+}

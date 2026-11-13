@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0fdda072-50a1-5fdb-b1ae-c1fd6eb88644",
+  "rev": 1,
+  "statement": "¿Qué adaptación es típica de los árboles de la selva tropical húmeda?",
+  "explanation": "En la selva, el suelo es pobre y poco profundo: las raíces se extienden superficialmente y los contrafuertes dan estabilidad a árboles muy altos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "selva tropical",
+    "adaptaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Raíces de contrafuerte que los sostienen en suelos poco profundos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Tallos carnosos que almacenan agua.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hojas en forma de aguja para evitar la pérdida de agua.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Pérdida de las hojas en el invierno frío.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "01a43053-5a6e-589c-a9d2-2f49e8264307",
+  "rev": 1,
+  "statement": "¿Qué ventaja tiene para una especie vegetal la autoincompatibilidad?",
+  "explanation": "Si el polen y el estigma comparten ciertos alelos, el tubo polínico no crece. Así se evitan los efectos negativos de la endogamia.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "autoincompatibilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Permite que una planta se fecunde siempre a sí misma.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Hace que las semillas germinen más deprisa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Impide la autofecundación y favorece la fecundación cruzada, que aumenta la variación genética.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Evita que los insectos visiten las flores.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

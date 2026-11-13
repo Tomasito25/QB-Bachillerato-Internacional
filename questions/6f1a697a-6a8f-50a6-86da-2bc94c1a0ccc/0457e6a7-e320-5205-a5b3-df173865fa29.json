@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0457e6a7-e320-5205-a5b3-df173865fa29",
+  "rev": 1,
+  "statement": "¿Qué afirmación sobre la nutrición de las arqueas es correcta?",
+  "explanation": "Las arqueas son muy diversas: algunas usan la luz, otras oxidan sustancias inorgánicas y otras consumen materia orgánica.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "arqueas",
+    "nutrición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Todas las arqueas son fotosintéticas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Todas las arqueas son parásitas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hay arqueas fotosintéticas, quimioautótrofas y heterótrofas.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Las arqueas no necesitan obtener energía.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "03c0f775-9889-5ff5-ad64-70e75353075b",
+  "rev": 1,
+  "statement": "**¿Qué efectos produce una estructura no cronológica en dos de las obras que ha estudiado?**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "4ea85a42-efcc-5978-bf6c-164e09d44418"
+  ],
+  "tags": [
+    "estructura",
+    "tiempo no lineal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar estructuras con saltos temporales, analepsis, prolepsis, comienzos por el final o tiempos entrelazados, y sus efectos: suspense, ironía, reflexión sobre la memoria. **Obras adecuadas.** Novelas con tiempos fragmentados, teatro con escenas desordenadas, poemarios que no siguen una cronología. **Esquema posible.** Cómo se organiza el tiempo en cada obra; efectos concretos; relación con los temas; comparación. **Cuidado con…** reordenar la historia cronológicamente. Céntrate en el efecto del orden elegido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

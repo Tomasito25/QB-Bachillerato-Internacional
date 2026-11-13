@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "1895e06d-6246-5388-95da-ee76fe3ed36a",
+  "rev": 1,
+  "statement": "El primer día te dan unos cascos, una silla con ruedas y un nombre que no es el tuyo. Aquí no eres Javier, eres Daniel, porque Daniel suena más cercano, te explica la coordinadora sin mirarte, mientras teclea tu contraseña provisional. Te sientas en la fila catorce, entre una chica que habla con acento andaluz fingido y un hombre mayor que repite la misma frase cada cuarenta segundos con la misma sonrisa en la voz.\n\nTienes un guion. El guion prevé todo: el saludo, la objeción, la segunda objeción, la despedida si el cliente se enfada, la despedida si el cliente llora, que también pasa. El guion no prevé que la primera mujer a la que llamas te pregunte si eres el chico del banco que la llamó el martes, el que fue tan amable. Dices que sí. No sabes por qué dices que sí. Ella te cuenta que su marido está en el hospital y que no entiende las cartas que le llegan. Tú miras la pantalla, donde un reloj en rojo cuenta los segundos que llevas sin ofrecer el producto.\n\nA las diez, la coordinadora pasa por detrás y te toca el hombro dos veces. Es la señal. Ofreces el producto. La mujer cuelga despacio, como se cierra una puerta para no despertar a nadie.\n\nEn el descanso de quince minutos te comes un sándwich de máquina y miras por la única ventana, que da a otra ventana. Alguien ha pegado en la nevera una nota: «Sonríe, se nota por teléfono». Debajo, con otra letra, alguien ha escrito: «Y llorar también».\n\nPor la tarde ya no dudas. Dices Daniel, dices le llamo de, dices entiendo perfectamente su situación. A las seis te quitas los cascos y tardas un rato en reconocer tu propia voz cuando le dices al conductor del autobús buenas tardes.\n\n---\n\n**Pregunta guía:** ¿Qué efectos produce la narración en segunda persona en la presentación de la experiencia del protagonista?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "segunda persona",
+    "trabajo",
+    "alienación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El fragmento narra el primer día de un joven en un centro de llamadas. La segunda persona («te dan», «te sientas») sitúa al lector dentro de la experiencia y, a la vez, sugiere que el protagonista se ve desde fuera, como si ya no fuera del todo él mismo. La jornada muestra cómo el trabajo le arrebata el nombre, el criterio y finalmente la voz.\n\n**Aspectos que conviene analizar**\n- La segunda persona: implica al lector, generaliza la experiencia y expresa el extrañamiento del personaje respecto de sí mismo.\n- El cambio de nombre (Javier/Daniel) y la frase final: la pérdida de identidad enmarca el relato.\n- El guion que «prevé todo» y la enumeración irónica de despedidas, incluida la del cliente que llora.\n- La llamada a la mujer: la mentira compasiva, el reloj en rojo y la comparación final de la puerta que se cierra «para no despertar a nadie».\n- Las notas de la nevera como diálogo anónimo entre trabajadores: humor amargo y solidaridad.\n- La progresión temporal (primer día, mañana, tarde) y el paso de la duda a la repetición automática («Por la tarde ya no dudas»).\n\n**Una estructura posible.** Partir del efecto de la segunda persona y seguir la jornada, mostrando cómo cada momento erosiona un poco más la identidad del personaje.\n\n**Cuidado con…** limitarte a decir que la segunda persona «implica al lector». Explica cómo esa implicación se relaciona con la deshumanización que muestra el texto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

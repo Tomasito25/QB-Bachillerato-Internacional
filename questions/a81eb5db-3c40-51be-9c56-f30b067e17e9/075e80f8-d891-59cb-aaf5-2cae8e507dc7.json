@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "075e80f8-d891-59cb-aaf5-2cae8e507dc7",
+  "rev": 1,
+  "statement": "**Elegía para un bosque**\n\nAquí había un bosque.\nLo digo para que conste,\ncomo se dice el nombre de un muerto\nen voz alta, en la plaza,\npara que no se lo lleve también el olvido.\n\nHabía pinos que olían a resina en agosto,\nun arroyo que en mayo se creía río,\nuna encina vieja con un corazón tallado\ny dos iniciales que ya nadie recuerda.\n\nHabía zorros. Había ruido de agua.\nHabía una sombra fresca\ndonde los abuelos dormían la siesta\ncon el periódico en la cara.\n\nAhora hay un silencio negro\nque cruje bajo los zapatos.\nLos troncos están de pie\ncomo soldados que no saben\nque la guerra ha terminado.\n\nDicen que en diez años volverá el verde.\nDicen que la naturaleza es paciente.\nYo no lo soy.\nYo tengo cuarenta y tres años\ny quería envejecer\na la sombra de estos árboles.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el poema la elegía tradicional con la experiencia personal de la pérdida de un paisaje?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "elegía",
+    "incendio",
+    "naturaleza"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una elegía dedicada no a una persona, sino a un bosque destruido por un incendio. La voz poética recuerda lo que había, describe lo que queda y opone la paciencia de la naturaleza a la urgencia de una vida humana limitada.\n\n**Aspectos que conviene analizar**\n- La elegía como forma: lamento, recuerdo del pasado y homenaje público («Lo digo para que conste»), con la comparación del nombre de un muerto.\n- La anáfora de «Había», que reconstruye el bosque mediante detalles sensoriales y humanos (la resina, el arroyo que «se creía río», el corazón tallado, los abuelos en la siesta).\n- El contraste entre el pasado lleno de vida y el presente: el «silencio negro / que cruje bajo los zapatos».\n- La comparación de los troncos con «soldados que no saben / que la guerra ha terminado».\n- La réplica a los consuelos ajenos («Dicen que…») y el giro personal: «Yo no lo soy».\n- El final, concreto y conmovedor: la edad de la voz poética y el deseo frustrado de envejecer bajo esos árboles.\n\n**Una estructura posible.** Analizar el poema en tres tiempos (homenaje, recuerdo, presente) y terminar con la reflexión sobre el tiempo humano y el natural.\n\n**Cuidado con…** convertir el análisis en un comentario sobre los incendios forestales. Céntrate en la voz y las imágenes.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

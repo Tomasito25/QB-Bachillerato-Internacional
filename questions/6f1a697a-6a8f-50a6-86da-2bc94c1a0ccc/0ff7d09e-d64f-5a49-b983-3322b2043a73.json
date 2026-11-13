@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0ff7d09e-d64f-5a49-b983-3322b2043a73",
+  "rev": 1,
+  "statement": "¿Qué es una especie invasora?",
+  "explanation": "Al llegar sin sus depredadores, competidores o parásitos naturales, puede proliferar y desplazar a especies nativas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "especies invasoras"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una especie introducida fuera de su área natural que se extiende y daña a las especies o ecosistemas locales.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Una especie autóctona cuya población ha aumentado.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una especie que migra cada año entre dos continentes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cualquier especie que se alimenta de otras.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

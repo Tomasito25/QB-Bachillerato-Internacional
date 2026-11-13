@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "08655cab-8d43-5d0f-9328-7e9286c5a531",
+  "rev": 1,
+  "statement": "¿Por qué los aceites vegetales, ricos en ácidos grasos insaturados, son líquidos a temperatura ambiente?",
+  "explanation": "Los dobles enlaces en configuración cis doblan la cadena; las moléculas quedan más separadas y las fuerzas entre ellas son menores. Las grasas saturadas, de cadenas rectas, se empaquetan mejor y son sólidas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "ácidos grasos",
+    "saturados",
+    "insaturados"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No tienen ningún enlace C=C y por eso son más fluidos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Contienen glicerol en lugar de ácidos grasos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los dobles enlaces C=C producen dobleces en las cadenas, que no se empaquetan bien y funden a menor temperatura.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Sus cadenas son más largas que las de las grasas animales.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "003c8b1b-d30c-5199-9346-b0a505aa9f52",
+  "rev": 1,
+  "statement": "¿Qué es la homeostasis?",
+  "explanation": "Se regulan, por ejemplo, la temperatura corporal, el pH de la sangre, la concentración de CO₂, la glucosa en sangre y la concentración osmótica.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "homeostasis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El mantenimiento del medio interno del organismo dentro de unos límites estrechos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El crecimiento del organismo a lo largo de su vida.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El cambio del medio interno según las condiciones del exterior.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La respuesta rápida a un estímulo externo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

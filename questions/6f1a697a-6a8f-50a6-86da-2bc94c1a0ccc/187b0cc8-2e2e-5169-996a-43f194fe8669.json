@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "187b0cc8-2e2e-5169-996a-43f194fe8669",
+  "rev": 1,
+  "statement": "¿Qué es una zoonosis?",
+  "explanation": "La rabia, la tuberculosis bovina o la peste son zoonosis. Muchas enfermedades nuevas, como la COVID-19, probablemente tienen este origen.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "zoonosis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una enfermedad genética de los animales domésticos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una vacuna fabricada con proteínas animales.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una enfermedad infecciosa que pasa de otros animales al ser humano.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Una enfermedad que solo afecta a los animales del zoológico.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

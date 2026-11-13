@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "01965822-8360-531d-b693-971fa05e3d1f",
+  "rev": 1,
+  "statement": "El brócoli, la coliflor, la col y la col rizada proceden de una misma especie silvestre, *Brassica oleracea*, por selección artificial. ¿Por qué se considera una prueba de la evolución?",
+  "explanation": "Si la selección humana produce cambios tan grandes en poco tiempo, la selección natural puede producir cambios mayores en tiempos mucho más largos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "selección artificial"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Muestra que las características de una población pueden cambiar mucho en pocas generaciones si se seleccionan ciertos rasgos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Demuestra que todas las plantas tienen el mismo número de cromosomas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Muestra que las plantas pueden convertirse en otras especies a voluntad del agricultor.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Demuestra que los caracteres adquiridos se heredan.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

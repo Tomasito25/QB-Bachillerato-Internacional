@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "09b0e325-d3c6-5da1-b16e-073c6cd38143",
+  "rev": 1,
+  "statement": "Los bonobos viven al sur del río Congo y los chimpancés comunes, al norte. ¿Qué papel tuvo probablemente el río en su origen como especies distintas?",
+  "explanation": "Ninguna de las dos especies nada bien, así que el río funcionó como barrera geográfica. Separadas, las poblaciones divergieron.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "especiación alopátrica",
+    "bonobos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ninguno, porque ambas especies se cruzan con frecuencia a través del río.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Provocó mutaciones idénticas en las dos poblaciones.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Separó geográficamente dos poblaciones de un antepasado común, que dejaron de intercambiar genes.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Hizo que los chimpancés se convirtieran en bonobos al cruzarlo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

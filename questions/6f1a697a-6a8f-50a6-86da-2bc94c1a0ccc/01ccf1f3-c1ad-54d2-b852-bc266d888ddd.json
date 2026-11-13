@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "01ccf1f3-c1ad-54d2-b852-bc266d888ddd",
+  "rev": 1,
+  "statement": "Algunas consecuencias del calentamiento global lo aceleran.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "retroalimentación positiva"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué es una retroalimentación positiva en el clima.",
+      "modelAnswer": "Un proceso en el que un efecto del calentamiento produce a su vez más calentamiento, (1) de modo que el cambio inicial se amplifica. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe dos ejemplos de retroalimentación positiva en el calentamiento global.",
+      "modelAnswer": "Dos de: la fusión del hielo reduce la reflexión de la luz solar; el deshielo del permafrost y la descomposición de la turba liberan CO₂ y metano; los incendios forestales más frecuentes liberan CO₂; el océano más cálido disuelve menos CO₂. (2 por cada uno, hasta 4)",
+      "marks": 4
+    }
+  ]
+}

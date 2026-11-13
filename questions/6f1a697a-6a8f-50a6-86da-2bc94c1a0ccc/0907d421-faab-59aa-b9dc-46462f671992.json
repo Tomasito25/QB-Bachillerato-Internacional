@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "0907d421-faab-59aa-b9dc-46462f671992",
+  "rev": 1,
+  "statement": "Darwin propuso que la selección natural explica la adaptación de las especies.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "selección natural",
+    "explicación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo la selección natural produce un cambio evolutivo en una población.",
+      "modelAnswer": "Hay variación entre los individuos, debida a la mutación y a la reproducción sexual. (1) Se producen más descendientes de los que pueden sobrevivir, y compiten. (1) Los mejor adaptados sobreviven y se reproducen más. (1) Transmiten sus alelos, que se hacen más frecuentes en la población. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la variación debe ser heredable.",
+      "modelAnswer": "Solo los rasgos que dependen de los genes se transmiten a la descendencia; (1) si no, la ventaja no pasaría a la siguiente generación y la población no cambiaría. (1)",
+      "marks": 2
+    }
+  ]
+}

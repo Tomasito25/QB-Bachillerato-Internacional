@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "12de9450-c7fe-5a75-8b2a-a6721ba7cd91",
+  "rev": 1,
+  "statement": "La testosterona y el estradiol entran en las células diana sin necesidad de proteínas de transporte. ¿Por qué?",
+  "explanation": "Al ser hidrófobos, se disuelven en el interior apolar de la bicapa y la atraviesan. Sus receptores están dentro de la célula.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "esteroides",
+    "membrana"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Son esteroides apolares que atraviesan la bicapa de fosfolípidos por difusión.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Son polisacáridos que se incorporan por endocitosis.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Son proteínas que se unen a los canales de la membrana.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Son iones que entran por bombas de membrana.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

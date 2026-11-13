@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "12e6949e-8d15-5b73-836b-890aed7c2278",
+  "rev": 1,
+  "statement": "¿Cuándo actúa un ecosistema como sumidero de carbono?",
+  "explanation": "Un bosque joven en crecimiento o una turbera intacta acumulan carbono. Si se queman o se degradan, pasan a ser fuentes.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6956d114-afaa-52a6-997b-a4ce3f862ade"
+  ],
+  "tags": [
+    "sumideros de carbono"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Cuando absorbe más CO₂ por la fotosíntesis del que libera por la respiración y otros procesos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Cuando arde un incendio forestal.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cuando sus suelos se secan y la turba se oxida.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cuando libera más CO₂ del que absorbe.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

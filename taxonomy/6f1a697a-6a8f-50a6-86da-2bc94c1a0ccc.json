@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "name": "Biología SL IB",
+  "description": "Preguntas originales con el formato del IB, ordenadas según la guía de Biología (primera evaluación en 2025), sólo con los temas de NM. No son preguntas de exámenes reales.",
+  "rev": 1,
+  "createdBy": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "units": [
+    {
+      "id": "048e634a-e3f5-53dc-950e-c3746ff8e56f",
+      "name": "A. Unidad y diversidad",
+      "order": 0,
+      "topics": [
+        {
+          "id": "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb",
+          "name": "A1.1 El agua",
+          "order": 0
+        },
+        {
+          "id": "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd",
+          "name": "A1.2 Ácidos nucleicos",
+          "order": 1
+        },
+        {
+          "id": "a55924f8-c9f3-59a6-9ea2-74d9f3d35291",
+          "name": "A2.2 Estructura celular",
+          "order": 2
+        },
+        {
+          "id": "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39",
+          "name": "A3.1 Diversidad de los organismos",
+          "order": 3
+        },
+        {
+          "id": "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa",
+          "name": "A4.1 Evolución y especiación",
+          "order": 4
+        },
+        {
+          "id": "fe72fdbe-09f0-558f-a319-42002d4a7798",
+          "name": "A4.2 Conservación de la biodiversidad",
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "2c2d3f2a-4bff-5fb1-bbd6-4fcf3bd542f9",
+      "name": "B. Forma y función",
+      "order": 1,
+      "topics": [
+        {
+          "id": "902e29d8-36f5-59d0-8e9d-b94c1c595360",
+          "name": "B1.1 Glúcidos y lípidos",
+          "order": 0
+        },
+        {
+          "id": "1d93d984-db3f-542a-afa9-70afd18e69c7",
+          "name": "B1.2 Proteínas",
+          "order": 1
+        },
+        {
+          "id": "4f619c70-3e2e-57ee-9fb9-9c68892edced",
+          "name": "B2.1 Membranas y transporte de membrana",
+          "order": 2
+        },
+        {
+          "id": "bf2643fa-9f67-5534-af0a-ee6f0bfc7246",
+          "name": "B2.2 Orgánulos y compartimentación",
+          "order": 3
+        },
+        {
+          "id": "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609",
+          "name": "B2.3 Especialización celular",
+          "order": 4
+        },
+        {
+          "id": "86ec3f63-5701-591c-b3e5-92e65aae354f",
+          "name": "B3.1 Intercambio de gases",
+          "order": 5
+        },
+        {
+          "id": "18e95f1e-bc82-5623-b504-4efcb6375dcb",
+          "name": "B3.2 Transporte",
+          "order": 6
+        },
+        {
+          "id": "8c44b13b-2186-509d-a501-cbf00cd85273",
+          "name": "B4.1 Adaptación al medio",
+          "order": 7
+        },
+        {
+          "id": "115e5830-7348-513e-ad59-d10d19fa2a2b",
+          "name": "B4.2 Nichos ecológicos",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": "6fc163bd-facc-500b-a445-39702d8e7536",
+      "name": "C. Interacción e interdependencia",
+      "order": 2,
+      "topics": [
+        {
+          "id": "9598a345-0c6b-540c-8e2e-eb62d16e40c0",
+          "name": "C1.1 Enzimas y metabolismo",
+          "order": 0
+        },
+        {
+          "id": "af0104b3-3456-52e7-a2dc-ffa6bde8146f",
+          "name": "C1.2 Respiración celular",
+          "order": 1
+        },
+        {
+          "id": "c3a439e4-fb5a-556b-8b99-77d6290b5d79",
+          "name": "C1.3 Fotosíntesis",
+          "order": 2
+        },
+        {
+          "id": "b2f59bf1-ed66-5124-a543-488ad259681a",
+          "name": "C2.2 Señalización neuronal",
+          "order": 3
+        },
+        {
+          "id": "36f0ee50-bb72-5765-a710-341b6d6f9e0d",
+          "name": "C3.1 Integración de los sistemas corporales",
+          "order": 4
+        },
+        {
+          "id": "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26",
+          "name": "C3.2 Defensa contra las enfermedades",
+          "order": 5
+        },
+        {
+          "id": "4765334b-57f0-5204-9583-78632ac7f446",
+          "name": "C4.1 Poblaciones y comunidades",
+          "order": 6
+        },
+        {
+          "id": "6956d114-afaa-52a6-997b-a4ce3f862ade",
+          "name": "C4.2 Transferencias de energía y materia",
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": "1feedf76-59f1-513c-bc2a-6b4dbbc3ef35",
+      "name": "D. Continuidad y cambio",
+      "order": 3,
+      "topics": [
+        {
+          "id": "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34",
+          "name": "D1.1 Replicación del ADN",
+          "order": 0
+        },
+        {
+          "id": "96c2be7d-2912-516f-9b23-82cd5c7cb845",
+          "name": "D1.2 Síntesis de proteínas",
+          "order": 1
+        },
+        {
+          "id": "f8f10647-9aae-58e3-874a-b4cb9feb7f1b",
+          "name": "D1.3 Mutaciones y edición génica",
+          "order": 2
+        },
+        {
+          "id": "53f2de86-cf98-579c-a404-9cc9be89f3a5",
+          "name": "D2.1 División celular y nuclear",
+          "order": 3
+        },
+        {
+          "id": "d5534354-acd1-5aa7-afb6-eb4d509a0da8",
+          "name": "D2.3 Potencial hídrico",
+          "order": 4
+        },
+        {
+          "id": "a0aa0055-c65e-521c-9cbf-c8783360e867",
+          "name": "D3.1 Reproducción",
+          "order": 5
+        },
+        {
+          "id": "516e14f8-1c0c-54ff-b559-9c0ad5125904",
+          "name": "D3.2 Herencia",
+          "order": 6
+        },
+        {
+          "id": "e0b131be-aee6-514f-bf0c-73f56d623b3b",
+          "name": "D3.3 Homeostasis",
+          "order": 7
+        },
+        {
+          "id": "557b5b11-ebc1-565d-bbb9-2caab3d97c62",
+          "name": "D4.1 Selección natural",
+          "order": 8
+        },
+        {
+          "id": "3419e0e5-7a63-526a-bf76-6540c499c28e",
+          "name": "D4.2 Estabilidad y cambio",
+          "order": 9
+        },
+        {
+          "id": "22497f11-c314-53f5-9693-4e79e1850a97",
+          "name": "D4.3 Cambio climático",
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": "9bd0dbca-94c8-5884-9536-1517eb88bedd",
+      "name": "Paper 1B. Preguntas basadas en datos",
+      "order": 4,
+      "topics": [
+        {
+          "id": "ad1e46f2-f3e4-584f-8081-37c561514626",
+          "name": "DB1 Gráficas y tendencias",
+          "order": 0
+        },
+        {
+          "id": "d882c402-d0e9-5c72-a87d-68b5e38b52b5",
+          "name": "DB2 Estadística y variabilidad",
+          "order": 1
+        },
+        {
+          "id": "b06e888d-b5c8-515d-a5eb-809009c3efd0",
+          "name": "DB3 Diseño experimental",
+          "order": 2
+        },
+        {
+          "id": "939e4cff-3e45-56bc-b3d6-c41799790f98",
+          "name": "DB4 Cálculos con datos",
+          "order": 3
+        }
+      ]
+    }
+  ]
+}

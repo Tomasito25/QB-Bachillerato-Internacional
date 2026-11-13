@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "057c03f1-afb3-5af9-b43a-8d47dadc1006",
+  "rev": 1,
+  "statement": "**Sobre la palabra nostalgia**\n\nLa palabra nostalgia la inventó un médico. Fue a finales del siglo XVII, para describir una enfermedad que padecían los soldados suizos destinados lejos de sus montañas: perdían el apetito, no dormían, algunos morían sin causa aparente. El médico unió dos palabras griegas, regreso y dolor, y bautizó así aquel mal. Durante un tiempo se recetaron sangrías, opio y, en los casos graves, el regreso a casa.\n\nMe gusta que la nostalgia naciera como enfermedad, porque eso es lo que a veces parece: algo que se contrae sin querer, al oír una canción en un bar o al oler un guiso en la escalera de un desconocido. Pero me gusta más lo que le ha pasado a la palabra desde entonces. Ha dejado los hospitales, se ha vuelto una emoción respetable, casi elegante, y hoy se vende en anuncios de cerveza y en camisetas con dibujos de nuestra infancia.\n\nEsa nostalgia comercial me inquieta. No porque recordar el pasado sea malo, sino porque nos ofrece un pasado retocado, sin los inviernos sin calefacción, sin las colas, sin los miedos. La nostalgia verdadera duele un poco, y en ese dolor hay una verdad: sabemos que no se puede volver. La nostalgia que se compra, en cambio, promete que sí, que basta con ponerse la camiseta.\n\nQuizá por eso conviene recordar el origen de la palabra. Los soldados suizos no añoraban unas montañas de postal; añoraban la casa concreta, la voz de su madre, el frío de una fuente que solo ellos conocían. La nostalgia, bien entendida, no es amor por el pasado en general. Es fidelidad a unos detalles que nadie más recuerda.\n\nY eso, me temo, no se puede vender.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el texto su reflexión a partir de la historia de una palabra?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "ensayo",
+    "palabras",
+    "nostalgia",
+    "lenguaje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Ensayo breve que parte del origen médico de la palabra «nostalgia» para distinguir entre una nostalgia verdadera, dolorosa y concreta, y otra comercial, que vende un pasado idealizado. La etimología sirve de argumento y de hilo conductor.\n\n**Aspectos que conviene analizar**\n- La apertura narrativa con un dato curioso (el médico, los soldados suizos) que capta la atención y da autoridad.\n- La explicación etimológica (regreso y dolor) y su uso como clave interpretativa a lo largo del texto.\n- La voz personal («Me gusta», «me inquieta», «me temo»), que convierte la información en reflexión.\n- El contraste entre las dos nostalgias, con ejemplos concretos (anuncios de cerveza, camisetas, inviernos sin calefacción).\n- La vuelta al origen en el penúltimo párrafo: los detalles concretos que añoraban los soldados y la definición final de la nostalgia como «fidelidad a unos detalles».\n- El cierre, breve e irónico, que remata la crítica a la mercantilización.\n\n**Una estructura posible.** Seguir la estructura del ensayo (historia de la palabra, evolución, crítica, redefinición, conclusión) y analizar los recursos argumentativos de cada parte.\n\n**Cuidado con…** resumir la información histórica. Lo relevante es cómo el autor la usa para persuadir.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "165e639a-7ad3-5e52-a15f-f6f30dd7cf2f",
+  "rev": 1,
+  "statement": "¿Qué función tienen las acuaporinas?",
+  "explanation": "Las acuaporinas permiten el paso rápido de moléculas de agua en una sola fila; abundan en células como las del túbulo renal o las raíces.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "acuaporinas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Transportan glucosa junto con agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Son canales proteicos que aumentan mucho la permeabilidad de la membrana al agua.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Bombean agua contra su gradiente con gasto de ATP.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Impiden que el agua atraviese la membrana.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0af7c190-d940-5c13-a37e-45bdef3de801",
+  "rev": 1,
+  "statement": "¿Qué función tiene la helicasa en la replicación?",
+  "explanation": "La helicasa usa energía del ATP para separar las cadenas, que así pueden servir de molde.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "helicasa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Corta el ADN en secuencias concretas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Une los fragmentos de ADN entre sí con enlaces covalentes.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Desenrolla la doble hélice y separa las dos cadenas rompiendo los puentes de hidrógeno.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Une los nucleótidos nuevos a la cadena en crecimiento.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
