@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "3ea018e3-aab7-5e03-a6a9-7b95792f8ced",
+  "rev": 1,
+  "statement": "¿Qué sustancia se transporta en la sangre disuelta en el plasma, sin necesidad de una proteína transportadora ni de lipoproteínas?",
+  "explanation": "La glucosa es polar y muy soluble en agua. El colesterol y los triglicéridos son hidrófobos y viajan en lipoproteínas. El oxígeno es poco soluble: casi todo va unido a la hemoglobina.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "transporte",
+    "sangre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El colesterol",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La glucosa",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Los triglicéridos",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La mayor parte del oxígeno",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

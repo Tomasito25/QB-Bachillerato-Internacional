@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "3e998e66-0de6-522a-8e72-faf10d742f31",
+  "rev": 1,
+  "statement": "**¿Cómo influye la perspectiva de género en la interpretación de dos de las obras que ha estudiado?**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c6557927-9caf-5c27-a734-d545a6d73f69"
+  ],
+  "tags": [
+    "perspectiva de género"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Leer las obras atendiendo a la representación de hombres y mujeres, los roles de género y las relaciones de poder, y valorar qué revela esa lectura. **Obras adecuadas.** Obras con personajes cuyo destino depende de su género, o escritas desde perspectivas distintas. **Esquema posible.** Representación del género en cada obra; recursos; lectura desde hoy; comparación. **Cuidado con…** juzgar las obras con criterios actuales sin analizarlas.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

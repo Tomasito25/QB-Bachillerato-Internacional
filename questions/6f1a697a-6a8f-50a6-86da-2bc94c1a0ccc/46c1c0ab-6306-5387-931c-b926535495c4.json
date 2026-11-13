@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "46c1c0ab-6306-5387-931c-b926535495c4",
+  "rev": 1,
+  "statement": "¿Qué diferencia principal hay entre la reproducción sexual y la asexual?",
+  "explanation": "La variación de la reproducción sexual procede de la meiosis y de la unión al azar de gametos de dos individuos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "reproducción sexual",
+    "asexual"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La asexual produce siempre más variación genética.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La sexual solo existe en los animales.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La asexual necesita gametos y la sexual no.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La sexual combina material genético de dos progenitores y produce descendencia variada; la asexual produce copias genéticas del progenitor.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

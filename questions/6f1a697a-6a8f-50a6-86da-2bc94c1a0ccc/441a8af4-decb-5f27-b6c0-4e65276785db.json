@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "441a8af4-decb-5f27-b6c0-4e65276785db",
+  "rev": 1,
+  "statement": "La sangre circula por arterias, capilares y venas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "arterias",
+    "venas",
+    "capilares"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la estructura de una arteria y la de una vena.",
+      "modelAnswer": "La arteria tiene la pared más gruesa, con más fibras musculares y elásticas. (1) La luz de la arteria es más estrecha que la de la vena. (1) Las venas tienen válvulas; las arterias no (salvo a la salida del corazón). (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica cómo la estructura de las arterias se relaciona con su función.",
+      "modelAnswer": "La pared gruesa resiste la alta presión de la sangre que sale del corazón. (1) Las fibras elásticas se estiran en cada latido y luego se retraen, lo que mantiene la presión y el flujo entre latidos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica cómo los capilares están adaptados al intercambio.",
+      "modelAnswer": "Pared de una sola capa de células, muy fina: distancia de difusión corta. (1) Forman redes muy densas, con gran superficie, y algunos tienen poros. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4054cc02-741f-50a1-8339-04b2dbaf1582",
+  "rev": 1,
+  "statement": "¿Cómo se forma un triglicérido?",
+  "explanation": "Cada grupo –OH del glicerol forma un enlace éster con un ácido graso; en cada enlace se libera una molécula de agua.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "triglicéridos",
+    "condensación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por unión de un ácido graso, un fosfato y una base nitrogenada.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Por hidrólisis de tres moléculas de glucosa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Por condensación de tres moléculas de glicerol con un ácido graso.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Por condensación de una molécula de glicerol con tres ácidos grasos, con liberación de tres moléculas de agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "3f5aca88-07e2-5641-80c7-8cb072a4c28f",
+  "rev": 1,
+  "statement": "¿Por qué la actividad de una enzima aumenta con la temperatura hasta su óptimo?",
+  "explanation": "Por encima del óptimo, la agitación térmica rompe los enlaces que mantienen la forma de la enzima y esta se desnaturaliza.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las moléculas se mueven más deprisa y chocan con más frecuencia y con más energía.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El sustrato se convierte en producto sin necesidad de la enzima.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La enzima añade nuevos sitios activos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La forma del sitio activo se vuelve más complementaria al sustrato.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

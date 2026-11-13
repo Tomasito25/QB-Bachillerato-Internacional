@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "3cc27c35-fdaf-55ef-bcd8-1fd718c59521",
+  "rev": 1,
+  "statement": "¿Qué es la evolución?",
+  "explanation": "Evolucionan las poblaciones, no los individuos, y solo cuentan los cambios que se heredan.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "evolución",
+    "definición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El cambio que experimenta un individuo a lo largo de su vida.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La aparición de características adquiridas por el uso de los órganos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El cambio en las características heredables de una población a lo largo de las generaciones.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El aumento del tamaño de una población con el tiempo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

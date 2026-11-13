@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "3ad4e1e1-1505-5f7d-b2b0-b87423d116d8",
+  "rev": 1,
+  "statement": "Se extrajo una misma enzima de una bacteria del suelo y de una bacteria termófila. Las muestras se mantuvieron diez minutos a distintas temperaturas y después se midió qué porcentaje de la enzima conservaba su forma.\n\n![Porcentaje de proteína que conserva su forma tras diez minutos a distintas temperaturas, para dos bacterias](qbimg:0cee42b849adcac7b6a641a28691bd2038cb1fefadd2f4761c8cc11e199510f2)",
+  "images": [
+    {
+      "hash": "0cee42b849adcac7b6a641a28691bd2038cb1fefadd2f4761c8cc11e199510f2",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 28480,
+      "alt": "Porcentaje de proteína que conserva su forma tras diez minutos a distintas temperaturas, para dos bacterias"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "desnaturalización",
+    "termófilos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Estima la temperatura a la que se desnaturaliza la mitad de la enzima de la bacteria del suelo.",
+      "modelAnswer": "Unos $58\\,°\\text{C}$ (se aceptan de $55\\,°\\text{C}$ a $60\\,°\\text{C}$). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara los resultados de las dos bacterias.",
+      "modelAnswer": "Las dos curvas tienen la misma forma: a temperatura baja la enzima está intacta y cae bruscamente por encima de cierta temperatura. (1) La enzima de la termófila resiste unos $30\\,°\\text{C}$ más: a $70\\,°\\text{C}$ casi toda conserva su forma, mientras que la de la bacteria del suelo está casi toda desnaturalizada. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la enzima pierde su actividad al desnaturalizarse.",
+      "modelAnswer": "El calor rompe los enlaces débiles que mantienen su forma tridimensional. (1) Cambia la forma del sitio activo y el sustrato ya no encaja. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una razón por la que la enzima termófila es útil en la industria o en el laboratorio.",
+      "modelAnswer": "Sigue funcionando en procesos que requieren temperaturas altas, como la PCR o algunos procesos industriales. (1)",
+      "marks": 1
+    }
+  ]
+}

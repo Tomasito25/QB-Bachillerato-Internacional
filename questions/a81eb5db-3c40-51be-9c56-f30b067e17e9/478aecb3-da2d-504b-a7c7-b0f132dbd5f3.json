@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "478aecb3-da2d-504b-a7c7-b0f132dbd5f3",
+  "rev": 1,
+  "statement": "**Frontera de agua**\n\nEl mar no tiene fronteras, dicen los mapas,\npero los mapas no se han mojado nunca.\n\nEsta noche el mar es una puerta\nque alguien ha dejado entornada\ny por la que caben setenta personas\nsi nadie respira demasiado.\n\nUna mujer lleva a su hijo dormido\ncomo se lleva una vela en el viento.\nUn hombre reza en un idioma\nque el agua no entiende.\nUn muchacho de dieciséis años\ncuenta las estrellas para no contar las olas.\n\nAl otro lado, en la playa,\nhay hamacas recogidas en fila\ny un letrero que prohíbe el baño\ndespués de las ocho.\n\nMañana, en las noticias,\nel mar será una cifra.\nPero esta noche todavía es un nombre,\nsetenta nombres,\ny una mujer que no suelta la vela.\n\n---\n\n**Pregunta guía:** ¿Cómo representa el poema la experiencia de la migración por mar?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "migración",
+    "mar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema sigue a un grupo de setenta personas que cruzan el mar en una embarcación precaria. Frente a la frialdad de los mapas, las noticias y la playa turística, el poema insiste en los individuos y en sus gestos, y convierte las cifras en nombres.\n\n**Aspectos que conviene analizar**\n- La antítesis inicial entre los mapas, abstractos, y la experiencia física del agua: «los mapas no se han mojado nunca».\n- La metáfora del mar como «puerta entornada» y la hipérbole irónica de que caben setenta personas «si nadie respira demasiado».\n- Los tres retratos de la tercera estrofa, cada uno con un gesto: la madre que lleva al hijo «como una vela en el viento», el hombre que reza, el muchacho que cuenta estrellas para no contar olas.\n- El contraste con la playa del otro lado (hamacas, letrero de prohibido el baño), que sugiere indiferencia y comodidad.\n- El final: la oposición entre la «cifra» de mañana y los «setenta nombres» de esta noche, y el regreso a la imagen de la vela.\n- La ambigüedad: el poema no dice qué ocurre, pero «mañana, en las noticias» anticipa la tragedia.\n\n**Una estructura posible.** Analizar el poema como una sucesión de planos (mapa, mar, personas, playa, noticias) que acercan y alejan la mirada del lector.\n\n**Cuidado con…** hacer un comentario político general. Analiza cómo el lenguaje del poema humaniza a las personas que retrata.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

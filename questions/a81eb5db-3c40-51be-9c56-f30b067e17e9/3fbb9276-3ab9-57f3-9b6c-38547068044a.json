@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "3fbb9276-3ab9-57f3-9b6c-38547068044a",
+  "rev": 1,
+  "statement": "**Autorretrato a los cuarenta**\n\nTengo la edad que tenía mi madre\ncuando yo creía que era vieja.\nMe río de la misma manera que ella,\ncon la mano delante de la boca,\ncomo si la alegría fuera un secreto.\n\nTengo una cana rebelde\nque arranco los lunes\ny vuelve los jueves,\npuntual, como un vecino que saluda.\n\nYa no quiero ser astronauta,\nni rubia, ni otra.\nQuiero dormir ocho horas\ny que mis hijos me llamen sin motivo.\n\nHe aprendido algunas cosas:\nque el pan de ayer sirve para mucho,\nque no todas las puertas que se cierran\nhay que volver a abrirlas,\nque el miedo no se va, pero se sienta\ncada vez más atrás en el coche.\n\nMe miro en el espejo del ascensor\nentre el segundo y el tercero,\ny por un segundo no me reconozco.\nLuego sí.\nSoy esta. Me quedo.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el poema el retrato de la voz poética y su relación con el paso del tiempo?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "autorretrato",
+    "madurez",
+    "tiempo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una mujer de cuarenta años hace un autorretrato en el que se reconoce en su madre, acepta las huellas del tiempo con humor y enumera lo que ha aprendido. El poema termina con una afirmación serena de la propia identidad.\n\n**Aspectos que conviene analizar**\n- El arranque: la identificación con la madre a la misma edad y el gesto heredado de reír «con la mano delante de la boca».\n- El humor en la imagen de la cana que vuelve «puntual, como un vecino que saluda».\n- La renuncia a los sueños de juventud («ni astronauta, ni rubia, ni otra») y los deseos sencillos del presente.\n- La enumeración de aprendizajes y la personificación del miedo que «se sienta / cada vez más atrás en el coche».\n- La escena del espejo del ascensor: el momento de extrañeza y el reconocimiento.\n- El final, en versos breves y rotundos («Soy esta. Me quedo»), que expresa aceptación.\n\n**Una estructura posible.** Analizar el retrato en tres planos: la herencia de la madre, el cuerpo y los deseos, y lo aprendido, hasta la afirmación final.\n\n**Cuidado con…** leer el poema como una queja sobre la edad. Su tono es de aceptación y humor.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

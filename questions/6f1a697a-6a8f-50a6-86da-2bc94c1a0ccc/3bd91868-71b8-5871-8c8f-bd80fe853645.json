@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "3bd91868-71b8-5871-8c8f-bd80fe853645",
+  "rev": 1,
+  "statement": "*Bacillus subtilis* es una bacteria del suelo y *Saccharomyces cerevisiae*, la levadura del pan, es un hongo unicelular.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "procariotas",
+    "eucariotas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la estructura de estas dos células.",
+      "modelAnswer": "Ambas tienen membrana plasmática, citoplasma, ribosomas y pared celular. (1) La bacteria tiene el ADN libre en el citoplasma, en un anillo; la levadura lo tiene en un núcleo con envoltura doble. (1) La levadura tiene orgánulos con membrana, como mitocondrias; la bacteria no. (1) Los ribosomas de la bacteria son más pequeños (70S) que los de la levadura (80S). (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Indica de qué está hecha la pared celular de cada una.",
+      "modelAnswer": "Bacteria: peptidoglucano. Levadura: quitina. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Enumera tres funciones vitales que debe realizar cualquier organismo unicelular.",
+      "modelAnswer": "Tres de: nutrición, metabolismo, crecimiento, respuesta a estímulos, excreción, homeostasis, movimiento, reproducción. (2 si hay tres correctas; 1 si hay dos)",
+      "marks": 2
+    }
+  ]
+}

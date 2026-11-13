@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "44452fda-6b6a-59bc-9704-7948825be0ef",
+  "rev": 1,
+  "statement": "Las células eucariotas están divididas en compartimentos rodeados por membranas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "bf2643fa-9f67-5534-af0a-ee6f0bfc7246"
+  ],
+  "tags": [
+    "compartimentación",
+    "núcleo",
+    "lisosomas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica una ventaja de separar el núcleo del citoplasma.",
+      "modelAnswer": "Transcripción y traducción ocurren en compartimentos distintos. (1) Así el ARNm puede modificarse en el núcleo antes de llegar a los ribosomas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica dos ventajas de que las enzimas hidrolíticas estén dentro de los lisosomas.",
+      "modelAnswer": "Se mantienen concentradas, así que la digestión es más eficaz. (1) No dañan otras estructuras de la célula. (1) Se puede mantener un pH ácido, el óptimo de estas enzimas, distinto del citosol. (1)",
+      "marks": 3
+    }
+  ]
+}

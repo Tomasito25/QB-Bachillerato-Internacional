@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "3f33711b-a60d-5aa3-8c79-509fe0d63ce6",
+  "rev": 1,
+  "statement": "**La entrevista**\n\n*Una oficina acristalada. Una mesa blanca, dos sillas y una planta de plástico. El ENTREVISTADOR, veintiséis años, mira una tableta. Entra la CANDIDATA, cincuenta y ocho, con un bolso grande que no sabe dónde dejar.*\n\nENTREVISTADOR.—Siéntese, por favor. ¿Le ha costado encontrarnos?\n\nCANDIDATA.—No. Trabajé en este edificio hace veinte años. Aquí estaba el archivo.\n\nENTREVISTADOR.—*(Sin levantar la vista.)* Ahora es la zona de bienestar. Tenemos un futbolín. *(Pausa.)* Bueno. Cuénteme cómo se ve dentro de cinco años.\n\nCANDIDATA.—*(Lo piensa.)* Viva, espero.\n\nENTREVISTADOR.—*(Ríe, incómodo.)* Me refiero en lo profesional.\n\nCANDIDATA.—Yo también.\n\n*Silencio. El ENTREVISTADOR desliza el dedo por la tableta.*\n\nENTREVISTADOR.—Aquí dice que lleva usted… mucho tiempo sin trabajar.\n\nCANDIDATA.—Dos años, cuatro meses y once días. No es mucho. Es exacto.\n\nENTREVISTADOR.—¿Y qué ha hecho en ese tiempo?\n\nCANDIDATA.—Cuidar a mi madre. Aprender a usar eso que tiene usted en la mano. Mandar ciento cuarenta currículos. *(Pausa.)* Contestaron tres. Usted es el tercero.\n\nENTREVISTADOR.—*(Deja la tableta.)* El puesto requiere mucha capacidad de adaptación.\n\nCANDIDATA.—Lo sé. Llevo toda la vida adaptándome. Primero a las máquinas de escribir, luego a los ordenadores, luego a que me llamaran «recurso». Ahora me adapto a que un chico que podría ser mi hijo me pregunte por mi futuro.\n\nENTREVISTADOR.—Yo no he querido…\n\nCANDIDATA.—Ya. *(Se levanta y endereza la planta de plástico, que estaba torcida.)* En el archivo había una planta de verdad. La regaba yo. *(Pausa.)* ¿Sabe qué fue de ella?\n\nENTREVISTADOR.—No.\n\nCANDIDATA.—Nadie lo sabe. Eso es lo que pasa con las cosas que funcionan sin hacer ruido.\n\n*Se sienta de nuevo, con las manos sobre el bolso. Él la mira por primera vez.*\n\nENTREVISTADOR.—Hábleme del archivo.\n\n*Oscuro.*\n\n---\n\n**Pregunta guía:** ¿De qué manera se sirve la escena del diálogo y de las acotaciones para invertir la relación de poder entre los personajes?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "diálogo",
+    "acotaciones",
+    "poder",
+    "edad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una entrevista de trabajo en la que, en principio, el poder es del joven entrevistador. A lo largo de la escena la candidata le da la vuelta con respuestas literales, datos exactos y una memoria del lugar que él no tiene. La pieza trata la edad, la precariedad y el valor de lo que no se ve.\n\n**Aspectos que conviene analizar**\n- La acotación inicial: el espacio impersonal (cristal, plástico, tableta) frente al bolso que ella «no sabe dónde dejar»; el desequilibrio de partida.\n- El humor de las respuestas literales («Viva, espero», «Yo también») y la incomodidad que generan, marcada en las acotaciones («Ríe, incómodo»).\n- La precisión de «Dos años, cuatro meses y once días»: la exactitud como forma de dignidad.\n- La gradación del parlamento sobre la adaptación, que culmina en la ironía de la palabra «recurso».\n- La planta: de plástico en la oficina, de verdad en el archivo. Funciona como símbolo de un trabajo invisible y necesario.\n- Las acotaciones de mirada: él no levanta la vista al principio y «la mira por primera vez» al final. El último parlamento cambia quién pregunta por qué.\n\n**Una estructura posible.** Analizar la escena en tres momentos: el poder del entrevistador, la resistencia de la candidata y el giro final, atendiendo en cada uno al diálogo y a las acotaciones.\n\n**Cuidado con…** analizar solo los diálogos. En teatro, las acotaciones, los silencios y los objetos en escena también construyen sentido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

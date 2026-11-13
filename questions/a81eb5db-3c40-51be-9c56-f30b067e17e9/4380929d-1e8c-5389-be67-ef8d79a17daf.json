@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "4380929d-1e8c-5389-be67-ef8d79a17daf",
+  "rev": 1,
+  "statement": "No era nada personal. Eso es lo que le dije al director, y lo que me digo todavía a veces, aunque ya no me lo creo. Héctor llegó en noviembre, a mitad de curso, con un abrigo de adulto que le quedaba grande y una manera de hablar muy correcta, como de libro, que en mi clase sonaba a provocación.\n\nEmpezó con tonterías. Le escondimos la mochila. Le pusimos un mote, el Notario, por lo bien que hablaba. Se reía, al principio, una risa pequeña y nerviosa que nos animaba a seguir. Yo no era el que más hacía. Yo era el que miraba y se reía más fuerte para que los demás vieran que estaba con ellos. Eso, ahora lo sé, es lo mismo.\n\nEn febrero alguien le tiró el abrigo al patio desde la ventana del segundo piso. Era un abrigo de su padre, nos enteramos después; su padre había muerto en septiembre y por eso se habían mudado. Héctor bajó a recogerlo y lo sacudió con mucho cuidado, quitándole la tierra con la mano, como se le quita el polvo a un retrato. No lloró. Nos miró a la ventana, a los cinco, uno por uno, y se fue con el abrigo en el brazo.\n\nNo volvió a clase. Su madre lo cambió de colegio y el director nos llamó a su despacho. Nos castigaron una semana sin recreo. A mí me pareció injusto, porque yo no había tirado el abrigo.\n\nHan pasado doce años. Hace poco lo vi en el metro. Llevaba un abrigo nuevo, de su talla, y leía un libro gordo. No me reconoció, o hizo como que no. Estuve a punto de levantarme, de decirle algo. Me bajé en la parada siguiente, que no era la mía, y caminé hasta casa, mucho rato, sin saber qué le habría dicho.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el narrador su papel en el acoso y su evolución moral?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "acoso escolar",
+    "perspectiva",
+    "culpa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un adulto recuerda cómo, de adolescente, participó en el acoso a un compañero recién llegado. El relato está contado desde la perspectiva del agresor, que al principio se justifica y poco a poco reconoce su culpa, sin llegar a reparar el daño.\n\n**Aspectos que conviene analizar**\n- La primera frase («No era nada personal») y su negación posterior («ya no me lo creo»): la distancia entre el niño y el adulto.\n- La caracterización de Héctor por detalles (el abrigo grande, el habla «como de libro») que el grupo convierte en motivos de burla.\n- La autojustificación («Yo no era el que más hacía») y la frase clave «Eso, ahora lo sé, es lo mismo»: la responsabilidad del espectador.\n- La escena del abrigo: la revelación de la muerte del padre, el gesto de limpiarlo «como se le quita el polvo a un retrato» y la mirada a los cinco.\n- La reacción del narrador al castigo («me pareció injusto»), que muestra su falta de conciencia entonces.\n- El final en el metro: el abrigo nuevo «de su talla», el silencio y la huida, un arrepentimiento que no llega a expresarse.\n\n**Una estructura posible.** Seguir la evolución del narrador desde la justificación hasta el reconocimiento, analizando cómo el texto va revelando la verdad.\n\n**Cuidado con…** juzgar al narrador. Lo que se analiza es cómo el relato construye la culpa y la memoria.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

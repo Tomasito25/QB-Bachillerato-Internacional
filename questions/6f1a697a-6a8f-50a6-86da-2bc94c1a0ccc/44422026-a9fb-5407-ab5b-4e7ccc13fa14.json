@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "44422026-a9fb-5407-ab5b-4e7ccc13fa14",
+  "rev": 1,
+  "statement": "¿Qué caracteriza a la retroalimentación negativa?",
+  "explanation": "Por ejemplo, si la glucosa sube, se secreta insulina, que la hace bajar.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "retroalimentación negativa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La respuesta contrarresta el cambio detectado y devuelve la variable a su valor de referencia.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La variable cambia sin que se detecte el cambio.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La respuesta amplifica el cambio detectado.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Solo funciona en las plantas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

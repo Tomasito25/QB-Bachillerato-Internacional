@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4403f797-e2ad-51ae-a743-8705588c3427",
+  "rev": 1,
+  "statement": "¿Por qué la velocidad de fotosíntesis disminuye a temperaturas muy altas?",
+  "explanation": "Las reacciones que fijan el carbono dependen de enzimas, que tienen una temperatura óptima.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "temperatura",
+    "fotosíntesis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque hay demasiado CO₂ en el aire.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque las enzimas que fijan el CO₂ se desnaturalizan.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque la clorofila deja de absorber luz.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque el agua deja de dividirse por falta de luz.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

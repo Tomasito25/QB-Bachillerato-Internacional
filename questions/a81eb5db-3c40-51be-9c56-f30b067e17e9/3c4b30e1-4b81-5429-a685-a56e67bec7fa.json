@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "3c4b30e1-4b81-5429-a685-a56e67bec7fa",
+  "rev": 1,
+  "statement": "**Diario de abril**\n\n**3 de abril.** Día diecinueve. He contado los azulejos de la cocina: ciento cuarenta y dos, y uno roto que no recordaba. Me pregunto cuánto tiempo lleva roto y cuántas veces lo he mirado sin verlo. Por la tarde, aplausos en los balcones. La vecina de enfrente aplaude con una cuchara de madera contra una cacerola. Es la primera vez en diez años que sé su nombre: Carmen. Lo gritó su nieta desde la calle.\n\n**9 de abril.** Hoy no he hablado con nadie en voz alta. A las seis me he dado cuenta y he dicho «buenas tardes» a la cafetera, para comprobar que todavía tenía voz. La tenía, pero sonaba extraña, como la de otra persona que viviera conmigo. He hecho pan. Ha salido duro como una piedra y me lo he comido entero.\n\n**15 de abril.** Mi madre me llama todos los días a las ocho. Antes me llamaba los domingos y a veces no contestaba. Ahora espero la llamada desde las siete y media. Hablamos de nada: de la lluvia, de lo que ha cocinado, de una planta que se le ha secado. Nunca he tenido conversaciones tan largas ni tan importantes sobre nada.\n\n**22 de abril.** Desde el balcón he visto un zorro cruzando la avenida a mediodía, despacio, mirando a los lados como un peatón prudente. Nadie me va a creer. Por eso lo apunto aquí: para creérmelo yo.\n\n**28 de abril.** Dicen que pronto podremos salir. Me alegro y me da miedo, a partes iguales. No sé si sabré volver a estar entre la gente sin contar sus pasos, sin medir la distancia. Ni si querré dejar de saber cuántos azulejos tiene mi cocina.\n\n---\n\n**Pregunta guía:** ¿Cómo transmite el diario la experiencia del encierro y el cambio que provoca en quien escribe?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "diario",
+    "confinamiento",
+    "tiempo",
+    "intimidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Cinco entradas de un diario escrito durante un confinamiento. Con detalles mínimos (los azulejos, la cafetera, un zorro en la avenida), el texto muestra cómo el aislamiento cambia la percepción del tiempo, del espacio y de las relaciones.\n\n**Aspectos que conviene analizar**\n- La forma del diario: fechas, fragmentación, intimidad, escritura para uno mismo.\n- La atención obsesiva a lo pequeño (los azulejos, el roto) como forma de llenar el tiempo y descubrir lo que antes no se veía.\n- La soledad expresada con humor (el «buenas tardes» a la cafetera, la voz «como la de otra persona», el pan duro).\n- El cambio en las relaciones: la vecina cuyo nombre se descubre, la madre cuya llamada se espera; la paradoja de las conversaciones «tan importantes sobre nada».\n- La imagen del zorro, que muestra una ciudad transformada, y la función del diario («para creérmelo yo»).\n- La última entrada, ambivalente: alegría y miedo ante la vuelta a la normalidad, y la pregunta de si se quiere olvidar lo aprendido.\n\n**Una estructura posible.** Seguir la progresión de las entradas y mostrar cómo el narrador pasa del aburrimiento a una nueva forma de mirar.\n\n**Cuidado con…** limitarte al contexto histórico. Analiza las técnicas de la forma diario y su efecto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

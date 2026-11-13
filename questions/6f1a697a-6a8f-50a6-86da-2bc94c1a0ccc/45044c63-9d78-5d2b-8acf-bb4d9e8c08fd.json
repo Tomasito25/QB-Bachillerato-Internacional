@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "45044c63-9d78-5d2b-8acf-bb4d9e8c08fd",
+  "rev": 1,
+  "statement": "¿Cómo se disponen los fosfolípidos en una membrana celular?",
+  "explanation": "Las cabezas con fosfato son hidrófilas y quedan en contacto con el medio acuoso de cada lado; las colas de ácidos grasos quedan en el centro.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "bicapa",
+    "fosfolípidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En dos capas, con las colas hacia el agua y las cabezas hacia el interior.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "En una capa, con las colas hacia el citoplasma.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Formando una red irregular sin orientación definida.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En dos capas, con las cabezas hidrófilas hacia el agua y las colas hidrófobas hacia el interior.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
