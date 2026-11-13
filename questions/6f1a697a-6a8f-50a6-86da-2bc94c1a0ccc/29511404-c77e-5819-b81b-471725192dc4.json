@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "29511404-c77e-5819-b81b-471725192dc4",
+  "rev": 1,
+  "statement": "¿Cuántas moléculas de agua se liberan al formarse un polipéptido de 50 aminoácidos?",
+  "explanation": "Entre 50 aminoácidos hay 49 enlaces peptídicos, y cada uno libera una molécula de agua.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "condensación",
+    "polipéptidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "100",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "51",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "50",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "49",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

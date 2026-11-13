@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "28b74bdc-f781-5306-bd93-6ddaa6760575",
+  "rev": 1,
+  "statement": "¿Qué es un antígeno?",
+  "explanation": "Los antígenos son moléculas de reconocimiento. Los glóbulos rojos también tienen antígenos, como los del sistema ABO y el factor Rh.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "antígenos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una proteína producida por los linfocitos B que neutraliza patógenos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un medicamento que destruye bacterias.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un linfocito que recuerda una infección.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una molécula, normalmente de la superficie de un patógeno o de una célula, que provoca la producción de anticuerpos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

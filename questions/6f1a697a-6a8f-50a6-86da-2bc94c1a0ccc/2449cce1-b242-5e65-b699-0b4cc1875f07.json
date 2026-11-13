@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2449cce1-b242-5e65-b699-0b4cc1875f07",
+  "rev": 1,
+  "statement": "¿Por qué los depredadores de los niveles tróficos altos tienen concentraciones mayores de mercurio o de DDT?",
+  "explanation": "En cada nivel trófico la concentración aumenta: es la biomagnificación.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "biomagnificación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque los depredadores fabrican esas sustancias.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque los productores no absorben esas sustancias.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque estas sustancias no se degradan ni se excretan bien, y se acumulan al comer muchas presas contaminadas.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque esas sustancias solo existen en el agua profunda.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "1efb82eb-d73b-5865-b28c-26cf9f8a395e",
+  "rev": 1,
+  "statement": "Las neuronas mantienen un potencial de reposo y transmiten impulsos a velocidades muy distintas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "potencial de reposo",
+    "velocidad de conducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo se genera el potencial de reposo.",
+      "modelAnswer": "La bomba de sodio-potasio saca 3 Na⁺ y mete 2 K⁺ por cada ATP. (1) Se crean gradientes de concentración: más Na⁺ fuera y más K⁺ dentro. (1) Hay más cargas positivas fuera que dentro, así que el interior queda negativo, a unos −70 mV. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Indica dos factores que aumentan la velocidad de conducción de un impulso.",
+      "modelAnswer": "Un mayor diámetro del axón. (1) La presencia de una vaina de mielina. (1)",
+      "marks": 2
+    }
+  ]
+}

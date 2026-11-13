@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2356288f-88be-5ad5-b2ea-4b91e0dbce73",
+  "rev": 1,
+  "statement": "¿Qué ocurre cuando una proteína se desnaturaliza?",
+  "explanation": "Calor o pH extremos rompen los enlaces débiles que mantienen la forma de la proteína. La secuencia de aminoácidos sigue igual.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "desnaturalización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Cambia su secuencia de aminoácidos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se une a otras proteínas y aumenta su actividad.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Pierde su forma tridimensional y, con ella, su función, aunque los enlaces peptídicos no se rompen.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Se hidroliza en los aminoácidos que la forman.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

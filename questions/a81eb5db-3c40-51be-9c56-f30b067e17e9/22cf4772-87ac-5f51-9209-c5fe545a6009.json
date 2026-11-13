@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "22cf4772-87ac-5f51-9209-c5fe545a6009",
+  "rev": 1,
+  "statement": "**Los nombres de las cosas**\n\nPrimero perdió los nombres pequeños:\nel de la cuchara, el del jueves,\nel del primo que vivía en Burgos.\nDecía «eso» y señalaba,\ny nosotros completábamos la frase\ncomo quien termina un crucigrama.\n\nDespués se le fueron los grandes.\nDijo «la cosa de calentar» por el horno,\n«el sitio de los muertos» por la iglesia,\ny a mí, una tarde, me llamó «la amable».\n\nMe acostumbré a ser la amable.\nLe peinaba el pelo, le cortaba las uñas,\nle ponía la radio\npara que no se quedara sola con el silencio.\n\nAyer, mientras le daba la sopa,\nme miró con una atención antigua\ny dijo, despacio, mi nombre.\nLo dijo entero, con las dos sílabas,\ncomo se devuelve algo prestado.\n\nLuego volvió a mirar la ventana.\nYo no he vuelto a pronunciarlo:\nlo guardo como se guarda un billete\nque ya no se puede gastar.\n\n---\n\n**Pregunta guía:** ¿Cómo explora el poema la relación entre lenguaje, memoria e identidad?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "alzhéimer",
+    "lenguaje",
+    "madre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una hija cuenta cómo su madre, enferma de alzhéimer, va perdiendo las palabras hasta no reconocerla. Un día, de forma inesperada, la madre pronuncia su nombre. El poema muestra que perder las palabras es perder el mundo y las relaciones, y que un nombre puede ser un regalo.\n\n**Aspectos que conviene analizar**\n- La estructura narrativa en fases: nombres pequeños, nombres grandes, la hija convertida en «la amable», el momento de lucidez y el después.\n- Los circunloquios de la madre («la cosa de calentar», «el sitio de los muertos»), a la vez tristes y poéticos.\n- La comparación del crucigrama: la familia completa las frases como un juego, al principio.\n- La aceptación del nuevo nombre («Me acostumbré a ser la amable») y la enumeración de cuidados.\n- El momento central: la «atención antigua» y la comparación «como se devuelve algo prestado».\n- El símil final del billete que ya no se puede gastar: el nombre como tesoro sin uso posible, conservado en silencio.\n\n**Una estructura posible.** Seguir el deterioro del lenguaje y relacionar cada etapa con el cambio en la relación entre madre e hija.\n\n**Cuidado con…** escribir sobre la enfermedad en general. El análisis debe centrarse en cómo el lenguaje del poema construye la emoción.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

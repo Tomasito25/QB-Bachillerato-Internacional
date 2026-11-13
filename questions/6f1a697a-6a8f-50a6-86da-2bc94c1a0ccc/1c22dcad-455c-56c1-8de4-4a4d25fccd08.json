@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1c22dcad-455c-56c1-8de4-4a4d25fccd08",
+  "rev": 1,
+  "statement": "¿Qué describe la curva de crecimiento en forma de S (logística)?",
+  "explanation": "Cuando la población crece, aumentan la competencia por los recursos y otros factores limitantes, que frenan el crecimiento.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "crecimiento logístico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Oscilaciones regulares sin ningún límite.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un crecimiento constante e indefinido.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un descenso continuo del número de individuos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un crecimiento lento al principio, luego rápido, y después cada vez más lento hasta estabilizarse cerca de la capacidad de carga.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

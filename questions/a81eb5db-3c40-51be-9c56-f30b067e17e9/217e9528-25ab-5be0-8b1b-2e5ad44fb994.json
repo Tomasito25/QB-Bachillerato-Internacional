@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "217e9528-25ab-5be0-8b1b-2e5ad44fb994",
+  "rev": 1,
+  "statement": "**Elogio del aburrimiento**\n\nDe niño me aburría con una dedicación que hoy me parece heroica. Las tardes de verano en casa de mis abuelos no tenían fin: no había televisión hasta las ocho, ni amigos en el pueblo, ni nada que hacer salvo mirar cómo las moscas daban vueltas alrededor de la lámpara. Recuerdo aquel aburrimiento como una habitación enorme y vacía. Y recuerdo también que, tarde o temprano, empezaba a llenarla yo.\n\nAsí inventé un idioma secreto, construí una ciudad de cajas de cerillas y escribí, a los once años, una novela de piratas de cuarenta páginas que todavía guardo y que es, objetivamente, muy mala. Nadie me lo pidió. Fue el aburrimiento el que me empujó a hacerlo, porque el aburrimiento, como la naturaleza, tiene horror al vacío.\n\nHoy esa habitación vacía apenas existe. Llevamos en el bolsillo un aparato que nos garantiza no aburrirnos nunca: en la cola del supermercado, en el autobús, en los treinta segundos que tarda el microondas. Celebramos esta victoria sin darnos cuenta de lo que hemos perdido con ella. Porque quien no se aburre no se ve obligado a imaginar, y quien no imagina acaba consumiendo lo que otros han imaginado por él.\n\nNo propongo tirar el teléfono al río. Propongo algo más modesto y más difícil: recuperar, de vez en cuando, el derecho a no hacer nada. Mirar por la ventana del tren sin fotografiar el paisaje. Esperar sin entretenernos. Dejar que la mente, como un perro suelto en el campo, vaya donde quiera.\n\nAl principio será incómodo. El aburrimiento siempre lo es: es su manera de pedirnos que hagamos algo con nosotros mismos. Pero merece la pena aguantar un poco. Al otro lado de esa incomodidad, quién sabe, quizá nos espere un idioma secreto, una ciudad de cajas de cerillas o, en el peor de los casos, una mala novela de piratas.\n\n---\n\n**Pregunta guía:** ¿Con qué recursos intenta el texto persuadir al lector de que el aburrimiento tiene valor?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "ensayo",
+    "persuasión",
+    "aburrimiento",
+    "tecnología"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Ensayo personal y argumentativo que defiende el aburrimiento como motor de la creatividad frente a la distracción permanente de los teléfonos. Combina la anécdota autobiográfica, la reflexión general y una propuesta moderada, con un tono humorístico que hace la tesis más aceptable.\n\n**Aspectos que conviene analizar**\n- La anécdota de la infancia como argumento de experiencia, y la metáfora del aburrimiento como «habitación enorme y vacía» que uno mismo llena.\n- La autoironía (la novela «objetivamente, muy mala»), que gana la confianza del lector.\n- El paso de lo personal a lo general en el tercer párrafo, con la enumeración de situaciones cotidianas y la oposición imaginar/consumir.\n- La concesión («No propongo tirar el teléfono al río») y la propuesta en infinitivos, concreta y realizable.\n- La comparación de la mente con «un perro suelto en el campo» y la personificación del aburrimiento que «nos pide» algo.\n- El final circular, que retoma los ejemplos de la infancia con humor y deja la tesis abierta.\n\n**Una estructura posible.** Seguir la estructura argumentativa del ensayo (experiencia, tesis, diagnóstico del presente, propuesta, conclusión) y analizar en cada parte los recursos persuasivos.\n\n**Cuidado con…** valorar si estás de acuerdo con la tesis. La pregunta pide analizar cómo el texto intenta convencer.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

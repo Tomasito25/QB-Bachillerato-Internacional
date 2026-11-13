@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "21aa666e-360b-5117-9305-02c0d3ebe039",
+  "rev": 1,
+  "statement": "Meselson y Stahl cultivaron bacterias durante muchas generaciones en un medio con nitrógeno pesado (¹⁵N) y después las pasaron a un medio con nitrógeno normal (¹⁴N). Tras cada generación, separaron el ADN por densidad mediante centrifugación.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "semiconservativa",
+    "Meselson y Stahl"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Tras una generación en ¹⁴N, todo el ADN tenía una densidad intermedia. Explica este resultado.",
+      "modelAnswer": "Cada molécula tenía una cadena original con ¹⁵N y una nueva con ¹⁴N. (1) Esto descarta que la replicación sea conservativa, que habría dado una banda pesada y otra ligera. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Predice el resultado tras dos generaciones en ¹⁴N, si la replicación es semiconservativa.",
+      "modelAnswer": "La mitad del ADN de densidad intermedia y la mitad ligero. (2)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica por qué se usó un isótopo del nitrógeno para marcar el ADN.",
+      "modelAnswer": "El nitrógeno forma parte de las bases del ADN. (1)",
+      "marks": 1
+    }
+  ]
+}

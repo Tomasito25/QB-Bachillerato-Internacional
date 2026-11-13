@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "21286413-8c6c-58fe-95eb-ef98e2acdec9",
+  "rev": 1,
+  "statement": "¿En qué se diferencian los 20 aminoácidos que forman las proteínas?",
+  "explanation": "El grupo R puede ser polar o apolar, ácido o básico, grande o pequeño, y da a cada aminoácido sus propiedades.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "aminoácidos",
+    "grupo R"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En el número de carbonos centrales.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "En su grupo amino.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "En su grupo R.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "En su grupo carboxilo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

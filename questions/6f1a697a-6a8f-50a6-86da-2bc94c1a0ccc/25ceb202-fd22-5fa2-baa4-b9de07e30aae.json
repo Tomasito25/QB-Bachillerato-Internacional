@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "25ceb202-fd22-5fa2-baa4-b9de07e30aae",
+  "rev": 1,
+  "statement": "¿Para qué sirve la cutícula cerosa de la epidermis de las hojas?",
+  "explanation": "La cera es hidrófoba e impermeable: casi toda la pérdida de agua tiene lugar por los estomas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "cutícula"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para transportar agua hacia el mesófilo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para reducir la pérdida de agua por evaporación.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Para absorber el dióxido de carbono.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para captar más luz.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

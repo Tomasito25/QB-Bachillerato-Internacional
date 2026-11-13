@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "20c1efc4-fa77-5f2a-a28a-19bc2da13636",
+  "rev": 1,
+  "statement": "¿Qué dos factores determinan sobre todo qué bioma terrestre se desarrolla en una región?",
+  "explanation": "En los diagramas climáticos, cada bioma ocupa una región definida por la temperatura media y la precipitación anual.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "biomas",
+    "clima"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La latitud y la población humana.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La altitud y el tipo de roca.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La temperatura y las precipitaciones.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El número de especies y el tipo de suelo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

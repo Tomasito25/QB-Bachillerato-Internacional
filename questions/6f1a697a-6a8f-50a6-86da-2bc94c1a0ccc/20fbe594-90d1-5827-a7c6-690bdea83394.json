@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "20fbe594-90d1-5827-a7c6-690bdea83394",
+  "rev": 1,
+  "statement": "¿Por qué se dice que la transpiración es una consecuencia inevitable del intercambio de gases en las hojas?",
+  "explanation": "El aire de los espacios del mesófilo está saturado de vapor; con los estomas abiertos, el vapor difunde hacia el aire más seco del exterior.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "transpiración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el oxígeno arrastra el agua al salir.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque las hojas no tienen ninguna protección frente a la evaporación.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque la planta necesita expulsar el agua sobrante de la fotosíntesis.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los estomas deben abrirse para que entre CO₂, y al hacerlo sale vapor de agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

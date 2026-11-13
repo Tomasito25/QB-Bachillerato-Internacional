@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "21028e0b-cc8b-5909-b6aa-bd4f083a5fbb",
+  "rev": 1,
+  "statement": "¿Qué es la respiración celular?",
+  "explanation": "No hay que confundirla con la ventilación ni con el intercambio de gases: ocurre en todas las células vivas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "respiración celular",
+    "definición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El intercambio de gases en los pulmones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La síntesis de glucosa a partir de dióxido de carbono.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La entrada de aire en los pulmones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La liberación controlada de energía de compuestos orgánicos para producir ATP.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

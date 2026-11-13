@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "1cb71f8e-8f60-55e9-aab0-4ab98f5a70ab",
+  "rev": 1,
+  "statement": "¿Cómo aceleran las enzimas las reacciones?",
+  "explanation": "Con una barrera de energía menor, una proporción mucho mayor de las colisiones da lugar a la reacción. La variación de energía global no cambia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "energía de activación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumentan la temperatura de la célula.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Aportan ATP a los sustratos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Reducen la energía de activación de la reacción.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Aumentan la energía de los productos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

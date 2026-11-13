@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "28b5d00a-d03e-5560-8b8a-3ddf91999d8b",
+  "rev": 1,
+  "statement": "Se pusieron trozos de epidermis de cebolla roja en disoluciones de sacarosa durante 20 minutos y se contó al microscopio el porcentaje de células plasmolizadas.\n\n| Sacarosa / mol dm⁻³ | 0,0 | 0,1 | 0,2 | 0,3 | 0,4 | 0,5 |\n|---|---|---|---|---|---|---|\n| Células plasmolizadas / % | 0 | 0 | 5 | 45 | 85 | 100 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8",
+    "939e4cff-3e45-56bc-b3d6-c41799790f98"
+  ],
+  "tags": [
+    "datos",
+    "plasmólisis",
+    "tonicidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe el aspecto de una célula plasmolizada al microscopio.",
+      "modelAnswer": "La membrana y el citoplasma, con la vacuola coloreada, se separan de la pared, y la vacuola se ve más pequeña. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Estima la concentración de sacarosa que produce la plasmólisis del 50 % de las células.",
+      "modelAnswer": "Algo más de $0{,}3\\,\\text{mol dm}^{-3}$, hacia $0{,}31\\,\\text{mol dm}^{-3}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué no hay plasmólisis en las disoluciones de $0{,}0$ y $0{,}1\\,\\text{mol dm}^{-3}$.",
+      "modelAnswer": "Son hipotónicas, o casi isotónicas, respecto al citoplasma: el agua no sale de las células. (1) Las células se mantienen turgentes, apoyadas contra la pared. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué no todas las células se plasmolizan a la vez.",
+      "modelAnswer": "Las células no tienen todas la misma concentración de solutos en su vacuola. (1)",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Indica por qué se usa epidermis de cebolla roja.",
+      "modelAnswer": "Su vacuola tiene un pigmento que permite ver bien su tamaño, y la epidermis es una sola capa de células. (1)",
+      "marks": 1
+    }
+  ]
+}

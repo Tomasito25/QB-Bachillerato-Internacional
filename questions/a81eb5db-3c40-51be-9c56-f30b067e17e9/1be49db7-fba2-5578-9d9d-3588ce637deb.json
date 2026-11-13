@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "1be49db7-fba2-5578-9d9d-3588ce637deb",
+  "rev": 1,
+  "statement": "**La parada**\n\n*Una parada de autobús en mitad de un descampado. Un poste con un horario ilegible. UNO y OTRO, con abrigos idénticos y maletas idénticas, sentados en el banco.*\n\nUNO.—¿Viene?\n\nOTRO.—Viene.\n\nUNO.—¿Cuándo?\n\nOTRO.—Pronto. *(Mira el reloj.)* Ya debería haber venido.\n\nUNO.—Entonces no viene.\n\nOTRO.—Viene. Lo que pasa es que llega tarde.\n\nUNO.—Llegar tarde es una forma de no venir.\n\nOTRO.—Es una forma de venir después.\n\n*Pausa. UNO abre su maleta. Está vacía. La cierra con cuidado.*\n\nUNO.—¿Adónde vamos?\n\nOTRO.—Donde lleve el autobús.\n\nUNO.—¿Y si no nos gusta?\n\nOTRO.—Nos bajamos y esperamos otro.\n\nUNO.—Aquí.\n\nOTRO.—O en otra parada. Todas son iguales.\n\n*UNO se levanta, da tres pasos hacia el borde del escenario, mira a lo lejos y vuelve a sentarse.*\n\nUNO.—Podríamos ir andando.\n\nOTRO.—*(Escandalizado.)* ¿Andando? ¿Y el billete?\n\nUNO.—No tenemos billete.\n\nOTRO.—Precisamente. Si fuéramos andando, nunca sabríamos si lo habríamos necesitado.\n\n*Silencio. Se oye, muy lejos, un motor. Los dos se ponen de pie a la vez, cogen las maletas. El ruido se aleja. Se sientan a la vez.*\n\nUNO.—Ese no era.\n\nOTRO.—No. Ese no era.\n\n*Pausa larga.*\n\nUNO.—Mañana venimos más temprano.\n\nOTRO.—Mañana seguro que viene.\n\n*No se mueven. La luz baja muy despacio sobre los dos, que siguen mirando el camino.*\n\n---\n\n**Pregunta guía:** ¿Cómo crea la escena una sensación de absurdo, y qué sentido puede tener?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "absurdo",
+    "espera",
+    "lenguaje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Dos personajes casi idénticos esperan un autobús que no llega en un lugar sin referencias. La escena, propia del teatro del absurdo, convierte la espera en una forma de vida: ninguno se atreve a marcharse y la esperanza se renueva cada día sin fundamento.\n\n**Aspectos que conviene analizar**\n- Los nombres (UNO y OTRO), los abrigos y las maletas idénticas: personajes intercambiables, sin identidad ni historia.\n- El espacio vacío y el horario ilegible: un lugar sin orientación ni información fiable.\n- El diálogo circular, con réplicas breves y razonamientos ilógicos que parecen sensatos («Llegar tarde es una forma de no venir»).\n- La maleta vacía: un viaje sin contenido ni propósito.\n- La propuesta de ir andando y la respuesta sobre el billete: el miedo a decidir y a renunciar a una norma que ni siquiera se cumple.\n- La repetición de los movimientos simultáneos y el final, que contradice las palabras («Mañana venimos…») con la inmovilidad.\n\n**Una estructura posible.** Analizar el absurdo en el espacio, en los personajes y en el lenguaje, y terminar con las posibles interpretaciones: la espera de algo que dé sentido a la vida, la inercia, el conformismo.\n\n**Cuidado con…** dar una sola interpretación como si fuera la única. En el teatro del absurdo conviene proponer lecturas apoyadas en el texto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

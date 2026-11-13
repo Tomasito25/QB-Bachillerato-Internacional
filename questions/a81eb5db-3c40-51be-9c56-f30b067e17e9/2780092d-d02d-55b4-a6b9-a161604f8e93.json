@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "2780092d-d02d-55b4-a6b9-a161604f8e93",
+  "rev": 1,
+  "statement": "**El olmo de la plaza**\n\nEl olmo de la plaza tiene doscientos años\ny una cicatriz de rayo\nque los niños tocan para dar suerte.\n\nDebajo de él se firmaron tratos de ganado,\nse dieron besos que nadie debía ver,\nse leyeron en voz alta las listas de los muertos\nde dos guerras distintas.\n\nLos abuelos jugaban a la petanca a su sombra.\nLos padres de ahora grabaron sus iniciales\nen la corteza, con navajas que ya no existen,\ny las iniciales se fueron subiendo,\naño tras año, hacia la copa,\ncomo si el árbol se llevara los amores\na un sitio más alto.\n\nEl ayuntamiento quiere talarlo.\nDicen que está enfermo, que es un peligro,\nque sus raíces levantan el asfalto.\nTienen razón: las raíces levantan el asfalto.\nEso es lo que hacen las raíces.\n\nEsta tarde, sin que nadie lo convocara,\nla gente ha venido a sentarse a su sombra.\nNo ha habido discursos.\nSolo un viejo que ha dicho, mirando la copa:\n«A mí me quedan menos años que a él».\nY todos se han reído,\ny nadie se ha ido a casa.\n\n---\n\n**Pregunta guía:** ¿Cómo convierte el poema el árbol en símbolo de la memoria colectiva?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "árbol",
+    "tiempo",
+    "generaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un olmo de doscientos años, testigo de la vida de un pueblo, está a punto de ser talado. El poema repasa lo que ha visto y termina con una reunión espontánea de vecinos a su sombra, gesto de defensa y de memoria compartida.\n\n**Aspectos que conviene analizar**\n- El árbol como testigo: la enumeración de lo ocurrido bajo él (tratos, besos, listas de muertos), que mezcla lo cotidiano, lo íntimo y lo histórico.\n- La cicatriz de rayo convertida en amuleto infantil.\n- La imagen de las iniciales que suben con el crecimiento del árbol «como si el árbol se llevara los amores / a un sitio más alto».\n- La ironía de la cuarta estrofa: los argumentos del ayuntamiento aceptados («Tienen razón») y el doble sentido de «Eso es lo que hacen las raíces».\n- La reunión sin convocatoria, el silencio sin discursos y la frase humorística del viejo, que compara su vida con la del árbol.\n- El final («nadie se ha ido a casa»): la resistencia tranquila de la comunidad.\n\n**Una estructura posible.** Analizar el pasado del árbol, la amenaza del presente y la respuesta de la comunidad, mostrando cómo el árbol pasa de objeto a símbolo.\n\n**Cuidado con…** convertir el análisis en un debate sobre urbanismo. Céntrate en la construcción del símbolo.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

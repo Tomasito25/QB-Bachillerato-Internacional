@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "2343c4ad-e99c-53f9-b6a1-7ea8929ec60e",
+  "rev": 1,
+  "statement": "**¿Qué ventajas ofrece un narrador que lo sabe todo? Responda en relación con dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8cbb01f-3344-51dd-b01f-07282802c397"
+  ],
+  "tags": [
+    "narrador omnisciente",
+    "distancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:06.000Z",
+  "updatedAt": "2026-11-13T05:52:06.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar el narrador omnisciente (acceso a varios personajes, comentarios, juicios, control del tiempo) y valorar sus ventajas, también sus limitaciones. **Obras adecuadas.** Novelas realistas o relatos con narrador en tercera persona que entra en varias conciencias. **Esquema posible.** Rasgos del narrador en cada obra; usos concretos (ironía, anticipación, contraste de perspectivas); efecto en el lector; valoración. **Cuidado con…** dar por hecho que todo narrador en tercera persona es omnisciente.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
