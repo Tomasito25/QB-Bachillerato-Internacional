@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "91e73aee-f601-5f90-b3c3-8537f60f4041",
+  "rev": 1,
+  "statement": "En los guisantes, el alelo de semilla lisa (R) es dominante sobre el de semilla rugosa (r). ¿Qué proporción de descendientes rugosos se espera del cruce Rr × Rr?",
+  "explanation": "Los descendientes son RR, Rr, Rr y rr en proporción 1 : 2 : 1. Solo rr es rugoso.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "cruce monohíbrido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1/2",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "1/4",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "3/4",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "0",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

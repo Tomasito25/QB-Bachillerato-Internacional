@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "91926faa-c462-505b-a7ad-2505e2280ab0",
+  "rev": 1,
+  "statement": "¿Por qué los antibióticos no sirven contra las enfermedades causadas por virus?",
+  "explanation": "Los virus usan la maquinaria de la célula hospedadora, que es eucariota; un fármaco que la bloqueara dañaría también a nuestras células.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "antibióticos",
+    "virus"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque los antibióticos destruyen las células humanas infectadas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque los virus fabrican sus propios antibióticos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los virus son demasiado grandes para que les afecten.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque actúan sobre procesos propios de las bacterias, como la síntesis de su pared, y los virus no los tienen.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

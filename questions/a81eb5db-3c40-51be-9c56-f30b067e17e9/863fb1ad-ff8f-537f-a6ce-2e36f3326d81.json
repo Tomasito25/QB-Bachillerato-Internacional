@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "863fb1ad-ff8f-537f-a6ce-2e36f3326d81",
+  "rev": 1,
+  "statement": "La escuela de Villaseca tiene una sola aula, seis alumnos y una maestra que se llama Rosa y que lleva allí diecinueve años. Los seis alumnos tienen edades distintas, desde los cuatro años de Pablo hasta los once de Inés, y Rosa les enseña a la vez, en la misma mesa grande, como quien hace un cocido con lo que hay en la despensa.\n\nInés ayuda a Pablo con las letras. Los gemelos, que tienen ocho, discuten por un mapa de Europa. La pequeña de los Martín, que no habla mucho, dibuja vacas con una precisión que a Rosa le parece casi científica. Por la ventana se ven el frontón, la carretera y un campo de girasoles que en agosto parece una multitud mirando al mismo sitio.\n\nEn marzo llegó la carta de la consejería. Si el curso siguiente había menos de cuatro alumnos, la escuela cerraría y los niños irían en autobús a la cabecera de comarca, a cuarenta minutos. Inés pasaba al instituto en septiembre. Los Martín se mudaban a la ciudad. Quedaban tres.\n\nRosa leyó la carta en voz alta en el bar, porque en Villaseca las cartas importantes se leen en el bar. Hubo un silencio largo. Luego el alcalde, que también era el dueño del bar, dijo que había que encontrar un niño. Lo dijo como quien dice que hay que encontrar un médico o una pieza para el tractor.\n\nDurante semanas, todo el pueblo buscó un niño. Se llamó a primos de la capital, a sobrinos que vivían en Francia. Se puso un anuncio en una revista: «Se ofrece casa gratis a familia con hijos». Llegaron dos llamadas, una de un periodista.\n\nEn junio, el último día de curso, Rosa colgó en la puerta los dibujos de vacas de la pequeña de los Martín. No sabía si volvería a abrir aquella puerta en septiembre. Los dejó allí, por si acaso, para que la escuela no se quedara sola.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el fragmento la relación entre la escuela y el pueblo, y la amenaza que pesa sobre ambos?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "escuela rural",
+    "despoblación",
+    "comunidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una escuela rural con seis alumnos se enfrenta al cierre porque el curso siguiente no habrá suficientes niños. El relato muestra que la escuela es el corazón del pueblo y retrata con humor y melancolía la búsqueda desesperada de un niño.\n\n**Aspectos que conviene analizar**\n- La comparación de la enseñanza con «un cocido con lo que hay en la despensa»: la escuela unitaria como arte de aprovechar.\n- Los retratos breves de los alumnos y la imagen de los girasoles como «una multitud mirando al mismo sitio».\n- La carta de la consejería y el lenguaje administrativo frente a la realidad del pueblo (las cuentas: seis, menos tres).\n- La lectura pública en el bar y la frase del alcalde, que trata a un niño como una pieza de tractor: humor y desesperación.\n- La búsqueda colectiva (primos, sobrinos, el anuncio) y el resultado irónico: dos llamadas, una de un periodista.\n- El final: los dibujos de vacas en la puerta, gesto de esperanza o despedida, «para que la escuela no se quedara sola».\n\n**Una estructura posible.** Analizar la escuela como comunidad, la amenaza administrativa, la respuesta del pueblo y el final abierto.\n\n**Cuidado con…** hacer un análisis sociológico de la despoblación. Analiza las técnicas narrativas y el tono.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "92ac8c52-13ff-5d3c-bb80-91c2ffb723fe",
+  "rev": 1,
+  "statement": "¿Qué anticodón del ARNt se empareja con el codón GCU del ARNm?",
+  "explanation": "C se empareja con G, G con C y A con U. El ARNt no contiene timina.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "anticodón"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "GCA",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "CGA",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "CGT",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "GCU",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

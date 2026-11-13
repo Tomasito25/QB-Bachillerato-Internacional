@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "94b0f80c-6e70-5d7f-a30c-ad0c95b25000",
+  "rev": 1,
+  "statement": "¿Cuál es un ejemplo de sobreexplotación?",
+  "explanation": "Sobreexplotar es extraer individuos más deprisa de lo que la población puede reponerlos. Las demás opciones son una especie invasora, contaminación y fragmentación del hábitat.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "sobreexplotación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Verter fertilizantes en un río.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Introducir conejos en una isla.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Pescar bacalao a un ritmo mayor que el de reproducción de sus poblaciones.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Construir una carretera que divide un bosque.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "88a351d1-c602-5e60-80f3-dbd48b871794",
+  "rev": 1,
+  "statement": "¿Cómo puede originarse una persona con trisomía 21?",
+  "explanation": "Si los homólogos o las cromátidas no se separan, un gameto recibe un cromosoma de más. Al unirse a un gameto normal, el cigoto tiene 47 cromosomas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "no disyunción",
+    "síndrome de Down"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por la fecundación de un óvulo por dos espermatozoides.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Por la no disyunción del cromosoma 21 en la meiosis, que produce un gameto con dos copias de ese cromosoma.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Por una mutación génica en el cromosoma 21.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Por una mitosis anómala en la piel del adulto.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

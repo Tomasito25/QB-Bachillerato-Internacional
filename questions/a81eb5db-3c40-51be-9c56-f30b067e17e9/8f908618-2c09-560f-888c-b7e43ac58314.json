@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "8f908618-2c09-560f-888c-b7e43ac58314",
+  "rev": 1,
+  "statement": "**Tres microrrelatos**\n\n**I. Herencia**\n\nAl morir mi abuelo, repartimos sus cosas. A mí me tocó el reloj. Todavía no sé si me lo dejó porque yo era su nieto favorito o porque sabía que soy el único que siempre llega tarde.\n\n**II. La mudanza**\n\nDespués de la separación, ella se llevó los muebles, los libros y el perro. Él se quedó con las marcas que habían dejado los muebles en el suelo. Las limpia cada sábado. No se van.\n\n**III. Diagnóstico**\n\nEl médico le dijo que le quedaban seis meses. Ella fue a la peluquería, se cortó el pelo como siempre había querido, se compró unos zapatos rojos y llamó a su hermana, con la que no hablaba desde hacía doce años. Han pasado diecinueve años. Todavía lleva el pelo corto. Los zapatos están gastados. Con la hermana sigue sin hablarse, pero ahora se llaman para discutir.\n\n---\n\n**Pregunta guía:** ¿Cómo aprovechan estos microrrelatos la brevedad y la elipsis para contar historias completas?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "microrrelato",
+    "elipsis",
+    "brevedad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Tres microrrelatos que, en pocas líneas, cuentan historias de pérdida, separación y supervivencia. Cada uno depende de un detalle concreto y de un giro final que obliga al lector a completar lo que no se dice.\n\n**Aspectos que conviene analizar**\n- La forma del microrrelato: brevedad extrema, personajes sin nombre y un final que cambia el sentido de lo anterior.\n- «Herencia»: el reloj como objeto con doble sentido y el humor final, que mezcla cariño e ironía.\n- «La mudanza»: la desigualdad del reparto, las marcas en el suelo como huella de la ausencia y la repetición obsesiva («Las limpia cada sábado. No se van»).\n- «Diagnóstico»: la condensación del tiempo (seis meses, diecinueve años) y la ironía del diagnóstico equivocado.\n- El final de «Diagnóstico»: la reconciliación imperfecta («se llaman para discutir») como forma de vida.\n- La elipsis como técnica común: lo que no se cuenta (la separación, la enfermedad, los doce años de silencio) pesa tanto como lo contado.\n\n**Una estructura posible.** Analizar cada microrrelato con atención a su objeto central y a su final, y terminar con una comparación de las técnicas comunes.\n\n**Cuidado con…** resumir cada texto. Lo importante es cómo logran tanto con tan poco.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

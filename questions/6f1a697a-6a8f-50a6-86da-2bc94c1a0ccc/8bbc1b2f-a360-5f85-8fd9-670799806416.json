@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8bbc1b2f-a360-5f85-8fd9-670799806416",
+  "rev": 1,
+  "statement": "¿Qué dos propiedades definen a una célula madre?",
+  "explanation": "La autorrenovación mantiene la reserva de células madre y la capacidad de diferenciarse produce células especializadas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "células madre",
+    "propiedades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Solo existe en el embrión y produce gametos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Puede dividirse muchas veces sin especializarse y puede diferenciarse en otros tipos de células.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Es una célula ya especializada que puede fusionarse con otras.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Tiene más cromosomas que las demás y no se divide nunca.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

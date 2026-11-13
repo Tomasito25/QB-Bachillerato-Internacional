@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "91ecd975-332c-5051-a8d7-5193437dede2",
+  "rev": 1,
+  "statement": "El inspector Garrido llegó al chalé a las once y cuarto, con un café de máquina en la mano y la convicción, que tenía desde hacía treinta años, de que todos los asesinos son tontos y todos los policías jóvenes, también.\n\n—El cuerpo está en la biblioteca —le informó la agente Ruiz, que llevaba seis meses en la brigada y ya había aprendido a no esperar un saludo.\n\n—Claro que está en la biblioteca —gruñó Garrido—. Los ricos siempre se mueren en la biblioteca. Nunca en la cocina. ¿Usted ha visto alguna vez a un millonario muerto en una cocina?\n\nRuiz no contestó. Garrido entró, miró el cadáver del señor Valcárcel durante exactamente cuatro segundos y se dedicó a examinar las estanterías. Sacó un libro, lo hojeó, lo devolvió a su sitio. Sacó otro.\n\n—Inspector, el arma está junto a la ventana.\n\n—Ya la he visto. Un abrecartas de plata. Muy elegante. Fíjese en este libro, agente: primera edición, sin abrir. Y este, y este. El señor Valcárcel no había leído ninguno. Tenía una biblioteca como quien tiene un piano en el salón: para que la vieran los demás.\n\n—¿Y eso qué tiene que ver con el crimen?\n\n—Todo. Un hombre que no lee no se encierra en la biblioteca a las doce de la noche. Alguien lo citó aquí. Alguien que sabía que este era el único sitio de la casa donde no entra nunca nadie.\n\nRuiz apuntó algo en su libreta. Garrido se terminó el café, frío, con una mueca.\n\n—Pregunte al servicio quién limpia esta habitación. Y luego tráigame al que diga que no la limpia nadie.\n\nSalió al jardín sin despedirse. Ruiz se quedó un momento a solas con el muerto y con los libros que nadie había leído, y por primera vez en seis meses pensó que quizá Garrido no fuera solo un viejo insoportable. Luego pensó que podía ser las dos cosas.\n\n---\n\n**Pregunta guía:** ¿Cómo se construye el personaje del inspector y qué papel tiene la ironía en el fragmento?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "novela policiaca",
+    "ironía",
+    "personaje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Escena inicial de un relato policiaco en el que un inspector veterano, gruñón y lleno de prejuicios, investiga un asesinato en la biblioteca de un millonario. El texto juega con los tópicos del género y los usa para caracterizar al personaje y a su joven compañera.\n\n**Aspectos que conviene analizar**\n- La presentación del inspector mediante una generalización irónica («todos los asesinos son tontos y todos los policías jóvenes, también») y el café de máquina.\n- La parodia de los clichés del género, como el muerto en la biblioteca, que el propio personaje comenta.\n- La caracterización indirecta por las acciones: mira el cadáver cuatro segundos y examina los libros.\n- La deducción a partir de los libros sin abrir y la comparación con el piano en el salón: crítica de la apariencia social.\n- La agente Ruiz como contrapunto y como personaje focal al final.\n- El cierre: la ambivalencia («podía ser las dos cosas») que matiza el retrato del inspector.\n\n**Una estructura posible.** Analizar el retrato de Garrido en tres planos (lo que dice, lo que hace, cómo lo ve Ruiz) y relacionarlo con el uso irónico de las convenciones del género.\n\n**Cuidado con…** resumir la investigación. Lo que interesa es la caracterización y el tono.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

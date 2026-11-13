@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "8ea2199f-9e2e-59fb-bb7b-861f8198769c",
+  "rev": 1,
+  "statement": "Mateo y Andrés nacieron con cuatro minutos de diferencia y durante dieciocho años fueron, para todo el pueblo, «los gemelos», en plural, como si fueran una sola persona con cuatro piernas. Llevaban la misma ropa porque su madre la compraba por pares. Sacaban las mismas notas, más o menos. Se enamoraron, a los quince, de la misma chica, que no eligió a ninguno de los dos y se fue a estudiar a Bilbao.\n\nA los dieciocho, Andrés se marchó a Alemania con un contrato en una fábrica de coches. Mateo se quedó con el padre, en la carpintería. Fue la primera decisión que tomaron por separado, y la tomaron sin hablarla, cada uno en su cuarto, la misma noche.\n\nAl principio se escribían todas las semanas. Luego cada mes. Luego por Navidad. Andrés aprendió alemán, se casó con una mujer de Stuttgart que hablaba muy deprisa y tuvo dos hijas rubias que decían «tío Mateo» con un acento que a Mateo le hacía gracia y le dolía a partes iguales. Mateo se quedó soltero, heredó la carpintería y aprendió a hacer sillas que duraban cien años.\n\nCuando el padre murió, Andrés volvió para el entierro. Los del pueblo se quedaron mirándolos en la puerta de la iglesia, porque después de treinta años ya no se parecían. Andrés tenía el pelo corto y gafas de montura fina; Mateo, las manos llenas de cicatrices y la espalda un poco curvada de inclinarse sobre la madera.\n\nPor la noche, en la carpintería, compartieron una botella de vino entre virutas.\n\n—¿Te arrepientes? —preguntó Andrés.\n\n—¿De qué?\n\n—De no haberte ido.\n\nMateo tardó en contestar. Pasó la mano por una silla a medio terminar.\n\n—¿Y tú? ¿De haberte ido?\n\nNinguno contestó. Se rieron, porque era la primera vez en treinta años que volvían a pensar lo mismo al mismo tiempo.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el relato la separación de los gemelos y lo que cada uno ha ganado y perdido?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "gemelos",
+    "emigración",
+    "identidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Dos gemelos inseparables toman caminos opuestos a los dieciocho años: uno emigra a Alemania y el otro se queda en la carpintería familiar. Treinta años después, en el entierro del padre, ya no se parecen, pero comparten la misma duda sobre la vida que no eligieron.\n\n**Aspectos que conviene analizar**\n- La presentación de los gemelos como unidad («una sola persona con cuatro piernas») mediante detalles: la ropa por pares, las notas, la misma chica.\n- La decisión simultánea y silenciosa, tomada «cada uno en su cuarto, la misma noche»: separación y simetría a la vez.\n- La gradación del distanciamiento en las cartas (semanas, meses, Navidad) y las vidas paralelas resumidas en pocos rasgos.\n- El acento de las sobrinas, que le hace «gracia y le dolía a partes iguales».\n- El reencuentro: los cuerpos marcados por cada vida (las gafas finas, las manos con cicatrices) y las sillas «que duraban cien años».\n- El diálogo final con preguntas sin respuesta y la risa por volver a «pensar lo mismo al mismo tiempo».\n\n**Una estructura posible.** Analizar la unidad inicial, la separación, las dos vidas y el reencuentro, mostrando cómo el final recupera la simetría del principio.\n\n**Cuidado con…** decidir qué hermano eligió mejor. El relato equilibra ambas vidas.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

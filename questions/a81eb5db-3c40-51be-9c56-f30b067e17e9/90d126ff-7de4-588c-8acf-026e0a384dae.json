@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "90d126ff-7de4-588c-8acf-026e0a384dae",
+  "rev": 1,
+  "statement": "**Habitación 214**\n\n*Una habitación de hospital con dos camas. En la de la ventana, DON ANSELMO, ochenta y cinco años, lee el periódico con lupa. En la de la puerta, recién llegado, MATEO, ochenta y dos, con el gotero puesto y cara de pocos amigos.*\n\nDON ANSELMO.—Le ha tocado la cama mala. La de la puerta. Por ahí pasa todo el mundo.\n\nMATEO.—Mejor. Así me entero de lo que pasa.\n\nDON ANSELMO.—Aquí no pasa nada. Pasan las enfermeras, pasa el carro de la comida y, de vez en cuando, pasa alguno para el otro lado. *(Señala hacia arriba con la lupa.)*\n\nMATEO.—Qué alegría de compañero.\n\nDON ANSELMO.—Llevo once días. Usted se acostumbrará. *(Pausa.)* ¿Por qué está aquí?\n\nMATEO.—El corazón. Dicen que hace cosas raras.\n\nDON ANSELMO.—El mío también. Será la edad. O el mismo cardiólogo. *(Pausa.)* ¿Juega usted al dominó?\n\nMATEO.—Jugaba. Con mi mujer.\n\nDON ANSELMO.—¿Y ya no juega con ella?\n\nMATEO.—Ya no está.\n\n*Silencio. DON ANSELMO dobla el periódico despacio.*\n\nDON ANSELMO.—La mía tampoco. Cuatro años en marzo. *(Pausa.)* Hacía trampas. Movía las fichas cuando yo iba al baño.\n\nMATEO.—*(Casi sonriendo.)* La mía las escondía en la manga.\n\nDON ANSELMO.—Las mejores hacían trampas.\n\n*Pausa. DON ANSELMO abre el cajón de la mesilla y saca una caja de dominó vieja. La pone sobre la mesa con ruedas que hay entre las dos camas.*\n\nDON ANSELMO.—Le advierto que yo no hago trampas.\n\nMATEO.—Eso dicen todos.\n\n*Empiezan a repartir las fichas. Entra una ENFERMERA, los mira y sale sin decir nada. Se oye, cada vez más fuerte, el ruido de las fichas sobre la mesa.*\n\n---\n\n**Pregunta guía:** ¿Cómo se construye en la escena la relación entre los dos personajes a partir del humor y el dolor compartido?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "hospital",
+    "vejez",
+    "humor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Dos ancianos ingresados en la misma habitación de hospital empiezan desconfiando el uno del otro. Al descubrir que los dos son viudos y que sus mujeres hacían trampas al dominó, nace una complicidad que la escena cierra con una partida.\n\n**Aspectos que conviene analizar**\n- El humor negro de Don Anselmo («pasa alguno para el otro lado», «O el mismo cardiólogo») como forma de enfrentarse a la enfermedad y la muerte.\n- La hostilidad inicial de Mateo y sus respuestas secas.\n- El giro de la conversación hacia el dominó y la revelación de la viudez («Ya no está»), seguida de un silencio.\n- El recuerdo compartido de las trampas de sus mujeres: el humor que nace del duelo y crea el vínculo («Las mejores hacían trampas»).\n- Los objetos: la lupa, el periódico doblado, la caja de dominó vieja sobre la mesa entre las dos camas.\n- El final: la enfermera que entra y sale sin hablar, y el ruido creciente de las fichas como signo de vida.\n\n**Una estructura posible.** Analizar la escena en tres momentos (desconfianza, revelación, complicidad) y el papel del humor en cada uno.\n\n**Cuidado con…** ver solo tristeza o solo comedia. La escena funciona por la mezcla.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

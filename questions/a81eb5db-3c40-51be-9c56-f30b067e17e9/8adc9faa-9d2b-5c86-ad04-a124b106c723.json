@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "8adc9faa-9d2b-5c86-ad04-a124b106c723",
+  "rev": 1,
+  "statement": "**¿Por qué siguen leyéndose hoy las obras clásicas? Responda en relación con dos de las obras que ha estudiado, al menos una de ellas de una época anterior.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "287a6baa-b9c7-5f7d-93ed-adcd75ebb7bc"
+  ],
+  "tags": [
+    "canon",
+    "obras clásicas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Valorar la vigencia de las obras: qué temas, formas o personajes las mantienen vivas y qué aspectos resultan lejanos. Se pueden comparar una obra clásica y otra contemporánea. **Obras adecuadas.** Al menos una obra de una época anterior. **Esquema posible.** Aspectos vigentes de cada obra; recursos que los hacen perdurar; aspectos que han envejecido; conclusión. **Cuidado con…** responder con tópicos sobre los clásicos. Usa ejemplos concretos.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

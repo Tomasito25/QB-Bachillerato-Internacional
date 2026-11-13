@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "8ca45889-2187-5400-a746-6fdc3ed39ff0",
+  "rev": 1,
+  "statement": "A las tres de la mañana, la planta de medicina interna respira despacio. Nieves conoce esa respiración: el pitido de los monitores, el zumbido de la máquina de café del pasillo, la tos del señor de la 409, que tose a las tres en punto como si tuviera un despertador en los pulmones.\n\nLleva veintidós años haciendo noches. Sabe cosas que los médicos de día no saben: que la señora de la 412 solo se duerme si le dejan la puerta entornada, que el chico de la 405 llora en silencio después de las visitas, que los enfermos se asustan más de madrugada, cuando el hospital deja de parecer un hospital y empieza a parecer una casa muy grande y muy vacía.\n\nEsta noche la llaman de la 410. Es un hombre mayor, ingresado esa tarde, que no puede dormir. Nieves entra sin encender la luz grande. Él le pregunta qué hora es y ella se lo dice. Le pregunta si va a morirse. Ella no contesta enseguida. Le arregla la almohada, le toma el pulso, que es lo que hace siempre que necesita tiempo para pensar.\n\n—Esta noche no —le dice al fin.\n\n—¿Y mañana?\n\n—Mañana no estoy de turno. Pregúntele a mi compañera.\n\nEl hombre se ríe, una risa corta que se convierte en tos. Nieves le sostiene la espalda hasta que pasa. Luego se sienta en la silla de las visitas, aunque no debería, y se queda un rato con él, sin hablar, mirando cómo la luz de la farola dibuja en la pared la sombra de la persiana.\n\nA las cuatro y diez, el hombre se duerme. Nieves sale de puntillas. En el pasillo, la máquina de café sigue zumbando y el señor de la 409 ya no tose. Todo está en orden. Nadie sabrá nunca lo que ha pasado en la 410, y a Nieves le parece bien: lo más importante de su trabajo es, precisamente, lo que no queda escrito en ninguna parte.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el fragmento el trabajo de la protagonista y su manera de cuidar?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "hospital",
+    "enfermera",
+    "noche"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una enfermera veterana atiende de madrugada a un paciente asustado que le pregunta si va a morir. Con humor, silencio y presencia, lo acompaña hasta que se duerme. El relato valora la parte invisible del cuidado.\n\n**Aspectos que conviene analizar**\n- La personificación de la planta que «respira despacio» y los sonidos que Nieves conoce como una rutina.\n- El conocimiento íntimo de los pacientes (la puerta entornada, el chico que llora) frente a lo que saben los médicos de día.\n- La comparación del hospital de madrugada con «una casa muy grande y muy vacía».\n- La escena de la 410: los gestos para ganar tiempo (la almohada, el pulso), el humor como respuesta («Pregúntele a mi compañera») y la risa que se vuelve tos.\n- El silencio compartido y la imagen de la sombra de la persiana: acompañar sin palabras.\n- La reflexión final sobre lo que «no queda escrito en ninguna parte», que da sentido al relato.\n\n**Una estructura posible.** Analizar el ambiente de la planta, el retrato de Nieves y la escena con el paciente, y terminar con la reflexión final.\n\n**Cuidado con…** quedarte en el elogio de la profesión. Analiza las técnicas con que el texto construye la ternura y el humor.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

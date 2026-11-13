@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "94008be2-16a8-59c0-b6f8-4cf1f0af596d",
+  "rev": 1,
+  "statement": "¿Dónde se suele medir el pulso con los dedos?",
+  "explanation": "El pulso es la onda de presión que recorre las arterias con cada latido; se nota donde una arteria pasa cerca de la piel sobre un hueso o un tejido firme.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "pulso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En la vena yugular.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "En la arteria radial de la muñeca o en la carótida del cuello.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "En la vena del dorso de la mano.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En los capilares de la yema del dedo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
