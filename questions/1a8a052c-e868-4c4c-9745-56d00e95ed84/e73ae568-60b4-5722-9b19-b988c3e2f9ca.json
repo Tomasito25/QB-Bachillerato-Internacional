@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "e73ae568-60b4-5722-9b19-b988c3e2f9ca",
+  "rev": 1,
+  "statement": "Los alcoholes forman una serie homóloga cuyo primer miembro es el metanol.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "series homólogas",
+    "fórmulas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la fórmula general de los alcoholes de cadena abierta.",
+      "modelAnswer": "$\\mathrm{C}_n\\mathrm{H}_{2n+1}\\mathrm{OH}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los miembros de una serie homóloga tienen propiedades químicas parecidas.",
+      "modelAnswer": "Tienen el mismo grupo funcional, (1) que es la parte de la molécula responsable de las reacciones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el metanol es soluble en agua y el hexan-1-ol apenas lo es.",
+      "modelAnswer": "El grupo –OH forma puentes de hidrógeno con el agua. (1) En el hexan-1-ol domina una cadena apolar larga, que no interacciona bien con el agua. (1)",
+      "marks": 2
+    }
+  ]
+}

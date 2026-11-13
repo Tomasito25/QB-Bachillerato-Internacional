@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "da0b318b-87ce-52e0-81e7-51f20255ac68",
+  "rev": 1,
+  "statement": "¿Qué indica el número de periodo de un elemento?",
+  "explanation": "El cloro está en el periodo 3 porque sus electrones de valencia están en el nivel n = 3.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "periodos",
+    "grupos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El nivel de energía más externo que ocupan sus electrones.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El número de neutrones de su núcleo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El número de electrones de valencia.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Su carga iónica más habitual.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

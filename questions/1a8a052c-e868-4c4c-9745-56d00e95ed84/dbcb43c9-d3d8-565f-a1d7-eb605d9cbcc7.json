@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "dbcb43c9-d3d8-565f-a1d7-eb605d9cbcc7",
+  "rev": 1,
+  "statement": "Una disolución amarilla de cromato de potasio está en equilibrio con dicromato: 2CrO₄²⁻(aq) + 2H⁺(aq) ⇌ Cr₂O₇²⁻(aq) + H₂O(l).",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "Le Châtelier",
+    "cromato"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Predice y explica el cambio de color al añadir ácido clorhídrico.",
+      "modelAnswer": "La disolución se vuelve anaranjada. (1) Al aumentar la concentración de H⁺, el equilibrio se desplaza a la derecha y se forma dicromato. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Predice el efecto de añadir después hidróxido de sodio.",
+      "modelAnswer": "La base neutraliza los H⁺; el equilibrio se desplaza a la izquierda y la disolución vuelve a ser amarilla. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Enuncia el principio de Le Châtelier.",
+      "modelAnswer": "Si se altera un sistema en equilibrio, el equilibrio se desplaza en el sentido que contrarresta la alteración. (1)",
+      "marks": 1
+    }
+  ]
+}

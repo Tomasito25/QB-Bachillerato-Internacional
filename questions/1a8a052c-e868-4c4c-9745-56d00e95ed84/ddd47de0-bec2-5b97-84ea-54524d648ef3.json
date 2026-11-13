@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ddd47de0-bec2-5b97-84ea-54524d648ef3",
+  "rev": 1,
+  "statement": "Un estudiante tiene dos líquidos incoloros sin etiquetar: hexano y hex-1-eno.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "distinguir alcanos y alquenos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe una prueba química para distinguirlos, con los resultados.",
+      "modelAnswer": "Añadir agua de bromo y agitar. (1) El hex-1-eno la decolora; el hexano no (en la oscuridad). (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la ecuación de la reacción que ocurre.",
+      "modelAnswer": "CH₂=CHCH₂CH₂CH₂CH₃ + Br₂ → CH₂BrCHBrCH₂CH₂CH₂CH₃. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Nombra el producto.",
+      "modelAnswer": "1,2-dibromohexano. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué la prueba se hace en la oscuridad o con poca luz.",
+      "modelAnswer": "Con luz ultravioleta, el bromo también reaccionaría con el hexano por sustitución radicalaria y lo decoloraría lentamente. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e5a184ff-f73b-5be8-b0de-2390fe61e336",
+  "rev": 1,
+  "statement": "¿Qué volumen de oxígeno se necesita para quemar por completo $50\\,\\text{cm}^{3}$ de metano, medidos en las mismas condiciones?\n\nCH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)",
+  "explanation": "Para gases en las mismas condiciones, la proporción de volúmenes es la de los coeficientes: 1 : 2.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "ley de Avogadro",
+    "volúmenes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$25\\,\\text{cm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$50\\,\\text{cm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$100\\,\\text{cm}^{3}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$150\\,\\text{cm}^{3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

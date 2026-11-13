@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "db671b44-6b2f-516f-a9c3-ec44570a90d4",
+  "rev": 1,
+  "statement": "El etanol (C₂H₅OH, $46\\,\\text{g mol}^{-1}$) hierve a $78\\,°\\text{C}$ y el propano (C₃H₈, $44\\,\\text{g mol}^{-1}$), a $−42 °C$. ¿Qué explica la diferencia?",
+  "explanation": "Con masas molares parecidas, el tipo de fuerza intermolecular decide: los puentes de hidrógeno son mucho más fuertes que las fuerzas de London.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "puntos de ebullición",
+    "fuerzas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Entre las moléculas de etanol hay puentes de hidrógeno; entre las de propano, solo fuerzas de London.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El propano forma enlaces covalentes más débiles.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El etanol tiene una masa molar mucho mayor.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El etanol es un compuesto iónico.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

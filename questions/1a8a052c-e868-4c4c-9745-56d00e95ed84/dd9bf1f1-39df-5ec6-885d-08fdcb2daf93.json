@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dd9bf1f1-39df-5ec6-885d-08fdcb2daf93",
+  "rev": 1,
+  "statement": "¿Por qué los halogenoalcanos son útiles en síntesis orgánica?",
+  "explanation": "A partir de un halogenoalcano se obtienen alcoholes, aminas y otros compuestos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "halogenoalcanos",
+    "usos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el halógeno se puede sustituir por otros grupos funcionales mediante nucleófilos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque son polímeros naturales.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque son combustibles muy eficientes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque no reaccionan con nada.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

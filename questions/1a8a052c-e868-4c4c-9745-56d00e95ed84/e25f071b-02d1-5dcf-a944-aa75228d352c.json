@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e25f071b-02d1-5dcf-a944-aa75228d352c",
+  "rev": 1,
+  "statement": "Al calentar $10{,}0\\,\\text{g}$ de carbonato de calcio se obtienen $4{,}80\\,\\text{g}$ de óxido de calcio. ¿Cuál es el rendimiento porcentual?\n\nCaCO₃ → CaO + CO₂",
+  "explanation": "Rendimiento teórico: $\\dfrac{10{,}0}{100{,}09} \\times 56{,}08 = 5{,}60\\,\\text{g}$. Rendimiento: $\\dfrac{4{,}80}{5{,}60}\\times 100 = 86\\,\\%$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "rendimiento",
+    "porcentaje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "100 %",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "86 %",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "56 %",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "48 %",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

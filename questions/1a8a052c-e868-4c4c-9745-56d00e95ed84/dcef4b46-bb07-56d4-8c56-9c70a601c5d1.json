@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dcef4b46-bb07-56d4-8c56-9c70a601c5d1",
+  "rev": 1,
+  "statement": "¿Por qué el ion hidróxido es mejor nucleófilo que la molécula de agua?",
+  "explanation": "Los dos tienen pares solitarios en el oxígeno; la carga del ion lo hace más reactivo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "nucleófilos",
+    "carga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque es más grande.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque es un electrófilo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque no tiene pares solitarios.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque tiene carga negativa completa, y su par de electrones es atraído con más fuerza hacia el carbono con carga parcial positiva.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

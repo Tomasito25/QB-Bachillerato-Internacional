@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "de7a1a9f-4763-5a8c-b09c-571ff67f09ef",
+  "rev": 1,
+  "statement": "¿Qué uso tiene el isótopo carbono-14?",
+  "explanation": "Los seres vivos incorporan carbono-14 mientras viven; tras su muerte disminuye a un ritmo conocido. Otros isótopos radiactivos se usan en medicina, como el yodo-131.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "radiactividad",
+    "isótopos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Producir energía en las centrales nucleares.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Fabricar el núcleo de los átomos de nitrógeno en la industria.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Esterilizar material médico.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Datar restos orgánicos antiguos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

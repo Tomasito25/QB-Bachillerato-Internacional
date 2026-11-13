@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e595c9aa-7fe6-5b69-9f67-bd3e9dc55204",
+  "rev": 1,
+  "statement": "¿Qué tipo de reacción tiene siempre una economía atómica del 100 %?",
+  "explanation": "Todos los átomos de los reactivos acaban en el producto deseado.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "economía atómica",
+    "adición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una sustitución",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una eliminación",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una descomposición con dos productos",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una adición con un único producto",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

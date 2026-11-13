@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e6af72a2-f1d7-5887-8653-c3e365c41ec1",
+  "rev": 1,
+  "statement": "¿Cuál de estos es un combustible fósil?",
+  "explanation": "Los combustibles fósiles (carbón, petróleo y gas natural) se formaron a partir de restos de seres vivos durante millones de años.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "combustibles fósiles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El gas natural",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El hidrógeno obtenido por electrólisis",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La leña",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El bioetanol",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

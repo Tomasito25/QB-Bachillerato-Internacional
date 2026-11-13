@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e06d0b39-1b37-59ac-bc53-dcf69792c451",
+  "rev": 1,
+  "statement": "¿Qué tienen en común las enzimas y los catalizadores industriales como el hierro en la síntesis del amoníaco?",
+  "explanation": "Los catalizadores permiten trabajar a temperaturas menores y ahorrar energía.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "enzimas",
+    "catalizadores biológicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los dos funcionan solo a temperaturas altas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Los dos cambian el rendimiento final del equilibrio.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Aumentan la velocidad reduciendo la energía de activación y se recuperan al final.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Los dos son proteínas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d90786fd-56a2-5301-81fd-e082e9cf25be",
+  "rev": 1,
+  "statement": "¿Por qué aumenta el punto de ebullición de los alcanos al aumentar la longitud de la cadena?",
+  "explanation": "Al hervir solo se vencen fuerzas intermoleculares; los enlaces covalentes no se rompen.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "puntos de ebullición",
+    "serie homóloga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los enlaces covalentes C–C se hacen más fuertes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Aumentan los puentes de hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Aumenta la polaridad de los enlaces C–H.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Aumentan el número de electrones y la superficie de contacto, y con ellos las fuerzas de London.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

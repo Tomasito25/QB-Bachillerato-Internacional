@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "ea20f43d-e1cb-52a6-87cc-fb54199de4b9",
+  "rev": 1,
+  "statement": "Para distinguir un alcano de un alqueno se usa agua de bromo, de color anaranjado.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "saturación",
+    "reconocimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe el resultado de la prueba con el hexano y con el hex-1-eno.",
+      "modelAnswer": "Con el hexano, el agua de bromo sigue anaranjada. (1) Con el hex-1-eno, se decolora. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica la diferencia en términos de saturación.",
+      "modelAnswer": "El hex-1-eno es insaturado: el bromo se adiciona a su doble enlace C=C. (1) El hexano es saturado y no tiene enlaces dobles donde adicionar el bromo. (1)",
+      "marks": 2
+    }
+  ]
+}

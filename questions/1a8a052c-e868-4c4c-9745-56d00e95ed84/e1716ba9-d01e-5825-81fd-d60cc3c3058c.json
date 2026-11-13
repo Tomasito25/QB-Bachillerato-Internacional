@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "e1716ba9-d01e-5825-81fd-d60cc3c3058c",
+  "rev": 1,
+  "statement": "Los puntos de fusión de los metales del grupo 1 disminuyen al bajar en el grupo: litio, $181\\,°\\text{C}$; sodio, $98\\,°\\text{C}$; potasio, $63\\,°\\text{C}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "grupo 1",
+    "tendencias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica esta tendencia.",
+      "modelAnswer": "Al bajar en el grupo aumenta el radio de los cationes, todos con carga +1. (1) Los electrones deslocalizados están más lejos de los núcleos y el enlace metálico es más débil. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Predice, razonando, si el punto de fusión del rubidio será mayor o menor que $63\\,°\\text{C}$.",
+      "modelAnswer": "Menor, porque el Rb⁺ es aún más grande y su enlace metálico, más débil. (1)",
+      "marks": 1
+    }
+  ]
+}

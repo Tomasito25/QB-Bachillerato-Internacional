@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "df706051-34c2-5c33-8341-205651d2517b",
+  "rev": 1,
+  "statement": "¿Para qué se usa un indicador en una valoración ácido-base?",
+  "explanation": "El cambio de color señala que se ha añadido justo la cantidad necesaria.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "valoración",
+    "indicador"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para aumentar la concentración del ácido.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para acelerar la reacción.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Para medir el volumen de la bureta.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para detectar el punto final, cuando el ácido y la base han reaccionado en proporción estequiométrica.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

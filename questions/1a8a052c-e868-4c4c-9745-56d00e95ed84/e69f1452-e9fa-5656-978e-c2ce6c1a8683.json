@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e69f1452-e9fa-5656-978e-c2ce6c1a8683",
+  "rev": 1,
+  "statement": "¿Por qué los compuestos iónicos tienen puntos de fusión altos?",
+  "explanation": "Por eso son poco volátiles: a temperatura ambiente son sólidos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "propiedades",
+    "puntos de fusión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque sus enlaces covalentes son muy fuertes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque hay que vencer muchas atracciones electrostáticas fuertes entre los iones de la red.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque sus moléculas son muy grandes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque tienen electrones libres.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
