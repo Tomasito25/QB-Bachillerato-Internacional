@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4486e24d-57ab-5f5b-ad21-78cdd805b2ed",
+  "rev": 1,
+  "statement": "Un termómetro tiene una incertidumbre de $\\pm0{,}1\\,°\\text{C}$. ¿Cuál es la incertidumbre de una variación de temperatura de $20{,}3\\,°\\text{C}$ a $26{,}1\\,°\\text{C}$?",
+  "explanation": "Al restar dos medidas se suman sus incertidumbres absolutas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "incertidumbre",
+    "ΔT"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$\\pm0{,}2\\,°\\text{C}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$\\pm5{,}8\\,°\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$\\pm0{,}05\\,°\\text{C}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$\\pm0{,}1\\,°\\text{C}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

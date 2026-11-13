@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "44547d2c-6070-5eab-bf2b-e814fe4acb33",
+  "rev": 1,
+  "statement": "¿Qué indica el símbolo de estado (aq)?",
+  "explanation": "Los símbolos son (s), (l), (g) y (aq).",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "símbolos de estado"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que es un líquido puro.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que es un sólido.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que es un gas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que la sustancia está disuelta en agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

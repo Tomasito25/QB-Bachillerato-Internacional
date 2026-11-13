@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4f128ac5-42d9-5df5-97d3-71624ff0a636",
+  "rev": 1,
+  "statement": "Los elementos X e Y tienen electronegatividades de 0,8 y 3,0. ¿Qué tipo de enlace es más probable en el compuesto XY?",
+  "explanation": "Una diferencia de 2,2 es grande: el compuesto se sitúa cerca del vértice iónico del triángulo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "electronegatividad",
+    "enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Covalente con muy poca polaridad",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Predominantemente iónico",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Covalente apolar",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Metálico",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

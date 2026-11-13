@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "3f60ac62-0629-50da-b9be-e299a0340496",
+  "rev": 1,
+  "statement": "Con la tabla, calcula $\\Delta H$ de la reacción H₂(g) + Cl₂(g) → 2HCl(g).\n\n| Enlace | Entalpía media de enlace / kJ mol⁻¹ |\n|---|---|\n| H–H | 436 |\n| C–H | 414 |\n| C–C | 346 |\n| C=C | 614 |\n| O=O | 498 |\n| O–H | 463 |\n| C=O | 804 |\n| N≡N | 945 |\n| N–H | 391 |\n| Cl–Cl | 242 |\n| H–Cl | 431 |\n| Br–Br | 193 |\n| C–Br | 285 |",
+  "explanation": "Enlaces rotos: $436 + 242 = 678$. Enlaces formados: $2 \\times 431 = 862$. $\\Delta H = 678 - 862 = -184\\,\\text{kJ}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "entalpías de enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$+247\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$+184\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$−184 kJ$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$−247 kJ$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

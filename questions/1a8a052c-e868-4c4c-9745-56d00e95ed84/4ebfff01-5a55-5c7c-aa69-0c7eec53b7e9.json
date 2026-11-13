@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4ebfff01-5a55-5c7c-aa69-0c7eec53b7e9",
+  "rev": 1,
+  "statement": "¿Qué enlace tiene la mayor entalpía de enlace?",
+  "explanation": "Los enlaces triples son los más fuertes y cortos. Por eso el nitrógeno molecular es tan poco reactivo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "fuerza de enlace",
+    "longitud"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "N=N",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "N–H",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "N–N",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "N≡N",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

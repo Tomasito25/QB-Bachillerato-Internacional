@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "3e95f8c2-44be-5ee9-adb3-c26006adb183",
+  "rev": 1,
+  "statement": "Se tienen $10{,}0\\,\\text{cm}^{3}$ de ácido nítrico de pH 1,00.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "pH",
+    "dilución"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la concentración de H⁺.",
+      "modelAnswer": "$[\\mathrm{H^+}] = 10^{-1{,}00} = 0{,}100\\,\\text{mol dm}^{-3}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el pH tras diluir hasta $1000\\,\\text{cm}^{3}$ con agua.",
+      "modelAnswer": "La concentración se divide entre 100: $[\\mathrm{H^+}] = 1{,}00\\times 10^{-3}$ y pH 3,00. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué, por mucho que se diluya, el pH del ácido nunca supera 7.",
+      "modelAnswer": "Al acercarse a pH 7, los H⁺ de la autoionización del agua predominan sobre los del ácido; la disolución sigue siendo ligeramente ácida. (1)",
+      "marks": 1
+    }
+  ]
+}

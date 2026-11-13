@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "3eb78988-8b6d-5343-8ba2-cc8cfc4ded1c",
+  "rev": 1,
+  "statement": "En un ciclo de Hess, ¿qué relación hay entre los dos caminos que llevan de los reactivos a los productos?",
+  "explanation": "Es una consecuencia de la conservación de la energía: la entalpía es una función de estado.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "ciclos",
+    "caminos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La suma de las variaciones de entalpía es la misma por los dos caminos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La entalpía solo se conserva si el ciclo tiene tres pasos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El camino directo es siempre exotérmico.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El camino más largo siempre tiene más entalpía.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

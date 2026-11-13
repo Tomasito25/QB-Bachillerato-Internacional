@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "43680973-d97f-5817-8e54-b4b02f5fc028",
+  "rev": 1,
+  "statement": "¿En qué unidades se expresa normalmente la variación de entalpía de una reacción?",
+  "explanation": "Se refiere a la cantidad de reacción que indica la ecuación ajustada.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "unidades",
+    "ΔH"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$J g-1 K-1$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$mol dm-3$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$kJ mol-1$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$kJ K-1$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4b30c81d-677d-5b88-bc84-cd2f00d47d15",
+  "rev": 1,
+  "statement": "¿Cuál es el estado de oxidación del azufre en el ácido sulfúrico, H₂SO₄?",
+  "explanation": "2 × (+1) + x + 4 × (−2) = 0, así que x = +6.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "estados de oxidación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "+6",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "+4",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "+2",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "−2",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4b6157c6-7e96-52b5-ab9e-c9ebfd20f9c3",
+  "rev": 1,
+  "statement": "$25{,}00\\,\\text{cm}^{3}$ de NaOH se neutralizan con $20{,}00\\,\\text{cm}^{3}$ de H₂SO₄ $0{,}0500\\,\\text{mol dm}^{-3}$. ¿Cuál es la concentración del NaOH?\n\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O",
+  "explanation": "$n(\\mathrm{H_2SO_4}) = 1{,}00\\times 10^{-3}\\,\\text{mol}$, así que $n(\\mathrm{NaOH}) = 2{,}00\\times 10^{-3}\\,\\text{mol}$ y $c = \\dfrac{2{,}00\\times 10^{-3}}{0{,}02500} = 0{,}0800\\,\\text{mol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "valoración",
+    "relación 1:2"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}0200\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}0400\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$0{,}0800\\,\\text{mol dm}^{-3}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}160\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "46427cc8-c7f0-5557-92d9-bc80aeaeb134",
+  "rev": 1,
+  "statement": "Según la teoría de Brønsted-Lowry, ¿qué es un ácido?",
+  "explanation": "Una base de Brønsted-Lowry acepta protones.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "Brønsted-Lowry"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una especie que libera OH⁻ en agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una especie que acepta protones.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una especie que acepta un par de electrones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una especie que cede protones (H⁺).",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

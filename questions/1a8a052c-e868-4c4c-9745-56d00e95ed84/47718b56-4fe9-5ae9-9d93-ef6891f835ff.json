@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "47718b56-4fe9-5ae9-9d93-ef6891f835ff",
+  "rev": 1,
+  "statement": "Se comparan disoluciones de $0{,}10\\,\\text{mol dm}^{-3}$ de ácido clorhídrico y de ácido etanoico.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "ácidos fuertes y débiles",
+    "experimentos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe tres experimentos que permitan distinguirlas, con el resultado esperado.",
+      "modelAnswer": "Medir el pH: el del clorhídrico es menor (1, frente a unos 3). (1) Medir la conductividad: el clorhídrico conduce más. (1) Añadir una cinta de magnesio: con el clorhídrico burbujea más deprisa. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica estas diferencias.",
+      "modelAnswer": "El HCl es un ácido fuerte y está totalmente ionizado; el etanoico es débil y solo se ioniza en pequeña parte. (1) Con la misma concentración de ácido, el clorhídrico tiene mucha más concentración de H⁺ y de iones en total. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué las dos disoluciones necesitan el mismo volumen de NaOH para neutralizarse.",
+      "modelAnswer": "Tienen la misma cantidad de ácido; al consumirse H⁺, el ácido débil sigue ionizándose hasta reaccionar por completo. (1)",
+      "marks": 1
+    }
+  ]
+}

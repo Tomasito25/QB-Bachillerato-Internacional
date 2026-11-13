@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4a7d1db7-82cb-59c2-b8d3-2701a01fb448",
+  "rev": 1,
+  "statement": "¿Cuál es el nombre IUPAC de CH₃CH(OH)CH₃?",
+  "explanation": "Tres carbonos con el grupo –OH en el carbono central (posición 2).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "nomenclatura",
+    "alcoholes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Propan-2-ol",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Propanona",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Propan-1-ol",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Propanal",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

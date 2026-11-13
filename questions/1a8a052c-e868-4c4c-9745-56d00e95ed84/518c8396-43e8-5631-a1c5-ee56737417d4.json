@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "518c8396-43e8-5631-a1c5-ee56737417d4",
+  "rev": 1,
+  "statement": "¿Cómo se produce una línea de un espectro de emisión?",
+  "explanation": "Como los niveles tienen energías fijas, solo se emiten fotones de ciertas energías: el espectro es de líneas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "espectros de emisión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un electrón absorbe un fotón y pasa a un nivel superior.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un electrón abandona el átomo por completo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un electrón excitado pasa a un nivel de menor energía y emite un fotón con la energía de la diferencia.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El núcleo emite luz al vibrar.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

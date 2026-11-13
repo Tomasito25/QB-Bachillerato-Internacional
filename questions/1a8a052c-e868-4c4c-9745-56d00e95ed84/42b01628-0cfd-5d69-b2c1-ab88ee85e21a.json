@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "42b01628-0cfd-5d69-b2c1-ab88ee85e21a",
+  "rev": 1,
+  "statement": "Para A + B ⇌ C, $K = 4{,}0$. ¿Cuánto vale K para C ⇌ A + B a la misma temperatura?",
+  "explanation": "La constante de la reacción inversa es la inversa: $\\dfrac{1}{4{,}0} = 0{,}25$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "K inversa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−4{,}0$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}25$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$4{,}0$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$16$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

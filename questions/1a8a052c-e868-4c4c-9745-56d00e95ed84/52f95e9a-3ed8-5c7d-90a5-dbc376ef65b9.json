@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "52f95e9a-3ed8-5c7d-90a5-dbc376ef65b9",
+  "rev": 1,
+  "statement": "Para H₂(g) + I₂(g) → 2HI(g), $\\Delta H = -9\\,\\text{kJ}$. Las entalpías de enlace H–H e I–I son $436$ y $151\\,\\text{kJ mol}^{-1}$. ¿Cuál es la entalpía del enlace H–I?",
+  "explanation": "$-9 = (436 + 151) - 2E$, de donde $2E = 596$ y $E = 298\\,\\text{kJ mol}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "entalpía de enlace",
+    "cálculo inverso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$149\\,\\text{kJ mol}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$289\\,\\text{kJ mol}^{-1}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$298\\,\\text{kJ mol}^{-1}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$587\\,\\text{kJ mol}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

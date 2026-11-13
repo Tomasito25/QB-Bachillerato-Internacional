@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "4b4fe100-1b93-5f87-909c-3d2bb98c0c27",
+  "rev": 1,
+  "statement": "¿Cómo se obtiene industrialmente etanol a partir de eteno?",
+  "explanation": "C₂H₄(g) + H₂O(g) ⇌ C₂H₅OH(g). Es una adición: la economía atómica es del 100 %.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "hidratación del eteno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por sustitución con ion hidróxido.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Por adición de vapor de agua al doble enlace, con un catalizador ácido (ácido fosfórico).",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Por oxidación del eteno con dicromato.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Por fermentación del eteno.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

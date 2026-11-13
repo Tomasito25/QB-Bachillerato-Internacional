@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5854e432-d0c5-50ec-b616-f90f3c5535a5",
+  "rev": 1,
+  "statement": "¿Qué es la energía específica de un combustible?",
+  "explanation": "Se mide en $\\text{kJ kg}^{-1}$. La energía por unidad de volumen es la densidad energética.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "energía específica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La energía de activación de su combustión.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La energía liberada por unidad de volumen.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La energía liberada por unidad de masa de combustible.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La temperatura de su llama.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

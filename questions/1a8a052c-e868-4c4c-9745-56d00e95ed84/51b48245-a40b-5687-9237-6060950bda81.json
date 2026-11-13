@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "51b48245-a40b-5687-9237-6060950bda81",
+  "rev": 1,
+  "statement": "El etanol se fabrica por hidratación del eteno: C₂H₄(g) + H₂O(g) ⇌ C₂H₅OH(g), $\\Delta H = -45\\,\\text{kJ mol}^{-1}$. La tabla muestra el porcentaje de eteno que se convierte en etanol en cada paso por el reactor.\n\n| Temperatura / °C | Presión / atm | Conversión por paso / % |\n|---|---|---|\n| 250 | 70 | 9 |\n| 300 | 70 | 5 |\n| 300 | 100 | 7 |\n| 350 | 70 | 3 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8",
+    "112174ae-9d35-554b-897e-b9f59cb3e376"
+  ],
+  "tags": [
+    "datos",
+    "hidratación del eteno",
+    "condiciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe el efecto de la temperatura en la conversión, a presión constante.",
+      "modelAnswer": "A $70\\,\\text{atm}$, la conversión disminuye al subir la temperatura (de 9 % a 3 %). (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica este efecto.",
+      "modelAnswer": "La reacción directa es exotérmica. (1) Al subir la temperatura, el equilibrio se desplaza hacia los reactivos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica el efecto de aumentar la presión.",
+      "modelAnswer": "Hay dos moles de gas a la izquierda y uno a la derecha; (1) al aumentar la presión, el equilibrio se desplaza hacia el etanol. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué la industria acepta una conversión por paso tan baja.",
+      "modelAnswer": "El eteno que no reacciona se separa y se recircula al reactor, de modo que al final se aprovecha casi todo. (1)",
+      "marks": 1
+    }
+  ]
+}

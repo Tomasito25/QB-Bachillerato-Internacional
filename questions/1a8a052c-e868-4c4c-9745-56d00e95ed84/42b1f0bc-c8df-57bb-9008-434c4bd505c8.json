@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "42b1f0bc-c8df-57bb-9008-434c4bd505c8",
+  "rev": 1,
+  "statement": "Las baterías de ion litio de los teléfonos móviles son pilas secundarias.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "baterías recargables"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué significa que una pila sea secundaria.",
+      "modelAnswer": "Su reacción redox se puede invertir al aplicar una corriente externa, (1) de modo que se puede recargar muchas veces. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica la conversión de energía que ocurre al cargar y al descargar la batería.",
+      "modelAnswer": "Al cargar: de energía eléctrica a química. Al descargar: de química a eléctrica. (1)",
+      "marks": 1
+    }
+  ]
+}

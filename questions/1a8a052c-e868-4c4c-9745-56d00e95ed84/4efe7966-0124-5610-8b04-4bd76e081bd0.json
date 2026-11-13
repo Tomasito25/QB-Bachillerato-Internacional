@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4efe7966-0124-5610-8b04-4bd76e081bd0",
+  "rev": 1,
+  "statement": "¿Qué muestra contiene más átomos?",
+  "explanation": "Átomos de H: $\\dfrac{1{,}0}{2{,}02}\\times 2 = 0{,}99$ mol. Átomos de He: $\\dfrac{1{,}0}{4{,}00} = 0{,}25$ mol. El oxígeno y el nitrógeno dan aún menos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "número de átomos",
+    "comparación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$1{,}0\\,\\text{g}$ de hidrógeno, H₂",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$1{,}0\\,\\text{g}$ de helio, He",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$1{,}0\\,\\text{g}$ de oxígeno, O₂",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$1{,}0\\,\\text{g}$ de nitrógeno, N₂",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

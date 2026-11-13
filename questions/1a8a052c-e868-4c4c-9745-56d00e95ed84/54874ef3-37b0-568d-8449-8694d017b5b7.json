@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "54874ef3-37b0-568d-8449-8694d017b5b7",
+  "rev": 1,
+  "statement": "Según la teoría de colisiones, ¿qué condiciones debe cumplir un choque para que haya reacción?",
+  "explanation": "La mayoría de los choques no producen reacción porque les falta energía u orientación.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "teoría de colisiones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que el choque ocurra en estado sólido.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que las partículas choquen a cualquier velocidad.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que las partículas sean del mismo tipo.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que las partículas choquen con energía igual o superior a la de activación y con la orientación adecuada.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "42ac41ce-5333-5779-bca1-a3772a303004",
+  "rev": 1,
+  "statement": "En una pila de combustible de hidrógeno, el hidrógeno se oxida en un electrodo y el oxígeno se reduce en el otro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "pila de combustible"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:50:53.000Z",
+  "updatedAt": "2026-11-13T05:50:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación global de la reacción.",
+      "modelAnswer": "2H₂ + O₂ → 2H₂O. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara una pila de combustible con la combustión del hidrógeno.",
+      "modelAnswer": "La reacción global es la misma. (1) En la pila la energía química se convierte directamente en eléctrica, con menos pérdidas de calor que la combustión. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere dos dificultades para el uso generalizado del hidrógeno como combustible.",
+      "modelAnswer": "Dos de: su producción suele emitir CO₂; es difícil de almacenar porque es un gas de baja densidad; es muy inflamable; faltan estaciones de repostaje. (2)",
+      "marks": 2
+    }
+  ]
+}
