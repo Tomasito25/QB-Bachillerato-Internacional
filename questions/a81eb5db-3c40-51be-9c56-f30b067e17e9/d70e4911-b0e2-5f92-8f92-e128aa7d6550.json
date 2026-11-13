@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "d70e4911-b0e2-5f92-8f92-e128aa7d6550",
+  "rev": 1,
+  "statement": "**Algunas obras se escribieron en contextos de censura o represión. Compare cómo se expresan en dos de las obras que ha estudiado ideas que no se podían decir abiertamente, o cómo tratan el tema del silencio impuesto.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c6557927-9caf-5c27-a734-d545a6d73f69"
+  ],
+  "tags": [
+    "censura",
+    "silencio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar estrategias de expresión indirecta (alegoría, símbolo, ironía, elipsis) o la representación del silencio impuesto como tema. **Obras adecuadas.** Obras escritas bajo dictaduras o que representan sociedades represivas. **Esquema posible.** Contexto de cada obra (solo lo necesario); estrategias literarias; efecto en el lector; comparación. **Cuidado con…** convertir la respuesta en una lección de historia.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

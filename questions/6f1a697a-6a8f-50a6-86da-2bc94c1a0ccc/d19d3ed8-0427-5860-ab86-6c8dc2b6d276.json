@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d19d3ed8-0427-5860-ab86-6c8dc2b6d276",
+  "rev": 1,
+  "statement": "¿Qué supuesto del método de captura, marcado y recaptura se incumple si las marcas hacen más visibles a los caracoles para sus depredadores?",
+  "explanation": "Si mueren más individuos marcados, habrá menos recapturas y la población se sobrestimará.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "captura-recaptura",
+    "supuestos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que las marcas no afectan a la supervivencia de los individuos marcados.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Que los individuos marcados se mezclan con el resto.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que no hay nacimientos entre los dos muestreos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que la población es cerrada, sin migraciones.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

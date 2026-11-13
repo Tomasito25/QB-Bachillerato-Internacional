@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "cf8f5a88-c17a-593b-bfb3-49608e4d7048",
+  "rev": 1,
+  "statement": "La tabla muestra la concentración de un pesticida en distintos niveles tróficos de un estuario.\n\n| Organismo | Nivel trófico | Pesticida / ppm |\n|---|---|---|\n| Agua | — | 0,00005 |\n| Fitoplancton | Productor | 0,04 |\n| Zooplancton | Consumidor primario | 0,25 |\n| Pez pequeño | Consumidor secundario | 2,0 |\n| Garza | Consumidor terciario | 25 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e",
+    "d882c402-d0e9-5c72-a87d-68b5e38b52b5"
+  ],
+  "tags": [
+    "datos",
+    "biomagnificación",
+    "DDT"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula cuántas veces es mayor la concentración en la garza que en el zooplancton.",
+      "modelAnswer": "$\\dfrac{25}{0{,}25} = 100$ veces. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la concentración aumenta en cada nivel trófico.",
+      "modelAnswer": "El pesticida es soluble en grasas y no se degrada ni se excreta fácilmente. (1) Cada consumidor come muchas presas y acumula el pesticida de todas ellas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere una consecuencia para las garzas.",
+      "modelAnswer": "Con concentraciones altas pueden sufrir problemas de reproducción, por ejemplo huevos de cáscara fina que se rompen, y su población puede disminuir. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué estos datos se expresan en partes por millón.",
+      "modelAnswer": "Las concentraciones son muy pequeñas: las partes por millón permiten expresarlas sin muchos decimales. (1)",
+      "marks": 1
+    }
+  ]
+}

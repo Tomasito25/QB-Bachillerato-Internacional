@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d6f1b08e-0479-5f26-9e61-7c1d2931e849",
+  "rev": 1,
+  "statement": "La estatura humana varía de forma continua. ¿Qué lo explica?",
+  "explanation": "Con muchos genes que suman pequeños efectos, más la influencia del ambiente, el resultado es una distribución continua.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "variación continua",
+    "herencia poligénica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Depende de un único gen con dos alelos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Depende de un gen situado en el cromosoma Y.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Depende solo del ambiente.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Depende de muchos genes a la vez y también de factores ambientales, como la alimentación.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

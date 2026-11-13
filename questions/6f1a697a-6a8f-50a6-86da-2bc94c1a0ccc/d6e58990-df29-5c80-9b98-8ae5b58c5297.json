@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d6e58990-df29-5c80-9b98-8ae5b58c5297",
+  "rev": 1,
+  "statement": "¿De dónde procede el oxígeno que liberan las plantas en la fotosíntesis?",
+  "explanation": "La luz aporta la energía para dividir el agua (fotólisis). El hidrógeno se usa para reducir el CO₂ y el oxígeno se libera como subproducto.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "fotólisis",
+    "oxígeno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Del dióxido de carbono.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "De la glucosa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Del agua, que se divide para obtener hidrógeno.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Del aire que entra por los estomas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

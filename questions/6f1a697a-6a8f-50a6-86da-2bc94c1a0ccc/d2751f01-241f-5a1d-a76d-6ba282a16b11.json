@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "d2751f01-241f-5a1d-a76d-6ba282a16b11",
+  "rev": 1,
+  "statement": "¿Cuál de estas sustancias es hidrófoba?",
+  "explanation": "Los triglicéridos son casi del todo apolares y no forman puentes de hidrógeno con el agua. La glucosa (con grupos –OH), los iones y los aminoácidos (con grupos con carga) son hidrófilos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "solvente",
+    "hidrófobo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La glucosa",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un triglicérido",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El cloruro de sodio",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un aminoácido",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "cc99d7d2-9d1f-51fe-99bf-5bf1c13dfe32",
+  "rev": 1,
+  "statement": "Para preparar un cariograma se toman células en división, se detienen en metafase y se tiñen sus cromosomas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "cariograma",
+    "número de cromosomas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué se usan células en metafase.",
+      "modelAnswer": "En metafase los cromosomas están condensados al máximo, así que se ven bien y se pueden distinguir. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Describe cómo se ordenan los cromosomas en un cariograma.",
+      "modelAnswer": "Por parejas de homólogos, (1) de mayor a menor tamaño, (1) teniendo en cuenta la posición del centrómero y el patrón de bandas. (1) Los cromosomas sexuales se colocan al final. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Indica dos usos de los cariogramas.",
+      "modelAnswer": "Determinar el sexo del individuo. (1) Detectar anomalías en el número de cromosomas, como la trisomía 21. (1)",
+      "marks": 2
+    }
+  ]
+}

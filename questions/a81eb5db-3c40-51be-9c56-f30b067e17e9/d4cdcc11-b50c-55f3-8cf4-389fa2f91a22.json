@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "d4cdcc11-b50c-55f3-8cf4-389fa2f91a22",
+  "rev": 1,
+  "statement": "**Lengua materna**\n\nMi madre me habló en una lengua\nque olía a pan de maíz y a lluvia.\nEn ella aprendí a decir miedo\nantes de saber qué era,\ny a llamar a los pájaros por su nombre\nde casa, que no está en ningún diccionario.\n\nEn la escuela me dieron otra,\nlimpia, con sus reglas y sus tildes,\nuna lengua para pedir permiso,\npara escribir cartas a los bancos,\npara sacar buenas notas.\n\nAhora sueño en las dos\ny ninguna me pertenece del todo.\nCon la primera rezo y me enfado.\nCon la segunda trabajo y doy las gracias.\nCuando me enamoré, no sabía en cuál decirlo,\ny lo dije en las dos, por si acaso.\n\nMi hija solo habla la segunda.\nA veces, por la noche, le canto en la primera\nuna canción que no entiende\ny se duerme igual,\nporque el sueño, dice mi madre,\nsiempre ha sido bilingüe.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el poema la relación de la voz poética con sus dos lenguas?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "bilingüismo",
+    "lengua materna",
+    "identidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una mujer bilingüe reflexiona sobre la lengua de su madre, ligada a la casa y a las emociones, y la lengua aprendida en la escuela, ligada a lo social y lo práctico. El poema termina con la transmisión incompleta a la siguiente generación y un consuelo sereno.\n\n**Aspectos que conviene analizar**\n- La sinestesia de la lengua materna que «olía a pan de maíz y a lluvia» y los nombres «de casa» que no están en ningún diccionario.\n- La caracterización de la segunda lengua mediante su utilidad: permisos, bancos, notas. El contraste afectivo entre ambas.\n- Los paralelismos de la tercera estrofa («Con la primera… / Con la segunda…») y la anécdota humorística del enamoramiento dicho «en las dos, por si acaso».\n- La idea de una identidad repartida: «ninguna me pertenece del todo».\n- La última estrofa: la pérdida de la lengua materna en la hija y la canción que funciona aunque no se entienda.\n- El cierre con la voz de la madre («el sueño… siempre ha sido bilingüe»), que reúne las tres generaciones.\n\n**Una estructura posible.** Analizar cada lengua por separado, después su convivencia en la voz poética y por último la transmisión a la hija.\n\n**Cuidado con…** generalizar sobre el bilingüismo. Analiza cómo el poema lo convierte en experiencia íntima.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

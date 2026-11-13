@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "d519fc09-d88e-5199-8c97-b28eed04a4c6",
+  "rev": 1,
+  "statement": "La boda de mi hermana fue perfecta durante exactamente dos horas y cuarenta minutos. Lo sé porque mi tía Celia, que lo cronometra todo, lo comentó después con la satisfacción de quien confirma una profecía.\n\nLa ceremonia fue en una ermita sobre una colina, con flores blancas que habían costado lo que mi padre gana en un mes y un cuarteto de cuerda que tocaba muy bien y muy despacio. Mi hermana estaba guapísima. Mi madre lloró en el momento justo. Mi padre, que llevaba un traje alquilado que le quedaba estrecho de hombros, no lloró, pero se le movía la nuez como si tragara algo grande.\n\nEl problema empezó en el banquete, en la mesa cuatro. Alguien —nunca se ha sabido quién— había sentado juntos al tío Ramón y al tío Paco, que no se hablan desde una herencia de 1998 que nadie de mi generación entiende del todo pero en la que, por lo visto, había un olivar, una escopeta y una palabra que no se dijo en un entierro.\n\nDurante el primer plato se ignoraron con educación. Durante el segundo, el tío Paco comentó, mirando al techo, que había gente que no sabía lo que era un olivar. El tío Ramón contestó, mirando al mantel, que había gente que no sabía lo que era la palabra dada. Al llegar la tarta, los dos estaban de pie y la tía Celia miraba el reloj.\n\nNo pasó nada grave. Nadie pegó a nadie. Mi abuela, que tiene noventa y un años y mide un metro cuarenta, se levantó de su silla, se puso entre los dos y dijo solo: «Hoy no». Y los dos se sentaron, como niños.\n\nDespués bailamos todos. Mi hermana dice que fue la boda perfecta. Yo creo que también, pero por otro motivo: porque fue la primera vez que entendí que mi familia era eso, una mesa llena de cosas que no se dicen, y una abuela pequeña que sabe cuándo decirlas.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el narrador el humor y la tensión para retratar a su familia?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "boda",
+    "familia",
+    "tensión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un joven narra la boda de su hermana, aparentemente perfecta hasta que dos tíos enemistados por una vieja herencia coinciden en la misma mesa. El conflicto se resuelve con dos palabras de la abuela, y el narrador comprende algo esencial sobre su familia.\n\n**Aspectos que conviene analizar**\n- El arranque irónico («perfecta durante exactamente dos horas y cuarenta minutos») y la tía Celia como personaje cómico.\n- Los detalles de la ceremonia: las flores caras, el traje estrecho del padre, la nuez que se mueve «como si tragara algo grande».\n- El conflicto de los tíos contado con humor y misterio: el olivar, la escopeta y «una palabra que no se dijo en un entierro».\n- La escalada de tensión por platos: frases indirectas, miradas al techo y al mantel, y la tía mirando el reloj.\n- La intervención de la abuela (noventa y un años, un metro cuarenta, «Hoy no») y el contraste entre su tamaño y su autoridad.\n- La reflexión final: la familia como «una mesa llena de cosas que no se dicen».\n\n**Una estructura posible.** Seguir la estructura del relato (ceremonia, conflicto, clímax, resolución, reflexión) y analizar cómo el humor alivia y a la vez revela la tensión.\n\n**Cuidado con…** contar la anécdota. Analiza las técnicas narrativas y el tono.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

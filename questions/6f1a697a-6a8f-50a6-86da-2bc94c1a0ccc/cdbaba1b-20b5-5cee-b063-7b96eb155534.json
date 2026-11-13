@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "cdbaba1b-20b5-5cee-b063-7b96eb155534",
+  "rev": 1,
+  "statement": "La exposición prolongada al sol sin protección aumenta el riesgo de cáncer de piel.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "mutágenos",
+    "cáncer"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué la radiación ultravioleta aumenta el riesgo de cáncer.",
+      "modelAnswer": "La radiación UV daña el ADN de las células de la piel y provoca mutaciones. (1) Si afectan a genes que controlan la división celular, la célula puede dividirse sin control y formar un tumor. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué este cáncer no se transmite a la descendencia.",
+      "modelAnswer": "Las mutaciones ocurren en células somáticas de la piel, (1) no en las células que forman los gametos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica otros dos tipos de mutágenos.",
+      "modelAnswer": "Dos de: rayos X, radiación gamma, sustancias del humo del tabaco, ciertos virus, algunas sustancias químicas industriales. (2)",
+      "marks": 2
+    }
+  ]
+}

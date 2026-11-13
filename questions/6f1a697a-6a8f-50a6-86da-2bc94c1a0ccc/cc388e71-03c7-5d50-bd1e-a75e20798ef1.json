@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "cc388e71-03c7-5d50-bd1e-a75e20798ef1",
+  "rev": 1,
+  "statement": "El árbol genealógico muestra una familia en la que aparece una enfermedad. Los cuadrados son varones, los círculos, mujeres, y los símbolos rellenos, personas afectadas.\n\n![Árbol genealógico de tres generaciones; el varón II-1 está afectado](qbimg:d2180354e9b8c75340641153d6862179b2e84e136c185fa1b482d92ee7907a6d)",
+  "images": [
+    {
+      "hash": "d2180354e9b8c75340641153d6862179b2e84e136c185fa1b482d92ee7907a6d",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 7649,
+      "alt": "Árbol genealógico de tres generaciones; el varón II-1 está afectado"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904",
+    "b06e888d-b5c8-515d-a5eb-809009c3efd0"
+  ],
+  "tags": [
+    "genealogías",
+    "herencia ligada al sexo",
+    "hemofilia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué el alelo causante de la enfermedad no puede ser dominante.",
+      "modelAnswer": "Los padres de II-1 (I-1 y I-2) no están afectados. (1) Si el alelo fuera dominante, al menos uno de ellos tendría la enfermedad. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Se sabe que la enfermedad es la hemofilia, ligada al cromosoma X. Deduce el genotipo de I-1 y de I-2.",
+      "modelAnswer": "I-1: $X^HY$, porque es un varón sano. (1) I-2: $X^HX^h$, portadora, porque su hijo II-1 recibió de ella el alelo $X^h$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la probabilidad de que II-2 sea portadora.",
+      "modelAnswer": "Recibe $X^H$ del padre y una de las dos X de la madre: probabilidad de 1/2. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué la hemofilia es mucho más frecuente en hombres que en mujeres.",
+      "modelAnswer": "Los hombres solo tienen un cromosoma X: con un solo alelo $X^h$ ya están afectados. (1) Las mujeres necesitan dos alelos recesivos, uno de cada progenitor. (1)",
+      "marks": 2
+    }
+  ]
+}

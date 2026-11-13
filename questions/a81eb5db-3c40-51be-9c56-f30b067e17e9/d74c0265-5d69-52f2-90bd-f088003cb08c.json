@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "d74c0265-5d69-52f2-90bd-f088003cb08c",
+  "rev": 1,
+  "statement": "Había una vez un cuervo que aprendió a hablar escuchando a los hombres desde el tejado de la plaza. Aprendió primero las palabras que más se repetían: «precio», «mañana», «no hay». Después las que se gritaban: «ladrón», «fuera», «mío». Por último, ya muy viejo, las que se decían en voz baja, y fueron las que más le costaron, porque había que bajar casi hasta el suelo para oírlas.\n\nCuando por fin supo hablar, el cuervo bajó al centro de la plaza un día de mercado y pidió la palabra. Los hombres, asombrados, se callaron. Nunca habían oído hablar a un pájaro.\n\n—Os he escuchado durante cuarenta inviernos —dijo el cuervo—, y quiero deciros lo que he aprendido.\n\nLos hombres se acercaron. Algunos sacaron papel para apuntar.\n\n—He aprendido —siguió el cuervo— que decís «mío» más veces que «nuestro», y «mañana» más veces que «hoy». Que gritáis las palabras que no importan y susurráis las que sí. Que decís «no hay» cuando hay, pero no para todos.\n\nHubo un silencio incómodo. Luego, el carnicero, que era el que más gritaba, dijo que aquello era una vergüenza, que un pájaro no podía venir a dar lecciones. Los demás le dieron la razón, aliviados, y al cuervo lo echaron de la plaza a pedradas.\n\nDesde entonces el cuervo vive en el campanario y no habla con nadie. Dicen que, a veces, al anochecer, repite una sola palabra, la última que aprendió, la que más le costó oír. Pero nadie sube al campanario a comprobar cuál es.\n\n---\n\n**Pregunta guía:** ¿Cómo utiliza el texto la forma de la fábula para criticar el comportamiento humano?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "fábula",
+    "cuervo",
+    "lenguaje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Fábula moderna en la que un cuervo aprende el lenguaje humano escuchando en la plaza y, cuando por fin habla, revela a los hombres sus defectos. La comunidad, en lugar de escuchar, lo expulsa. El texto critica el egoísmo y el rechazo a la verdad incómoda.\n\n**Aspectos que conviene analizar**\n- Los rasgos de la fábula: la fórmula «Había una vez», el animal que habla, la intención moral. Se rompe, sin embargo, la moraleja explícita.\n- La gradación del aprendizaje: palabras repetidas, gritadas y susurradas, cada vez más difíciles e importantes.\n- El discurso del cuervo, construido con antítesis («mío»/«nuestro», «mañana»/«hoy», gritar/susurrar) y con la paradoja de «no hay… pero no para todos».\n- La reacción de los hombres: el carnicero como portavoz y el «alivio» de los demás, que muestran el rechazo colectivo a la crítica.\n- La violencia final (las pedradas) y el aislamiento del cuervo en el campanario.\n- El final abierto: la palabra desconocida que nadie sube a comprobar implica al lector.\n\n**Una estructura posible.** Analizar el aprendizaje del cuervo, su discurso y la reacción de la comunidad, y terminar con el sentido del final.\n\n**Cuidado con…** dar por cerrada la moraleja. El texto obliga al lector a deducirla y deja la palabra final sin revelar.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

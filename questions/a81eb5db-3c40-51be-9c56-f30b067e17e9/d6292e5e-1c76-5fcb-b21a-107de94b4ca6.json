@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "d6292e5e-1c76-5fcb-b21a-107de94b4ca6",
+  "rev": 1,
+  "statement": "**¿Cómo influye en nuestra comprensión de los hechos el hecho de verlos a través de los ojos de un personaje concreto? Responda en relación con dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8cbb01f-3344-51dd-b01f-07282802c397"
+  ],
+  "tags": [
+    "focalización",
+    "personajes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar la focalización (desde quién se ve) y cómo condiciona lo que el lector sabe, siente y juzga. **Obras adecuadas.** Novelas con focalización interna marcada, relatos con perspectiva limitada. **Esquema posible.** Quién focaliza en cada obra; qué se ve y qué se oculta; efecto en la interpretación; comparación de estrategias. **Cuidado con…** confundir focalización y narración: no siempre coinciden.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
