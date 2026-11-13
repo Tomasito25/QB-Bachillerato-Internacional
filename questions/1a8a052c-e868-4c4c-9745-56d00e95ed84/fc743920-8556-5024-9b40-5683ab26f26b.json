@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "fc743920-8556-5024-9b40-5683ab26f26b",
+  "rev": 1,
+  "statement": "¿Qué es un electrófilo?",
+  "explanation": "Los electrófilos son deficientes en electrones: H⁺, o el átomo de bromo con carga parcial positiva de una molécula de Br₂ polarizada.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "electrófilos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una especie que dona un par de electrones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una especie que acepta un par de electrones para formar un enlace nuevo.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Cualquier anión.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una especie con un electrón desapareado.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

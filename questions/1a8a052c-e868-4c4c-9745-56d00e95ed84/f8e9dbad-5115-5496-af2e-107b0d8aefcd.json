@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "f8e9dbad-5115-5496-af2e-107b0d8aefcd",
+  "rev": 1,
+  "statement": "En una reacción química en un sistema cerrado, ¿qué ocurre con la masa total?",
+  "explanation": "Los átomos se reorganizan, pero no se crean ni se destruyen; por eso hay que ajustar las ecuaciones.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "conservación de la masa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Depende de si la reacción es exotérmica",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se conserva",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Aumenta",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Disminuye",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

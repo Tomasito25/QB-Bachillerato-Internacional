@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "fe24df54-da5c-5791-8164-640957457eab",
+  "rev": 1,
+  "statement": "¿Qué es un nucleófilo?",
+  "explanation": "Los nucleófilos tienen un par solitario y suelen tener carga negativa o parcial negativa: OH⁻, H₂O, NH₃.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "nucleófilos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una especie con un electrón desapareado.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una especie que dona un par de electrones para formar un enlace nuevo.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Una especie que acepta un par de electrones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un catión metálico.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

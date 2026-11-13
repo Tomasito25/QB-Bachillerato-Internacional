@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f619d092-a59e-5428-822f-53cd47aab6b9",
+  "rev": 1,
+  "statement": "¿Por qué los cristales iónicos son frágiles y se rompen al golpearlos?",
+  "explanation": "En los metales, en cambio, las capas pueden deslizarse sin romper el enlace metálico.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "propiedades",
+    "fragilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque sus electrones se desplazan con el golpe.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un golpe desplaza las capas de iones y quedan enfrentados iones de la misma carga, que se repelen.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque sus enlaces son débiles.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque contienen moléculas de agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

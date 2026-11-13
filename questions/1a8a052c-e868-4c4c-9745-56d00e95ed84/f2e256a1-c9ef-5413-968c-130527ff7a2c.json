@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "f2e256a1-c9ef-5413-968c-130527ff7a2c",
+  "rev": 1,
+  "statement": "Los aceites vegetales se pueden convertir en grasas sólidas por hidrogenación.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "hidrogenación",
+    "reducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación de la hidrogenación del eteno e indica el catalizador.",
+      "modelAnswer": "CH₂=CH₂ + H₂ → CH₃CH₃, con níquel caliente. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la hidrogenación es una reducción.",
+      "modelAnswer": "El compuesto gana hidrógeno, (1) y el estado de oxidación de los carbonos disminuye. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el producto hidrogenado tiene un punto de fusión más alto.",
+      "modelAnswer": "Al eliminar los dobles enlaces, las cadenas son más rectas y se empaquetan mejor: las fuerzas de London son más fuertes. (1)",
+      "marks": 1
+    }
+  ]
+}

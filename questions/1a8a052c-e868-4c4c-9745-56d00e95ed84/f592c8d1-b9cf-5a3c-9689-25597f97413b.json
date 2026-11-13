@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "f592c8d1-b9cf-5a3c-9689-25597f97413b",
+  "rev": 1,
+  "statement": "¿Entre qué moléculas pueden formarse puentes de hidrógeno?",
+  "explanation": "El H unido a un átomo muy electronegativo y pequeño queda con una gran carga parcial positiva y se atrae con un par solitario de N, O o F de otra molécula.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "puentes de hidrógeno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Solo entre moléculas de agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Entre cualquier molécula que contenga hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Entre moléculas con H unido a N, O o F.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Entre moléculas con H unido a carbono.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

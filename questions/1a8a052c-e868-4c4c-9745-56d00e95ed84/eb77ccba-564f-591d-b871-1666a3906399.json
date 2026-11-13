@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "eb77ccba-564f-591d-b871-1666a3906399",
+  "rev": 1,
+  "statement": "C(s) + 2H₂(g) → CH₄(g), $\\Delta H = -75\\,\\text{kJ}$. Dadas las combustiones del carbono (−394 kJ) y del hidrógeno (−286 kJ por mol de H₂), ¿cuál es la entalpía de combustión del metano?",
+  "explanation": "$\\Delta H_c(\\mathrm{CH_4}) = -394 + 2 \\times (-286) - (-75) = -891\\,\\text{kJ mol}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "ley de Hess",
+    "formación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−891 kJ mol-1$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$−966 kJ mol-1$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$−755 kJ mol-1$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$−605 kJ mol-1$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ecfed33a-e6df-56c4-8bdd-375f341c09e4",
+  "rev": 1,
+  "statement": "¿Qué ion tiene la fórmula HCO₃⁻?",
+  "explanation": "El carbonato es CO₃²⁻; el hidrogenocarbonato lleva además un hidrógeno y tiene una carga negativa.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "iones poliatómicos",
+    "nombres"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hidróxido",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Carbono",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hidrogenocarbonato",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Carbonato",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

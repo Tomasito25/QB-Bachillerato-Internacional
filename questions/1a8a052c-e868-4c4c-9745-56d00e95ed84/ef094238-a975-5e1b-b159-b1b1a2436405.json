@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "ef094238-a975-5e1b-b159-b1b1a2436405",
+  "rev": 1,
+  "statement": "La reacción H₂(g) + F₂(g) → 2HF(g) es muy exotérmica. Entalpías de enlace / kJ mol⁻¹: H–H, 436; F–F, 159; H–F, 567.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "enlaces",
+    "perfil"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula $\\Delta H$ de la reacción.",
+      "modelAnswer": "$(436 + 159) - 2 \\times 567 = 595 - 1134 = -539\\,\\text{kJ}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la reacción es tan exotérmica, en términos de enlaces.",
+      "modelAnswer": "El enlace F–F es muy débil y el H–F muy fuerte: (1) se necesita poca energía para romper los enlaces de los reactivos y se libera mucha al formar los de los productos. (1)",
+      "marks": 2
+    }
+  ]
+}

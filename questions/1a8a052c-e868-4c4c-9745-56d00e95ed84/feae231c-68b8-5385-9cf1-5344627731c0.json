@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "feae231c-68b8-5385-9cf1-5344627731c0",
+  "rev": 1,
+  "statement": "¿Qué es el enlace metálico?",
+  "explanation": "Los electrones de valencia no pertenecen a un átomo concreto: se mueven por toda la red.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "enlace metálico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La compartición de pares de electrones entre átomos vecinos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La atracción entre iones positivos y negativos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La atracción entre moléculas de metal.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La atracción electrostática entre una red de cationes y un mar de electrones deslocalizados.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

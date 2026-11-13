@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f283aefc-d6f5-5132-ae02-790f7256ed18",
+  "rev": 1,
+  "statement": "En la reacción Zn + Cu²⁺ → Zn²⁺ + Cu, ¿qué especie se oxida?",
+  "explanation": "El cinc pasa de 0 a +2: pierde electrones. Los iones cobre(II) los ganan y se reducen a cobre.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "estados de oxidación",
+    "redox"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El cobre",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El ion cinc",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El ion cobre(II)",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El cinc",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "f1bc3087-4224-5376-bf12-25bd365f0c03",
+  "rev": 1,
+  "statement": "El ion hidrogenosulfato reacciona con el agua: HSO₄⁻(aq) + H₂O(l) ⇌ SO₄²⁻(aq) + H₃O⁺(aq).",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "Brønsted-Lowry",
+    "pares conjugados"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Identifica los dos pares ácido-base conjugados.",
+      "modelAnswer": "HSO₄⁻/SO₄²⁻. (1) H₃O⁺/H₂O. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el agua actúa aquí como base de Brønsted-Lowry.",
+      "modelAnswer": "Acepta un protón del HSO₄⁻ y se convierte en H₃O⁺. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Escribe una ecuación en la que el ion HSO₄⁻ actúe como base.",
+      "modelAnswer": "Por ejemplo, HSO₄⁻ + H₃O⁺ → H₂SO₄ + H₂O, o con cualquier ácido más fuerte. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica qué significa que el agua sea anfiprótica.",
+      "modelAnswer": "Puede ceder un protón (y formar OH⁻) o aceptarlo (y formar H₃O⁺). (1)",
+      "marks": 1
+    }
+  ]
+}

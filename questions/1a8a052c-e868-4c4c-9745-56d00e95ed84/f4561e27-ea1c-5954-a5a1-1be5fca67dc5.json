@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "f4561e27-ea1c-5954-a5a1-1be5fca67dc5",
+  "rev": 1,
+  "statement": "¿Qué ion tiene la configuración electrónica $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6$?",
+  "explanation": "Es la configuración del argón (18 electrones). El potasio (19) pierde uno. Los otros tres iones tienen 10 electrones, como el neón.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "iones isoelectrónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Al³⁺",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "F⁻",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Na⁺",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "K⁺",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

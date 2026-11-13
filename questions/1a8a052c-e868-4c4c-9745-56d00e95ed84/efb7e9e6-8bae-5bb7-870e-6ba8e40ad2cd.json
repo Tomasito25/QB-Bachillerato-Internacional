@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "efb7e9e6-8bae-5bb7-870e-6ba8e40ad2cd",
+  "rev": 1,
+  "statement": "¿Qué configuración electrónica tienen los iones del fluoruro de magnesio, MgF₂?",
+  "explanation": "Mg²⁺ pierde dos electrones (12 − 2 = 10) y F⁻ gana uno (9 + 1 = 10): ambos quedan con 10 electrones.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "configuración de los iones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:47.000Z",
+  "updatedAt": "2026-11-13T05:51:47.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los dos tienen la configuración del argón.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El magnesio tiene la del argón y el flúor, la del neón.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los dos iones tienen la configuración del neón.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El magnesio tiene la del neón y el flúor, la del helio.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
