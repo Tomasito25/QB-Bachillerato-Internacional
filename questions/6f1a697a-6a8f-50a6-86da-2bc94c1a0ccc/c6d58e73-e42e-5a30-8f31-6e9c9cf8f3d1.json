@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c6d58e73-e42e-5a30-8f31-6e9c9cf8f3d1",
+  "rev": 1,
+  "statement": "¿Cuántos tripéptidos distintos se pueden formar con los 20 aminoácidos?",
+  "explanation": "Hay 20 opciones para cada una de las tres posiciones: $20^3 = 8000$. Con cadenas largas, el número de secuencias posibles es prácticamente infinito.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "diversidad de péptidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "60",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "400",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "1140",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "8000",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "c7ff20ec-458d-5c78-89f4-32765c9261c1",
+  "rev": 1,
+  "statement": "La comparación de estructuras anatómicas aporta pruebas de la evolución.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "homólogas",
+    "análogas",
+    "convergencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre estructuras homólogas y análogas, con un ejemplo de cada tipo.",
+      "modelAnswer": "Homólogas: misma estructura básica por un origen común, aunque tengan funciones distintas, como la extremidad pentadáctila del ser humano y la aleta de la ballena. (1) Análogas: misma función con estructura y origen diferentes, como el ala de un ave y la de un insecto. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica cómo surgen las estructuras análogas.",
+      "modelAnswer": "Por evolución convergente: linajes no emparentados que viven en ambientes parecidos sufren presiones de selección parecidas. (1) La selección natural favorece en cada uno rasgos que resuelven el mismo problema. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué las estructuras homólogas son una prueba de la evolución y las análogas no lo son del parentesco.",
+      "modelAnswer": "Un mismo plan corporal en organismos con modos de vida distintos se explica mejor por la herencia de un antepasado común. (1) Las análogas se parecen por su función y no indican parentesco; pueden llevar a error si se usan para clasificar. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c6b96bf1-60bc-5e48-97af-5c7a5beb397f",
+  "rev": 1,
+  "statement": "En una muestra de ADN de doble cadena, el 30 % de las bases son adenina. ¿Qué porcentaje son guanina?",
+  "explanation": "Si A = 30 %, T = 30 % por complementariedad. Quedan 40 % para G y C, que están en la misma proporción: 20 % cada una.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "complementariedad de bases",
+    "proporción de bases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "20 %",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "30 %",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "40 %",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "70 %",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

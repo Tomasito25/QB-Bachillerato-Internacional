@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "c860a167-9b93-5084-b4b8-27df67ba0c56",
+  "rev": 1,
+  "statement": "La fecundación in vitro (FIV) se usa cuando una pareja no consigue un embarazo de forma natural.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "FIV"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe los pasos principales de la FIV.",
+      "modelAnswer": "Se suprime el ciclo natural y se estimula con FSH la maduración de varios folículos. (1) Se recogen los ovocitos y se fecundan con espermatozoides en el laboratorio. (1) Se transfieren uno o dos embriones al útero. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Sugiere una razón por la que se transfiere más de un embrión en algunos casos.",
+      "modelAnswer": "Para aumentar la probabilidad de que al menos uno se implante, aunque aumenta el riesgo de embarazo múltiple. (1)",
+      "marks": 1
+    }
+  ]
+}

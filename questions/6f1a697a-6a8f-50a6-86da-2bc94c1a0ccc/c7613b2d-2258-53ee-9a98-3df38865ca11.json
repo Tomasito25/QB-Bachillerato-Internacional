@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c7613b2d-2258-53ee-9a98-3df38865ca11",
+  "rev": 1,
+  "statement": "¿Qué adaptación del espermatozoide le permite llegar al óvulo?",
+  "explanation": "El espermatozoide es pequeño y móvil; las mitocondrias aportan la energía para el batido del flagelo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "espermatozoide",
+    "adaptaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un gran citoplasma con reservas de nutrientes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un flagelo, con muchas mitocondrias en la pieza intermedia que aportan ATP para el movimiento.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Una cubierta gruesa de glicoproteínas que lo protege.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Varios núcleos para aumentar la probabilidad de fecundación.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

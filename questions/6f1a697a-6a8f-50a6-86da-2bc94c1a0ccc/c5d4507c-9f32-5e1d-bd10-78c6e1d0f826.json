@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "c5d4507c-9f32-5e1d-bd10-78c6e1d0f826",
+  "rev": 1,
+  "statement": "Las enzimas hacen posibles las reacciones del metabolismo a la temperatura del cuerpo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "energía de activación",
+    "encaje inducido"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo una enzima reduce la energía de activación de una reacción.",
+      "modelAnswer": "El sustrato se une al sitio activo y la enzima cambia ligeramente de forma (encaje inducido). (1) Esto tensiona o debilita los enlaces del sustrato, o acerca a los reactivos en la orientación adecuada, y la reacción necesita menos energía. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Distingue entre reacciones anabólicas y catabólicas, con un ejemplo de cada una.",
+      "modelAnswer": "Anabólicas: forman moléculas complejas a partir de otras simples, como la síntesis de proteínas o la fotosíntesis. (1) Catabólicas: rompen moléculas complejas en otras más simples, como la digestión o la respiración celular. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué las enzimas son específicas.",
+      "modelAnswer": "El sitio activo tiene una forma y unas propiedades químicas complementarias de un sustrato concreto. (1) Otras moléculas no se ajustan a él. (1)",
+      "marks": 2
+    }
+  ]
+}

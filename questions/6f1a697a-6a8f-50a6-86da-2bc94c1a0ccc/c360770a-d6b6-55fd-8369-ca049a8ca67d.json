@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "c360770a-d6b6-55fd-8369-ca049a8ca67d",
+  "rev": 1,
+  "statement": "¿Qué comparación entre arterias y venas es correcta?",
+  "explanation": "La baja presión de las venas no requiere paredes gruesas, y la luz ancha reduce la resistencia. La arteria pulmonar lleva sangre desoxigenada.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "venas",
+    "arterias",
+    "comparación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las venas transportan la sangre a mayor presión que las arterias.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las arterias siempre llevan sangre oxigenada y las venas, desoxigenada.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las venas tienen la pared más fina y la luz más ancha que las arterias.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Las arterias tienen válvulas a lo largo de todo su recorrido y las venas no.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

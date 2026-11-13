@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "c11b23d6-954b-5e3e-8087-16d3c0308072",
+  "rev": 1,
+  "statement": "La gráfica muestra la concentración de tres hormonas en la sangre de una mujer a lo largo de un ciclo menstrual de 28 días.\n\n![Concentración de LH, estradiol y progesterona en sangre a lo largo de un ciclo menstrual](qbimg:8fa6b309d5c3d6fca16c723889044f86d04393c26d2afdd0831ff2306c1bbc80)",
+  "images": [
+    {
+      "hash": "8fa6b309d5c3d6fca16c723889044f86d04393c26d2afdd0831ff2306c1bbc80",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 33781,
+      "alt": "Concentración de LH, estradiol y progesterona en sangre a lo largo de un ciclo menstrual"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "ciclo menstrual",
+    "hormonas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica el día en que es más probable que ocurra la ovulación. Justifica tu respuesta.",
+      "modelAnswer": "Hacia el día 14, (1) cuando la LH alcanza su máximo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica el aumento de progesterona entre los días 15 y 21.",
+      "modelAnswer": "Tras la ovulación, el folículo vacío se convierte en el cuerpo lúteo, (1) que secreta progesterona. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica qué ocurre con el endometrio al final del ciclo si no hay embarazo.",
+      "modelAnswer": "El cuerpo lúteo degenera y baja la progesterona. (1) El endometrio deja de mantenerse y se desprende: menstruación. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué la LH se mantiene baja en la segunda mitad del ciclo.",
+      "modelAnswer": "La progesterona (y el estradiol) inhiben la secreción de FSH y LH: retroalimentación negativa. (1)",
+      "marks": 1
+    }
+  ]
+}

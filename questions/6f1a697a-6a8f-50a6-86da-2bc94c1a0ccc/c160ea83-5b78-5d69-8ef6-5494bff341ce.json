@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c160ea83-5b78-5d69-8ef6-5494bff341ce",
+  "rev": 1,
+  "statement": "¿Qué es la ósmosis?",
+  "explanation": "El agua se mueve hacia donde hay más solutos disueltos, porque allí hay menos moléculas de agua libres. No se gasta ATP.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "ósmosis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El movimiento de solutos desde la región de mayor concentración a la de menor concentración.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El movimiento neto de agua a través de una membrana parcialmente permeable desde la región de menor concentración de solutos a la de mayor concentración.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El transporte de agua con gasto de ATP.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La salida de agua de la célula por exocitosis.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

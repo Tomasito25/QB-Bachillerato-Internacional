@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "c83ca4c8-4cb0-5d73-8352-2ad9c89423db",
+  "rev": 1,
+  "statement": "**«Toda la literatura habla, de un modo u otro, de la libertad.» Discuta esta afirmación en relación con dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "93f068fc-d4a3-5e83-93bf-84d9300b44cc"
+  ],
+  "tags": [
+    "libertad",
+    "opresión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Valorar si la libertad (política, personal, creativa) es un tema central en las obras y cómo se presenta. Se puede matizar o discutir la generalización. **Obras adecuadas.** Obras con personajes que buscan la libertad o la pierden; también obras en que el tema es secundario, para discutir la afirmación. **Esquema posible.** Presencia y forma del tema en cada obra; recursos; límites de la afirmación; tesis matizada. **Cuidado con…** aceptar la afirmación sin examinarla.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "cbdd2e2c-fb9a-584c-bc19-56f3e72a6bc4",
+  "rev": 1,
+  "statement": "La meiosis produce gametos genéticamente distintos entre sí.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "meiosis",
+    "variación",
+    "no disyunción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica dos maneras en que la meiosis genera variación genética.",
+      "modelAnswer": "Sobrecruzamiento: en la profase I, cromátidas de cromosomas homólogos intercambian fragmentos y forman combinaciones nuevas de alelos. (2) Orientación aleatoria: en la metafase I, cada par de homólogos se orienta al azar, de modo que los cromosomas maternos y paternos se reparten en combinaciones distintas. (2)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica cómo la no disyunción puede causar el síndrome de Down.",
+      "modelAnswer": "En la meiosis, los dos cromosomas 21 (o sus cromátidas) no se separan. (1) Se forma un gameto con dos cromosomas 21 que, al unirse a uno normal, da un cigoto con tres. (1)",
+      "marks": 2
+    }
+  ]
+}

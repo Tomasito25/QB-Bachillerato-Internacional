@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c4102242-47a5-5ea1-ac26-220df6f31e05",
+  "rev": 1,
+  "statement": "Tras la degradación de la acetilcolina en la hendidura sináptica, ¿qué ocurre con la colina?",
+  "explanation": "El reciclaje de la colina permite a la neurona presináptica reponer su neurotransmisor.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "acetilcolina",
+    "colina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Entra en la neurona postsináptica y provoca otro impulso.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se queda en la hendidura y bloquea la sinapsis.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Pasa a la sangre y se elimina por el riñón sin volver a usarse.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La neurona presináptica la reabsorbe y la usa para fabricar de nuevo acetilcolina.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "c4893f53-6290-55bc-bdd8-61f330afaa3f",
+  "rev": 1,
+  "statement": "**El último cliente**\n\n*Una barbería antigua, con un sillón de cuero gastado y un espejo con manchas. Cajas de cartón por el suelo. RAMIRO, setenta y cuatro años, barbero, mete tijeras en una caja. Suena la campanilla de la puerta. Entra FERMÍN, de la misma edad, con boina.*\n\nRAMIRO.—Está cerrado.\n\nFERMÍN.—La puerta estaba abierta.\n\nRAMIRO.—Porque estoy sacando las cajas. Cerramos hoy. Para siempre.\n\nFERMÍN.—Por eso he venido. *(Se quita la boina.)* Quiero que me cortes el pelo.\n\nRAMIRO.—*(Se ríe, seco.)* Tú. Que llevas cuarenta años yendo a la peluquería de enfrente para no darme el gusto.\n\nFERMÍN.—La de enfrente cerró en marzo.\n\nRAMIRO.—Ya lo sé. Fui al entierro del dueño. Tú no.\n\n*Pausa. FERMÍN se sienta en el sillón sin que se lo ofrezcan.*\n\nFERMÍN.—Cuarenta años, Ramiro. Por una novia que nos dejó a los dos y se casó con un notario de Zaragoza.\n\nRAMIRO.—Por una novia, no. Por lo que dijiste en el baile.\n\nFERMÍN.—No me acuerdo de lo que dije en el baile.\n\nRAMIRO.—*(Coge la capa, la sacude.)* Yo sí. *(Se la pone a FERMÍN alrededor del cuello, con cuidado.)* Pero ya da igual.\n\n*RAMIRO saca de la caja las tijeras y el peine. Empieza a cortar. Silencio. Solo el ruido de las tijeras.*\n\nFERMÍN.—¿Qué dije?\n\nRAMIRO.—Que yo nunca sería nada más que un barbero.\n\nFERMÍN.—*(Pausa.)* Pues tenía razón.\n\nRAMIRO.—*(Sigue cortando.)* La tenías. *(Pausa.)* Y ha estado bien.\n\n*FERMÍN cierra los ojos. RAMIRO corta despacio, como si quisiera que no se acabara. La luz baja sobre los dos, reflejados en el espejo manchado.*\n\n---\n\n**Pregunta guía:** ¿Cómo se resuelve en la escena una rivalidad antigua y qué papel tiene el oficio del protagonista?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "oficio",
+    "rivalidad",
+    "cierre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El día en que cierra su barbería, Ramiro recibe a su último cliente: Fermín, el rival con quien no se habla desde hace cuarenta años. El corte de pelo se convierte en un ritual de reconciliación en el que ninguno pide perdón de forma explícita.\n\n**Aspectos que conviene analizar**\n- El espacio: la barbería antigua con el sillón gastado, el espejo con manchas y las cajas de la mudanza, imagen de un mundo que se acaba.\n- El diálogo seco y lleno de reproches (la peluquería de enfrente, el entierro al que Fermín no fue).\n- El origen de la enemistad y la diferencia entre lo que cada uno recuerda: la novia frente a la frase del baile.\n- Los gestos de Ramiro: sacudir la capa, ponerla «con cuidado», cortar despacio. El oficio como forma de cuidado.\n- La revelación de la frase («nada más que un barbero») y la respuesta final («Y ha estado bien»), que reivindica una vida sencilla.\n- El final: los ojos cerrados de Fermín, el corte que no quiere acabar y el reflejo de los dos en el espejo manchado.\n\n**Una estructura posible.** Analizar la escena en tres momentos (el reencuentro hostil, la revelación, la reconciliación silenciosa) y el papel de los objetos del oficio.\n\n**Cuidado con…** contar la historia de la rivalidad. Analiza cómo se resuelve sin decir «perdón».",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

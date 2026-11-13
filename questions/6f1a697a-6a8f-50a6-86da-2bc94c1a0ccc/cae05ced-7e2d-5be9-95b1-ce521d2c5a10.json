@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "cae05ced-7e2d-5be9-95b1-ce521d2c5a10",
+  "rev": 1,
+  "statement": "¿Por qué el sudor enfría el cuerpo?",
+  "explanation": "La evaporación del agua necesita mucha energía, que se toma de la piel. En aire muy húmedo, el sudor apenas se evapora y enfría poco.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "sudoración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque al evaporarse el agua absorbe mucho calor de la piel.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque el sudor refleja la radiación solar.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque el sudor está más frío que la sangre.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque el sudor impide que llegue sangre a la piel.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

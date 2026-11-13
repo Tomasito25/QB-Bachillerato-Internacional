@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "cba8334e-dc20-55c4-99f3-ded8102a10a9",
+  "rev": 1,
+  "statement": "Hay dos métodos habituales para estimar el tamaño de una población.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "captura-recaptura",
+    "cuadrantes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:26.000Z",
+  "updatedAt": "2026-11-13T05:55:26.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se estima con cuadrantes el número de plantas de una especie en un prado.",
+      "modelAnswer": "Se colocan cuadrantes al azar (con coordenadas aleatorias). (1) Se cuentan los individuos de cada uno y se calcula la densidad media por m². (1) Se multiplica por el área total del prado. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los cuadrantes no sirven para estimar la población de ratones de campo.",
+      "modelAnswer": "Los ratones se mueven y se esconden: no se pueden contar en un área fija. (1) Para animales móviles se usa la captura, marcado y recaptura. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "En un muestreo se marcaron 60 ratones. Más tarde se capturaron 45, de los que 9 estaban marcados. Calcula el tamaño de la población.",
+      "modelAnswer": "$N = \\dfrac{60 \\times 45}{9} = 300$ ratones. (1)",
+      "marks": 1
+    }
+  ]
+}
