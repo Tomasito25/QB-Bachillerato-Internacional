@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "71be6483-83dd-5cc0-acbf-4f3798cf3198",
+  "rev": 1,
+  "statement": "¿Qué diferencia hay entre las proteínas integrales y las periféricas de la membrana?",
+  "explanation": "Las integrales tienen regiones hidrófobas que se insertan en la bicapa (algunas la atraviesan); las periféricas se unen a la superficie o a otras proteínas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "proteínas de membrana",
+    "integrales",
+    "periféricas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las integrales son glúcidos y las periféricas, lípidos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las integrales están solo en la cara externa y las periféricas, solo en la interna.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las integrales están incrustadas en la bicapa hidrófoba; las periféricas están unidas a su superficie.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Las periféricas atraviesan la membrana y las integrales no.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

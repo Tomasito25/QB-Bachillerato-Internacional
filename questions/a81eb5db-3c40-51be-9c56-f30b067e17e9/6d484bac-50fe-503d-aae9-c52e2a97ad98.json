@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "6d484bac-50fe-503d-aae9-c52e2a97ad98",
+  "rev": 1,
+  "statement": "**Elogio de caminar**\n\nCaminar es la manera más lenta de llegar a los sitios y la más rápida de entenderlos. Lo descubrí tarde, a los treinta y tantos, cuando se me estropeó el coche y durante tres semanas tuve que ir andando al trabajo: cuarenta minutos de ida y cuarenta de vuelta por una ciudad que creía conocer y de la que, resultó, solo conocía las rotondas.\n\nA pie, la ciudad cambia de escala. Las distancias dejan de medirse en minutos y empiezan a medirse en cosas: la frutería con el gato en el escaparate, el solar donde crecen amapolas en abril, la ventana del tercero en la que alguien ensaya cada mañana la misma pieza de piano y siempre falla en el mismo compás. Al cabo de una semana, yo esperaba ese fallo como se espera el estribillo de una canción.\n\nCaminar tiene algo de pensamiento físico. Los pasos ordenan las ideas, o las desordenan de una manera fértil: muchas de las decisiones importantes de mi vida las he tomado andando, y casi ninguna sentado frente a una mesa. Quizá porque el cuerpo en movimiento deja a la mente un margen de libertad, como un perro al que se le alarga la correa.\n\nHoy, en cambio, todo nos invita a no caminar. Las aceras se estrechan, las ciudades se diseñan para los coches y nosotros medimos los pasos con una aplicación que nos felicita cuando llegamos a diez mil, como si caminar fuera una tarea más que cumplir. Pero caminar no es hacer ejercicio. Caminar es estar en un lugar sin la obligación de llegar a otro.\n\nArreglé el coche, claro. Pero algunos días lo dejo en casa. Por el gato, por las amapolas. Y por el pianista del tercero, que este invierno, por fin, ha conseguido no fallar.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el texto la anécdota personal y la reflexión para defender una idea?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "ensayo",
+    "caminar",
+    "lentitud",
+    "ciudad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Ensayo personal que defiende el valor de caminar a partir de una experiencia concreta: tres semanas sin coche. El autor contrasta la ciudad vista a pie con la ciudad de las rotondas y critica la conversión del paseo en un ejercicio medido por aplicaciones.\n\n**Aspectos que conviene analizar**\n- La frase inicial paradójica («la más lenta… la más rápida de entenderlos»), que funciona como tesis.\n- La anécdota del coche estropeado y la ironía de conocer solo «las rotondas».\n- El cambio de escala: las distancias medidas «en cosas» y la enumeración de detalles (el gato, las amapolas, el pianista que falla en el mismo compás).\n- La reflexión sobre caminar como «pensamiento físico» y la comparación del perro con la correa larga.\n- La crítica al presente (aceras estrechas, ciudades para coches, aplicaciones de pasos) y la definición final: «estar en un lugar sin la obligación de llegar a otro».\n- El final circular, con el regreso de los detalles y la nota de humor del pianista que «por fin» no falla.\n\n**Una estructura posible.** Seguir la estructura del ensayo (anécdota, descubrimiento, reflexión, crítica y conclusión) y analizar cómo la experiencia personal da credibilidad a la tesis.\n\n**Cuidado con…** valorar si caminar es bueno o no. La pregunta pide analizar cómo el texto lo argumenta.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

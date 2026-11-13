@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "71942da1-bb01-5c30-87df-2a51952aaa0f",
+  "rev": 1,
+  "statement": "¿Cuál de estas es una adaptación de una presa para resistir la depredación?",
+  "explanation": "El camuflaje, las espinas, las sustancias tóxicas o la vida en grupo protegen a las presas. Las otras opciones son adaptaciones de depredadores.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "depredación",
+    "adaptaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ojos dirigidos hacia delante que calculan bien las distancias.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una coloración que la camufla con el fondo.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Un veneno inyectado con colmillos para matar.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Garras afiladas para sujetar a otros animales.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

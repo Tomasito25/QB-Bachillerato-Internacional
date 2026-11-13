@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "70b95cee-c575-59b5-9daa-ac3aa3b3bc67",
+  "rev": 1,
+  "statement": "**Ensayo general**\n\n*Un escenario casi vacío, con la luz de trabajo encendida. Dos sillas. CLARA y TOMÁS, actores, con el texto en la mano. Se nota que llevan horas ensayando.*\n\nTOMÁS.—*(Leyendo, con intención.)* «No me pidas que me quede si tú ya te has ido.»\n\nCLARA.—*(Leyendo.)* «No me he ido. Estoy aquí.»\n\nTOMÁS.—«Estás aquí como están los muebles.»\n\n*CLARA cierra el libreto.*\n\nCLARA.—Esa frase es horrible.\n\nTOMÁS.—Es la frase del autor.\n\nCLARA.—Ya sé de quién es. Digo que es horrible decirla así, como si la hubieras estado esperando toda la tarde.\n\nTOMÁS.—Es mi personaje. Está dolido.\n\nCLARA.—¿Tu personaje? *(Pausa.)* Tú no estás dolido. Tú estás cómodo. Llevas tres meses cómodo.\n\n*TOMÁS deja el libreto en la silla. La luz de trabajo zumba.*\n\nTOMÁS.—Clara, esto es un ensayo.\n\nCLARA.—Pues ensayemos. *(Abre el libreto y busca la página con rabia.)* «Estás aquí como están los muebles.» Venga, contéstame. Contéstale.\n\nTOMÁS.—*(Sin libreto, despacio.)* No me sé la siguiente.\n\nCLARA.—Te la sabes. Llevamos semanas con ella.\n\nTOMÁS.—Me sé la del personaje. La mía no.\n\n*Silencio. Desde el patio de butacas, una voz lejana: «¿Seguimos o lo dejamos por hoy?». Ninguno de los dos contesta.*\n\nCLARA.—*(Sin mirarlo.)* Seguimos.\n\n*Se sientan en las dos sillas, uno frente al otro. Abren los libretos. No leen.*\n\n*Oscuro lento.*\n\n---\n\n**Pregunta guía:** ¿Cómo se sirve la escena del teatro dentro del teatro para presentar el conflicto entre los personajes?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "metateatro",
+    "ruptura",
+    "ensayo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Dos actores ensayan una escena de ruptura que se parece demasiado a su propia relación. Las frases del libreto sirven para decir lo que ellos no se atreven a decirse, hasta que la ficción y la realidad se confunden y el ensayo se detiene.\n\n**Aspectos que conviene analizar**\n- El metateatro: el ensayo como marco que permite a los personajes hablar de sí mismos a través de otros personajes.\n- El doble sentido de las réplicas del libreto («Estás aquí como están los muebles») y su repetición con intención distinta.\n- La progresión del conflicto: de la crítica de la frase a la acusación directa («Llevas tres meses cómodo»).\n- La réplica clave de Tomás: «Me sé la del personaje. La mía no», que distingue el papel de la persona.\n- Las acotaciones: la luz de trabajo que «zumba», el libreto cerrado o abandonado, los silencios y el «Oscuro lento».\n- La voz del patio de butacas, que recuerda el mundo exterior, y el final abierto: se sientan a seguir, pero no leen.\n\n**Una estructura posible.** Seguir los tres momentos de la escena (ensayo, ruptura del ensayo, regreso imposible al libreto) y analizar en cada uno cómo se mezclan ficción y realidad.\n\n**Cuidado con…** tratar el diálogo del libreto como si fuera solo una cita. Su función dramática es decir lo que los actores no dicen.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "6f043004-780b-52ec-b25d-680dca748337",
+  "rev": 1,
+  "statement": "La resistencia a los antibióticos es una de las principales amenazas para la salud mundial.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "antibióticos",
+    "resistencia",
+    "zoonosis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué los antibióticos dañan a las bacterias pero no a las células humanas.",
+      "modelAnswer": "Bloquean procesos propios de las bacterias, como la síntesis de su pared o de sus ribosomas 70S. (1) Las células humanas no tienen esa pared y sus ribosomas son distintos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica cómo evoluciona la resistencia a un antibiótico en una población de bacterias.",
+      "modelAnswer": "Por mutación aparecen algunas bacterias resistentes. (1) El antibiótico mata a las sensibles y las resistentes sobreviven y se reproducen: selección natural. (1) La siguiente generación tiene una proporción mayor de resistentes. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere dos medidas para frenar la aparición de resistencias.",
+      "modelAnswer": "Dos de: no usar antibióticos contra virus; completar el tratamiento según lo prescrito; reducir su uso en ganadería; mejorar la higiene para evitar infecciones; desarrollar nuevos antibióticos. (1 por cada una, hasta 2)",
+      "marks": 2
+    }
+  ]
+}

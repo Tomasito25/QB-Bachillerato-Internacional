@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "704acfd2-081f-51f5-a418-ee1ee619e11e",
+  "rev": 1,
+  "statement": "**¿De qué manera y con qué efecto presentan los autores a personajes que se oponen al protagonista en dos de las obras que ha estudiado?**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "7c0d54dc-0c20-5faf-8f1e-2d7a893aa253"
+  ],
+  "tags": [
+    "personajes",
+    "antagonistas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar al antagonista (o a las fuerzas que se oponen) y el efecto de su presentación: tensión, simpatía o rechazo del lector, refuerzo del tema. **Obras adecuadas.** Obras con un conflicto claro entre personajes; también sirve un antagonista colectivo o social. **Esquema posible.** Definir qué se entiende por antagonista; comparar su caracterización (directa, indirecta, a través de otros); analizar cómo cambia la percepción del lector; concluir con el efecto en el sentido global. **Cuidado con…** tratar al antagonista como un simple «malo». Las mejores respuestas muestran su complejidad.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

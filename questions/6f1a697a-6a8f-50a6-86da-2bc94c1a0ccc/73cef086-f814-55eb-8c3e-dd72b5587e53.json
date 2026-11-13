@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "73cef086-f814-55eb-8c3e-dd72b5587e53",
+  "rev": 1,
+  "statement": "¿Qué procesos generan la variación sobre la que actúa la selección natural?",
+  "explanation": "La mutación crea alelos nuevos; la meiosis y la fecundación los combinan de formas nuevas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "variación",
+    "origen"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La propia selección natural.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Solo los cambios del ambiente.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La mutación y la reproducción sexual (meiosis y fecundación).",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El uso y el desuso de los órganos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "7406334a-5de9-5ca3-86cf-93524d6a0d48",
+  "rev": 1,
+  "statement": "Una célula humana consume y regenera su ATP continuamente.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "ATP",
+    "energía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica tres procesos celulares que necesitan la energía del ATP.",
+      "modelAnswer": "Transporte activo; (1) síntesis de macromoléculas, como las proteínas; (1) movimiento, como la contracción muscular o el de los cromosomas en la división. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica la relación entre la hidrólisis del ATP y la respiración celular.",
+      "modelAnswer": "La hidrólisis del ATP a ADP y fosfato libera la energía que usan esos procesos. (1) La respiración aporta la energía necesaria para volver a formar ATP a partir de ADP y fosfato. (1)",
+      "marks": 2
+    }
+  ]
+}

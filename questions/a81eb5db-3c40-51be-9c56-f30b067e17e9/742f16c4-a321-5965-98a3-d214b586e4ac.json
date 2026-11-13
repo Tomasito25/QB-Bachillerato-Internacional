@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "742f16c4-a321-5965-98a3-d214b586e4ac",
+  "rev": 1,
+  "statement": "Querido hijo:\n\nTe escribo con la pluma que me dejaste, que sigue gastando más tinta de la que debe, así que perdona los borrones. Aquí todo sigue igual, que es lo que se dice cuando no se quiere decir que todo ha cambiado. Ha llovido poco. La vaca pinta ha tenido un ternero que no es tuyo, quiero decir que no es de la pinta que tú conocías, porque a esa la vendimos en marzo para pagar lo del médico. No te asustes: lo del médico no era nada, una cosa de los ojos, ya veo bien, por eso te escribo yo y no la vecina.\n\nTu padre no ha querido escribir. Dice que no tiene nada que contar, pero por las noches, cuando cree que estoy dormida, saca tu foto de la caja de los papeles y la mira con la lámpara. Yo hago como que no lo oigo. Los hombres de esta casa siempre habéis hablado mejor con los ojos que con la boca, y él más que ninguno.\n\nMe preguntas si me hace falta algo. Me hace falta que me escribas más largo. Tus cartas son tan cortas que me las aprendo antes de llegar a la cocina. Cuéntame cómo es la fábrica, qué comes, si tienes una manta buena, si hay alguien que te planche las camisas. Cuéntame cómo se dice pan en ese idioma, para que pueda decirlo yo también cuando lo amase.\n\nEn la plaza dicen que allí se gana mucho y que algunos ya no vuelven. Yo les digo que tú volverás, porque te dejaste la navaja, y un hombre no se va para siempre sin su navaja. Ellos se ríen. Yo la tengo guardada en el cajón de la mesilla, por si acaso.\n\nAbrígate. Come. Escribe.\n\nTu madre.\n\n---\n\n**Pregunta guía:** ¿Cómo revela la forma de la carta la personalidad de la narradora y lo que no se atreve a decir?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "carta",
+    "emigración",
+    "voz"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Carta de una madre campesina a su hijo emigrado a trabajar en una fábrica extranjera. Bajo la apariencia de noticias cotidianas, la carta deja ver la pobreza, la enfermedad, el dolor del padre y el miedo de la madre a que el hijo no vuelva.\n\n**Aspectos que conviene analizar**\n- La forma epistolar: destinatario explícito, tono oral y digresiones que dan verosimilitud y cercanía a la voz.\n- Lo que se dice y lo que se oculta: «todo sigue igual» como fórmula para no decir que todo ha cambiado; la venta de la vaca y la enfermedad, minimizadas para no preocupar.\n- El retrato indirecto del padre, que no escribe pero mira la foto de noche: el silencio como forma de amor.\n- Las peticiones concretas y la ternura humorística: cartas tan cortas que se aprenden antes de llegar a la cocina; querer saber cómo se dice pan.\n- La navaja como símbolo de la esperanza del regreso, guardada «por si acaso».\n- El cierre con tres imperativos breves, que concentran todo el cariño en lo esencial.\n\n**Una estructura posible.** Analizar la carta por bloques (noticias, el padre, las peticiones, el miedo al no retorno, la despedida) y mostrar cómo crece la emoción que la madre intenta contener.\n\n**Cuidado con…** tomar al pie de la letra lo que dice la narradora. La clave está en leer entre líneas lo que calla.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

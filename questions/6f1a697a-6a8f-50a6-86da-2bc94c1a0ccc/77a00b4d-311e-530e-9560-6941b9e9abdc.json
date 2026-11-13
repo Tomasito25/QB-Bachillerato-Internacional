@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "77a00b4d-311e-530e-9560-6941b9e9abdc",
+  "rev": 1,
+  "statement": "En un prado de $1200\\,\\text{m}^{2}$ se colocan al azar 20 cuadrantes de $0{,}5\\,\\text{m}^{2}$ y se cuentan 100 plantas de margarita en total. ¿Cuál es la estimación de la población?",
+  "explanation": "Densidad: $\\dfrac{100}{20 \\times 0{,}5} = 10$ plantas por m². Población: $10 \\times 1200 = 12\\,000$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "cuadrantes",
+    "estimación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "2400",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "6000",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "12 000",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "24 000",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

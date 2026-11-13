@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "6fad752a-ae64-5656-9590-3702751011eb",
+  "rev": 1,
+  "statement": "**Fotografías**\n\nEn la plaza hay mujeres con fotografías.\nLas llevan colgadas del cuello\ncomo se lleva un escapulario,\nuna medalla,\nun peso.\n\nLas fotos son en blanco y negro.\nLos jóvenes de las fotos no envejecen:\ntienen veinte años desde hace cuarenta,\nel pelo peinado con agua,\nla sonrisa del día del carné.\n\nLas mujeres, en cambio, sí envejecen.\nPrimero dejaron de ser jóvenes,\nluego de ser madres de alguien\nque vuelve a casa a cenar.\nAhora son madres de una pregunta.\n\nCada jueves dan vueltas a la plaza,\ndespacio, sin gritar,\nporque el grito ya se lo dieron\nal primer año\ny nadie contestó.\n\nPasan los turistas, hacen fotos\nde las mujeres con fotos.\nLas imágenes se multiplican\ny la respuesta sigue\nen el mismo sitio de siempre:\nen ninguno.\n\n---\n\n**Pregunta guía:** ¿Cómo representa el poema la ausencia y la memoria a través de la imagen de las fotografías?",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "memoria histórica",
+    "desaparecidos",
+    "ausencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema describe a un grupo de madres que, cada jueves, recorren una plaza con las fotografías de sus hijos desaparecidos. Sin nombrar un país ni una época, presenta la persistencia de la memoria frente al silencio y la indiferencia.\n\n**Aspectos que conviene analizar**\n- La enumeración de la primera estrofa (escapulario, medalla, peso), que gradúa el sentido de las fotografías de lo sagrado a la carga.\n- El contraste temporal: los jóvenes que «no envejecen» en las fotos frente a las mujeres que sí envejecen.\n- La gradación de la tercera estrofa y la metáfora «madres de una pregunta».\n- El ritual de los jueves y el silencio como forma de protesta («el grito ya se lo dieron / al primer año»).\n- La ironía de los turistas que fotografían a las mujeres con fotos: imágenes que se multiplican sin respuesta.\n- El final rotundo («en ninguno»), que convierte la ausencia en el lugar de la respuesta.\n\n**Una estructura posible.** Analizar el poema en torno a la imagen de la fotografía (memoria, tiempo detenido, multiplicación vacía) y su relación con la espera de las madres.\n\n**Cuidado con…** atribuir el poema a un hecho histórico concreto. Es más eficaz analizar cómo lo universaliza.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "76a90e3d-9a08-51f6-9b4a-0883455f089e",
+  "rev": 1,
+  "statement": "¿Qué propiedad comparten todos los lípidos?",
+  "explanation": "Los lípidos son un grupo químicamente variado (triglicéridos, fosfolípidos, esteroides) cuyo rasgo común es ser mayoritariamente apolares.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "lípidos",
+    "hidrofobia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Son solubles en agua y se transportan disueltos en el plasma.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Son hidrófobos: insolubles en agua y solubles en disolventes apolares.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Contienen nitrógeno en todas sus moléculas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Son polímeros de glucosa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

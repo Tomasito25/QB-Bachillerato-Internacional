@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7442d750-5a14-561a-8042-062f8e22833d",
+  "rev": 1,
+  "statement": "En la coagulación de la sangre, ¿qué proteína forma la red que atrapa a las células sanguíneas?",
+  "explanation": "Las plaquetas y el tejido dañado liberan factores que inician una cascada; la trombina convierte el fibrinógeno soluble en fibras insolubles de fibrina.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "coagulación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La hemoglobina, liberada por los eritrocitos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La fibrina, formada a partir del fibrinógeno por la acción de la trombina.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Los anticuerpos, producidos por las células plasmáticas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La insulina, secretada por el páncreas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "6e780b5e-9956-5dec-8756-822f2ff77543",
+  "rev": 1,
+  "statement": "**La primera vez que vi el mar**\n\nTenía nueve años y había visto el mar en la televisión, en los libros, en una postal que mi tío mandó desde Cádiz y que estuvo años pegada en la nevera. Creía saber cómo era. Azul, grande, con olas. Lo que no sabía es que el mar se oye antes de verse, como un tren que nunca termina de pasar, y que huele a algo que no se parece a nada de lo que había olido hasta entonces, ni siquiera a la sal de la cocina.\n\nBajamos del autobús y mi madre me cogió de la mano, fuerte, como si temiera que el mar me fuera a llamar. Subimos una duna. Y allí estaba. No era azul. Era gris y verde y plateado y, en el horizonte, de un color que no tenía nombre. No era grande: era otra cosa, era lo que la palabra grande intenta decir y no consigue.\n\nMe solté de la mano de mi madre y corrí hasta el agua. Una ola me mojó hasta las rodillas y se retiró llevándose la arena de debajo de mis pies, y sentí, por primera vez, que el suelo podía irse. Me reí. Me reí como no me había reído nunca, de miedo y de alegría a la vez, y mi madre, desde la orilla, también se reía, aunque no se había quitado los zapatos.\n\nDesde entonces he visto muchos mares. Ninguno ha sido el primero. Ahora sé que el mar no cabe en las postales ni en las palabras, y que quizá por eso seguimos escribiéndolo: para intentar llegar, aunque sea con los zapatos puestos, hasta la orilla.\n\n---\n\n**Pregunta guía:** ¿Cómo transmite el poema en prosa la intensidad de una primera experiencia?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "poema en prosa",
+    "mar",
+    "infancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Poema en prosa en el que una voz adulta recuerda la primera vez que vio el mar, a los nueve años. La experiencia real desborda todo lo que había aprendido en imágenes y palabras, y el final convierte esa insuficiencia del lenguaje en una reflexión sobre la escritura.\n\n**Aspectos que conviene analizar**\n- La forma del poema en prosa: párrafos en lugar de versos, pero con imágenes, ritmo y densidad poéticos.\n- El contraste entre el mar conocido por mediaciones (televisión, libros, la postal en la nevera) y el mar real.\n- La percepción sensorial antes que visual: el sonido «como un tren que nunca termina de pasar» y un olor sin comparación posible.\n- La negación de los tópicos («No era azul», «No era grande») y la idea del mar como «lo que la palabra grande intenta decir y no consigue».\n- La escena de la ola: el suelo que se va, la risa de miedo y alegría, y la madre que ríe desde la orilla «aunque no se había quitado los zapatos».\n- El final metapoético: escribir el mar como intento de llegar a la orilla «con los zapatos puestos».\n\n**Una estructura posible.** Seguir la progresión de la experiencia (expectativa, primer contacto, inmersión, reflexión) y analizar cómo el lenguaje intenta y fracasa al nombrar el mar.\n\n**Cuidado con…** analizar el texto como si fuera un relato. Atiende a su condición de poema: imágenes, ritmo y reflexión sobre el lenguaje.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

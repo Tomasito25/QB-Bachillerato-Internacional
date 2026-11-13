@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "77572771-0f1a-535c-83cf-88e27b46c614",
+  "rev": 1,
+  "statement": "La foca monje del Caribe se declaró extinguida en 2008. ¿Qué causa humana fue la principal?",
+  "explanation": "Se cazó durante siglos por su grasa, que se usaba como aceite, y la pesca intensiva redujo sus presas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "extinción",
+    "foca monje"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El aumento del agujero de la capa de ozono.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La introducción de plantas invasoras en las playas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La lluvia ácida sobre los arrecifes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La caza para obtener su grasa y la competencia con la pesca.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

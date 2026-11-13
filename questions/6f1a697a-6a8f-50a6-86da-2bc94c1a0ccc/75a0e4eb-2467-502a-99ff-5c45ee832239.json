@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "75a0e4eb-2467-502a-99ff-5c45ee832239",
+  "rev": 1,
+  "statement": "¿Por qué la bicapa de fosfolípidos es poco permeable a iones como el Na⁺?",
+  "explanation": "Las partículas con carga y las moléculas polares grandes no atraviesan bien el núcleo apolar de la bicapa; necesitan proteínas de canal o de bombeo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "bicapa",
+    "barrera"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el interior hidrófobo de la bicapa repele las partículas con carga.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque los iones solo pueden entrar en la célula por endocitosis.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los iones son demasiado grandes para cualquier membrana.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque las cabezas de fosfato se unen a los iones y los atrapan.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

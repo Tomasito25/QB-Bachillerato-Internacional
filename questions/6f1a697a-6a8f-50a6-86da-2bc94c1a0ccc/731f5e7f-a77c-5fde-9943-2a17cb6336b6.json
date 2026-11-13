@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "731f5e7f-a77c-5fde-9943-2a17cb6336b6",
+  "rev": 1,
+  "statement": "Una estudiante cuenta 18 pulsaciones en $15\\,\\text{s}$. ¿Cuál es su frecuencia cardíaca?",
+  "explanation": "$18 \\times \\dfrac{60}{15} = 72$ latidos por minuto.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "pulso",
+    "frecuencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "18 latidos por minuto",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "36 latidos por minuto",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "72 latidos por minuto",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "108 latidos por minuto",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
