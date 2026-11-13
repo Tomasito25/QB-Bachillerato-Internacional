@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "64bfc343-6cd5-5959-b141-4e80226f8fd4",
+  "rev": 1,
+  "statement": "**Toque de queda**\n\n*Un salón por la noche. La lámpara de pie encendida. LA MADRE espera sentada en el sofá, con el móvil de su hija en la mano. Entra NORA, dieciséis años, con las zapatillas en la mano para no hacer ruido.*\n\nLA MADRE.—Las doce y cuarenta.\n\nNORA.—*(Se queda quieta.)* Te dije que llegaría un poco tarde.\n\nLA MADRE.—Me dijiste las doce. *(Levanta el móvil.)* Y te dejaste esto en la cocina.\n\nNORA.—¡Lo estaba buscando! Pensé que lo había perdido.\n\nLA MADRE.—Yo también pensé que te había perdido a ti. Durante cuarenta minutos.\n\n*Pausa. NORA deja las zapatillas en el suelo.*\n\nNORA.—Estaba en el parque. Con Leire. No pasaba nada.\n\nLA MADRE.—Eso no lo sabía yo. Yo solo sabía que eran las doce y diez, y las doce y veinte, y que tu móvil sonaba en la cocina cada vez que te llamaba.\n\nNORA.—*(Bajando la voz.)* Lo siento.\n\nLA MADRE.—*(Se levanta. Le da el móvil.)* Tienes cuarenta y tres mensajes. Doce son míos. Los otros no los he leído.\n\nNORA.—*(Sorprendida.)* ¿No?\n\nLA MADRE.—No. Ganas me han dado. *(Pausa.)* Pero cuando tenía tu edad, mi madre me leía el diario. Me juré que yo no lo haría nunca.\n\n*NORA mira el móvil. No lo desbloquea.*\n\nNORA.—¿Y qué ponía en tu diario?\n\nLA MADRE.—*(Sonríe por primera vez.)* Que mi madre no me entendía.\n\nNORA.—*(Casi riendo.)* Qué original.\n\nLA MADRE.—Mucho. *(Apaga la lámpara.)* Mañana me ayudas con la compra. Considéralo un castigo.\n\n*Salen hacia el pasillo. En la oscuridad se ilumina la pantalla del móvil que NORA ha dejado en el sofá. Ninguna de las dos vuelve a cogerlo.*\n\n---\n\n**Pregunta guía:** ¿Cómo evoluciona el conflicto entre madre e hija a lo largo de la escena?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "adolescencia",
+    "madre e hija",
+    "móvil"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una madre espera de madrugada a su hija adolescente, que ha llegado tarde y se dejó el móvil en casa. El enfrentamiento se transforma en complicidad cuando la madre confiesa que no ha leído los mensajes y recuerda su propia adolescencia.\n\n**Aspectos que conviene analizar**\n- La acotación inicial: la madre esperando con el móvil en la mano y la hija descalza para no hacer ruido; la tensión antes de hablar.\n- El diálogo inicial, con frases breves y la réplica «Yo también pensé que te había perdido a ti».\n- El paso del tiempo contado por la madre («las doce y diez, y las doce y veinte»), que transmite su angustia.\n- El giro: los mensajes no leídos y el recuerdo del diario, que convierte la escena en una historia de dos generaciones.\n- El humor compartido («Qué original») y el «castigo» simbólico de la compra.\n- El final: el móvil que se ilumina en el sofá y que ninguna recoge, imagen de una conexión recuperada fuera de la pantalla.\n\n**Una estructura posible.** Analizar la escena en tres movimientos (reproche, revelación, reconciliación) y en cada uno el papel de los objetos (el móvil, la lámpara, las zapatillas).\n\n**Cuidado con…** juzgar quién tiene razón. Analiza cómo la escena construye el cambio.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

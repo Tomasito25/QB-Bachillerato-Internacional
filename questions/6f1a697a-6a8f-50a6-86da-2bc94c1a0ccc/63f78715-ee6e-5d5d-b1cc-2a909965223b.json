@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "63f78715-ee6e-5d5d-b1cc-2a909965223b",
+  "rev": 1,
+  "statement": "El paramecio expulsa el exceso de agua que entra por ósmosis gracias a su vacuola contráctil. ¿Con qué funciones vitales se relaciona sobre todo este proceso?",
+  "explanation": "Al expulsar agua, el paramecio mantiene constante su medio interno (homeostasis) y elimina lo que sobra (excreción).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "unicelulares",
+    "funciones vitales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El movimiento y el metabolismo",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La nutrición y el crecimiento",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La homeostasis y la excreción",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La reproducción y la respuesta a estímulos",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

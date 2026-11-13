@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "63a69ec1-485c-5aec-804b-6697b68857fb",
+  "rev": 1,
+  "statement": "Cada año llegan al océano millones de toneladas de plástico.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "plásticos",
+    "océanos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre los efectos de los macroplásticos y los de los microplásticos.",
+      "modelAnswer": "Macroplásticos: atrapan a animales y los grandes trozos ingeridos bloquean su tubo digestivo. (1) Microplásticos: los ingieren organismos pequeños y pueden acumular contaminantes que pasan por las cadenas tróficas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el plástico persiste tanto tiempo en el océano.",
+      "modelAnswer": "Los descomponedores apenas pueden degradarlo, (1) así que se fragmenta en trozos cada vez más pequeños en lugar de desaparecer. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "6121b091-c499-5497-85bc-d0819720d68d",
+  "rev": 1,
+  "statement": "Se añadió extracto de patata, que contiene catalasa, a una disolución de peróxido de hidrógeno, y se recogió el oxígeno producido en una probeta invertida.\n\n2H₂O₂ → 2H₂O + O₂\n\n![Volumen de oxígeno producido por la catalasa a lo largo del tiempo](qbimg:4cc76a9ada793e1cb0e5942abadf093a0c7d434b4c8e3cf8aa1d40d9d1410474)",
+  "images": [
+    {
+      "hash": "4cc76a9ada793e1cb0e5942abadf093a0c7d434b4c8e3cf8aa1d40d9d1410474",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 22390,
+      "alt": "Volumen de oxígeno producido por la catalasa a lo largo del tiempo"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0",
+    "939e4cff-3e45-56bc-b3d6-c41799790f98"
+  ],
+  "tags": [
+    "datos",
+    "catalasa",
+    "velocidad inicial"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la velocidad media de producción de oxígeno durante los primeros $30\\,\\text{s}$.",
+      "modelAnswer": "$\\dfrac{15{,}7}{30} = 0{,}52\\,\\text{cm}^3\\,\\text{s}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la velocidad disminuye con el tiempo.",
+      "modelAnswer": "El peróxido de hidrógeno se va consumiendo. (1) Su concentración baja y hay menos choques entre sustrato y sitio activo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere por qué el volumen final de oxígeno es de unos $40\\,\\text{cm}^{3}$, aunque la enzima no se gaste.",
+      "modelAnswer": "Ese volumen corresponde a todo el peróxido de hidrógeno inicial: cuando se agota el sustrato, la reacción se detiene. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Predice, razonando, cómo cambiaría la curva con el doble de extracto de patata.",
+      "modelAnswer": "La pendiente inicial sería mayor, porque habría más sitios activos. (1) El volumen final sería el mismo, porque la cantidad de sustrato no cambia. (1)",
+      "marks": 2
+    }
+  ]
+}

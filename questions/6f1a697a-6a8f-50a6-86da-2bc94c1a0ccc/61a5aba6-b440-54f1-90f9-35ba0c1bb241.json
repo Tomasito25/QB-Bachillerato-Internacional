@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "61a5aba6-b440-54f1-90f9-35ba0c1bb241",
+  "rev": 1,
+  "statement": "¿Qué es un patógeno?",
+  "explanation": "Los patógenos pueden ser virus, bacterias, hongos o protistas. La mayoría de las bacterias del intestino son inofensivas o beneficiosas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "patógenos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una célula del sistema inmunitario.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cualquier bacteria que vive en el intestino.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una proteína que neutraliza a los virus.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un organismo o virus que causa una enfermedad.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "67a7b98f-97cf-5d18-ae9c-485f34549dd3",
+  "rev": 1,
+  "statement": "¿Qué organismos liberan oxígeno al hacer la fotosíntesis?",
+  "explanation": "Las cianobacterias, que son procariotas, fueron las primeras en producir oxígeno y cambiaron la atmósfera de la Tierra.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "organismos fotosintéticos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Solo las algas marinas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las plantas, las algas y las cianobacterias.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Las plantas y los hongos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Solo las plantas con flores.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

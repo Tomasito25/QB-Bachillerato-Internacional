@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "63973b91-c658-5d8b-ad67-fefb754ebfb8",
+  "rev": 1,
+  "statement": "**Ella.** El coche salió de la nada. Yo iba por el paso de cebra, con el semáforo en verde, mirando el móvil, eso sí, porque mi hermana me acababa de escribir que estaba embarazada. Levanté la vista y vi el capó a un metro, y oí un frenazo que todavía oigo por las noches. No me tocó. Se paró a un palmo de mis rodillas. El conductor ni siquiera bajó la ventanilla. Me miró como si la culpa fuera mía. Le grité algo que no repetiré. Crucé temblando. Al llegar a la otra acera me di cuenta de que había apretado el móvil tan fuerte que se me había quedado marcado en la mano.\n\n**Él.** El semáforo estaba en ámbar. Lo juro. Llevaba a mi padre al hospital, en el asiento de atrás, con dolor en el pecho, y la ambulancia iba a tardar cuarenta minutos. Vi a la chica en el último segundo, con la cabeza agachada sobre el móvil, cruzando sin mirar. Frené con todo el cuerpo. Mi padre se golpeó contra el asiento y se quejó. La chica me gritó algo. Quise bajar la ventanilla, explicarle, pedirle perdón, pero mi padre me apretó el brazo y dijo: «Arranca, hijo». Arranqué. Por el retrovisor la vi en la acera, mirándose la mano. Mi padre se salvó. No sé qué fue de ella. A veces pienso que le debo una explicación, y otras pienso que ella me la debe a mí.\n\n---\n\n**Pregunta guía:** ¿Qué efecto produce la narración del mismo hecho desde dos perspectivas distintas?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "perspectivas múltiples",
+    "accidente",
+    "verdad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:17.000Z",
+  "updatedAt": "2026-11-13T05:53:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un casi atropello se cuenta dos veces: primero desde la peatona y después desde el conductor. Cada uno tiene razones, emociones y una parte de verdad. La estructura obliga al lector a revisar su primer juicio.\n\n**Aspectos que conviene analizar**\n- La estructura en dos monólogos paralelos, cada uno con su propia lógica y su propia versión de los hechos (verde o ámbar).\n- Los detalles que cada narrador conoce y el otro no: el mensaje de la hermana embarazada, el padre con dolor en el pecho.\n- La mirada del otro malinterpretada: el conductor que «la miró como si la culpa fuera mía» y el deseo frustrado de explicarse.\n- Los elementos que se repiten en ambas versiones (el grito, el móvil, la mano) y cobran otro sentido.\n- La responsabilidad compartida: ella mira el móvil; él quizá apura el semáforo. El texto no da un veredicto.\n- El final del conductor, que deja la cuestión abierta («ella me la debe a mí»).\n\n**Una estructura posible.** Comparar las dos versiones punto por punto (antes, durante, después) y analizar cómo la segunda modifica la lectura de la primera.\n\n**Cuidado con…** decidir quién tiene la culpa. La pregunta pide analizar el efecto de la doble perspectiva.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
