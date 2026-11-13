@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4d2d4b53-0f39-5638-a033-1bf244768971",
+  "rev": 1,
+  "statement": "Al cocer un huevo, la clara pasa de transparente a blanca y sólida, y al enfriarse no vuelve a su estado inicial. ¿Qué explica este cambio?",
+  "explanation": "La agitación térmica rompe los enlaces débiles; las cadenas desplegadas se unen entre sí al azar y ya no recuperan su forma original.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "temperatura",
+    "desnaturalización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El calor desnaturaliza la albúmina de forma irreversible: sus cadenas se despliegan y se enredan entre sí.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El calor convierte la albúmina en un polisacárido.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El calor añade agua a la albúmina.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El calor hidroliza la albúmina en aminoácidos libres.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

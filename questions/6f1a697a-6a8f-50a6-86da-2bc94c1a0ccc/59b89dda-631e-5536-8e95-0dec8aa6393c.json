@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "59b89dda-631e-5536-8e95-0dec8aa6393c",
+  "rev": 1,
+  "statement": "¿Qué función tienen los espacios aéreos del mesófilo esponjoso de una hoja?",
+  "explanation": "Las células del mesófilo están rodeadas de aire húmedo, así que el CO₂ llega a ellas y el O₂ sale con facilidad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "hoja",
+    "mesófilo esponjoso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Permiten que los gases difundan entre los estomas y las células del mesófilo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Impiden la pérdida de agua por transpiración.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Transportan agua desde las raíces.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Almacenan el almidón producido en la fotosíntesis.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

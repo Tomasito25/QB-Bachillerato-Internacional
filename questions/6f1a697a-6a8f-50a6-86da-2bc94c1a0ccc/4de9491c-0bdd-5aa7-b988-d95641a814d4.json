@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4de9491c-0bdd-5aa7-b988-d95641a814d4",
+  "rev": 1,
+  "statement": "¿Qué genera la fuerza que hace subir el agua por el xilema durante el día?",
+  "explanation": "El agua que se evapora en las hojas se repone desde el xilema; la cohesión transmite el tirón hasta las raíces.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "xilema",
+    "transpiración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La gravedad.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El bombeo activo de agua por las células del xilema.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La presión del floema sobre el xilema.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La transpiración en las hojas, que crea una tensión que tira de la columna de agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

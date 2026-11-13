@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5811c26d-65d5-5435-b78c-d2b8a67c1494",
+  "rev": 1,
+  "statement": "¿Por qué un microscopio electrónico distingue detalles mucho más pequeños que uno óptico?",
+  "explanation": "La resolución depende de la longitud de onda: con electrones se pueden separar dos puntos mucho más próximos. Las muestras, en cambio, no pueden estar vivas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "microscopio electrónico",
+    "resolución"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque las muestras se tiñen con colores más intensos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque los electrones tienen una longitud de onda mucho menor que la luz visible, lo que da más resolución.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque permite observar células vivas en movimiento.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque usa lentes de vidrio de mayor tamaño.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

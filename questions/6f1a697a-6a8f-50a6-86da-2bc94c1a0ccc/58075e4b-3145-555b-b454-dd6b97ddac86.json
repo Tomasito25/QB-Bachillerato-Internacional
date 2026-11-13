@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "58075e4b-3145-555b-b454-dd6b97ddac86",
+  "rev": 1,
+  "statement": "En una marisma se trazó un transecto desde el borde del agua hacia el interior. Cada $5\\,\\text{m}$ se midió la cobertura de una planta halófita en un cuadrante y la salinidad del suelo.\n\n| Distancia / m | 0 | 5 | 10 | 15 | 20 | 25 | 30 |\n|---|---|---|---|---|---|---|---|\n| Salinidad / g kg⁻¹ | 32 | 24 | 15 | 8 | 4 | 2 | 1 |\n| Cobertura / % | 0 | 45 | 70 | 30 | 10 | 0 | 0 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "transecto",
+    "salinidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la distribución de la planta a lo largo del transecto.",
+      "modelAnswer": "No aparece en el borde del agua; alcanza su máxima cobertura (70 %) a $10\\,\\text{m}$ (1) y desaparece a partir de $25\\,\\text{m}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Identifica el intervalo de salinidad en el que la planta es más abundante.",
+      "modelAnswer": "Entre unos 15 y 24 g kg⁻¹, con el máximo hacia 15. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere por qué la planta no aparece en el borde del agua aunque tolera la sal.",
+      "modelAnswer": "Allí el suelo está casi siempre inundado, o la salinidad supera su límite de tolerancia. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué la planta desaparece en el interior, donde el suelo apenas es salino.",
+      "modelAnswer": "Otras plantas que no toleran la sal crecen mejor allí y la desplazan por competencia. (1) La halófita solo domina donde la sal elimina a sus competidoras. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Explica por qué se debería repetir el transecto en otros puntos de la marisma.",
+      "modelAnswer": "Un solo transecto puede no ser representativo; con varios se obtienen datos más fiables y se pueden calcular medias. (1)",
+      "marks": 1
+    }
+  ]
+}

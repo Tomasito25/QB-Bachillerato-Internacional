@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "57079f17-b991-5712-84a6-fb18e833de3c",
+  "rev": 1,
+  "statement": "En las bacterias, los ribosomas pueden empezar a traducir un ARNm antes de que termine su transcripción. ¿Qué lo hace posible?",
+  "explanation": "Sin núcleo, ADN y ribosomas comparten el citoplasma. Esto es rápido, pero impide procesar el ARNm antes de traducirlo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "bf2643fa-9f67-5534-af0a-ee6f0bfc7246"
+  ],
+  "tags": [
+    "procariotas",
+    "transcripción",
+    "traducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que sus ribosomas están dentro del nucleoide.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que no tienen envoltura nuclear que separe el ADN de los ribosomas.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Que no fabrican ARNm.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que su ARNm se modifica dentro del núcleo antes de salir.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

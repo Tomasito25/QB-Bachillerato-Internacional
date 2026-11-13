@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "54240f4e-d1ce-54c0-95e8-7aa6e3de813b",
+  "rev": 1,
+  "statement": "El almidón y la celulosa son polímeros de glucosa con funciones muy distintas en las plantas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "polisacáridos",
+    "celulosa",
+    "almidón"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se forma un enlace entre dos moléculas de glucosa.",
+      "modelAnswer": "Por una reacción de condensación entre grupos –OH de las dos moléculas. (1) Se libera una molécula de agua y se forma un enlace glucosídico. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Compara la estructura del almidón y de la celulosa.",
+      "modelAnswer": "Ambos son polímeros de glucosa. (1) El almidón es de alfa-glucosa y la celulosa, de beta-glucosa. (1) El almidón forma cadenas helicoidales, sin ramificar (amilosa) o ramificadas (amilopectina); la celulosa forma cadenas rectas sin ramificar. (1) Las cadenas de celulosa se unen en paralelo por puentes de hidrógeno en microfibrillas. (1)",
+      "marks": 4
+    },
+    {
+      "id": "c",
+      "statement": "Explica cómo la estructura del almidón lo hace adecuado como reserva de energía.",
+      "modelAnswer": "Es compacto: se almacena mucha glucosa en poco espacio. (1) Es insoluble y no tiene efecto osmótico. (1) Las ramificaciones de la amilopectina ofrecen muchos extremos para hidrolizarlo deprisa. (1)",
+      "marks": 3
+    }
+  ]
+}

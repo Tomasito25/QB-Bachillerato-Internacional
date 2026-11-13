@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "4edc7601-a556-59bf-9519-94b6b007dd80",
+  "rev": 1,
+  "statement": "El código genético tiene características que se repiten en casi todos los seres vivos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "código genético",
+    "características"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica tres características del código genético.",
+      "modelAnswer": "Es de tripletes: cada codón tiene tres bases. (1) Es degenerado: varios codones codifican el mismo aminoácido. (1) Es universal: casi todos los organismos lo usan igual. (1) Tiene codones de inicio y de terminación. (1) (Máximo 3)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica el papel de los puentes de hidrógeno en la traducción.",
+      "modelAnswer": "El anticodón del ARNt se une al codón del ARNm por puentes de hidrógeno entre bases complementarias. (1) Así el aminoácido correcto queda en la posición que indica el codón. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "58196e99-2b21-531d-a5f8-511ac875c3ec",
+  "rev": 1,
+  "statement": "La información de un gen se expresa en dos etapas: transcripción y traducción.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "transcripción",
+    "traducción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la transcripción.",
+      "modelAnswer": "La ARN polimerasa separa las dos cadenas de ADN en la región del gen. (1) Nucleótidos libres de ARN se emparejan con las bases complementarias de la cadena molde (U con A, A con T, C con G, G con C). (1) La ARN polimerasa los une y forma una cadena de ARNm. (1) El ADN vuelve a enrollarse sin cambios. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Describe la traducción.",
+      "modelAnswer": "El ARNm se une al ribosoma. (1) Cada ARNt trae un aminoácido y su anticodón se empareja con el codón complementario del ARNm. (1) El ribosoma une los aminoácidos con enlaces peptídicos y avanza codón a codón. (1) Al llegar a un codón de terminación se libera el polipéptido. (1)",
+      "marks": 4
+    }
+  ]
+}

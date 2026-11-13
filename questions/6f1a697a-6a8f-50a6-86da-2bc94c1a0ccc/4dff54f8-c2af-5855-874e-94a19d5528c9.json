@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "4dff54f8-c2af-5855-874e-94a19d5528c9",
+  "rev": 1,
+  "statement": "Las hojas son los principales órganos de intercambio de gases de las plantas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "hoja",
+    "intercambio de gases",
+    "transpiración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo están adaptadas las hojas al intercambio de gases.",
+      "modelAnswer": "Son finas y planas, con una gran superficie. (1) Tienen estomas que se pueden abrir y cerrar. (1) El mesófilo esponjoso tiene grandes espacios aéreos. (1) Las paredes de las células del mesófilo están húmedas, para que los gases se disuelvan. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la transpiración es una consecuencia del intercambio de gases.",
+      "modelAnswer": "Para que entre el CO₂ de la fotosíntesis los estomas deben estar abiertos. (1) El vapor de agua de los espacios aéreos sale por ellos hacia el aire, que es más seco. (1)",
+      "marks": 2
+    }
+  ]
+}

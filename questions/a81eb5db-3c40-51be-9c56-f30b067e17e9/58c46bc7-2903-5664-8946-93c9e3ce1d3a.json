@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "58c46bc7-2903-5664-8946-93c9e3ce1d3a",
+  "rev": 1,
+  "statement": "Los de la casa llaman a esto mudanza. Yo no conocía la palabra, pero ya he aprendido lo que significa: que las cosas se meten en cajas, que las cajas huelen a polvo y a cinta adhesiva, y que nadie tiene tiempo de sacarme a pasear.\n\nEmpezó hace cinco días. La mujer guardó primero los libros, luego los platos y luego, ayer, mi manta, la de cuadros, la que huele a mí. La metió en una caja que ahora está en el pasillo, con otras, y por mucho que la rasco no se abre. El hombre me dijo que no, que quieto, que ahora no. Lo dijo con la voz de cuando está cansado, que es una voz más baja que la de cuando está enfadado pero que se parece.\n\nLa niña es la única que me entiende. Esta mañana se sentó conmigo en el suelo de su cuarto, que ya no tiene nada, ni la cama, ni los dibujos de la pared, solo las marcas cuadradas donde estaban los dibujos, y me dijo al oído que ella tampoco quería irse. Me olió a sal en la cara. Le lamí la sal. Eso lo sé hacer bien.\n\nPor la tarde vino un camión enorme y unos hombres que olían a sudor y a otra ciudad se llevaron las cajas, una a una, también la de mi manta. Ladré. Ladré mucho. Nadie me hizo caso, salvo uno de los hombres, que me rascó detrás de la oreja de una manera que no estuvo mal.\n\nAhora la casa está vacía y suena distinta, como si hablara más alto. Estamos todos en el coche. La niña me lleva en el regazo. No sé adónde vamos. Pero la mujer ha dicho que en la casa nueva hay un jardín, y yo sé lo que es un jardín, y la niña ha dejado de oler a sal.\n\n---\n\n**Pregunta guía:** ¿Qué efectos produce la elección de un perro como narrador del episodio?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "narrador animal",
+    "perspectiva",
+    "familia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una familia se muda y el perro de la casa cuenta lo que ocurre. El narrador entiende el mundo por el olor, los objetos y el tono de las voces, y su perspectiva limitada permite al lector percibir el dolor de la familia, sobre todo de la niña, sin que nadie lo explique.\n\n**Aspectos que conviene analizar**\n- La focalización animal: lo que el perro no entiende (la palabra «mudanza») y lo que entiende mejor que nadie (los olores, las voces).\n- La percepción sensorial como forma de conocimiento: la manta «que huele a mí», los hombres que huelen «a sudor y a otra ciudad», la sal en la cara de la niña.\n- La ironía dramática: el lector comprende que la niña llora aunque el perro solo hable de sal.\n- Los objetos y los espacios vacíos (la caja que no se abre, las marcas cuadradas en la pared) como imágenes de la pérdida.\n- Las voces de los adultos interpretadas por el perro (la voz de cansado parecida a la de enfadado).\n- El final: la casa vacía que «suena distinta» y la última frase, en la que el cambio de olor indica el consuelo de la niña.\n\n**Una estructura posible.** Analizar cómo la perspectiva del perro filtra cada momento de la mudanza (preparativos, la niña, el camión, la partida) y qué deja ver al lector.\n\n**Cuidado con…** quedarte en la originalidad del narrador. Explica qué sentidos y emociones hace posibles.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

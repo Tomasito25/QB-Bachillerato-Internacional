@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "4b2927d2-db9f-565a-9f71-0cfcf95b9dae",
+  "rev": 1,
+  "statement": "La naranja llegó a casa en enero de mil novecientos cuarenta y uno, dentro de un paquete que mandó la tía Rosario desde Valencia, envuelta en papel de periódico como si fuera una joya. Mi madre la puso en el centro de la mesa, sobre un plato de loza que solo se usaba en Navidad, y estuvimos un buen rato mirándola los cuatro hermanos, sin tocarla, como se mira algo que puede romperse o desaparecer.\n\nYo tenía siete años y nunca había comido una. Mi hermano Paco, que tenía diez, decía que sí, que antes de la guerra había comido muchas, pero no se acordaba del sabor, y eso a mí me pareció una pérdida terrible, peor que no haberlas probado nunca.\n\nMi madre la peló sentada junto a la ventana, despacio, con las uñas, procurando que la piel saliera en una sola tira. El olor llenó la cocina de una manera que no he olvidado: era un olor amarillo, si un olor puede ser amarillo, que se metía por todas partes y hacía que la cocina, con su suelo de tierra y su hornilla apagada, pareciera otra.\n\nContó los gajos. Eran diez. Nos dio dos a cada uno y se quedó dos para ella, pero no se los comió: los partió por la mitad y nos los fue dando, uno a uno, diciendo que ella no tenía hambre, que a ella la fruta le daba ardor. Tardé muchos años en entender que a mi madre no le daba ardor la fruta.\n\nLa piel la colgó junto a la chimenea para que se secara, y durante semanas, cuando abríamos la puerta de la cocina, el olor seguía allí, cada vez más débil, como un recuerdo que se va borrando.\n\n---\n\n**Pregunta guía:** ¿Cómo se construye el recuerdo de un momento de la infancia en el fragmento?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "infancia",
+    "posguerra",
+    "hambre"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un narrador adulto recuerda cómo, en la posguerra, su familia compartió una naranja. La escasez convierte un objeto cotidiano en un tesoro, y el gesto de la madre, que renuncia a su parte, solo se comprende años después.\n\n**Aspectos que conviene analizar**\n- La doble perspectiva: el niño de siete años que vive la escena y el adulto que la cuenta y la entiende («Tardé muchos años en entender…»).\n- La naranja tratada como joya: el papel de periódico, el plato de Navidad, los hermanos que la miran sin tocarla.\n- La memoria como tema: Paco, que no recuerda el sabor, y la pérdida que eso supone para el narrador.\n- La sinestesia del «olor amarillo» y su poder de transformar la cocina pobre.\n- La escena del reparto: la precisión de los números (diez gajos, dos para cada uno) y la mentira piadosa de la madre.\n- El final: la piel junto a la chimenea y el olor que se debilita «como un recuerdo que se va borrando».\n\n**Una estructura posible.** Seguir la secuencia del recuerdo (llegada, contemplación, pelado, reparto, después) y mostrar cómo el detalle sensorial y la mirada retrospectiva crean la emoción.\n\n**Cuidado con…** convertir el análisis en una explicación histórica de la posguerra. El contexto importa solo en la medida en que el texto lo usa.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

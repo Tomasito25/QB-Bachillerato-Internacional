@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "53a042dc-5919-571f-a2a2-6f8b28bdc3f7",
+  "rev": 1,
+  "statement": "**Domingo de rastro**\n\nA las nueve de la mañana, el rastro todavía se está vistiendo. Los vendedores despliegan mantas sobre el asfalto con la solemnidad de quien extiende un mantel de domingo, y sobre ellas van apareciendo, en un orden que solo ellos entienden, las cosas que alguien dejó de necesitar: una plancha sin cable, tres tomos sueltos de una enciclopedia, un retrato de boda sin nombres, un teléfono de disco que nadie va a volver a marcar.\n\nRecorro el mercado sin buscar nada, que es la única manera honrada de recorrerlo. Quien viene a buscar algo concreto se pierde lo importante: la conversación entre un vendedor senegalés y una jubilada que regatea por una lámpara como si se jugara la vida, el niño que descubre un caleidoscopio y se olvida de sus padres, el coleccionista de llaves antiguas que lleva cuarenta años viniendo y no ha abierto ninguna puerta con ellas.\n\nSe dice que los mercados de segunda mano son el museo de los pobres, pero me parece una definición injusta. En un museo las cosas están quietas, explicadas, protegidas por un cristal. Aquí se tocan, se discuten, cambian de manos por tres euros, y cada una arrastra una historia que el comprador no conocerá nunca y que, sin embargo, se lleva a casa. Comprar en el rastro es heredar de desconocidos.\n\nHacia el mediodía llega la multitud y el mercado se vuelve otra cosa: empujones, carteristas, turistas que fotografían los mismos objetos que hace dos horas nadie miraba. Me voy entonces, con las manos vacías o casi: esta vez, una postal escrita en 1974 en la que una tal Marisa le dice a su madre que el mar está precioso y que no se preocupe.\n\nNo sé quién fue Marisa. Pero desde esta mañana me preocupo un poco por ella.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el texto la descripción y la reflexión para retratar un espacio de la ciudad?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "crónica",
+    "ciudad",
+    "mercado",
+    "descripción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Crónica en primera persona de una mañana en un mercado de segunda mano. La descripción minuciosa de objetos y personas se combina con una reflexión sobre el valor de las cosas usadas y las historias anónimas que contienen. El cierre, con la postal, convierte la idea general en una emoción concreta.\n\n**Aspectos que conviene analizar**\n- La personificación inicial («el rastro todavía se está vistiendo») y la comparación con el mantel de domingo, que dan solemnidad a lo humilde.\n- Las enumeraciones de objetos, cada uno con un detalle que sugiere una vida pasada (la plancha sin cable, el retrato sin nombres).\n- La voz del cronista: paseante sin propósito que defiende esa forma de mirar («la única manera honrada»).\n- La reflexión central: la refutación de «el museo de los pobres» mediante el contraste museo/mercado y la sentencia «Comprar en el rastro es heredar de desconocidos».\n- El cambio de ritmo al mediodía, con la multitud, y la salida del cronista.\n- El final circular y humorístico: la postal de Marisa y la última frase, que traslada la preocupación de la madre al narrador.\n\n**Una estructura posible.** Seguir la progresión temporal de la mañana (montaje, paseo, reflexión, multitud, salida) y mostrar cómo en cada fase se equilibran descripción y pensamiento.\n\n**Cuidado con…** tratar el texto como un artículo informativo. Es no ficción literaria: importan la voz, el tono y las imágenes.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

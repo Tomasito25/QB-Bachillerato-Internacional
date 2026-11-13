@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "528c9114-72ca-5eb3-a7e8-fa1fb55f6607",
+  "rev": 1,
+  "statement": "¿Qué componentes forman un nucleótido?",
+  "explanation": "Cada nucleótido tiene un azúcar de cinco carbonos (desoxirribosa o ribosa), un fosfato y una de las bases nitrogenadas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "nucleótidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una pentosa, un grupo fosfato y una base nitrogenada.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Una pentosa, un aminoácido y una base nitrogenada.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una hexosa, un grupo fosfato y una base nitrogenada.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una pentosa, un grupo fosfato y un ácido graso.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

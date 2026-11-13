@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5015889f-915f-5b09-847b-40c827d3178f",
+  "rev": 1,
+  "statement": "¿Qué estructura tienen las células procariotas pero no las eucariotas?",
+  "explanation": "Membrana, ribosomas y citoplasma están en todas las células. Lo propio de las procariotas es que su ADN, circular y sin histonas, está libre en el citoplasma.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "procariotas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Citoplasma.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "ADN desnudo en forma de anillo, sin envoltura nuclear.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Ribosomas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Membrana plasmática.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

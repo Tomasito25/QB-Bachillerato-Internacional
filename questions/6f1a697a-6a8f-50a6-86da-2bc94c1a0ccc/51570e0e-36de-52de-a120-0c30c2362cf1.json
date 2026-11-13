@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "51570e0e-36de-52de-a120-0c30c2362cf1",
+  "rev": 1,
+  "statement": "¿Qué diferencia hay entre la amilosa, la amilopectina y el glucógeno?",
+  "explanation": "Los tres son polímeros de alfa-glucosa. Las ramificaciones dan muchos extremos libres por los que las enzimas liberan glucosa deprisa, algo útil en el glucógeno animal.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "amilosa",
+    "amilopectina",
+    "glucógeno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El glucógeno es un polímero de fructosa.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Los tres son idénticos; solo cambia el organismo que los produce.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La amilosa está hecha de beta-glucosa y los otros dos, de alfa-glucosa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La amilosa no tiene ramificaciones; la amilopectina y el glucógeno sí, y el glucógeno está aún más ramificado.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

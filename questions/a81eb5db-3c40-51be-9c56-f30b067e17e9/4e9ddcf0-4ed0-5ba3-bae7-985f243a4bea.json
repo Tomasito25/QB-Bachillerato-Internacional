@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "4e9ddcf0-4ed0-5ba3-bae7-985f243a4bea",
+  "rev": 1,
+  "statement": "**Lección de geografía**\n\nLa maestra señala en el mapa\nun país con forma de bota, de mano, de nube,\ny dice: aquí vivimos.\nYo repito aquí\ncomo quien prueba una silla que no es suya.\n\nEn mi cuaderno el río tiene otro nombre.\nMi abuela lo llamaba de una manera\nque aquí no cabe en ninguna casilla\ny que la goma no consigue borrar.\n\nAprendo las capitales de memoria,\nlos afluentes, las cordilleras,\nla altura exacta de los montes que nunca he visto.\nPor la noche, en voz baja,\nrecito las calles de mi barrio de antes\npara que no se me caigan del mapa.\n\nDicen que los niños aprendemos rápido.\nEs verdad: ya sé decir tormenta,\nya sé pedir permiso,\nya sé callarme cuando preguntan de dónde.\n\nLo que no sé es en qué idioma\nse sueña cuando una está\nexactamente en medio.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el poema la tensión entre el país de origen y el país de acogida?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "emigración",
+    "identidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una niña emigrada aprende la geografía del nuevo país mientras intenta conservar la del antiguo. El poema enfrenta el saber escolar, ordenado y oficial, con una identidad íntima que no cabe en sus casillas, y termina en una posición intermedia y sin resolver.\n\n**Aspectos que conviene analizar**\n- La primera estrofa: la deixis de «aquí» y la comparación con la silla «que no es suya», que muestra una pertenencia aún prestada.\n- El río con «otro nombre»: la lengua familiar como algo que la escuela no recoge, pero que tampoco se puede borrar.\n- El contraste entre el conocimiento abstracto (capitales, afluentes, montes nunca vistos) y la recitación nocturna de las calles «para que no se me caigan del mapa».\n- La anáfora de «ya sé», que avanza de lo útil (tormenta, permiso) a lo doloroso: aprender a callar el propio origen.\n- El final, sin respuesta: el sueño como lugar de la identidad y la expresión «exactamente en medio».\n\n**Una estructura posible.** Seguir el aprendizaje de la voz poética estrofa a estrofa, mostrando cómo cada logro escolar tiene un coste en la identidad.\n\n**Cuidado con…** leer el poema solo como queja. Su ironía es contenida y la voz no rechaza el nuevo país: lo que expresa es una identidad doble.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

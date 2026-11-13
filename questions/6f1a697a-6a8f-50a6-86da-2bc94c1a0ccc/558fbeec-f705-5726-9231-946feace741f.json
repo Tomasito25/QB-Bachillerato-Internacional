@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "558fbeec-f705-5726-9231-946feace741f",
+  "rev": 1,
+  "statement": "Tras la división del núcleo, la célula reparte su citoplasma.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "citocinesis",
+    "plantas",
+    "animales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la citocinesis de las células animales y la de las vegetales.",
+      "modelAnswer": "En las animales, la membrana se estrangula desde fuera hacia dentro hasta separar las dos células. (1) En las vegetales, vesículas se unen en el centro y forman una placa celular, con una nueva pared, que crece hacia los lados. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué en la ovogénesis la citocinesis es desigual.",
+      "modelAnswer": "El óvulo conserva casi todo el citoplasma, con las reservas y los orgánulos que necesitará el embrión. (1)",
+      "marks": 1
+    }
+  ]
+}

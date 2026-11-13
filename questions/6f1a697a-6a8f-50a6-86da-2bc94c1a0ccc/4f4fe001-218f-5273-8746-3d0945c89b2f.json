@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "4f4fe001-218f-5273-8746-3d0945c89b2f",
+  "rev": 1,
+  "statement": "Los biomas son comunidades de gran extensión determinadas sobre todo por el clima.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "biomas",
+    "adaptaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué la temperatura y la precipitación determinan el tipo de bioma.",
+      "modelAnswer": "Limitan el crecimiento de las plantas: la fotosíntesis y la actividad enzimática dependen de la temperatura, y el agua es imprescindible. (1) Las plantas que pueden crecer en cada combinación de condiciones determinan la estructura de la comunidad y los animales que viven en ella. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe dos adaptaciones de las plantas al bioma desértico.",
+      "modelAnswer": "Dos de: hojas reducidas o transformadas en espinas; tallos que almacenan agua; raíces muy extensas o profundas; cutícula gruesa; estomas hundidos o que se abren de noche. (1 por cada una, hasta 2)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Describe una adaptación de los animales a la selva tropical húmeda.",
+      "modelAnswer": "Por ejemplo, extremidades y colas prensiles para moverse entre los árboles, o coloraciones de camuflaje en la vegetación densa. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "514e5357-433b-5db3-9957-86a019bfd9bc",
+  "rev": 1,
+  "statement": "Los antígenos del sistema ABO están en la superficie de los glóbulos rojos. ¿De qué tipo de moléculas se trata?",
+  "explanation": "Son proteínas de membrana con cadenas de glúcidos. La composición de esas cadenas define los grupos A, B y 0, y el sistema inmunitario las reconoce.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "glicoproteínas",
+    "grupos sanguíneos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Fosfolípidos de la cara interna de la membrana.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Polisacáridos de reserva como el glucógeno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Glicoproteínas con cadenas de glúcidos que permiten el reconocimiento celular.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Esteroides insertados en la bicapa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
