@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "0bf1ed06-1b98-5437-8090-2e509cacd2a1",
+  "rev": 1,
+  "statement": "Los bonobos (*Pan paniscus*) y los chimpancés comunes (*Pan troglodytes*) proceden de una población ancestral común y hoy viven a ambos lados del río Congo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "especiación",
+    "bonobos",
+    "aislamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo pudo producirse la especiación de estas dos especies.",
+      "modelAnswer": "El río separó la población ancestral en dos. (1) Sin flujo de genes entre ellas, cada población acumuló mutaciones distintas. (1) La selección natural actuó de forma diferente en cada orilla y las poblaciones divergieron. (1) Con el tiempo, las diferencias impidieron el cruce: aislamiento reproductivo. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Indica cómo se podría comprobar hoy que son especies distintas según el concepto biológico de especie.",
+      "modelAnswer": "Comprobando si, en la naturaleza, se cruzan y tienen descendencia fértil; no lo hacen. (1)",
+      "marks": 1
+    }
+  ]
+}

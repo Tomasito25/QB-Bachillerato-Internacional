@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "11581a60-8a12-5509-88dd-74af8686176f",
+  "rev": 1,
+  "statement": "El colimbo ártico (*Gavia arctica*) caza peces buceando, pero también vuela. Comparado con el aire, el agua tiene mayor viscosidad y proporciona mayor empuje. ¿Qué consecuencia tienen estas propiedades para el ave?",
+  "explanation": "El empuje del agua sostiene casi todo el peso, así que no tiene que mantenerse a flote como en el aire. A cambio, la mayor viscosidad frena su movimiento: por eso su cuerpo es hidrodinámico.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "viscosidad",
+    "flotabilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Bajo el agua el empuje compensa casi todo su peso, pero la viscosidad opone mucha resistencia a su avance.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La viscosidad del agua le ayuda a avanzar, porque empuja su cuerpo hacia delante.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "En el aire la viscosidad es mayor y por eso necesita alas largas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Bajo el agua necesita aletear más deprisa para no hundirse, porque el empuje es menor.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

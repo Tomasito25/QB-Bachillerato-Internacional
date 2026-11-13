@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "136d76a2-e585-5c57-a571-f5492c6c1032",
+  "rev": 1,
+  "statement": "**Las manos de mi padre**\n\nLas manos de mi padre no sabían escribir cartas,\npero sabían el peso exacto de un saco de cemento\ny la hora en que la masa empieza a fraguar.\n\nEran anchas como una pala,\ntenían grietas donde se quedaba el invierno\ny una uña negra que nunca terminó de curarse\ndesde el día del andamio.\n\nNo acariciaban: arreglaban.\nUn grifo, una bicicleta, una persiana,\nla rodilla raspada de una niña que lloraba\ny que aprendió pronto que el cariño\ntambién se dice con cinta aislante.\n\nAhora están quietas sobre la sábana,\nmás pequeñas de lo que yo recordaba,\ny las sostengo yo\ncon estas manos que escriben,\nque nunca han levantado una pared\ny que no saben arreglar nada.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el poema el retrato del padre y la relación con su hija a partir de un solo elemento?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "padre",
+    "trabajo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema retrata a un padre obrero a través de sus manos: lo que sabían hacer, sus marcas y su forma de querer. En la última estrofa, el padre enfermo o moribundo invierte los papeles: ahora es la hija quien sostiene, con unas manos que escriben pero «no saben arreglar nada».\n\n**Aspectos que conviene analizar**\n- La sinécdoque: las manos representan a la persona entera, su oficio y su historia.\n- La oposición entre saber escribir y saber hacer, que abre y cierra el poema y da unidad a la composición.\n- Las imágenes del cuerpo trabajador: «anchas como una pala», «grietas donde se quedaba el invierno», la uña «desde el día del andamio».\n- La antítesis «No acariciaban: arreglaban» y la metáfora del cariño dicho «con cinta aislante».\n- El cambio de tiempo verbal en la última estrofa (de pasado a presente) y la inversión de papeles entre padre e hija.\n- El final: la escritura, el oficio de la hija, parece impotente; pero el propio poema es lo que ella sí puede hacer por él.\n\n**Una estructura posible.** Analizar el retrato del pasado (estrofas 1 a 3) y luego el presente de la última estrofa, mostrando cómo el contraste da sentido al conjunto.\n\n**Cuidado con…** quedarte en la emoción. Explica con qué recursos el poema la contiene y la hace creíble.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

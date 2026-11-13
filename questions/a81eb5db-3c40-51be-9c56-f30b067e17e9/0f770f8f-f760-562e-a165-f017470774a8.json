@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "0f770f8f-f760-562e-a165-f017470774a8",
+  "rev": 1,
+  "statement": "**La tierra**\n\n*La cocina de una casa de campo. Mesa de madera, un calendario de una cooperativa del año anterior. EL PADRE, setenta años, pela patatas. Entra MARCOS, su hijo, cuarenta, con traje y una carpeta.*\n\nMARCOS.—Ya he hablado con los de la empresa. Ofrecen más de lo que pensábamos.\n\nEL PADRE.—*(Sin dejar de pelar.)* Ya.\n\nMARCOS.—Papá, es mucho dinero. Con eso puedes vivir en el piso de la ciudad, cerca de nosotros, cerca del médico.\n\nEL PADRE.—El médico viene los martes.\n\nMARCOS.—El médico viene los martes cuando no nieva. *(Deja la carpeta sobre la mesa.)* Solo tienes que firmar aquí.\n\n*EL PADRE deja el cuchillo. Mira la carpeta sin tocarla.*\n\nEL PADRE.—¿Qué van a poner?\n\nMARCOS.—Placas solares. Es energía limpia. Es el futuro.\n\nEL PADRE.—Tu abuelo plantó ahí los almendros el año que naciste. Dijo que tardarían lo mismo que tú en dar fruto. *(Pausa.)* Se equivocó por poco.\n\nMARCOS.—Papá…\n\nEL PADRE.—Los almendros no son el futuro, ya lo sé. Florecen en febrero, cuando todavía hiela, y la mitad de los años se les quema la flor. Son tontos. *(Pausa.)* Pero florecen.\n\n*Silencio. MARCOS se sienta frente a él. Coge una patata y el otro cuchillo y empieza a pelarla, mal.*\n\nEL PADRE.—Así no. Más fino. Que se te va la mitad.\n\nMARCOS.—Hace treinta años que no pelo una patata.\n\nEL PADRE.—Se nota.\n\n*Pelan juntos, en silencio. La carpeta sigue sobre la mesa, entre los dos, cerrada.*\n\n---\n\n**Pregunta guía:** ¿Cómo presenta la escena el conflicto entre el padre y el hijo, y qué papel tienen los objetos y los silencios?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "familia",
+    "campo",
+    "herencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un hijo que vive en la ciudad intenta convencer a su padre de vender la tierra familiar para instalar placas solares. El conflicto enfrenta dos visiones del futuro y del arraigo, y la escena termina sin resolución, con padre e hijo pelando patatas juntos.\n\n**Aspectos que conviene analizar**\n- La acotación inicial: el calendario del año anterior (un tiempo detenido) y el contraste entre las patatas del padre y el traje y la carpeta del hijo.\n- Las réplicas breves y evasivas del padre («Ya», «El médico viene los martes») como resistencia.\n- La historia de los almendros: memoria familiar, ironía («Se equivocó por poco») y valor simbólico de una flor frágil que «florece» igualmente.\n- La oposición entre «energía limpia», «el futuro» y unos árboles «tontos» que, sin embargo, florecen.\n- El gesto de Marcos de pelar patatas: reconciliación sin palabras y regreso a la infancia, con el humor seco del padre («Se nota»).\n- La carpeta cerrada «entre los dos» como imagen final del conflicto aplazado.\n\n**Una estructura posible.** Analizar la confrontación inicial, el relato de los almendros como centro emocional y el final, centrado en el gesto compartido y la carpeta.\n\n**Cuidado con…** decidir quién tiene razón. La escena equilibra las dos posturas y lo interesante es cómo lo hace.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

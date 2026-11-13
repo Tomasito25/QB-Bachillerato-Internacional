@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0e6ac358-7b86-5ae6-b5d1-19c0ee55ffa6",
+  "rev": 1,
+  "statement": "¿Dónde ocurre normalmente la fecundación en la especie humana?",
+  "explanation": "El ovocito liberado por el ovario es recogido por el oviducto; si se encuentra con espermatozoides, la fecundación ocurre allí, y el embrión baja luego al útero.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "aparato reproductor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En el oviducto (trompa de Falopio)",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "En el ovario",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "En la vagina",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En el útero",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

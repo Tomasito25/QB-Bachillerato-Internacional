@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "1246293e-c549-58e1-8c74-199d9e527081",
+  "rev": 1,
+  "statement": "La mayoría de las neuronas se comunican mediante sinapsis químicas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "sinapsis",
+    "transmisión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la transmisión de un impulso a través de una sinapsis.",
+      "modelAnswer": "El impulso llega al botón presináptico y despolariza su membrana; entra Ca²⁺. (1) Las vesículas con neurotransmisor se fusionan con la membrana y lo liberan por exocitosis. (1) El neurotransmisor difunde por la hendidura y se une a receptores de la membrana postsináptica. (1) Entran cationes y la membrana postsináptica se despolariza (potencial postsináptico excitador). (1) El neurotransmisor se degrada; en el caso de la acetilcolina, la colina se reabsorbe. (1)",
+      "marks": 5
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el impulso solo puede atravesar la sinapsis en un sentido.",
+      "modelAnswer": "Solo la neurona presináptica tiene vesículas con neurotransmisor, (1) y solo la postsináptica tiene receptores para él. (1)",
+      "marks": 2
+    }
+  ]
+}

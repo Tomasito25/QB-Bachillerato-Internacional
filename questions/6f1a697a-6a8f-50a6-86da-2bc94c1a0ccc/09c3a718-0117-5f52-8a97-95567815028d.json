@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "09c3a718-0117-5f52-8a97-95567815028d",
+  "rev": 1,
+  "statement": "¿En qué se diferencian las células del músculo cardíaco de las fibras del músculo esquelético?",
+  "explanation": "Los discos intercalares conectan las células cardíacas y permiten que el impulso pase deprisa de una a otra. Ambas son estriadas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "músculo estriado",
+    "músculo cardíaco"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las dos son idénticas y solo cambia su localización.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las esqueléticas son ramificadas y las cardíacas, rectas y multinucleadas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las cardíacas tienen un solo núcleo, están ramificadas y unidas por discos intercalares; las esqueléticas son largas y multinucleadas.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Las cardíacas no tienen bandas y las esqueléticas sí.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

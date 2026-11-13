@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "0b8e702a-e2fd-54db-9be4-206ad2d88d18",
+  "rev": 1,
+  "statement": "¿Qué comparación entre la respiración aerobia y la anaerobia en el ser humano es correcta?",
+  "explanation": "La aerobia oxida la glucosa por completo en las mitocondrias. La anaerobia la convierte en lactato en el citoplasma y rinde muy poco ATP.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "respiración aerobia",
+    "anaerobia",
+    "comparación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las dos producen dióxido de carbono y agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La anaerobia produce más ATP que la aerobia.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La aerobia produce mucho más ATP por glucosa y necesita mitocondrias; la anaerobia ocurre solo en el citoplasma.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Las dos necesitan oxígeno, pero en distinta cantidad.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

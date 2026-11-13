@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0fef74c1-8c3c-55b5-bc83-a60731bf8876",
+  "rev": 1,
+  "statement": "¿Qué es la transcripción?",
+  "explanation": "La ARN polimerasa separa las cadenas en la región del gen y une nucleótidos de ARN complementarios a la cadena molde.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "transcripción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La copia de una molécula de ADN completa.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La unión de aminoácidos en el ribosoma.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La síntesis de un polipéptido a partir del ARNm.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La síntesis de una molécula de ARN usando como molde una cadena de ADN.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

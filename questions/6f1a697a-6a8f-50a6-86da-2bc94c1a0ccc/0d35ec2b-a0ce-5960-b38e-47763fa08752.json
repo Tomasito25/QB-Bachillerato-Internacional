@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0d35ec2b-a0ce-5960-b38e-47763fa08752",
+  "rev": 1,
+  "statement": "Una bacteria con un gen humano insertado fabrica insulina humana con la secuencia correcta de aminoácidos. ¿Qué indica este hecho sobre el código genético?",
+  "explanation": "La bacteria lee los codones humanos con el mismo significado: el código se conserva en casi todos los seres vivos. Es una prueba de ascendencia común universal.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "código genético",
+    "ancestro común"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que el ARN bacteriano no interviene en la síntesis de proteínas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que cada especie tiene un código genético propio.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que es prácticamente universal, lo que apoya un origen común de los seres vivos.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Que las bacterias tienen los mismos genes que los seres humanos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

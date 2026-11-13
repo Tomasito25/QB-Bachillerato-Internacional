@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "00a3ee74-4d60-5427-b511-2ec857b52462",
+  "rev": 1,
+  "statement": "¿Qué describe mejor la estructura de la molécula de ADN?",
+  "explanation": "El esqueleto de azúcar y fosfato queda por fuera y las bases emparejadas por dentro. Las dos cadenas van en sentidos opuestos (son antiparalelas).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "doble hélice",
+    "antiparalelas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Tres cadenas enrolladas, unidas por enlaces covalentes entre las bases.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Dos cadenas paralelas, con los grupos fosfato hacia el interior.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una sola cadena plegada sobre sí misma, con bases complementarias en sus extremos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Dos cadenas antiparalelas enrolladas en doble hélice, con las bases hacia el interior.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

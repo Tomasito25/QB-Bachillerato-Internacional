@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "156bd480-9912-5ada-96df-6f2a97e410da",
+  "rev": 1,
+  "statement": "Algunos insectos, como los zapateros (*Gerris*), caminan sobre la superficie de un estanque sin hundirse. ¿Qué lo hace posible?",
+  "explanation": "Los puentes de hidrógeno entre las moléculas de la superficie forman una especie de película elástica. Las patas, que son hidrófobas, no la rompen.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "cohesión",
+    "tensión superficial"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La adhesión del agua a las patas del insecto, que lo sostiene.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La baja densidad del agua superficial, que es menor que la del insecto.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La tensión superficial, debida a la cohesión entre las moléculas de agua de la superficie.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La elevada capacidad calorífica del agua, que endurece la superficie.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

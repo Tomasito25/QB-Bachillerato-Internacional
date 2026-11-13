@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "11555843-5f16-55cc-b732-ce6c0952164c",
+  "rev": 1,
+  "statement": "Tras regar un huerto con agua muy salada, las plantas se marchitan. ¿Cuál es la explicación?",
+  "explanation": "Sin agua suficiente, las vacuolas se encogen y los tejidos dejan de estar firmes.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "ósmosis",
+    "marchitez"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La sal tapona los estomas de las hojas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La sal hace que las raíces absorban demasiada agua y estallen.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El agua del suelo se vuelve hipertónica, las células de la raíz pierden agua y la planta pierde turgencia.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La sal impide la fotosíntesis directamente en las hojas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

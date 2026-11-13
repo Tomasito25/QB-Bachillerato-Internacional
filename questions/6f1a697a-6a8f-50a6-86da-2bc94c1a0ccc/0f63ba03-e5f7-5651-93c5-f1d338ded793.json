@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0f63ba03-e5f7-5651-93c5-f1d338ded793",
+  "rev": 1,
+  "statement": "¿Qué mantiene un gradiente de concentración de oxígeno elevado entre el aire de los alvéolos y la sangre?",
+  "explanation": "Si el aire no se renovara o la sangre no circulara, las concentraciones se igualarían y la difusión se detendría.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "gradiente de concentración",
+    "ventilación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El surfactante, que bombea oxígeno hacia los capilares.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La contracción de los alvéolos durante la espiración.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El transporte activo de oxígeno hacia la sangre.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La ventilación renueva el aire alveolar y el flujo de sangre se lleva continuamente el oxígeno absorbido.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

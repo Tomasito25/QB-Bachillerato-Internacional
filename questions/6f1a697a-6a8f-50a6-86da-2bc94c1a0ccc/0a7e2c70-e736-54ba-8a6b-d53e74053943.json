@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0a7e2c70-e736-54ba-8a6b-d53e74053943",
+  "rev": 1,
+  "statement": "¿Qué célula humana es la más grande en volumen?",
+  "explanation": "El óvulo acumula reservas y orgánulos para el embrión inicial, con un diámetro de unos 0,1 mm. El espermatozoide es de los más pequeños.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "tamaño celular"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El eritrocito",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El espermatozoide",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El óvulo",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El linfocito",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "11e588ff-b844-53c8-ac79-54dfaf7d0b55",
+  "rev": 1,
+  "statement": "¿Qué sustancia atraviesa la bicapa de fosfolípidos por difusión simple?",
+  "explanation": "Las moléculas pequeñas y apolares, como el O₂ o el CO₂, se disuelven en la bicapa y la atraviesan a favor de su gradiente.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "difusión simple"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El ion potasio",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La glucosa",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una proteína",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El oxígeno",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

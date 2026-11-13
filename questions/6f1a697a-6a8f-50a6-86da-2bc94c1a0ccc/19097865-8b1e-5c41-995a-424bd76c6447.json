@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "19097865-8b1e-5c41-995a-424bd76c6447",
+  "rev": 1,
+  "statement": "¿Qué propiedad del carbono explica la enorme variedad de moléculas orgánicas?",
+  "explanation": "Con cuatro enlaces covalentes, el carbono forma cadenas lineales, ramificadas o en anillo, con enlaces simples o dobles.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "carbono",
+    "enlaces covalentes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Solo puede unirse a átomos de hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Es el elemento más abundante de la corteza terrestre.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Forma enlaces iónicos muy estables con el oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Puede formar cuatro enlaces covalentes, con otros carbonos y con otros elementos, en cadenas y anillos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

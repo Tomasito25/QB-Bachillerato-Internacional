@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "135c2bf7-a983-5b2e-bf02-bcf889aa0349",
+  "rev": 1,
+  "statement": "Las plantas con flores se reproducen sexualmente.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "flores",
+    "polinización",
+    "semillas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe los pasos desde la polinización hasta la formación de la semilla.",
+      "modelAnswer": "El polen llega al estigma (polinización). (1) Crece un tubo polínico a través del estilo hasta el óvulo. (1) Un núcleo masculino se une a la ovocélula: fecundación. (1) El óvulo fecundado se desarrolla como semilla, y el ovario, como fruto. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Describe dos rasgos de las flores polinizadas por insectos.",
+      "modelAnswer": "Dos de: pétalos grandes y de colores; néctar; aroma; polen pegajoso; anteras y estigma dentro de la flor. (2)",
+      "marks": 2
+    }
+  ]
+}

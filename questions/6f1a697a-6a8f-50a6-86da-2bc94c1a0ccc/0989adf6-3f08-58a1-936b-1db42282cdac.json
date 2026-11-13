@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0989adf6-3f08-58a1-936b-1db42282cdac",
+  "rev": 1,
+  "statement": "Una célula se coloca en una disolución más concentrada en solutos que su citoplasma. ¿Hacia dónde se mueve el agua?",
+  "explanation": "El agua se mueve por ósmosis desde la disolución menos concentrada en solutos (el citoplasma) hacia la más concentrada.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "ósmosis",
+    "dirección"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Entra y sale en la misma cantidad.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sale de la célula hacia la disolución.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Entra en la célula desde la disolución.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "No se mueve, porque la membrana es impermeable al agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

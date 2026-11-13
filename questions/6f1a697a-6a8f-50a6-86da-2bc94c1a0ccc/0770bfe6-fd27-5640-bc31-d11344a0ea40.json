@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "0770bfe6-fd27-5640-bc31-d11344a0ea40",
+  "rev": 1,
+  "statement": "En una réplica de la epidermis de una hoja se cuentan 24 estomas en un campo de visión circular de $0{,}40\\,\\text{mm}$ de diámetro. ¿Cuál es la densidad de estomas?",
+  "explanation": "Área del campo: $\\pi \\cdot 0{,}20^2 = 0{,}126\\,\\text{mm}^2$. Densidad: $\\dfrac{24}{0{,}126} = 190\\,\\text{mm}^{-2}$. Hay que usar el radio, no el diámetro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "densidad de estomas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$48\\,\\text{mm}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$60\\,\\text{mm}^{-2}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$190\\,\\text{mm}^{-2}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$760\\,\\text{mm}^{-2}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "11ededa8-d17a-5a16-a1e7-e9aa2a935f35",
+  "rev": 1,
+  "statement": "El código genético es casi idéntico en bacterias, plantas y animales.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "código genético",
+    "ancestro común",
+    "organismos transgénicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué la conservación del código genético apoya la idea de un ancestro común universal.",
+      "modelAnswer": "Un código arbitrario igual en todos los grupos es muy improbable que surgiera varias veces de forma independiente. (1) Lo más probable es que se heredara de un antepasado común a todos los seres vivos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica una aplicación que dependa de que el código sea universal.",
+      "modelAnswer": "Fabricar proteínas humanas, como la insulina, en bacterias modificadas genéticamente. (1)",
+      "marks": 1
+    }
+  ]
+}

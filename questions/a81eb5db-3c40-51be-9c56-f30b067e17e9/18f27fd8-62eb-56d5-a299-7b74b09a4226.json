@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "18f27fd8-62eb-56d5-a299-7b74b09a4226",
+  "rev": 1,
+  "statement": "**Si ha estudiado obras de teatro, compare cómo organizan la acción en actos, escenas o cuadros, y con qué efecto. Si no, responda sobre la organización en partes de dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "4ea85a42-efcc-5978-bf6c-164e09d44418"
+  ],
+  "tags": [
+    "teatro",
+    "actos y escenas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar la división de la obra y su función: ritmo, saltos temporales, cambios de espacio, construcción de la tensión, momentos de cierre. **Obras adecuadas.** Teatro en actos o cuadros; novelas divididas en partes; poemarios con secciones. **Esquema posible.** Organización de cada obra; función de las divisiones (comienzo y final de cada parte); efecto en el conjunto; comparación. **Cuidado con…** describir la estructura como un índice. Relaciónala con el sentido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

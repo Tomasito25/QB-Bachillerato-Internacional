@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "12e2a59a-f6a9-5ba0-957a-cf1a1cd0995f",
+  "rev": 1,
+  "statement": "¿Qué es una sinapsis?",
+  "explanation": "En la sinapsis química, la señal pasa de una célula a otra mediante un neurotransmisor.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "sinapsis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La unión entre una neurona y otra neurona, o entre una neurona y una célula efectora, como una fibra muscular.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El cuerpo celular de una neurona.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La vaina de mielina que rodea al axón.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un vaso sanguíneo que riega el nervio.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

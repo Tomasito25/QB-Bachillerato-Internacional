@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "0c74ac0a-6aab-5d11-b0f4-15ed20be7db8",
+  "rev": 1,
+  "statement": "*Euglena* hace la fotosíntesis con luz y, en la oscuridad, ingiere materia orgánica. ¿Cómo se llama este tipo de nutrición?",
+  "explanation": "Combina la autotrofía (fotosíntesis) y la heterotrofía según las condiciones.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "nutrición",
+    "mixótrofos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Holozoica",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Mixótrofa",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Quimioautótrofa",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Saprótrofa",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

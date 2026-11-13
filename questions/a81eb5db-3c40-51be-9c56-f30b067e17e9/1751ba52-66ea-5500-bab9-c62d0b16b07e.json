@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "1751ba52-66ea-5500-bab9-c62d0b16b07e",
+  "rev": 1,
+  "statement": "**¿Hasta qué punto puede el lector fiarse de quien cuenta la historia? Responda en relación con dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8cbb01f-3344-51dd-b01f-07282802c397"
+  ],
+  "tags": [
+    "narrador no fiable",
+    "punto de vista"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Valorar la fiabilidad de la voz que cuenta: sus limitaciones (edad, ignorancia, interés, emoción), sus omisiones o contradicciones y cómo el autor hace que el lector lo note. El «hasta qué punto» exige una respuesta matizada, no un sí o un no.\n\n**Cómo elegir las obras.** Obras narrativas en primera persona, con narrador testigo o con focalización muy marcada. Si eliges poesía o teatro, define bien quién es la voz (el yo lírico o un personaje que narra).\n\n**Esquema posible**\n- Introducción: distingue autor, narrador y lector implícito, y formula una tesis con grados (una voz se equivoca por ingenuidad; la otra manipula).\n- Desarrollo: señales de poca fiabilidad (contradicciones, lo que otros personajes dicen, ironía dramática), efecto en el lector y propósito de cada autor.\n- Conclusión: qué aporta cada obra al obligar al lector a leer «contra» su narrador.\n\n**Cuidado con…** confundir narrador y autor, o dar por fiable a un narrador solo porque cuenta en primera persona.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

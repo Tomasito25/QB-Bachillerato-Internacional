@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "0af570a5-f6cd-5968-870e-1b1c78849152",
+  "rev": 1,
+  "statement": "**Carta para una cápsula del tiempo**\n\nQuerido desconocido del año 2075:\n\nMe han pedido que escriba esta carta para la cápsula del tiempo de mi instituto, que se enterrará mañana junto al gimnasio y se abrirá cuando yo tenga sesenta y siete años. No sé si estaré allí para verlo. Si estoy, perdona a la anciana que se ponga a llorar en primera fila; ya te aviso que soy de lágrima fácil.\n\nNo sé cómo será tu mundo. Mis compañeros han escrito predicciones: coches voladores, ciudades bajo el mar, robots que hacen los deberes. Yo no me atrevo. Mi abuela, cuando tenía mi edad, imaginaba que en el año 2000 comeríamos píldoras en lugar de comida. Hoy comemos peor que ella, pero no en píldoras. Así que no voy a adivinar. Prefiero contarte cómo es el mío, por si algún día te sirve para entender de dónde vienes.\n\nEn mi mundo la gente camina por la calle mirando una pantalla del tamaño de una mano. Nos preocupa el calor de los veranos, que cada año dura más. Discutimos mucho, casi siempre por escrito, y a veces se nos olvida que al otro lado también hay alguien. Pero también hay cosas buenas: mi barrio tiene una biblioteca abierta hasta las nueve, mi mejor amiga y yo nos reímos tanto que nos echan de clase, y en primavera los almendros del parque florecen sin que nadie se lo pida.\n\nSi cuando leas esto los almendros siguen floreciendo, me alegraré. Si no, te pido perdón en nombre de todos. Intentamos hacerlo mejor. No siempre lo conseguimos.\n\nTe dejo dentro de la cápsula una entrada de cine, una hoja de almendro y una foto de mi clase. Somos los que sonríen. Éramos así. No nos juzgues demasiado.\n\nCon cariño, desde el pasado.\n\n---\n\n**Pregunta guía:** ¿Cómo construye la carta la relación entre el presente de quien escribe y un futuro desconocido?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "carta",
+    "futuro",
+    "cápsula del tiempo",
+    "reflexión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una estudiante escribe una carta para una cápsula del tiempo que se abrirá en 2075. En lugar de hacer predicciones, describe su presente con humor, inquietud y ternura, y se dirige al futuro con una mezcla de esperanza y disculpa.\n\n**Aspectos que conviene analizar**\n- La forma epistolar dirigida a un destinatario desconocido y el humor de la autorreferencia (la «anciana» llorando en primera fila).\n- La renuncia a predecir, argumentada con el ejemplo irónico de la abuela y las píldoras.\n- El retrato del presente mediante enumeraciones que combinan lo negativo (las pantallas, el calor, las discusiones) y lo positivo (la biblioteca, la risa, los almendros).\n- Los almendros como símbolo recurrente de la naturaleza y del futuro del planeta.\n- El tono de disculpa colectiva («te pido perdón en nombre de todos») y la honestidad de «No siempre lo conseguimos».\n- Los objetos de la cápsula y el cierre («Éramos así. No nos juzgues demasiado»), que adopta la mirada del futuro sobre el presente.\n\n**Una estructura posible.** Analizar la carta por partes (presentación, renuncia a predecir, retrato del presente, deseo y disculpa, despedida) y la evolución del tono.\n\n**Cuidado con…** tratar el texto como un ensayo sobre el cambio climático. Es una carta personal que lo menciona.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

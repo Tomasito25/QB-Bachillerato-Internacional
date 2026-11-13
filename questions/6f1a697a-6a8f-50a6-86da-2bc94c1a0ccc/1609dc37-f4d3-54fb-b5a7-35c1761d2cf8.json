@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "1609dc37-f4d3-54fb-b5a7-35c1761d2cf8",
+  "rev": 1,
+  "statement": "Dos personas cualesquiera comparten más del 99 % de su secuencia de ADN. ¿De dónde procede sobre todo la variación genética entre ellas?",
+  "explanation": "Los individuos de una especie tienen los mismos genes. Las diferencias son, sobre todo, variantes de una sola base (SNP) que dan distintos alelos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "variación",
+    "SNP"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:55.000Z",
+  "updatedAt": "2026-11-13T05:51:55.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "De que tienen distinto número de cromosomas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "De que cada persona tiene genes completamente distintos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "De que unas personas tienen ADN y otras ARN como material genético.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "De diferencias en bases sueltas repartidas por el genoma (polimorfismos de un solo nucleótido).",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
