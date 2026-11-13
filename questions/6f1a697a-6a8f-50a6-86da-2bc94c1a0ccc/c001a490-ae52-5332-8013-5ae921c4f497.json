@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c001a490-ae52-5332-8013-5ae921c4f497",
+  "rev": 1,
+  "statement": "¿Cuál es un uso actual de la secuenciación del genoma completo de una persona?",
+  "explanation": "La medicina personalizada usa el genoma para predecir riesgos de enfermedad o la respuesta a ciertos fármacos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "secuenciación del genoma"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Averiguar su grupo sanguíneo sin analizar la sangre, que es su único uso.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Elegir el tratamiento más adecuado según las variantes genéticas del paciente.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Cambiar el número de cromosomas de sus células.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Hacer que sus genes dejen de mutar.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

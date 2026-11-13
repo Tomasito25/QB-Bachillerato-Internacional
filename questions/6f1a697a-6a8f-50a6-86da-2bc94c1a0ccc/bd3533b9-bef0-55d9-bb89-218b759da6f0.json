@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "bd3533b9-bef0-55d9-bb89-218b759da6f0",
+  "rev": 1,
+  "statement": "La tabla muestra el porcentaje de cada base en el ADN de varios organismos y de un virus.\n\n| Fuente del ADN | A / % | T / % | G / % | C / % |\n|---|---|---|---|---|\n| Ser humano | 30,9 | 29,4 | 19,9 | 19,8 |\n| Trigo | 27,3 | 27,1 | 22,7 | 22,8 |\n| *Escherichia coli* | 24,7 | 23,6 | 26,0 | 25,7 |\n| Virus φX174 | 24,0 | 31,2 | 23,3 | 21,5 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd",
+    "d882c402-d0e9-5c72-a87d-68b5e38b52b5"
+  ],
+  "tags": [
+    "datos",
+    "proporción de bases",
+    "virus"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el porcentaje de guanina más citosina (contenido en G + C) del ADN humano.",
+      "modelAnswer": "$19{,}9 + 19{,}8 = 39{,}7\\,\\%$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué en los organismos el porcentaje de adenina es casi igual al de timina.",
+      "modelAnswer": "Su ADN es de doble cadena. (1) Cada A de una cadena se empareja con una T de la otra, así que hay tantas A como T. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere por qué los valores del ser humano no son exactamente iguales para A y T.",
+      "modelAnswer": "Por errores de medida o incertidumbre en el análisis de las bases. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Deduce, con los datos, la estructura del ADN del virus φX174.",
+      "modelAnswer": "A y T, y G y C, no están en la misma proporción (24,0 frente a 31,2). (1) Por tanto no hay emparejamiento complementario: su ADN es de una sola cadena. (1)",
+      "marks": 2
+    },
+    {
+      "id": "e",
+      "statement": "Compara la composición de bases del ADN humano con la de *E. coli*.",
+      "modelAnswer": "En el ser humano predominan A y T (más del 60 %), mientras que en *E. coli* predominan ligeramente G y C. (1) En ambos se cumple que A ≈ T y G ≈ C. (1)",
+      "marks": 2
+    }
+  ]
+}

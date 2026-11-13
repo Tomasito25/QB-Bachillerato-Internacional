@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "bd64a155-a086-5e1f-9be7-2e1c5c747e9c",
+  "rev": 1,
+  "statement": "¿Por qué un pH muy alejado del óptimo puede desnaturalizar una proteína?",
+  "explanation": "Los iones H⁺ u OH⁻ en exceso cambian la carga de los grupos ácidos y básicos de los grupos R, y la proteína se despliega.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "pH",
+    "desnaturalización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Rompe los enlaces peptídicos de la cadena principal.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Añade aminoácidos nuevos a la cadena.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cambia la carga de los grupos R y altera los enlaces iónicos y los puentes de hidrógeno que mantienen su forma.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Aumenta la energía cinética de las moléculas de agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

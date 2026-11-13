@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "bf2efa75-c3b2-5554-bf1a-0a9aee3c36e6",
+  "rev": 1,
+  "statement": "El día que cerraron la panadería, mi padre se levantó a las cuatro, como siempre. Lo oí desde la cama: el agua en el lavabo, la tos de todas las mañanas, la puerta de la calle que nunca terminaba de cerrar bien. Pensé que alguien se había olvidado de decírselo.\n\nCuando bajé, a las ocho, el obrador olía igual que todos los días, a harina tostada y a algo dulce que no sé nombrar. Mi padre había hecho pan. Mucho pan. Las bandejas ocupaban el mostrador, las sillas, el alféizar de la ventana; había hogazas incluso encima de la caja registradora, que ya no tenía dinero dentro porque mi madre se lo había llevado al banco el viernes, en un sobre marrón que apretaba contra el pecho como si fuera un pájaro.\n\n—¿Para quién es? —le pregunté.\n\nÉl siguió amasando. Tenía los brazos blancos hasta el codo, como si se hubiera metido en la nieve.\n\n—Para el barrio —dijo.\n\nYo no sabía que un barrio pudiera comer tanto. Salí a la calle con una barra en cada mano y se la di a la señora Remedios, que me miró como se mira a los niños que traen malas notas. Después a los del taller de bicicletas, al cartero, a dos chicos que no conocía. Nadie me preguntó cuánto costaba. Algunos me tocaban la cabeza al cogerla.\n\nA mediodía vinieron dos hombres con un cartel y una escalera. Mi padre no salió a recibirlos. Se quedó dentro, limpiando el horno con un trapo, despacio, por dentro y por fuera, como se limpia algo que se va a guardar mucho tiempo.\n\nEsa noche cenamos el pan que sobró. Estaba bueno. Mi madre dijo que era el mejor que había hecho nunca, y mi padre se rio por primera vez en semanas, una risa corta, hacia dentro, que sonó igual que la puerta de la calle.\n\n---\n\n**Pregunta guía:** ¿Cómo se construye la emoción del episodio a través de la voz infantil que lo narra?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "narrador infantil",
+    "crisis",
+    "familia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un niño o una niña cuenta el último día de la panadería familiar sin entender del todo lo que ocurre. La emoción nace de la distancia entre lo que ve la voz narradora y lo que comprende el lector: el padre se despide de su oficio regalando el pan al barrio.\n\n**Aspectos que conviene analizar**\n- La focalización infantil y la ironía dramática: «Pensé que alguien se había olvidado de decírselo» o «Yo no sabía que un barrio pudiera comer tanto».\n- Los detalles sensoriales (sonidos de la mañana, el olor del obrador) que convierten la rutina en ceremonia de despedida.\n- Las comparaciones: el sobre apretado «como si fuera un pájaro», los brazos blancos «como si se hubiera metido en la nieve», el horno limpiado como algo que «se va a guardar mucho tiempo».\n- Los silencios del padre y sus respuestas mínimas («Para el barrio»): lo importante no se dice.\n- Las reacciones de los vecinos (la mirada de la señora Remedios, las manos en la cabeza), que el lector interpreta mejor que la voz narradora.\n- El final circular: la risa que «sonó igual que la puerta de la calle» enlaza con el comienzo y sugiere algo que ya no cierra bien.\n\n**Una estructura posible.** Partir de la voz narradora (quién cuenta y qué no entiende) y analizar después cómo los gestos, los objetos y el final transmiten lo que la voz no puede decir.\n\n**Cuidado con…** tratar la voz infantil como un simple rasgo. Explica cómo su ingenuidad hace que el lector complete el sentido.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

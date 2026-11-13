@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "bf060ce5-5459-5717-b734-920cca93e774",
+  "rev": 1,
+  "statement": "¿Qué papel tienen los linfocitos T colaboradores en la producción de anticuerpos?",
+  "explanation": "El linfocito B activado se divide y forma un clon de células plasmáticas que secretan anticuerpos específicos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "linfocitos T colaboradores"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Forman coágulos para impedir la entrada de patógenos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Producen ellos mismos los anticuerpos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Activan a los linfocitos B que reconocen el mismo antígeno.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Fagocitan a los patógenos y los digieren.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "bf304068-f367-553e-b005-3be6587a83e2",
+  "rev": 1,
+  "statement": "La secuencia de un fragmento de ARNm es AUG GCU UCA GGA UAC.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "tipos de mutaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica el efecto de sustituir la última base del segundo codón (GCU por GCC), sabiendo que ambos codones codifican alanina.",
+      "modelAnswer": "El aminoácido no cambia: es una mutación silenciosa. (1) Se debe a que el código es degenerado. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica el efecto de eliminar la primera base del segundo codón.",
+      "modelAnswer": "Se desplaza el marco de lectura: AUG CUU CAG GAU AC… (1) Cambian todos los aminoácidos desde ese punto, y la proteína probablemente no funciona. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué las deleciones de tres bases suelen ser menos graves que las de una.",
+      "modelAnswer": "Eliminan un codón completo, y la proteína pierde un solo aminoácido. (1) El resto de codones se lee igual. (1)",
+      "marks": 2
+    }
+  ]
+}

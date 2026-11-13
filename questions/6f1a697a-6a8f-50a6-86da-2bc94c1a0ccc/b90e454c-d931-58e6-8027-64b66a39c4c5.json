@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "b90e454c-d931-58e6-8027-64b66a39c4c5",
+  "rev": 1,
+  "statement": "La gráfica muestra el volumen de aire en los pulmones de una estudiante en reposo. Entre los segundos 16 y 22 hizo una inspiración máxima seguida de una espiración máxima.\n\n![Volumen de aire en los pulmones registrado con un espirómetro durante 32 segundos](qbimg:7428aa8616404deda686889bb9300b6d84221b2db8b2c0a08936922b846b2a23)",
+  "images": [
+    {
+      "hash": "7428aa8616404deda686889bb9300b6d84221b2db8b2c0a08936922b846b2a23",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 20807,
+      "alt": "Volumen de aire en los pulmones registrado con un espirómetro durante 32 segundos"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "volúmenes pulmonares",
+    "espirómetro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula su frecuencia respiratoria en reposo, en respiraciones por minuto.",
+      "modelAnswer": "Cada respiración dura $4\\,\\text{s}$, (1) así que hay $\\dfrac{60}{4} = 15$ respiraciones por minuto. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina el volumen corriente.",
+      "modelAnswer": "$2{,}9 - 2{,}4 = 0{,}5\\,\\text{dm}^3$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Determina la capacidad vital.",
+      "modelAnswer": "$5{,}6 - 1{,}2 = 4{,}4\\,\\text{dm}^3$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué el volumen nunca llega a cero, ni siquiera tras la espiración máxima.",
+      "modelAnswer": "Siempre queda aire en los pulmones (volumen residual), porque los alvéolos y las vías respiratorias no se vacían del todo. (1)",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Describe cómo se produce la inspiración máxima.",
+      "modelAnswer": "El diafragma se contrae y desciende, y los intercostales externos elevan las costillas con más fuerza que en reposo. (1) El volumen del tórax aumenta mucho, la presión baja y entra más aire. (1)",
+      "marks": 2
+    }
+  ]
+}
