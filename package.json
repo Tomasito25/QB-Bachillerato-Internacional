@@ -60,5 +60,11 @@
     "vite-plugin-pwa": "^2.0.0",
     "vitest": "^5.1.0",
     "workbox-build": "^7.4.1"
+  },
+  "overrides": {
+    "minimatch@>=7.0.0 <11.0.1": "^11.0.1",
+    "workbox-build": {
+      "glob": "^14.0.2"
+    }
   }
 }
