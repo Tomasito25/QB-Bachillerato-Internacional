@@ -285,6 +285,7 @@ La lista completa, con lo que se ha probado contra GitHub de verdad, está en [L
 | [Limitaciones](docs/LIMITATIONS.md) | Lo que esta arquitectura no puede garantizar, sin rodeos |
 | [Seguridad](docs/SECURITY.md) | Modelo de amenazas |
 | [Puesta en marcha](docs/SETUP.md) | Configurar el repositorio y moderar |
+| [Código de conducta](CODE_OF_CONDUCT.md) | Normas de convivencia y cómo informar de un problema |
 
 ## Licencias
 
