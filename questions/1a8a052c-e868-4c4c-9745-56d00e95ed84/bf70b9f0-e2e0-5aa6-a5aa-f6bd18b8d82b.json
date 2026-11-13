@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "bf70b9f0-e2e0-5aa6-a5aa-f6bd18b8d82b",
+  "rev": 1,
+  "statement": "¿Por qué interesa que una síntesis industrial tenga una economía atómica alta?",
+  "explanation": "Un rendimiento alto con baja economía atómica sigue produciendo muchos subproductos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "química verde"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque genera menos residuos y aprovecha mejor las materias primas.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque siempre es más rápida.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque necesita temperaturas más altas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque produce más CO₂.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ce370047-8047-5731-a413-e3284e014c90",
+  "rev": 1,
+  "statement": "¿Por qué el volumen medido de $1\\,\\text{mol}$ de amoníaco a temperatura baja y presión alta es menor que el que predice la ecuación de los gases ideales?",
+  "explanation": "El amoníaco forma puentes de hidrógeno; las atracciones reducen la presión que ejerce y el volumen que ocupa.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "gases reales",
+    "fuerzas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque las fuerzas de atracción entre sus moléculas las acercan más de lo que supone el modelo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque sus moléculas no tienen volumen.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque sus choques son perfectamente elásticos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque el amoníaco se descompone a alta presión.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

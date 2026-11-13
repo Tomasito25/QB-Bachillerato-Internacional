@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "998fed1e-7f8e-53f3-b24d-39d830162150",
+  "rev": 1,
+  "statement": "¿En qué especie hay un enlace de coordinación?",
+  "explanation": "En el ion amonio, el nitrógeno del NH₃ aporta los dos electrones del enlace con el H⁺. Una vez formado, es igual que los otros tres enlaces N–H.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "enlace de coordinación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "N₂",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "CH₄",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "NH₄⁺",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "H₂O",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

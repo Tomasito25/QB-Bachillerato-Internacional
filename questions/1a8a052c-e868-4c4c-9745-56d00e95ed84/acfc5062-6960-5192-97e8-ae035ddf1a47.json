@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "acfc5062-6960-5192-97e8-ae035ddf1a47",
+  "rev": 1,
+  "statement": "¿Qué etapa representa CH₃• + Cl• → CH₃Cl?",
+  "explanation": "Dos radicales se unen y desaparecen los electrones desapareados: la cadena se corta.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "terminación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Propagación",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Iniciación",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Terminación",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Adición",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

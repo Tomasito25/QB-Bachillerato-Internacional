@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "b8638337-8ae8-5e24-a5cd-1ee94770d66c",
+  "rev": 1,
+  "statement": "Tanto el cobre como el cloruro de sodio tienen redes cristalinas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "metales",
+    "comparación con iónicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la conductividad eléctrica del cobre y del cloruro de sodio en estado sólido, y explica la diferencia.",
+      "modelAnswer": "El cobre conduce y el cloruro de sodio no. (1) El cobre tiene electrones deslocalizados móviles; en el cloruro de sodio los iones están fijos en la red y no hay electrones libres. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué al golpear un trozo de cobre se deforma, mientras que un cristal de sal se rompe.",
+      "modelAnswer": "En el cobre las capas de cationes se deslizan y los electrones las siguen uniendo. (1) En la sal, el desplazamiento enfrenta iones de igual carga, que se repelen. (1)",
+      "marks": 2
+    }
+  ]
+}

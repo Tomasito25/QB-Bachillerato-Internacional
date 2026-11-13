@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "d67f0d40-a1e7-5e9d-996e-e90bd379efe6",
+  "rev": 1,
+  "statement": "La teoría cinético-molecular explica las propiedades de los sólidos, los líquidos y los gases.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "teoría cinética",
+    "estados"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la disposición y el movimiento de las partículas en un sólido y en un gas.",
+      "modelAnswer": "En el sólido las partículas están juntas, ordenadas y solo vibran en posiciones fijas. (1) En el gas están muy separadas, desordenadas y se mueven deprisa en todas direcciones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los gases se pueden comprimir y los sólidos casi no.",
+      "modelAnswer": "Entre las partículas de un gas hay mucho espacio vacío que se puede reducir; (1) en los sólidos las partículas ya están en contacto. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica qué indica la temperatura absoluta de una sustancia.",
+      "modelAnswer": "Es proporcional a la energía cinética media de sus partículas. (1)",
+      "marks": 1
+    }
+  ]
+}

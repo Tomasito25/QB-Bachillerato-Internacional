@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9ce13719-bd4d-5aea-a3ae-8c8c1a39b459",
+  "rev": 1,
+  "statement": "El ion $^{27}_{13}\\text{Al}^{3+}$ tiene…",
+  "explanation": "Protones = 13; neutrones = 27 − 13 = 14; electrones = 13 − 3 = 10.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "notación nuclear",
+    "partículas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "14 protones, 13 neutrones y 16 electrones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "13 protones, 14 neutrones y 10 electrones.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "13 protones, 14 neutrones y 13 electrones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "13 protones, 27 neutrones y 10 electrones.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

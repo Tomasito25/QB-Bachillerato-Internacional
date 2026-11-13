@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b8f1edfb-47a8-5490-9e05-965dc8d0b97c",
+  "rev": 1,
+  "statement": "¿Cuántos electrones de valencia tiene un radical cloro, Cl•?",
+  "explanation": "El átomo de cloro tiene 7 electrones de valencia: tres pares y uno desapareado.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "electrones desapareados"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "6",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "7",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "8",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

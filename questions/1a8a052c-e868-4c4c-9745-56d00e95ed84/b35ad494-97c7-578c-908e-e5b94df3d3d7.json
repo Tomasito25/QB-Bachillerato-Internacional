@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b35ad494-97c7-578c-908e-e5b94df3d3d7",
+  "rev": 1,
+  "statement": "¿Por qué la combustión del metano es exotérmica?",
+  "explanation": "Romper enlaces siempre requiere energía y formarlos siempre la libera.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "energía y enlaces"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la energía que se libera al formar los enlaces de los productos es mayor que la necesaria para romper los de los reactivos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque el metano no tiene enlaces.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los productos tienen más entalpía que los reactivos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque romper enlaces libera energía.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

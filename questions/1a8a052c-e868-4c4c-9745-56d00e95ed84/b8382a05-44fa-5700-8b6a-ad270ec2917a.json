@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b8382a05-44fa-5700-8b6a-ad270ec2917a",
+  "rev": 1,
+  "statement": "¿Por qué las líneas del espectro del hidrógeno se acercan cada vez más hacia las frecuencias altas?",
+  "explanation": "La diferencia de energía entre niveles consecutivos disminuye al alejarse del núcleo; las líneas convergen en un límite.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "convergencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque los niveles de energía están cada vez más juntos al aumentar n.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque el núcleo atrae menos a los electrones de niveles bajos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque las frecuencias altas corresponden a fotones de menor energía.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los electrones se mueven más despacio en niveles altos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

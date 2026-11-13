@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c13ba544-b25c-50a0-8666-76858fdb4fef",
+  "rev": 1,
+  "statement": "¿Cuál es un inconveniente de los biocombustibles?",
+  "explanation": "También pueden provocar deforestación si se cultivan en tierras ganadas al bosque.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "biocombustibles",
+    "inconvenientes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No se pueden producir en ningún país.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Liberan más CO₂ que el carbón por unidad de energía.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "No arden en presencia de oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Su cultivo compite con el de alimentos por el uso del suelo y del agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

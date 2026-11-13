@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "b391eb0b-0692-5b88-8b07-06d583649548",
+  "rev": 1,
+  "statement": "¿Qué relación hay entre la longitud de onda y la energía de la luz?",
+  "explanation": "La luz violeta tiene menor longitud de onda y más energía que la roja; la ultravioleta, más aún.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "espectro electromagnético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La energía no depende de la longitud de onda.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "A mayor longitud de onda, mayor frecuencia.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "A menor longitud de onda, mayor frecuencia y mayor energía.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "A menor longitud de onda, menor energía.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

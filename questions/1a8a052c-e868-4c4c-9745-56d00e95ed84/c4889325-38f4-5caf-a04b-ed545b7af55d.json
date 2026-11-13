@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "c4889325-38f4-5caf-a04b-ed545b7af55d",
+  "rev": 1,
+  "statement": "¿Qué condiciones de temperatura y presión se usan como condiciones normales (STP) en el IB?",
+  "explanation": "En ellas, el volumen molar de un gas ideal es $22{,}7\\,\\text{dm}^{3}\\,\\text{mol}^{-1}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "condiciones normales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$273\\,\\text{K}$ y $100\\,\\text{kPa}$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$0\\,\\text{K}$ y $100\\,\\text{kPa}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$273\\,\\text{K}$ y $101\\,\\text{kPa}$ exactos",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$298\\,\\text{K}$ y $100\\,\\text{kPa}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ae490272-47ff-59d6-9bfe-9b24ad5cdc82",
+  "rev": 1,
+  "statement": "¿Qué producto forma el eteno con el bromuro de hidrógeno?",
+  "explanation": "CH₂=CH₂ + HBr → CH₃CH₂Br. El H se une a un carbono y el Br al otro.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "adición",
+    "HBr"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Bromoetano",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "1,2-dibromoetano",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Etano",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Etanol",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

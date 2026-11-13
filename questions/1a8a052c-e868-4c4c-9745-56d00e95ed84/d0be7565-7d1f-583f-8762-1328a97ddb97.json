@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d0be7565-7d1f-583f-8762-1328a97ddb97",
+  "rev": 1,
+  "statement": "¿Cuál es el nombre IUPAC de CH₃CH(CH₃)CH₂CH₃?",
+  "explanation": "La cadena más larga tiene cuatro carbonos y el metilo está en el carbono 2, numerando desde el extremo más próximo a la ramificación.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "nomenclatura",
+    "ramificaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Pentano",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "2-metilbutano",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "2-etilpropano",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "3-metilbutano",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9e580664-b053-54cb-9a47-4879192746cf",
+  "rev": 1,
+  "statement": "En la síntesis industrial del amoníaco, el amoníaco se licúa y se retira de la mezcla. ¿Qué efecto tiene?",
+  "explanation": "Al bajar la concentración de producto, el sistema lo repone.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "Le Châtelier",
+    "retirar producto"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El equilibrio se desplaza a la izquierda.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La reacción se detiene.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El equilibrio se desplaza a la derecha y se forma más amoníaco.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Aumenta el valor de K.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

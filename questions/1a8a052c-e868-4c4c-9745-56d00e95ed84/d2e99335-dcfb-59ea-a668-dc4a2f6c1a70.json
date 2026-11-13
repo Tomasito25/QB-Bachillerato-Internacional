@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d2e99335-dcfb-59ea-a668-dc4a2f6c1a70",
+  "rev": 1,
+  "statement": "¿Qué productos se forman cuando el ácido clorhídrico reacciona con carbonato de calcio?",
+  "explanation": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. La efervescencia indica el desprendimiento de CO₂.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "ácidos",
+    "carbonatos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hidróxido de calcio y cloro",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cloruro de calcio, agua y dióxido de carbono",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Cloruro de calcio e hidrógeno",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Óxido de calcio y cloro",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

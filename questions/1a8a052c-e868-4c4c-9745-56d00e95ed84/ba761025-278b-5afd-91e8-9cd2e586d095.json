@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ba761025-278b-5afd-91e8-9cd2e586d095",
+  "rev": 1,
+  "statement": "¿Qué factores aumentan la fuerza del enlace metálico?",
+  "explanation": "Con más carga y menos distancia, la atracción entre los cationes y los electrones deslocalizados es mayor.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "fuerza del enlace metálico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un mayor número de neutrones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Una carga menor de los cationes y un radio iónico mayor.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un menor número de electrones deslocalizados.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una carga mayor de los cationes y un radio iónico menor.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

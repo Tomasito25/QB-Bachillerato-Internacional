@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "a447fbea-c3b1-5d4a-b84b-e8aa77b0d7f8",
+  "rev": 1,
+  "statement": "El cloruro de aluminio sublima a unos $180\\,°\\text{C}$, un valor muy bajo para un compuesto de un metal y un no metal. ¿Qué indica este dato?",
+  "explanation": "La diferencia de electronegatividad entre Al y Cl no es muy grande y el Al³⁺ es pequeño y con mucha carga: polariza mucho al cloruro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "carácter intermedio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que su enlace tiene un carácter covalente importante.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Que es un compuesto puramente iónico.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que contiene puentes de hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que tiene enlace metálico.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

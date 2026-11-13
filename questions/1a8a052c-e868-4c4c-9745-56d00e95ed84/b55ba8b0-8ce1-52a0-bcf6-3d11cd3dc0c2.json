@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b55ba8b0-8ce1-52a0-bcf6-3d11cd3dc0c2",
+  "rev": 1,
+  "statement": "¿Por qué el punto de fusión de los metales alcalinos disminuye del litio al cesio?",
+  "explanation": "Todos los cationes tienen carga +1; la diferencia está en el tamaño.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "grupo 1",
+    "puntos de fusión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los átomos pierden electrones de valencia al bajar en el grupo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La carga de los cationes aumenta.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El radio de los cationes aumenta y la atracción con los electrones deslocalizados es menor.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Los átomos forman moléculas más grandes.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

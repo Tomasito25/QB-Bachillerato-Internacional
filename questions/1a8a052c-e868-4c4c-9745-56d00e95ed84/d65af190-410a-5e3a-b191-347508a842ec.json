@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "d65af190-410a-5e3a-b191-347508a842ec",
+  "rev": 1,
+  "statement": "Un sólido blanco desconocido tiene un punto de fusión de $801\\,°\\text{C}$, se disuelve en agua y su disolución conduce la electricidad.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "conductividad",
+    "solubilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce el tipo de enlace del sólido. Justifica tu respuesta con las tres observaciones.",
+      "modelAnswer": "Iónico. (1) El punto de fusión alto indica fuerzas muy fuertes en una red; (1) se disuelve en agua, un disolvente polar; (1) en disolución conduce porque libera iones que se mueven. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué se disuelve en agua.",
+      "modelAnswer": "Las moléculas polares del agua rodean a los iones (hidratación) y los separan de la red. (1)",
+      "marks": 1
+    }
+  ]
+}

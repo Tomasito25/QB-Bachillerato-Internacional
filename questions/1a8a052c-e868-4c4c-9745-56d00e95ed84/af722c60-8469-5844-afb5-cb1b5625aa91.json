@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "af722c60-8469-5844-afb5-cb1b5625aa91",
+  "rev": 1,
+  "statement": "Una muestra contiene arena, sal común y agua.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04"
+  ],
+  "tags": [
+    "separación de mezclas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo obtendrías arena seca y sal sólida a partir de la mezcla.",
+      "modelAnswer": "Se filtra la mezcla: la arena queda en el filtro. (1) Se lava la arena con agua destilada y se seca. (1) Se evapora parte del agua del filtrado y se deja cristalizar la sal (o se evapora hasta sequedad). (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Clasifica la mezcla inicial como homogénea o heterogénea, y justifica tu respuesta.",
+      "modelAnswer": "Heterogénea, porque la arena forma una fase distinta del agua salada. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la sal y el agua se pueden separar por métodos físicos.",
+      "modelAnswer": "Forman una mezcla: no están unidas químicamente. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a961986e-9851-58ea-a22a-a9e68fec97a5",
+  "rev": 1,
+  "statement": "¿Qué se observa durante una reacción exotérmica en disolución?",
+  "explanation": "La energía liberada calienta la disolución y el recipiente.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "termómetro",
+    "exotérmica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El vaso se enfría.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El vaso se calienta.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Siempre se desprende un gas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Siempre se forma un precipitado.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

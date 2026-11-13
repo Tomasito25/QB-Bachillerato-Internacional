@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "d06ac2cd-cf6a-5a56-9f15-b89f2656a4e1",
+  "rev": 1,
+  "statement": "El ácido butanoico, que da el olor a la mantequilla rancia, y el etanoato de etilo, de olor afrutado, tienen la misma fórmula molecular.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "tipos de fórmulas",
+    "isomería"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce esa fórmula molecular y la fórmula empírica.",
+      "modelAnswer": "C₄H₈O₂ (1) y C₂H₄O. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la fórmula estructural condensada de cada compuesto.",
+      "modelAnswer": "Ácido butanoico: CH₃CH₂CH₂COOH. (1) Etanoato de etilo: CH₃COOCH₂CH₃. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica qué tipo de isómeros son.",
+      "modelAnswer": "Isómeros de grupo funcional (ácido carboxílico y éster). (1)",
+      "marks": 1
+    }
+  ]
+}

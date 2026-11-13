@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "acfa991a-97d4-50ad-a0fd-31e6f7b8580e",
+  "rev": 1,
+  "statement": "¿Qué masa de sulfato de cobre(II) se obtiene a partir de $5{,}00\\,\\text{g}$ de óxido de cobre(II) con exceso de ácido sulfúrico?\n\nCuO + H₂SO₄ → CuSO₄ + H₂O",
+  "explanation": "$n(\\mathrm{CuO}) = \\dfrac{5{,}00}{79{,}55} = 0{,}0629\\,\\text{mol}$; $m = 0{,}0629 \\times 159{,}62 = 10{,}0\\,\\text{g}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "masas",
+    "sales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$3{,}99\\,\\text{g}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$5{,}00\\,\\text{g}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$10{,}0\\,\\text{g}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$20{,}1\\,\\text{g}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

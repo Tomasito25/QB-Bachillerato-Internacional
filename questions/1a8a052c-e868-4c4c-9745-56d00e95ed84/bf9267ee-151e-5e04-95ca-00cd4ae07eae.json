@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "bf9267ee-151e-5e04-95ca-00cd4ae07eae",
+  "rev": 1,
+  "statement": "Para determinar la fórmula empírica del óxido de magnesio, se calentó una cinta de magnesio en un crisol con tapa, levantándola de vez en cuando.\n\n| | Masa / g |\n|---|---|\n| Crisol y tapa | 25,315 |\n| Crisol, tapa y magnesio | 25,555 |\n| Crisol, tapa y producto | 25,713 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0",
+    "112174ae-9d35-554b-897e-b9f59cb3e376"
+  ],
+  "tags": [
+    "datos",
+    "fórmula empírica",
+    "óxido de magnesio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa de magnesio y la de oxígeno que ha reaccionado.",
+      "modelAnswer": "Magnesio: $25{,}555 - 25{,}315 = 0{,}240\\,\\text{g}$. (1) Oxígeno: $25{,}713 - 25{,}555 = 0{,}158\\,\\text{g}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la fórmula empírica del óxido.",
+      "modelAnswer": "$n(\\mathrm{Mg}) = \\dfrac{0{,}240}{24{,}31} = 9{,}87\\times 10^{-3}\\,\\text{mol}$; $n(\\mathrm{O}) = \\dfrac{0{,}158}{16{,}00} = 9{,}88\\times 10^{-3}\\,\\text{mol}$. (1) Proporción 1 : 1, así que la fórmula es MgO. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué hay que levantar la tapa de vez en cuando, pero no quitarla.",
+      "modelAnswer": "Al levantarla entra el oxígeno necesario para la reacción. (1) Si se quitara, se escaparía humo de óxido de magnesio y se perdería masa del producto. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere cómo afectaría a la proporción calculada que parte del magnesio no reaccionara.",
+      "modelAnswer": "La masa de oxígeno sería menor y la proporción Mg : O saldría mayor que 1 : 1. (1)",
+      "marks": 1
+    }
+  ]
+}

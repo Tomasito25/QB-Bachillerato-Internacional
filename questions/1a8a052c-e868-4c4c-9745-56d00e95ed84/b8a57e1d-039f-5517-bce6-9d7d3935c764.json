@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b8a57e1d-039f-5517-bce6-9d7d3935c764",
+  "rev": 1,
+  "statement": "¿Qué partícula tiene una masa relativa casi nula y carga −1?",
+  "explanation": "El electrón tiene una masa unas 1800 veces menor que la del protón. El protón tiene carga +1 y el neutrón, 0.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "masa",
+    "carga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El neutrón",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El núcleo",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El electrón",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El protón",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

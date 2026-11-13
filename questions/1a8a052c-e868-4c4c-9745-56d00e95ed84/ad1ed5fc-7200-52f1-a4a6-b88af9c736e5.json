@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ad1ed5fc-7200-52f1-a4a6-b88af9c736e5",
+  "rev": 1,
+  "statement": "Al quemar $0{,}92\\,\\text{g}$ de etanol (C₂H₅OH), $200\\,\\text{g}$ de agua se calientan $21{,}0\\,°\\text{C}$. ¿Cuál es la entalpía de combustión experimental?",
+  "explanation": "$q = 200 \\times 4{,}18 \\times 21{,}0 = 17\\,556\\,\\text{J}$; $n = \\dfrac{0{,}92}{46{,}08} = 0{,}0200\\,\\text{mol}$; $\\Delta H = -\\dfrac{17{,}6}{0{,}0200} = -880\\,\\text{kJ mol}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "entalpía de combustión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−880 kJ mol-1$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$−40{,}5 kJ mol-1$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$−17{,}6 kJ mol-1$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$+880\\,\\text{kJ mol}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

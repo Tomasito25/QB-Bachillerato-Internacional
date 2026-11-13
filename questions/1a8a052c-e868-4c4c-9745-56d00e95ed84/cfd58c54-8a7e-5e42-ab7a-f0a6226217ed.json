@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "cfd58c54-8a7e-5e42-ab7a-f0a6226217ed",
+  "rev": 1,
+  "statement": "El 1-bromobutano reacciona con una disolución acuosa caliente de hidróxido de sodio.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "sustitución nucleófila"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación de la reacción y nombra el producto orgánico.",
+      "modelAnswer": "CH₃CH₂CH₂CH₂Br + OH⁻ → CH₃CH₂CH₂CH₂OH + Br⁻. (1) Butan-1-ol. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el ion hidróxido actúa como nucleófilo.",
+      "modelAnswer": "Tiene pares solitarios y carga negativa; (1) dona un par de electrones al carbono con carga parcial positiva y forma un enlace nuevo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Describe lo que ocurre con el enlace C–Br.",
+      "modelAnswer": "Se rompe de forma heterolítica: el bromo se queda con los dos electrones y sale como ion bromuro. (1)",
+      "marks": 1
+    }
+  ]
+}

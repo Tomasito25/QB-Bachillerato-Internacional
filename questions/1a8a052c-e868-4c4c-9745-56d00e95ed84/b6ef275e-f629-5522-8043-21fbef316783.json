@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b6ef275e-f629-5522-8043-21fbef316783",
+  "rev": 1,
+  "statement": "En la valoración de un ácido fuerte con una base fuerte, ¿cuál es el pH en el punto de equivalencia a $298\\,\\text{K}$?",
+  "explanation": "La sal de un ácido fuerte y una base fuerte, como el NaCl, no altera el pH del agua.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "curva de pH",
+    "punto de equivalencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "4",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "7",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "13",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

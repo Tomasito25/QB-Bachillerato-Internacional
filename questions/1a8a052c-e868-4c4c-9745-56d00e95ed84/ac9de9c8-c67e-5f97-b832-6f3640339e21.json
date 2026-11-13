@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "ac9de9c8-c67e-5f97-b832-6f3640339e21",
+  "rev": 1,
+  "statement": "Para medir la entalpía de combustión del propan-1-ol (C₃H₇OH) se calientan $150\\,\\text{g}$ de agua en una lata de cobre con un mechero de alcohol. El agua pasa de $19{,}5\\,°\\text{C}$ a $45{,}5\\,°\\text{C}$ y el mechero pierde $0{,}750\\,\\text{g}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "entalpía de combustión",
+    "error"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la energía absorbida por el agua.",
+      "modelAnswer": "$q = 150 \\times 4{,}18 \\times 26{,}0 = 16\\,300\\,\\text{J}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la entalpía de combustión del propan-1-ol.",
+      "modelAnswer": "$n = \\dfrac{0{,}750}{60{,}11} = 0{,}0125\\,\\text{mol}$. (1) $\\Delta H = -\\dfrac{16{,}3}{0{,}0125} = -1310\\,\\text{kJ mol}^{-1}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El valor de las tablas es de unos $−2021 kJ mol-1$. Sugiere dos causas de la diferencia.",
+      "modelAnswer": "Dos de: pérdidas de calor al aire; combustión incompleta (hollín en la lata); la lata absorbe calor; evaporación del alcohol de la mecha. (2)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una mejora del método.",
+      "modelAnswer": "Proteger la llama del aire con una pantalla, colocar la lata más cerca de la llama o tapar la lata. (1)",
+      "marks": 1
+    }
+  ]
+}

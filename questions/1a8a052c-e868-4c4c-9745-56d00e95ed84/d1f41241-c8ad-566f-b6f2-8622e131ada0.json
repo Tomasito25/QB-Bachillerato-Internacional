@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "d1f41241-c8ad-566f-b6f2-8622e131ada0",
+  "rev": 1,
+  "statement": "Los enlaces covalentes pueden ser sencillos, dobles, triples o de coordinación.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "enlace de coordinación",
+    "enlaces múltiples"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué es un enlace de coordinación, con un ejemplo.",
+      "modelAnswer": "Un enlace covalente en el que los dos electrones compartidos proceden del mismo átomo. (1) Por ejemplo, en el ion H₃O⁺: el oxígeno del agua aporta un par solitario al H⁺. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el enlace N≡N es más corto que el enlace N–N.",
+      "modelAnswer": "En el triple enlace se comparten tres pares de electrones. (1) La atracción de los núcleos por más electrones compartidos acerca más los átomos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el nitrógeno, N₂, es muy poco reactivo.",
+      "modelAnswer": "Su triple enlace es muy fuerte y hace falta mucha energía para romperlo. (1)",
+      "marks": 1
+    }
+  ]
+}

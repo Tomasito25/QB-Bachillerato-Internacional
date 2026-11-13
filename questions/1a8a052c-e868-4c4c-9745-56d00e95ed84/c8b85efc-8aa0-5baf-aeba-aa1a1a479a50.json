@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "c8b85efc-8aa0-5baf-aeba-aa1a1a479a50",
+  "rev": 1,
+  "statement": "El aluminio reacciona con el cloro: 2Al(s) + 3Cl₂(g) → 2AlCl₃(s). Se hacen reaccionar $2{,}70\\,\\text{g}$ de aluminio con $7{,}10\\,\\text{g}$ de cloro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "reactivo limitante",
+    "rendimiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la cantidad de cada reactivo.",
+      "modelAnswer": "$n(\\mathrm{Al}) = \\dfrac{2{,}70}{26{,}98} = 0{,}100\\,\\text{mol}$. (1) $n(\\mathrm{Cl_2}) = \\dfrac{7{,}10}{70{,}90} = 0{,}100\\,\\text{mol}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Deduce el reactivo limitante.",
+      "modelAnswer": "Para $0{,}100\\,\\text{mol}$ de Al harían falta $0{,}150\\,\\text{mol}$ de Cl₂, y solo hay $0{,}100\\,\\text{mol}$: el cloro es el limitante. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el rendimiento teórico de cloruro de aluminio.",
+      "modelAnswer": "$n(\\mathrm{AlCl_3}) = 0{,}100 \\times \\dfrac{2}{3} = 0{,}0667\\,\\text{mol}$; $m = 0{,}0667 \\times 133{,}33 = 8{,}89\\,\\text{g}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Se obtienen $7{,}50\\,\\text{g}$. Calcula el rendimiento porcentual.",
+      "modelAnswer": "$\\dfrac{7{,}50}{8{,}89}\\times 100 = 84{,}4\\,\\%$. (1)",
+      "marks": 1
+    }
+  ]
+}

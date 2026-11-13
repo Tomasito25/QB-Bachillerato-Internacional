@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "cf46dddc-1e3b-547c-aaf1-fc877f7a88b1",
+  "rev": 1,
+  "statement": "¿Qué establece la ley de Hess?",
+  "explanation": "Por eso se pueden combinar ecuaciones conocidas para calcular $\\Delta H$ de una reacción difícil de medir.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "ley de Hess"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que la energía de activación es igual a la variación de entalpía.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que toda reacción exotérmica es rápida.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que la entalpía de los elementos es siempre cero.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que la variación de entalpía de una reacción no depende del camino seguido, solo de los estados inicial y final.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

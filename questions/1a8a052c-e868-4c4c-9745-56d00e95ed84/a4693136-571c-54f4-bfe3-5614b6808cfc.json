@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "a4693136-571c-54f4-bfe3-5614b6808cfc",
+  "rev": 1,
+  "statement": "Muchas reacciones orgánicas se explican por la interacción entre nucleófilos y electrófilos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "nucleófilos",
+    "electrófilos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Define nucleófilo y electrófilo.",
+      "modelAnswer": "Nucleófilo: especie que dona un par de electrones para formar un enlace. (1) Electrófilo: especie que acepta un par de electrones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Clasifica estas especies como nucleófilo o electrófilo: H₂O, H⁺, Cl⁻, NH₃.",
+      "modelAnswer": "Nucleófilos: H₂O, Cl⁻ y NH₃. (1) Electrófilo: H⁺. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el carbono de un halogenoalcano es atacado por nucleófilos y el doble enlace de un alqueno, por electrófilos.",
+      "modelAnswer": "El carbono unido al halógeno tiene carga parcial positiva y atrae a especies ricas en electrones. (1) El doble enlace es rico en electrones y atrae a especies deficientes en ellos. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "c537f40b-74c6-5b34-b01e-619e47c26cc0",
+  "rev": 1,
+  "statement": "Con la tabla, calcula $\\Delta H$ de la combustión CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g).\n\n| Enlace | Entalpía media de enlace / kJ mol⁻¹ |\n|---|---|\n| H–H | 436 |\n| C–H | 414 |\n| C–C | 346 |\n| C=C | 614 |\n| O=O | 498 |\n| O–H | 463 |\n| C=O | 804 |\n| N≡N | 945 |\n| N–H | 391 |\n| Cl–Cl | 242 |\n| H–Cl | 431 |\n| Br–Br | 193 |\n| C–Br | 285 |",
+  "explanation": "Rotos: $4 \\times 414 + 2 \\times 498 = 2652$. Formados: $2 \\times 804 + 4 \\times 463 = 3460$. $\\Delta H = 2652 - 3460 = -808\\,\\text{kJ}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "entalpías de enlace",
+    "combustión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$+808\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$−502 kJ$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$−808 kJ$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$−1310 kJ$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

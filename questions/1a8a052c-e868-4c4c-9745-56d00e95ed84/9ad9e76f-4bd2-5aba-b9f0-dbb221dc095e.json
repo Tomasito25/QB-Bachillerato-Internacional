@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "9ad9e76f-4bd2-5aba-b9f0-dbb221dc095e",
+  "rev": 1,
+  "statement": "El propano arde según C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l). Todos los volúmenes se miden en las mismas condiciones.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "volúmenes de gases",
+    "Avogadro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el volumen de oxígeno necesario para quemar $20\\,\\text{cm}^{3}$ de propano.",
+      "modelAnswer": "$20 \\times 5 = 100\\,\\text{cm}^3$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el volumen de gas al final si se mezclan $20\\,\\text{cm}^{3}$ de propano con $150\\,\\text{cm}^{3}$ de oxígeno y el agua se condensa.",
+      "modelAnswer": "Sobran $150 - 100 = 50\\,\\text{cm}^3$ de O₂. (1) Se forman $3 \\times 20 = 60\\,\\text{cm}^3$ de CO₂; volumen final: $110\\,\\text{cm}^3$. (1)",
+      "marks": 2
+    }
+  ]
+}

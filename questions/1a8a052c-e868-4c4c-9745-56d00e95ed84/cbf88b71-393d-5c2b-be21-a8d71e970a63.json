@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "cbf88b71-393d-5c2b-be21-a8d71e970a63",
+  "rev": 1,
+  "statement": "La gráfica muestra los puntos de ebullición de los ocho primeros alcanos lineales.\n\n![Puntos de ebullición de los alcanos lineales frente al número de átomos de carbono](qbimg:4da286a4db7228d057c998c4c6cb93dfc1fd90a5d54bdced540feaea784d9fb1)",
+  "images": [
+    {
+      "hash": "4da286a4db7228d057c998c4c6cb93dfc1fd90a5d54bdced540feaea784d9fb1",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 25502,
+      "alt": "Puntos de ebullición de los alcanos lineales frente al número de átomos de carbono"
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "serie homóloga",
+    "alcanos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica cuántos de estos alcanos son gases a $25\\,°\\text{C}$.",
+      "modelAnswer": "4, del metano al butano. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el aumento medio del punto de ebullición por cada carbono entre el pentano y el octano.",
+      "modelAnswer": "$\\dfrac{126 - 36}{3} = 30\\,°\\text{C}$ por carbono. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Describe cómo cambia el aumento del punto de ebullición al alargar la cadena.",
+      "modelAnswer": "El punto de ebullición aumenta siempre, (1) pero cada carbono añadido lo sube cada vez menos (unos $73\\,°\\text{C}$ del metano al etano y unos $28\\,°\\text{C}$ del heptano al octano). (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué el punto de ebullición aumenta con la longitud de la cadena.",
+      "modelAnswer": "Cada CH₂ añade electrones y superficie de contacto entre moléculas, (1) así que las fuerzas de London son mayores y hace falta más energía para separarlas. (1)",
+      "marks": 2
+    }
+  ]
+}

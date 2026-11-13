@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "ae68bf44-c34f-5723-b512-15dc7c13d91d",
+  "rev": 1,
+  "statement": "El espectro de emisión del hidrógeno en el visible consta de cuatro líneas de colores sobre fondo negro.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "espectro del hidrógeno",
+    "niveles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:31.000Z",
+  "updatedAt": "2026-11-13T05:51:31.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo se producen estas líneas.",
+      "modelAnswer": "Al calentar el gas o aplicarle una descarga, los electrones pasan a niveles superiores (estado excitado). (1) Al volver a niveles inferiores emiten fotones. (1) Cada fotón tiene una energía igual a la diferencia entre los dos niveles, que corresponde a una frecuencia concreta. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el espectro es de líneas y no continuo.",
+      "modelAnswer": "Los electrones solo pueden ocupar niveles de energía concretos, (1) así que solo se emiten unas pocas energías. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué las líneas convergen a frecuencias altas.",
+      "modelAnswer": "Los niveles de energía están cada vez más juntos al aumentar n. (1)",
+      "marks": 1
+    }
+  ]
+}
