@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e5f996a8-eaf3-53b8-ba19-b6c38569e3e3",
+  "rev": 1,
+  "statement": "El mercurio es líquido a temperatura ambiente. ¿Qué indica esto sobre su enlace metálico?",
+  "explanation": "Aun líquido, conduce la electricidad porque mantiene los electrones deslocalizados.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "mercurio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que el mercurio no tiene electrones deslocalizados.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que es más fuerte que el de cualquier otro metal.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que el mercurio forma moléculas covalentes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que es especialmente débil en comparación con otros metales.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e93e3ce9-1cd8-579f-a626-f39a8593ea04",
+  "rev": 1,
+  "statement": "¿Cómo se puede favorecer la formación de clorometano frente a los productos con más cloro?",
+  "explanation": "Con mucho metano, es más probable que un radical cloro choque con una molécula de metano que con una de clorometano.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "control del producto"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Usando un gran exceso de metano respecto al cloro.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Usando un gran exceso de cloro.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Haciendo la reacción en la oscuridad.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Añadiendo agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

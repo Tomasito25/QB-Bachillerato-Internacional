@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "d8df73f5-c21a-5038-b3a4-055b4f62d186",
+  "rev": 1,
+  "statement": "El metano, el amoníaco y el agua tienen cuatro dominios electrónicos alrededor del átomo central.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "estructuras de Lewis",
+    "VSEPR"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja o describe la estructura de Lewis del amoníaco.",
+      "modelAnswer": "El N en el centro, unido a tres H por enlaces sencillos (un par compartido cada uno), (1) con un par solitario sobre el N. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los ángulos de enlace disminuyen en el orden CH₄ (109,5°), NH₃ (107°), H₂O (104,5°).",
+      "modelAnswer": "Los cuatro dominios se disponen en tetraedro. (1) Los pares solitarios repelen más que los pares de enlace: (1) el NH₃ tiene un par solitario y el agua dos, así que el ángulo se cierra cada vez más. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Indica la forma del amoníaco y la del agua.",
+      "modelAnswer": "Amoníaco: pirámide trigonal. Agua: angular. (1)",
+      "marks": 1
+    }
+  ]
+}

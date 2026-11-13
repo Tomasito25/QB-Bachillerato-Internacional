@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "d8751544-e7f1-5cc4-a503-8e54b81a7ef8",
+  "rev": 1,
+  "statement": "¿Qué método permite seguir la velocidad de la reacción entre el magnesio y el ácido clorhídrico?",
+  "explanation": "También se puede medir la pérdida de masa en una balanza, si el gas escapa.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "medida de la velocidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Pesar el ácido al principio.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Medir el volumen de hidrógeno desprendido a intervalos regulares con una jeringa de gases.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Medir el pH de un único punto final.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Medir el color de la disolución.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

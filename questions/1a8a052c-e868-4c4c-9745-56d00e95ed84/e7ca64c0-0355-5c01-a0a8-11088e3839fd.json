@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e7ca64c0-0355-5c01-a0a8-11088e3839fd",
+  "rev": 1,
+  "statement": "¿Por qué los radicales son tan reactivos?",
+  "explanation": "Al formar un enlace se libera energía y el sistema se estabiliza.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "radicales",
+    "reactividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque son muy grandes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque tienen carga positiva.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque tienen la configuración de un gas noble.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque su electrón desapareado tiende a formar un par con un electrón de otra especie.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "e15959b0-6f95-5a63-b0bc-0bbdd4a09290",
+  "rev": 1,
+  "statement": "La tabla muestra la abundancia natural de los isótopos del magnesio.\n\n| Isótopo | $^{24}\\text{Mg}$ | $^{25}\\text{Mg}$ | $^{26}\\text{Mg}$ |\n|---|---|---|---|\n| Abundancia / % | 78,99 | 10,00 | 11,01 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2",
+    "112174ae-9d35-554b-897e-b9f59cb3e376"
+  ],
+  "tags": [
+    "datos",
+    "masa atómica relativa",
+    "isótopos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa atómica relativa del magnesio con dos decimales, tomando como masa de cada isótopo su número másico.",
+      "modelAnswer": "Productos de abundancia por masa: $78{,}99\\times 24 = 1895{,}76$; $10{,}00\\times 25 = 250{,}00$; $11{,}01\\times 26 = 286{,}26$. (1) $A_r = \\dfrac{2432{,}02}{100} = 24{,}32$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica el número de neutrones de cada isótopo.",
+      "modelAnswer": "12, 13 y 14. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué los tres isótopos tienen las mismas propiedades químicas.",
+      "modelAnswer": "Tienen el mismo número de protones y de electrones, y la misma configuración electrónica. (1) Las reacciones químicas dependen de los electrones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué el valor calculado no coincide exactamente con el de la tabla periódica (24,31).",
+      "modelAnswer": "La masa real de cada isótopo no es exactamente igual a su número másico. (1)",
+      "marks": 1
+    }
+  ]
+}

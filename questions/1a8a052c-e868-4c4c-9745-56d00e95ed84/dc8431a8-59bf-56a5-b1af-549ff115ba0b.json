@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dc8431a8-59bf-56a5-b1af-549ff115ba0b",
+  "rev": 1,
+  "statement": "Una sustancia funde a $1700\\,°\\text{C}$, no conduce la electricidad en ningún estado y es insoluble en agua. ¿Qué estructura tiene probablemente?",
+  "explanation": "Un punto de fusión tan alto sin conducción ni siquiera fundida indica una red de enlaces covalentes, como la del dióxido de silicio.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "propiedades",
+    "enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Red covalente",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Red metálica",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Red iónica",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Molecular sencilla",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

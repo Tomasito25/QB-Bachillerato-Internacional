@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "d8b56a75-a32f-577a-94b6-3342ccb7fa9e",
+  "rev": 1,
+  "statement": "Se dejan caer trozos pequeños de litio, sodio y potasio en agua con unas gotas de indicador universal.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "metales alcalinos",
+    "reacciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe dos observaciones comunes a los tres metales.",
+      "modelAnswer": "Dos de: el metal flota y se mueve por la superficie; se desprenden burbujas de gas; el metal desaparece; el indicador se vuelve azul o morado. (2)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la ecuación de la reacción del sodio con el agua, con los estados.",
+      "modelAnswer": "2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g). (1 por las fórmulas, 1 por el ajuste y los estados)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el potasio reacciona con más violencia que el litio.",
+      "modelAnswer": "Su electrón de valencia está más lejos del núcleo y más apantallado, (1) así que se pierde con más facilidad: su energía de ionización es menor. (1)",
+      "marks": 2
+    }
+  ]
+}

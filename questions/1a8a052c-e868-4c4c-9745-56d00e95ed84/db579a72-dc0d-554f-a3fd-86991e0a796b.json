@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "db579a72-dc0d-554f-a3fd-86991e0a796b",
+  "rev": 1,
+  "statement": "¿Qué efecto tiene un catalizador en un sistema en equilibrio?",
+  "explanation": "Reduce la energía de activación de las reacciones directa e inversa.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "catalizador",
+    "equilibrio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta el valor de K.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Ninguno en la posición: acelera por igual las dos reacciones y el equilibrio se alcanza antes.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Desplaza el equilibrio hacia los productos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Desplaza el equilibrio hacia los reactivos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "dfdb17c6-d3dc-52db-8b0a-34ad39e9f273",
+  "rev": 1,
+  "statement": "La tabla muestra la constante de equilibrio de una reacción entre gases a distintas temperaturas.\n\n| Temperatura / K | 500 | 600 | 700 | 800 |\n|---|---|---|---|---|\n| K | 0,25 | 0,81 | 2,0 | 4,0 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "K y temperatura",
+    "entalpía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo cambia K con la temperatura.",
+      "modelAnswer": "K aumenta al subir la temperatura, cada vez en mayor medida. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Deduce si la reacción directa es exotérmica o endotérmica. Justifica tu respuesta.",
+      "modelAnswer": "Endotérmica. (1) Al subir la temperatura se favorece la reacción que absorbe calor, y como K aumenta, esa es la directa. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica a qué temperatura de la tabla hay más productos que reactivos en el equilibrio, si la reacción es del tipo A ⇌ B.",
+      "modelAnswer": "A $700\\,\\text{K}$ y $800\\,\\text{K}$, donde $K > 1$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué cambiar la concentración de un reactivo no cambia el valor de K.",
+      "modelAnswer": "El sistema se reajusta: cambian las concentraciones de equilibrio, (1) pero el cociente de la expresión de K vuelve al mismo valor a esa temperatura. (1)",
+      "marks": 2
+    }
+  ]
+}

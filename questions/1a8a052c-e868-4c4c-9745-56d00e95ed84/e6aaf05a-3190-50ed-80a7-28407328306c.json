@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e6aaf05a-3190-50ed-80a7-28407328306c",
+  "rev": 1,
+  "statement": "¿Qué dos valores determinan la posición de un compuesto binario en el triángulo de enlace?",
+  "explanation": "Una gran diferencia indica carácter iónico; una media alta con poca diferencia, covalente; una media baja con poca diferencia, metálico.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "triángulo de enlace",
+    "coordenadas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El número atómico y el número de neutrones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La diferencia de electronegatividad y la electronegatividad media de los dos elementos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El radio atómico y la energía de ionización.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La masa molar y el punto de fusión.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

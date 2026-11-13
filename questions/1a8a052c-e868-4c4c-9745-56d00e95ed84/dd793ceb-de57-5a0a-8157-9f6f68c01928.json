@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "dd793ceb-de57-5a0a-8157-9f6f68c01928",
+  "rev": 1,
+  "statement": "¿Qué gases son los principales responsables de la lluvia ácida?",
+  "explanation": "SO₂ y los óxidos de nitrógeno forman ácidos sulfúrico y nítrico en la atmósfera. El CO₂ también acidifica el agua, pero da un ácido débil.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "lluvia ácida"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El vapor de agua y el ozono",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El metano y el dióxido de carbono",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los óxidos de azufre y de nitrógeno",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El oxígeno y el nitrógeno",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

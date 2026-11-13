@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "e7c4a5b6-282c-5aac-9961-05f7048a5b57",
+  "rev": 1,
+  "statement": "La gráfica muestra los puntos de ebullición de los hidruros de los elementos de los grupos 14 a 17.\n\n![Puntos de ebullición de los hidruros de los grupos 14 a 17 frente al periodo](qbimg:bde34dfe6e934c30beec66e7f8a6a920b8dfd618c5a13bf4deba95ed8de479ed)",
+  "images": [
+    {
+      "hash": "bde34dfe6e934c30beec66e7f8a6a920b8dfd618c5a13bf4deba95ed8de479ed",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 36346,
+      "alt": "Puntos de ebullición de los hidruros de los grupos 14 a 17 frente al periodo"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "puentes de hidrógeno",
+    "fuerzas de London"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la tendencia de los puntos de ebullición de los hidruros del grupo 14.",
+      "modelAnswer": "Aumentan del periodo 2 al 5, de forma regular. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica esta tendencia.",
+      "modelAnswer": "Las moléculas son apolares y solo hay fuerzas de London. (1) Al bajar en el grupo aumenta el número de electrones y las fuerzas de London son más fuertes. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el punto de ebullición del agua es mucho más alto que el del H₂S.",
+      "modelAnswer": "Entre las moléculas de agua hay puentes de hidrógeno, porque el H está unido al O, muy electronegativo. (1) En el H₂S no hay puentes de hidrógeno, solo fuerzas dipolo-dipolo y de London, más débiles. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué el punto de ebullición del HF es menor que el del agua, aunque el flúor es más electronegativo.",
+      "modelAnswer": "Cada molécula de agua puede formar dos puentes de hidrógeno por molécula de media (dos H y dos pares solitarios), mientras que el HF solo tiene un H por molécula. (1)",
+      "marks": 1
+    }
+  ]
+}

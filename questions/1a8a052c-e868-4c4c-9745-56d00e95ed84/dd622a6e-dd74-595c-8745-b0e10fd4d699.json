@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dd622a6e-dd74-595c-8745-b0e10fd4d699",
+  "rev": 1,
+  "statement": "En una pila voltaica, ¿en qué electrodo ocurre la oxidación y cómo se llama?",
+  "explanation": "Los electrones salen del ánodo, donde los cede la especie que se oxida, y recorren el circuito externo hasta el cátodo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "pila voltaica",
+    "ánodo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En el ánodo, que en la pila voltaica es el electrodo positivo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "En el cátodo, que es el electrodo positivo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "En los dos electrodos a la vez.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En el ánodo, que en la pila voltaica es el electrodo negativo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

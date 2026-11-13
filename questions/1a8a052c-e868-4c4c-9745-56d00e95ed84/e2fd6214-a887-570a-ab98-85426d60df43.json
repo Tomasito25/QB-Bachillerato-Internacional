@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e2fd6214-a887-570a-ab98-85426d60df43",
+  "rev": 1,
+  "statement": "¿Cuánta energía absorben $100\\,\\text{g}$ de agua al calentarse $5{,}0\\,°\\text{C}$? (Calor específico del agua: $4{,}18\\,\\text{J g}^{-1}\\,\\text{K}^{-1}$.)",
+  "explanation": "$q = mc\\Delta T = 100 \\times 4{,}18 \\times 5{,}0 = 2090\\,\\text{J} = 2{,}09\\,\\text{kJ}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "calorimetría",
+    "q = mcΔT"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}418\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$2{,}09\\,\\text{kJ}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$20{,}9\\,\\text{kJ}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$2090\\,\\text{kJ}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

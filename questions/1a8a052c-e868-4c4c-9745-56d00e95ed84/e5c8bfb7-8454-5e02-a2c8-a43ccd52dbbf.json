@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e5c8bfb7-8454-5e02-a2c8-a43ccd52dbbf",
+  "rev": 1,
+  "statement": "¿Cómo se define la velocidad de una reacción?",
+  "explanation": "Se expresa, por ejemplo, en $\\text{mol dm}^{-3}\\,\\text{s}^{-1}$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "velocidad de reacción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:38.000Z",
+  "updatedAt": "2026-11-13T05:51:38.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Como la energía liberada por segundo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Como el tiempo total que tarda la reacción.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Como la masa de producto final.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Como la variación de la concentración de un reactivo o de un producto por unidad de tiempo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
