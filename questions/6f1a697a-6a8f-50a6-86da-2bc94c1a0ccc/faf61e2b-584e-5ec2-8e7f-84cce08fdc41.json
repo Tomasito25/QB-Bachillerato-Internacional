@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "faf61e2b-584e-5ec2-8e7f-84cce08fdc41",
+  "rev": 1,
+  "statement": "¿Qué permite la criomicroscopía electrónica?",
+  "explanation": "La muestra se congela tan deprisa que el agua no cristaliza. Combinando muchas imágenes se reconstruye la forma tridimensional de la proteína.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "criomicroscopía electrónica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Contar los cromosomas de una célula en división sin teñirlos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Determinar la estructura tridimensional de proteínas congeladas rápidamente en disolución.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Observar en color las células vivas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Separar los orgánulos de la célula por su densidad.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

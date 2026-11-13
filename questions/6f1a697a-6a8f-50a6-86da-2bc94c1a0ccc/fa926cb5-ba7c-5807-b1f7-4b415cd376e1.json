@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fa926cb5-ba7c-5807-b1f7-4b415cd376e1",
+  "rev": 1,
+  "statement": "¿Qué define mejor a un orgánulo?",
+  "explanation": "Los orgánulos son las $piezas$ especializadas de la célula. Algunos tienen membrana (mitocondria, núcleo) y otros no (ribosomas).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "bf2643fa-9f67-5534-af0a-ee6f0bfc7246"
+  ],
+  "tags": [
+    "orgánulos",
+    "definición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una estructura diferenciada dentro de la célula, adaptada para realizar una función concreta.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Un compartimento que siempre contiene ADN.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Cualquier molécula grande del citoplasma.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una estructura que solo existe en las células vegetales.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

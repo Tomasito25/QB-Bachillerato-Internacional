@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "f9b32d7f-41a2-5c0e-bfe2-d6eb75edf071",
+  "rev": 1,
+  "statement": "En algunos bosques de coníferas, el escarabajo de la corteza del abeto completa ahora dos o más generaciones al año, en lugar de una.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "insectos",
+    "ciclos vitales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo el cambio climático puede aumentar el número de generaciones al año.",
+      "modelAnswer": "Con temperaturas más altas, el desarrollo de los insectos es más rápido (1) y la estación cálida es más larga. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Sugiere una consecuencia para los bosques.",
+      "modelAnswer": "Más escarabajos dañan más árboles, sobre todo si ya sufren por la sequía, y pueden morir grandes extensiones de bosque. (1)",
+      "marks": 1
+    }
+  ]
+}

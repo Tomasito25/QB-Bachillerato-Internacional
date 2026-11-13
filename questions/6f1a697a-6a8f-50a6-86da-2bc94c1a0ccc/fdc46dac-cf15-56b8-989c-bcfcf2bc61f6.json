@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "fdc46dac-cf15-56b8-989c-bcfcf2bc61f6",
+  "rev": 1,
+  "statement": "¿Qué actividad humana contribuye más al aumento del dióxido de carbono en la atmósfera?",
+  "explanation": "Quemar carbón, petróleo y gas libera carbono almacenado durante millones de años. La deforestación y la ganadería (metano) también contribuyen.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "gases de efecto invernadero"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El uso de energía solar.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La combustión de combustibles fósiles.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La pesca.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La plantación de bosques.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

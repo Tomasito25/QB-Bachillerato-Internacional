@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f816828b-8cff-55e1-9973-f2d3998a85fa",
+  "rev": 1,
+  "statement": "¿Qué rasgo de los vasos del xilema facilita el flujo de agua?",
+  "explanation": "Al no tener citoplasma ni tabiques, el agua circula con poca resistencia. Los poros (punteaduras) permiten el paso lateral entre vasos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "xilema",
+    "estructura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Son células vivas con muchas mitocondrias.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Tienen placas cribosas que filtran el agua.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Son tubos continuos de células muertas, sin contenido ni paredes transversales.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Están formados por una sola célula muy larga con citoplasma.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

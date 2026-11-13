@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "f135627b-f19e-5c21-878f-b4ca834979cb",
+  "rev": 1,
+  "statement": "**Sala de interrogatorios**\n\n*Una mesa metálica, dos sillas, una lámpara. La INSPECTORA, de pie, con una carpeta. Sentado, el SOSPECHOSO, un hombre joven con la chaqueta mojada.*\n\nINSPECTORA.—¿Sabe por qué está aquí?\n\nSOSPECHOSO.—Porque llovía y su coche tenía calefacción.\n\nINSPECTORA.—*(Sin sonreír.)* Anoche, a las dos y diez, alguien rompió el escaparate de la joyería Durán. La cámara de enfrente grabó a un hombre con una chaqueta como la suya.\n\nSOSPECHOSO.—Hay mil chaquetas como la mía. Es de rebajas.\n\nINSPECTORA.—*(Abre la carpeta, saca una foto y la desliza sobre la mesa.)* El hombre de la grabación cojea de la pierna izquierda.\n\n*El SOSPECHOSO no mira la foto. Mira la lámpara.*\n\nSOSPECHOSO.—Yo no cojeo.\n\nINSPECTORA.—Levántese y camine hasta la puerta.\n\n*Pausa larga. El SOSPECHOSO no se mueve.*\n\nSOSPECHOSO.—No tengo por qué.\n\nINSPECTORA.—No. No tiene por qué. *(Se sienta frente a él, despacio.)* Mi hermano también cojeaba. Se cayó de un andamio a los diecinueve años. Durante un tiempo robaba cosas pequeñas, cosas que no necesitaba. Decía que así se sentía más rápido que los demás.\n\nSOSPECHOSO.—*(Por primera vez la mira.)* ¿Y qué le pasó?\n\nINSPECTORA.—Que un día dejó de ser rápido.\n\n*Silencio. Se oye la lluvia contra una ventana que no se ve.*\n\nSOSPECHOSO.—No llevé nada. Solo rompí el cristal. Quería… *(Se detiene.)*\n\nINSPECTORA.—¿Qué quería?\n\nSOSPECHOSO.—Que se oyera algo.\n\n*La INSPECTORA cierra la carpeta. Apaga la lámpara. La sala queda en penumbra.*\n\nINSPECTORA.—Ahora sí. Ahora cuéntemelo desde el principio.\n\n---\n\n**Pregunta guía:** ¿Cómo se desarrolla la relación de poder entre los personajes a lo largo de la escena?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "interrogatorio",
+    "poder",
+    "tensión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un interrogatorio policial en el que la inspectora consigue la confesión de un joven sin presionarle, sino contándole una historia personal. La escena pasa del enfrentamiento a la confianza y revela el motivo del delito: la necesidad de hacerse oír.\n\n**Aspectos que conviene analizar**\n- El espacio y la luz (mesa metálica, lámpara) como convención del género policial y símbolo de la relación de poder.\n- La actitud defensiva del sospechoso, con ironía y humor («su coche tenía calefacción», la chaqueta «de rebajas»).\n- Las pruebas y la tensión dramática: la cojera, la orden de caminar y la larga pausa sin movimiento.\n- El giro: la inspectora se sienta y cuenta la historia de su hermano; la mirada del sospechoso cambia («Por primera vez la mira»).\n- La frase «Que un día dejó de ser rápido» y el silencio con la lluvia: lo que no se dice pesa más que lo dicho.\n- La confesión entrecortada y el final: apagar la lámpara simboliza el fin del interrogatorio como enfrentamiento.\n\n**Una estructura posible.** Analizar la escena en tres movimientos (ataque, acercamiento, confesión) y en cada uno las réplicas, los silencios y los objetos.\n\n**Cuidado con…** tomar partido por un personaje. Lo que se analiza es cómo la escena construye y transforma la relación.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

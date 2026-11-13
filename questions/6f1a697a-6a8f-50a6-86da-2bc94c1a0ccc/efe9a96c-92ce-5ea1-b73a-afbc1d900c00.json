@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "efe9a96c-92ce-5ea1-b73a-afbc1d900c00",
+  "rev": 1,
+  "statement": "¿Cuántas secuencias distintas son posibles para un fragmento de una cadena de ADN de cinco nucleótidos?",
+  "explanation": "Hay cuatro bases posibles en cada posición: $4^5 = 1024$. Por eso el ADN tiene una capacidad casi ilimitada para almacenar información.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "secuencias",
+    "almacenamiento de información"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "20",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "25",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "625",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "1024",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

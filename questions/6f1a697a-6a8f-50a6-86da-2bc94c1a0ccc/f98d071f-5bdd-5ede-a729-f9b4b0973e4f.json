@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f98d071f-5bdd-5ede-a729-f9b4b0973e4f",
+  "rev": 1,
+  "statement": "¿Qué rasgo es típico de una flor polinizada por insectos?",
+  "explanation": "Atraen a los insectos con colores, olores y néctar. Los estigmas plumosos y el polen ligero son propios de la polinización por el viento.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "flores",
+    "polinización por insectos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Gran cantidad de polen muy ligero.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Estigmas plumosos que cuelgan fuera de la flor.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Ausencia de pétalos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Pétalos vistosos, néctar y aroma.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

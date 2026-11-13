@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ff6d26b9-2dda-5edd-ae93-87241d13ea54",
+  "rev": 1,
+  "statement": "¿Qué le ocurre al ADN molde tras la transcripción?",
+  "explanation": "La transcripción no altera la secuencia del ADN; por eso un gen puede expresarse una y otra vez.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "estabilidad del molde"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Pierde la secuencia del gen transcrito.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Queda unido al ARNm de forma permanente.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Vuelve a formar la doble hélice sin cambios, y el gen se puede transcribir muchas veces.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Se destruye junto con la ARN polimerasa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

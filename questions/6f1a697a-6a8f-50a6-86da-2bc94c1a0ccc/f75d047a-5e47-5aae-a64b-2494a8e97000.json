@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f75d047a-5e47-5aae-a64b-2494a8e97000",
+  "rev": 1,
+  "statement": "¿Por qué debe replicarse el ADN antes de la mitosis?",
+  "explanation": "Cada cromosoma pasa a tener dos cromátidas idénticas, que se separan en la anafase.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "replicación",
+    "requisito"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la replicación ocurre durante la anafase.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para que los cromosomas se puedan teñir.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Para que las células hijas tengan el doble de ADN que la célula madre.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para que cada célula hija reciba una copia completa de toda la información genética.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

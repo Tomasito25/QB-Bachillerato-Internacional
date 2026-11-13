@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fa9c5349-27c0-5c1c-acbe-c1c3249ef1a9",
+  "rev": 1,
+  "statement": "¿Qué base nitrogenada aparece en el ARN pero no en el ADN?",
+  "explanation": "El ARN tiene uracilo en lugar de la timina del ADN. Adenina, citosina y guanina están en los dos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "ARN",
+    "bases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Timina",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Adenina",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Citosina",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Uracilo",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "feb81f4a-7e36-5e41-a37b-db6f766f8c1b",
+  "rev": 1,
+  "statement": "¿Qué es el volumen corriente?",
+  "explanation": "En una persona adulta en reposo es de alrededor de medio litro.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "86ec3f63-5701-591c-b3e5-92e65aae354f"
+  ],
+  "tags": [
+    "volumen corriente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El volumen máximo que pueden contener los pulmones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El volumen de sangre que pasa por los pulmones en un minuto.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El volumen de aire que se inspira o se espira en cada respiración normal.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El volumen que se espira con esfuerzo máximo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

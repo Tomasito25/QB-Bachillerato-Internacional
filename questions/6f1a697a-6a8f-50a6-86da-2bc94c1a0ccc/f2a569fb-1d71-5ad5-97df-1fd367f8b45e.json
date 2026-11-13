@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "f2a569fb-1d71-5ad5-97df-1fd367f8b45e",
+  "rev": 1,
+  "statement": "Para medir células de la epidermis de cebolla se usa un ocular con una escala graduada (retícula). Con un micrómetro de platina se comprueba que $40$ divisiones de la retícula equivalen a $100\\,\\mu\\text{m}$. Después se mide la anchura de cinco células, en divisiones de la retícula.\n\n| Célula | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Anchura / divisiones | 14 | 16 | 15 | 13 | 17 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291",
+    "939e4cff-3e45-56bc-b3d6-c41799790f98"
+  ],
+  "tags": [
+    "datos",
+    "microscopía",
+    "calibración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el valor de una división de la retícula, en micrómetros.",
+      "modelAnswer": "$\\dfrac{100\\,\\mu\\text{m}}{40} = 2{,}5\\,\\mu\\text{m}$ por división. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la anchura media de las células, en micrómetros.",
+      "modelAnswer": "Media: $\\dfrac{14 + 16 + 15 + 13 + 17}{5} = 15$ divisiones. (1) $15 \\times 2{,}5 = 37{,}5\\,\\mu\\text{m}$, es decir, unos $38\\,\\mu\\text{m}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué hay que repetir la calibración al cambiar de objetivo.",
+      "modelAnswer": "La retícula está en el ocular y no cambia de tamaño, pero la imagen de la muestra sí cambia con el aumento. (1) Cada división equivale a una longitud real distinta con cada objetivo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué se mide más de una célula.",
+      "modelAnswer": "Las células del tejido varían de tamaño; la media de varias es más representativa y reduce el efecto de los valores extremos. (1)",
+      "marks": 1
+    }
+  ]
+}

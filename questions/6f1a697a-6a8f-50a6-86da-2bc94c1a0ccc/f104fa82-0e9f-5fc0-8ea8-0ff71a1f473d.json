@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "f104fa82-0e9f-5fc0-8ea8-0ff71a1f473d",
+  "rev": 1,
+  "statement": "¿Qué diferencia la diabetes de tipo 1 de la de tipo 2?",
+  "explanation": "La de tipo 1 es autoinmune y suele empezar en la infancia; la de tipo 2 se asocia a la obesidad y al sedentarismo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "diabetes",
+    "tipos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las dos se tratan solo con ejercicio.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La de tipo 1 se debe a comer demasiado azúcar y la de tipo 2 es siempre hereditaria.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "En la de tipo 2 no se produce glucagón.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En la de tipo 1 no se produce insulina porque se destruyen las células beta; en la de tipo 2 las células responden poco a la insulina.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

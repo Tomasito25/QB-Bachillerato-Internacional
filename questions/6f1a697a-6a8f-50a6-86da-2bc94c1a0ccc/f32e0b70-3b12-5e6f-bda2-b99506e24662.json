@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "f32e0b70-3b12-5e6f-bda2-b99506e24662",
+  "rev": 1,
+  "statement": "El agua actúa como disolvente en el citoplasma, en la sangre y en el xilema.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "solvente",
+    "transporte"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre sustancias hidrófilas e hidrófobas, con un ejemplo de cada tipo.",
+      "modelAnswer": "Las hidrófilas son polares o tienen carga y se atraen con el agua, por ejemplo la glucosa o los iones sodio. (1) Las hidrófobas son apolares y no forman puentes de hidrógeno con el agua, por ejemplo los triglicéridos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué las enzimas del citoplasma necesitan estar en disolución acuosa.",
+      "modelAnswer": "Las enzimas y sus sustratos están disueltos y se mueven libremente. (1) Así chocan con frecuencia y el sustrato puede llegar al sitio activo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El colesterol se transporta en la sangre dentro de lipoproteínas. Sugiere por qué.",
+      "modelAnswer": "El colesterol es hidrófobo y no se disuelve en el plasma. (1) La lipoproteína lleva en su exterior fosfolípidos y proteínas hidrófilas que sí son compatibles con el agua. (1)",
+      "marks": 2
+    }
+  ]
+}

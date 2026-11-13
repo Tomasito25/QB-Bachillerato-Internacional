@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "eb3395dc-1820-542e-bb8d-8dd5786a4407",
+  "rev": 1,
+  "statement": "Se comparan las secuencias de aminoácidos del citocromo c de varias especies. ¿Qué se espera?",
+  "explanation": "Las diferencias se acumulan con el tiempo desde que dos linajes se separan. Por eso el número de diferencias indica el grado de parentesco.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "pruebas moleculares"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Cuanto más grandes son dos especies, más se parecen sus secuencias.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Las especies que viven en el mismo hábitat tienen secuencias idénticas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las secuencias son iguales en todas las especies, porque la proteína tiene la misma función.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Cuanto más reciente es el antepasado común de dos especies, menos diferencias hay entre sus secuencias.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

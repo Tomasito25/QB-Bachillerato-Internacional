@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ec3d3486-909a-50a9-8202-36977dcbfda0",
+  "rev": 1,
+  "statement": "Tras años de uso de un insecticida, la mayoría de los mosquitos de una zona son resistentes. ¿Qué explicación es correcta?",
+  "explanation": "El insecticida no crea la resistencia: selecciona a los individuos que ya la tenían.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "resistencia",
+    "selección natural"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Algunos mosquitos ya eran resistentes por mutación; sobrevivieron, se reprodujeron y sus alelos se hicieron frecuentes.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El insecticida provocó la resistencia en todos los mosquitos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los mosquitos aprendieron a evitar el insecticida y enseñaron a sus crías.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El insecticida dejó de ser tóxico con el tiempo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

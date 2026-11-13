@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ffa4d158-15b1-5fd9-b331-ce81ae78dd33",
+  "rev": 1,
+  "statement": "¿Qué es la competencia interespecífica?",
+  "explanation": "Cuando el recurso escasea, ambas especies salen perjudicadas; puede terminar con la exclusión de una de ellas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "competencia interespecífica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La relación en la que las dos especies se benefician.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La lucha entre individuos de la misma especie por pareja.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La relación en la que una especie se alimenta de otra.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La interacción entre individuos de especies distintas que usan los mismos recursos limitados.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

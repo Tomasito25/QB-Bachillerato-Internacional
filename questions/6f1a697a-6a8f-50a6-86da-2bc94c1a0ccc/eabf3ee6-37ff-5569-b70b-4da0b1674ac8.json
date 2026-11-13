@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "eabf3ee6-37ff-5569-b70b-4da0b1674ac8",
+  "rev": 1,
+  "statement": "¿Qué afirmación sobre las mutaciones es correcta?",
+  "explanation": "La mutación no tiene dirección. Algunas regiones mutan con más frecuencia, pero ninguna mutación aparece $para$ adaptarse.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "aleatoriedad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:53.000Z",
+  "updatedAt": "2026-11-13T05:55:53.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Solo aparecen cuando son útiles para el organismo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Siempre son perjudiciales.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Solo ocurren en las células de la piel.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Son aleatorias: pueden ocurrir en cualquier punto del genoma y no aparecen porque el organismo las necesite.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
