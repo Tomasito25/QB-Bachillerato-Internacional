@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "556e5049-be8c-537a-b85a-ea719c5de2f9",
+  "rev": 1,
+  "statement": "Una cadena de ARNm tiene la secuencia AUGGUAAAGCAUUGA. Usa la tabla de codones.\n\n| Codón | Aminoácido |\n|---|---|\n| AUG | Met (inicio) |\n| UUU, UUC | Phe |\n| GAA, GAG | Glu |\n| GUA, GUG | Val |\n| AAA, AAG | Lys |\n| UGG | Trp |\n| GGU, GGC | Gly |\n| CAU, CAC | His |\n| UAA, UAG, UGA | Fin |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "código genético",
+    "mutaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce la secuencia de aminoácidos que codifica.",
+      "modelAnswer": "Met–Val–Lys–His. (2) El último codón, UGA, indica el final. (1 si hay un aminoácido mal)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Una mutación cambia la tercera base del segundo codón, de A a G. Explica el efecto.",
+      "modelAnswer": "El codón pasa de GUA a GUG, que también codifica valina. (1) La proteína no cambia: el código es degenerado. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Otra mutación cambia la primera base del tercer codón, de A a U. Explica el efecto.",
+      "modelAnswer": "AAG pasa a UAG, que es un codón de terminación. (1) La proteína se acorta y lo más probable es que no funcione. (1)",
+      "marks": 2
+    }
+  ]
+}

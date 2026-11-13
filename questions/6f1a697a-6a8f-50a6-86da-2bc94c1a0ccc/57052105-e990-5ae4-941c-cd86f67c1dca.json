@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "57052105-e990-5ae4-941c-cd86f67c1dca",
+  "rev": 1,
+  "statement": "¿Cómo destruyen los fagocitos a las bacterias?",
+  "explanation": "Los fagocitos se desplazan con movimiento ameboide hasta la infección, rodean la bacteria con su membrana y la digieren en una vacuola.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "fagocitos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Las expulsan del cuerpo por el sudor.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Les inyectan anticuerpos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las engloban por endocitosis y las digieren con enzimas de los lisosomas.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Fabrican antibióticos que las matan.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

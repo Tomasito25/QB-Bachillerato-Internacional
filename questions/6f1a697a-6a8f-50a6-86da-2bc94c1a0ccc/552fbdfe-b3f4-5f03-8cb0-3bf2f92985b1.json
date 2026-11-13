@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "552fbdfe-b3f4-5f03-8cb0-3bf2f92985b1",
+  "rev": 1,
+  "statement": "¿Qué adaptación de los capilares favorece el intercambio de sustancias con los tejidos?",
+  "explanation": "La pared fina reduce la distancia de difusión; en algunos órganos, como el riñón o el intestino, los capilares tienen poros (fenestraciones).",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "capilares"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Su pared tiene una sola capa de células planas, muy permeable y a veces con poros.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Su pared es gruesa y contiene mucho tejido muscular.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Tienen una luz muy ancha para que la sangre circule deprisa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Tienen válvulas que impiden el retroceso de la sangre.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

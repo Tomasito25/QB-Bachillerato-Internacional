@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5225ada2-70d5-53f8-9477-5aa78c7516c7",
+  "rev": 1,
+  "statement": "¿Cuál es la forma correcta de escribir el nombre científico del lobo?",
+  "explanation": "El género va con mayúscula inicial y el epíteto específico en minúscula; los dos, en cursiva (o subrayados a mano).",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "nomenclatura binomial"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "*Canis lupus*",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Canis Lupus",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "*canis lupus*",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "*Canis Lupus*",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

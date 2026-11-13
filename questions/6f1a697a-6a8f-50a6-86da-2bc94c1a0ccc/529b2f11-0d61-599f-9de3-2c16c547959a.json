@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "529b2f11-0d61-599f-9de3-2c16c547959a",
+  "rev": 1,
+  "statement": "¿Cuál de estas reacciones es anabólica?",
+  "explanation": "Las reacciones anabólicas construyen moléculas grandes a partir de otras pequeñas, como las condensaciones. Las catabólicas las rompen.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "9598a345-0c6b-540c-8e2e-eb62d16e40c0"
+  ],
+  "tags": [
+    "anabolismo",
+    "catabolismo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La hidrólisis de un triglicérido.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La síntesis de una proteína a partir de aminoácidos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La digestión del almidón en maltosa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La degradación de la glucosa en la respiración.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

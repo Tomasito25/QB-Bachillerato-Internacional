@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "4d5f09be-9df4-54b6-bccd-d3fc5ae51a02",
+  "rev": 1,
+  "statement": "**Inventario**\n\nQuedan tres tazas desparejadas\ny una cuchara que nunca encontró su cajón.\nQueda el reloj de la cocina,\nque sigue dando una hora que ya no le importa a nadie.\n\nQueda el abrigo en el perchero\ncon la forma exacta de unos hombros,\ny en el bolsillo un billete de autobús\nfechado un martes cualquiera\nque no sabía que era el último.\n\nHacemos montones:\nlo que se tira, lo que se da, lo que se guarda.\nNadie se atreve a inventar el cuarto montón,\nel de lo que no se puede tocar todavía.\n\nMi madre dobla un mantel con un cuidado\nque no le he visto nunca con nada.\nYo cuento cucharas.\nContar es una forma de no decir.\n\nAl final, la casa pesa menos.\nNosotros, no.\n\n---\n\n**Pregunta guía:** ¿De qué manera se sirve el poema de los objetos cotidianos para expresar la ausencia?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "duelo",
+    "objetos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El vaciado de una casa tras una muerte se convierte en un inventario: la enumeración de objetos ocupa el lugar del llanto y el duelo se dice de forma indirecta. Una tesis posible es que la contención del lenguaje intensifica la emoción en lugar de rebajarla.\n\n**Aspectos que conviene analizar**\n- La anáfora de «Queda…» en las dos primeras estrofas: se enumera lo que permanece y nunca se nombra a quien falta.\n- La personificación del reloj, que da «una hora que ya no le importa a nadie», y la ironía del billete «que no sabía que era el último».\n- La imagen del abrigo «con la forma exacta de unos hombros»: el cuerpo ausente aparece en negativo, como un molde vacío.\n- El paso de los objetos a las acciones en la tercera estrofa y el «cuarto montón», que da nombre a lo que no se puede clasificar.\n- El verso «Contar es una forma de no decir», clave de lectura de todo el poema.\n- El cierre: dos versos breves en antítesis (la casa pesa menos; nosotros, no), con el peso trasladado del espacio a las personas.\n\n**Una estructura posible.** Seguir el movimiento del poema: objetos (estrofas 1 y 2), gestos de la familia (3 y 4) y conclusión (5), mostrando cómo la voz poética se va haciendo presente.\n\n**Cuidado con…** resumir el contenido o limitarte a enumerar figuras. Explica qué efecto tiene cada recurso en la expresión de la ausencia.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

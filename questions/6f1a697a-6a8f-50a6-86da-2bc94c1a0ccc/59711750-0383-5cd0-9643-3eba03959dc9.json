@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "59711750-0383-5cd0-9643-3eba03959dc9",
+  "rev": 1,
+  "statement": "¿Qué sustratos puede usar la respiración aerobia, además de la glucosa?",
+  "explanation": "Los lípidos y las proteínas también pueden oxidarse en la respiración aerobia. La anaerobia, en cambio, solo usa glúcidos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "sustratos respiratorios"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ácidos grasos y, si hace falta, aminoácidos.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Solo glucosa: ninguna otra molécula se puede respirar.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Solo ATP.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Solo agua y dióxido de carbono.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4d6cd906-2019-579d-b092-11ccdf1d1fc5",
+  "rev": 1,
+  "statement": "¿Qué causa directa tiene un infarto de miocardio?",
+  "explanation": "Las placas de ateroma estrechan las arterias coronarias; si se forma un coágulo encima, el riego se interrumpe y las células del miocardio mueren.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "enfermedad coronaria",
+    "ateroma"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La obstrucción de una arteria coronaria, que deja sin oxígeno una parte del músculo cardíaco.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El cierre de las válvulas de las venas de las piernas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un aumento del número de glóbulos rojos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La obstrucción de la vena cava.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

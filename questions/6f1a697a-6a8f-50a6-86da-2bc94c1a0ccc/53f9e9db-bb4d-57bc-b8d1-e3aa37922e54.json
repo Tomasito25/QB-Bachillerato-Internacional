@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "53f9e9db-bb4d-57bc-b8d1-e3aa37922e54",
+  "rev": 1,
+  "statement": "Para una prueba de paternidad se amplificaron por PCR dos regiones muy variables del ADN de una madre, de su hijo y de dos posibles padres (P1 y P2), y se separaron por electroforesis. El carril M contiene fragmentos de tamaño conocido.\n\n![Gel de electroforesis con los perfiles de ADN de una madre, su hijo y dos posibles padres, junto a un marcador de tamaños](qbimg:3dee2c316012350418c9643b59df3bfd9bc51980006f2d69d72671d4fb1318ee)",
+  "images": [
+    {
+      "hash": "3dee2c316012350418c9643b59df3bfd9bc51980006f2d69d72671d4fb1318ee",
+      "ext": "png",
+      "width": 1120,
+      "height": 720,
+      "bytes": 5436,
+      "alt": "Gel de electroforesis con los perfiles de ADN de una madre, su hijo y dos posibles padres, junto a un marcador de tamaños"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34",
+    "b06e888d-b5c8-515d-a5eb-809009c3efd0"
+  ],
+  "tags": [
+    "datos",
+    "perfiles de ADN",
+    "paternidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica en qué extremo del gel se colocaron las muestras y por qué.",
+      "modelAnswer": "En el extremo negativo, junto a los pocillos de arriba, porque el ADN tiene carga negativa y avanza hacia el polo positivo. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Deduce cuál de los dos hombres puede ser el padre. Justifica tu respuesta.",
+      "modelAnswer": "P1. (1) Una banda del hijo coincide con la de la madre; la otra debe venir del padre, y solo P1 tiene una banda a esa misma altura. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué es necesario amplificar el ADN antes de la electroforesis.",
+      "modelAnswer": "La cantidad de ADN de la muestra es muy pequeña y no se vería en el gel. (1) La PCR produce millones de copias de las regiones estudiadas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué en una prueba real se analizan muchas más regiones.",
+      "modelAnswer": "Con dos regiones, varias personas podrían coincidir por azar; con muchas, la probabilidad de coincidencia es mínima y el resultado es más fiable. (1)",
+      "marks": 1
+    }
+  ]
+}

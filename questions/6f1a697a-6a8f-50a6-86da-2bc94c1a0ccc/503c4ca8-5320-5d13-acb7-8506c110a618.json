@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "503c4ca8-5320-5d13-acb7-8506c110a618",
+  "rev": 1,
+  "statement": "Con un respirómetro se midió el consumo de oxígeno de $10\\,\\text{g}$ de semillas de guisante en germinación a cinco temperaturas.\n\n![Consumo de oxígeno de semillas en germinación a distintas temperaturas](qbimg:4f45f6919db551603d7270ae31ab2214829a27ca7a97783b38bff31564da936f)",
+  "images": [
+    {
+      "hash": "4f45f6919db551603d7270ae31ab2214829a27ca7a97783b38bff31564da936f",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 21775,
+      "alt": "Consumo de oxígeno de semillas en germinación a distintas temperaturas"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "respirómetro",
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el consumo de oxígeno por gramo de semillas a $25\\,°\\text{C}$.",
+      "modelAnswer": "$\\dfrac{0{,}45}{10} = 0{,}045\\,\\text{cm}^3\\,\\text{h}^{-1}\\,\\text{g}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Describe el efecto de la temperatura en la velocidad de respiración.",
+      "modelAnswer": "La velocidad aumenta con la temperatura en todo el intervalo estudiado. (1) Y cada vez más deprisa: de $10\\,°\\text{C}$ a $20\\,°\\text{C}$ casi se triplica. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica este efecto.",
+      "modelAnswer": "La respiración es una serie de reacciones catalizadas por enzimas. (1) Al subir la temperatura, aumentan la energía cinética de las moléculas y la frecuencia de los choques con éxito. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Indica una variable de control y por qué debe mantenerse constante.",
+      "modelAnswer": "La masa de semillas (o su edad, o la cantidad de absorbente), porque afecta a la cantidad total de oxígeno consumido. (1)",
+      "marks": 1
+    },
+    {
+      "id": "e",
+      "statement": "Sugiere qué esperarías encontrar a $50\\,°\\text{C}$.",
+      "modelAnswer": "Una velocidad muy baja, porque las enzimas se desnaturalizarían y las semillas podrían morir. (1)",
+      "marks": 1
+    }
+  ]
+}

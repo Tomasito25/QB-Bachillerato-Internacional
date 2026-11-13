@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "523f11eb-d4f5-5092-a2ce-6f96067d1445",
+  "rev": 1,
+  "statement": "¿Por qué las dos moléculas resultantes de la replicación son idénticas?",
+  "explanation": "A una A del molde solo se le puede emparejar una T, y a una C, una G. Así la información se copia con gran fidelidad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "complementariedad",
+    "replicación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la ADN polimerasa copia primero las proteínas asociadas al ADN.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el emparejamiento de bases complementarias determina la secuencia de cada cadena nueva.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque las dos cadenas originales son idénticas entre sí.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los nucleótidos se añaden al azar y luego se corrigen todos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

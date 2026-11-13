@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "567b251e-c3f5-5e98-a154-bbff95c1fa74",
+  "rev": 1,
+  "statement": "Las plantas de las marismas saladas viven en suelos con mucha sal. ¿Qué problema principal deben resolver?",
+  "explanation": "Con tanta sal en el suelo, el agua tiende a salir de las raíces. Las halófitas acumulan solutos en sus células o excretan sal por glándulas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "adaptaciones",
+    "halófitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Protegerse de las bajas temperaturas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Captar suficiente luz bajo el agua del mar.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Conseguir absorber agua de un suelo cuya concentración de solutos es muy alta.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Evitar absorber demasiada agua por ósmosis.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

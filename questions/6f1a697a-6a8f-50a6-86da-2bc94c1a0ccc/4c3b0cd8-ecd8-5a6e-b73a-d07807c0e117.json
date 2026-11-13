@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "4c3b0cd8-ecd8-5a6e-b73a-d07807c0e117",
+  "rev": 1,
+  "statement": "La inmunidad adaptativa produce anticuerpos específicos contra cada patógeno.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "anticuerpos",
+    "linfocitos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se produce una respuesta de anticuerpos tras una infección.",
+      "modelAnswer": "Los antígenos del patógeno son reconocidos por linfocitos T colaboradores. (1) Estos activan a los linfocitos B específicos de ese antígeno. (1) Los linfocitos B activados se dividen y forman un clon de células plasmáticas, (1) que secretan grandes cantidades de anticuerpos. (1) Parte del clon queda como células de memoria. (1)",
+      "marks": 5
+    },
+    {
+      "id": "b",
+      "statement": "Distingue entre la inmunidad innata y la adaptativa.",
+      "modelAnswer": "La innata es inespecífica, actúa de inmediato y no cambia con las infecciones. (1) La adaptativa es específica de cada antígeno, tarda más la primera vez y deja memoria. (1)",
+      "marks": 2
+    }
+  ]
+}

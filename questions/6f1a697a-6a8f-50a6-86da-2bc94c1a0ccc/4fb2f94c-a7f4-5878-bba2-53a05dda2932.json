@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "4fb2f94c-a7f4-5878-bba2-53a05dda2932",
+  "rev": 1,
+  "statement": "¿Por qué la acidificación del océano amenaza a los arrecifes de coral?",
+  "explanation": "Junto con el blanqueo por el calor, puede provocar el colapso del ecosistema del arrecife.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "arrecifes",
+    "acidificación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El CO₂ disuelto baja el pH y reduce los iones carbonato que los corales necesitan para formar su esqueleto.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El agua ácida aumenta la fotosíntesis de las algas simbiontes.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La acidez hace que el agua sea más fría.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los corales necesitan agua ácida para crecer.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

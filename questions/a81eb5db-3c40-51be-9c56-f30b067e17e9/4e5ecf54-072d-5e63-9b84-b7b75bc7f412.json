@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "4e5ecf54-072d-5e63-9b84-b7b75bc7f412",
+  "rev": 1,
+  "statement": "**Sobre el silencio**\n\nHace unos años pasé una semana en un monasterio de montaña. No por fe, sino por curiosidad y un poco por cansancio. Los monjes hablaban poco y comían en silencio mientras uno de ellos leía en voz alta. El primer día, aquel silencio me pareció insoportable: oía mi propia masticación, el roce de la ropa, el latido en los oídos. Era como si, al quitar el ruido de fuera, apareciera un ruido de dentro que llevaba años esperando su turno.\n\nAl tercer día algo cambió. Empecé a distinguir sonidos que no sabía que existían: el agua que corría bajo el suelo de piedra, las distintas campanas de las distintas horas, la respiración de un monje anciano que caminaba delante de mí por el claustro. El silencio no estaba vacío. Estaba lleno de cosas pequeñas que el ruido normal tapaba.\n\nVivimos en una época que tiene miedo al silencio. Lo llenamos con música en los ascensores, con televisores en los bares, con auriculares en los oídos desde que nos levantamos. En una conversación, tres segundos de silencio nos parecen un fracaso. Y sin embargo, casi todo lo importante se dice después de una pausa: el «te quiero», el «lo siento», el diagnóstico del médico.\n\nNo defiendo el silencio absoluto, que es una forma de muerte. Defiendo los silencios pequeños: el de antes de responder, el de después de leer un buen poema, el de dos personas que se conocen tanto que no necesitan hablar en el coche. Son silencios llenos, como el del monasterio.\n\nVolví a la ciudad hace tiempo. He vuelto a los auriculares, a la radio, a la música de los ascensores. Pero a veces, en mitad de todo ese ruido, me acuerdo del agua que corría bajo la piedra. Y me callo un momento, por si todavía se oye.\n\n---\n\n**Pregunta guía:** ¿Cómo desarrolla el texto su reflexión sobre el silencio a partir de una experiencia personal?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "ensayo",
+    "silencio",
+    "ruido",
+    "atención"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Ensayo que parte de una estancia en un monasterio para reflexionar sobre el valor del silencio en una sociedad que lo teme. El autor distingue entre el silencio vacío y los «silencios llenos» y termina con una imagen que conecta la experiencia pasada con su vida actual.\n\n**Aspectos que conviene analizar**\n- La experiencia inicial y la paradoja del silencio que revela «un ruido de dentro».\n- La evolución de la percepción («Al tercer día algo cambió») y la enumeración de sonidos descubiertos.\n- La afirmación central: el silencio no está vacío, sino «lleno de cosas pequeñas».\n- La crítica del presente (música en los ascensores, auriculares) y el argumento de que lo importante se dice tras una pausa, con ejemplos que van de lo amoroso a lo grave.\n- La matización («No defiendo el silencio absoluto») y la enumeración de los «silencios pequeños».\n- El final circular: el regreso al ruido y el gesto de callarse «por si todavía se oye» el agua bajo la piedra.\n\n**Una estructura posible.** Seguir la estructura del texto (experiencia, descubrimiento, tesis, crítica, matiz y cierre) y analizar cómo la anécdota sostiene la argumentación.\n\n**Cuidado con…** resumir la estancia en el monasterio. Analiza cómo se convierte en argumento.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

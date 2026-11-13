@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "51a05356-db6a-503b-9b24-9f73eda9666f",
+  "rev": 1,
+  "statement": "¿Qué hace la ADN polimerasa?",
+  "explanation": "Los nucleótidos se emparejan con las bases de la cadena molde (A con T, C con G) y la polimerasa los une entre sí.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "ADN polimerasa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:49.000Z",
+  "updatedAt": "2026-11-13T05:52:49.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Separa las dos cadenas del ADN.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Degrada el ADN dañado.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Transcribe el ADN a ARN mensajero.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Añade nucleótidos libres complementarios a la cadena molde y los une formando la nueva cadena.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
