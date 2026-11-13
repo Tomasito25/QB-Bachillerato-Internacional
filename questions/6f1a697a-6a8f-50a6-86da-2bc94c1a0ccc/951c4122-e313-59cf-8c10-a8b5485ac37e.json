@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "951c4122-e313-59cf-8c10-a8b5485ac37e",
+  "rev": 1,
+  "statement": "¿Para qué sirven los experimentos de enriquecimiento de CO₂ al aire libre (FACE)?",
+  "explanation": "Se libera CO₂ alrededor de parcelas de cultivo o bosque en condiciones naturales, lo que da resultados más realistas que en un invernadero.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "experimentos FACE"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para eliminar el CO₂ del aire de una ciudad.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para comprobar si las plantas pueden vivir sin luz.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Para predecir cómo crecerán las plantas y la vegetación con las concentraciones de CO₂ esperadas en el futuro.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Para medir la absorción de luz de cada pigmento.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

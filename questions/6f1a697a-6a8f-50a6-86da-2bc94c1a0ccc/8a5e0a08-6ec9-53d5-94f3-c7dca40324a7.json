@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "8a5e0a08-6ec9-53d5-94f3-c7dca40324a7",
+  "rev": 1,
+  "statement": "Se registró la temperatura del aire y la del agua de un estanque, a $1\\,\\text{m}$ de profundidad, durante dos días de verano.\n\n![Temperatura del aire y del agua de un estanque durante 48 horas](qbimg:88ec7c120a2c13f3d5d32628dfd5b56ec1eb4baa9a93df71d59ad5ec79a44620)",
+  "images": [
+    {
+      "hash": "88ec7c120a2c13f3d5d32628dfd5b56ec1eb4baa9a93df71d59ad5ec79a44620",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 26271,
+      "alt": "Temperatura del aire y del agua de un estanque durante 48 horas"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "agua",
+    "calor específico"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Determina el rango de la temperatura del aire durante el registro.",
+      "modelAnswer": "Mínimo de $8\\,°\\text{C}$ y máximo de $26\\,°\\text{C}$: el rango es de $18\\,°\\text{C}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara la variación de temperatura del aire con la del agua.",
+      "modelAnswer": "Las dos oscilan con un ciclo diario. (1) El agua varía muy poco (unos $2\\,°\\text{C}$) frente a los $18\\,°\\text{C}$ del aire, y sus máximos llegan unas horas más tarde. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica, a partir de la estructura del agua, la diferencia que has descrito.",
+      "modelAnswer": "El agua tiene una capacidad calorífica específica alta. (1) Gran parte de la energía que absorbe se emplea en romper puentes de hidrógeno entre moléculas. (1) Por eso, para la misma energía recibida, su temperatura sube mucho menos que la del aire. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una ventaja de este comportamiento para los organismos del estanque.",
+      "modelAnswer": "Viven en un medio de temperatura estable, sin cambios bruscos que afecten a la actividad de sus enzimas. (1)",
+      "marks": 1
+    }
+  ]
+}

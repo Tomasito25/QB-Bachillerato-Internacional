@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "959b4f8b-a6eb-5f4c-b01f-ff28fde99e7a",
+  "rev": 1,
+  "statement": "¿Por qué a veces es difícil decidir si dos poblaciones aisladas son de la misma especie?",
+  "explanation": "Durante la especiación, las poblaciones separadas acumulan diferencias poco a poco. En los estadios intermedios pueden cruzarse con dificultad, o solo a veces, y la frontera es borrosa.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "especiación",
+    "poblaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque las poblaciones aisladas siempre tienen distinto número de cromosomas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque la divergencia es gradual y no hay un momento preciso en que dejan de poder cruzarse con éxito.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque dos poblaciones aisladas nunca acumulan diferencias genéticas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque el concepto biológico de especie solo se aplica a las plantas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "89e4a5ac-b0c2-58d1-869f-7e2527210fee",
+  "rev": 1,
+  "statement": "¿Qué tres niveles de biodiversidad se suelen distinguir?",
+  "explanation": "La biodiversidad incluye la variedad de alelos dentro de las especies, la variedad de especies y la variedad de ecosistemas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "biodiversidad",
+    "niveles"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Diversidad genética, de especies y de ecosistemas.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Diversidad de células, de tejidos y de órganos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Diversidad de productores, de consumidores y de descomponedores.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Diversidad de climas, de suelos y de relieves.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

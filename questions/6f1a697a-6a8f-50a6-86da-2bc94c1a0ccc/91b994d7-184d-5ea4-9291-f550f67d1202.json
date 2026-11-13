@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "91b994d7-184d-5ea4-9291-f550f67d1202",
+  "rev": 1,
+  "statement": "La punta de flecha (*Sagittaria*) forma hojas en forma de cinta bajo el agua y hojas en forma de flecha fuera de ella. ¿Cómo se llama este fenómeno?",
+  "explanation": "Un mismo genotipo produce fenotipos distintos según el ambiente; el cambio no se hereda como tal.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "plasticidad fenotípica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Codominancia",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Plasticidad fenotípica",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Mutación",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Herencia ligada al sexo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

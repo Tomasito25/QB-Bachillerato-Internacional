@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "928ce6e4-9106-5eee-a07f-e03c761d438b",
+  "rev": 1,
+  "statement": "La tabla muestra parte de la secuencia de aminoácidos de la cadena beta de la hemoglobina normal (HbA) y la de la hemoglobina de la anemia falciforme (HbS), junto a los codones del ARNm.\n\n| Posición | 5 | 6 | 7 |\n|---|---|---|---|\n| HbA: codón | CCU | GAG | GAG |\n| HbA: aminoácido | Pro | Glu | Glu |\n| HbS: codón | CCU | GUG | GAG |\n| HbS: aminoácido | Pro | Val | Glu |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845",
+    "d882c402-d0e9-5c72-a87d-68b5e38b52b5"
+  ],
+  "tags": [
+    "datos",
+    "anemia falciforme",
+    "hemoglobina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Identifica el tipo de mutación que causa la HbS.",
+      "modelAnswer": "Una sustitución de una base (mutación puntual): A por U en el codón 6 del ARNm, que corresponde a un cambio de A por T en el ADN. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Deduce la secuencia de la cadena molde del ADN para el codón 6 de la HbS.",
+      "modelAnswer": "El codón del ARNm es GUG, así que la cadena molde es CAC. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué un solo cambio de base puede alterar la función de la proteína.",
+      "modelAnswer": "Cambia un aminoácido: el glutámico, con carga, por la valina, apolar. (1) Cambian las interacciones de la proteína y su forma: la HbS forma fibras cuando hay poco oxígeno y deforma los eritrocitos. (1)",
+      "marks": 2
+    }
+  ]
+}

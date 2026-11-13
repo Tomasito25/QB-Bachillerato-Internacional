@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "8a64f01a-1dba-5893-bc98-6fae90a551c0",
+  "rev": 1,
+  "statement": "**Receta**\n\nSe pelan las patatas sin prisa,\nque la prisa se nota en el sabor.\nSe cortan finas, pero no tanto\nque se rompan al primer golpe de calor.\n\nSe fríen despacio, a fuego lento,\ncomo se cuenta un secreto:\nque no se doren, que se ablanden,\nque se rindan sin quemarse.\n\nSe baten los huevos con un tenedor,\nmejor si es el de siempre,\nel que tiene un diente torcido\ndesde aquella mudanza.\n\nSe mezcla todo y se espera.\nEsto es lo más difícil: esperar.\nQue la patata beba el huevo,\nque el huevo abrace a la patata.\n\nSe cuaja por un lado, se le da la vuelta\ncon un plato y un poco de valor,\ny si se rompe, se recompone:\nnadie ha muerto nunca de una tortilla fea.\n\nAsí te quiero.\nSin prisa, a fuego lento,\ncon el tenedor torcido de las mudanzas,\ndándole la vuelta a las cosas\ncon un plato y un poco de valor.\n\n---\n\n**Pregunta guía:** ¿Cómo utiliza el poema la forma de la receta y con qué efecto?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "receta",
+    "amor",
+    "paciencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema adopta la forma de una receta de tortilla de patatas, con sus pasos e instrucciones, y en la última estrofa revela que es una declaración de amor. Cocinar se convierte en metáfora de una forma de querer basada en la paciencia, el cuidado y el valor.\n\n**Aspectos que conviene analizar**\n- La forma de la receta: las construcciones impersonales con «se» («Se pelan», «Se fríen»), la secuencia ordenada de pasos y los consejos prácticos.\n- Las comparaciones y personificaciones que humanizan la cocina: freír «como se cuenta un secreto», las patatas que «se rinden», el huevo que «abraza» a la patata.\n- Los detalles con historia, como el tenedor con un diente torcido «desde aquella mudanza»: la vida compartida dentro de la receta.\n- El momento de la espera, señalado como «lo más difícil».\n- El humor de «nadie ha muerto nunca de una tortilla fea» y la idea de que lo roto se puede recomponer.\n- El giro final («Así te quiero»), que reinterpreta todo el poema y recupera sus imágenes.\n\n**Una estructura posible.** Analizar la receta paso a paso, señalando el doble sentido de cada instrucción, y terminar con la revelación final.\n\n**Cuidado con…** analizar solo la última estrofa. El interés está en cómo todo el poema prepara el giro.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "8d3e4a82-b910-558d-ad06-f0f2662ca1d3",
+  "rev": 1,
+  "statement": "En el xilema, el agua sube hasta las hojas en columnas continuas que están sometidas a tensión. ¿Qué propiedad del agua impide que esas columnas se rompan?",
+  "explanation": "La transpiración tira del agua desde arriba y la columna queda bajo tensión. Los puentes de hidrógeno entre moléculas (cohesión) la mantienen continua.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "cohesión",
+    "xilema"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Su elevada capacidad calorífica específica.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La adhesión del agua a la lignina, que empuja la columna desde abajo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Su capacidad para disolver iones minerales.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La cohesión, debida a los puentes de hidrógeno entre moléculas de agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

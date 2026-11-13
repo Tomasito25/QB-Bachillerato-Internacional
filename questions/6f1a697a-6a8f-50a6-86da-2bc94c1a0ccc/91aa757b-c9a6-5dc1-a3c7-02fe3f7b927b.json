@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "91aa757b-c9a6-5dc1-a3c7-02fe3f7b927b",
+  "rev": 1,
+  "statement": "¿Por qué es polar la molécula de agua?",
+  "explanation": "Los enlaces O–H son covalentes polares: el oxígeno atrae más los electrones y queda con carga parcial negativa. Como la molécula es angular, esos dipolos no se anulan y el conjunto es polar.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "polaridad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La molécula es lineal y los dos hidrógenos atraen los electrones con la misma fuerza.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El hidrógeno es más electronegativo que el oxígeno y queda con carga parcial negativa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El oxígeno es más electronegativo que el hidrógeno y la molécula es angular, así que las cargas parciales no se compensan.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El oxígeno cede un electrón a cada hidrógeno y forma dos enlaces iónicos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

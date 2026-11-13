@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "9125801f-5073-5621-92d4-95ced96712fb",
+  "rev": 1,
+  "statement": "¿Por qué algunas sustituciones de una base no tienen ningún efecto en la proteína?",
+  "explanation": "Muchos aminoácidos tienen varios codones que se diferencian en la tercera base.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "sustitución",
+    "mutación silenciosa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el nuevo codón puede codificar el mismo aminoácido, ya que el código es degenerado.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque los ribosomas corrigen todas las mutaciones.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque la proteína siempre se pliega igual aunque cambie un aminoácido.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque las sustituciones nunca cambian el ARNm.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

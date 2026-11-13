@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "9601ebf1-a554-5123-9121-8b420727f7ab",
+  "rev": 1,
+  "statement": "¿Por qué se dice que los ecosistemas son sistemas abiertos?",
+  "explanation": "Entra luz y sale calor; además, nutrientes y organismos entran y salen, por ejemplo con el agua o con animales que migran.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6956d114-afaa-52a6-997b-a4ce3f862ade"
+  ],
+  "tags": [
+    "sistemas abiertos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la energía se recicla dentro de ellos indefinidamente.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque no contienen seres vivos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque tanto la energía como la materia pueden entrar en ellos y salir de ellos.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque no tienen límites y ocupan todo el planeta.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

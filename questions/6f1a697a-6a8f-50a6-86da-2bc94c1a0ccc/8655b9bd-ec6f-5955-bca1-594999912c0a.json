@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8655b9bd-ec6f-5955-bca1-594999912c0a",
+  "rev": 1,
+  "statement": "En arroyos con muchos depredadores, los guppis macho tienen colores apagados; en arroyos con pocos, colores vivos. ¿Qué explica mejor esta diferencia?",
+  "explanation": "En los experimentos de Endler, al trasladar guppis a arroyos sin depredadores, los machos se volvieron más coloridos en pocas generaciones.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "guppis",
+    "Endler"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que los depredadores provocan mutaciones de color.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que el agua de cada arroyo tiñe a los peces.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que los guppis cambian de color durante su vida para camuflarse.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El equilibrio entre la selección sexual, que favorece colores vivos, y la depredación, que los castiga.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

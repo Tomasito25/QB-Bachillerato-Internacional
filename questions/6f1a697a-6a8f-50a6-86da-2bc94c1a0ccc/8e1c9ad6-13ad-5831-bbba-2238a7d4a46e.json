@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "8e1c9ad6-13ad-5831-bbba-2238a7d4a46e",
+  "rev": 1,
+  "statement": "Los fosfolípidos y los triglicéridos tienen estructuras parecidas, pero funciones distintas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "fosfolípidos",
+    "bicapa",
+    "triglicéridos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica en qué se diferencia la estructura de un fosfolípido de la de un triglicérido.",
+      "modelAnswer": "El fosfolípido tiene dos ácidos grasos y un grupo fosfato unidos al glicerol; el triglicérido tiene tres ácidos grasos. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los fosfolípidos forman bicapas en el agua.",
+      "modelAnswer": "La cabeza con el fosfato es hidrófila y las colas de ácidos grasos son hidrófobas. (1) En el agua, las cabezas se orientan hacia el agua y las colas se juntan en el interior, lejos de ella. (1) Así se forman dos capas con las colas enfrentadas. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué los triglicéridos son buenas moléculas de reserva en los animales.",
+      "modelAnswer": "Almacenan aproximadamente el doble de energía por gramo que los glúcidos. (1) Son insolubles y no afectan a la ósmosis, y además aíslan del frío. (1)",
+      "marks": 2
+    }
+  ]
+}

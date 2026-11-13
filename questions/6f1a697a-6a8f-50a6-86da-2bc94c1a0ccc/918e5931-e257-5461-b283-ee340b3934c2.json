@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "918e5931-e257-5461-b283-ee340b3934c2",
+  "rev": 1,
+  "statement": "¿Qué caracteriza a la difusión facilitada a través de canales iónicos?",
+  "explanation": "Los canales son específicos para cada ion y pueden abrirse o cerrarse, pero el movimiento siempre va a favor del gradiente.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "difusión facilitada",
+    "canales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El ion pasa a favor de su gradiente por una proteína de canal, sin gasto de ATP.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El ion entra dentro de una vesícula.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El ion se bombea contra su gradiente con gasto de ATP.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El ion atraviesa directamente la bicapa de fosfolípidos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

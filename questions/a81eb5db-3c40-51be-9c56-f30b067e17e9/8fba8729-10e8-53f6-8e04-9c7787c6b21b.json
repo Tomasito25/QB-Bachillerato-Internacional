@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "8fba8729-10e8-53f6-8e04-9c7787c6b21b",
+  "rev": 1,
+  "statement": "**Cena del dieciocho de julio**\n\n*Un comedor de clase media, verano de 1936. Una mesa puesta para cinco. LA MADRE sirve la sopa. EL PADRE escucha una radio que chisporrotea. Sentados, los hijos: JULIÁN, veinte años, con un periódico doblado; ELENA, dieciocho; y TOMÁS, doce.*\n\nLA MADRE.—Apaga eso, que se enfría la sopa.\n\nEL PADRE.—Un momento. Están diciendo algo de Marruecos.\n\nJULIÁN.—Están diciendo que el ejército se ha levantado. Lo sabe todo Madrid desde esta mañana.\n\nEL PADRE.—*(Apaga la radio.)* Rumores. Siempre hay rumores en julio. Hace calor y la gente no tiene nada que hacer.\n\nELENA.—En la universidad dicen que esta vez va en serio.\n\nLA MADRE.—En esta mesa no se habla de política. *(Sirve a TOMÁS.)* Come, hijo.\n\nJULIÁN.—*(Deja el periódico sobre la mesa, con fuerza.)* Madre, no se puede no hablar. Mañana habrá que elegir.\n\nEL PADRE.—Yo ya elegí hace mucho. Elegí esta casa, esta mesa y que mis hijos coman caliente.\n\nJULIÁN.—Eso no es elegir. Eso es esconderse.\n\n*Silencio. EL PADRE deja la cuchara. TOMÁS mira a uno y a otro.*\n\nTOMÁS.—¿Va a haber guerra?\n\n*Nadie contesta. LA MADRE se sienta por primera vez.*\n\nLA MADRE.—Lo que va a haber es melocotón de postre. Del bueno, del de la tía.\n\nELENA.—*(En voz baja, a JULIÁN.)* Mañana me voy contigo.\n\nJULIÁN.—*(Sin mirarla.)* No.\n\nEL PADRE.—*(Se levanta, vuelve a encender la radio. Chisporrotea.)* Comed. Que se enfría.\n\n*La radio sube de volumen, ininteligible. LA MADRE reparte el pan con las manos temblorosas. La luz se va apagando sobre la mesa, que queda puesta, con los platos a medio terminar.*\n\n---\n\n**Pregunta guía:** ¿Cómo utiliza la escena el ámbito doméstico para representar un conflicto histórico?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "historia",
+    "guerra civil",
+    "familia dividida"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** La víspera del estallido de la Guerra Civil española, una familia cena mientras la radio anuncia la sublevación militar. Cada personaje adopta una postura: la negación de los padres, el compromiso de los hijos mayores, la pregunta del pequeño. La mesa familiar se convierte en anticipo de la división del país.\n\n**Aspectos que conviene analizar**\n- La acotación inicial y la fecha: el espectador sabe lo que los personajes aún no saben del todo (ironía dramática).\n- La radio como presencia del mundo exterior que interrumpe la intimidad: el padre la apaga y la vuelve a encender.\n- Las posturas de cada personaje: la madre que prohíbe hablar de política, el padre que «eligió» su casa, Julián que exige elegir, Elena que quiere seguirle.\n- El enfrentamiento padre-hijo («Eso no es elegir. Eso es esconderse») y el silencio posterior.\n- La pregunta de Tomás, sin respuesta, y la evasiva de la madre con el postre: lo cotidiano como refugio frente al miedo.\n- El final: la radio ininteligible, las manos temblorosas, la mesa a medio terminar como imagen de una vida interrumpida.\n\n**Una estructura posible.** Analizar cómo la escena pasa de la rutina doméstica a la ruptura, atendiendo a los diálogos, los silencios y los objetos (la radio, el periódico, la sopa).\n\n**Cuidado con…** explicar la historia de la Guerra Civil. Usa el contexto solo para mostrar cómo la escena lo convierte en drama familiar.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "96f510b5-9d0f-5039-b548-e7915e8efc69",
+  "rev": 1,
+  "statement": "La anemia falciforme se debe a una sola sustitución de bases en el gen de la cadena beta de la hemoglobina.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "sustitución",
+    "anemia falciforme"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:50.000Z",
+  "updatedAt": "2026-11-13T05:53:50.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo una sustitución puede cambiar una proteína.",
+      "modelAnswer": "Cambia un codón del ARNm, (1) que puede codificar otro aminoácido, en este caso valina en lugar de ácido glutámico, y cambiar la forma o la función de la proteína. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica por qué este alelo es un ejemplo de que la mutación es la fuente de la variación genética.",
+      "modelAnswer": "La mutación creó un alelo nuevo del gen, que se hereda y aporta variación a la población. (1)",
+      "marks": 1
+    }
+  ]
+}
