@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6ba1bd4c-63fe-5ccd-b64c-8e2bf43c880c",
+  "rev": 1,
+  "statement": "¿Por qué disminuye con el tiempo la pendiente de la curva de volumen de gas frente al tiempo?",
+  "explanation": "La pendiente en cada punto es la velocidad en ese instante.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "curva concentración-tiempo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la energía de activación aumenta durante la reacción.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el catalizador se agota.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque la temperatura sube.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los reactivos se van consumiendo, su concentración baja y los choques son menos frecuentes.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "8343a7b1-56ab-5900-8281-c8be52e03fc3",
+  "rev": 1,
+  "statement": "Según la regla de Hund, ¿cómo se colocan tres electrones en los orbitales 2p del nitrógeno?",
+  "explanation": "Los electrones ocupan primero orbitales vacíos de la misma energía, con espines paralelos, antes de emparejarse.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "regla de Hund"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Uno en cada orbital p, con el mismo espín.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Dos en un orbital y uno en otro.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Uno en cada orbital, con espines alternados.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Los tres en el mismo orbital.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "88ab37e0-ef9a-5878-82fe-7102ad640769",
+  "rev": 1,
+  "statement": "Hay cuatro alcoholes de fórmula C₄H₉OH.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "alcoholes",
+    "isómeros de posición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe las fórmulas estructurales condensadas de los dos alcoholes de cadena lineal y nómbralos.",
+      "modelAnswer": "CH₃CH₂CH₂CH₂OH, butan-1-ol. (1) CH₃CH(OH)CH₂CH₃, butan-2-ol. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Clasifica cada uno de ellos como primario, secundario o terciario.",
+      "modelAnswer": "Butan-1-ol: primario. (1) Butan-2-ol: secundario. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "El 2-metilpropan-2-ol, (CH₃)₃COH, también tiene esta fórmula. Clasifícalo y justifica tu respuesta.",
+      "modelAnswer": "Terciario, porque el carbono que lleva el –OH está unido a otros tres carbonos. (1)",
+      "marks": 1
+    }
+  ]
+}

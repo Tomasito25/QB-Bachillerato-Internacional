@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "5cb27311-8a65-58e9-8e99-abde11503750",
+  "rev": 1,
+  "statement": "Se valoraron muestras de $25{,}00\\,\\text{cm}^{3}$ de una disolución de hidróxido de sodio con ácido clorhídrico $0{,}100\\,\\text{mol dm}^{-3}$, usando fenolftaleína.\n\n| Valoración | Aproximada | 1 | 2 |\n|---|---|---|---|\n| Lectura final / cm³ | 22,50 | 23,40 | 22,85 |\n| Lectura inicial / cm³ | 0,00 | 1,00 | 0,40 |\n| Volumen añadido / cm³ | 22,50 | 22,40 | 22,45 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862",
+    "112174ae-9d35-554b-897e-b9f59cb3e376"
+  ],
+  "tags": [
+    "datos",
+    "valoración",
+    "concentración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué no se usa la valoración aproximada para calcular la media.",
+      "modelAnswer": "Se hace deprisa para localizar el punto final y suele pasarse; (1) solo se promedian las valoraciones concordantes. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el volumen medio de ácido.",
+      "modelAnswer": "$\\dfrac{22{,}40 + 22{,}45}{2} = 22{,}43\\,\\text{cm}^3$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la concentración del hidróxido de sodio.",
+      "modelAnswer": "$n(\\mathrm{HCl}) = 0{,}100 \\times 0{,}02243 = 2{,}24\\times 10^{-3}\\,\\text{mol}$, igual a la de NaOH. (1) $c = \\dfrac{2{,}24\\times 10^{-3}}{0{,}02500} = 0{,}0897\\,\\text{mol dm}^{-3}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "La incertidumbre de cada lectura de la bureta es de $\\pm0{,}05\\,\\text{cm}^{3}$. Calcula la incertidumbre del volumen añadido en la valoración 1.",
+      "modelAnswer": "Se suman las incertidumbres de las dos lecturas: $0{,}05 + 0{,}05 = 0{,}10$, es decir, $\\pm0{,}10\\,\\text{cm}^{3}$. (1)",
+      "marks": 1
+    }
+  ]
+}

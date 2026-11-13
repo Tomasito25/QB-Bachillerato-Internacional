@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "63bc9db3-e04b-551d-90bf-83c9007fe2a9",
+  "rev": 1,
+  "statement": "¿Qué tipo de alcohol es el butan-2-ol?",
+  "explanation": "El carbono que lleva el –OH está unido a otros dos carbonos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "1ddf6f09-6aa3-5e67-96e2-c71456d0b549"
+  ],
+  "tags": [
+    "alcoholes primarios",
+    "secundarios"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Cuaternario",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Terciario",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Secundario",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Primario",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

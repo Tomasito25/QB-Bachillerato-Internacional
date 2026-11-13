@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8c0dbfe8-055f-5f4a-8de1-d3e39c760450",
+  "rev": 1,
+  "statement": "¿Qué propiedad de los metales NO se explica por los electrones deslocalizados?",
+  "explanation": "La densidad depende sobre todo de la masa de los átomos y de lo compactos que estén en la red.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "brillo",
+    "propiedades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La conductividad eléctrica",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El brillo metálico",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La densidad elevada de muchos metales",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La conductividad térmica",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

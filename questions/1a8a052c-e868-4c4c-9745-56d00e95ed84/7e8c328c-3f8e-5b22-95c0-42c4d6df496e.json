@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7e8c328c-3f8e-5b22-95c0-42c4d6df496e",
+  "rev": 1,
+  "statement": "¿Qué se obtiene al calentar a reflujo el etanol con dicromato de potasio acidificado en exceso?",
+  "explanation": "El alcohol primario se oxida primero a aldehído y, a reflujo, hasta ácido carboxílico. El dicromato pasa de anaranjado a verde.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "oxidación de alcoholes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Ácido etanoico",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Eteno",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Etanal",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Propanona",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

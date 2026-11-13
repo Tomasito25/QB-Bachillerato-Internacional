@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "7fd4ea92-01e0-5185-afe6-3bba5a07dee8",
+  "rev": 1,
+  "statement": "¿Cuál es la economía atómica de la producción de etanol por fermentación?\n\nC₆H₁₂O₆ → 2C₂H₅OH + 2CO₂",
+  "explanation": "$\\dfrac{2 \\times 46{,}08}{180{,}18}\\times 100 = 51{,}1\\,\\%$. El resto de la masa sale como CO₂.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "economía atómica",
+    "cálculo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "25,6 %",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "48,9 %",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "51,1 %",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "100 %",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

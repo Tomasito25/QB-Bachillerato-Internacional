@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "8eca5a9b-e85e-5f74-8c5a-9971c4ff594f",
+  "rev": 1,
+  "statement": "Para la reacción 2H₂(g) + O₂(g) → 2H₂O(l), $\\Delta H = -572\\,\\text{kJ}$. ¿Cuál es $\\Delta H$ para la formación de $1\\,\\text{mol}$ de agua líquida?",
+  "explanation": "La variación de entalpía es proporcional a la cantidad que reacciona: la mitad de la ecuación, la mitad de $\\Delta H$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "ecuaciones termoquímicas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−1144 kJ$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$−572 kJ$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$−286 kJ$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$+286\\,\\text{kJ}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "78dff8d1-1d32-559f-afcd-1dd3c3cf6bbf",
+  "rev": 1,
+  "statement": "Los elementos de los grupos 1, 2, 16 y 17 forman iones con configuración de gas noble.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "iones",
+    "configuración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Predice la carga del ion que forma el calcio y la del que forma el azufre, y justifica tus respuestas.",
+      "modelAnswer": "Ca²⁺: el calcio (grupo 2) pierde sus dos electrones de valencia. (1) S²⁻: el azufre (grupo 16) gana dos electrones para completar su capa externa. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Deduce la fórmula del sulfuro de calcio y explica por qué es neutro.",
+      "modelAnswer": "CaS: (1) una carga +2 se compensa con una carga −2. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "8edb4a6e-ea11-57b4-af97-4e7f316e0b46",
+  "rev": 1,
+  "statement": "Se mezclaron disoluciones acuosas de halógenos con disoluciones de haluros de potasio y se anotaron los cambios de color.\n\n| | KCl(aq) | KBr(aq) | KI(aq) |\n|---|---|---|---|\n| Cl₂(aq) | — | Se vuelve anaranjada | Se vuelve marrón |\n| Br₂(aq) | Sin cambio | — | Se vuelve marrón |\n| I₂(aq) | Sin cambio | Sin cambio | — |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717",
+    "43c6acc6-d7e0-5012-87b6-4717d232c022"
+  ],
+  "tags": [
+    "datos",
+    "halógenos",
+    "desplazamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Deduce el orden de reactividad de los tres halógenos. Justifica tu respuesta.",
+      "modelAnswer": "Cl₂ > Br₂ > I₂. (1) El cloro desplaza a los otros dos; el bromo, solo al yodo; el yodo, a ninguno. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la ecuación iónica de la reacción entre el bromo y el yoduro de potasio.",
+      "modelAnswer": "Br₂(aq) + 2I⁻(aq) → 2Br⁻(aq) + I₂(aq). (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica qué especie se oxida y cuál se reduce en esa reacción.",
+      "modelAnswer": "Los iones yoduro se oxidan: pierden electrones y pasan de −1 a 0. (1) El bromo se reduce: gana electrones y pasa de 0 a −1. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué el poder oxidante de los halógenos disminuye al bajar en el grupo.",
+      "modelAnswer": "Al aumentar el radio, el electrón que se capta queda más lejos del núcleo y más apantallado, (1) así que el átomo lo atrae con menos fuerza. (1)",
+      "marks": 2
+    }
+  ]
+}

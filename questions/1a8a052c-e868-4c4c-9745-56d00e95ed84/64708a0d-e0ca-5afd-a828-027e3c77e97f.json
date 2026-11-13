@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "64708a0d-e0ca-5afd-a828-027e3c77e97f",
+  "rev": 1,
+  "statement": "¿Por qué no se puede electrolizar el bromuro de plomo(II) sólido?",
+  "explanation": "Al fundirlo, los iones se mueven y transportan la carga.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "electrólisis",
+    "sal sólida"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque no contiene iones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque sus iones están fijos en la red y no pueden moverse hacia los electrodos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque los electrones no atraviesan el sólido.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque el plomo no se reduce.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

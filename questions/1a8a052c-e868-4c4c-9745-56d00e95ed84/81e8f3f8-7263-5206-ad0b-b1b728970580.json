@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "81e8f3f8-7263-5206-ad0b-b1b728970580",
+  "rev": 1,
+  "statement": "¿Qué volumen ocupan $4{,}40\\,\\text{g}$ de dióxido de carbono en condiciones normales ($273\\,\\text{K}$, $100\\,\\text{kPa}$)?",
+  "explanation": "$n = \\dfrac{4{,}40}{44{,}01} = 0{,}100\\,\\text{mol}$; $V = 0{,}100 \\times 22{,}7 = 2{,}27\\,\\text{dm}^3$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "volumen molar",
+    "masa"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$22{,}7\\,\\text{dm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$4{,}40\\,\\text{dm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$2{,}27\\,\\text{dm}^{3}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}227\\,\\text{dm}^{3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

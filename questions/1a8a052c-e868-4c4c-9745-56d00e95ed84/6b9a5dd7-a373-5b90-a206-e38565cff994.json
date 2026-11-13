@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6b9a5dd7-a373-5b90-a206-e38565cff994",
+  "rev": 1,
+  "statement": "¿Qué metal tiene probablemente el punto de fusión más alto?",
+  "explanation": "El aluminio forma Al³⁺, con más carga y menor radio, y aporta tres electrones por átomo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "comparación de metales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El potasio",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El aluminio",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El sodio",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El magnesio",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

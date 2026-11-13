@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "80605359-78ee-50a6-8648-a8d488ab4543",
+  "rev": 1,
+  "statement": "A lo largo del periodo 3 cambian las propiedades de los elementos: sodio, magnesio, aluminio, silicio, fósforo, azufre, cloro y argón.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "continuo metal-no metal",
+    "periodo 3"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo cambia el carácter metálico a lo largo del periodo.",
+      "modelAnswer": "Disminuye de izquierda a derecha: Na, Mg y Al son metales, el Si es un metaloide y P, S y Cl son no metales. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica, en términos de energía de ionización, por qué el sodio es más metálico que el aluminio.",
+      "modelAnswer": "El sodio tiene menor energía de ionización: pierde su electrón de valencia con más facilidad, (1) que es la tendencia característica de los metales. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la electronegatividad aumenta a lo largo del periodo.",
+      "modelAnswer": "Aumenta la carga nuclear y el radio disminuye, mientras que el apantallamiento apenas cambia; (1) el núcleo atrae con más fuerza los electrones del enlace. (1)",
+      "marks": 2
+    }
+  ]
+}

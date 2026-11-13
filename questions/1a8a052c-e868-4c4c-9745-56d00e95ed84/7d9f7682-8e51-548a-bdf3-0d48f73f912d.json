@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "7d9f7682-8e51-548a-bdf3-0d48f73f912d",
+  "rev": 1,
+  "statement": "¿Cuántos átomos de oxígeno hay en $0{,}25\\,\\text{mol}$ de dióxido de carbono? Usa $N_A = 6{,}02\\times 10^{23}\\,\\text{mol}^{-1}$.",
+  "explanation": "Cada molécula de CO₂ tiene dos átomos de O: $0{,}25 \\times 2 \\times 6{,}02\\times 10^{23} = 3{,}0\\times 10^{23}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "mol",
+    "constante de Avogadro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$6{,}0\\times 10^{23}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$4{,}5\\times 10^{23}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$3{,}0\\times 10^{23}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$1{,}5\\times 10^{23}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

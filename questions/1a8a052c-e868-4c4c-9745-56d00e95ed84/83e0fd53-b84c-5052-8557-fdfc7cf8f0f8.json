@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "83e0fd53-b84c-5052-8557-fdfc7cf8f0f8",
+  "rev": 1,
+  "statement": "¿Por qué el enlace Cl–Cl se rompe con luz ultravioleta y el C–H del metano no?",
+  "explanation": "La entalpía del enlace Cl–Cl es de $242\\,\\text{kJ mol}^{-1}$, frente a $414\\,\\text{kJ mol}^{-1}$ del C–H.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "energía",
+    "fisión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el enlace Cl–Cl es mucho más débil (menor entalpía de enlace).",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque el metano no absorbe energía.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque el C–H es iónico.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque el cloro es un gas noble.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5ab318ff-c2df-5ab6-9649-1dede5f1adb7",
+  "rev": 1,
+  "statement": "¿Qué ocurre en la hidrogenación de un alqueno?",
+  "explanation": "Es una reducción: el compuesto gana hidrógeno. Así se fabrican margarinas a partir de aceites vegetales.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "hidrogenación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El alqueno se oxida a alcohol.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se elimina hidrógeno y se forma un alquino.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Se añade hidrógeno al doble enlace, con un catalizador de níquel, y se forma un alcano.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El alqueno se descompone en carbono e hidrógeno.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

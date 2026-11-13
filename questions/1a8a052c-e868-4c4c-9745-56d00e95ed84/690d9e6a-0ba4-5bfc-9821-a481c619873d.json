@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "690d9e6a-0ba4-5bfc-9821-a481c619873d",
+  "rev": 1,
+  "statement": "El cobre (Z = 29) y el cinc (Z = 30) están en el bloque d.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "metales de transición",
+    "configuraciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la configuración electrónica del cobre e indica por qué es una excepción.",
+      "modelAnswer": "$[\\text{Ar}]\\,3d^{10}\\,4s^1$. (1) Se esperaría $3d^9\\,4s^2$, pero un subnivel 3d completo es más estable. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la configuración electrónica del ion Zn²⁺.",
+      "modelAnswer": "$[\\text{Ar}]\\,3d^{10}$: pierde primero los dos electrones 4s. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Indica cuántos orbitales hay en total en el tercer nivel de energía.",
+      "modelAnswer": "9: un 3s, tres 3p y cinco 3d. (1)",
+      "marks": 1
+    }
+  ]
+}

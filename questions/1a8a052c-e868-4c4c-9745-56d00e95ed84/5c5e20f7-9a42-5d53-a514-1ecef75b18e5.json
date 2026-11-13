@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5c5e20f7-9a42-5d53-a514-1ecef75b18e5",
+  "rev": 1,
+  "statement": "¿Qué fuerzas intermoleculares hay entre las moléculas de yodo, I₂?",
+  "explanation": "La molécula es apolar. Las fuerzas de London aparecen por dipolos instantáneos; en el yodo son fuertes porque tiene muchos electrones.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "fuerzas intermoleculares",
+    "London"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Fuerzas dipolo-dipolo permanentes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Solo fuerzas de dispersión de London.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Puentes de hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Enlaces iónicos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

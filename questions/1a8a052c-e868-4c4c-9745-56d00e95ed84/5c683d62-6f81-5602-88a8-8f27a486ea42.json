@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5c683d62-6f81-5602-88a8-8f27a486ea42",
+  "rev": 1,
+  "statement": "¿Cuál es el estado de oxidación del manganeso en el ion permanganato, MnO₄⁻?",
+  "explanation": "x + 4 × (−2) = −1, así que x = +7. La suma de los estados de oxidación es igual a la carga del ion.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "estados de oxidación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "+8",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "+7",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "+6",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "−1",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

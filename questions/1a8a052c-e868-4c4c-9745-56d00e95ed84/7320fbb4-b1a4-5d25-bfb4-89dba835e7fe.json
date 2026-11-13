@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "7320fbb4-b1a4-5d25-bfb4-89dba835e7fe",
+  "rev": 1,
+  "statement": "El experimento de la lámina de oro cambió el modelo del átomo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "isótopos",
+    "Rutherford"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe los resultados del experimento de Rutherford y lo que se dedujo de cada uno.",
+      "modelAnswer": "Casi todas las partículas alfa atravesaron la lámina sin desviarse: el átomo es casi todo espacio vacío. (1) Algunas se desviaron mucho y muy pocas rebotaron: hay un núcleo pequeño, con carga positiva, que concentra casi toda la masa. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los isótopos de un elemento tienen distinta masa, pero la misma posición en la tabla periódica.",
+      "modelAnswer": "Tienen distinto número de neutrones, y por tanto distinta masa. (1) Tienen el mismo número de protones, que define el elemento y su posición. (1)",
+      "marks": 2
+    }
+  ]
+}

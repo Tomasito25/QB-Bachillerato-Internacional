@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "75661f87-d9f1-513c-b7de-0ffef5288ed4",
+  "rev": 1,
+  "statement": "¿Cuántos electrones tiene el ion $^{32}_{16}\\text{S}^{2-}$?",
+  "explanation": "El azufre tiene 16 protones; con carga 2− ha ganado dos electrones: 16 + 2 = 18.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "ab0f9483-36d2-5ee3-b8ce-b8248129d0f2"
+  ],
+  "tags": [
+    "iones",
+    "electrones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "14",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "16",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "18",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "32",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

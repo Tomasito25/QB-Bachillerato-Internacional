@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "68d63bc1-0625-5c3d-9e1e-be6042053c70",
+  "rev": 1,
+  "statement": "Para usar $pV = nRT$ con $R = 8{,}31\\,\\text{J K}^{-1}\\,\\text{mol}^{-1}$, ¿en qué unidades deben estar la presión y el volumen?",
+  "explanation": "Son las unidades del SI. Una combinación equivalente es kPa con dm³, porque los factores de 1000 se compensan.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "ecuación de los gases ideales",
+    "unidades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La presión en Pa y el volumen en m³.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La presión en Pa y el volumen en dm³.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La presión en kPa y el volumen en cm³.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La presión en atm y el volumen en dm³.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

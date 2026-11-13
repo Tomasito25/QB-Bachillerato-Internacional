@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6f416cbd-a2b8-5201-8b84-739ae3a771b1",
+  "rev": 1,
+  "statement": "¿Por qué se dice que la cloración del metano es una reacción en cadena?",
+  "explanation": "Un solo radical formado en la iniciación puede provocar miles de reacciones antes de la terminación.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "reacción en cadena"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque cada paso de propagación genera un radical que provoca el siguiente paso.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque el metano forma cadenas de carbono.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque el producto es un polímero en forma de cadena.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque se necesita una cadena de catalizadores.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

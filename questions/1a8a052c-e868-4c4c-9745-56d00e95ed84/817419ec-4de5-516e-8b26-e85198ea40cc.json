@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "817419ec-4de5-516e-8b26-e85198ea40cc",
+  "rev": 1,
+  "statement": "[Co(H₂O)₆]²⁺(aq) + 4Cl⁻(aq) ⇌ [CoCl₄]²⁻(aq) + 6H₂O(l) es endotérmica en sentido directo. El primer ion es rosa y el segundo, azul. ¿Qué color se ve al calentar la disolución?",
+  "explanation": "Al calentar se favorece la reacción endotérmica, la directa, que forma el ion azul.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "cloruro de cobalto",
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Más azul",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "No cambia",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Más rosa",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Incolora",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

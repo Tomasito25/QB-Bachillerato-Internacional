@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7b6328e6-1076-580b-b558-77dadff3abf7",
+  "rev": 1,
+  "statement": "Un gas ocupa $200\\,\\text{cm}^{3}$ a $100\\,\\text{kPa}$. ¿Qué volumen ocupará a $400\\,\\text{kPa}$, a la misma temperatura?",
+  "explanation": "A temperatura constante, $pV$ es constante: $V_2 = \\dfrac{100 \\times 200}{400} = 50\\,\\text{cm}^3$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "ley de Boyle"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$800\\,\\text{cm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$200\\,\\text{cm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$100\\,\\text{cm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$50\\,\\text{cm}^{3}$",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

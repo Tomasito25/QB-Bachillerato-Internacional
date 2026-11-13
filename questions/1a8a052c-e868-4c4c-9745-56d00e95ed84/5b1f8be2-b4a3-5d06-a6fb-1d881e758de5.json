@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5b1f8be2-b4a3-5d06-a6fb-1d881e758de5",
+  "rev": 1,
+  "statement": "¿Por qué el valor experimental de la entalpía de combustión de un alcohol medida con un mechero y una lata de agua suele ser menos negativo que el de las tablas?",
+  "explanation": "Además, la combustión puede ser incompleta y la lata también absorbe calor.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "pérdidas de calor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el alcohol arde demasiado deprisa.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el agua tiene un calor específico demasiado alto.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque se forma más CO₂ del esperado.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque gran parte del calor se pierde al aire y no llega al agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

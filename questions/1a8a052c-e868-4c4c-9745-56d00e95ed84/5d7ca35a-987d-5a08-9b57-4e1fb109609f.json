@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5d7ca35a-987d-5a08-9b57-4e1fb109609f",
+  "rev": 1,
+  "statement": "¿Qué condición debe cumplir un monómero para formar un polímero de adición?",
+  "explanation": "En la polimerización por adición se abre el doble enlace de cada monómero y las unidades se unen sin perder átomos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "polímeros de adición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Tener dos grupos –OH.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Ser un compuesto iónico.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Tener un grupo carboxilo y uno amino.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Tener un doble enlace C=C.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
