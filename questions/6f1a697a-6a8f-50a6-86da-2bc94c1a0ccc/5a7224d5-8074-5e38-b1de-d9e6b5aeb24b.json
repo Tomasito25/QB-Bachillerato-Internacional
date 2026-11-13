@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5a7224d5-8074-5e38-b1de-d9e6b5aeb24b",
+  "rev": 1,
+  "statement": "¿Qué ocurre en una reacción de hidrólisis?",
+  "explanation": "La hidrólisis es la inversa de la condensación: el agua aporta un –H y un –OH a los monómeros que se separan, como en la digestión.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "condensación",
+    "hidrólisis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se libera energía luminosa al romper un polímero.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se rompe un enlace entre monómeros con la intervención de una molécula de agua.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Se forma un puente de hidrógeno entre dos polímeros.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se unen dos monómeros y se libera una molécula de agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

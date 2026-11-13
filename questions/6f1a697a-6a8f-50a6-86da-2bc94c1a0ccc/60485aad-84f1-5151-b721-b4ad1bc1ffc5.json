@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "60485aad-84f1-5151-b721-b4ad1bc1ffc5",
+  "rev": 1,
+  "statement": "¿Cómo se unen los nucleótidos para formar una cadena de ARN?",
+  "explanation": "Cada unión es una condensación entre el azúcar de un nucleótido y el fosfato del siguiente. Así se forma el esqueleto de azúcar y fosfato, con las bases hacia un lado.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "polimerización",
+    "condensación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por reacciones de condensación entre dos bases, con liberación de agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Por reacciones de condensación entre el azúcar de un nucleótido y el fosfato del siguiente, con liberación de agua.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Por puentes de hidrógeno entre los grupos fosfato.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Por reacciones de hidrólisis entre las bases de nucleótidos vecinos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

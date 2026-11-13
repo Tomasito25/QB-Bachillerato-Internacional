@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5fddb644-55a8-57a3-9597-a1088a1faa74",
+  "rev": 1,
+  "statement": "¿Qué les ocurre a los glóbulos rojos en agua destilada?",
+  "explanation": "Sin pared que resista la presión, la membrana se rompe (hemólisis). En una disolución hipertónica, en cambio, se arrugan.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "células animales",
+    "hemólisis"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Entra agua por ósmosis, se hinchan y pueden estallar, porque no tienen pared celular.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "No cambian, porque su membrana es impermeable al agua.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Pierden agua y se arrugan.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se vuelven turgentes y se mantienen intactos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

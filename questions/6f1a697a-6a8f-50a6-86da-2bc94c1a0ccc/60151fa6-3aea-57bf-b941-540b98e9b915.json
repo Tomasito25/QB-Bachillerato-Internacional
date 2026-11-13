@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "60151fa6-3aea-57bf-b941-540b98e9b915",
+  "rev": 1,
+  "statement": "¿Por qué es importante conservar la diversidad genética de una especie amenazada?",
+  "explanation": "Con más variedad de alelos, es más probable que haya individuos con rasgos útiles ante un cambio. Las poblaciones con poca variación son muy vulnerables.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "diversidad genética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque impide que la especie evolucione.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque aumenta la probabilidad de que algunos individuos sobrevivan a enfermedades o cambios ambientales.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque hace que todos los individuos sean idénticos y más fáciles de proteger.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque reduce el número de individuos necesario para que la población crezca.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

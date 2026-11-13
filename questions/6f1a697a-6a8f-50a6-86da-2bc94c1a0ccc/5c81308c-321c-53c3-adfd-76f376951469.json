@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "5c81308c-321c-53c3-adfd-76f376951469",
+  "rev": 1,
+  "statement": "Las células vegetales y las animales responden de forma distinta a los cambios de concentración del medio.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "células con pared",
+    "sin pared"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara el efecto de una disolución hipotónica en una célula vegetal y en un glóbulo rojo.",
+      "modelAnswer": "En ambos entra agua por ósmosis. (1) La célula vegetal se vuelve turgente y la pared impide que estalle. (1) El glóbulo rojo se hincha y puede estallar, porque no tiene pared. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica qué le ocurre a una célula vegetal en una disolución hipertónica.",
+      "modelAnswer": "Pierde agua por ósmosis y la vacuola se encoge. (1) La membrana se separa de la pared: plasmólisis. (1)",
+      "marks": 2
+    }
+  ]
+}

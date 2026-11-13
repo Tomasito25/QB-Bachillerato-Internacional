@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "5c1aa65f-a331-542b-a1e0-1fafee279ae7",
+  "rev": 1,
+  "statement": "En la síntesis de proteínas intervienen tres tipos de ARN.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "ARN",
+    "ribosomas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica la función del ARNm, del ARNt y del ARN ribosómico.",
+      "modelAnswer": "ARNm: lleva la información del gen desde el núcleo al ribosoma. (1) ARNt: transporta los aminoácidos y los coloca según los codones. (1) ARN ribosómico: forma parte del ribosoma y cataliza la unión de los aminoácidos. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué muchas copias de ARNm de un mismo gen permiten producir mucha proteína en poco tiempo.",
+      "modelAnswer": "Cada ARNm puede traducirse muchas veces, y varios ribosomas pueden traducirlo a la vez. (1)",
+      "marks": 1
+    }
+  ]
+}

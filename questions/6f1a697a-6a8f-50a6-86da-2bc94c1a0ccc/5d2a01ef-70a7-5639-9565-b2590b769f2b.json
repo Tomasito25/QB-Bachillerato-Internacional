@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "5d2a01ef-70a7-5639-9565-b2590b769f2b",
+  "rev": 1,
+  "statement": "La tabla muestra el número de aminoácidos en los que el citocromo c de varias especies se diferencia del humano. La proteína tiene 104 aminoácidos.\n\n| Especie | Diferencias con el ser humano |\n|---|---|\n| Chimpancé | 0 |\n| Macaco rhesus | 1 |\n| Perro | 11 |\n| Caballo | 12 |\n| Gallina | 13 |\n| Atún | 21 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "pruebas moleculares",
+    "citocromo c"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el porcentaje de aminoácidos que comparten el citocromo c humano y el del atún.",
+      "modelAnswer": "$\\dfrac{104 - 21}{104}\\times 100 = 79{,}8\\,\\%$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Indica qué especie de la tabla está más alejada del ser humano según estos datos.",
+      "modelAnswer": "El atún. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué estos datos apoyan la evolución.",
+      "modelAnswer": "Todas las especies comparten una misma proteína con secuencias parecidas, lo que indica un origen común. (1) Las diferencias aumentan con la distancia evolutiva: los primates difieren poco y el pez, mucho, como se espera si las mutaciones se acumulan con el tiempo desde la separación de los linajes. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una limitación de usar una sola proteína para establecer el parentesco.",
+      "modelAnswer": "Solo representa una parte pequeña del genoma; las diferencias son pocas y pueden no distinguir bien especies cercanas, como chimpancé y ser humano. Conviene comparar muchas secuencias. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "5ccf4f48-00af-5b7c-af38-a9c9ef4a9caf",
+  "rev": 1,
+  "statement": "Se trasladaron guppis de un arroyo con muchos depredadores a un arroyo sin depredadores, y se contó durante 20 generaciones el número medio de manchas de color de los machos. Otro grupo se dejó en el arroyo original como control.\n\n![Número medio de manchas de color de los guppis macho en un arroyo sin depredadores y en uno de control con depredadores](qbimg:2d95b60fe09c2b84d29f4501485d1c5d059b76b39f2931f1efe52f83b0738d69)",
+  "images": [
+    {
+      "hash": "2d95b60fe09c2b84d29f4501485d1c5d059b76b39f2931f1efe52f83b0738d69",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 26669,
+      "alt": "Número medio de manchas de color de los guppis macho en un arroyo sin depredadores y en uno de control con depredadores"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62",
+    "b06e888d-b5c8-515d-a5eb-809009c3efd0"
+  ],
+  "tags": [
+    "datos",
+    "guppis",
+    "selección sexual"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe los cambios en el arroyo sin depredadores.",
+      "modelAnswer": "El número de manchas aumentó de 4,0 a unas 8,3, (1) deprisa al principio y estabilizándose a partir de la generación 14. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica la función del grupo de control.",
+      "modelAnswer": "Muestra que, sin el traslado, el número de manchas no cambia. (1) Así el aumento puede atribuirse a la ausencia de depredadores y no a otro factor, como el paso del tiempo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica el cambio usando los conceptos de selección sexual y selección natural.",
+      "modelAnswer": "Las hembras prefieren a los machos con más manchas: selección sexual. (1) Sin depredadores, los machos vistosos ya no mueren más que los demás. (1) Tienen más descendientes y los alelos de más manchas se hacen más frecuentes. (1)",
+      "marks": 3
+    }
+  ]
+}
