@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "7eb2cece-a40e-5098-9512-e5fbc6348028",
+  "rev": 1,
+  "statement": "**Primer día de clase**\n\nEntran treinta caras que no conozco\ny que me miran como se mira un examen.\nYo también tengo miedo.\nLlevo veinte años entrando por esta puerta\ny todavía me tiemblan las manos\ncuando digo buenos días.\n\nEn la primera fila, una niña\nha ordenado los lápices por colores.\nEn la última, un chico\nha decidido ya que me odia.\nEntre los dos, veintiocho historias\nque no vienen en la lista.\n\nEscribo mi nombre en la pizarra.\nAlguien se ríe. Siempre se ríe alguien.\nYo me reí también, hace muchos años,\nde una profesora que se llamaba Asunción\ny que me enseñó a leer de verdad,\nque no es lo mismo que leer.\n\nNo sé qué recordarán de mí.\nProbablemente nada:\nuna voz, una manía, un jersey verde.\nPero alguno, quizá,\ndentro de treinta años,\nescribirá su nombre en otra pizarra\ny le temblarán las manos\ncomo a mí.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el poema la experiencia de enseñar y la relación entre generaciones?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "docencia",
+    "escuela",
+    "vocación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un profesor veterano describe el primer día de clase de un nuevo curso. Sus miedos, la observación de los alumnos y el recuerdo de su propia maestra construyen una reflexión sobre la enseñanza como cadena entre generaciones.\n\n**Aspectos que conviene analizar**\n- La inversión inicial: los alumnos miran al profesor «como se mira un examen» y él también tiene miedo, después de veinte años.\n- El contraste entre la niña de la primera fila y el chico de la última, y la idea de las «veintiocho historias / que no vienen en la lista».\n- El nombre en la pizarra y la risa: el recuerdo que conecta al profesor con su propia infancia.\n- La maestra Asunción y la distinción entre «leer» y «leer de verdad».\n- La humildad de la penúltima estrofa: lo que quedará de él («una voz, una manía, un jersey verde»).\n- El final circular: las manos que tiemblan, ahora en un futuro alumno convertido en profesor.\n\n**Una estructura posible.** Analizar el presente del aula, el recuerdo del pasado y la proyección hacia el futuro, mostrando cómo se enlazan.\n\n**Cuidado con…** escribir un elogio de los profesores. Analiza cómo el poema construye la idea de la transmisión.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

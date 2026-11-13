@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "7fcf7abb-d7c1-5972-bfe4-384938c271ba",
+  "rev": 1,
+  "statement": "Las sustancias atraviesan la membrana plasmática por diferentes mecanismos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4f619c70-3e2e-57ee-9fb9-9c68892edced"
+  ],
+  "tags": [
+    "transporte de membrana"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre difusión facilitada y transporte activo.",
+      "modelAnswer": "Ambas usan proteínas de membrana. (1) La difusión facilitada va a favor del gradiente y no gasta ATP; el transporte activo va en contra y gasta ATP. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué las moléculas de oxígeno atraviesan la membrana con más facilidad que los iones cloruro.",
+      "modelAnswer": "El oxígeno es pequeño y apolar, y se disuelve en el interior hidrófobo de la bicapa. (1) Los iones tienen carga y son repelidos por ese interior, así que necesitan canales. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Describe el modelo del mosaico fluido de la membrana.",
+      "modelAnswer": "Bicapa de fosfolípidos con proteínas integrales y periféricas incrustadas. (1) Los componentes se mueven lateralmente, por eso es fluida. (1) Contiene colesterol entre los fosfolípidos y glúcidos unidos a proteínas y lípidos en la cara externa. (1)",
+      "marks": 3
+    }
+  ]
+}

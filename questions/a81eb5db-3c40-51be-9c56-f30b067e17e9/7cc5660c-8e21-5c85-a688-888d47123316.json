@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "7cc5660c-8e21-5c85-a688-888d47123316",
+  "rev": 1,
+  "statement": "**Llegar de noche a una ciudad**\n\nHay que llegar a las ciudades de noche, en un tren lento, y no saber nada de ellas. Así llegué a esta, una madrugada de noviembre, con una maleta, una dirección escrita en un papel y la sospecha de que me había equivocado de vida.\n\nLa estación era grande y estaba casi vacía. Un hombre barría el andén con una escoba de mango largo, describiendo círculos perfectos, sin prisa, como si no barriera para limpiar sino para pensar. Un perro dormía bajo un banco. En el bar, cerrado, las sillas estaban patas arriba sobre las mesas, como animales que se hubieran dormido de espaldas.\n\nSalí a la calle. Las farolas daban una luz anaranjada y pegajosa, y la ciudad olía a río y a pan. No veía el río, pero lo oía: un rumor ancho, paciente, que venía de todas partes. Caminé sin mapa, siguiendo ese ruido, por calles estrechas que subían y bajaban sin ninguna lógica, entre edificios de balcones cerrados detrás de los cuales, imaginaba, dormían miles de personas que no sabían que yo existía.\n\nLlegué al río cuando empezaba a clarear. Era más grande de lo que había imaginado, gris, lento, con barcas amarradas que chocaban entre sí con un sonido de madera. En la otra orilla, las casas iban apareciendo una a una, como si alguien las estuviera dibujando con tiza en el cielo todavía oscuro.\n\nNo sé cuánto tiempo estuve allí. Sé que cuando se encendieron las primeras ventanas, cuando un panadero levantó con estrépito la persiana de su tienda y una mujer salió a tender ropa en un balcón, sentí que la ciudad me estaba dando la bienvenida. No a mí, claro; a cualquiera que estuviera despierto. Pero a esa hora, en esa orilla, yo era cualquiera, y me bastó.\n\n---\n\n**Pregunta guía:** ¿Cómo transmite el texto la experiencia de llegar a un lugar desconocido?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "literatura de viajes",
+    "ciudad",
+    "amanecer",
+    "descripción"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Relato de viaje en primera persona: la llegada a una ciudad desconocida de madrugada, el paseo hasta el río y el amanecer. La descripción sensorial y el ritmo pausado convierten la llegada en una experiencia casi iniciática, que acompaña un cambio de vida.\n\n**Aspectos que conviene analizar**\n- La frase inicial, que funciona como tesis y consejo, y la confesión de la «sospecha de que me había equivocado de vida».\n- Los detalles de la estación (el barrendero que barre «para pensar», las sillas como «animales que se hubieran dormido de espaldas»), que crean una atmósfera de calma y extrañeza.\n- La percepción sensorial: la luz «anaranjada y pegajosa», el olor «a río y a pan», el río que se oye antes de verse.\n- El paseo sin mapa como forma de conocer y el contraste entre el viajero solitario y los miles que duermen.\n- La imagen de las casas dibujadas «con tiza en el cielo» y el despertar de la ciudad (la persiana, la ropa tendida).\n- El final: la bienvenida que no es personal y la idea de ser «cualquiera», que ofrece consuelo y pertenencia.\n\n**Una estructura posible.** Seguir el recorrido (estación, calles, río, amanecer) y mostrar cómo cambian a la vez el espacio, la luz y el estado de ánimo del narrador.\n\n**Cuidado con…** enumerar figuras retóricas sin relacionarlas con la experiencia del viajero.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

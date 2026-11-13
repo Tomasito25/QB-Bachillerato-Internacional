@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "783ea140-a368-51cb-92b6-bc4fcef7d648",
+  "rev": 1,
+  "statement": "¿Cuál es una causa principal de la pérdida del bosque mixto de dipterocarpáceas del Sudeste Asiático?",
+  "explanation": "La deforestación para obtener madera y convertir el terreno en monocultivos de palma destruye un ecosistema muy diverso.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "pérdida de ecosistemas",
+    "bosque de dipterocarpáceas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La introducción de grandes herbívoros desde África.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La tala y su sustitución por plantaciones, sobre todo de palma aceitera.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El enfriamiento del clima en la región.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La sobrepesca en los ríos del bosque.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

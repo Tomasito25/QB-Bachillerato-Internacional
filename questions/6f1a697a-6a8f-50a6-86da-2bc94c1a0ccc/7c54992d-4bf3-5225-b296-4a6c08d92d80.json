@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "7c54992d-4bf3-5225-b296-4a6c08d92d80",
+  "rev": 1,
+  "statement": "¿Cómo se disponen los tejidos conductores en la raíz de una dicotiledónea?",
+  "explanation": "En el tallo, los haces vasculares forman un anillo; en la raíz, los tejidos conductores ocupan el centro.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "tallo",
+    "raíz",
+    "tejidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "En haces repartidos en un anillo cerca de la epidermis.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Dispersos sin orden por toda la raíz.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Solo en la epidermis, junto a los pelos absorbentes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "En un cilindro central, con el xilema en forma de estrella y el floema entre sus brazos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

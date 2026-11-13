@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "7a8947c4-a19a-5048-9b10-2aaa2cbc33c4",
+  "rev": 1,
+  "statement": "**Lección de anatomía**\n\nEn la clase de biología\nnos enseñaron que el corazón es un músculo\ndel tamaño de un puño,\nque late setenta veces por minuto\ny que no siente nada.\n\nYo copiaba en el cuaderno\naurícula, ventrículo, válvula mitral,\ny miraba tu nuca, dos filas más adelante,\ny el corazón, ese músculo que no siente nada,\nse equivocaba de ritmo.\n\nNadie me explicó por qué\nla sangre sube a la cara\ncuando alguien pronuncia tu apellido,\nni qué órgano es el que duele\ncuando no me miras al salir.\n\nSaqué un sobresaliente en el examen.\nMe sabía todos los nombres.\nLo que no venía en el libro\nlo he ido aprendiendo después,\nsin profesor y sin apuntes,\ny todavía no lo apruebo.\n\n---\n\n**Pregunta guía:** ¿Cómo utiliza el poema el lenguaje científico para hablar del primer amor?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "amor",
+    "primer amor",
+    "anatomía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una voz adolescente contrasta lo que aprende en clase sobre el corazón como órgano con lo que siente al mirar a la persona de la que está enamorada. El lenguaje científico, preciso y frío, choca con una emoción que no aparece en los libros.\n\n**Aspectos que conviene analizar**\n- La definición científica del corazón y la afirmación irónica de que «no siente nada», repetida después.\n- Los términos técnicos (aurícula, ventrículo, válvula mitral) que se mezclan con la mirada a la nuca del otro.\n- La personificación del corazón que «se equivocaba de ritmo» y las preguntas sin respuesta de la tercera estrofa.\n- El juego entre lo físico (la sangre que sube a la cara) y lo emocional («qué órgano es el que duele»).\n- El final: el sobresaliente en el examen frente al suspenso en lo que «no venía en el libro», con humor y melancolía.\n- El salto temporal («lo he ido aprendiendo después»): la voz adulta que recuerda.\n\n**Una estructura posible.** Analizar el contraste entre el discurso científico y el emocional estrofa a estrofa, hasta la paradoja final.\n\n**Cuidado con…** decir solo que el poema compara la ciencia con el amor. Analiza cómo ese contraste produce ironía y emoción.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

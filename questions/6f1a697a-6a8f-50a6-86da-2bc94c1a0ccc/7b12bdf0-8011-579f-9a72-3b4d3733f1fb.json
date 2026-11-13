@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "7b12bdf0-8011-579f-9a72-3b4d3733f1fb",
+  "rev": 1,
+  "statement": "La enfermedad coronaria es una de las principales causas de muerte en el mundo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb"
+  ],
+  "tags": [
+    "enfermedad coronaria"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se produce la oclusión de una arteria coronaria.",
+      "modelAnswer": "Se acumulan lípidos, como el colesterol, en la pared de la arteria y se forma una placa de ateroma. (1) La luz se estrecha y la pared se endurece. (1) Si la placa se rompe, se forma un coágulo que puede bloquear la arteria. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica las consecuencias de esa oclusión.",
+      "modelAnswer": "El músculo cardíaco que riega la arteria no recibe oxígeno ni glucosa. (1) Sus células no pueden respirar aeróbicamente y mueren: infarto de miocardio. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica dos factores de riesgo de la enfermedad coronaria.",
+      "modelAnswer": "Dos de: tabaco, hipertensión, colesterol alto en sangre, obesidad, sedentarismo, diabetes, edad, sexo masculino, antecedentes familiares. (2)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "7cce2bfd-d567-53f5-a75f-8ce855f6ebcf",
+  "rev": 1,
+  "statement": "Los arrecifes de coral se consideran uno de los ecosistemas más amenazados por el cambio climático.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "arrecifes",
+    "colapso"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica dos amenazas del cambio climático para los arrecifes de coral.",
+      "modelAnswer": "El aumento de la temperatura del agua provoca el blanqueo: los corales expulsan sus algas simbiontes y pueden morir. (1) La acidificación del océano dificulta la formación de su esqueleto de carbonato de calcio. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la muerte de los corales puede provocar el colapso de todo el ecosistema.",
+      "modelAnswer": "Los corales forman la estructura física del arrecife, que da alimento y refugio a muchísimas especies. (1)",
+      "marks": 1
+    }
+  ]
+}

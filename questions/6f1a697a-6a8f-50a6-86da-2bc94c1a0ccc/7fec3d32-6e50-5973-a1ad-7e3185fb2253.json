@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7fec3d32-6e50-5973-a1ad-7e3185fb2253",
+  "rev": 1,
+  "statement": "¿Qué efecto tiene la adrenalina que secretan las glándulas suprarrenales?",
+  "explanation": "Es la respuesta de $lucha o huida$: más oxígeno y glucosa llegan a los músculos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "36f0ee50-bb72-5765-a710-341b6d6f9e0d"
+  ],
+  "tags": [
+    "adrenalina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Estimula la digestión y la absorción de nutrientes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Reduce la glucosa en sangre.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Favorece el sueño y reduce la actividad.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Prepara al cuerpo para una actividad intensa: aumenta la frecuencia cardíaca y la ventilación, y libera glucosa.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

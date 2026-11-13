@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "7f0c7d9c-7daf-5cef-869f-fbc517cc481d",
+  "rev": 1,
+  "statement": "Se midió la velocidad de fotosíntesis de una planta acuática a distintas intensidades luminosas y con dos concentraciones de dióxido de carbono, a $20\\,°\\text{C}$.\n\n![Velocidad de fotosíntesis frente a la intensidad luminosa con dos concentraciones de dióxido de carbono](qbimg:58d18c7ae3d51907daa6964abc178fb507145b5d4d9673d8d26b520c30fa19d3)",
+  "images": [
+    {
+      "hash": "58d18c7ae3d51907daa6964abc178fb507145b5d4d9673d8d26b520c30fa19d3",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 31108,
+      "alt": "Velocidad de fotosíntesis frente a la intensidad luminosa con dos concentraciones de dióxido de carbono"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "factores limitantes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Identifica el factor limitante a intensidades de luz muy bajas. Justifica tu respuesta.",
+      "modelAnswer": "La intensidad luminosa: (1) al aumentarla, la velocidad sube, y las dos curvas casi coinciden aunque cambie el CO₂. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Identifica el factor limitante de la curva del 0,04 % de CO₂ a intensidades altas. Justifica tu respuesta.",
+      "modelAnswer": "La concentración de CO₂: (1) la curva se aplana aunque aumente la luz, pero con más CO₂ la velocidad es mayor. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere qué factor podría limitar la curva del 0,10 % de CO₂ a intensidades muy altas.",
+      "modelAnswer": "La temperatura, o la cantidad de enzimas o de clorofila. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere cómo se podría medir la velocidad de fotosíntesis en este experimento.",
+      "modelAnswer": "Contando las burbujas de oxígeno por minuto o midiendo el volumen de oxígeno recogido en un tiempo dado. (1)",
+      "marks": 1
+    }
+  ]
+}

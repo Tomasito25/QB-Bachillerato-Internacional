@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "77aeaba4-cd84-50f8-8481-d359adb02e08",
+  "rev": 1,
+  "statement": "¿Por qué se almacena la glucosa en forma de almidón o glucógeno y no como glucosa libre?",
+  "explanation": "Mucha glucosa disuelta haría entrar agua en la célula por ósmosis. En polímeros grandes e insolubles ocupa poco espacio y no tiene efecto osmótico, y se libera rápido cuando hace falta.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "almidón",
+    "glucógeno",
+    "reserva"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque los polisacáridos son compactos e insolubles y no alteran el equilibrio osmótico de la célula.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque los polisacáridos atraviesan la membrana con facilidad.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque los polisacáridos contienen más energía por gramo que las grasas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque la glucosa libre no se puede usar en la respiración.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
