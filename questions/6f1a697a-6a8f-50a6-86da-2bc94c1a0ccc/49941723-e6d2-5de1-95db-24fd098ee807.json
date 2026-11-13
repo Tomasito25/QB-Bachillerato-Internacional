@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "49941723-e6d2-5de1-95db-24fd098ee807",
+  "rev": 1,
+  "statement": "El programa EDGE prioriza la conservación de ciertas especies. ¿Qué dos criterios combina?",
+  "explanation": "EDGE son las siglas en inglés de *evolutivamente distinta y globalmente amenazada*. Si se extinguen, se pierde mucha historia evolutiva única.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "EDGE",
+    "prioridades de conservación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que la especie sea evolutivamente singular y esté amenazada a escala mundial.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Que la especie sea grande y atractiva para el público.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que la especie sea abundante y tenga valor económico.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que la especie viva en un país rico y tenga parientes cercanos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

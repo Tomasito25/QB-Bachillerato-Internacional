@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "482d0037-faa4-502f-a6bd-bc0ee42696fa",
+  "rev": 1,
+  "statement": "¿Qué método es adecuado para estudiar cómo cambia la distribución de las plantas desde la orilla del mar hacia el interior?",
+  "explanation": "El transecto recorre el gradiente ambiental y permite relacionar los cambios de las especies con los factores abióticos medidos en cada punto.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "distribución",
+    "transectos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un único cuadrante colocado al azar.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Contar todas las plantas de la playa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un transecto con cuadrantes colocados a intervalos regulares.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "El método de captura, marcado y recaptura.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

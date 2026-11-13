@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "430c6557-be63-51ea-9bf7-435e07ade71a",
+  "rev": 1,
+  "statement": "¿Qué combinación es correcta?",
+  "explanation": "La pared de los hongos es de quitina y la de las plantas, de celulosa. Las células animales no tienen pared. El peptidoglucano es propio de las bacterias.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "plantas",
+    "hongos",
+    "animales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hongos: pared de quitina. Plantas: pared de celulosa. Animales: sin pared.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Hongos: sin pared. Plantas: pared de celulosa. Animales: pared de quitina.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Hongos y plantas: pared de celulosa. Animales: pared de peptidoglucano.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Hongos: pared de celulosa. Plantas: pared de quitina. Animales: sin pared.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

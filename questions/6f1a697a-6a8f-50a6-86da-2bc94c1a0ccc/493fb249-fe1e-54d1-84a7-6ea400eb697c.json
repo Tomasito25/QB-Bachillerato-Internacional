@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "493fb249-fe1e-54d1-84a7-6ea400eb697c",
+  "rev": 1,
+  "statement": "¿Cuál de estas células es un ejemplo de célula eucariota sin núcleo?",
+  "explanation": "Los eritrocitos maduros de mamífero y los tubos cribosos del floema no tienen núcleo. Las fibras de músculo esquelético y las hifas sin tabiques tienen muchos núcleos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "células atípicas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La fibra de músculo esquelético",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La neurona motora",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El eritrocito de mamífero maduro",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La hifa sin tabiques de un hongo",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "47293984-1ef3-5f5e-af40-d45bfd3a8b73",
+  "rev": 1,
+  "statement": "¿Qué respuesta aumenta la producción de calor cuando hace frío?",
+  "explanation": "También aumenta la producción de calor en el tejido adiposo pardo, cuya respiración libera la energía como calor en lugar de producir ATP.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "tiritar",
+    "tejido adiposo pardo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La vasodilatación en la piel.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Sudar más.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Reducir la actividad del tejido adiposo pardo.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Tiritar, porque las contracciones musculares liberan calor en la respiración.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

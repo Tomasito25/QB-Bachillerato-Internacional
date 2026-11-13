@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "3f25a368-63d7-56c6-9686-92f366e3d438",
+  "rev": 1,
+  "statement": "¿Cómo reduce la vasodilatación la temperatura corporal?",
+  "explanation": "Las arteriolas de la piel se dilatan; por eso la piel se enrojece al hacer ejercicio.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "vasodilatación",
+    "calor"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta la producción de calor en los músculos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Llega más sangre a los capilares de la piel y se pierde más calor hacia el ambiente.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Reduce la producción de sudor.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Llega menos sangre a la piel y se conserva el calor.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

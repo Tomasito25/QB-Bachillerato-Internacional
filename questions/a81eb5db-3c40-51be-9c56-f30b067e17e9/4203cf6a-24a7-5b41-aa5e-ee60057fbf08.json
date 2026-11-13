@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "4203cf6a-24a7-5b41-aa5e-ee60057fbf08",
+  "rev": 1,
+  "statement": "Que conste que yo no soy de los que se meten en la vida de los demás. Si sé que la del segundo izquierda recibe visitas los jueves a las cinco y cuarto, es porque a esa hora riego los geranios y el portal se ve desde mi balcón. No es culpa mía que los geranios necesiten agua precisamente entonces.\n\nTampoco soy de los que juzgan. El chico del ático puede llevar el pelo como quiera y llegar a las tantas; eso sí, alguien tenía que avisar a la comunidad de que deja la puerta del portal sin cerrar, y como nadie más se fija, lo puse por escrito y lo dejé en el tablón. Sin firmar, claro, porque lo importante es el mensaje y no quien lo escribe.\n\nMe consta que algunos vecinos me llaman el Alcalde. Lo tomo como un cumplido. En un edificio hace falta alguien que sepa dónde está la llave del cuarto de contadores, quién debe dos recibos y por qué la del primero ya no saluda a su marido en la escalera. Lo último no lo sé por cotilla, sino porque las paredes de esta casa son muy finas y yo duermo muy poco.\n\nEl otro día, en la junta, propuse instalar una cámara en el portal, por seguridad. Se votó en contra por unanimidad. Bueno, por unanimidad menos un voto, el mío. Me sorprendió que la del segundo izquierda votara que no, teniendo en cuenta que es la que más visitas recibe. Se lo comenté al salir, con la mejor intención del mundo, y desde entonces no me habla.\n\nLa gente es así. Uno se preocupa por ellos y lo pagan con desprecio. Pero yo no guardo rencor. Esta tarde, sin ir más lejos, le he dejado en el buzón una nota muy educada recordándole que los jueves el portero no trabaja y que haría bien en no dejar entrar a desconocidos.\n\nLos geranios, por cierto, están preciosos.\n\n---\n\n**Pregunta guía:** ¿De qué manera el texto deja ver un retrato del narrador distinto del que él pretende dar de sí mismo?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "narrador no fiable",
+    "ironía",
+    "vecindad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un vecino jubilado cuenta en primera persona su papel en la comunidad de su edificio. Cada vez que niega ser entrometido, sus propias palabras lo desmienten. El humor nace de la ironía dramática: el lector entiende lo que el narrador no ve o no quiere ver.\n\n**Aspectos que conviene analizar**\n- El narrador no fiable: las negaciones iniciales («yo no soy de los que…», «Tampoco soy de los que juzgan») seguidas de pruebas de lo contrario.\n- Las justificaciones absurdas (los geranios a las cinco y cuarto, las paredes finas, dormir poco) y su efecto cómico.\n- La nota anónima en el tablón y la del buzón: el control disfrazado de preocupación y de buena educación.\n- El apodo del Alcalde, que él toma como cumplido, y la votación «por unanimidad menos un voto».\n- El tono: registro oral, frases hechas («Que conste», «sin ir más lejos») que construyen una voz verosímil.\n- El final: la frase sobre los geranios vuelve al principio y revela que la vigilancia continuará.\n\n**Una estructura posible.** Analizar la distancia entre lo que dice el narrador y lo que muestra, en una progresión que va de la autojustificación a la nota final, cada vez más agresiva.\n\n**Cuidado con…** creer al narrador o limitarte a juzgarlo. Lo que se analiza son las técnicas (ironía, voz, selección de detalles) con que el texto lo retrata.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

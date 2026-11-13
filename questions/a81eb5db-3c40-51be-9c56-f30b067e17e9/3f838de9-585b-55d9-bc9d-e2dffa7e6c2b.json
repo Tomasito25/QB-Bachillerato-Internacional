@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "3f838de9-585b-55d9-bc9d-e2dffa7e6c2b",
+  "rev": 1,
+  "statement": "**Muchas obras giran en torno a una decisión que el personaje no puede evitar. Compare cómo se presenta una decisión importante en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "7c0d54dc-0c20-5faf-8f1e-2d7a893aa253"
+  ],
+  "tags": [
+    "personajes",
+    "elecciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar la decisión (contexto, alternativas, consecuencias) y cómo la construye el autor: tensión, dilema moral, momento de la estructura. **Obras adecuadas.** Tragedias, novelas con dilemas o poemas que dramatizan una elección. **Esquema posible.** Presentación del dilema; técnicas que crean tensión; la decisión y sus consecuencias; sentido en la obra. **Cuidado con…** valorar si la decisión fue correcta. Interesa cómo se construye literariamente.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

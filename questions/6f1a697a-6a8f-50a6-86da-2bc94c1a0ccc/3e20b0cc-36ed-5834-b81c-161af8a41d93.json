@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "3e20b0cc-36ed-5834-b81c-161af8a41d93",
+  "rev": 1,
+  "statement": "Antes de dividirse, una célula debe replicar todo su ADN.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "replicación",
+    "enzimas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:41.000Z",
+  "updatedAt": "2026-11-13T05:52:41.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe el proceso de replicación del ADN.",
+      "modelAnswer": "La helicasa desenrolla la doble hélice y separa las cadenas rompiendo los puentes de hidrógeno. (1) Cada cadena sirve de molde. (1) Nucleótidos libres se emparejan con las bases complementarias del molde: A con T y C con G. (1) La ADN polimerasa une los nucleótidos y forma la cadena nueva. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la replicación es semiconservativa.",
+      "modelAnswer": "Cada molécula hija conserva una cadena de la original (1) y tiene una cadena nueva. (1)",
+      "marks": 2
+    }
+  ]
+}
