@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "1990a8ed-6e12-5118-a1f5-262c49fb0ce9",
+  "rev": 1,
+  "statement": "Los carboneros alimentan a sus pollos sobre todo con orugas de polilla, que abundan durante pocas semanas en primavera. La gráfica muestra cómo han cambiado las fechas en un bosque europeo (día 1 = 1 de enero).\n\n![Fecha del máximo de orugas y fecha media de eclosión de los pollos de carbonero entre 1990 y 2020](qbimg:e7edb46f29732e2ace2e1da5132d689c57e70c5d0647c145a9bcfb0dad858824)",
+  "images": [
+    {
+      "hash": "e7edb46f29732e2ace2e1da5132d689c57e70c5d0647c145a9bcfb0dad858824",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 27160,
+      "alt": "Fecha del máximo de orugas y fecha media de eclosión de los pollos de carbonero entre 1990 y 2020"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "fenología",
+    "sincronía"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:01.000Z",
+  "updatedAt": "2026-11-13T05:52:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula cuántos días se adelantó el máximo de orugas entre 1990 y 2020.",
+      "modelAnswer": "$148 - 129 = 19$ días. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara los cambios en las dos fechas.",
+      "modelAnswer": "Las dos se adelantan, (1) pero el máximo de orugas se adelanta mucho más (19 días) que la eclosión de los pollos (7 días). (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica la consecuencia para los carboneros.",
+      "modelAnswer": "En 2020 los pollos nacen unos 14 días después del máximo de orugas: hay desincronización. (1) Disponen de menos alimento al criar y pueden sobrevivir menos pollos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué las orugas responden más deprisa al calentamiento que las aves.",
+      "modelAnswer": "El desarrollo de las orugas depende directamente de la temperatura, mientras que la fecha de puesta de las aves depende sobre todo de la duración del día. (1)",
+      "marks": 1
+    }
+  ]
+}

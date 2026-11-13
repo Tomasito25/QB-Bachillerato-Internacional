@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "1ade5984-60de-5e85-8600-a30609ccee75",
+  "rev": 1,
+  "statement": "¿Qué productos forma la levadura en la respiración anaerobia?",
+  "explanation": "Por eso la levadura sirve para hacer pan (el CO₂ hincha la masa) y bebidas alcohólicas (el etanol).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "levadura",
+    "fermentación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:01.000Z",
+  "updatedAt": "2026-11-13T05:52:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Dióxido de carbono y agua",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Oxígeno y glucosa",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Lactato",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Etanol y dióxido de carbono",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

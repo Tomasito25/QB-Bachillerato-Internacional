@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "1a9170ee-5daf-5cfc-96fd-0e2f6f937488",
+  "rev": 1,
+  "statement": "Mi primer trabajo fue en una pizzería que se llamaba Bella Napoli y que estaba en un polígono industrial entre una gasolinera y un concesionario de tractores. Tenía dieciséis años y el uniforme era una camiseta roja dos tallas más grande, con un tomate sonriente bordado en el pecho. El tomate tenía bigote. Nunca supe por qué.\n\nEl encargado se llamaba Toni y llevaba el pelo engominado hacia atrás, como si acabara de salir de una piscina o de una película. El primer día me explicó las normas: sonreír siempre, no comer pizza sin pagarla y no hablar con las clientas. La tercera no la entendí hasta más tarde, cuando vi que él hablaba con todas.\n\nDurante dos semanas me tocó fregar. El fregadero estaba al fondo, junto a la cámara frigorífica, y desde allí no se veía el comedor, solo se oía: risas, cubiertos, el timbre de la puerta. Yo fregaba y escuchaba, e imaginaba que algún día me tocaría estar al otro lado, con la camiseta del tomate, llevando platos con una sola mano.\n\nMe tocó un sábado. Toni me dio una bandeja con cuatro refrescos y me señaló la mesa seis. En la mesa seis estaban Lucía Ferrer, de mi clase, y tres amigas suyas. Me reconocieron antes de que yo llegara. Vi cómo se miraban, cómo una se tapaba la boca. El tomate de mi pecho me pareció de pronto enorme, y su bigote, una ofensa personal.\n\nNo se me cayó la bandeja. Eso es lo único que puedo decir a mi favor. Dejé los cuatro refrescos, dije «que aproveche» con una voz que no era la mía y volví al fondo, al fregadero, donde nadie me veía. Toni vino a preguntarme qué me pasaba. Le dije que nada. Me dijo que sonriera.\n\nSonreí. Tengo todavía, en algún sitio, la camiseta del tomate. No sé por qué la guardé. Supongo que hay cosas que uno no tira para acordarse de que sobrevivió a ellas.\n\n---\n\n**Pregunta guía:** ¿Cómo combina el narrador el humor y la humillación al recordar este episodio?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "adolescencia",
+    "trabajo",
+    "humillación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:01.000Z",
+  "updatedAt": "2026-11-13T05:52:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un adulto recuerda su primer trabajo adolescente en una pizzería y el momento en que tuvo que servir a unas compañeras de clase. La distancia temporal le permite contar con humor una humillación que entonces fue dolorosa.\n\n**Aspectos que conviene analizar**\n- La doble perspectiva: el adolescente que lo vivió y el adulto que lo cuenta con ironía y ternura.\n- Los detalles cómicos: el polígono, el tomate con bigote, el encargado engominado y sus normas contradictorias.\n- El espacio: el fregadero al fondo, desde donde solo se oye el comedor, y el deseo de «estar al otro lado».\n- La escena de la mesa seis: miradas, una mano que tapa la boca y la hipérbole del tomate «enorme» y su bigote como «ofensa personal».\n- La reacción contenida («No se me cayó la bandeja») y la voz «que no era la mía».\n- El final: la camiseta guardada como trofeo de supervivencia, que da sentido al relato.\n\n**Una estructura posible.** Seguir el relato desde la presentación cómica hasta la escena de la humillación y la reflexión final, analizando cómo cambia el tono.\n\n**Cuidado con…** limitarte a decir que el texto es «gracioso y triste». Explica con qué recursos se produce cada efecto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

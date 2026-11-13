@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "1aff01ac-3d85-5771-a2f9-f5e67633d2bf",
+  "rev": 1,
+  "statement": "El agua llega desde las raíces hasta las hojas de un árbol de $30\\,\\text{m}$ sin que la planta gaste ATP en bombearla.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "cohesión",
+    "adhesión",
+    "xilema"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:01.000Z",
+  "updatedAt": "2026-11-13T05:52:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo se forma un puente de hidrógeno entre dos moléculas de agua.",
+      "modelAnswer": "El enlace O–H es covalente polar: el O tiene carga parcial negativa y los H, positiva. (1) El H con carga parcial positiva de una molécula atrae al O con carga parcial negativa de otra. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica el papel de la cohesión en el ascenso del agua por el xilema.",
+      "modelAnswer": "La evaporación en las hojas tira del agua y la columna queda bajo tensión. (1) Los puentes de hidrógeno entre moléculas mantienen la columna continua, de modo que el tirón se transmite hasta las raíces. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica por qué la adhesión también contribuye al movimiento del agua en la planta.",
+      "modelAnswer": "El agua forma puentes de hidrógeno con la celulosa de las paredes, que es polar, y avanza por ellas por capilaridad. (1)",
+      "marks": 1
+    }
+  ]
+}
