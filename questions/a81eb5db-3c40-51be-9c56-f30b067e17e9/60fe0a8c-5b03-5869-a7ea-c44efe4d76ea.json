@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "60fe0a8c-5b03-5869-a7ea-c44efe4d76ea",
+  "rev": 1,
+  "statement": "**Compare el uso de varios puntos de vista en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8cbb01f-3344-51dd-b01f-07282802c397"
+  ],
+  "tags": [
+    "perspectivas múltiples"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar obras que cuentan los hechos desde diferentes perspectivas (varios narradores, cambios de focalización, voces enfrentadas) y el efecto de esa multiplicidad. **Obras adecuadas.** Novelas corales, teatro, poemarios con varias voces. **Esquema posible.** Cómo se organizan los puntos de vista; qué revela cada uno; contradicciones y huecos; efecto en la interpretación y en la idea de verdad. **Cuidado con…** describir cada perspectiva por separado sin compararlas.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

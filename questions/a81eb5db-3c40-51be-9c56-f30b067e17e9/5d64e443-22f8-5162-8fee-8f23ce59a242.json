@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "5d64e443-22f8-5162-8fee-8f23ce59a242",
+  "rev": 1,
+  "statement": "**Explique cómo la lectura de una de las obras que ha estudiado cambió su manera de entender la otra.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "287a6baa-b9c7-5f7d-93ed-adcd75ebb7bc"
+  ],
+  "tags": [
+    "diálogo entre obras"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Construir una comparación en la que cada obra ilumina a la otra: temas comunes, técnicas contrastadas, preguntas que una plantea y la otra responde. **Obras adecuadas.** Dos obras con algún punto de contacto (tema, forma, época, personaje). **Esquema posible.** Punto de partida (lo que se entendía de la primera obra); cómo la segunda obra cambia esa lectura; análisis de ejemplos de ambas; conclusión sobre el diálogo entre las dos. **Cuidado con…** convertir el ensayo en una experiencia personal sin análisis. La lectura cruzada debe apoyarse en el texto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5c598fd4-5e15-5b34-abbe-053aba8c5323",
+  "rev": 1,
+  "statement": "¿Cómo se forma un enlace peptídico?",
+  "explanation": "El –OH del carboxilo y un –H del amino forman una molécula de agua, y queda un enlace C–N entre los dos aminoácidos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "enlace peptídico",
+    "condensación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:57.000Z",
+  "updatedAt": "2026-11-13T05:52:57.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por condensación entre el grupo carboxilo de un aminoácido y el grupo amino de otro, con liberación de agua.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Por hidrólisis entre los grupos R de dos aminoácidos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Por condensación entre dos grupos carboxilo, con liberación de dióxido de carbono.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Por un puente de hidrógeno entre dos grupos amino.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
