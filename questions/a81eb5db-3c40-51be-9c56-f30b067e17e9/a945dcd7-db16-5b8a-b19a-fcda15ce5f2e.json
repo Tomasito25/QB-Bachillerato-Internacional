@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "a945dcd7-db16-5b8a-b19a-fcda15ce5f2e",
+  "rev": 1,
+  "statement": "**Penélope**\n\nDicen que te esperé.\nQue tejía de día y destejía de noche\npara engañar a los pretendientes,\nfiel como un perro en el umbral.\n\nNo sabían nada.\n\nTejía porque el telar era lo único\nque en esta casa obedecía a mis manos.\nDestejía porque me gustaba\ndeshacer lo que otros daban por terminado.\n\nVeinte años son muchos años.\nAprendí a gobernar las cabras y los criados,\na leer las cuentas, a callar en las fiestas,\na dormir en el centro de la cama.\n\nAhora vuelves, viejo, lleno de historias\nque los poetas ya están contando a su manera,\ny me miras como se mira un puerto.\n\nYo también tengo una historia, Ulises.\nPero nadie ha venido a preguntármela.\n\n---\n\n**Pregunta guía:** ¿De qué manera reescribe el poema el mito de Penélope y con qué efecto?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "mito",
+    "Penélope",
+    "voz femenina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema da voz a Penélope, la esposa que esperó a Ulises según la *Odisea*. La versión tradicional (la mujer fiel que teje y desteje) se pone en duda: la espera fue también un tiempo de autonomía, y el regreso del héroe no deja espacio para la historia de ella.\n\n**Aspectos que conviene analizar**\n- La intertextualidad: el lector reconoce el mito y percibe la distancia entre la versión heredada («Dicen que te esperé») y la de la voz poética.\n- El verso aislado «No sabían nada», que marca el giro.\n- La nueva motivación del telar: el control propio y el placer de «deshacer lo que otros daban por terminado».\n- La enumeración de lo aprendido en veinte años, que termina en la imagen íntima de «dormir en el centro de la cama».\n- El retrato de Ulises («viejo, lleno de historias») y la metáfora del puerto: él la ve como destino, no como persona.\n- El final: la reivindicación de una historia propia que «nadie ha venido a preguntar», crítica a una tradición literaria que silenció a las mujeres.\n\n**Una estructura posible.** Analizar el poema como respuesta al mito: versión oficial, corrección, vida propia, regreso del héroe y reivindicación final.\n\n**Cuidado con…** explicar el mito más que el poema. Basta con lo necesario para mostrar cómo el texto lo transforma.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

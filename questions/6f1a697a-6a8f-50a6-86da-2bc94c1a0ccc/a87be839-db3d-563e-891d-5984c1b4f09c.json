@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a87be839-db3d-563e-891d-5984c1b4f09c",
+  "rev": 1,
+  "statement": "¿Qué adaptación ayuda a un mamífero del desierto a conservar el agua?",
+  "explanation": "Los riñones de muchos roedores del desierto reabsorben casi toda el agua. Además suelen ser nocturnos y pasar el día en madrigueras.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "desierto",
+    "animales"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Tener una superficie corporal muy grande.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Producir una orina muy concentrada.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Estar activo en las horas de más calor.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Sudar en abundancia durante el día.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

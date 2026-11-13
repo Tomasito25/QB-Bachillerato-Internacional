@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "ac3bf380-c71d-5568-9cd7-92119e06f0ff",
+  "rev": 1,
+  "statement": "En una región tropical se ha registrado durante 30 años la cubierta forestal y el número de especies de aves observadas en recorridos de muestreo con el mismo esfuerzo.\n\n| Año | Cubierta forestal / % | Especies de aves observadas |\n|---|---|---|\n| 1990 | 72 | 210 |\n| 2000 | 58 | 188 |\n| 2010 | 41 | 160 |\n| 2020 | 33 | 149 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "deforestación",
+    "biodiversidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el porcentaje de disminución de la cubierta forestal entre 1990 y 2020.",
+      "modelAnswer": "$\\dfrac{72 - 33}{72}\\times 100 = 54\\,\\%$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Describe la relación entre la cubierta forestal y el número de especies de aves.",
+      "modelAnswer": "Al disminuir la cubierta forestal, disminuye el número de especies observadas: correlación positiva. (1) La pérdida de especies es proporcionalmente menor que la de bosque (de 210 a 149, un 29 %). (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué estos datos no demuestran por sí solos que la deforestación cause la pérdida de especies.",
+      "modelAnswer": "Una correlación no prueba causalidad. (1) Pueden intervenir otros factores que cambiaron en esos años, como la caza, la contaminación o el cambio climático. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué es importante que el esfuerzo de muestreo sea el mismo cada año.",
+      "modelAnswer": "Si se muestreara más tiempo o más zona, se observarían más especies aunque no hubiera más; así los datos son comparables. (1)",
+      "marks": 1
+    }
+  ]
+}

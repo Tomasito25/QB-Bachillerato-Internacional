@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "a923e0b4-3cb0-5f51-b3d7-6be1ce9bb714",
+  "rev": 1,
+  "statement": "**Lluvia sobre la ciudad**\n\nLlueve. La lluvia llama a las ventanas\ncon nudillos de agua, lenta, leve,\ny la ciudad, que nunca se detiene,\nse detiene un momento a escucharla.\n\nRepiquetea en los toldos, en los coches,\nen el paraguas roto que una niña\nlleva como una flor desordenada,\nen los charcos que crecen como espejos.\n\nLos semáforos tiemblan en el asfalto\ny el rojo se derrama sobre el verde.\nTodo se mezcla: el ruido y el reflejo,\nla prisa y el silencio, el gris y el oro.\n\nUn hombre corre sin saber adónde,\ntapándose con un periódico viejo\ndonde las noticias de ayer se deshacen\nletra a letra, guerra a guerra, en el agua.\n\nLlueve. Y por un momento la ciudad\nse lava la cara como quien despierta,\ny nadie sabe si está llorando\no si solo, por fin, se está limpiando.\n\n---\n\n**Pregunta guía:** ¿Cómo crea el poema la atmósfera de la lluvia a través del sonido y de las imágenes?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "sonoridad",
+    "lluvia",
+    "ciudad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema describe la ciudad bajo la lluvia combinando efectos sonoros e imágenes visuales. La lluvia detiene la ciudad, la transforma y, al final, adquiere un sentido ambiguo entre el llanto y la purificación.\n\n**Aspectos que conviene analizar**\n- La sonoridad: la aliteración de la ele en el primer verso («Llueve. La lluvia llama…», «lenta, leve») y la onomatopeya de «Repiquetea».\n- El ritmo de versos largos, casi todos endecasílabos sin rima, que imitan la cadencia continua de la lluvia.\n- La personificación de la lluvia que «llama a las ventanas / con nudillos de agua» y la paradoja de la ciudad «que nunca se detiene» y se detiene.\n- Las imágenes visuales: el paraguas como «flor desordenada», los charcos como espejos, el rojo que «se derrama sobre el verde».\n- Las antítesis de la tercera estrofa y la imagen del periódico que se deshace «letra a letra, guerra a guerra».\n- El final ambiguo: la ciudad que «se lava la cara» y la duda entre el llanto y la limpieza.\n\n**Una estructura posible.** Analizar primero el plano sonoro y después el visual, para terminar con el sentido de la última estrofa.\n\n**Cuidado con…** identificar recursos sin explicar su efecto en la creación de la atmósfera.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "aae782e2-d729-5f4c-a284-76f14a207a7e",
+  "rev": 1,
+  "statement": "Son las once y cuarto y Alí lleva siete pedidos. El octavo es una pizza familiar para el número treinta y dos de una calle con nombre de poeta, en lo alto de la colina. La aplicación le da once minutos. La cuesta le pide quince.\n\nPedalea de pie, con la mochila cúbica a la espalda como una casa diminuta. Conoce la ciudad mejor que la mayoría de sus habitantes: sabe qué semáforos duran más, en qué portales hay perros, qué barrios dan propina y cuáles dan las gracias, que no es lo mismo pero a veces se agradece más. Sabe que las calles con nombre de poeta suelen estar en cuesta.\n\nLlega en catorce minutos. Llama al telefonillo. Le abre un chico de su edad, en pijama, con la luz azul de una pantalla en la cara. Coge la pizza sin mirarlo y le dice «gracias, tío» mientras cierra. En la aplicación aparece una estrella menos: retraso de tres minutos.\n\nAlí se sienta un momento en el bordillo. Desde arriba se ve toda la ciudad, una alfombra de luces naranjas que no se apaga nunca. En su pueblo, a esta hora, solo se verían las estrellas y la luz del cuartel. Su madre le preguntó una vez por teléfono si la ciudad era bonita. Le dijo que sí, que de noche era muy bonita. No le dijo que la veía siempre desde arriba, cansado, con una mochila en la espalda que olía a comida de otros.\n\nVibra el móvil. Noveno pedido. Una hamburguesa, en la parte baja de la ciudad. Al menos, piensa Alí mientras se pone el casco, ahora es cuesta abajo.\n\n---\n\n**Pregunta guía:** ¿Cómo representa el fragmento la experiencia de la ciudad desde la perspectiva del repartidor?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "ciudad",
+    "repartidor",
+    "precariedad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un repartidor joven, inmigrante, recorre la ciudad de noche llevando pedidos. El narrador en tercera persona, muy cercano a él, muestra la precariedad de su trabajo, la invisibilidad ante los clientes y su forma de resistir con humor y observación.\n\n**Aspectos que conviene analizar**\n- El tiempo medido por la aplicación frente al tiempo del cuerpo («La aplicación le da once minutos. La cuesta le pide quince»).\n- La comparación de la mochila con «una casa diminuta» y el conocimiento íntimo de la ciudad (semáforos, perros, propinas).\n- La ironía de las calles «con nombre de poeta», siempre en cuesta.\n- El encuentro con el cliente: el chico de su edad, la luz de la pantalla, el «gracias, tío» y la estrella menos. Dos vidas paralelas.\n- La vista nocturna de la ciudad, la comparación con el pueblo y lo que Alí no le cuenta a su madre.\n- El final, que convierte la resignación en humor («ahora es cuesta abajo»).\n\n**Una estructura posible.** Analizar cómo cada momento del reparto (subida, entrega, pausa, nuevo pedido) muestra un aspecto de la relación de Alí con la ciudad.\n\n**Cuidado con…** quedarte en la denuncia social. Analiza la perspectiva, el tono y los detalles.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

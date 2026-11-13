@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a866ec4e-0dc9-5319-bf84-83892e148084",
+  "rev": 1,
+  "statement": "¿Por qué los órganos para trasplantes se conservan en una disolución isotónica?",
+  "explanation": "Además se mantienen fríos para reducir el metabolismo; la disolución evita daños por entrada o salida de agua.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "trasplantes",
+    "isotónica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para que sus células no se hinchen ni se deshidraten por ósmosis mientras se trasladan.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Para que el órgano no necesite refrigeración.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Para eliminar las bacterias del órgano.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para que el órgano siga creciendo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

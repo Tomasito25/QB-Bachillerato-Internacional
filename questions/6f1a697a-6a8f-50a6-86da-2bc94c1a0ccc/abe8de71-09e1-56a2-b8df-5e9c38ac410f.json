@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "abe8de71-09e1-56a2-b8df-5e9c38ac410f",
+  "rev": 1,
+  "statement": "En una isla sin depredadores se introdujeron 50 cabras. La gráfica muestra la población estimada durante los 20 años siguientes.\n\n![Crecimiento de una población de cabras introducida en una isla](qbimg:ac6c761a87a3bdc99d85085c3549ed9858eca78d939a7ca391ec1a6ecd6494fc)",
+  "images": [
+    {
+      "hash": "ac6c761a87a3bdc99d85085c3549ed9858eca78d939a7ca391ec1a6ecd6494fc",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 27455,
+      "alt": "Crecimiento de una población de cabras introducida en una isla"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "crecimiento logístico",
+    "capacidad de carga"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Estima la capacidad de carga de la isla para las cabras.",
+      "modelAnswer": "Unas 800 cabras. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la tasa media de crecimiento de la población entre los años 4 y 8, en cabras por año.",
+      "modelAnswer": "Años 4 y 8: unas 300 y 680 cabras. (1) $\\dfrac{680 - 300}{4} \\approx 95$ cabras por año. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica la forma de la curva entre los años 10 y 20.",
+      "modelAnswer": "El crecimiento se frena hasta casi detenerse. (1) Al haber más cabras hay más competencia por la vegetación (y por el agua o el espacio): disminuye la natalidad o aumenta la mortalidad hasta igualarse. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere una consecuencia para la comunidad de la isla.",
+      "modelAnswer": "Las cabras pueden sobrepastorear la vegetación y eliminar plantas autóctonas, lo que afecta a otras especies. (1)",
+      "marks": 1
+    }
+  ]
+}

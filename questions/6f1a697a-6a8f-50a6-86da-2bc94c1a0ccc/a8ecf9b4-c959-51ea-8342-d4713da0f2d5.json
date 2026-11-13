@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "a8ecf9b4-c959-51ea-8342-d4713da0f2d5",
+  "rev": 1,
+  "statement": "En una micrografía, la barra de escala mide $10\\,\\text{mm}$ y representa $2\\,\\mu\\text{m}$. Una bacteria mide $45\\,\\text{mm}$ en la imagen. ¿Cuál es su longitud real?",
+  "explanation": "Cada milímetro de la imagen equivale a $0{,}2\\,\\mu\\text{m}$, así que $45 \\times 0{,}2 = 9\\,\\mu\\text{m}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "microscopía",
+    "barra de escala"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$4{,}5\\,\\mu\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$9\\,\\mu\\text{m}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$22{,}5\\,\\mu\\text{m}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$90\\,\\mu\\text{m}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

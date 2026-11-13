@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "a93ddea2-e6a4-57d7-82b4-e6aa4d54d1b3",
+  "rev": 1,
+  "statement": "**¿Qué revelan sobre dos de las obras que ha estudiado sus adaptaciones a otros medios (cine, teatro, cómic) o las de obras que tratan temas parecidos? Si no conoce adaptaciones, compare cómo las obras incorporan rasgos de otros medios o artes.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "287a6baa-b9c7-5f7d-93ed-adcd75ebb7bc"
+  ],
+  "tags": [
+    "adaptaciones",
+    "otros medios"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:17.000Z",
+  "updatedAt": "2026-11-13T05:54:17.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Reflexionar sobre la relación de la literatura con otros lenguajes: qué destaca o pierde una adaptación, o cómo una obra literaria imita la música, la pintura o el cine. **Obras adecuadas.** Obras adaptadas o muy influidas por otras artes. **Esquema posible.** Relación de cada obra con otro medio; lo que eso revela de su forma y sus temas; comparación; conclusión sobre la especificidad de lo literario. **Cuidado con…** analizar la película o el cuadro en lugar de la obra.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
