@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "318ca3a5-3513-5ac2-bf29-e5921199a588",
+  "rev": 1,
+  "statement": "¿Cómo aparecen las cepas de bacterias resistentes a los antibióticos?",
+  "explanation": "La resistencia se debe a mutaciones o genes que ya existen, o que se adquieren de otras bacterias. El abuso de antibióticos aumenta la presión de selección.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "resistencia a antibióticos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por selección natural: las bacterias que tienen por azar genes de resistencia sobreviven al antibiótico y se multiplican.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Las bacterias se acostumbran al antibiótico durante el tratamiento.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El antibiótico provoca mutaciones de resistencia en todas las bacterias.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las personas se vuelven resistentes al antibiótico.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

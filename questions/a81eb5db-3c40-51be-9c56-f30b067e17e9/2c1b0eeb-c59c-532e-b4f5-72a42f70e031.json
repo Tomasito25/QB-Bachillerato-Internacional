@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "2c1b0eeb-c59c-532e-b4f5-72a42f70e031",
+  "rev": 1,
+  "statement": "**El pueblo bajo el agua**\n\n*Una plaza de pueblo vacía. Al fondo, una línea de luz azul que sube lentamente durante toda la escena. Entran los VECINOS, ocho o diez, con maletas, sillas, una jaula con una gallina. Hablan como un coro: a veces todos a la vez, a veces uno solo.*\n\nCORO.—Nos dijeron que el agua era progreso.\n\nVOZ 1.—Que daría luz a las ciudades.\n\nVOZ 2.—Que regaría campos que no eran nuestros.\n\nCORO.—Nos dijeron que nos darían casas nuevas, en otro sitio, con baño dentro.\n\nVOZ 3.—Y nos las dieron.\n\nVOZ 1.—Con baño dentro.\n\n*Pausa. La luz azul sube un poco.*\n\nCORO.—Pero no nos dijeron qué hacer con los muertos.\n\nVOZ 4.—Mi madre está en el cementerio de arriba.\n\nVOZ 2.—Y mi hijo, el pequeño.\n\nCORO.—Se los llevaron en camiones a un cementerio nuevo, con nombres nuevos en lápidas nuevas.\n\nVOZ 4.—Pero yo sé que la tierra se quedó aquí.\n\n*Una MUJER MAYOR se sienta en una silla en el centro de la plaza. No se mueve.*\n\nVOZ 3.—Vamos, Adela. Que viene el agua.\n\nADELA.—Que venga. Yo me siento donde me senté siempre.\n\nCORO.—Adela se sienta. Adela no se va.\n\nVOZ 1.—La sacaron dos guardias, en brazos, como a una novia.\n\nCORO.—El agua llegó en primavera. Cubrió las casas, la iglesia, la escuela.\n\nVOZ 2.—Solo queda fuera la punta del campanario.\n\nCORO.—En los años de sequía, cuando el pantano baja, se ve otra vez la plaza.\n\nVOZ 3.—Y vamos.\n\nVOZ 4.—Y nos sentamos.\n\n*Todos colocan sus sillas en la plaza y se sientan. La luz azul los cubre hasta la cintura. Oscuro.*\n\n---\n\n**Pregunta guía:** ¿Qué función cumple el coro en la escena y cómo contribuye a representar la pérdida del pueblo?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "coro",
+    "pantano",
+    "memoria colectiva"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Los vecinos de un pueblo que va a quedar bajo las aguas de un pantano cuentan, como un coro, su desalojo. La escena combina la voz colectiva y voces individuales, y termina con un ritual de memoria: volver a la plaza cuando la sequía la deja ver.\n\n**Aspectos que conviene analizar**\n- El coro como recurso de la tragedia clásica: voz de la comunidad, narración de lo ocurrido y comentario.\n- La alternancia entre el «nosotros» del coro y las voces individuales, que aportan detalles personales (la madre, el hijo pequeño).\n- La ironía del discurso del progreso («con baño dentro», repetido) frente a lo que no se tuvo en cuenta: los muertos y la tierra.\n- El personaje de Adela y su resistencia silenciosa; la imagen de los guardias que la sacan «como a una novia».\n- La escenografía simbólica: la luz azul que sube durante toda la escena y cubre a los personajes al final.\n- El ritual final de sentarse en la plaza: la memoria colectiva como forma de resistencia.\n\n**Una estructura posible.** Analizar la escena en tres partes (las promesas, la pérdida de los muertos y la resistencia de Adela, la memoria) y en cada una el papel del coro.\n\n**Cuidado con…** olvidar los elementos visuales. La luz azul, las sillas y la gallina también significan.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

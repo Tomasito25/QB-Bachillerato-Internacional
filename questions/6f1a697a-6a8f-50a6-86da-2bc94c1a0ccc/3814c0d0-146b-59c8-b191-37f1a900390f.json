@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "3814c0d0-146b-59c8-b191-37f1a900390f",
+  "rev": 1,
+  "statement": "La tabla muestra valores aproximados del diámetro y de la velocidad de conducción de varias fibras nerviosas.\n\n| Fibra | Diámetro / μm | Mielina | Velocidad / m s⁻¹ |\n|---|---|---|---|\n| Axón gigante de calamar | 500 | No | 25 |\n| Fibra motora humana | 20 | Sí | 120 |\n| Fibra motora de rana | 15 | Sí | 30 |\n| Fibra del dolor humana (tipo C) | 1 | No | 1 |",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a",
+    "d882c402-d0e9-5c72-a87d-68b5e38b52b5"
+  ],
+  "tags": [
+    "datos",
+    "velocidad de conducción",
+    "mielina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula cuánto tarda un impulso en recorrer $1{,}0\\,\\text{m}$ por la fibra motora humana.",
+      "modelAnswer": "$t = \\dfrac{1{,}0}{120} = 8{,}3\\times 10^{-3}\\,\\text{s}$, es decir, unos $8{,}3\\,\\text{ms}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Compara la fibra motora humana con el axón gigante del calamar.",
+      "modelAnswer": "La fibra humana es unas 25 veces más estrecha, (1) pero conduce casi cinco veces más deprisa, porque tiene mielina. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Una estudiante concluye que la velocidad de conducción solo depende del diámetro. Evalúa esta conclusión con los datos.",
+      "modelAnswer": "Entre fibras sin mielina, sí aumenta con el diámetro (calamar frente a fibra C). (1) Pero la fibra humana, mucho más fina que la del calamar, es más rápida: la mielina también influye. (1) Son pocos datos y de especies distintas, así que la conclusión es limitada. (1)",
+      "marks": 3
+    }
+  ]
+}

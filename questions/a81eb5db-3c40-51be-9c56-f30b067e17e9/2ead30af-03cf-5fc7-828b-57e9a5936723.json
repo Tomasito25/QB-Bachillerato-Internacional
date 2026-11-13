@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "2ead30af-03cf-5fc7-828b-57e9a5936723",
+  "rev": 1,
+  "statement": "Desde el verano, el abuelo me llama Teresa. Teresa era su hermana pequeña, la que murió de fiebres en el treinta y nueve, cuando tenía nueve años y él doce. Yo tengo quince y me llamo Lucía, pero mi madre dice que no le corrija, que es peor, que se pone nervioso y luego no hay quien lo calme.\n\nAsí que soy Teresa los martes y los jueves, cuando me toca quedarme con él por la tarde. Al principio me daba miedo. Ahora no sé qué me da.\n\nTeresa, por lo visto, tenía un vestido azul con un lazo y le daba miedo el gallo del corral. Teresa quería ser maestra. Teresa le robaba al abuelo las galletas de la lata y él siempre se dejaba robar. Todo eso lo sé porque me lo cuenta él, en presente, como si estuviera pasando ahora mismo en algún sitio que yo no veo. «No te acerques al gallo, Teresa, que te pica», me dice, y yo me aparto de un gallo que no existe.\n\nEl jueves pasado me pidió que le contara qué había aprendido en la escuela. Le hablé del sistema solar, de los planetas, de que Plutón ya no es planeta. Se quedó muy serio. Luego dijo que yo siempre había sido la lista de la familia, que algún día sería maestra. Yo no quiero ser maestra. Pero no le corregí.\n\nHoy, al despedirme, me ha cogido la mano y me ha dicho: «Perdóname, Teresa, que no supe cuidarte». Tenía los ojos húmedos. No supe qué decir. Le he dicho que no pasa nada, que estoy bien, que ya no tengo fiebre.\n\nEn el autobús de vuelta he llorado sin saber exactamente por quién. Si por él, por Teresa o por mí, que ahora soy un poco las dos.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el relato la relación entre la narradora y su abuelo, y la confusión de identidades?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "abuelo",
+    "alzhéimer",
+    "identidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una adolescente cuida a su abuelo con demencia, que la confunde con su hermana muerta en la infancia. Ella acepta el papel y, a través de él, descubre la historia y la culpa del abuelo, hasta sentirse «un poco las dos».\n\n**Aspectos que conviene analizar**\n- La narradora adolescente y su tono sencillo, que contiene una emoción compleja («Al principio me daba miedo. Ahora no sé qué me da»).\n- La construcción de Teresa por detalles (el vestido azul, el gallo, las galletas) y el uso del presente por parte del abuelo, que hace convivir pasado y presente.\n- El gesto de apartarse de «un gallo que no existe»: la nieta entra en el mundo del abuelo.\n- El episodio del sistema solar y la profecía de que será maestra: lo que ella calla por cariño.\n- El clímax: la petición de perdón del abuelo y la respuesta de la nieta («ya no tengo fiebre»), que ofrece un consuelo imposible.\n- El final: el llanto en el autobús y la identidad compartida entre Lucía y Teresa.\n\n**Una estructura posible.** Seguir cómo Lucía va asumiendo el papel de Teresa, desde la obligación hasta la compasión, y analizar el sentido del final.\n\n**Cuidado con…** centrarte en la enfermedad. El relato trata de la memoria, la culpa y la identidad.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

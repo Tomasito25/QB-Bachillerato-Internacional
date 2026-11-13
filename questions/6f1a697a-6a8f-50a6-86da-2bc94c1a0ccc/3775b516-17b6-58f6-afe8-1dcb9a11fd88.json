@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "3775b516-17b6-58f6-afe8-1dcb9a11fd88",
+  "rev": 1,
+  "statement": "El organismo humano usa 20 aminoácidos para fabricar sus proteínas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "aminoácidos esenciales",
+    "dieta"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre aminoácidos esenciales y no esenciales.",
+      "modelAnswer": "Los esenciales no se pueden sintetizar y deben ingerirse con la dieta. (1) Los no esenciales se pueden fabricar a partir de otras moléculas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué una dieta que solo contenga un tipo de proteína vegetal podría causar problemas de salud.",
+      "modelAnswer": "Esa proteína podría tener muy poca cantidad de algún aminoácido esencial. (1) Sin ese aminoácido no se pueden fabricar las proteínas que lo contienen, aunque el resto abunde. (1)",
+      "marks": 2
+    }
+  ]
+}

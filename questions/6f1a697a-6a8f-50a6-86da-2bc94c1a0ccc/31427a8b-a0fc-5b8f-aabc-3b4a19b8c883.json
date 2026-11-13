@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "31427a8b-a0fc-5b8f-aabc-3b4a19b8c883",
+  "rev": 1,
+  "statement": "¿Qué adaptación de las plantas de la tundra les permite sobrevivir?",
+  "explanation": "El suelo permanece helado en profundidad, la estación de crecimiento es corta y hace mucho viento: las plantas son bajas y crecen en cojines.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "tundra",
+    "adaptaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Forman bosques densos con árboles altos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Necesitan suelos profundos y cálidos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Tienen hojas grandes para captar la escasa luz.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Crecen muy pegadas al suelo, lo que las protege del viento y del frío.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

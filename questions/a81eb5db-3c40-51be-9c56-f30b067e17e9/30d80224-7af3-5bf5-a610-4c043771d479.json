@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "30d80224-7af3-5bf5-a610-4c043771d479",
+  "rev": 1,
+  "statement": "La oficina de Declaración de Sueños abre a las siete, pero la cola empieza a formarse a las seis, porque la multa por retraso equivale a medio sueldo. Marta llega a las seis y diez con el formulario relleno a lápiz, como recomiendan los folletos: así se puede corregir si el funcionario considera que la redacción es ambigua.\n\nEl formulario tiene cuatro apartados. Personas que aparecen en el sueño. Lugares. Acciones. Emociones predominantes, a elegir entre una lista de doce. Marta ha marcado «tranquilidad», que es la opción más segura. Nadie marca nunca «nostalgia», desde que a la vecina del quinto la citaron dos veces por soñar con la casa del pueblo en la que nació, que fue derribada para construir la autovía.\n\nLo que Marta ha soñado de verdad no cabe en el formulario. Ha soñado con un mar que no ha visto nunca, porque está prohibido viajar a la costa sin permiso, y con un hombre al que no conoce que le enseñaba a nadar. No había miedo en el sueño, ni culpa, ni ninguna de las doce emociones. Había otra cosa que no tiene nombre en la lista y para la que, piensa, quizá no exista ya ninguna palabra.\n\nEn el apartado de lugares ha escrito «piscina municipal». En el de personas, «monitor de natación». Es casi verdad.\n\nCuando llega su turno, el funcionario lee el formulario sin levantar la vista, lo sella y le desea un buen día. Marta sale a la calle aliviada y avergonzada a partes iguales. Esa noche, antes de dormir, hace algo que no había hecho nunca: deja la ventana abierta, por si acaso el mar entra, y apaga la luz para no verlo llegar.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el fragmento la tensión entre el control social y la vida interior de la protagonista?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "distopía",
+    "sueños",
+    "control"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** En una sociedad distópica, los ciudadanos deben declarar sus sueños ante una oficina estatal. Marta, que ha soñado con el mar y con una libertad sin nombre, rellena el formulario con verdades a medias. El relato muestra cómo el poder intenta controlar incluso la intimidad y cómo esta resiste en pequeños gestos.\n\n**Aspectos que conviene analizar**\n- El narrador en tercera persona con focalización en Marta y el tono neutro, burocrático, que hace más inquietante lo absurdo.\n- La descripción minuciosa del formulario y de las normas (lápiz, multas, lista de doce emociones): el control a través del lenguaje administrativo.\n- El ejemplo de la vecina del quinto: la nostalgia castigada y la memoria borrada por una autovía.\n- El contraste entre el sueño verdadero (el mar, el hombre que enseña a nadar, una emoción sin nombre) y su traducción oficial («piscina municipal»).\n- La frase «Es casi verdad» y los sentimientos opuestos de Marta al salir («aliviada y avergonzada»).\n- El gesto final de la ventana abierta como pequeño acto de resistencia y de esperanza.\n\n**Una estructura posible.** Analizar el mundo distópico (la oficina y sus reglas), la vida interior de Marta y el gesto final, mostrando cómo se enfrentan.\n\n**Cuidado con…** comparar el texto con otras distopías sin analizarlo. Céntrate en cómo este fragmento construye su crítica.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "395177f1-c83e-5619-bf2f-90c09191fee3",
+  "rev": 1,
+  "statement": "El calamar tiene axones gigantes de hasta 1 mm de diámetro. ¿Qué ventaja le dan?",
+  "explanation": "En axones sin mielina, la velocidad de conducción aumenta con el diámetro.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "diámetro del axón",
+    "velocidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Sustituyen a la mielina en la protección frente a golpes.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Producen más neurotransmisor que un axón normal.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Permiten que el impulso viaje en los dos sentidos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Conducen los impulsos más deprisa, lo que permite reacciones de huida rápidas.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

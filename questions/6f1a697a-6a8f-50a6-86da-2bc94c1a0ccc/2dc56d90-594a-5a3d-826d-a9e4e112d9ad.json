@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "2dc56d90-594a-5a3d-826d-a9e4e112d9ad",
+  "rev": 1,
+  "statement": "Los organismos obtienen la materia y la energía de formas muy diversas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "modos de nutrición"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre nutrición autótrofa y heterótrofa.",
+      "modelAnswer": "Los autótrofos fabrican sus compuestos orgánicos a partir de sustancias inorgánicas, con energía de la luz o de reacciones químicas. (1) Los heterótrofos obtienen los compuestos orgánicos de otros organismos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Compara la nutrición holozoica y la saprótrofa.",
+      "modelAnswer": "Las dos son heterótrofas y usan enzimas digestivas. (1) En la holozoica el alimento se ingiere y se digiere dentro del organismo; en la saprótrofa las enzimas se secretan al exterior y se absorben los productos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Distingue entre anaerobios obligados y aerobios obligados.",
+      "modelAnswer": "Los anaerobios obligados no toleran el oxígeno y respiran sin él; los aerobios obligados necesitan oxígeno para respirar. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "2c2259fd-e5a2-5c08-83ed-3db4df06ea89",
+  "rev": 1,
+  "statement": "En el campo de refugiados hay una tienda de lona más grande que las demás donde una mujer de una organización reparte lápices de colores a los niños los martes por la mañana. La mujer se llama Inge y habla un idioma que nadie entiende, pero se hace entender con las manos y con una sonrisa que no parece cansada, aunque lo está.\n\nSamir tiene ocho años y siempre pide el lápiz azul. Dibuja el mar. Lo dibuja grande, ocupando casi toda la hoja, y encima, muy pequeño, un barco con muchas cabezas. Inge le ha pedido varias veces que dibuje otra cosa: su casa, un árbol, un perro. Samir dibuja el mar.\n\nUn martes, Inge se sentó a su lado y le señaló el barco. Le preguntó, con gestos, quién iba allí. Samir puso el dedo en una cabeza y dijo: «Yo». Luego en otra: «Mamá». Luego en otra, y se quedó callado. Siguió con el dedo encima de aquella cabeza mucho rato. Después cogió el lápiz azul y la pintó de azul, con cuidado, hasta que desapareció dentro del mar.\n\nInge no dijo nada. No había nada que decir en ningún idioma.\n\nEl martes siguiente, Samir pidió el lápiz amarillo. Inge se lo dio sin hacer preguntas. Samir dibujó un sol enorme, torcido, con muchos rayos, y debajo, muy pequeña, una casa. En la puerta de la casa había tres figuras.\n\nInge colgó el dibujo en la pared de la tienda, junto a los demás. Esa noche, en su habitación del hotel, cuando por fin se quitó las botas, lloró como no había llorado en todo el año. Al día siguiente volvió al campo a las siete en punto, con una caja nueva de lápices. Había comprado muchos amarillos.\n\n---\n\n**Pregunta guía:** ¿Cómo se transmite el trauma y la esperanza en el relato a través de los dibujos del niño?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "refugiados",
+    "infancia",
+    "dibujo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** En un campo de refugiados, un niño dibuja una y otra vez el mar y el barco en que llegó. Mediante el dibujo, sin palabras, revela la pérdida de un familiar. Una semana después dibuja un sol y una casa con tres figuras. El relato muestra el trauma y la esperanza a través del arte y de la mirada de la cooperante.\n\n**Aspectos que conviene analizar**\n- La barrera del idioma y la comunicación mediante gestos y dibujos: lo esencial ocurre sin palabras.\n- La repetición obsesiva del mar y el barco, y el color azul como signo del trauma.\n- La escena central: el dedo sobre las cabezas, el silencio y el gesto de pintar de azul una figura «hasta que desapareció dentro del mar». La muerte se cuenta sin nombrarla.\n- La frase «No había nada que decir en ningún idioma», que resume los límites del lenguaje ante el dolor.\n- El cambio de color (amarillo) y de motivo (el sol torcido, la casa, tres figuras) como signo de esperanza o de deseo.\n- La perspectiva de Inge al final: su llanto a solas y los lápices amarillos comprados, gesto de esperanza contenida.\n\n**Una estructura posible.** Analizar la evolución de los dibujos y la reacción de Inge ante cada uno, mostrando cómo el relato pasa del trauma a una esperanza frágil.\n\n**Cuidado con…** sobreinterpretar los colores sin apoyo textual. Relaciona cada símbolo con lo que el texto muestra.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "3603cded-3bbd-58be-a232-6f3ed9c35037",
+  "rev": 1,
+  "statement": "Para frenar el cambio climático, además de reducir las emisiones, se intenta retirar CO₂ de la atmósfera.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "secuestro de carbono"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo la reforestación contribuye al secuestro de carbono.",
+      "modelAnswer": "Los árboles fijan CO₂ en la fotosíntesis y lo almacenan en su biomasa durante décadas. (1) El suelo del bosque acumula además materia orgánica. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué restaurar turberas es una forma eficaz de almacenar carbono.",
+      "modelAnswer": "En el suelo encharcado falta oxígeno y la materia orgánica apenas se descompone. (1) Se acumula como turba durante miles de años. (1)",
+      "marks": 2
+    }
+  ]
+}

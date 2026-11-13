@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "3738d716-2369-5171-b5c6-72bc9e046446",
+  "rev": 1,
+  "statement": "¿Para qué sirve la reacción en cadena de la polimerasa (PCR)?",
+  "explanation": "En cada ciclo se duplica el número de copias del fragmento: tras 30 ciclos hay unos mil millones.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "PCR"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para separar fragmentos de ADN según su tamaño.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para obtener muchas copias de un fragmento concreto de ADN a partir de muy poca muestra.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Para secuenciar proteínas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para cortar el ADN en fragmentos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

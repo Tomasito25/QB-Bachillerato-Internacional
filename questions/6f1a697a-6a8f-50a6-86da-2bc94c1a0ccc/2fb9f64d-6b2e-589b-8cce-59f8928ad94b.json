@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "2fb9f64d-6b2e-589b-8cce-59f8928ad94b",
+  "rev": 1,
+  "statement": "¿Por qué solo los caracteres heredables cambian por selección natural?",
+  "explanation": "Un rasgo adquirido, como un músculo entrenado, no pasa a la siguiente generación aunque ayude a sobrevivir.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "heredabilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque los caracteres heredables nunca cambian.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque la selección cambia la frecuencia de los alelos en la población, y solo se transmiten a los hijos los caracteres que dependen de ellos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque los caracteres adquiridos son siempre perjudiciales.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque la selección natural solo actúa sobre los machos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

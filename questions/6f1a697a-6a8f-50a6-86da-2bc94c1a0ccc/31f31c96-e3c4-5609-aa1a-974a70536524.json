@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "31f31c96-e3c4-5609-aa1a-974a70536524",
+  "rev": 1,
+  "statement": "Muchas células muestran adaptaciones claras a su función.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "neumocitos",
+    "alvéolos",
+    "gametos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe las adaptaciones de los neumocitos de tipo I.",
+      "modelAnswer": "Son muy delgados y planos, (1) así que la distancia de difusión entre el aire y la sangre es mínima, y cubren casi toda la superficie del alvéolo. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Compara el tamaño y la movilidad del óvulo y del espermatozoide.",
+      "modelAnswer": "El óvulo es mucho más grande, porque acumula reservas y orgánulos para el embrión; el espermatozoide es muy pequeño. (1) El espermatozoide se mueve con su flagelo; el óvulo no tiene movilidad propia. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica por qué la fibra muscular esquelética tiene muchas mitocondrias.",
+      "modelAnswer": "Para producir el ATP que necesita la contracción. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "3424487e-d006-533f-b2aa-6594f24e6674",
+  "rev": 1,
+  "statement": "**El cocido de los jueves**\n\nMi abuela hacía cocido los jueves, y los jueves, por eso, olían distinto. El olor empezaba temprano, a las nueve, cuando ponía a cocer los garbanzos que había dejado en remojo la noche anterior, y a mediodía había conquistado la escalera entera, de modo que los vecinos del cuarto sabían qué día era sin mirar el calendario.\n\nNunca usó una receta. Cuando, ya mayor, le pedí que me la escribiera, me miró como si le hubiera pedido que me escribiera cómo se respira. «Un poco de esto, lo que admita», me decía, y echaba sal con tres dedos, sin medir, con la seguridad de quien ha repetido un gesto diez mil veces. La cantidad de garbanzos se medía en puñados; el tiempo, en lo que tardaba en hacer otras cosas.\n\nComíamos en tres vuelcos, como manda la tradición: primero la sopa, después los garbanzos con la verdura y por último la carne. Mi abuela no se sentaba hasta el segundo vuelco. Antes iba y venía entre la cocina y el comedor, sirviendo, retirando platos, preguntando si estaba bueno sin esperar la respuesta, porque la respuesta era siempre la misma y ella la conocía.\n\nHoy hago cocido algunos jueves. Lo hago bien, creo. He aprendido a echar la sal con tres dedos y a medir el tiempo en otras tareas. Pero no sale igual. Durante años pensé que me faltaba algún ingrediente secreto, alguna hierba, algún truco. Ahora sé que lo que falta no se echa en la olla.\n\nLo que falta es la escalera llena de olor, la mesa con ocho sillas, la voz de mi abuela preguntando si estaba bueno. El cocido era eso. Los garbanzos solo eran la excusa.\n\n---\n\n**Pregunta guía:** ¿Cómo utiliza el texto la comida para evocar la memoria familiar?",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "2e18f9e6-0a8c-53eb-90b4-5d6bf2257f02"
+  ],
+  "tags": [
+    "memoria",
+    "cocina",
+    "abuela",
+    "sentidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Texto de memorias en el que el autor recuerda el cocido que su abuela preparaba los jueves. La receta, imposible de escribir, se convierte en símbolo de un mundo familiar desaparecido, y la conclusión revela que lo que se echa de menos no es la comida.\n\n**Aspectos que conviene analizar**\n- La importancia del olfato como sentido de la memoria: el olor que «conquista» la escalera y marca el calendario de los vecinos.\n- La sabiduría práctica de la abuela: medir con puñados, con tres dedos, con el tiempo de otras tareas; la comparación de la receta con «cómo se respira».\n- El ritual de los tres vuelcos y el retrato de la abuela que no se sienta, sirve y pregunta sin esperar respuesta.\n- El presente: el intento de repetir el cocido y la búsqueda de un ingrediente secreto.\n- La revelación final: «lo que falta no se echa en la olla».\n- El cierre con una enumeración y una frase breve («Los garbanzos solo eran la excusa»), que resume el sentido del texto.\n\n**Una estructura posible.** Analizar el pasado (los jueves, la abuela, el ritual) y el presente (el intento de repetirlo), y explicar cómo el contraste lleva a la conclusión.\n\n**Cuidado con…** quedarte en la descripción de la comida. Analiza cómo el texto la convierte en memoria.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

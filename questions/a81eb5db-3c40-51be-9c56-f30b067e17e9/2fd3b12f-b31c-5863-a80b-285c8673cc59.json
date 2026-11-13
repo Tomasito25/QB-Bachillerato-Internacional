@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "2fd3b12f-b31c-5863-a80b-285c8673cc59",
+  "rev": 1,
+  "statement": "**Compare el estilo de dos de las obras que ha estudiado, una de lenguaje sobrio y otra de lenguaje más ornamentado, o dos que tengan estilos claramente diferenciados.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "de0f7458-1f0b-5993-831a-7530ba2c0a0f"
+  ],
+  "tags": [
+    "estilo",
+    "economía verbal"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:52:14.000Z",
+  "updatedAt": "2026-11-13T05:52:14.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Caracterizar el estilo de cada obra (léxico, sintaxis, figuras, longitud de las frases) y relacionarlo con su sentido y su efecto en el lector. **Obras adecuadas.** Dos obras con estilos contrastados. **Esquema posible.** Rasgos de estilo de cada obra con ejemplos; relación con los temas y el tono; efecto en la lectura; comparación de las decisiones de cada autor. **Cuidado con…** valorar un estilo como mejor que otro. Explica por qué cada uno es adecuado a su obra.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
