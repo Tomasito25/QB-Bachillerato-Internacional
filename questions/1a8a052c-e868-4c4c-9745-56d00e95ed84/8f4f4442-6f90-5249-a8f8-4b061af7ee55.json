@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8f4f4442-6f90-5249-a8f8-4b061af7ee55",
+  "rev": 1,
+  "statement": "Un elemento tiene la configuración $[\\text{Ne}]\\,3s^2\\,3p^3$. ¿Dónde está en la tabla periódica?",
+  "explanation": "Sus electrones de valencia están en n = 3 y tiene 5 de ellos en los subniveles s y p: es el fósforo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "posición",
+    "configuración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Periodo 3, grupo 5",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Periodo 3, grupo 15",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Periodo 2, grupo 15",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Periodo 5, grupo 3",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

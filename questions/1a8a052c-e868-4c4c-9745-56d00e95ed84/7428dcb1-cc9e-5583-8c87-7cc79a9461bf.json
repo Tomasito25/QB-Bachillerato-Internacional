@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7428dcb1-cc9e-5583-8c87-7cc79a9461bf",
+  "rev": 1,
+  "statement": "¿Qué mantiene unidos a dos átomos en un enlace covalente?",
+  "explanation": "Los electrones compartidos quedan entre los núcleos y los atraen a ambos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "enlace covalente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La atracción entre cationes y electrones deslocalizados.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La atracción entre moléculas vecinas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La atracción entre iones de carga opuesta.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La atracción electrostática entre un par de electrones compartido y los dos núcleos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

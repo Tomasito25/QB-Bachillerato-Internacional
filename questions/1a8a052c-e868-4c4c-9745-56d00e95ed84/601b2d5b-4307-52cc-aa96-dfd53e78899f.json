@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "601b2d5b-4307-52cc-aa96-dfd53e78899f",
+  "rev": 1,
+  "statement": "¿Por qué muchos plásticos persisten tanto tiempo en el medio ambiente?",
+  "explanation": "Por eso se fragmentan en microplásticos en lugar de descomponerse. El reciclaje y los plásticos biodegradables intentan reducir el problema.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "plásticos",
+    "medio ambiente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque se disuelven en agua muy despacio.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque absorben la luz y se regeneran.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque son compuestos iónicos muy estables.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Sus largas cadenas con enlaces C–C fuertes y no polares apenas son atacadas por los microorganismos.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

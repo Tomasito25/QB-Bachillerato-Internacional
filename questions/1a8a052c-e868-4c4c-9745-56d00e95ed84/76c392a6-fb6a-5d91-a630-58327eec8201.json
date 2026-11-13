@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "76c392a6-fb6a-5d91-a630-58327eec8201",
+  "rev": 1,
+  "statement": "¿Por qué disminuye el radio atómico a lo largo de un periodo, de izquierda a derecha?",
+  "explanation": "La pantalla de los electrones internos apenas cambia en un periodo, así que la carga nuclear efectiva aumenta.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "radio atómico",
+    "periodo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta la carga nuclear y los electrones, en el mismo nivel, son atraídos con más fuerza.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Los electrones se repelen menos al haber más.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Disminuye el número de protones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Aumenta el número de niveles de energía ocupados.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

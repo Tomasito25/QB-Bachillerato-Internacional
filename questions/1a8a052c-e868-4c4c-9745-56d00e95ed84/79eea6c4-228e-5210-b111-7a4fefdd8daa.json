@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "79eea6c4-228e-5210-b111-7a4fefdd8daa",
+  "rev": 1,
+  "statement": "El óxido de sodio y el dióxido de silicio son óxidos de elementos del periodo 3 con propiedades muy distintas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "continuo de enlace",
+    "óxidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Usa las electronegatividades (Na 0,9; Si 1,9; O 3,4) para comparar el tipo de enlace en los dos óxidos.",
+      "modelAnswer": "Na–O: diferencia $3{,}4 - 0{,}9 = 2{,}5$, enlace predominantemente iónico. (1) Si–O: diferencia $3{,}4 - 1{,}9 = 1{,}5$, enlace covalente polar en una red covalente. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué los dos tienen puntos de fusión altos, aunque su enlace sea distinto.",
+      "modelAnswer": "El Na₂O es una red iónica con atracciones fuertes; el SiO₂ es una red covalente tridimensional. (1) En ambos casos hay que romper muchos enlaces fuertes para fundirlos. (1)",
+      "marks": 2
+    }
+  ]
+}

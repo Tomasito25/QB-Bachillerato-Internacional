@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5b24deb1-b331-581f-b3e3-b0914cdf78fe",
+  "rev": 1,
+  "statement": "Al combinar las semirreacciones Al → Al³⁺ + 3e⁻ y Cu²⁺ + 2e⁻ → Cu, ¿cuál es la ecuación ajustada?",
+  "explanation": "Hay que igualar los electrones: 6 cedidos por 2 Al y 6 ganados por 3 Cu²⁺. La carga total es +6 a cada lado.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "ajuste redox"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Al + Cu²⁺ → Al³⁺ + Cu",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "3Al + 2Cu²⁺ → 3Al³⁺ + 2Cu",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "2Al + 3Cu²⁺ → 2Al³⁺ + 3Cu",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "2Al + 3Cu → 2Al³⁺ + 3Cu²⁺",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

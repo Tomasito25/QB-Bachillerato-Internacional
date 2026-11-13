@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "616a8de6-dfc9-5dcb-86be-c075995bcabc",
+  "rev": 1,
+  "statement": "¿Qué ecuación está ajustada?",
+  "explanation": "En la correcta hay 2 Al, 6 H y 6 Cl a cada lado.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "ajuste de ecuaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Al + 2HCl → AlCl₂ + H₂",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "2Al + 6HCl → 2AlCl₃ + 3H₂",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "2Al + 3HCl → 2AlCl₃ + 3H₂",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Al + 3HCl → AlCl₃ + H₂",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

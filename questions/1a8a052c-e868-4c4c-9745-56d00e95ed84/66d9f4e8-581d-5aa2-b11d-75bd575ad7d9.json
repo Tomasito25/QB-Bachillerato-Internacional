@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "66d9f4e8-581d-5aa2-b11d-75bd575ad7d9",
+  "rev": 1,
+  "statement": "¿Cuándo conduce la electricidad el cloruro de sodio?",
+  "explanation": "En el sólido, los iones están fijos en la red; al fundirse o disolverse, pueden desplazarse y transportar la carga.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "conductividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Solo en estado sólido, porque los iones están ordenados.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Nunca, porque no tiene electrones libres.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Solo cuando está en forma de cristales grandes.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Fundido o disuelto en agua, porque los iones pueden moverse.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

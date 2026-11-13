@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "64e688a2-055a-519e-b8c9-eba0434e2e4d",
+  "rev": 1,
+  "statement": "Se toman $25{,}0\\,\\text{cm}^{3}$ de ácido clorhídrico de $2{,}00\\,\\text{mol dm}^{-3}$ y se diluyen con agua hasta $500{,}0\\,\\text{cm}^{3}$. ¿Cuál es la concentración final?",
+  "explanation": "La cantidad de soluto no cambia: $c_2 = \\dfrac{2{,}00 \\times 25{,}0}{500{,}0} = 0{,}100\\,\\text{mol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "concentración",
+    "dilución"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$40{,}0\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}200\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$0{,}100\\,\\text{mol dm}^{-3}$",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "$0{,}0500\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

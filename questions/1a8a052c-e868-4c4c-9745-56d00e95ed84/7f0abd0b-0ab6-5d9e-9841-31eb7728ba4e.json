@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7f0abd0b-0ab6-5d9e-9841-31eb7728ba4e",
+  "rev": 1,
+  "statement": "¿Por qué se usa un vaso de poliestireno con tapa en la calorimetría de disoluciones?",
+  "explanation": "El poliestireno expandido contiene mucho aire y conduce mal el calor; la tapa reduce la evaporación y la convección.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "calorímetro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque tiene un calor específico muy alto.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque reacciona con los ácidos.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque conduce bien el calor hacia el termómetro.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque es un buen aislante y reduce las pérdidas de calor al entorno.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

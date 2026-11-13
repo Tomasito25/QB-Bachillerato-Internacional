@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "606bb0f1-f7a7-51ca-aa1f-e37e1b526bbd",
+  "rev": 1,
+  "statement": "¿Cuál de estas razones NO explica que el rendimiento de una reacción sea menor que el teórico?",
+  "explanation": "El reactivo en exceso sobra por diseño; el rendimiento teórico se calcula con el reactivo limitante.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "rendimiento",
+    "causas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que haya reacciones secundarias",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que se pierda producto al filtrar o trasvasar",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que la reacción no llegue a completarse",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que el reactivo en exceso sobre",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

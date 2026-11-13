@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "67e730d2-ac7d-5efd-ba1a-14b44eadbd12",
+  "rev": 1,
+  "statement": "¿Qué forma tiene la molécula de amoníaco, NH₃?",
+  "explanation": "Hay cuatro dominios electrónicos alrededor del N (tres enlaces y un par solitario): se disponen en tetraedro, pero la forma de la molécula solo considera los átomos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "VSEPR",
+    "geometría"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Pirámide trigonal",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Angular",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Plana trigonal",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Tetraédrica",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

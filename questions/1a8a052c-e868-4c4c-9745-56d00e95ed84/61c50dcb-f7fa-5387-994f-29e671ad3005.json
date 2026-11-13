@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "61c50dcb-f7fa-5387-994f-29e671ad3005",
+  "rev": 1,
+  "statement": "¿Qué ocurre al añadir agua de cloro a una disolución de bromuro de potasio?",
+  "explanation": "Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. Un halógeno más reactivo (más arriba en el grupo) oxida a los haluros de los que están por debajo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "halógenos",
+    "desplazamiento"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "No ocurre nada, porque el cloro es menos reactivo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El cloro desplaza al bromo y la disolución se vuelve anaranjada.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El bromo desplaza al cloro.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se forma un precipitado blanco de cloruro de bromo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

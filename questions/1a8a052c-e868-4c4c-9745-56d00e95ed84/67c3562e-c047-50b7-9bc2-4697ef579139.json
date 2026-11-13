@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "67c3562e-c047-50b7-9bc2-4697ef579139",
+  "rev": 1,
+  "statement": "Un comprimido de aspirina contiene $0{,}300\\,\\text{g}$ de ácido acetilsalicílico, C₉H₈O₄. Usa $N_A = 6{,}02\\times 10^{23}\\,\\text{mol}^{-1}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "21f331d0-a85e-52e2-be46-594c6a57bad0"
+  ],
+  "tags": [
+    "cálculos con moles",
+    "aspirina"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la masa molar del ácido acetilsalicílico.",
+      "modelAnswer": "$9\\times 12{,}01 + 8\\times 1{,}01 + 4\\times 16{,}00 = 180{,}17\\,\\text{g mol}^{-1}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la cantidad de ácido acetilsalicílico del comprimido.",
+      "modelAnswer": "$n = \\dfrac{0{,}300}{180{,}17} = 1{,}67\\times 10^{-3}\\,\\text{mol}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el número de átomos de carbono del comprimido.",
+      "modelAnswer": "Moléculas: $1{,}67\\times 10^{-3}\\times 6{,}02\\times 10^{23} = 1{,}00\\times 10^{21}$. (1) Átomos de C: $9 \\times 1{,}00\\times 10^{21} = 9{,}02\\times 10^{21}$. (1)",
+      "marks": 2
+    }
+  ]
+}

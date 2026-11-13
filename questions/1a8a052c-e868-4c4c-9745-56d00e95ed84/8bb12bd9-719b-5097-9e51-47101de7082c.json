@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8bb12bd9-719b-5097-9e51-47101de7082c",
+  "rev": 1,
+  "statement": "$25{,}00\\,\\text{cm}^{3}$ de una disolución de NaOH se neutralizan con $22{,}40\\,\\text{cm}^{3}$ de HCl $0{,}100\\,\\text{mol dm}^{-3}$. ¿Cuál es la concentración del NaOH?",
+  "explanation": "Relación 1 : 1. $c = \\dfrac{0{,}100 \\times 22{,}40}{25{,}00} = 0{,}0896\\,\\text{mol dm}^{-3}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "valoración",
+    "concentración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$0{,}0448\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$0{,}0896\\,\\text{mol dm}^{-3}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$0{,}100\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$0{,}112\\,\\text{mol dm}^{-3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

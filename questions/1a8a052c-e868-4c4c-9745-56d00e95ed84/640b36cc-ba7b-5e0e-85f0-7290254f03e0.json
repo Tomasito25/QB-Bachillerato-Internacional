@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "640b36cc-ba7b-5e0e-85f0-7290254f03e0",
+  "rev": 1,
+  "statement": "¿Qué ecuación representa la reacción del óxido de sodio con el agua?",
+  "explanation": "Los óxidos de los metales del grupo 1 forman hidróxidos solubles y disoluciones básicas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "óxidos básicos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Na₂O + H₂O → Na₂CO₃",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Na₂O + H₂O → 2Na + H₂O₂",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Na₂O + 2H₂O → 2NaH + O₂",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Na₂O + H₂O → 2NaOH",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

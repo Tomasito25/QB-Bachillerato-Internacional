@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "7a4cfd58-195c-59d6-b4ba-561da307dbb4",
+  "rev": 1,
+  "statement": "En una reacción química, ¿qué ocurre con la energía total del sistema y su entorno?",
+  "explanation": "Las reacciones transfieren energía entre el sistema (las sustancias que reaccionan) y el entorno, pero no la crean ni la destruyen.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "sistema",
+    "entorno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Se conserva: la energía que pierde el sistema la gana el entorno, o al revés.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Disminuye siempre.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Se convierte en masa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Aumenta siempre.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "73693bc6-6ae9-51a8-8d58-d9e5fff9f86f",
+  "rev": 1,
+  "statement": "En el equilibrio H₂(g) + I₂(g) ⇌ 2HI(g) las concentraciones son: H₂ $0{,}10$, I₂ $0{,}10$ y HI $0{,}70\\,\\text{mol dm}^{-3}$. ¿Cuánto vale K?",
+  "explanation": "$K = \\dfrac{0{,}70^2}{0{,}10 \\times 0{,}10} = 49$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "cálculo de K"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "0,020",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "7,0",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "49",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "70",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

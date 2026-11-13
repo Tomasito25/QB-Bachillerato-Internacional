@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "5b52a64a-3618-57a6-8b19-21c0e05ccd2a",
+  "rev": 1,
+  "statement": "¿Qué coeficiente lleva el oxígeno en la ecuación ajustada 4Fe + _O₂ → 2Fe₂O₃?",
+  "explanation": "Hay 6 átomos de O en 2 Fe₂O₃: hacen falta 3 O₂.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "ajuste de ecuaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "2",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "3",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "4",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "6",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

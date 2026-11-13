@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "5a5e5dbf-62dd-5e6c-8576-14b39ef48f74",
+  "rev": 1,
+  "statement": "Se registró la temperatura de $25{,}0\\,\\text{cm}^{3}$ de ácido clorhídrico $1{,}00\\,\\text{mol dm}^{-3}$ cada minuto. En el minuto 3 se añadieron $25{,}0\\,\\text{cm}^{3}$ de hidróxido de sodio $1{,}00\\,\\text{mol dm}^{-3}$. La línea discontinua es la recta de enfriamiento prolongada hasta el minuto 3.\n\n![Temperatura frente al tiempo en una neutralización, con la recta de enfriamiento extrapolada](qbimg:6799450d77c206378fce217134b67bbc1d7f7334204a1be3e3f72ffc45105deb)",
+  "images": [
+    {
+      "hash": "6799450d77c206378fce217134b67bbc1d7f7334204a1be3e3f72ffc45105deb",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 22408,
+      "alt": "Temperatura frente al tiempo en una neutralización, con la recta de enfriamiento extrapolada"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644",
+    "112174ae-9d35-554b-897e-b9f59cb3e376"
+  ],
+  "tags": [
+    "datos",
+    "calorimetría",
+    "extrapolación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué se extrapola la recta de enfriamiento hasta el momento de la mezcla.",
+      "modelAnswer": "La disolución empieza a perder calor mientras la reacción aún ocurre; (1) la extrapolación estima la temperatura máxima que se habría alcanzado sin pérdidas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Determina la variación de temperatura corregida.",
+      "modelAnswer": "$29{,}2 - 21{,}0 = 8{,}2\\,°\\text{C}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Calcula la variación de entalpía de neutralización.",
+      "modelAnswer": "$q = 50{,}0 \\times 4{,}18 \\times 8{,}2 = 1714\\,\\text{J}$. (1) $n(\\mathrm{H_2O}) = 0{,}0250\\,\\text{mol}$. (1) $\\Delta H = -\\dfrac{1{,}714}{0{,}0250} = -68{,}6\\,\\text{kJ mol}^{-1}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "d",
+      "statement": "Indica una suposición del cálculo.",
+      "modelAnswer": "Que la disolución tiene la densidad y el calor específico del agua, o que el calorímetro no absorbe calor. (1)",
+      "marks": 1
+    }
+  ]
+}

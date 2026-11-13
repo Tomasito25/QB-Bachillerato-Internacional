@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "8c5dfac8-8bb1-5ce3-a1de-f5480cba653a",
+  "rev": 1,
+  "statement": "¿Por qué los metales son buenos conductores del calor?",
+  "explanation": "Además, las vibraciones de la red se transmiten entre cationes muy próximos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "conductividad térmica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque sus átomos están muy separados.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Los electrones deslocalizados transportan la energía cinética rápidamente por la red.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque sus enlaces se rompen al calentarlos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque sus cationes se mueven por toda la red.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

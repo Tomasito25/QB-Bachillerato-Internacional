@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "8e9dd949-9d3a-5ce9-9512-f190adfdf277",
+  "rev": 1,
+  "statement": "El etano reacciona con el bromo a la luz del sol.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "bromación",
+    "etano"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación global para formar bromoetano.",
+      "modelAnswer": "C₂H₆ + Br₂ → C₂H₅Br + HBr. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Escribe las ecuaciones de iniciación y de las dos etapas de propagación.",
+      "modelAnswer": "Iniciación: Br₂ → 2Br•. (1) Propagación: C₂H₆ + Br• → C₂H₅• + HBr (1) y C₂H₅• + Br₂ → C₂H₅Br + Br•. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Indica una observación que muestre que la reacción ha ocurrido.",
+      "modelAnswer": "El color pardo anaranjado del bromo desaparece. (1)",
+      "marks": 1
+    }
+  ]
+}

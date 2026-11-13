@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "8e20ad91-298f-5fe3-a187-ac20cc219f7d",
+  "rev": 1,
+  "statement": "Un país quiere sustituir parte de la gasolina por bioetanol obtenido de caña de azúcar.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "biocombustibles",
+    "neutralidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación de la fermentación de la glucosa y la de la combustión completa del etanol.",
+      "modelAnswer": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. (1) C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el bioetanol podría considerarse neutro en carbono.",
+      "modelAnswer": "El CO₂ liberado en la fermentación y en la combustión es el mismo que la caña fijó por fotosíntesis poco antes. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Evalúa esa afirmación con dos argumentos.",
+      "modelAnswer": "El cultivo, el abono, el transporte y la destilación consumen energía fósil y emiten CO₂. (1) Si se tala bosque para cultivar, se libera el carbono almacenado en él. (1)",
+      "marks": 2
+    }
+  ]
+}

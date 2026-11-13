@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "886b0ee9-b73d-56b6-8e9e-32f0b642a1d6",
+  "rev": 1,
+  "statement": "¿Qué volumen ocupan $0{,}500\\,\\text{mol}$ de un gas ideal a $273\\,\\text{K}$ y $100\\,\\text{kPa}$? (Volumen molar: $22{,}7\\,\\text{dm}^{3}\\,\\text{mol}^{-1}$.)",
+  "explanation": "$V = n V_m = 0{,}500 \\times 22{,}7 = 11{,}4\\,\\text{dm}^3$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "volumen molar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$5{,}68\\,\\text{dm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$11{,}4\\,\\text{dm}^{3}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$22{,}7\\,\\text{dm}^{3}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$45{,}4\\,\\text{dm}^{3}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

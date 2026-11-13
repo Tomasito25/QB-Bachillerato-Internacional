@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8d502ff4-fd89-519c-b1db-89f20abc5a7a",
+  "rev": 1,
+  "statement": "¿En qué condiciones se aleja más un gas real del comportamiento ideal?",
+  "explanation": "A alta presión, el volumen de las partículas deja de ser despreciable; a baja temperatura, las fuerzas intermoleculares cobran importancia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "237e5cbb-4633-5fd4-9367-7d17d97c0a6e"
+  ],
+  "tags": [
+    "gases reales",
+    "desviaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "A baja temperatura y alta presión.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "A baja temperatura y baja presión.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "A alta temperatura y alta presión.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "A alta temperatura y baja presión.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "83ba1bca-fe69-5cb2-b99b-a2739703fbf6",
+  "rev": 1,
+  "statement": "¿Por qué el punto de ebullición de los halógenos aumenta del flúor al yodo?",
+  "explanation": "Moléculas más grandes, con más electrones, son más polarizables.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "fuerzas de London",
+    "tamaño"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Aumenta la polaridad de las moléculas.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Aumenta el número de electrones y, con él, la intensidad de las fuerzas de London.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Aumentan los puentes de hidrógeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Aumenta la fuerza del enlace covalente entre los dos átomos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

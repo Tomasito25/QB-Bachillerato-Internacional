@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "862adc28-dcca-51c1-bbdd-80987543fdf1",
+  "rev": 1,
+  "statement": "La disolución X tiene pH 3 y la disolución Y, pH 5. ¿Cuántas veces es mayor $[\\mathrm{H^+}]$ en X que en Y?",
+  "explanation": "Cada unidad de pH corresponde a un factor 10 en la concentración de H⁺: $10^2 = 100$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "pH",
+    "escala logarítmica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "1000",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "100",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "10",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "2",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

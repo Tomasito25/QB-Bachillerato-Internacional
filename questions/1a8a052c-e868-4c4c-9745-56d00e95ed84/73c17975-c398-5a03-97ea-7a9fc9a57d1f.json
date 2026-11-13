@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "73c17975-c398-5a03-97ea-7a9fc9a57d1f",
+  "rev": 1,
+  "statement": "El latón es una aleación de cobre y cinc que se usa en grifos y en instrumentos musicales.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "aleaciones",
+    "estructura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la estructura de una aleación como el latón.",
+      "modelAnswer": "Una red metálica de cationes de cobre en la que algunos se sustituyen por cationes de cinc, de distinto tamaño, (1) rodeados de electrones deslocalizados. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el latón es más duro que el cobre puro.",
+      "modelAnswer": "Los cationes de distinto tamaño alteran la regularidad de las capas. (1) Las capas se deslizan con más dificultad. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica una propiedad que el latón conserva del cobre.",
+      "modelAnswer": "Conduce la electricidad y el calor, o es maleable, porque mantiene el enlace metálico. (1)",
+      "marks": 1
+    }
+  ]
+}

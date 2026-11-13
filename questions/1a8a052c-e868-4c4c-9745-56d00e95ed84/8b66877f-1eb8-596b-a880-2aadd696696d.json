@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "8b66877f-1eb8-596b-a880-2aadd696696d",
+  "rev": 1,
+  "statement": "En una pila de cinc y cobre (Zn en ZnSO₄, Cu en CuSO₄), ¿cómo fluyen los electrones por el circuito externo?",
+  "explanation": "El cinc, más reactivo, se oxida y cede electrones, que llegan al cobre, donde se reducen los Cu²⁺.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "pila Zn-Cu",
+    "flujo de electrones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Por el puente salino",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "No fluyen: solo se mueven los iones",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Del cinc al cobre",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Del cobre al cinc",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

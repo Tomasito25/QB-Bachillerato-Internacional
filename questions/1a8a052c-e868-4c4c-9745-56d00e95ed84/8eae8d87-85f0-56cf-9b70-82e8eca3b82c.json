@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "8eae8d87-85f0-56cf-9b70-82e8eca3b82c",
+  "rev": 1,
+  "statement": "¿Cómo se describe la estructura del cloruro de sodio sólido?",
+  "explanation": "No existen moléculas: la fórmula NaCl es empírica e indica la proporción de iones en la red.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "red iónica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Moléculas de NaCl separadas, unidas por fuerzas débiles.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Iones sodio en un mar de electrones.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una red tridimensional de iones Na⁺ y Cl⁻ alternados, en proporción 1 : 1.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Átomos de sodio y de cloro unidos por enlaces covalentes.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

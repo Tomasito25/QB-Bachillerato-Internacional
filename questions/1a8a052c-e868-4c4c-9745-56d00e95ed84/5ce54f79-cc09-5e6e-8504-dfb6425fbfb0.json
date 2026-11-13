@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5ce54f79-cc09-5e6e-8504-dfb6425fbfb0",
+  "rev": 1,
+  "statement": "¿Qué es la entalpía de enlace?",
+  "explanation": "Siempre es positiva, porque romper un enlace absorbe energía.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "definición",
+    "entalpía de enlace"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La energía necesaria para romper un mol de un enlace concreto en estado gaseoso.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "La energía necesaria para fundir un sólido.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La energía de un mol de electrones compartidos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La energía que se libera al formar un mol de compuesto.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "876d6855-6e14-5790-96ae-6541c93d9c5c",
+  "rev": 1,
+  "statement": "¿Por qué disminuye la reactividad de los halógenos al bajar en el grupo?",
+  "explanation": "Los halógenos reaccionan ganando un electrón; cuanto más lejos del núcleo queda ese electrón, más difícil es captarlo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "9a308362-d1c1-5399-96e8-a8123fa5a717"
+  ],
+  "tags": [
+    "halógenos",
+    "reactividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Al aumentar el radio, el núcleo atrae con menos fuerza al electrón que capta el átomo.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque aumenta la carga nuclear efectiva.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque tienen menos electrones de valencia.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque sus moléculas se vuelven polares.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "71c29e24-e043-52c7-abc2-ae119ab8e462",
+  "rev": 1,
+  "statement": "Escribe la fórmula o el nombre de cada compuesto iónico.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "fórmulas",
+    "nomenclatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Hidróxido de calcio y nitrato de magnesio.",
+      "modelAnswer": "Ca(OH)₂ (1) y Mg(NO₃)₂. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Na₂CO₃ y NH₄Cl.",
+      "modelAnswer": "Carbonato de sodio (1) y cloruro de amonio. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Óxido de cobre(II) y sulfato de hierro(III).",
+      "modelAnswer": "CuO (1) y Fe₂(SO₄)₃. (1)",
+      "marks": 2
+    }
+  ]
+}

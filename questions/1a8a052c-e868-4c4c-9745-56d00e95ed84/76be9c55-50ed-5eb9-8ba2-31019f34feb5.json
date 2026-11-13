@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "76be9c55-50ed-5eb9-8ba2-31019f34feb5",
+  "rev": 1,
+  "statement": "El amoníaco se fabrica por el proceso Haber: N₂(g) + 3H₂(g) ⇌ 2NH₃(g), $\\Delta H = -92\\,\\text{kJ}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "proceso Haber"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la expresión de la constante de equilibrio.",
+      "modelAnswer": "$K = \\dfrac{[\\mathrm{NH_3}]^2}{[\\mathrm{N_2}][\\mathrm{H_2}]^3}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica el efecto de aumentar la presión sobre el rendimiento de amoníaco.",
+      "modelAnswer": "Hay menos moles de gas a la derecha (2 frente a 4). (1) Al aumentar la presión el equilibrio se desplaza a la derecha y aumenta el rendimiento. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué se usa una temperatura moderada y un catalizador de hierro.",
+      "modelAnswer": "Una temperatura baja favorece el rendimiento, porque la reacción es exotérmica, pero la velocidad sería muy baja. (1) Se usa una temperatura de compromiso y el catalizador para alcanzar el equilibrio deprisa, sin cambiar su posición. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere por qué no se usan presiones muchísimo más altas.",
+      "modelAnswer": "El coste de los equipos y de la energía para comprimir los gases, y los riesgos de seguridad, superarían la ganancia de rendimiento. (1)",
+      "marks": 1
+    }
+  ]
+}

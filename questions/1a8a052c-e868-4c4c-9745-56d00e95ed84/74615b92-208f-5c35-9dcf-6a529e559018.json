@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "74615b92-208f-5c35-9dcf-6a529e559018",
+  "rev": 1,
+  "statement": "En el proceso Haber se trabaja a unos $450\\,°\\text{C}$ aunque la reacción es exotérmica. ¿Por qué no se usa una temperatura más baja?",
+  "explanation": "Una temperatura baja daría más amoníaco en el equilibrio, pero se tardaría demasiado en alcanzarlo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "proceso Haber",
+    "condiciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque el catalizador de hierro se funde a baja temperatura.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque a menor temperatura el rendimiento sería menor.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque el amoníaco se descompone a baja temperatura.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque la velocidad sería demasiado baja; $450\\,°\\text{C}$ es un compromiso entre rendimiento y velocidad.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "779b5886-53c5-5c4a-a5c8-9a72feef0d9f",
+  "rev": 1,
+  "statement": "¿Por qué una aleación suele ser más dura que el metal puro?",
+  "explanation": "Por eso el acero es más duro que el hierro puro y el bronce, más que el cobre.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "2c4801dd-b4c4-5b5d-b037-bcdd83879689"
+  ],
+  "tags": [
+    "aleaciones",
+    "dureza"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque sus átomos son todos del mismo tamaño.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque tiene más electrones deslocalizados.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Los átomos de distinto tamaño alteran la regularidad de la red y dificultan que las capas se deslicen.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque forma enlaces iónicos entre sus átomos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

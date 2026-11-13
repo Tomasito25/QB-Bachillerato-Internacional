@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6b1897d9-2f13-5ca1-ad48-aa113e6626f8",
+  "rev": 1,
+  "statement": "¿Por qué el dióxido de silicio tiene un punto de fusión muy alto?",
+  "explanation": "Contrasta con el CO₂, formado por moléculas pequeñas: es un gas a temperatura ambiente.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "dióxido de silicio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Está formado por moléculas de SiO₂ unidas por fuerzas de London.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Tiene electrones deslocalizados.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Es un compuesto iónico con iones Si⁴⁺.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Es una red covalente tridimensional en la que cada Si está unido a cuatro O; para fundirlo hay que romper muchos enlaces covalentes.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

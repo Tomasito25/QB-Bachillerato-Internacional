@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "70b2df2a-89c9-5a49-8e19-e82542a38043",
+  "rev": 1,
+  "statement": "El peróxido de hidrógeno se descompone muy despacio: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Con dióxido de manganeso, la descomposición es rápida.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "catalizador",
+    "perfil energético"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja o describe un perfil energético de la reacción con y sin catalizador.",
+      "modelAnswer": "Reactivos por encima de los productos, porque la reacción es exotérmica. (1) Sin catalizador, una barrera alta; con catalizador, otra más baja entre los mismos reactivos y productos. (1) $\\Delta H$ es igual en los dos casos. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica cómo aumenta la velocidad el catalizador.",
+      "modelAnswer": "Ofrece un camino alternativo con menor energía de activación; (1) una fracción mayor de los choques tiene energía suficiente. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Describe cómo comprobarías que el dióxido de manganeso no se consume.",
+      "modelAnswer": "Pesarlo antes, recuperarlo al final por filtración, secarlo y pesarlo de nuevo: la masa no cambia. (1)",
+      "marks": 1
+    }
+  ]
+}

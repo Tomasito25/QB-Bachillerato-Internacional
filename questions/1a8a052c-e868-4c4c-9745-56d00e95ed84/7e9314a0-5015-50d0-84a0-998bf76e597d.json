@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7e9314a0-5015-50d0-84a0-998bf76e597d",
+  "rev": 1,
+  "statement": "¿Qué semirreacción representa la oxidación del hierro(II) a hierro(III)?",
+  "explanation": "En la oxidación, los electrones aparecen como producto.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "semirreacciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Fe → Fe²⁺ + 2e⁻",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Fe²⁺ + e⁻ → Fe³⁺",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Fe³⁺ + e⁻ → Fe²⁺",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Fe²⁺ → Fe³⁺ + e⁻",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7fc86b66-2b95-55fa-b297-8c78e21da6a3",
+  "rev": 1,
+  "statement": "¿Cuál es la ecuación ajustada de la combustión completa del propano?",
+  "explanation": "3 C dan 3 CO₂; 8 H dan 4 H₂O; los oxígenos de los productos son 6 + 4 = 10, es decir, 5 O₂.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "ecuación de combustión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "C₃H₈ + 3O₂ → 3CO₂ + 4H₂",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "C₃H₈ + 7O₂ → 3CO₂ + 8H₂O",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "C₃H₈ + 4O₂ → 3CO + 4H₂O",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

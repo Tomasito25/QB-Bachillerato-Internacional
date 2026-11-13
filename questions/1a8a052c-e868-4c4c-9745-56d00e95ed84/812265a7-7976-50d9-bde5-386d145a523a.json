@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "812265a7-7976-50d9-bde5-386d145a523a",
+  "rev": 1,
+  "statement": "Se mezclan $25{,}0\\,\\text{cm}^{3}$ de HCl $1{,}00\\,\\text{mol dm}^{-3}$ con $25{,}0\\,\\text{cm}^{3}$ de NaOH $1{,}00\\,\\text{mol dm}^{-3}$ y la temperatura sube $6{,}8\\,°\\text{C}$. ¿Cuál es la variación de entalpía de neutralización? (Supón que la disolución tiene la densidad y el calor específico del agua.)",
+  "explanation": "$q = 50{,}0 \\times 4{,}18 \\times 6{,}8 = 1421\\,\\text{J}$; $n = 0{,}0250\\,\\text{mol}$ de agua formada; $\\Delta H = -\\dfrac{1{,}421}{0{,}0250} = -56{,}8\\,\\text{kJ mol}^{-1}$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "entalpía de neutralización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$−56{,}8 kJ mol-1$",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "$−1{,}42 kJ mol-1$",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "$−28{,}4 kJ mol-1$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$+56{,}8\\,\\text{kJ mol}^{-1}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

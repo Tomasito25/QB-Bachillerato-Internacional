@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "6df2f510-c131-5d67-b4e8-ce6ee62ec7d4",
+  "rev": 1,
+  "statement": "El diamante, el grafito y el grafeno son formas alotrópicas del carbono.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "76ea2470-e367-5808-a934-290bc93cbad3"
+  ],
+  "tags": [
+    "redes covalentes",
+    "alótropos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la estructura del diamante y la del grafito.",
+      "modelAnswer": "Diamante: cada C unido a otros cuatro en una red tridimensional tetraédrica. (1) Grafito: cada C unido a otros tres en capas de hexágonos, (1) con un electrón deslocalizado por átomo; las capas se unen por fuerzas de London débiles. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el grafito sirve como lubricante y el diamante como herramienta de corte.",
+      "modelAnswer": "Las capas del grafito se deslizan fácilmente porque las fuerzas entre ellas son débiles. (1) El diamante es muy duro porque todos sus átomos están unidos por enlaces covalentes fuertes en tres dimensiones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica una propiedad del grafeno que lo hace útil.",
+      "modelAnswer": "Es muy resistente y ligero, o conduce muy bien la electricidad y el calor, o es transparente y flexible. (1)",
+      "marks": 1
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "5d4f708f-8e76-5b52-9ecb-985fd3ec6632",
+  "rev": 1,
+  "statement": "Para 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), $\\Delta H < 0$. ¿Qué ocurre al subir la temperatura?",
+  "explanation": "Se favorece la reacción endotérmica, que es la inversa, porque absorbe el calor añadido.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "5a92b7aa-152e-5fe3-acf8-2ead44908a68"
+  ],
+  "tags": [
+    "Le Châtelier",
+    "temperatura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El equilibrio se desplaza a la izquierda y K disminuye.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El equilibrio se desplaza a la derecha y K aumenta.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El equilibrio no se mueve, pero K aumenta.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El equilibrio se desplaza a la izquierda y K no cambia.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

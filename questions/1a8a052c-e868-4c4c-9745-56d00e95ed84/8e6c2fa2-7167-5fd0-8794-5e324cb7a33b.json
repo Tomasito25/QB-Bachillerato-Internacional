@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "8e6c2fa2-7167-5fd0-8794-5e324cb7a33b",
+  "rev": 1,
+  "statement": "Los ácidos reaccionan con bases, carbonatos y metales.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132"
+  ],
+  "tags": [
+    "neutralización",
+    "reacciones de los ácidos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación ajustada de la reacción del ácido sulfúrico con el hidróxido de sodio.",
+      "modelAnswer": "H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Escribe la ecuación ajustada de la reacción del ácido nítrico con el carbonato de sodio.",
+      "modelAnswer": "2HNO₃ + Na₂CO₃ → 2NaNO₃ + H₂O + CO₂. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Escribe la ecuación iónica neta de la neutralización.",
+      "modelAnswer": "H⁺(aq) + OH⁻(aq) → H₂O(l). (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Describe cómo identificarías el gas de la segunda reacción.",
+      "modelAnswer": "Al burbujearlo en agua de cal, esta se enturbia: es CO₂. (1)",
+      "marks": 1
+    }
+  ]
+}

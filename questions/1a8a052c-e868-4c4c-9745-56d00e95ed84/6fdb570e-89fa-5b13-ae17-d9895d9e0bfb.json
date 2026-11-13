@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "6fdb570e-89fa-5b13-ae17-d9895d9e0bfb",
+  "rev": 1,
+  "statement": "El octano, C₈H₁₈, es uno de los componentes de la gasolina.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "da56f932-9bdf-50d2-98da-38a96eb735cd"
+  ],
+  "tags": [
+    "combustión",
+    "ecuaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Escribe la ecuación ajustada de su combustión completa.",
+      "modelAnswer": "2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O. (1 por las fórmulas, 1 por el ajuste)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe una ecuación de su combustión incompleta en la que se forme monóxido de carbono.",
+      "modelAnswer": "2C₈H₁₈ + 17O₂ → 16CO + 18H₂O. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la combustión incompleta es un problema en los motores.",
+      "modelAnswer": "Se libera menos energía por cada mol de combustible (1) y se emiten monóxido de carbono, tóxico, y partículas de hollín. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7e19337c-6413-5d59-9cf0-ef5f14b42f17",
+  "rev": 1,
+  "statement": "¿Por qué el carbonato de calcio en polvo reacciona más deprisa con un ácido que en trozos grandes?",
+  "explanation": "Solo reaccionan las partículas de la superficie del sólido.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "superficie"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El polvo eleva la temperatura del ácido.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El polvo tiene mucha más superficie expuesta, así que hay más choques por segundo con el ácido.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El polvo tiene menos energía de activación.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El polvo contiene más carbonato de calcio.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

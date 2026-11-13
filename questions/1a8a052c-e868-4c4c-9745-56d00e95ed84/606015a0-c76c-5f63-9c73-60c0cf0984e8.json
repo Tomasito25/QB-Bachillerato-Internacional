@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "606015a0-c76c-5f63-9c73-60c0cf0984e8",
+  "rev": 1,
+  "statement": "¿Cuántos electrones puede contener como máximo el tercer nivel de energía (n = 3)?",
+  "explanation": "La capacidad máxima es $2n^2 = 2 \\times 3^2 = 18$.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "niveles de energía",
+    "2n²"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "8",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "9",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "18",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "32",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

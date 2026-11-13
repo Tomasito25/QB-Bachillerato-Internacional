@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "7a26e286-85d5-5a62-974a-27534963db30",
+  "rev": 1,
+  "statement": "El metano reacciona con el cloro en presencia de luz ultravioleta: CH₄(g) + Cl₂(g) → CH₃Cl(g) + HCl(g).\n\nEntalpías medias de enlace / kJ mol⁻¹: C–H, 414; Cl–Cl, 242; C–Cl, 324; H–Cl, 431.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "a32616a1-c875-5730-9a75-f101759213b8"
+  ],
+  "tags": [
+    "entalpías de enlace",
+    "halogenación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula $\\Delta H$ de la reacción con las entalpías medias de enlace.",
+      "modelAnswer": "Rotos: un C–H y un Cl–Cl, $414 + 242 = 656\\,\\text{kJ}$. (1) Formados: un C–Cl y un H–Cl, $324 + 431 = 755\\,\\text{kJ}$. (1) $\\Delta H = 656 - 755 = -99\\,\\text{kJ}$. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Indica si la reacción es exotérmica o endotérmica, y justifica tu respuesta.",
+      "modelAnswer": "Exotérmica, porque se libera más energía al formar los enlaces de la que se absorbe al romperlos ($\\Delta H < 0$). (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el valor calculado es aproximado.",
+      "modelAnswer": "Las entalpías de enlace son medias de muchos compuestos; (1) la energía real de cada enlace depende de la molécula concreta. (1)",
+      "marks": 2
+    }
+  ]
+}

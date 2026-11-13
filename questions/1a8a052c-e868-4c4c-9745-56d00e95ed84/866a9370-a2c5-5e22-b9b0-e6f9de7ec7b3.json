@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "866a9370-a2c5-5e22-b9b0-e6f9de7ec7b3",
+  "rev": 1,
+  "statement": "Se quiere obtener etanol a partir de etano en dos pasos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "síntesis",
+    "rutas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Propón la ruta, con los reactivos y las condiciones de cada paso.",
+      "modelAnswer": "Paso 1: etano con cloro (o bromo) y luz ultravioleta, para obtener cloroetano. (1) Paso 2: cloroetano con hidróxido de sodio acuoso caliente, para obtener etanol. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica el tipo de reacción de cada paso.",
+      "modelAnswer": "Paso 1: sustitución por radicales. (1) Paso 2: sustitución nucleófila. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere un inconveniente del primer paso.",
+      "modelAnswer": "Se forma una mezcla de productos con más cloro y productos de terminación, lo que reduce el rendimiento. (1)",
+      "marks": 1
+    }
+  ]
+}

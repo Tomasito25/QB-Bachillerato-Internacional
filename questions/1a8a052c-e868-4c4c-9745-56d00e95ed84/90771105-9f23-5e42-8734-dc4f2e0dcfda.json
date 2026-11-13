@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "90771105-9f23-5e42-8734-dc4f2e0dcfda",
+  "rev": 1,
+  "statement": "¿Qué prueba aporta el espectro de emisión de líneas del hidrógeno?",
+  "explanation": "Un espectro continuo indicaría energías cualesquiera; las líneas separadas indican niveles cuantizados.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "77eb4e70-9a26-5c01-84ef-14c89352b9b3"
+  ],
+  "tags": [
+    "espectro del hidrógeno"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que el hidrógeno tiene varios electrones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que los electrones solo pueden tener ciertos valores de energía (niveles discretos).",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Que el núcleo tiene neutrones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que los electrones pueden tener cualquier energía.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

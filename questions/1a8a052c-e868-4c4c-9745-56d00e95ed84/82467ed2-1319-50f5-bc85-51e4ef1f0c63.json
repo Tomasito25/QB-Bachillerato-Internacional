@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "82467ed2-1319-50f5-bc85-51e4ef1f0c63",
+  "rev": 1,
+  "statement": "En la sustitución nucleófila, el enlace carbono-halógeno se rompe de forma heterolítica.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "4a5cce8b-ad2d-582b-8067-385d6571d5b8"
+  ],
+  "tags": [
+    "fisión heterolítica",
+    "iones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué es la fisión heterolítica.",
+      "modelAnswer": "La ruptura de un enlace en la que uno de los átomos se queda con los dos electrones compartidos, (1) de modo que se forman un catión y un anión. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué el halógeno se queda con los electrones del enlace C–X.",
+      "modelAnswer": "El halógeno es más electronegativo que el carbono y atrae más el par de electrones. (1)",
+      "marks": 1
+    }
+  ]
+}

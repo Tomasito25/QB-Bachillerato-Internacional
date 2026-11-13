@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "8cfc20ff-8a67-5db4-bb89-e8a50c48416e",
+  "rev": 1,
+  "statement": "Se analizó por cromatografía en papel un colorante alimentario X junto a tres colorantes autorizados, A, B y C. El frente del disolvente recorrió $8{,}0\\,\\text{cm}$.\n\n| Muestra | Distancias de las manchas / cm |\n|---|---|\n| X | 2,4 y 5,6 |\n| A | 2,4 |\n| B | 4,0 |\n| C | 5,6 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "7f4ccc4a-fa62-587e-aead-3c304735dd04",
+    "669898f3-909c-5a48-adb4-91d0732d4315"
+  ],
+  "tags": [
+    "datos",
+    "cromatografía",
+    "colorantes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula el valor de $R_f$ del colorante C.",
+      "modelAnswer": "$R_f = \\dfrac{5{,}6}{8{,}0} = 0{,}70$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Deduce la composición del colorante X.",
+      "modelAnswer": "Es una mezcla de dos colorantes, (1) A y C, porque sus manchas recorren las mismas distancias. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué la línea de partida debe trazarse a lápiz y por encima del nivel del disolvente.",
+      "modelAnswer": "La tinta de un bolígrafo también se separaría; el grafito no se disuelve. (1) Si las muestras quedaran bajo el disolvente, se disolverían en él en lugar de ascender por el papel. (1)",
+      "marks": 2
+    }
+  ]
+}

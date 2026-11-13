@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "67461725-6d36-5bed-971f-aead095ad2cc",
+  "rev": 1,
+  "statement": "Los clorofluorocarbonos (CFC), como el CCl₂F₂, se usaron en aerosoles y frigoríficos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "CFC",
+    "capa de ozono"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica cómo se forman radicales cloro a partir de los CFC en la estratosfera.",
+      "modelAnswer": "La radiación ultravioleta intensa rompe homolíticamente el enlace C–Cl, el más débil de la molécula. (1) Se libera un radical Cl•. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Escribe las dos ecuaciones por las que el radical cloro destruye el ozono.",
+      "modelAnswer": "Cl• + O₃ → ClO• + O₂. (1) ClO• + O → Cl• + O₂. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué una pequeña cantidad de CFC causa un daño grande.",
+      "modelAnswer": "El radical cloro se regenera en el ciclo y puede destruir miles de moléculas de ozono antes de una etapa de terminación. (1)",
+      "marks": 1
+    }
+  ]
+}

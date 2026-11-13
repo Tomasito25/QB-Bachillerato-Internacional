@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "835f1326-8430-56d4-8894-11213c1116f2",
+  "rev": 1,
+  "statement": "Los perfiles energéticos muestran la variación de entalpía durante una reacción.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c989c9c6-85e7-590c-a422-499de288c644"
+  ],
+  "tags": [
+    "perfil energético",
+    "exotérmica",
+    "endotérmica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:01.000Z",
+  "updatedAt": "2026-11-13T05:51:01.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Dibuja o describe el perfil energético de una reacción exotérmica, indicando $\\Delta H$ y la energía de activación.",
+      "modelAnswer": "Eje vertical de entalpía y horizontal de avance de la reacción; los productos, por debajo de los reactivos. (1) $\\Delta H$ es la diferencia entre productos y reactivos, negativa. (1) La energía de activación es la diferencia entre los reactivos y la cima de la curva. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica, en términos de estabilidad, por qué los productos de una reacción exotérmica son más estables.",
+      "modelAnswer": "Tienen menos entalpía que los reactivos: (1) sus enlaces son en conjunto más fuertes. (1)",
+      "marks": 2
+    }
+  ]
+}
