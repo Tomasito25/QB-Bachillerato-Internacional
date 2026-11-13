@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "d4c7b88a-dfdc-58b8-ab7c-756df69a10ca",
+  "rev": 1,
+  "statement": "El medio interno se mantiene estable aunque cambien las condiciones exteriores.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "homeostasis",
+    "variables"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica cuatro variables del medio interno que se regulan por homeostasis.",
+      "modelAnswer": "Cuatro de: temperatura corporal, glucosa en sangre, pH de la sangre, concentración de CO₂, concentración osmótica. (2 si hay cuatro; 1 si hay dos o tres)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué es importante mantener constante la temperatura corporal.",
+      "modelAnswer": "Las enzimas funcionan mejor cerca de su temperatura óptima; (1) temperaturas muy altas las desnaturalizan y las bajas frenan el metabolismo. (1)",
+      "marks": 2
+    }
+  ]
+}

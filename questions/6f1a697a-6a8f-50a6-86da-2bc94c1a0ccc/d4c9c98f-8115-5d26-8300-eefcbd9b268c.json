@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d4c9c98f-8115-5d26-8300-eefcbd9b268c",
+  "rev": 1,
+  "statement": "¿Cuál de estos es un uso de la PCR y la electroforesis?",
+  "explanation": "También se usa la PCR para detectar virus, como en las pruebas de la COVID-19, que amplifican material genético del virus.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "perfiles de ADN",
+    "aplicaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Contar los cromosomas de una célula.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Comparar perfiles de ADN en investigaciones forenses o pruebas de paternidad.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Medir la concentración de glucosa en la sangre.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Determinar el grupo sanguíneo a partir de los anticuerpos.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

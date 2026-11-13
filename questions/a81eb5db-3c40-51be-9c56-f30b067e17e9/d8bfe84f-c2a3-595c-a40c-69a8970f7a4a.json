@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "d8bfe84f-c2a3-595c-a40c-69a8970f7a4a",
+  "rev": 1,
+  "statement": "**Cuatro estaciones en el patio**\n\nRopa tendida:\nlas sábanas aprenden\na ser un barco.\n\nSiesta de agosto:\nsolo trabaja el grillo\nbajo la parra.\n\nCae una hoja.\nMi abuela la recoge\ncomo una carta.\n\nPatio vacío.\nLa silla de mi abuela\nguarda la nieve.\n\n---\n\n**Pregunta guía:** ¿Cómo construye la secuencia de haikus una historia y una emoción con tan pocos elementos?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "haiku",
+    "estaciones",
+    "ausencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Cuatro haikus (5-7-5 sílabas) recorren un año en el patio de una casa familiar. Cada estación aporta una imagen; leídos juntos, cuentan una historia: la abuela aparece en otoño y, en invierno, solo queda su silla cubierta de nieve. La muerte no se nombra.\n\n**Aspectos que conviene analizar**\n- La forma del haiku: brevedad, imagen concreta de la naturaleza y un giro en el último verso. La métrica fija contiene la emoción.\n- La secuencia de las estaciones como estructura narrativa y como metáfora del ciclo de la vida.\n- Las metáforas del juego y la vida: las sábanas que «aprenden a ser un barco» (primavera), el grillo que «trabaja» en la quietud del verano.\n- La comparación de la hoja recogida «como una carta»: el otoño como tiempo de recuerdos y despedidas.\n- La elipsis del último haiku: el «patio vacío» y la silla que «guarda la nieve» dicen la ausencia sin nombrarla.\n- La progresión del movimiento a la quietud y de la luz al frío.\n\n**Una estructura posible.** Analizar cada haiku como imagen y después la secuencia como relato, deteniéndose en lo que se calla en el último.\n\n**Cuidado con…** analizar los poemas por separado sin ver la historia que forman juntos, o buscar demasiado simbolismo en cada palabra.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

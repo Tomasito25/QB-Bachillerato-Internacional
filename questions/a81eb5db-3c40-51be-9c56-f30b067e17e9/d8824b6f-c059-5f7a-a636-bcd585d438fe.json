@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "d8824b6f-c059-5f7a-a636-bcd585d438fe",
+  "rev": 1,
+  "statement": "El lobo bajó en enero, como bajaban antes, cuando el padre de Julián era joven y él todavía no había nacido. Mató cuatro ovejas en una noche y dejó las huellas en la nieve, grandes, ordenadas, como la firma de alguien que no tiene prisa.\n\nEn el bar del pueblo no se habló de otra cosa durante una semana. Los más viejos decían que había que matarlo, como se hacía antes. Los más jóvenes decían que estaba protegido, que había que llamar a los del gobierno, que pagaban las ovejas. Julián no decía nada. Tenía sesenta años, doscientas ovejas y un perro mastín que se llamaba Duque y que aquella noche había ladrado hasta quedarse ronco.\n\nLos del gobierno vinieron en un coche blanco, hicieron fotos a los restos de las ovejas y a las huellas, y le dieron a Julián unos papeles para rellenar. Le explicaron que el lobo era bueno para el monte, que mantenía el equilibrio, que había que aprender a convivir. Julián les preguntó si ellos convivían con él. Se rieron, un poco incómodos, y se fueron antes de que oscureciera.\n\nEsa noche Julián subió al cerro con la escopeta y una manta. No se lo dijo a nadie. Se sentó detrás de una roca, con Duque a los pies, y esperó. Hacía un frío que cortaba la respiración. A las tres de la madrugada lo vio: una sombra gris que salía del pinar y se quedaba quieta en el claro, mirando hacia el pueblo, con las orejas levantadas.\n\nJulián levantó la escopeta. El lobo giró la cabeza y lo miró. No huyó. Se quedaron así, los dos, mirándose a través de cincuenta metros de nieve, el tiempo que dura una vida entera o un minuto.\n\nDespués el lobo se dio la vuelta y se metió en el pinar, despacio. Julián bajó la escopeta. No supo explicar, ni entonces ni nunca, por qué no había disparado. Al día siguiente rellenó los papeles del gobierno con letra muy cuidada.\n\n---\n\n**Pregunta guía:** ¿Cómo se construye el conflicto entre el pastor y el lobo, y qué sentido tiene el desenlace?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "rural",
+    "lobo",
+    "naturaleza"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un pastor sexagenario sube al monte a matar al lobo que le ha matado cuatro ovejas. En el momento decisivo, el lobo lo mira y él no dispara. El relato enfrenta las visiones del pueblo, de las autoridades y del propio pastor, y resuelve el conflicto con una mirada.\n\n**Aspectos que conviene analizar**\n- La presentación del lobo mediante sus huellas, «como la firma de alguien que no tiene prisa»: un antagonista respetado.\n- Las voces del pueblo (viejos y jóvenes) y la de los funcionarios, frente al silencio de Julián.\n- La ironía de la pregunta de Julián a los del gobierno («si ellos convivían con él») y su salida antes de que oscurezca.\n- La escena nocturna: el frío, la espera, la descripción del lobo en el claro y la tensión creciente.\n- El encuentro de miradas y la frase sobre el tiempo («una vida entera o un minuto»): un reconocimiento mutuo.\n- El desenlace inexplicado y el gesto final de rellenar los papeles «con letra muy cuidada», que sugiere una aceptación.\n\n**Una estructura posible.** Analizar la construcción del conflicto (el ataque, las opiniones, la decisión) y después el clímax y su resolución, interpretando el gesto final.\n\n**Cuidado con…** reducir el texto a un debate sobre el lobo. Analiza la tensión narrativa y el sentido del final abierto.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

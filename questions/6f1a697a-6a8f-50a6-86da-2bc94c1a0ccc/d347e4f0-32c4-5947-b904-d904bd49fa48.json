@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "d347e4f0-32c4-5947-b904-d904bd49fa48",
+  "rev": 1,
+  "statement": "Para conservar la biodiversidad se combinan medidas *in situ* y *ex situ*.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "fe72fdbe-09f0-558f-a319-42002d4a7798"
+  ],
+  "tags": [
+    "conservación in situ",
+    "ex situ",
+    "EDGE"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre conservación *in situ* y *ex situ*, con un ejemplo de cada una.",
+      "modelAnswer": "*In situ*: en el hábitat natural, por ejemplo una reserva natural o un parque nacional. (1) *Ex situ*: fuera de él, por ejemplo un banco de semillas, un jardín botánico o un programa de cría en un zoológico. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué se necesitan varios enfoques a la vez.",
+      "modelAnswer": "La conservación *in situ* protege a la especie junto con su ecosistema y sus interacciones, pero no basta si el hábitat está muy dañado. (1) La *ex situ* conserva poblaciones o semillas de reserva para reintroducirlas, pero no mantiene el ecosistema. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué el programa EDGE da prioridad a especies evolutivamente singulares.",
+      "modelAnswer": "Tienen pocos parientes vivos o ninguno, así que representan una historia evolutiva única. (1) Si se extinguen, se pierde una proporción de diversidad genética mucho mayor que con una especie con muchos parientes cercanos. (1)",
+      "marks": 2
+    }
+  ]
+}

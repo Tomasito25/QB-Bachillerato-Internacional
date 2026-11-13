@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "d6aca1cc-6f8c-5ec4-ae16-8440db5826db",
+  "rev": 1,
+  "statement": "Mitosis y meiosis son las dos formas de división nuclear de los eucariotas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "mitosis",
+    "meiosis",
+    "comparación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la mitosis y la meiosis.",
+      "modelAnswer": "Ambas van precedidas por la replicación del ADN y en ambas los cromosomas se condensan y se mueven con el huso. (1) La mitosis tiene una división y la meiosis, dos. (1) La mitosis produce dos células diploides idénticas; la meiosis, cuatro haploides distintas. (1) Solo en la meiosis se emparejan los homólogos y hay sobrecruzamiento. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la meiosis es necesaria en los organismos con reproducción sexual.",
+      "modelAnswer": "Reduce a la mitad el número de cromosomas de los gametos. (1) Así, al unirse dos gametos en la fecundación, se recupera el número diploide de la especie. (1)",
+      "marks": 2
+    }
+  ]
+}

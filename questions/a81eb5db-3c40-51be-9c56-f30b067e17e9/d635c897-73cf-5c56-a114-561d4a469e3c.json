@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "d635c897-73cf-5c56-a114-561d4a469e3c",
+  "rev": 1,
+  "statement": "**Agosto en la plaza**\n\nEn agosto el pueblo se acuerda de sí mismo.\nVuelven los coches con matrícula de lejos,\nse abren las ventanas que pasaron el año\ncon los ojos cerrados,\ny en la plaza hay niños\nque preguntan qué es una era.\n\nLas abuelas sacan las sillas a la puerta\ny cuentan:\nlos que vinieron, los que ya no,\nlos que vendieron la casa a unos de Madrid\nque la pintaron de un blanco\nque aquí nunca se ha usado.\n\nHay verbena. Hay orquesta\nque toca canciones de otro siglo\ncon la misma alegría con que se reza.\nLos mozos de antes bailan con sus nietas\ny por un momento el pueblo\ntiene la edad que tenía.\n\nEn septiembre se van los coches.\nLas ventanas vuelven a cerrar los ojos.\nQueda la plaza, quedan las sillas,\nquedan siete vecinos\npara cuidar de las campanas\ny del silencio,\nque ya es el vecino más antiguo.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el poema el contraste entre el verano y el resto del año en un pueblo que se vacía?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "despoblación",
+    "pueblo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema describe un pueblo que solo se llena en agosto, cuando vuelven los emigrados y sus hijos. La fiesta crea por unos días la ilusión del pueblo de antes, pero en septiembre regresan el vacío y el silencio. Es un poema sobre la despoblación rural.\n\n**Aspectos que conviene analizar**\n- La personificación del pueblo («se acuerda de sí mismo») y de las ventanas que tienen «los ojos cerrados», imagen que reaparece al final.\n- Los detalles del contraste entre los que se fueron y los que quedan: matrículas de lejos, niños que no saben qué es una era, la casa pintada de un blanco ajeno.\n- La voz colectiva de las abuelas que «cuentan» (enumeran y narran a la vez).\n- La verbena: canciones de otro siglo, la comparación con el rezo, los mozos de antes con sus nietas, el tiempo que vuelve «por un momento».\n- La estrofa final como espejo de la primera: los coches se van y la enumeración con «quedan».\n- La personificación del silencio como «el vecino más antiguo», cierre melancólico e irónico.\n\n**Una estructura posible.** Seguir la estructura temporal (llegada, fiesta, partida) y analizar cómo el poema construye primero la plenitud y después el vacío.\n\n**Cuidado con…** hablar de la despoblación como tema social sin analizar los recursos del poema.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

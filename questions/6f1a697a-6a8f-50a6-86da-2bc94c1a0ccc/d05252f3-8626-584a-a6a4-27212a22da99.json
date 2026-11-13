@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d05252f3-8626-584a-a6a4-27212a22da99",
+  "rev": 1,
+  "statement": "¿Qué es una población?",
+  "explanation": "Una comunidad reúne todas las poblaciones de una zona; con el medio abiótico forma un ecosistema.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "población",
+    "comunidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una comunidad junto con su medio físico.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Todos los individuos de una especie en el mundo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Un grupo de organismos de la misma especie que viven en la misma zona al mismo tiempo.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Todas las especies que viven en una zona.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

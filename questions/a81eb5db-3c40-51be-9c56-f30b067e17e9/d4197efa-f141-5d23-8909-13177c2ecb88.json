@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "d4197efa-f141-5d23-8909-13177c2ecb88",
+  "rev": 1,
+  "statement": "La biblioteca municipal de San Hilario tiene una particularidad que no figura en ningún folleto: por las noches, los libros cambian de sitio. No mucho. Un estante arriba, dos abajo. Un tomo de poesía amanece entre los manuales de fontanería; una novela policiaca, entre los libros de cocina. La bibliotecaria, doña Elvira, lleva treinta años devolviéndolos a su lugar cada mañana, sin quejarse, como quien hace la cama.\n\nAl principio pensó que eran los niños, o un empleado gracioso. Instaló una cámara que no grabó nada. Cerró con dos llaves. Los libros siguieron moviéndose. Con el tiempo dejó de buscar explicaciones y empezó a fijarse en los patrones.\n\nDescubrió que los libros no se movían al azar. Se movían hacia los lectores. El ensayo sobre el duelo apareció la semana en que murió el marido de la farmacéutica, justo en la mesa donde ella se sentaba a leer el periódico. El atlas apareció junto al chico que soñaba con irse del pueblo. Un libro de cuentos para dormir apareció en la sección de adultos, al lado de un anciano que vivía solo y que, por lo visto, no dormía.\n\nDoña Elvira no se lo contó a nadie. Habría parecido una loca, y además le daba miedo que, si alguien lo sabía, los libros dejaran de hacerlo. Se limitó a vigilar, a no colocar nada demasiado deprisa, a dejar que cada mañana los libros llegaran donde quisieran llegar.\n\nEl día de su jubilación, al cerrar por última vez, encontró sobre su propia mesa un libro que no había visto nunca. No tenía título en la cubierta. Lo abrió. Las páginas estaban en blanco, todas, salvo la primera, en la que alguien había escrito con letra de imprenta: «Ahora te toca a ti».\n\n---\n\n**Pregunta guía:** ¿Cómo combina el relato lo fantástico y lo cotidiano para hablar del poder de la lectura?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8c8808d-3da7-5ff7-934a-0e26c30652de"
+  ],
+  "tags": [
+    "narrativa",
+    "fantasía",
+    "biblioteca",
+    "lectura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** En una biblioteca de pueblo, los libros cambian de sitio por la noche para acercarse a los lectores que los necesitan. La bibliotecaria acepta el misterio y, el día de su jubilación, recibe un libro en blanco que la invita a escribir su propia historia.\n\n**Aspectos que conviene analizar**\n- La presentación de lo fantástico con naturalidad («una particularidad que no figura en ningún folleto») y la comparación con hacer la cama.\n- La investigación de doña Elvira (la cámara, las llaves) y su paso de la sospecha a la aceptación.\n- Los ejemplos de libros que «se movían hacia los lectores», cada uno ligado a una necesidad (el duelo, el deseo de irse, el insomnio).\n- La personificación de los libros, que parecen tener voluntad, y la idea de la lectura como cuidado.\n- El secreto guardado por doña Elvira y su manera de «dejar que cada mañana los libros llegaran».\n- El final: el libro en blanco y el mensaje «Ahora te toca a ti», que convierte a la lectora en autora.\n\n**Una estructura posible.** Analizar la presentación del misterio, el descubrimiento del patrón y el final, mostrando cómo lo fantástico sirve para hablar de la lectura.\n\n**Cuidado con…** buscar una explicación lógica a lo fantástico. El relato no la necesita.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "d4230dc1-f604-50ee-aa8e-99b5b2f35e9e",
+  "rev": 1,
+  "statement": "En un respirómetro con semillas en germinación, un absorbente retiene el CO₂. ¿Qué indica el movimiento de la gota de líquido en el tubo capilar?",
+  "explanation": "Como el CO₂ se absorbe, la disminución de volumen del gas se debe solo al oxígeno consumido en la respiración.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "respirómetro"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El volumen de dióxido de carbono producido.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La cantidad de agua absorbida por las semillas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La temperatura de las semillas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El volumen de oxígeno consumido por las semillas.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

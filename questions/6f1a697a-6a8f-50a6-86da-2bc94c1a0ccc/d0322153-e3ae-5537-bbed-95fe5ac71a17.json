@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d0322153-e3ae-5537-bbed-95fe5ac71a17",
+  "rev": 1,
+  "statement": "¿Cuál de estos es un ejemplo de presión de selección abiótica?",
+  "explanation": "Los factores abióticos, como la temperatura, la sequía o la salinidad, también seleccionan a los individuos mejor adaptados.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "presiones de selección",
+    "abióticas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una sequía prolongada.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Un depredador nuevo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una enfermedad infecciosa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La competencia con otra especie.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

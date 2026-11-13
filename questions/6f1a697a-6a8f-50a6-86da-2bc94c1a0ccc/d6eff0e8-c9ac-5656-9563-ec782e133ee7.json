@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "d6eff0e8-c9ac-5656-9563-ec782e133ee7",
+  "rev": 1,
+  "statement": "Dos poblaciones de una especie quedan separadas por un río. ¿Qué es necesario para que lleguen a formar dos especies?",
+  "explanation": "El aislamiento impide que los genes se mezclen y la selección diferencial hace que las poblaciones diverjan. Con el tiempo, dejan de poder cruzarse.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d20bbc8d-d82f-54c0-9145-ce3d2e85ffaa"
+  ],
+  "tags": [
+    "aislamiento reproductivo",
+    "selección diferencial"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que sigan cruzándose de vez en cuando para mantener la variación.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que una de las dos poblaciones se extinga.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que las dos estén sometidas exactamente a las mismas presiones de selección.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que no intercambien genes y que la selección natural actúe de forma distinta en cada una.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

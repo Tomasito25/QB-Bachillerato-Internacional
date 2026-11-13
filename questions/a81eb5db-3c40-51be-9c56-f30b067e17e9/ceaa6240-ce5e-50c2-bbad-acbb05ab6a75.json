@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "ceaa6240-ce5e-50c2-bbad-acbb05ab6a75",
+  "rev": 1,
+  "statement": "**En muchas obras, la persona que cuenta la historia es mayor que la que la vivió. Compare cómo se aprovecha esta distancia temporal en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8cbb01f-3344-51dd-b01f-07282802c397"
+  ],
+  "tags": [
+    "narrador",
+    "tiempo del relato"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:35.000Z",
+  "updatedAt": "2026-11-13T05:55:35.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar la doble perspectiva del narrador retrospectivo: el yo que vivió y el yo que recuerda, con sus efectos de nostalgia, juicio, ironía o comprensión tardía. **Obras adecuadas.** Memorias, novelas en primera persona retrospectiva, poemas de la memoria. **Esquema posible.** Señales de la distancia temporal; contraste entre las dos perspectivas; efectos (ironía, emoción); sentido. **Cuidado con…** perder de vista la pregunta: céntrate en la distancia entre el momento vivido y el narrado.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
