@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "bb66e5ae-45f1-5b76-ac40-5a8d5954e450",
+  "rev": 1,
+  "statement": "Las células madre de la médula ósea producen eritrocitos, leucocitos y plaquetas, pero no neuronas. ¿Cómo se clasifican?",
+  "explanation": "Solo forman los tipos celulares de un tejido concreto, la sangre.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "multipotentes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Diferenciadas",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Totipotentes",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Pluripotentes",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Multipotentes",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

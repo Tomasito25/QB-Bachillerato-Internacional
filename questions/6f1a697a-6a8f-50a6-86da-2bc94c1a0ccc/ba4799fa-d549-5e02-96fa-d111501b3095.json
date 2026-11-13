@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "ba4799fa-d549-5e02-96fa-d111501b3095",
+  "rev": 1,
+  "statement": "Los diagramas de caja muestran la estatura de los estudiantes de 17 años de dos grupos, P y Q.\n\n![Diagramas de caja de la estatura de dos grupos de estudiantes de 17 años](qbimg:30f3756dc25cd8111faa06b963fc2678684f2c43d8eb455d10343ed272511ae7)",
+  "images": [
+    {
+      "hash": "30f3756dc25cd8111faa06b963fc2678684f2c43d8eb455d10343ed272511ae7",
+      "ext": "png",
+      "width": 1120,
+      "height": 660,
+      "bytes": 12571,
+      "alt": "Diagramas de caja de la estatura de dos grupos de estudiantes de 17 años"
+    }
+  ],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904",
+    "d882c402-d0e9-5c72-a87d-68b5e38b52b5"
+  ],
+  "tags": [
+    "datos",
+    "variación continua",
+    "diagrama de caja"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica la mediana de la estatura del grupo Q.",
+      "modelAnswer": "$176\\,\\text{cm}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el rango intercuartílico del grupo P.",
+      "modelAnswer": "$173 - 163 = 10\\,\\text{cm}$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Compara las estaturas de los dos grupos.",
+      "modelAnswer": "La mediana de Q es mayor que la de P (176 frente a 168 cm). (1) La dispersión es parecida: los rangos intercuartílicos son de 10 y 11 cm, aunque el rango de Q es algo mayor. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica por qué la estatura es un ejemplo de variación continua.",
+      "modelAnswer": "Puede tomar cualquier valor dentro de un intervalo, sin categorías separadas, (1) porque depende de muchos genes y de factores ambientales. (1)",
+      "marks": 2
+    }
+  ]
+}

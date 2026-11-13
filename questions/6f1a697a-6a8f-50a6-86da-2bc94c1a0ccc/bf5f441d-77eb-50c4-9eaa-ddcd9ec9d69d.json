@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "bf5f441d-77eb-50c4-9eaa-ddcd9ec9d69d",
+  "rev": 1,
+  "statement": "Muchas plantas tienen mecanismos que favorecen la polinización cruzada.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "fecundación cruzada",
+    "variación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe dos mecanismos que favorecen la polinización cruzada.",
+      "modelAnswer": "Dos de: estambres y estigmas que maduran en momentos distintos; flores masculinas y femeninas en plantas distintas; autoincompatibilidad; separación física entre anteras y estigma. (2)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la polinización cruzada es ventajosa.",
+      "modelAnswer": "Combina alelos de dos plantas distintas y aumenta la variación genética de la descendencia. (1) Así es más probable que algunos descendientes sobrevivan a cambios del ambiente, y se evitan los efectos de la endogamia. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica la ventaja de dispersar las semillas lejos de la planta madre.",
+      "modelAnswer": "Se reduce la competencia por la luz, el agua y los nutrientes con la planta madre y entre las plántulas, (1) y la especie puede colonizar zonas nuevas. (1)",
+      "marks": 2
+    }
+  ]
+}

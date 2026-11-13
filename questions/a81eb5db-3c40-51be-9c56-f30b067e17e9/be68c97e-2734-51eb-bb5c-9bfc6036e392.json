@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "be68c97e-2734-51eb-bb5c-9bfc6036e392",
+  "rev": 1,
+  "statement": "**Carta a mí misma a los quince años**\n\nNo te preocupes tanto por tu pelo.\nDentro de veinte años\nnadie recordará tu pelo,\nni siquiera tú.\n\nEsa amiga que te hace sentir pequeña\nno es tu amiga.\nTardarás en saberlo.\nCuando lo sepas, no la odies:\ntambién ella tenía quince años.\n\nLee todo lo que puedas.\nNo para ser lista,\nsino para tener a mano otras vidas\ncuando la tuya te quede estrecha.\n\nDile a la abuela que la quieres\nel martes, no el domingo.\nEl domingo será tarde.\nNo te lo digo para asustarte.\nTe lo digo porque no me lo dijo nadie.\n\nVas a equivocarte de carrera,\nde ciudad, de novio, de corte de pelo.\nY todo, más o menos, saldrá bien.\nNo porque aciertes,\nsino porque aprenderás a volver.\n\nY otra cosa:\nesa canción que te da vergüenza cantar en voz alta,\ncántala.\nYo todavía me la sé.\n\n---\n\n**Pregunta guía:** ¿Cómo construye el poema la relación entre la voz adulta y su yo adolescente?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "carta",
+    "adolescencia",
+    "consejo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Una mujer adulta escribe una carta en verso a su yo de quince años. Los consejos, unos ligeros y otros dolorosos, dibujan una vida con errores y aprendizajes y una relación de ternura con la adolescente que fue.\n\n**Aspectos que conviene analizar**\n- La forma epistolar en verso: el tú dirigido a sí misma, los imperativos y el tono íntimo.\n- La alternancia de consejos triviales (el pelo, la canción) y profundos (la falsa amiga, la abuela): humor y gravedad.\n- La compasión hacia la amiga («también ella tenía quince años») como señal de madurez.\n- El consejo sobre la lectura y la metáfora de la vida que «queda estrecha».\n- La estrofa de la abuela, la más dolorosa: la precisión de los días y el verso «porque no me lo dijo nadie», que revela una pérdida.\n- La enumeración de errores y la idea de «aprender a volver»; el cierre con la canción, que une las dos edades en el presente.\n\n**Una estructura posible.** Analizar los consejos por grupos (lo superficial, las relaciones, la pérdida, los errores) y la evolución del tono hasta el final.\n\n**Cuidado con…** tratar el poema como una lista de consejos. Analiza qué revela de la voz adulta.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

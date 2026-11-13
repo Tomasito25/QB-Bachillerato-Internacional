@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "bce1898a-bbea-554b-9a96-1c8727856be4",
+  "rev": 1,
+  "statement": "El carbono circula entre la atmósfera, los seres vivos, los océanos y las rocas.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6956d114-afaa-52a6-997b-a4ce3f862ade"
+  ],
+  "tags": [
+    "ciclo del carbono"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe cómo pasa el carbono de la atmósfera a los seres vivos y vuelve a ella.",
+      "modelAnswer": "Los productores fijan el CO₂ en la fotosíntesis y forman compuestos orgánicos. (1) Pasa a los consumidores por la alimentación y a los descomponedores con los restos. (1) Todos ellos liberan CO₂ a la atmósfera en la respiración. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la respiración aerobia depende de la fotosíntesis, y la fotosíntesis de la respiración.",
+      "modelAnswer": "La respiración aerobia usa el oxígeno que libera la fotosíntesis. (1) La fotosíntesis usa el CO₂ que liberan la respiración y otros procesos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica cómo puede una turbera pasar de sumidero a fuente de carbono.",
+      "modelAnswer": "En condiciones de encharcamiento la materia orgánica no se descompone del todo y se acumula como turba: sumidero. (1) Si se drena o se quema, la turba se oxida y libera CO₂: fuente. (1)",
+      "marks": 2
+    }
+  ]
+}

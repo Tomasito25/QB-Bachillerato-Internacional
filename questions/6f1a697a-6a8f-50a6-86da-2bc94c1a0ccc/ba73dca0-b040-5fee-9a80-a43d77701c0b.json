@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "ba73dca0-b040-5fee-9a80-a43d77701c0b",
+  "rev": 1,
+  "statement": "En un tratamiento de fecundación in vitro (FIV), ¿para qué se administran inyecciones de FSH?",
+  "explanation": "Antes se suele suprimir el ciclo natural. Después, una hormona similar a la LH hace madurar los ovocitos antes de recogerlos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a0aa0055-c65e-521c-9cbf-c8783360e867"
+  ],
+  "tags": [
+    "FIV"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para impedir la ovulación de forma permanente.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Para que maduren varios folículos a la vez y se puedan recoger varios ovocitos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Para que el embrión se implante en el ovario.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para producir espermatozoides en el laboratorio.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

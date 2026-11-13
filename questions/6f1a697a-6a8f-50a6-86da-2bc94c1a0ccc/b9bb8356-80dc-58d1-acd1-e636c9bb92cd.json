@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "b9bb8356-80dc-58d1-acd1-e636c9bb92cd",
+  "rev": 1,
+  "statement": "¿Qué ventaja tiene la forma bicóncava de los eritrocitos?",
+  "explanation": "La forma de disco con el centro hundido da mucha superficie para su volumen, y ningún punto del interior queda lejos de la membrana.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "eritrocitos",
+    "superficie"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Les permite almacenar más hemoglobina en el núcleo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Hace que sean más rígidos y no se deformen en los capilares.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Reduce la superficie para que no pierdan oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Aumenta su cociente superficie/volumen, lo que acelera el intercambio de oxígeno.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "be24d2f2-dfc7-5e51-9de8-4a854c09592c",
+  "rev": 1,
+  "statement": "En una comunidad, las poblaciones de distintas especies interactúan entre sí.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "4765334b-57f0-5204-9583-78632ac7f446"
+  ],
+  "tags": [
+    "interacciones",
+    "comunidades"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:54:33.000Z",
+  "updatedAt": "2026-11-13T05:54:33.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre competencia intraespecífica e interespecífica.",
+      "modelAnswer": "Intraespecífica: entre individuos de la misma especie. (1) Interespecífica: entre individuos de especies distintas que usan el mismo recurso. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe un ejemplo de mutualismo.",
+      "modelAnswer": "Por ejemplo, las micorrizas: el hongo aporta agua y minerales a la planta y recibe azúcares. O los corales y sus algas: el alga aporta productos de la fotosíntesis y el coral, protección y CO₂. (2)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica qué es un factor limitante dependiente de la densidad, con un ejemplo.",
+      "modelAnswer": "Un factor cuyo efecto sobre la población aumenta al aumentar su densidad. (1) Por ejemplo, la competencia por el alimento o la propagación de enfermedades. (1)",
+      "marks": 2
+    }
+  ]
+}
