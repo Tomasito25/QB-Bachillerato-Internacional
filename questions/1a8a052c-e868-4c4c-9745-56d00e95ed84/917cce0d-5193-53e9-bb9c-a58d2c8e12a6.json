@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "917cce0d-5193-53e9-bb9c-a58d2c8e12a6",
+  "rev": 1,
+  "statement": "La combustión del papel es muy exotérmica, pero el papel no arde solo a temperatura ambiente. ¿Por qué?",
+  "explanation": "Una cerilla aporta la energía inicial; después, la energía liberada mantiene la reacción.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "dc6218d8-56ad-520d-ba3a-afc0b1d30c39"
+  ],
+  "tags": [
+    "energía de activación",
+    "temperatura ambiente"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque la reacción es endotérmica.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque el papel no tiene enlaces que romper.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque la energía de activación es alta y casi ninguna colisión la supera a temperatura ambiente.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque el oxígeno no reacciona con la celulosa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

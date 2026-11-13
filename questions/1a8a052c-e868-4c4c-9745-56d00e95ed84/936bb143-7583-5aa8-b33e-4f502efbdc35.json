@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "936bb143-7583-5aa8-b33e-4f502efbdc35",
+  "rev": 1,
+  "statement": "Los enlaces covalentes se pueden romper de dos maneras.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "fisión homolítica",
+    "heterolítica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre fisión homolítica y heterolítica.",
+      "modelAnswer": "Homolítica: cada átomo se queda con un electrón del par y se forman radicales. (1) Heterolítica: uno de los átomos se queda con los dos electrones y se forman iones. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la cloración de los alcanos necesita luz ultravioleta y no ocurre en la oscuridad a temperatura ambiente.",
+      "modelAnswer": "La luz aporta la energía para romper el enlace Cl–Cl y formar radicales, (1) que son las especies que inician la cadena. (1)",
+      "marks": 2
+    }
+  ]
+}

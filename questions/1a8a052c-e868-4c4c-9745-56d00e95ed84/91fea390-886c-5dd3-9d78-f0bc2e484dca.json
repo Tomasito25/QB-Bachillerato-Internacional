@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "91fea390-886c-5dd3-9d78-f0bc2e484dca",
+  "rev": 1,
+  "statement": "En la reacción N₂ + 3H₂ → 2NH₃, ¿qué cantidad de amoníaco se forma a partir de $6{,}0\\,\\text{mol}$ de hidrógeno con nitrógeno en exceso?",
+  "explanation": "$6{,}0 \\times \\dfrac{2}{3} = 4{,}0\\,\\text{mol}$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "edb916f9-6eb1-5a69-8ae2-5ce87adf7862"
+  ],
+  "tags": [
+    "relación molar"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "$2{,}0\\,\\text{mol}$",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "$4{,}0\\,\\text{mol}$",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "$6{,}0\\,\\text{mol}$",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "$12\\,\\text{mol}$",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

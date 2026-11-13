@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "94ecdde8-871a-5f90-b399-f10a980ebcee",
+  "rev": 1,
+  "statement": "Se valoraron $25{,}0\\,\\text{cm}^{3}$ de ácido clorhídrico con hidróxido de sodio de $0{,}100\\,\\text{mol dm}^{-3}$ y se registró el pH con un pH-metro.\n\n![Curva de pH de la valoración de 25,0 cm³ de ácido clorhídrico con hidróxido de sodio 0,100 mol dm⁻³](qbimg:b47c4dfae46068d35f3d04fecf7483c9ac3f2c2a164962db187768dc082c2a98)",
+  "images": [
+    {
+      "hash": "b47c4dfae46068d35f3d04fecf7483c9ac3f2c2a164962db187768dc082c2a98",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 18390,
+      "alt": "Curva de pH de la valoración de 25,0 cm³ de ácido clorhídrico con hidróxido de sodio 0,100 mol dm⁻³"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "c0d72fcc-811f-5cf8-9c97-ec0c4d9e2132",
+    "61f5bc65-5ff6-5252-9326-468fc937c57e"
+  ],
+  "tags": [
+    "datos",
+    "curva de pH",
+    "valoración"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica el volumen de base en el punto de equivalencia y el pH en ese punto.",
+      "modelAnswer": "$25{,}0\\,\\text{cm}^{3}$ y pH 7. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Calcula la concentración del ácido clorhídrico.",
+      "modelAnswer": "$n(\\mathrm{NaOH}) = 0{,}100 \\times 0{,}0250 = 2{,}50\\times 10^{-3}\\,\\text{mol}$, igual a la del HCl. (1) $c = \\dfrac{2{,}50\\times 10^{-3}}{0{,}0250} = 0{,}100\\,\\text{mol dm}^{-3}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Calcula el pH inicial del ácido y comprueba que coincide con la gráfica.",
+      "modelAnswer": "$\\text{pH} = -\\log_{10} 0{,}100 = 1{,}00$, que es el valor inicial de la curva. (1)",
+      "marks": 1
+    },
+    {
+      "id": "d",
+      "statement": "Describe la forma de la curva cerca del punto de equivalencia y explica su causa.",
+      "modelAnswer": "El pH sube bruscamente, de unos 3 a unos 11, con muy poco volumen de base. (1) Cerca de la equivalencia queda muy poco ácido, y cada gota de base cambia $[\\mathrm{H^+}]$ en varios órdenes de magnitud. (1)",
+      "marks": 2
+    }
+  ]
+}

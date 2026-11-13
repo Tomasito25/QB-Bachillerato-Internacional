@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "97bf4c76-f2a4-5f34-9102-0c2e9f1dec17",
+  "rev": 1,
+  "statement": "¿Por qué muchos compuestos iónicos se disuelven en agua?",
+  "explanation": "El oxígeno, con carga parcial negativa, se orienta hacia los cationes; los hidrógenos, hacia los aniones.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f90c4cfb-7e7e-5c33-8ef7-7db2df2dff05"
+  ],
+  "tags": [
+    "solubilidad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los iones son apolares, como el agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El agua forma enlaces iónicos con los iones.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El agua rompe los enlaces covalentes de los iones.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Las moléculas polares del agua rodean a los iones y los separan de la red.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "92d9862f-2987-5d5a-9bf1-b63dc4952651",
+  "rev": 1,
+  "statement": "¿Cómo se representa la estructura de un metal sólido?",
+  "explanation": "Los electrones deslocalizados compensan la carga positiva de los cationes y los mantienen unidos.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "f9cf63c2-481e-5fd5-8fba-6a92a777f64b"
+  ],
+  "tags": [
+    "estructura metálica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una red regular de cationes rodeados de electrones deslocalizados.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Átomos neutros separados sin interacción.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Moléculas diatómicas unidas por fuerzas de London.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Una red de iones positivos y negativos alternados.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

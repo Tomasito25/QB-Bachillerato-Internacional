@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "9462318a-6a4f-533a-90d8-555686018a84",
+  "rev": 1,
+  "statement": "¿Qué ocurre en la fisión homolítica de un enlace?",
+  "explanation": "En la fisión heterolítica, en cambio, un fragmento se queda con el par y se forman iones.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "98467dd6-4368-5c14-b437-335208a19e7c"
+  ],
+  "tags": [
+    "fisión homolítica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un átomo se queda con los dos electrones y se forman dos iones.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cada átomo se queda con uno de los dos electrones del enlace y se forman dos radicales.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Los dos electrones se pierden.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El enlace se convierte en doble.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

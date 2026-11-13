@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "9507d54f-8de8-59ed-b994-d1e308879ffe",
+  "rev": 1,
+  "statement": "¿Qué metal desplaza al cobre de una disolución de sulfato de cobre(II)?",
+  "explanation": "Un metal más reactivo (que se oxida con más facilidad) reduce los iones de uno menos reactivo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "1a8a052c-e868-4c4c-9745-56d00e95ed84",
+  "topicIds": [
+    "8a7e8d90-4c9f-5c2d-9edc-c094cb08787f"
+  ],
+  "tags": [
+    "serie de actividad"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:51:09.000Z",
+  "updatedAt": "2026-11-13T05:51:09.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El magnesio",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El platino",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El oro",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La plata",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}
