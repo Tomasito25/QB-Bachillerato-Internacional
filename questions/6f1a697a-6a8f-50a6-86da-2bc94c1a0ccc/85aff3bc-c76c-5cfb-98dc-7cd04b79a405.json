@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "85aff3bc-c76c-5cfb-98dc-7cd04b79a405",
+  "rev": 1,
+  "statement": "Un protista de agua dulce sin pared celular vive en un medio hipotónico. ¿Cómo evita estallar?",
+  "explanation": "El agua entra sin parar por ósmosis; la vacuola contráctil la recoge y la expulsa, lo que requiere ATP.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "d5534354-acd1-5aa7-afb6-eb4d509a0da8"
+  ],
+  "tags": [
+    "agua dulce",
+    "protistas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Su membrana es totalmente impermeable al agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Expulsa continuamente el agua sobrante con una vacuola contráctil, gastando energía.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Estalla y se regenera constantemente.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Absorbe sales del medio hasta que el agua deja de entrar.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

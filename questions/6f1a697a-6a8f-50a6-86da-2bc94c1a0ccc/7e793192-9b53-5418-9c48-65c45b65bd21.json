@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "7e793192-9b53-5418-9c48-65c45b65bd21",
+  "rev": 1,
+  "statement": "¿Qué ocurre cuando un impulso llega al botón presináptico?",
+  "explanation": "La despolarización de la membrana presináptica abre canales de calcio; el calcio es la señal que desencadena la liberación del neurotransmisor.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "sinapsis",
+    "neurotransmisores"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La neurona presináptica absorbe el neurotransmisor de la hendidura.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Entra Ca²⁺, las vesículas liberan neurotransmisor por exocitosis y este difunde por la hendidura sináptica.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Se cierran todos los canales de la membrana presináptica.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El impulso eléctrico salta directamente a la neurona siguiente.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "8360e0ce-57d5-5242-949c-2e38aac3d71b",
+  "rev": 1,
+  "statement": "La diabetes es una de las enfermedades crónicas más frecuentes en el mundo.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e0b131be-aee6-514f-bf0c-73f56d623b3b"
+  ],
+  "tags": [
+    "diabetes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara las causas de la diabetes de tipo 1 y de tipo 2.",
+      "modelAnswer": "Tipo 1: el sistema inmunitario destruye las células beta y no se produce insulina. (1) Tipo 2: se produce insulina, pero las células diana responden poco a ella (resistencia a la insulina). (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Indica dos factores de riesgo de la diabetes de tipo 2.",
+      "modelAnswer": "Dos de: obesidad, dieta rica en azúcares y grasas, sedentarismo, edad, antecedentes familiares. (2)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Indica por qué la diabetes de tipo 1 se trata con inyecciones de insulina y no con insulina en pastillas.",
+      "modelAnswer": "La insulina es una proteína: en el tubo digestivo se digeriría antes de llegar a la sangre. (1)",
+      "marks": 1
+    }
+  ]
+}

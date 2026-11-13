@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "809e18f7-520c-516a-9cd1-f6c2a0e0ac91",
+  "rev": 1,
+  "statement": "**Las cuatro de la mañana**\n\nA las cuatro de la mañana\nla ciudad es de quien la limpia.\n\nEl barrendero empuja la noche\ncon una escoba de ramas,\nla panadera enciende un horno\ncomo quien enciende un sol pequeño,\nel taxista cuenta las monedas\nde una noche que no fue suya.\n\nEn los semáforos no espera nadie\ny aun así cambian de color,\nfieles, como un perro\nque mueve la cola en una casa vacía.\n\nLos que duermen no saben\nque alguien ha recogido sus botellas,\nque alguien ha regado sus jardines,\nque alguien ha amasado su desayuno\ncon las manos todavía frías.\n\nA las siete se despertarán\nen una ciudad perfecta\ny creerán que siempre ha sido así,\ncomo se cree que el pan\nnace en las bolsas de papel.\n\n---\n\n**Pregunta guía:** ¿Cómo presenta el poema a los trabajadores nocturnos y la relación entre ellos y el resto de la ciudad?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "verso libre",
+    "ciudad",
+    "noche",
+    "trabajo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema retrata la ciudad de madrugada a través de quienes trabajan mientras los demás duermen. Su labor hace posible la «ciudad perfecta» de la mañana, pero permanece invisible para sus habitantes.\n\n**Aspectos que conviene analizar**\n- El verso inicial y su afirmación provocadora: la ciudad «es de quien la limpia» a esa hora.\n- Las metáforas del trabajo: el barrendero que «empuja la noche», el horno que es «un sol pequeño», la noche del taxista «que no fue suya».\n- La personificación de los semáforos, comparados con un perro que mueve la cola en una casa vacía: fidelidad sin testigos.\n- La anáfora de «que alguien ha…», que enumera trabajos anónimos y subraya la ignorancia de los que duermen.\n- El contraste temporal entre las cuatro y las siete de la mañana.\n- La comparación final del pan que «nace en las bolsas de papel»: crítica irónica a una sociedad que no ve el trabajo ajeno.\n\n**Una estructura posible.** Analizar el poema en tres partes: la ciudad nocturna, los que duermen y el despertar, mostrando cómo crece el contraste.\n\n**Cuidado con…** quedarte en el mensaje social. Analiza cómo las imágenes lo construyen.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

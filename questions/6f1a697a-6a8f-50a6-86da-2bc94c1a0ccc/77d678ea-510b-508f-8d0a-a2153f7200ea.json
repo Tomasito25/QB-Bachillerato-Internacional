@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "77d678ea-510b-508f-8d0a-a2153f7200ea",
+  "rev": 1,
+  "statement": "Una muestra contiene 10 copias de un fragmento de ADN. ¿Cuántas habrá tras 5 ciclos de PCR, si cada ciclo es perfecto?",
+  "explanation": "Cada ciclo duplica el número de copias: $10 \\times 2^5 = 320$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8a9dcfcd-cccf-55b2-ade9-1d72b9a66a34"
+  ],
+  "tags": [
+    "PCR",
+    "ciclos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "50",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "100",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "320",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "1000",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

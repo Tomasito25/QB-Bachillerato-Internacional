@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "7e53a872-9edc-593b-899a-958b099dfe47",
+  "rev": 1,
+  "statement": "**Compare la visión del futuro, esperanzada o pesimista, que ofrecen dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "93f068fc-d4a3-5e83-93bf-84d9300b44cc"
+  ],
+  "tags": [
+    "esperanza",
+    "desesperanza"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar qué visión del futuro transmiten las obras (en sus finales, sus personajes, sus imágenes) y cómo la construyen. **Obras adecuadas.** Obras con finales significativos, distopías, poemarios que miran al futuro. **Esquema posible.** Visión del futuro en cada obra; recursos que la transmiten (final, símbolos, tono); matices; comparación. **Cuidado con…** simplificar en «optimista» o «pesimista». Busca los matices.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

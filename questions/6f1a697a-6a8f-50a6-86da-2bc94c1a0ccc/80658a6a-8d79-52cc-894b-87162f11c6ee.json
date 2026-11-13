@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "80658a6a-8d79-52cc-894b-87162f11c6ee",
+  "rev": 1,
+  "statement": "Las relaciones entre depredadores y presas, y entre herbívoros y plantas, han producido muchas adaptaciones.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "depredadores",
+    "presas",
+    "herbívoros"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe dos adaptaciones de los depredadores para encontrar y capturar a sus presas.",
+      "modelAnswer": "Dos de: sentidos agudos (vista binocular, olfato, ecolocalización); velocidad o emboscada; garras y dientes afilados; veneno; caza en grupo. (1 por cada una, hasta 2)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Describe dos adaptaciones de las plantas para resistir a los herbívoros.",
+      "modelAnswer": "Dos de: espinas o pelos; sustancias tóxicas o de mal sabor; hojas duras con sílice; látex. (1 por cada una, hasta 2)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Describe una adaptación de los herbívoros para alimentarse de plantas.",
+      "modelAnswer": "Por ejemplo, molares anchos para triturar, o un aparato digestivo con microorganismos que digieren la celulosa. (1)",
+      "marks": 1
+    }
+  ]
+}

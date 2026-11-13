@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "7f81520e-d09a-5ce2-96a4-4a5d4a599d7c",
+  "rev": 1,
+  "statement": "Cinco estudiantes midieron su frecuencia cardíaca en reposo y justo después de subir y bajar un escalón durante tres minutos.\n\n| Estudiante | A | B | C | D | E |\n|---|---|---|---|---|---|\n| En reposo / latidos por minuto | 72 | 68 | 80 | 75 | 65 |\n| Tras el ejercicio / latidos por minuto | 120 | 110 | 132 | 125 | 108 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "18e95f1e-bc82-5623-b504-4efcb6375dcb",
+    "939e4cff-3e45-56bc-b3d6-c41799790f98"
+  ],
+  "tags": [
+    "datos",
+    "pulso",
+    "ejercicio"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Calcula la frecuencia media en reposo y tras el ejercicio.",
+      "modelAnswer": "En reposo: $\\dfrac{360}{5} = 72$ latidos por minuto. (1) Tras el ejercicio: $\\dfrac{595}{5} = 119$ latidos por minuto. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Calcula el aumento porcentual medio de la frecuencia cardíaca.",
+      "modelAnswer": "$\\dfrac{119 - 72}{72}\\times 100 = 65\\,\\%$. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué aumenta la frecuencia cardíaca durante el ejercicio.",
+      "modelAnswer": "Los músculos respiran más y necesitan más oxígeno y glucosa, y producen más CO₂. (1) Al latir más deprisa, el corazón aumenta el flujo de sangre hacia ellos. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Sugiere dos variables que convendría controlar en este experimento.",
+      "modelAnswer": "Dos de: altura del escalón, ritmo de subida, duración del ejercicio, tiempo entre el final del ejercicio y la medida, forma de medir el pulso. (1 por cada una, hasta 2)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "7a284076-0c45-541a-8108-3c236b987e47",
+  "rev": 1,
+  "statement": "¿Qué desencadena la eutrofización de un lago?",
+  "explanation": "Los nutrientes causan una proliferación de algas; al morir, su descomposición por bacterias consume el oxígeno del agua.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "eutrofización"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La falta de luz en la superficie del agua.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un exceso de nutrientes, como nitratos y fosfatos, procedentes por ejemplo de fertilizantes arrastrados por la lluvia.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Un descenso de la temperatura del agua.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La introducción de peces depredadores.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

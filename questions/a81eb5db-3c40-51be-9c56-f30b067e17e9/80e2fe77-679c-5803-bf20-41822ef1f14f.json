@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "80e2fe77-679c-5803-bf20-41822ef1f14f",
+  "rev": 1,
+  "statement": "**Notificación**\n\nVibra el teléfono sobre la mesa\ncomo un insecto que se ha dado la vuelta\ny no sabe enderezarse.\n\nLo miro.\nEs un anuncio de zapatillas.\nEs una aplicación que me recuerda\nque hoy no he caminado lo suficiente.\nEs alguien que no conozco\ncelebrando algo en una playa.\n\nNadie pregunta cómo estoy.\nBueno, sí: una encuesta de satisfacción\nde la compañía del gas.\n\nRecuerdo el teléfono de casa de mis padres,\nnegro, pesado, con un cable rizado\nque mi hermana estiraba hasta el pasillo\npara hablar sin que la oyéramos.\nSonaba tres veces al día.\nCada vez que sonaba, era alguien.\n\nAhora suena cien veces\ny casi nunca es nadie.\n\nEsta noche, sin embargo,\na las once y cuarto,\nha vibrado una sola vez.\nEra mi hermana.\nDecía: «¿Te acuerdas del cable del teléfono?».\nNo sé cómo lo sabía.\nLe he contestado que sí,\ny nos hemos quedado hablando\nhasta que se acabó la batería.\n\n---\n\n**Pregunta guía:** ¿Cómo contrapone el poema dos formas de comunicación y qué sentido tiene el final?",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "tecnología",
+    "soledad",
+    "comunicación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** El poema compara las notificaciones vacías del móvil con el viejo teléfono familiar, que sonaba poco pero «era alguien». La última estrofa invierte la situación: una notificación trae por fin a una persona, la hermana, y un recuerdo compartido.\n\n**Aspectos que conviene analizar**\n- La comparación inicial del móvil con un insecto boca arriba: torpeza, inutilidad, algo vivo y molesto.\n- La enumeración irónica de notificaciones (zapatillas, pasos, una playa ajena) y la «encuesta de satisfacción» como única pregunta por su estado.\n- El recuerdo del teléfono de casa: los detalles físicos (negro, pesado, el cable rizado) y la hermana que lo estiraba hasta el pasillo.\n- La antítesis central: «Sonaba tres veces al día. / Cada vez que sonaba, era alguien» frente a «suena cien veces / y casi nunca es nadie».\n- El giro final: la notificación de la hermana, la coincidencia del recuerdo («No sé cómo lo sabía») y la conversación hasta agotar la batería.\n- El tono: humor, melancolía y una reconciliación final con la tecnología cuando sirve para encontrarse.\n\n**Una estructura posible.** Analizar el presente (las notificaciones), el pasado (el teléfono de casa) y el desenlace, mostrando cómo el final reinterpreta el contraste.\n\n**Cuidado con…** leer el poema solo como una crítica de los móviles. El final matiza esa lectura.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "79b3f5a5-3560-584a-a5b5-39b4ad02159f",
+  "rev": 1,
+  "statement": "**Reloj de arena**\n\nCae la arena, fina, todavía,\ndentro del vidrio, con su paso lento,\ncomo si no supiera que en el viento\nse va también la tarde que fue mía.\n\nLe doy la vuelta y vuelve, en su porfía,\na repetir el mismo movimiento:\ncada grano que cae es un momento\nque se queda en el fondo, y no varía.\n\nAsí la vida: un tiempo ya contado\nque se va deshaciendo en esta arena\ndonde el ayer descansa amontonado.\n\nY aunque vuelva a girarlo, la condena\nes la misma: lo arriba, derramado,\nacaba siempre en la mitad serena.\n\n---\n\n**Pregunta guía:** ¿Cómo se sirve el poema de la forma del soneto y de la imagen del reloj de arena para reflexionar sobre el paso del tiempo?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "soneto",
+    "métrica",
+    "tiempo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:42.000Z",
+  "updatedAt": "2026-11-13T05:53:42.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Un soneto clásico (endecasílabos con rima consonante ABBA ABBA CDC DCD) desarrolla una sola imagen: el reloj de arena como emblema del tiempo vivido. La voz intenta engañar al tiempo dándole la vuelta al reloj, pero la arena siempre termina en la mitad de abajo.\n\n**Aspectos que conviene analizar**\n- La estructura del soneto: los cuartetos describen la imagen y el gesto; los tercetos, introducidos por «Así la vida», la convierten en reflexión. La forma cerrada refuerza la idea de un tiempo limitado.\n- La personificación de la arena («como si no supiera», «en su porfía») y la ironía de que el objeto ignore lo que mide.\n- La identificación de cada grano con un momento que «se queda en el fondo»: el pasado se acumula, no desaparece.\n- El gesto de girar el reloj como intento inútil de recomenzar, y la palabra «condena».\n- El cierre en «la mitad serena»: ¿resignación o consuelo? La ambigüedad del adjetivo.\n- Los encabalgamientos y la rima (lento/viento/movimiento/momento) que imitan el fluir continuo de la arena.\n\n**Una estructura posible.** Analizar primero la imagen en los cuartetos y después su sentido en los tercetos, integrando en cada parte la forma métrica.\n\n**Cuidado con…** describir la métrica sin explicar su efecto, o resumir el poema como un simple «carpe diem»: el tono final es más sereno que urgente.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}
