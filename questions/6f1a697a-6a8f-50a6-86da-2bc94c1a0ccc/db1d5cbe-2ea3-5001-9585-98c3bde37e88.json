@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "db1d5cbe-2ea3-5001-9585-98c3bde37e88",
+  "rev": 1,
+  "statement": "La mitosis produce dos núcleos genéticamente idénticos.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "53f2de86-cf98-579c-a404-9cc9be89f3a5"
+  ],
+  "tags": [
+    "mitosis",
+    "fases"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe lo que ocurre en cada fase de la mitosis.",
+      "modelAnswer": "Profase: los cromosomas se condensan, se forma el huso y desaparece la envoltura nuclear. (1) Metafase: los cromosomas se alinean en el ecuador, unidos al huso por el centrómero. (1) Anafase: se separan las cromátidas hermanas y se mueven a polos opuestos. (1) Telofase: los cromosomas se descondensan y se forman dos envolturas nucleares. (1)",
+      "marks": 4
+    },
+    {
+      "id": "b",
+      "statement": "Indica dos funciones de la mitosis en los organismos pluricelulares.",
+      "modelAnswer": "Dos de: crecimiento, reparación de tejidos, reposición de células, reproducción asexual. (2)",
+      "marks": 2
+    }
+  ]
+}

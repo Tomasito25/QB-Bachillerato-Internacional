@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e8148115-12de-5d17-a338-ba6690ba8a26",
+  "rev": 1,
+  "statement": "¿Qué tienen en común todas las células?",
+  "explanation": "Todas las células tienen material genético (ADN), un citoplasma acuoso y una membrana plasmática que las delimita. Núcleo, mitocondrias, pared o cloroplastos no están en todas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "estructuras comunes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Pared celular, ribosomas y ADN.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Cloroplastos, citoplasma y ribosomas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "ADN como material genético, citoplasma y membrana plasmática.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Núcleo, mitocondrias y membrana plasmática.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

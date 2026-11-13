@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "d92a9f5d-01e6-579f-97ec-fa5803fd4a59",
+  "rev": 1,
+  "statement": "**Compare cómo se construye la voz poética en dos de las obras que ha estudiado.**\n\n*Responda con un ensayo comparativo sobre dos de las obras estudiadas en el curso. No utilice obras que ya haya empleado en la evaluación interna ni, en NS, en el ensayo.*",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "f8cbb01f-3344-51dd-b01f-07282802c397"
+  ],
+  "tags": [
+    "yo lírico",
+    "voz poética"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Qué pide la pregunta.** Analizar el yo lírico: quién habla, a quién, en qué tono, con qué rasgos de identidad, y cómo cambia a lo largo de la obra. Si se elige narrativa o teatro, aplicar la idea a la voz narradora o a la de un personaje. **Obras adecuadas.** Poemarios con una voz reconocible. **Esquema posible.** Rasgos de la voz en cada obra; destinatarios; tono y registro; evolución; efecto en el lector. **Cuidado con…** identificar sin más al yo lírico con el poeta.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: conoces bien las dos obras, interpretas sus implicaciones respecto a la pregunta y comparas semejanzas y diferencias con referencias concretas.",
+      "weight": 10
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: analizas y valoras cómo las decisiones de cada autor (forma, estructura, estilo) crean sentido y efectos, y comparas esas decisiones entre sí.",
+      "weight": 10
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el ensayo responde a la pregunta con una tesis clara, equilibra las dos obras y desarrolla la comparación con coherencia.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: lenguaje claro, variado y preciso, en registro académico y con terminología literaria adecuada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

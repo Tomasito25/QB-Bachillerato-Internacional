@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "da5625d3-e7a0-5ddd-968d-8d4320bb4357",
+  "rev": 1,
+  "statement": "¿Qué función tiene el ARN de transferencia (ARNt)?",
+  "explanation": "El anticodón del ARNt se empareja por complementariedad con el codón del ARNm.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "ARNt",
+    "anticodón"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Une los aminoácidos mediante enlaces peptídicos.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Forma la mayor parte de la estructura del ribosoma.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Copia la información del ADN en el núcleo.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Lleva un aminoácido concreto al ribosoma y lo coloca según el codón gracias a su anticodón.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

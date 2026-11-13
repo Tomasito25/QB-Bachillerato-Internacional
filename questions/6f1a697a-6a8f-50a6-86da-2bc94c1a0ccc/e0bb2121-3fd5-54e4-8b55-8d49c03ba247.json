@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e0bb2121-3fd5-54e4-8b55-8d49c03ba247",
+  "rev": 1,
+  "statement": "¿Qué es una mutación génica?",
+  "explanation": "Las mutaciones génicas pueden ser sustituciones, inserciones o deleciones de una o más bases.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "mutación génica"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un cambio en la forma de una proteína por el calor.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un cambio en la secuencia de bases de un gen.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La pérdida de un gen por recombinación normal.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un cambio en el número de cromosomas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

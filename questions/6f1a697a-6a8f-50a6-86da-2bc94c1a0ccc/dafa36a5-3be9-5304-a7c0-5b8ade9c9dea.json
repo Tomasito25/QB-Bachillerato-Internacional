@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "dafa36a5-3be9-5304-a7c0-5b8ade9c9dea",
+  "rev": 1,
+  "statement": "Los machos de pavo real tienen colas enormes y vistosas que les hacen más visibles a los depredadores. ¿Qué explica la evolución de este rasgo?",
+  "explanation": "El éxito reproductivo puede compensar el riesgo de ser más visible.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "selección sexual"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "La selección sexual: las hembras prefieren aparearse con machos de cola más vistosa.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Que la cola les ayuda a huir de los depredadores.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "La selección natural por el clima.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Que los caracteres adquiridos se heredan.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

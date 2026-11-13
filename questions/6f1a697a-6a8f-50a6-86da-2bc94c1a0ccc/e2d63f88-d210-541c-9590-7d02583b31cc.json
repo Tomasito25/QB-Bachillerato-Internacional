@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "e2d63f88-d210-541c-9590-7d02583b31cc",
+  "rev": 1,
+  "statement": "¿Cuál de estas estructuras se considera un orgánulo?",
+  "explanation": "Un orgánulo es una subunidad diferenciada de la célula con una función concreta; las vacuolas y las vesículas lo son. La pared es extracelular, y el citosol y el citoesqueleto no son subunidades separadas.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "bf2643fa-9f67-5534-af0a-ee6f0bfc7246"
+  ],
+  "tags": [
+    "orgánulos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Una vacuola",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El citoesqueleto",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El citosol",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "La pared celular",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

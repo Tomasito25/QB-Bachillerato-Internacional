@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "df6798d7-f3fd-5e2a-8f8d-82a5d148d57a",
+  "rev": 1,
+  "statement": "¿Qué afirmación sobre el ADN y el ARN es correcta?",
+  "explanation": "Las tres diferencias básicas son el azúcar (desoxirribosa o ribosa), el número de cadenas (dos o una) y una base (timina o uracilo).",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b9ccbdd5-a0ef-5e84-ab11-14041f55fddd"
+  ],
+  "tags": [
+    "ADN",
+    "ARN",
+    "diferencias"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los dos tienen timina, pero solo el ARN tiene uracilo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El ADN contiene desoxirribosa y suele tener dos cadenas; el ARN contiene ribosa y suele tener una.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "El ARN forma una doble hélice más estable que la del ADN.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El ADN contiene ribosa y el ARN, desoxirribosa.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "dc321a31-9224-5776-b07f-3230ec44743d",
+  "rev": 1,
+  "statement": "La foca anillada (*Pusa hispida*) vive en aguas árticas y tiene una gruesa capa de grasa bajo la piel. ¿Qué propiedad del agua hace que esta adaptación sea tan importante?",
+  "explanation": "El agua conduce el calor unas 25 veces mejor que el aire. La grasa es mala conductora y reduce la pérdida de calor hacia el agua fría.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "adeb9743-7b0a-51c1-a9c7-9ef1e3207bcb"
+  ],
+  "tags": [
+    "agua",
+    "conductividad térmica",
+    "adaptaciones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Su densidad es menor que la del aire, así que la foca necesita grasa para flotar.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Su viscosidad es menor que la del aire, así que la foca nada más deprisa con grasa.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Su capacidad calorífica específica es baja, así que se enfría con mucha facilidad.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Su conductividad térmica es mucho mayor que la del aire, así que el cuerpo pierde calor muy deprisa en el agua.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

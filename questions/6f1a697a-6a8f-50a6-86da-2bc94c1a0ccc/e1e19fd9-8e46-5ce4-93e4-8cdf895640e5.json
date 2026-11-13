@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "e1e19fd9-8e46-5ce4-93e4-8cdf895640e5",
+  "rev": 1,
+  "statement": "La salamandra *Ensatina eschscholtzii* forma una cadena de poblaciones alrededor del valle Central de California. Las poblaciones vecinas se cruzan entre sí, pero en el sur, donde se encuentran las formas de los dos extremos de la cadena, apenas se cruzan.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "2ddde864-bfb5-53f6-9ec6-3a3f4a0c8b39"
+  ],
+  "tags": [
+    "especie",
+    "especiación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Define el concepto biológico de especie.",
+      "modelAnswer": "Grupo de organismos que pueden cruzarse en la naturaleza y producir descendencia fértil. (1)",
+      "marks": 1
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué este caso dificulta aplicar el concepto biológico de especie.",
+      "modelAnswer": "Cada población puede intercambiar genes con sus vecinas, así que todas parecen una sola especie. (1) Pero las de los extremos no se cruzan, como si fueran especies distintas. (1) No hay un punto claro donde trazar el límite entre especies. (1)",
+      "marks": 3
+    },
+    {
+      "id": "c",
+      "statement": "Sugiere cómo podrían haberse originado las diferencias entre las poblaciones de los extremos.",
+      "modelAnswer": "Al extenderse alrededor del valle, cada población acumuló diferencias genéticas por selección natural en su entorno y por deriva. (1) Las poblaciones más alejadas acumularon tantas que ya no son compatibles. (1)",
+      "marks": 2
+    }
+  ]
+}

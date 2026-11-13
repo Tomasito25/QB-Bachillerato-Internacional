@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "e0d95778-68a7-53a0-b1e9-0c258c175df8",
+  "rev": 1,
+  "statement": "En muchas especies, los machos tienen rasgos llamativos que no ayudan a sobrevivir.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "selección sexual"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica qué es la selección sexual.",
+      "modelAnswer": "Una forma de selección en la que los rasgos que aumentan el éxito para conseguir pareja se hacen más frecuentes, (1) porque los individuos que los tienen dejan más descendencia. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué estos rasgos no aumentan indefinidamente.",
+      "modelAnswer": "Tienen costes: hacen más visibles a los depredadores o gastan energía. (1) La selección natural limita su exageración. (1)",
+      "marks": 2
+    }
+  ]
+}

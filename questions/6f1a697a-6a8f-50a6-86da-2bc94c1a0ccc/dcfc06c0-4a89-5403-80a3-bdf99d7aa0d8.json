@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dcfc06c0-4a89-5403-80a3-bdf99d7aa0d8",
+  "rev": 1,
+  "statement": "¿Por qué la fusión del hielo marino acelera el calentamiento global?",
+  "explanation": "Es una retroalimentación positiva: el calentamiento funde el hielo, y la menor reflexión aumenta el calentamiento.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "22497f11-c314-53f5-9693-4e79e1850a97"
+  ],
+  "tags": [
+    "retroalimentación positiva",
+    "hielo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "El agua oscura absorbe más radiación solar que el hielo, que la refleja, y el calentamiento aumenta.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El hielo fundido libera grandes cantidades de oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "El agua líquida refleja más luz que el hielo.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El hielo marino contiene combustibles fósiles.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

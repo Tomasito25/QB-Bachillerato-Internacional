@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "e2099307-df3c-5efa-b0d2-25026a76abde",
+  "rev": 1,
+  "statement": "Las células eucariotas de plantas y animales comparten muchos rasgos, pero no todos.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "a55924f8-c9f3-59a6-9ea2-74d9f3d35291"
+  ],
+  "tags": [
+    "células vegetales",
+    "células animales",
+    "células atípicas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Indica tres estructuras que se encuentran en las células vegetales y no en las animales.",
+      "modelAnswer": "Pared celular de celulosa. (1) Cloroplastos u otros plastos. (1) Una vacuola central grande y permanente. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Indica una estructura que se encuentra en las células animales y no en las vegetales.",
+      "modelAnswer": "Centriolos (o lisosomas abundantes, o cilios en muchos tipos celulares). (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "La fibra muscular esquelética se considera una célula atípica. Explica por qué.",
+      "modelAnswer": "Es muy larga y tiene muchos núcleos, (1) porque se forma por la fusión de muchas células. (1)",
+      "marks": 2
+    }
+  ]
+}

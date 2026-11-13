@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e8c919de-4e0d-5081-a7ba-91400fa6ba4e",
+  "rev": 1,
+  "statement": "¿Cuál de estas es una adaptación de una planta contra los herbívoros?",
+  "explanation": "Las plantas se defienden con barreras físicas (espinas, pelos) y químicas (toxinas, taninos). Los herbívoros, a su vez, desarrollan formas de evitarlas o tolerarlas.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "115e5830-7348-513e-ad59-d10d19fa2a2b"
+  ],
+  "tags": [
+    "herbivoría",
+    "defensas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Producir sustancias tóxicas o de sabor amargo en sus hojas.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Florecer durante todo el año.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Tener raíces poco profundas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Tener hojas grandes y blandas.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

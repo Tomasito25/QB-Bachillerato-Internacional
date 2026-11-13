@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dbd50ea7-c169-5816-aea2-805c92743293",
+  "rev": 1,
+  "statement": "¿Qué grupos están unidos al carbono central de cualquier aminoácido?",
+  "explanation": "Todos los aminoácidos comparten esta estructura; solo cambia el grupo R, también llamado cadena lateral.",
+  "images": [],
+  "difficulty": 1,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "1d93d984-db3f-542a-afa9-70afd18e69c7"
+  ],
+  "tags": [
+    "aminoácidos",
+    "estructura"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Dos grupos carboxilo, un hidrógeno y un grupo R.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Un grupo amino, un grupo carboxilo, un hidrógeno y un grupo R.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Un grupo amino, un grupo fosfato y dos hidrógenos.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Un grupo fosfato, una base nitrogenada, un hidrógeno y un grupo R.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

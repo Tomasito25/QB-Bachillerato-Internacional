@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "e5a391ec-b0d5-5123-8811-5d15a3f0a244",
+  "rev": 1,
+  "statement": "¿Por qué una mutación en una célula de la piel no pasa a los hijos?",
+  "explanation": "Las mutaciones somáticas pueden causar cáncer en la persona, pero no se transmiten a la descendencia.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b"
+  ],
+  "tags": [
+    "células germinales",
+    "somáticas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque las células de la piel no tienen ADN.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque es una célula somática, y solo se heredan las mutaciones de las células que forman los gametos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque las mutaciones de la piel se corrigen siempre.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los hijos heredan solo los genes de la madre.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

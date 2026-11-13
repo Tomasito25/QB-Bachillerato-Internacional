@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "ea5fa3ae-b1e0-513d-a3b9-271062aee9cb",
+  "rev": 1,
+  "statement": "¿Por qué el código genético usa tripletes de bases?",
+  "explanation": "Con parejas solo habría $4^2 = 16$ combinaciones; con tripletes hay $4^3 = 64$.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "96c2be7d-2912-516f-9b23-82cd5c7cb845"
+  ],
+  "tags": [
+    "código genético",
+    "triplete"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque cada aminoácido tiene tres átomos de nitrógeno.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque los ribosomas tienen tres subunidades.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque con cuatro bases, los tripletes dan 64 combinaciones, suficientes para codificar 20 aminoácidos.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Porque solo hay tres tipos de bases en el ARN.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

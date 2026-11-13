@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "dfa43c38-e225-540d-8c24-1c9361d6c7ff",
+  "rev": 1,
+  "statement": "¿Qué ventaja supone para las células eucariotas que el núcleo esté separado del citoplasma?",
+  "explanation": "En los procariotas, los ribosomas empiezan a traducir el ARNm mientras se forma. En los eucariotas, el ARNm se procesa en el núcleo antes de salir al citoplasma.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "bf2643fa-9f67-5534-af0a-ee6f0bfc7246"
+  ],
+  "tags": [
+    "núcleo",
+    "compartimentación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Los ribosomas pueden traducir el ARNm mientras se está transcribiendo.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "El ARNm puede modificarse antes de llegar a los ribosomas, porque la transcripción y la traducción ocurren en lugares distintos.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "La célula no necesita ARN para fabricar proteínas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "El ADN puede salir libremente al citoplasma.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "e490f8a1-b139-5cc2-a494-78dff4ba0772",
+  "rev": 1,
+  "statement": "El grupo sanguíneo ABO depende de un gen con tres alelos: $I^A$, $I^B$ e $I^O$.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "516e14f8-1c0c-54ff-b559-9c0ad5125904"
+  ],
+  "tags": [
+    "ABO",
+    "alelos múltiples",
+    "codominancia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Explica por qué una persona con genotipo $I^AI^B$ tiene el grupo AB.",
+      "modelAnswer": "Los alelos $I^A$ e $I^B$ son codominantes: (1) se expresan los dos y los glóbulos rojos tienen los antígenos A y B. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Una mujer de grupo 0 tiene un hijo de grupo B. Deduce los posibles genotipos del padre.",
+      "modelAnswer": "La madre es $I^OI^O$ y el hijo recibe de ella $I^O$, así que el hijo es $I^BI^O$. (1) El padre aporta $I^B$: puede ser $I^BI^B$, $I^BI^O$ o $I^AI^B$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "c",
+      "statement": "Explica qué significa que el gen tiene alelos múltiples.",
+      "modelAnswer": "En la población existen más de dos alelos de ese gen, (1) aunque cada persona solo tiene dos. (1)",
+      "marks": 2
+    }
+  ]
+}

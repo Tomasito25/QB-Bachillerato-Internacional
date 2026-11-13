@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "da1865ed-9d0b-54eb-a408-07a1bcd803d5",
+  "rev": 1,
+  "statement": "**Poética**\n\nUn poema no es una ventana:\nes la mancha en el cristal\nque te obliga a mirar el cristal.\n\nNo sirve para nada,\ncomo no sirve para nada una piedra\nque alguien guarda en el bolsillo\ndespués de un viaje.\n\nUn poema es una palabra\nque se quedó despierta\ncuando las demás ya dormían,\ny que no deja dormir.\n\nNo lo escribe quien quiere,\nlo escribe quien se equivoca bien:\nquien dice «mar» y le sale «madre»,\nquien busca «adiós» y encuentra «todavía».\n\nSi este poema funciona,\nno habrás aprendido nada nuevo.\nSolo habrás visto, un segundo,\nla mancha en el cristal.\n\n---\n\n**Pregunta guía:** ¿Cómo intenta el poema definir la poesía y qué recursos utiliza para hacerlo?",
+  "images": [],
+  "difficulty": 4,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "c8bed870-569d-5923-9af9-c6e0b2e4e01e"
+  ],
+  "tags": [
+    "poesía",
+    "metapoesía",
+    "lenguaje",
+    "creación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** Poema metapoético que intenta definir qué es un poema mediante una serie de metáforas. Frente a la idea de la poesía como «ventana» transparente al mundo, propone que la poesía hace visible el propio lenguaje, no sirve para nada práctico y nace del error fértil.\n\n**Aspectos que conviene analizar**\n- La estructura de definiciones sucesivas («Un poema no es…», «Un poema es…») y la tradición de las «poéticas».\n- La metáfora central de la ventana y la mancha: la poesía obliga a mirar el lenguaje en lugar de mirar a través de él.\n- La defensa de la inutilidad mediante la comparación con la piedra guardada después de un viaje: el valor afectivo frente al práctico.\n- La personificación de la palabra que «se quedó despierta» y no deja dormir.\n- La idea del error creativo, con ejemplos de asociaciones sonoras y afectivas («mar»/«madre», «adiós»/«todavía»).\n- El final circular, que se dirige al lector y vuelve a la imagen de la mancha.\n\n**Una estructura posible.** Analizar cada definición del poema y mostrar cómo, juntas, construyen una idea coherente de la poesía; terminar con el papel del lector.\n\n**Cuidado con…** tratar las metáforas como enigmas sueltos. Relaciónalas con la idea general del poema.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "df391de1-db7e-5cd7-bb7a-81c40e30c241",
+  "rev": 1,
+  "statement": "¿Qué adaptación ayuda a los cactus a vivir en los desiertos?",
+  "explanation": "Las espinas reducen mucho la superficie que pierde agua; el tallo carnoso almacena agua y hace la fotosíntesis.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "8c44b13b-2186-509d-a501-cbf00cd85273"
+  ],
+  "tags": [
+    "adaptaciones",
+    "xerófitas"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Hojas transformadas en espinas y tallos que almacenan agua.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Hojas grandes y finas con muchos estomas.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una cutícula fina que facilita la transpiración.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Raíces cortas que no se ramifican.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

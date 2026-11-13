@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "dda1cd04-c664-5a77-8267-2bd315c1f3f6",
+  "rev": 1,
+  "statement": "Un grupo de estudiantes quiere investigar con mesocosmos (frascos cerrados con agua de un estanque, plantas acuáticas y caracoles) el efecto de la luz en la estabilidad de un ecosistema.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "mesocosmos",
+    "diseño experimental"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:55:45.000Z",
+  "updatedAt": "2026-11-13T05:55:45.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Sugiere cómo diseñar el experimento.",
+      "modelAnswer": "Preparar varios frascos iguales con la misma cantidad de agua, plantas y caracoles. (1) Ponerlos a distintas intensidades de luz, incluido uno a oscuras, con varias réplicas de cada una. (1) Registrar durante semanas la supervivencia de los organismos o la concentración de oxígeno. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Predice qué ocurrirá en el frasco a oscuras.",
+      "modelAnswer": "Las plantas no harán la fotosíntesis, se agotará el oxígeno y morirán los caracoles y después las plantas: no hay aporte de energía. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Indica una limitación de usar mesocosmos como modelo.",
+      "modelAnswer": "Son mucho más simples que un ecosistema real, con pocas especies y sin migraciones; los resultados no siempre se pueden generalizar. (1)",
+      "marks": 1
+    }
+  ]
+}
