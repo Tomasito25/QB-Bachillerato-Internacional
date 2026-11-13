@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "76a90ec0-7557-593f-bb80-416146a119a0",
+  "rev": 1,
+  "statement": "Los ácidos grasos se clasifican según el número de dobles enlaces carbono-carbono de su cadena.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "902e29d8-36f5-59d0-8e9d-b94c1c595360"
+  ],
+  "tags": [
+    "ácidos grasos",
+    "punto de fusión"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Distingue entre ácidos grasos saturados, monoinsaturados y poliinsaturados.",
+      "modelAnswer": "Saturados: sin dobles enlaces C=C. (1) Monoinsaturados: con uno. Poliinsaturados: con dos o más. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué la mantequilla es sólida y el aceite de oliva, líquido, a temperatura ambiente.",
+      "modelAnswer": "La mantequilla tiene muchos ácidos grasos saturados, de cadenas rectas que se empaquetan bien: su punto de fusión es alto. (1) El aceite de oliva es rico en insaturados; sus dobles enlaces cis doblan las cadenas, que se empaquetan peor y funden a menor temperatura. (1)",
+      "marks": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "737ac592-2a1b-57a7-8306-fef746506b51",
+  "rev": 1,
+  "statement": "¿Qué ocurre tras la activación de un linfocito B?",
+  "explanation": "Cada clon produce anticuerpos contra un único antígeno. Algunas células del clon quedan como células de memoria.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26"
+  ],
+  "tags": [
+    "células plasmáticas",
+    "clones"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Produce anticuerpos contra todos los patógenos a la vez.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Se convierte en un fagocito.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Muere de inmediato.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Se divide muchas veces y forma un clon de células plasmáticas que secretan grandes cantidades de un mismo anticuerpo.",
+      "correct": true
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

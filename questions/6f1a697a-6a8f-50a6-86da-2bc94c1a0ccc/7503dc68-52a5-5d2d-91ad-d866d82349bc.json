@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "7503dc68-52a5-5d2d-91ad-d866d82349bc",
+  "rev": 1,
+  "statement": "Durante un esprint, los músculos producen lactato. ¿Por qué?",
+  "explanation": "Si el oxígeno no llega a la velocidad que se gasta, la célula produce ATP deprisa por vía anaerobia, aunque con un rendimiento mucho menor.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "af0104b3-3456-52e7-a2dc-ffa6bde8146f"
+  ],
+  "tags": [
+    "respiración anaerobia",
+    "músculo"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque falta oxígeno y la respiración anaerobia permite producir algo de ATP sin él.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Porque la respiración aerobia produce lactato cuando hay mucho oxígeno.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Porque el lactato es más energético que la glucosa.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque las mitocondrias fabrican lactato para enfriar el músculo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6d3b90aa-76b3-5e00-86fb-bda4d6fa8c24",
+  "rev": 1,
+  "statement": "¿Qué es un potencial postsináptico excitador?",
+  "explanation": "Al unirse el neurotransmisor, se abren canales de la membrana postsináptica y entran cationes, como el Na⁺. Si la despolarización llega al umbral, se inicia un potencial de acción.",
+  "images": [],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "potencial postsináptico excitador"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Un potencial de acción completo de la neurona presináptica.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "La salida de calcio de la neurona presináptica.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Una despolarización de la membrana postsináptica causada por la unión del neurotransmisor a sus receptores.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "La liberación de neurotransmisor por la neurona postsináptica.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

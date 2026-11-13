@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6def2638-e59d-557d-ab51-85b9062cd746",
+  "rev": 1,
+  "statement": "¿Por qué una neurona consume ATP aunque no esté transmitiendo impulsos?",
+  "explanation": "Los iones se escapan poco a poco a favor de su gradiente; la bomba los devuelve constantemente con transporte activo.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "b2f59bf1-ed66-5124-a543-488ad259681a"
+  ],
+  "tags": [
+    "potencial de reposo",
+    "ATP"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Porque fabrica mielina sin parar.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Porque la bomba de sodio-potasio trabaja de forma continua para mantener los gradientes de iones.",
+      "correct": true
+    },
+    {
+      "id": "c",
+      "text": "Porque el potencial de reposo se mantiene por exocitosis.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Porque los iones solo atraviesan la membrana por transporte activo.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

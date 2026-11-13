@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "6c525856-555e-5747-9d94-78f13b00a5bd",
+  "rev": 1,
+  "statement": "¿Para qué sirve un mesocosmos, como un frasco cerrado con agua, plantas acuáticas y pequeños animales?",
+  "explanation": "Es un modelo simplificado: permite repetir experimentos, aunque no reproduce toda la complejidad de un ecosistema real.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "3419e0e5-7a63-526a-bf76-6540c499c28e"
+  ],
+  "tags": [
+    "mesocosmos",
+    "modelos"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Para investigar cómo afectan distintas variables a la estabilidad de un ecosistema en condiciones controladas.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "Para demostrar que los ecosistemas no necesitan luz.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Para criar animales para el consumo.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Para obtener una copia exacta de un ecosistema natural.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

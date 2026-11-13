@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "6c36bb62-8816-5afe-877f-36c03e826619",
+  "rev": 1,
+  "statement": "La gráfica muestra la concentración de anticuerpos contra un antígeno en la sangre de una persona que lo recibió el día 0 y de nuevo el día 35.\n\n![Concentración de anticuerpos en sangre tras dos exposiciones al mismo antígeno](qbimg:f1541a23226f62e9bfb97ade4ee3069c07c808c48ce2eb5601c888fb26784752)",
+  "images": [
+    {
+      "hash": "f1541a23226f62e9bfb97ade4ee3069c07c808c48ce2eb5601c888fb26784752",
+      "ext": "png",
+      "width": 1280,
+      "height": 800,
+      "bytes": 28112,
+      "alt": "Concentración de anticuerpos en sangre tras dos exposiciones al mismo antígeno"
+    }
+  ],
+  "difficulty": 3,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "6cd6bd81-2ea1-5c9f-88a4-02b8236a1f26",
+    "ad1e46f2-f3e4-584f-8081-37c561514626"
+  ],
+  "tags": [
+    "datos",
+    "respuesta primaria",
+    "secundaria"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Compara la respuesta a la primera exposición con la respuesta a la segunda.",
+      "modelAnswer": "La segunda respuesta empieza antes (los anticuerpos suben a los pocos días). (1) Alcanza una concentración mucho mayor, unas 10 veces más. (1) Los anticuerpos se mantienen elevados durante más tiempo. (1)",
+      "marks": 3
+    },
+    {
+      "id": "b",
+      "statement": "Calcula cuántas veces es mayor el máximo de la segunda respuesta que el de la primera.",
+      "modelAnswer": "$\\dfrac{40}{3{,}5} = 11$ veces. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica la diferencia entre las dos respuestas.",
+      "modelAnswer": "En la primera se formaron células de memoria específicas para ese antígeno. (1) En la segunda, las células de memoria se activan y forman deprisa muchas células plasmáticas. (1)",
+      "marks": 2
+    },
+    {
+      "id": "d",
+      "statement": "Explica cómo se aplica este principio en la vacunación.",
+      "modelAnswer": "La vacuna contiene antígenos del patógeno, o la información para fabricarlos, pero no causa la enfermedad. (1) Provoca una respuesta primaria y deja células de memoria, de modo que una infección real produce una respuesta secundaria rápida. (1)",
+      "marks": 2
+    }
+  ]
+}

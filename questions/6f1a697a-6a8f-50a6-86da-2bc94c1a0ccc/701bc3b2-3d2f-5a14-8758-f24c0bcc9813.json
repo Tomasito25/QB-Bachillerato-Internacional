@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "701bc3b2-3d2f-5a14-8758-f24c0bcc9813",
+  "rev": 1,
+  "statement": "Durante una sequía, las semillas pequeñas se agotan y quedan sobre todo semillas grandes y duras. ¿Qué se espera en una población de pájaros que se alimenta de ellas?",
+  "explanation": "Si el tamaño del pico es heredable, la supervivencia diferencial cambia la población.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "557b5b11-ebc1-565d-bbb9-2caab3d97c62"
+  ],
+  "tags": [
+    "adaptación",
+    "supervivencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que sobrevivan más los pájaros de pico pequeño.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que el tamaño del pico no cambie, porque no depende de los genes.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que sobrevivan y se reproduzcan más los pájaros de pico más grande, y que aumente el tamaño medio del pico en la generación siguiente.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Que todos los pájaros desarrollen un pico más grande durante su vida.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

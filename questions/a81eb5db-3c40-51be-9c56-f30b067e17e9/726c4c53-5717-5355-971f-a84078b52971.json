@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "726c4c53-5717-5355-971f-a84078b52971",
+  "rev": 1,
+  "statement": "**Antígona en la comisaría**\n\n*Un despacho de comisaría, de noche. El COMISARIO, sentado. ANA, veinticinco años, de pie, con las manos manchadas de tierra.*\n\nCOMISARIO.—Te lo voy a preguntar una vez más. ¿Fuiste tú?\n\nANA.—Ya se lo he dicho. Sí.\n\nCOMISARIO.—La orden era clara. Nadie podía tocar ese cuerpo hasta que terminara la investigación. Estaba en el bando, en la radio, en todas las paredes del pueblo.\n\nANA.—Lo leí.\n\nCOMISARIO.—¿Y aun así?\n\nANA.—Era mi hermano. Llevaba tres días tirado en la cuneta. Los perros…\n\nCOMISARIO.—*(La interrumpe.)* Tu hermano disparó a dos guardias.\n\nANA.—Mi hermano está muerto. Lo que hizo vivo lo juzgarán ustedes. Lo que se hace con un muerto no lo decide un bando.\n\nCOMISARIO.—*(Se levanta.)* ¿Y quién lo decide? ¿Tú?\n\nANA.—Lo decide algo más viejo que usted y que yo. Algo que ya estaba antes de que hubiera comisarías.\n\n*Pausa. El COMISARIO se acerca a la ventana.*\n\nCOMISARIO.—Tu hermana ha venido esta tarde. Dice que ella no sabía nada. Que no tiene nada que ver.\n\nANA.—Mi hermana tiene miedo. Hace bien.\n\nCOMISARIO.—¿Y tú no?\n\nANA.—Yo también. *(Pausa.)* Pero tenía más vergüenza que miedo.\n\nCOMISARIO.—*(Sin volverse.)* Sabes lo que te puede pasar.\n\nANA.—Lo sé. *(Se mira las manos.)* No me las voy a lavar. Que las vea el juez.\n\n*El COMISARIO no contesta. Fuera empieza a llover. La luz se va cerrando sobre las manos de ANA.*\n\n---\n\n**Pregunta guía:** ¿De qué manera actualiza la escena el conflicto de la tragedia de Antígona y con qué efecto?",
+  "images": [],
+  "difficulty": 5,
+  "subjectId": "a81eb5db-3c40-51be-9c56-f30b067e17e9",
+  "topicIds": [
+    "e0182602-da23-5cd5-9654-7446f11baff7"
+  ],
+  "tags": [
+    "teatro",
+    "tragedia",
+    "Antígona",
+    "ley y conciencia"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "**Lectura de conjunto.** La escena traslada el conflicto de la *Antígona* de Sófocles a una comisaría contemporánea: una joven ha enterrado a su hermano contra la orden de las autoridades. Se enfrentan la ley del Estado y una ley moral más antigua, y la protagonista acepta las consecuencias.\n\n**Aspectos que conviene analizar**\n- La intertextualidad: el título, el nombre de Ana y los elementos del mito (el hermano insurgente, la prohibición pública, la hermana temerosa).\n- La actualización del espacio y de la ley: el bando, la radio, las paredes del pueblo, la comisaría.\n- El enfrentamiento dialéctico: las réplicas breves y la frase central de Ana sobre lo que «no lo decide un bando».\n- La apelación a una ley «más vieja» que las instituciones, eco de las leyes no escritas de la tragedia griega.\n- La hermana ausente y el diálogo sobre el miedo y la vergüenza: el coraje como decisión moral.\n- Las manos manchadas de tierra como símbolo central y el final, con la luz que se cierra sobre ellas.\n\n**Una estructura posible.** Analizar el enfrentamiento en dos planos (la ley frente a la conciencia y el miedo frente a la vergüenza) y terminar con el valor simbólico de las manos.\n\n**Cuidado con…** contar el mito de Sófocles en lugar de analizar la escena. Úsalo solo para mostrar lo que se mantiene y lo que cambia.",
+  "criteria": [
+    {
+      "id": "a",
+      "text": "A. Conocimiento, comprensión e interpretación: entiendes el texto en su sentido literal y en el profundo, sacas conclusiones razonables sobre sus implicaciones y las apoyas con citas bien elegidas.",
+      "weight": 5
+    },
+    {
+      "id": "b",
+      "text": "B. Análisis y evaluación: explicas cómo los recursos del autor (lenguaje, estructura, técnica y estilo) construyen el sentido, y valoras su efecto en relación con la pregunta guía.",
+      "weight": 5
+    },
+    {
+      "id": "c",
+      "text": "C. Enfoque y organización: el análisis sigue una línea clara, no se aparta del texto y avanza con coherencia, en párrafos bien enlazados.",
+      "weight": 5
+    },
+    {
+      "id": "d",
+      "text": "D. Lenguaje: escribes con claridad, variedad y precisión, en un registro adecuado y con la terminología literaria bien usada.",
+      "weight": 5
+    }
+  ],
+  "keywords": []
+}

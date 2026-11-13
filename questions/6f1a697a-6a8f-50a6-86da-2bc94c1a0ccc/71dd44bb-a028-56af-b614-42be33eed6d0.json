@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "71dd44bb-a028-56af-b614-42be33eed6d0",
+  "rev": 1,
+  "statement": "¿Por qué el cociente superficie/volumen limita el tamaño de las células?",
+  "explanation": "El metabolismo depende del volumen y el intercambio, de la superficie. Por eso las células se dividen o tienen formas que aumentan su superficie.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "e4f9a2e5-a3e2-5246-8bcd-41ac7fde9609"
+  ],
+  "tags": [
+    "superficie/volumen",
+    "límite del tamaño"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Al crecer, el volumen aumenta más deprisa que la superficie, que no basta para intercambiar las sustancias que la célula necesita.",
+      "correct": true
+    },
+    {
+      "id": "b",
+      "text": "El volumen de una célula no influye en su metabolismo.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Las células grandes no pueden fabricar membranas.",
+      "correct": false
+    },
+    {
+      "id": "d",
+      "text": "Al crecer, la superficie aumenta más deprisa que el volumen y la célula pierde demasiada agua.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

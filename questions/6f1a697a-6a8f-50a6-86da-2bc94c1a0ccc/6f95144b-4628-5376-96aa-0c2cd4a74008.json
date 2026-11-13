@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "6f95144b-4628-5376-96aa-0c2cd4a74008",
+  "rev": 1,
+  "statement": "A plena luz del sol y a $25\\,°\\text{C}$, añadir más CO₂ al aire de un invernadero aumenta la velocidad de fotosíntesis. ¿Qué indica este resultado?",
+  "explanation": "El factor limitante es el que está más lejos de su valor óptimo: al aumentarlo, aumenta la velocidad.",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "c3a439e4-fb5a-556b-8b99-77d6290b5d79"
+  ],
+  "tags": [
+    "factores limitantes"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "mcq",
+  "answers": [
+    {
+      "id": "a",
+      "text": "Que la luz era el factor limitante.",
+      "correct": false
+    },
+    {
+      "id": "b",
+      "text": "Que la temperatura era el factor limitante.",
+      "correct": false
+    },
+    {
+      "id": "c",
+      "text": "Que la concentración de CO₂ era el factor limitante.",
+      "correct": true
+    },
+    {
+      "id": "d",
+      "text": "Que la fotosíntesis no depende de ningún factor.",
+      "correct": false
+    }
+  ],
+  "multiple": false,
+  "reveal": {
+    "explanationAfterAnswer": true,
+    "solutionsAtExamEnd": true
+  }
+}

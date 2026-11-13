@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "6e88b055-4fa2-51e3-a77b-985e43290b6f",
+  "rev": 1,
+  "statement": "Se expusieron cultivos de una bacteria a distintas dosis de radiación ultravioleta y se contó cuántas colonias mutantes, resistentes a un antibiótico, aparecían por cada millón de bacterias supervivientes.\n\n| Dosis de UV / J m⁻² | 0 | 10 | 20 | 30 | 40 |\n|---|---|---|---|---|---|\n| Mutantes por millón de supervivientes | 2 | 15 | 31 | 44 | 62 |",
+  "images": [],
+  "difficulty": 2,
+  "subjectId": "6f1a697a-6a8f-50a6-86da-2bc94c1a0ccc",
+  "topicIds": [
+    "f8f10647-9aae-58e3-874a-b4cb9feb7f1b",
+    "d882c402-d0e9-5c72-a87d-68b5e38b52b5"
+  ],
+  "tags": [
+    "datos",
+    "mutágenos",
+    "frecuencia de mutación"
+  ],
+  "references": [],
+  "author": {
+    "login": "tomasito25",
+    "id": 179742599
+  },
+  "createdAt": "2026-11-13T05:53:34.000Z",
+  "updatedAt": "2026-11-13T05:53:34.000Z",
+  "license": "CC-BY-SA-4.0",
+  "type": "open",
+  "modelAnswer": "",
+  "criteria": [],
+  "keywords": [],
+  "parts": [
+    {
+      "id": "a",
+      "statement": "Describe la relación entre la dosis de radiación y la frecuencia de mutantes.",
+      "modelAnswer": "La frecuencia de mutantes aumenta con la dosis, (1) de forma aproximadamente proporcional, unos 15 mutantes por millón por cada $10\\,\\text{J m}^{-2}$. (1)",
+      "marks": 2
+    },
+    {
+      "id": "b",
+      "statement": "Explica por qué aparecen algunos mutantes sin radiación.",
+      "modelAnswer": "Hay mutaciones espontáneas, por ejemplo errores en la replicación del ADN. (1)",
+      "marks": 1
+    },
+    {
+      "id": "c",
+      "statement": "Explica por qué los resultados se dan por millón de bacterias supervivientes y no como número total de mutantes.",
+      "modelAnswer": "La radiación mata a muchas bacterias, así que el número de supervivientes cambia con la dosis. (1) Dividir por los supervivientes permite comparar la frecuencia de mutación entre cultivos. (1)",
+      "marks": 2
+    }
+  ]
+}
