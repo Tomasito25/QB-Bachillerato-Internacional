@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "daily-2026-11-23",
+  "code": "DIA-20261123",
+  "type": "daily",
+  "title": "Reto diario · 2026-11-23",
+  "createdBy": null,
+  "createdAt": "2026-11-23T06:58:40.859Z",
+  "filters": {},
+  "questionCount": 10,
+  "durationSec": 600,
+  "seed": "cd78cbceb6a535f9d734633aa5b1f12de6218e79d8f51fbc38930893ce5fb9c9",
+  "questionIds": [
+    "8655b9bd-ec6f-5955-bca1-594999912c0a",
+    "ce32097f-6667-5cb5-b486-e541b7181519",
+    "f8d142bb-8943-592b-8598-77d4d49810ff",
+    "493fb249-fe1e-54d1-84a7-6ea400eb697c",
+    "9e8175d4-dd35-514c-a521-bb2a97b45f41",
+    "a769d5ce-5524-5512-a163-4b2d8843bcd3",
+    "812265a7-7976-50d9-bde5-386d145a523a",
+    "95beaca4-9c08-5be1-85a6-f08edc34f610",
+    "7b003d5b-5aac-452f-99b3-d65ab3eaacc8",
+    "7585a86b-0ea3-5b45-95e5-7389142312a8"
+  ],
+  "opensAt": "2026-11-23T00:00:00.000Z",
+  "closesAt": "2026-11-24T00:00:00.000Z",
+  "maxParticipants": null,
+  "invited": []
+}
